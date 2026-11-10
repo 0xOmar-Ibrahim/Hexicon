@@ -15,16 +15,16 @@ Decisions taken (2026-11-10):
 - [x] Issue forms & PR template
 - [x] `hexicon-curator` Claude Code skill
 - [x] Learning-path schema + 5 paths (foundations, SOC, web, cloud, AI)
-- [ ] Review & install the Masriyan cybersecurity skills (MIT) for domain-expert curation
-- [ ] First push to GitHub
+- [x] Review & install the Masriyan cybersecurity skills (MIT) for domain-expert curation (local, not vendored)
+- [x] First push to GitHub
 
 ## Phase 1 — Seed content (per domain, until "strong")
-"Strong" means: ≥ 40 resources, every subdomain covered, all levels represented, at least 1 lab/practice resource per subdomain, ≥ 1 learning path.
+`[~]` = seeded, not yet "strong". "Strong" means: ≥ 40 resources, every subdomain covered, all levels represented, at least 1 lab/practice resource per subdomain, ≥ 1 learning path.
 
-- [ ] 01 Fundamentals  ·  [ ] 02 Offensive  ·  [ ] 03 Defensive  ·  [ ] 04 DFIR & Malware
-- [ ] 05 Reverse Eng.  ·  [ ] 06 AppSec  ·  [ ] 07 Cloud  ·  [ ] 08 Threat Intel & OSINT
-- [ ] 09 Cryptography  ·  [ ] 10 AI Security  ·  [ ] 11 ICS/OT  ·  [ ] 12 GRC  ·  [ ] 13 Career
-- [ ] 14 CVEs: ~50 named/KEV pages first (Log4Shell, EternalBlue, Heartbleed, Shellshock, ProxyLogon, Citrix Bleed, MOVEit…)
+- [~] 01 Fundamentals (32)  ·  [~] 02 Offensive (73)  ·  [ ] 03 Defensive (0 — next)  ·  [~] 04 DFIR & Malware (35)
+- [~] 05 Reverse Eng. (30)  ·  [~] 06 AppSec (32)  ·  [~] 07 Cloud (29)  ·  [~] 08 Threat Intel & OSINT (33)
+- [~] 09 Cryptography (20)  ·  [~] 10 AI Security (28)  ·  [~] 11 ICS/OT (14)  ·  [~] 12 GRC (24)  ·  [~] 13 Career (38)
+- [~] 14 CVEs: 18 curated pages + 17 resources so far; target ~50 named/KEV pages (Log4Shell, EternalBlue, Heartbleed, Shellshock, ProxyLogon, Citrix Bleed, MOVEit…)
 
 ## Phase 2 — Automation
 - [ ] `scripts/validate` — schema + taxonomy + duplicate URL check (runs on every PR)
