@@ -1,0 +1,16 @@
+title: "The Illustrated TLS 1.3 Connection"
+url: "https://tls13.xargs.org/"
+type: article
+domain: cryptography
+subdomains: [pki-tls]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Every byte of a TLS 1.3 handshake explained and annotated."
+tags: [tls, handshake, visual]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

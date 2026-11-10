@@ -1,0 +1,15 @@
+title: "Cryptography Stack Exchange"
+url: "https://crypto.stackexchange.com/"
+type: community
+domain: cryptography
+subdomains: [applied, cryptanalysis]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Q&A community for cryptography questions from beginner to research level."
+tags: [q-and-a]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

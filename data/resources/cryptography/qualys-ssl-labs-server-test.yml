@@ -1,0 +1,16 @@
+title: "Qualys SSL Labs Server Test"
+url: "https://www.ssllabs.com/ssltest/"
+type: tool
+domain: cryptography
+subdomains: [pki-tls]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free online deep analysis of a public server's TLS configuration."
+tags: [tls-scanner]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

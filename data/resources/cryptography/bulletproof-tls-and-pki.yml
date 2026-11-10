@@ -1,0 +1,16 @@
+title: "Bulletproof TLS and PKI"
+url: "https://www.feistyduck.com/books/bulletproof-tls-and-pki/"
+type: book
+domain: cryptography
+subdomains: [pki-tls]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Ivan Ristić's comprehensive guide to deploying TLS and PKI securely."
+tags: [ristic, tls, pki]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

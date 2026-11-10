@@ -1,0 +1,16 @@
+title: "libsodium documentation"
+url: "https://doc.libsodium.org/"
+type: documentation
+domain: cryptography
+subdomains: [applied]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Documentation for libsodium, a modern, easy-to-use crypto library with safe defaults."
+tags: [library, safe-defaults]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

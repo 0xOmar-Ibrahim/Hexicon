@@ -1,0 +1,15 @@
+title: "Cryptography Engineering (Matthew Green)"
+url: "https://blog.cryptographyengineering.com/"
+type: blog
+domain: cryptography
+subdomains: [applied]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Matthew Green's blog analysing real-world cryptography, protocols and failures."
+tags: [blog, analysis]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

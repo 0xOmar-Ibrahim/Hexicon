@@ -1,0 +1,16 @@
+title: "A Graduate Course in Applied Cryptography"
+url: "https://toc.cryptobook.us/"
+type: book
+domain: cryptography
+subdomains: [applied, cryptanalysis]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Free textbook by Dan Boneh and Victor Shoup covering the theory behind modern cryptographic constructions."
+tags: [boneh, shoup, textbook]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

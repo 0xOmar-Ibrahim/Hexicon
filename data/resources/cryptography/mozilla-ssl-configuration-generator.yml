@@ -1,0 +1,16 @@
+title: "Mozilla SSL Configuration Generator"
+url: "https://ssl-config.mozilla.org/"
+type: tool
+domain: cryptography
+subdomains: [pki-tls]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Generates recommended TLS configurations for common web servers and proxies."
+tags: [server-config, hardening]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

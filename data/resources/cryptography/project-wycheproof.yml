@@ -1,0 +1,16 @@
+title: "Project Wycheproof"
+url: "https://github.com/C2SP/wycheproof"
+type: tool
+domain: cryptography
+subdomains: [applied, cryptanalysis]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Test vectors for detecting known weaknesses in cryptographic library implementations."
+tags: [test-vectors]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

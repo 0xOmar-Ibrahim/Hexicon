@@ -1,0 +1,16 @@
+title: "Cryptography I (Dan Boneh, Coursera)"
+url: "https://www.coursera.org/learn/crypto"
+type: course
+domain: cryptography
+subdomains: [applied]
+level: [intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Stanford's renowned introduction to how cryptographic primitives work and how to use them correctly."
+tags: [stanford, course]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
