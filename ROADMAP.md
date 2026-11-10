@@ -36,11 +36,12 @@ Decisions taken (2026-11-10):
 - [ ] OffsecCyber (Apache-2.0) mining: extract CVE ids + reference URLs as *candidates* only; facts always re-sourced from NVD/KEV
 
 ## Phase 3 — Website
-- [ ] Astro + Tailwind, i18n routing (`/en`, `/de`, `/fr`, `/ar` RTL, `/ru`)
-- [ ] Pagefind full-text search + facet filters (type, level, cost, language, tags)
-- [ ] Animated landing (animated "chart" of the 14 domains — Midnight Cartographer palette), domain pages, resource cards, CVE pages, learning paths
-- [ ] New colour palette, light/dark, accessible contrast, reduced-motion support
-- [ ] Deploy to GitHub Pages via Actions
+- [x] Static site with i18n (en, de, fr, ar RTL, ru) and `?lang=` links
+- [x] Instant search + filters (domain, type, level, cost)
+- [x] Animated landing: topographic contours, compass, domain map, resource cards, CVE field notes
+- [ ] Per-domain pages, per-CVE pages, learning paths
+- [x] Midnight Cartographer palette, light/dark, reduced-motion support
+- [x] Deploy to GitHub Pages via Actions
 
 ## Phase 4 — Community & launch
 - [ ] Labels, `good-first-issue` backlog, domain maintainers via CODEOWNERS

@@ -58,6 +58,18 @@ scripts/                             validate · build · link-check · sync-cve
 site/                                website
 ```
 
+## Website
+
+The site is a static page built from `data/` — animated, searchable, in 5 languages (Arabic is right-to-left), light & dark.
+
+```bash
+npm install
+npm run dev      # builds dist/ and serves it at http://127.0.0.1:4321
+npm run build    # builds dist/ only
+```
+
+It deploys to GitHub Pages automatically on every push to `main`. Share a page in a specific language with `?lang=de|fr|ar|ru`.
+
 See [ROADMAP.md](ROADMAP.md) for where the project is heading.
 
 ## Responsible use

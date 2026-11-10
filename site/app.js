@@ -1,0 +1,327 @@
+/* Hexicon front-end: i18n, theme, domains, explorer, CVEs and animations. */
+(() => {
+  'use strict';
+
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const store = {
+    get(k) { try { return localStorage.getItem('hexicon.' + k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem('hexicon.' + k, v); } catch { /* storage unavailable */ } },
+  };
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  let UI = {};
+  let DATA = { domains: [], resources: [], cves: [], languages: ['en'], rtl: ['ar'] };
+  const state = { lang: 'en', domain: 'all', type: 'all', level: 'all', cost: 'all', q: '' };
+
+  const t = (key) => UI[state.lang]?.[key] ?? UI.en?.[key] ?? key;
+  const loc = (obj) => (obj && (obj[state.lang] || obj.en)) || '';
+
+  /* ---------------- THEME ---------------- */
+  function initTheme() {
+    const saved = store.get('theme');
+    if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    $('#theme-btn').addEventListener('click', () => {
+      const current = document.documentElement.dataset.theme
+        || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      const next = current === 'light' ? 'dark' : 'light';
+      document.documentElement.dataset.theme = next;
+      store.set('theme', next);
+    });
+  }
+
+  /* ---------------- I18N ---------------- */
+  function pickInitialLang() {
+    const fromUrl = new URLSearchParams(location.search).get('lang');
+    if (fromUrl && UI[fromUrl]) return fromUrl;
+    const saved = store.get('lang');
+    if (saved && UI[saved]) return saved;
+    const nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    return UI[nav] ? nav : 'en';
+  }
+
+  function applyLang(lang) {
+    state.lang = lang;
+    store.set('lang', lang);
+    const html = document.documentElement;
+    html.lang = lang;
+    html.dir = DATA.rtl.includes(lang) ? 'rtl' : 'ltr';
+    $$('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    $$('[data-i18n-placeholder]').forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+    $$('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', t(el.dataset.i18nAria)); });
+    splitTitle();
+    renderDomains();
+    renderChips();
+    renderSelects();
+    renderCards();
+    renderCves();
+  }
+
+  function initLangSelect() {
+    const sel = $('#lang-select');
+    sel.innerHTML = Object.keys(UI).map((l) => `<option value="${l}">${esc(UI[l].langName)}</option>`).join('');
+    sel.value = state.lang;
+    sel.addEventListener('change', () => applyLang(sel.value));
+  }
+
+  // Animated word-by-word hero title
+  function splitTitle() {
+    const h1 = $('.hero h1');
+    const words = t('hero.title').split(/\s+/);
+    h1.innerHTML = words.map((w, i) => `<span class="w" style="animation-delay:${120 + i * 90}ms">${esc(w)}</span>`).join(' ');
+  }
+
+  /* ---------------- DOMAINS ---------------- */
+  function renderDomains() {
+    const grid = $('#domain-grid');
+    grid.innerHTML = DATA.domains.map((d) => `
+      <button class="domain" type="button" data-id="${esc(d.id)}">
+        <div class="domain-top">
+          <span class="domain-num">N°${String(d.order).padStart(2, '0')}</span>
+          <span class="domain-icon"><svg class="ic"><use href="#i-${esc(d.icon)}"/></svg></span>
+        </div>
+        <h3>${esc(loc(d.name))}</h3>
+        <div class="domain-meta">
+          <span><b>${d.count}</b> ${esc(t('domains.count'))}</span>
+          <span><b>${d.subdomains.length}</b> ${esc(t('domains.sub'))}</span>
+        </div>
+        <div class="domain-subs">${d.subdomains.map((s) => `<span class="sub">${esc(loc(s.name))}</span>`).join('')}</div>
+      </button>`).join('');
+
+    $$('.domain', grid).forEach((el, i) => {
+      el.style.transitionDelay = `${(i % 4) * 70}ms`;
+      el.addEventListener('pointermove', (e) => {
+        const r = el.getBoundingClientRect();
+        el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+        el.style.setProperty('--my', `${e.clientY - r.top}px`);
+      });
+      el.addEventListener('click', () => {
+        state.domain = el.dataset.id;
+        renderChips();
+        renderCards();
+        $('#explore').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+      });
+    });
+    observeReveal($$('.domain', grid));
+  }
+
+  /* ---------------- EXPLORER ---------------- */
+  function renderChips() {
+    const wrap = $('#domain-chips');
+    const items = [{ id: 'all', label: t('explore.all') }, ...DATA.domains.map((d) => ({ id: d.id, label: loc(d.name) }))];
+    wrap.innerHTML = items.map((c) =>
+      `<button class="chip" type="button" data-id="${esc(c.id)}" aria-pressed="${state.domain === c.id}">${esc(c.label)}</button>`).join('');
+    $$('.chip', wrap).forEach((b) => b.addEventListener('click', () => {
+      state.domain = b.dataset.id;
+      $$('.chip', wrap).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      renderCards();
+    }));
+  }
+
+  function renderSelects() {
+    const types = [...new Set(DATA.resources.map((r) => r.type))].sort();
+    const fill = (id, values, labeler, key) => {
+      const sel = $(id);
+      sel.innerHTML = `<option value="all">${esc(t('explore.all'))}</option>` +
+        values.map((v) => `<option value="${esc(v)}">${esc(labeler(v))}</option>`).join('');
+      sel.value = state[key];
+      sel.onchange = () => { state[key] = sel.value; renderCards(); };
+    };
+    fill('#f-type', types, (v) => v.replace(/-/g, ' '), 'type');
+    fill('#f-level', ['beginner', 'intermediate', 'advanced'], (v) => t('level.' + v), 'level');
+    fill('#f-cost', ['free', 'freemium', 'paid'], (v) => t('cost.' + v), 'cost');
+  }
+
+  function matches(r) {
+    if (state.domain !== 'all' && r.domain !== state.domain) return false;
+    if (state.type !== 'all' && r.type !== state.type) return false;
+    if (state.level !== 'all' && !r.level.includes(state.level)) return false;
+    if (state.cost !== 'all' && r.cost !== state.cost) return false;
+    if (state.q) {
+      const hay = [r.title, loc(r.description), r.description.en, r.tags.join(' '), r.type, r.domain, r.subdomains.join(' ')]
+        .join(' ').toLowerCase();
+      return state.q.split(/\s+/).every((w) => hay.includes(w));
+    }
+    return true;
+  }
+
+  function host(url) { try { return new URL(url).host.replace(/^www\./, ''); } catch { return ''; } }
+
+  function renderCards() {
+    const list = DATA.resources.filter(matches);
+    $('#count').textContent = list.length;
+    $('#empty').hidden = list.length > 0;
+    $('#cards').innerHTML = list.slice(0, 240).map((r, i) => `
+      <a class="card${r.featured ? ' featured' : ''}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
+        <span class="card-type">${esc(r.type.replace(/-/g, ' '))}</span>
+        <h3>${esc(r.title)}</h3>
+        <p>${esc(loc(r.description))}</p>
+        <div class="card-foot">
+          <span class="badge ${esc(r.cost)}">${esc(t('cost.' + r.cost))}</span>
+          ${r.level.map((l) => `<span class="badge">${esc(t('level.' + l))}</span>`).join('')}
+          ${r.languages.map((l) => `<span class="badge lang">${esc(l)}</span>`).join('')}
+          <span class="card-host">${esc(host(r.url))}</span>
+        </div>
+      </a>`).join('');
+  }
+
+  function initSearch() {
+    let timer;
+    $('#q').addEventListener('input', (e) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); renderCards(); }, 120);
+    });
+  }
+
+  /* ---------------- CVEs ---------------- */
+  const sevColor = (s) => ({ critical: 'var(--coral)', high: 'var(--amber)', medium: 'var(--brass)', low: 'var(--teal)' }[s] || 'var(--muted)');
+
+  function renderCves() {
+    $('#cve-grid').innerHTML = DATA.cves.map((c) => `
+      <article class="cve reveal" style="--sev:${sevColor(c.severity)}">
+        <div class="cve-head">
+          <span class="cve-id">${esc(c.id)}</span>
+          ${c.kev ? '<span class="kev">CISA KEV</span>' : ''}
+          ${c.score != null ? `<span class="score">CVSS ${esc(c.score.toFixed(1))}</span>` : ''}
+        </div>
+        <h3>${esc(c.nickname || c.id)}</h3>
+        <p>${esc(loc(c.summary))}</p>
+        <div class="refs">${c.references.map((r) =>
+          `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(r.kind)}</a>`).join('')}</div>
+      </article>`).join('');
+    observeReveal($$('#cve-grid .reveal'));
+  }
+
+  /* ---------------- STATS COUNT-UP ---------------- */
+  function initStats() {
+    const values = {
+      resources: DATA.resources.length,
+      domains: DATA.domains.length,
+      languages: DATA.languages.length,
+      cves: DATA.cves.length,
+    };
+    $$('[data-count]').forEach((el) => {
+      const target = values[el.dataset.count] ?? 0;
+      if (reduceMotion) { el.textContent = target; return; }
+      const start = performance.now(), dur = 1400;
+      const tick = (now) => {
+        const p = Math.min(1, (now - start) / dur);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      setTimeout(() => requestAnimationFrame(tick), 500);
+    });
+  }
+
+  /* ---------------- REVEAL ON SCROLL ---------------- */
+  const io = 'IntersectionObserver' in window
+    ? new IntersectionObserver((entries) => entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+    : null;
+  function observeReveal(els) { els.forEach((el) => (io ? io.observe(el) : el.classList.add('in'))); }
+
+  /* ---------------- COMPASS TICKS ---------------- */
+  function initCompass() {
+    const g = $('.c-ticks');
+    const ns = 'http://www.w3.org/2000/svg';
+    for (let i = 0; i < 72; i++) {
+      const a = (i * 5 * Math.PI) / 180, major = i % 18 === 0, mid = i % 6 === 0;
+      const r1 = 188, r2 = major ? 168 : mid ? 175 : 181;
+      const line = document.createElementNS(ns, 'line');
+      line.setAttribute('x1', 200 + r1 * Math.sin(a)); line.setAttribute('y1', 200 - r1 * Math.cos(a));
+      line.setAttribute('x2', 200 + r2 * Math.sin(a)); line.setAttribute('y2', 200 - r2 * Math.cos(a));
+      if (major) line.setAttribute('class', 'major');
+      g.appendChild(line);
+    }
+  }
+
+  /* ---------------- TOPOGRAPHIC CONTOURS ---------------- */
+  function initContours() {
+    const canvas = $('#contours');
+    const ctx = canvas.getContext('2d');
+    let w = 0, h = 0, dpr = 1, raf = 0, visible = true, mouseX = 0.5, mouseY = 0.5;
+
+    const resize = () => {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      w = canvas.clientWidth; h = canvas.clientHeight;
+      canvas.width = w * dpr; canvas.height = h * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    };
+
+    const color = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+    const draw = (time) => {
+      const tt = time * 0.00006;
+      const c1 = color('--contour'), c2 = color('--contour-2');
+      ctx.clearRect(0, 0, w, h);
+      const lines = Math.max(18, Math.round(h / 34));
+      const step = Math.max(6, w / 160);
+      for (let k = 0; k <= lines; k++) {
+        const base = (k / lines) * h * 1.15 - h * 0.08;
+        const index = k % 5 === 0;
+        ctx.beginPath();
+        for (let x = -step; x <= w + step; x += step) {
+          const nx = x / w;
+          const pull = Math.exp(-(((nx - mouseX) ** 2) * 6 + (((base / h) - mouseY) ** 2) * 8)) * 26;
+          const y = base
+            + Math.sin(nx * 5.2 + tt * 9 + k * 0.55) * 22
+            + Math.sin(nx * 11.3 - tt * 6 + k * 1.31) * 9
+            + Math.sin(nx * 2.1 + tt * 4 - k * 0.27) * 30
+            - pull;
+          x === -step ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        const alpha = index ? 0.26 : 0.1;
+        ctx.strokeStyle = `rgba(${k % 7 === 3 ? c2 : c1}, ${alpha})`;
+        ctx.lineWidth = index ? 1.3 : 0.8;
+        ctx.stroke();
+      }
+      if (!reduceMotion && visible) raf = requestAnimationFrame(draw);
+    };
+
+    resize();
+    window.addEventListener('resize', () => { resize(); if (reduceMotion) draw(0); });
+    window.addEventListener('pointermove', (e) => { mouseX = e.clientX / innerWidth; mouseY = e.clientY / innerHeight; }, { passive: true });
+    new IntersectionObserver(([e]) => {
+      visible = e.isIntersecting;
+      cancelAnimationFrame(raf);
+      if (visible) raf = requestAnimationFrame(draw);
+    }).observe(canvas);
+    new MutationObserver(() => { if (reduceMotion) draw(0); }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    draw(0);
+  }
+
+  /* ---------------- MISC ---------------- */
+  function initNav() {
+    const nav = $('.nav');
+    const onScroll = () => nav.classList.toggle('scrolled', scrollY > 10);
+    addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    const route = $('.route');
+    if (route && io) {
+      new IntersectionObserver(([e], obs) => { if (e.isIntersecting) { route.classList.add('draw'); obs.disconnect(); } }, { threshold: 0.3 }).observe(route);
+    }
+  }
+
+  async function boot() {
+    initTheme();
+    initNav();
+    initCompass();
+    initContours();
+    observeReveal($$('.reveal'));
+    try {
+      const [ui, data] = await Promise.all([fetch('ui.json').then((r) => r.json()), fetch('data.json').then((r) => r.json())]);
+      UI = ui; DATA = data;
+    } catch (err) {
+      console.error('Hexicon: failed to load data', err);
+    }
+    state.lang = pickInitialLang();
+    initLangSelect();
+    initSearch();
+    applyLang(state.lang);
+    initStats();
+  }
+
+  boot();
+})();
