@@ -56,17 +56,38 @@ const cves = walk(path.join(ROOT, 'data/cves')).map((f) => {
 });
 
 const byKey = new Map(resources.map((r) => [`${r.domain}/${r.id}`, r]));
+// Roadmaps: v2 files have `stages`; v1 files with a flat `steps` list become a single stage.
+const resolve = (file, ref) => {
+  const r = byKey.get(ref);
+  if (!r) throw new Error(`${path.basename(file)}: "${ref}" does not match any resource`);
+  return r;
+};
+const asText = (v) => (v == null ? null : typeof v === 'string' ? { en: v } : v);
 const paths = walk(path.join(ROOT, 'data/paths')).map((f) => {
   const p = read(f);
-  const steps = p.steps.map((s) => {
-    const r = byKey.get(s.resource);
-    if (!r) throw new Error(`${path.basename(f)}: step "${s.resource}" does not match any resource`);
-    return { title: r.title, url: r.url, type: r.type, cost: r.cost, note: s.note ?? '' };
+  const rawStages = p.stages ?? [{ title: 'Route', weeks: p.hours ? Math.max(1, Math.round(p.hours / 10)) : 1, goal: '', steps: p.steps }];
+  const stages = rawStages.map((s) => {
+    const cp = s.checkpoint ? resolve(f, s.checkpoint) : null;
+    return {
+      title: asText(s.title), weeks: s.weeks, goal: asText(s.goal), skills: s.skills ?? [], project: asText(s.project),
+      checkpoint: cp ? { title: cp.title, url: cp.url } : null,
+      steps: s.steps.map((st) => {
+        const r = resolve(f, st.resource);
+        return { id: `${r.domain}/${r.id}`, title: r.title, url: r.url, type: r.type, cost: r.cost, note: asText(st.note) };
+      }),
+    };
   });
-  return { id: p.id, icon: p.icon ?? 'compass', level: p.level, hours: p.hours ?? null, title: p.title, description: p.description, steps };
+  return {
+    id: p.id, order: p.order ?? 99, icon: p.icon ?? 'compass', track: p.track ?? 'core', level: p.level,
+    title: p.title, description: p.description, nice_roles: p.nice_roles ?? [],
+    prerequisites: p.prerequisites ?? [], next: p.next ?? [],
+    weeks: stages.reduce((n, s) => n + s.weeks, 0), stages,
+  };
 });
-const LEVEL_RANK = { beginner: 0, intermediate: 1, advanced: 2 };
-paths.sort((a, b) => LEVEL_RANK[a.level] - LEVEL_RANK[b.level] || (a.hours ?? 0) - (b.hours ?? 0));
+const pathIds = new Set(paths.map((p) => p.id));
+for (const p of paths) for (const ref of [...p.prerequisites, ...p.next])
+  if (!pathIds.has(ref)) throw new Error(`${p.id}.yml: linked roadmap "${ref}" does not exist`);
+paths.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
 
 const counts = Object.fromEntries(taxonomy.domains.map((d) => [d.id, 0]));
 for (const r of resources) if (r.domain in counts) counts[r.domain]++;

@@ -1,34 +1,57 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/0xOmar-Ibrahim/Hexicon/schema/path.schema.json",
-  "title": "Hexicon learning path",
-  "description": "File path: data/paths/<id>.yml. Each step references an existing resource as <domain>/<file-name-without-.yml>.",
+  "title": "Hexicon role roadmap",
+  "description": "File path: data/paths/<id>.yml. A roadmap has stages (v2) or a flat list of steps (v1, still supported). Every step references an existing resource as <domain>/<file-name-without-.yml>; the build fails otherwise.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "description", "level", "steps", "added_by"],
+  "required": ["id", "title", "description", "level", "added_by"],
+  "oneOf": [{ "required": ["stages"] }, { "required": ["steps"] }],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "order": { "type": "integer", "description": "Position on the website (lower first)." },
     "icon": { "type": "string" },
+    "track": { "enum": ["core", "defend", "attack", "build", "govern"] },
     "title": { "$ref": "#/$defs/i18n" },
     "description": { "$ref": "#/$defs/i18n" },
     "level": { "enum": ["beginner", "intermediate", "advanced"] },
-    "hours": { "type": "integer", "minimum": 1, "description": "Rough total effort estimate." },
-    "steps": {
-      "type": "array", "minItems": 3,
+    "hours": { "type": "integer", "minimum": 1, "description": "v1 only: rough total effort." },
+    "nice_roles": { "type": "array", "items": { "type": "string" }, "description": "Closest NICE Framework work roles." },
+    "prerequisites": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "description": "Roadmap ids to complete first." },
+    "next": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "description": "Roadmap ids that naturally follow." },
+    "stages": {
+      "type": "array", "minItems": 2,
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["resource"],
+        "type": "object", "additionalProperties": false, "required": ["title", "weeks", "goal", "steps"],
         "properties": {
-          "resource": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
-          "note": { "type": "string", "maxLength": 240 }
+          "title": { "$ref": "#/$defs/text" },
+          "weeks": { "type": "integer", "minimum": 1, "description": "At roughly 10 hours per week." },
+          "goal": { "$ref": "#/$defs/text" },
+          "skills": { "type": "array", "items": { "type": "string" } },
+          "project": { "$ref": "#/$defs/text", "description": "Hands-on deliverable that proves the stage." },
+          "checkpoint": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$", "description": "Optional certification resource." },
+          "steps": { "$ref": "#/$defs/steps" }
         }
       }
     },
+    "steps": { "$ref": "#/$defs/steps" },
     "added_by": { "type": "string", "pattern": "^@[A-Za-z0-9-]+$" }
   },
   "$defs": {
     "i18n": {
       "type": "object", "required": ["en"], "additionalProperties": false,
       "properties": { "en": { "type": "string" }, "de": { "type": "string" }, "fr": { "type": "string" }, "ar": { "type": "string" }, "ru": { "type": "string" } }
+    },
+    "text": { "oneOf": [{ "type": "string" }, { "$ref": "#/$defs/i18n" }] },
+    "steps": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["resource"],
+        "properties": {
+          "resource": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" },
+          "note": { "$ref": "#/$defs/text" }
+        }
+      }
     }
   }
 }

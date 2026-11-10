@@ -234,9 +234,41 @@ html[lang="ar"] .kicker { letter-spacing: 0; text-transform: none; font-family: 
 .path-head h3 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 6px; }
 .path-head p { margin: 0; color: var(--muted); max-width: 60ch; }
 .path-meta { display: flex; gap: 6px; align-items: flex-start; flex-wrap: wrap; }
+.track-chips { margin-bottom: 14px; }
+.nice { font-size: 13px !important; margin-top: 10px !important; }
+.nice span { color: var(--teal); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .08em; font-size: 11px; }
+.progress { position: relative; height: 30px; border-radius: 10px; background: var(--bg-2); border: 1px solid var(--line); overflow: hidden; margin-bottom: 22px; }
+.progress-bar { position: absolute; inset-block: 0; inset-inline-start: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--teal) 40%, transparent), color-mix(in srgb, var(--brass) 55%, transparent)); transition: width .6s cubic-bezier(.2,.7,.2,1); }
+.progress span { position: relative; display: block; line-height: 28px; padding-inline: 12px; font: 500 12px var(--font-mono); }
+.path-rel { color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 20px; }
+.path-rel.next { margin: 26px 0 0; }
+.path-link { font: 600 13px var(--font-body); color: var(--brass); background: transparent; border: 1px dashed var(--line-strong); border-radius: 99px; padding: 5px 12px; cursor: pointer; }
+.path-link:hover { border-style: solid; border-color: var(--brass); }
+.stages { list-style: none; margin: 0; padding: 0; display: grid; gap: 26px; }
+.stage { display: grid; grid-template-columns: 52px 1fr; gap: 18px; animation: card-in .55s cubic-bezier(.2,.7,.2,1) both; }
+.stage-marker { position: relative; display: flex; justify-content: center; }
+.stage-marker::after { content: ""; position: absolute; top: 52px; bottom: -26px; width: 2px; background: linear-gradient(var(--brass), transparent); opacity: .5; }
+.stage:last-child .stage-marker::after { display: none; }
+.stage-marker span { width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; font: 600 20px var(--font-display);
+  color: var(--brass-ink); background: var(--brass); box-shadow: 0 8px 22px var(--glow); transform: rotate(-4deg); }
+.stage-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 14px; }
+.stage-head h4 { margin: 0; font: 600 21px var(--font-display); }
+.stage-weeks { font: 500 12px var(--font-mono); color: var(--teal); }
+.stage-goal { color: var(--muted); margin: 6px 0 10px; }
+.skills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.project { margin-top: 14px; padding: 14px 16px; border-radius: 12px; border: 1px dashed color-mix(in srgb, var(--teal) 50%, transparent); background: color-mix(in srgb, var(--teal) 6%, transparent); }
+.project-label { font: 600 11px var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--teal); }
+.project p { margin: 4px 0 0; font-size: 15px; }
+.checkpoint { font-size: 14px; color: var(--muted); margin: 10px 0 0; }
+.checkpoint a { color: var(--brass); }
+.tick { position: relative; cursor: pointer; }
+.tick input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.tick input:checked + .waypoint { background: var(--teal); border-color: var(--teal); color: var(--bg); }
+.tick input:focus-visible + .waypoint { outline: 2px solid var(--teal); outline-offset: 3px; }
+.step.done strong { text-decoration: line-through; text-decoration-color: var(--teal); opacity: .75; }
 .route-steps { list-style: none; margin: 0; padding: 0; position: relative; display: grid; gap: 12px; }
 .route-steps::before { content: ""; position: absolute; top: 18px; bottom: 18px; inset-inline-start: 17px; border-inline-start: 2px dashed var(--line-strong); }
-.route-steps li { position: relative; display: grid; grid-template-columns: 36px 1fr; gap: 16px; align-items: start; animation: card-in .5s cubic-bezier(.2,.7,.2,1) both; }
+.route-steps li { position: relative; display: grid; grid-template-columns: 36px 1fr; gap: 16px; align-items: start; }
 .waypoint { position: relative; z-index: 1; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
   background: var(--bg); border: 2px solid var(--brass); color: var(--brass); font: 600 14px var(--font-mono); }
 .route-steps li:last-child .waypoint { background: var(--brass); color: var(--brass-ink); }
@@ -308,6 +340,10 @@ html[lang="ar"] .kicker { letter-spacing: 0; text-transform: none; font-family: 
   .domain-icon { width: 36px; height: 36px; }
   .domain h3 { font-size: 16.5px; }
   .domain-meta { flex-direction: column; gap: 2px; font-size: 12px; }
+  .stage { grid-template-columns: 1fr; gap: 10px; }
+  .stage-marker { justify-content: flex-start; }
+  .stage-marker::after { display: none; }
+  .stage-marker span { width: 40px; height: 40px; font-size: 17px; }
   .cards, .cve-grid { grid-template-columns: 1fr; }
   .result-count { margin-inline-start: 0; width: 100%; }
   .section { padding-top: 80px; }
