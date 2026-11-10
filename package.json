@@ -12,7 +12,8 @@
   "scripts": {
     "build": "node scripts/build-site.mjs",
     "dev": "node scripts/build-site.mjs && node scripts/serve.mjs",
-    "sync:cves": "node scripts/sync-cves.mjs"
+    "sync:cves": "node scripts/sync-cves.mjs",
+    "docs": "node scripts/build-docs.mjs"
   },
   "dependencies": {
     "yaml": "2.6.1"
