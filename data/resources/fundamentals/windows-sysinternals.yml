@@ -1,0 +1,16 @@
+title: "Windows Sysinternals"
+url: "https://learn.microsoft.com/en-us/sysinternals/"
+type: tool
+domain: fundamentals
+subdomains: [windows]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Microsoft's suite of advanced Windows utilities (Process Explorer, Procmon, Autoruns…) essential for troubleshooting and investigations."
+tags: [process-explorer, autoruns, procmon]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

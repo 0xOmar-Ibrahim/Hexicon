@@ -1,0 +1,16 @@
+title: "Windows Internals (book)"
+url: "https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals"
+type: book
+domain: fundamentals
+subdomains: [windows]
+level: [advanced]
+cost: paid
+languages: [en]
+description:
+  en: "The definitive reference on how Windows works internally — processes, memory, security and the kernel."
+tags: [kernel, internals]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

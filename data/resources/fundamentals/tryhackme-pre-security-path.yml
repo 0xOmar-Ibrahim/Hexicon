@@ -1,0 +1,15 @@
+title: "TryHackMe: Pre Security Path"
+url: "https://tryhackme.com/path/outline/presecurity"
+type: course
+domain: fundamentals
+subdomains: [networking, linux, windows, web-basics]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Hands-on beginner path covering networking, the web, Linux and Windows before diving into security."
+tags: [beginner, path]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

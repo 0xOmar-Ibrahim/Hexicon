@@ -1,0 +1,16 @@
+title: "How HTTPS Works"
+url: "https://howhttps.works/"
+type: article
+domain: fundamentals
+subdomains: [web-basics]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "A short illustrated comic explaining how HTTPS and TLS keep web traffic private."
+tags: [tls, https, comic]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

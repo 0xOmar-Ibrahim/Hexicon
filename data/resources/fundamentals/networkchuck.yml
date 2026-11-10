@@ -1,0 +1,16 @@
+title: "NetworkChuck"
+url: "https://www.youtube.com/@NetworkChuck"
+type: youtube-channel
+domain: fundamentals
+subdomains: [networking, linux]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Beginner-friendly YouTube channel on networking, Linux, homelabs and getting started in IT and security."
+tags: [youtube, homelab]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

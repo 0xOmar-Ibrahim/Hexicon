@@ -1,0 +1,17 @@
+title: "tldr pages"
+url: "https://tldr.sh/"
+type: tool
+domain: fundamentals
+subdomains: [linux, windows]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Community-maintained, simplified help pages with practical examples for thousands of command-line tools."
+tags: [cheatsheet, cli]
+repo: "https://github.com/tldr-pages/tldr"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

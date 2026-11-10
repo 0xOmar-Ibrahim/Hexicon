@@ -1,5 +1,5 @@
-title: GTFOBins
-url: https://gtfobins.github.io/
+title: "GTFOBins"
+url: "https://gtfobins.github.io/"
 type: cheatsheet
 domain: fundamentals
 subdomains: [linux]
@@ -7,9 +7,9 @@ level: [intermediate, advanced]
 cost: free
 languages: [en]
 description:
-  en: Curated list of Unix binaries that can be abused to bypass local security restrictions — privilege escalation, file read/write, reverse shells and more.
-tags: [privilege-escalation, linux, living-off-the-land]
-repo: https://github.com/GTFOBins/GTFOBins.github.io
+  en: "Curated list of Unix binaries that can be abused to bypass local security restrictions — privilege escalation, file read/write, reverse shells and more."
+tags: [privilege-escalation, living-off-the-land]
+repo: "https://github.com/GTFOBins/GTFOBins.github.io"
 status: active
 featured: true
 added_by: "@0xOmar-Ibrahim"

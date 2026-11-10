@@ -1,0 +1,16 @@
+title: "Linux Journey"
+url: "https://linuxjourney.com/"
+type: course
+domain: fundamentals
+subdomains: [linux]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free, structured lessons that take you from Linux basics to processes, networking and the kernel."
+tags: [linux, command-line]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

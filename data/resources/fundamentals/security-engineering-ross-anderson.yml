@@ -1,0 +1,16 @@
+title: "Security Engineering (Ross Anderson)"
+url: "https://www.cl.cam.ac.uk/archive/rja14/book.html"
+type: book
+domain: fundamentals
+subdomains: [security-concepts]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Classic textbook on building dependable systems against malice, error and mischief; earlier editions are free online."
+tags: [security-engineering, classic]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

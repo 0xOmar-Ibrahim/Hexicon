@@ -1,0 +1,16 @@
+title: "CS50x: Introduction to Computer Science"
+url: "https://cs50.harvard.edu/x/"
+type: course
+domain: fundamentals
+subdomains: [programming]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Harvard's free introduction to computer science — a strong foundation in C, Python, SQL and how computers work."
+tags: [c, python, harvard]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "The Linux Command Line (William Shotts)"
+url: "https://linuxcommand.org/tlcl.php"
+type: book
+domain: fundamentals
+subdomains: [linux]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free book teaching the Linux shell and command line from first principles to shell scripting."
+tags: [bash, shell]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Under The Wire"
+url: "https://underthewire.tech/"
+type: lab
+domain: fundamentals
+subdomains: [windows]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "PowerShell wargames that teach Windows command-line skills through SSH-based levels."
+tags: [powershell, wargame]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

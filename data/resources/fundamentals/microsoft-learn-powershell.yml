@@ -1,0 +1,16 @@
+title: "Microsoft Learn: PowerShell"
+url: "https://learn.microsoft.com/en-us/powershell/"
+type: documentation
+domain: fundamentals
+subdomains: [windows, programming]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Official PowerShell documentation and tutorials, from first commands to scripting and remoting."
+tags: [powershell, scripting]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

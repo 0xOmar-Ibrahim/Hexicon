@@ -1,0 +1,16 @@
+title: "Automate the Boring Stuff with Python"
+url: "https://automatetheboringstuff.com/"
+type: book
+domain: fundamentals
+subdomains: [programming]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free online book teaching practical Python programming by automating everyday tasks."
+tags: [python, automation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

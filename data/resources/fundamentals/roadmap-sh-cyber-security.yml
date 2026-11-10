@@ -1,0 +1,16 @@
+title: "roadmap.sh: Cyber Security"
+url: "https://roadmap.sh/cyber-security"
+type: roadmap
+domain: fundamentals
+subdomains: [security-concepts]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Interactive, community-maintained roadmap of the skills and topics needed to start in cybersecurity."
+tags: [roadmap, career]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "SS64 Command Reference"
+url: "https://ss64.com/"
+type: documentation
+domain: fundamentals
+subdomains: [windows, linux]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Concise command-line reference for Windows CMD, PowerShell, Bash and macOS."
+tags: [cmd, powershell, bash]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

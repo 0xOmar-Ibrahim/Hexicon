@@ -1,0 +1,17 @@
+title: "CyberChef"
+url: "https://gchq.github.io/CyberChef/"
+type: tool
+domain: fundamentals
+subdomains: [security-concepts]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "GCHQ's 'Cyber Swiss Army Knife' for encoding, decoding, encryption, compression and data analysis in the browser."
+tags: [encoding, decoding, data-transformation]
+repo: "https://github.com/gchq/CyberChef"
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

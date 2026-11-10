@@ -1,0 +1,16 @@
+title: "The Tangled Web"
+url: "https://nostarch.com/tangledweb"
+type: book
+domain: fundamentals
+subdomains: [web-basics]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Michal Zalewski's deep dive into how browsers work and why web security is so hard."
+tags: [browser-security, same-origin]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

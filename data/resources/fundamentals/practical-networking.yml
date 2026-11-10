@@ -1,0 +1,16 @@
+title: "Practical Networking"
+url: "https://www.practicalnetworking.net/"
+type: course
+domain: fundamentals
+subdomains: [networking]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Clear explanations of how packets actually move through networks: subnetting, ARP, routing, NAT and TLS."
+tags: [tcp-ip, subnetting, packet-flow]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

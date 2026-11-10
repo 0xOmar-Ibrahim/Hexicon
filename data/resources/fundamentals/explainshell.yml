@@ -1,0 +1,16 @@
+title: "explainshell"
+url: "https://explainshell.com/"
+type: tool
+domain: fundamentals
+subdomains: [linux]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Paste any shell command and see each part explained using the matching man-page sections."
+tags: [bash, commands]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

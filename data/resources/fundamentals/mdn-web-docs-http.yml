@@ -1,0 +1,16 @@
+title: "MDN Web Docs: HTTP"
+url: "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+type: documentation
+domain: fundamentals
+subdomains: [web-basics]
+level: [beginner]
+cost: free
+languages: [en, de, fr, ru]
+description:
+  en: "Authoritative reference on HTTP: methods, headers, cookies, caching, CORS and security headers."
+tags: [http, headers, cookies, cors]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

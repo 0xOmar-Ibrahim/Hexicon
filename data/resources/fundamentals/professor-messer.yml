@@ -1,0 +1,16 @@
+title: "Professor Messer"
+url: "https://www.professormesser.com/"
+type: video
+domain: fundamentals
+subdomains: [networking, security-concepts]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free, complete video courses for CompTIA A+, Network+ and Security+, widely used as a first step into IT and security."
+tags: [comptia, network-plus, security-plus]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

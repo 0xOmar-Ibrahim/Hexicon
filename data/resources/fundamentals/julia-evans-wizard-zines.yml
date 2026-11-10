@@ -1,0 +1,16 @@
+title: "Julia Evans — Wizard Zines"
+url: "https://wizardzines.com/"
+type: book
+domain: fundamentals
+subdomains: [networking, linux]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Illustrated zines that explain networking, DNS, HTTP, Linux and debugging tools in a visual, approachable way."
+tags: [zines, dns, http, linux]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
