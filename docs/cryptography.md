@@ -4,7 +4,7 @@
 
 > Kryptographie · Cryptographie · التشفير · Криптография
 
-**21 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**28 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Applied Cryptography](#applied) · [Cryptanalysis](#cryptanalysis) · [PKI & TLS](#pki-tls) · [Post-Quantum](#post-quantum)
 
@@ -14,16 +14,21 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [A Graduate Course in Applied Cryptography](https://toc.cryptobook.us/) | book | A | 🆓 free | Free textbook by Dan Boneh and Victor Shoup covering the theory behind modern cryptographic constructions. |
+| [age](https://github.com/FiloSottile/age) | tool | B | 🆓 free | Simple, modern and secure file encryption tool with small explicit keys. |
 | [Crypto 101](https://www.crypto101.io/) | book | B | 🆓 free | Free introductory course and book on cryptography for programmers. |
 | [Cryptography Engineering (Matthew Green)](https://blog.cryptographyengineering.com/) | blog | I·A | 🆓 free | Matthew Green's blog analysing real-world cryptography, protocols and failures. |
 | [Cryptography I (Dan Boneh, Coursera)](https://www.coursera.org/learn/crypto) | course | I | ◐ freemium | Stanford's renowned introduction to how cryptographic primitives work and how to use them correctly. |
 | [Cryptography Stack Exchange](https://crypto.stackexchange.com/) | community | B·I·A | 🆓 free | Q&A community for cryptography questions from beginner to research level. |
+| [Filippo Valsorda's blog](https://words.filippo.io/) | blog | I·A | 🆓 free | Writing on cryptography engineering, Go crypto and post-quantum migration by the age author. |
+| [Khan Academy: Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography) | course | B | 🆓 free | Gentle, visual introduction to ciphers, modular arithmetic and public-key cryptography. |
 | [libsodium documentation](https://doc.libsodium.org/) | documentation | B·I | 🆓 free | Documentation for libsodium, a modern, easy-to-use crypto library with safe defaults. |
 | [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) | book | I·A | 🆓 free | Andreas Antonopoulos and Gavin Wood's book on Ethereum and smart contracts, free under a Creative Commons licence. |
 | [Practical Cryptography for Developers](https://cryptobook.nakov.com/) | book | B·I | 🆓 free | Free book by Svetlin Nakov with clear explanations and code examples of hashes, MACs, ciphers and signatures. |
 | [Project Wycheproof](https://github.com/C2SP/wycheproof) | tool | A | 🆓 free | Test vectors for detecting known weaknesses in cryptographic library implementations. |
 | [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | book | I | 💲 paid | David Wong's guide to the cryptographic protocols and primitives used in real systems. |
 | [Serious Cryptography, 2nd Edition](https://nostarch.com/serious-cryptography-2nd-edition) | book | I | 💲 paid | Jean-Philippe Aumasson's practical introduction to modern encryption and its pitfalls. |
+| [Tink](https://github.com/tink-crypto) | tool | I | 🆓 free | Google's multi-language crypto library designed to be hard to misuse. |
+| [Trail of Bits blog](https://blog.trailofbits.com/) | blog | A | 🆓 free | Research from Trail of Bits on cryptography, program analysis and security audits. |
 
 <a id="cryptanalysis"></a>
 ## Cryptanalysis
@@ -40,8 +45,10 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [Bulletproof TLS and PKI](https://www.feistyduck.com/books/bulletproof-tls-and-pki/) | book | I·A | 💲 paid | Ivan Ristić's comprehensive guide to deploying TLS and PKI securely. |
+| [Certificate Transparency](https://certificate.transparency.dev/) | documentation | I | 🆓 free | How Certificate Transparency logs make certificate issuance publicly auditable. |
 | [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/) | tool | B | 🆓 free | Generates recommended TLS configurations for common web servers and proxies. |
 | [Qualys SSL Labs Server Test](https://www.ssllabs.com/ssltest/) | tool | B | 🆓 free | Free online deep analysis of a public server's TLS configuration. |
+| [smallstep certificates (step-ca)](https://github.com/smallstep/certificates) | tool | I | 🆓 free | Open-source private certificate authority with ACME support for internal PKI. |
 | [testssl.sh](https://testssl.sh/) | tool | B·I | 🆓 free | Command-line tool that checks a server's TLS/SSL ciphers, protocols and known weaknesses. |
 | [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/) | article | I | 🆓 free | Every byte of a TLS 1.3 handshake explained and annotated. |
 

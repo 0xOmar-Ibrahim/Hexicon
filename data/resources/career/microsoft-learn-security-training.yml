@@ -1,0 +1,16 @@
+title: "Microsoft Learn: Security training"
+url: "https://learn.microsoft.com/en-us/training/browse/?subjects=security"
+type: course
+domain: career
+subdomains: [certifications]
+level: [beginner, intermediate]
+cost: free
+languages: [en, de, fr, ar, ru]
+description:
+  en: "Free Microsoft Learn modules and paths for security, including SC-900, SC-200 and AZ-500 preparation."
+tags: [microsoft, sc-900, az-500]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

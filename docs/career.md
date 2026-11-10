@@ -4,7 +4,7 @@
 
 > Karriere & Community · Carrière & communauté · المسار المهني والمجتمع · Карьера и сообщество
 
-**43 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**47 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Certifications](#certifications) · [CTFs](#ctf) · [Labs & Practice](#labs) · [Communities](#communities) · [Podcasts](#media) · [Conferences](#conferences) · [Jobs & Interviews](#jobs)
 
@@ -13,10 +13,14 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| [Cisco Networking Academy](https://www.netacad.com/) | course | B | ◐ freemium | Free and low-cost courses in networking and cybersecurity fundamentals, including Packet Tracer labs. |
 | [CISSP](https://www.isc2.org/certifications/cissp) | certification | A | 💲 paid | ISC2's senior certification for security leaders and architects. |
 | [CompTIA Security+](https://www.comptia.org/certifications/security) | certification | B | 💲 paid | Widely recognised vendor-neutral entry-level security certification. |
+| [Cybrary](https://www.cybrary.it/) | course | B·I | ◐ freemium | Online security training with free and paid courses and certification prep. |
 | [GIAC Certifications](https://www.giac.org/) | certification | I·A | 💲 paid | Technical certifications aligned with SANS training across defense, DFIR, offense and cloud. |
+| [Google Cybersecurity Certificate](https://grow.google/certificates/cybersecurity/) | certification | B | 💲 paid | Entry-level professional certificate covering SOC skills, Linux, SQL, Python and SIEM basics. |
 | [ISC2 Certified in Cybersecurity (CC)](https://www.isc2.org/certifications/cc) | certification | B | ◐ freemium | Entry-level certification from ISC2 covering security principles, operations, networks and access control. |
+| [Microsoft Learn: Security training](https://learn.microsoft.com/en-us/training/browse/?subjects=security) | course | B·I | 🆓 free | Free Microsoft Learn modules and paths for security, including SC-900, SC-200 and AZ-500 preparation. |
 | [OSCP (PEN-200)](https://www.offsec.com/courses/pen-200/) | certification | I | 💲 paid | OffSec's hands-on penetration testing course and its well-known proctored practical exam. |
 | [Security Certification Roadmap (Paul Jerimy)](https://pauljerimy.com/security-certification-roadmap/) | roadmap | B | 🆓 free | Visual map of hundreds of security certifications by domain and seniority. |
 

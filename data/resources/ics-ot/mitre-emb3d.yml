@@ -1,0 +1,16 @@
+title: "MITRE EMB3D"
+url: "https://emb3d.mitre.org/"
+type: framework
+domain: ics-ot
+subdomains: [standards]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Threat model for embedded devices in critical infrastructure, mapping device properties to threats and mitigations."
+tags: [embedded-devices, threat-model]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

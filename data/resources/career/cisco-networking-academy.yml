@@ -1,0 +1,16 @@
+title: "Cisco Networking Academy"
+url: "https://www.netacad.com/"
+type: course
+domain: career
+subdomains: [certifications, labs]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Free and low-cost courses in networking and cybersecurity fundamentals, including Packet Tracer labs."
+tags: [networking, cybersecurity-essentials]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

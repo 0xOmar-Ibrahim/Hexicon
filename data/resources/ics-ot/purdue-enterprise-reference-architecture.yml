@@ -1,0 +1,16 @@
+title: "Purdue Enterprise Reference Architecture"
+url: "https://en.wikipedia.org/wiki/Purdue_Enterprise_Reference_Architecture"
+type: article
+domain: ics-ot
+subdomains: [standards]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Overview of the Purdue model, the reference architecture behind OT network segmentation."
+tags: [purdue-model, segmentation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

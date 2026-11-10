@@ -1,0 +1,16 @@
+title: "Cybrary"
+url: "https://www.cybrary.it/"
+type: course
+domain: career
+subdomains: [certifications]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Online security training with free and paid courses and certification prep."
+tags: [video-courses]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

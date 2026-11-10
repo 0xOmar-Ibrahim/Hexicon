@@ -1,0 +1,16 @@
+title: "OWASP Risk Rating Methodology"
+url: "https://owasp.org/www-community/OWASP_Risk_Rating_Methodology"
+type: framework
+domain: grc
+subdomains: [risk]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Simple method for estimating the likelihood and impact of application security risks."
+tags: [risk-rating]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

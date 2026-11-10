@@ -1,0 +1,16 @@
+title: "ISA Global Cybersecurity Alliance"
+url: "https://isagca.org/"
+type: community
+domain: ics-ot
+subdomains: [standards]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Industry alliance advancing OT cybersecurity awareness and adoption of ISA/IEC 62443."
+tags: [isa, iec-62443]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Tink"
+url: "https://github.com/tink-crypto"
+type: tool
+domain: cryptography
+subdomains: [applied]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Google's multi-language crypto library designed to be hard to misuse."
+tags: [google, crypto-library]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

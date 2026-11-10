@@ -1,0 +1,16 @@
+title: "Malcolm"
+url: "https://github.com/cisagov/Malcolm"
+type: tool
+domain: ics-ot
+subdomains: [protocols, scada]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "CISA/INL network traffic analysis suite with strong support for industrial protocols."
+tags: [network-analysis, cisa, idaho-national-lab]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

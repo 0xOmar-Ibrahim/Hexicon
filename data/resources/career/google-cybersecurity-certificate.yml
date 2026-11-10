@@ -1,0 +1,16 @@
+title: "Google Cybersecurity Certificate"
+url: "https://grow.google/certificates/cybersecurity/"
+type: certification
+domain: career
+subdomains: [certifications]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "Entry-level professional certificate covering SOC skills, Linux, SQL, Python and SIEM basics."
+tags: [entry-level, google]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

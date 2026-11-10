@@ -1,0 +1,16 @@
+title: "DORA (EUR-Lex)"
+url: "https://eur-lex.europa.eu/eli/reg/2022/2554/oj"
+type: documentation
+domain: grc
+subdomains: [compliance]
+level: [intermediate, advanced]
+cost: free
+languages: [en, de, fr]
+description:
+  en: "Official text of the EU Digital Operational Resilience Act for the financial sector, in all EU languages."
+tags: [dora, eu, finance]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

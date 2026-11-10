@@ -1,0 +1,16 @@
+title: "age"
+url: "https://github.com/FiloSottile/age"
+type: tool
+domain: cryptography
+subdomains: [applied]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Simple, modern and secure file encryption tool with small explicit keys."
+tags: [file-encryption]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

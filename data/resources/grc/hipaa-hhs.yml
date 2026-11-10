@@ -1,0 +1,15 @@
+title: "HIPAA (HHS)"
+url: "https://www.hhs.gov/hipaa/index.html"
+type: documentation
+domain: grc
+subdomains: [compliance, privacy]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "US Department of Health and Human Services guidance on HIPAA privacy and security rules."
+tags: [healthcare, usa]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

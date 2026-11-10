@@ -1,0 +1,16 @@
+title: "Certificate Transparency"
+url: "https://certificate.transparency.dev/"
+type: documentation
+domain: cryptography
+subdomains: [pki-tls]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "How Certificate Transparency logs make certificate issuance publicly auditable."
+tags: [ct-logs]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -4,7 +4,7 @@
 
 > GRC & Datenschutz · GRC & vie privée · الحوكمة والمخاطر والامتثال والخصوصية · GRC и приватность
 
-**26 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**33 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Frameworks & Standards](#frameworks) · [Risk Management](#risk) · [Compliance & Audit](#compliance) · [Privacy](#privacy)
 
@@ -19,12 +19,14 @@
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | framework | B·I | 🆓 free | Prioritised set of safeguards to mitigate the most prevalent cyber attacks, with implementation groups for organisations of every size. |
 | [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model) | framework | I | 🆓 free | CISA's roadmap for moving toward zero trust across identity, devices, networks, applications and data. |
 | [Cloud Security Alliance — Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix) | framework | I | 🆓 free | Cybersecurity control framework for cloud computing mapped to major standards. |
+| [COBIT](https://www.isaca.org/resources/cobit) | framework | I·A | ◐ freemium | ISACA's framework for the governance and management of enterprise IT. |
 | [ENISA](https://www.enisa.europa.eu/) | documentation | B·I | 🆓 free | The EU Agency for Cybersecurity: threat landscape reports, good practices and EU certification schemes. |
 | [ISO/IEC 27001](https://www.iso.org/standard/27001) | framework | I·A | 💲 paid | The international standard for information security management systems (ISMS) and the basis of ISO 27001 certification. |
 | [NATO CCDCOE](https://ccdcoe.org/) | documentation | I·A | ◐ freemium | NATO Cooperative Cyber Defence Centre of Excellence: research, the Tallinn Manual on cyber law, and the Locked Shields exercise. |
 | [NCSC Cyber Assessment Framework](https://www.ncsc.gov.uk/collection/cyber-assessment-framework) | framework | I | 🆓 free | The UK NCSC's outcome-based framework for assessing how well essential functions are protected. |
 | [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | framework | I·A | 🆓 free | NIST's foundational definition of zero trust architecture, its components and deployment models. |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | framework | A | 🆓 free | Comprehensive catalogue of security and privacy controls for information systems and organisations. |
+| [Qatar National Cyber Security Agency](https://www.ncsa.gov.qa/) | documentation | B·I | 🆓 free | Qatar's national cybersecurity agency: policies, standards and awareness. |
 | [Saudi NCA — Essential Cybersecurity Controls](https://nca.gov.sa/) | framework | I | 🆓 free | Saudi National Cybersecurity Authority: the Essential Cybersecurity Controls (ECC) and related national frameworks. |
 | [Secure Controls Framework](https://securecontrolsframework.com/) | framework | I·A | 🆓 free | Free meta-framework that maps controls across 100+ laws, regulations and frameworks. |
 
@@ -35,6 +37,7 @@
 |---|---|---|---|---|
 | [FAIR Institute](https://www.fairinstitute.org/) | framework | I·A | ◐ freemium | Home of Factor Analysis of Information Risk (FAIR), the standard model for quantifying cyber risk in financial terms. |
 | [NIST SP 800-30: Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final) | framework | I | 🆓 free | NIST guidance on preparing for, conducting and maintaining information security risk assessments. |
+| [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) | framework | B·I | 🆓 free | Simple method for estimating the likelihood and impact of application security risks. |
 
 <a id="compliance"></a>
 ## Compliance & Audit
@@ -42,8 +45,11 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [CISO Assistant](https://github.com/intuitem/ciso-assistant-community) | tool | B·I | 🆓 free | Open-source GRC platform for risk management, compliance tracking and audits across many frameworks. |
+| [CMMC](https://dodcio.defense.gov/CMMC/) | framework | I | 🆓 free | Cybersecurity Maturity Model Certification programme for US defence contractors. |
+| [DORA (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) | documentation | I·A | 🆓 free | Official text of the EU Digital Operational Resilience Act for the financial sector, in all EU languages. |
 | [eramba](https://www.eramba.org/) | tool | B·I | ◐ freemium | GRC platform with a free community edition for managing risks, controls, policies and audits. |
 | [EU Artificial Intelligence Act Explorer](https://artificialintelligenceact.eu/) | documentation | I | 🆓 free | Navigable text, summaries and analysis of the EU AI Act. |
+| [HIPAA (HHS)](https://www.hhs.gov/hipaa/index.html) | documentation | B·I | 🆓 free | US Department of Health and Human Services guidance on HIPAA privacy and security rules. |
 | [ISACA](https://www.isaca.org/) | community | I·A | ◐ freemium | Professional association for IT governance, audit and risk, home of the CISA, CISM and CRISC certifications. |
 | [NIS2 Directive (EUR-Lex)](https://eur-lex.europa.eu/eli/dir/2022/2555/oj) | documentation | I·A | 🆓 free | Official text of the EU NIS2 Directive on a high common level of cybersecurity, available in all EU languages. |
 | [OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) | framework | A | 🆓 free | NIST's machine-readable formats for control catalogues, system security plans and assessment results. |
@@ -54,6 +60,7 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| [CNIL](https://www.cnil.fr/) | documentation | B·I | 🆓 free | France's data protection authority: GDPR guidance, tools and recommendations. |
 | [GDPR (full text, gdpr-info.eu)](https://gdpr-info.eu/) | documentation | B·I | 🆓 free | Searchable, well-structured text of the EU General Data Protection Regulation with recitals. |
 | [IAPP](https://iapp.org/) | community | B·I·A | ◐ freemium | The International Association of Privacy Professionals: news, research and CIPP/CIPM certifications. |
 | [NIST Privacy Framework](https://www.nist.gov/privacy-framework) | framework | B·I | 🆓 free | Voluntary tool to help organisations identify and manage privacy risk. |

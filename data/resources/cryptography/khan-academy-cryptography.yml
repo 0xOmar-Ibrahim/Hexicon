@@ -1,0 +1,16 @@
+title: "Khan Academy: Cryptography"
+url: "https://www.khanacademy.org/computing/computer-science/cryptography"
+type: course
+domain: cryptography
+subdomains: [applied]
+level: [beginner]
+cost: free
+languages: [en, de, fr, ru]
+description:
+  en: "Gentle, visual introduction to ciphers, modular arithmetic and public-key cryptography."
+tags: [beginner, history]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

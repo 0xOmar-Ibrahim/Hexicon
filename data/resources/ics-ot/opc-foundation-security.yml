@@ -1,0 +1,16 @@
+title: "OPC Foundation security"
+url: "https://opcfoundation.org/security/"
+type: documentation
+domain: ics-ot
+subdomains: [protocols]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Security bulletins and guidance for OPC UA from the OPC Foundation."
+tags: [opc-ua, bulletins]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -2,7 +2,7 @@
 
 # Hexicon library index
 
-**508 resources** across 14 domains, plus 18 curated CVE pages.
+**533 resources** across 14 domains, plus 18 curated CVE pages.
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
@@ -14,9 +14,9 @@
 | 06 | [AppSec & DevSecOps](appsec.md) | 34 | 5 |
 | 07 | [Cloud & Containers](cloud.md) | 30 | 6 |
 | 08 | [Threat Intel & OSINT](threat-intel.md) | 38 | 3 |
-| 09 | [Cryptography](cryptography.md) | 21 | 4 |
+| 09 | [Cryptography](cryptography.md) | 28 | 4 |
 | 10 | [AI & LLM Security](ai-security.md) | 28 | 4 |
-| 11 | [ICS / OT Security](ics-ot.md) | 14 | 3 |
-| 12 | [GRC & Privacy](grc.md) | 26 | 4 |
-| 13 | [Career & Community](career.md) | 43 | 7 |
+| 11 | [ICS / OT Security](ics-ot.md) | 21 | 3 |
+| 12 | [GRC & Privacy](grc.md) | 33 | 4 |
+| 13 | [Career & Community](career.md) | 47 | 7 |
 | 14 | [CVEs & Vulnerabilities](cves.md) | 18 | 4 |

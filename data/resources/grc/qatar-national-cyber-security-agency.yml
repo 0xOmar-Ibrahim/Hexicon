@@ -1,0 +1,17 @@
+title: "Qatar National Cyber Security Agency"
+url: "https://www.ncsa.gov.qa/"
+type: documentation
+domain: grc
+subdomains: [frameworks]
+level: [beginner, intermediate]
+cost: free
+languages: [ar, en]
+description:
+  en: "Qatar's national cybersecurity agency: policies, standards and awareness."
+  ar: "الوكالة الوطنية للأمن السيبراني في قطر: السياسات والمعايير وبرامج التوعية."
+tags: [qatar, national-standards]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

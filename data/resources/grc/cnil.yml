@@ -1,0 +1,17 @@
+title: "CNIL"
+url: "https://www.cnil.fr/"
+type: documentation
+domain: grc
+subdomains: [privacy]
+level: [beginner, intermediate]
+cost: free
+languages: [fr, en]
+description:
+  en: "France's data protection authority: GDPR guidance, tools and recommendations."
+  fr: "L'autorité française de protection des données : guides RGPD, outils et recommandations."
+tags: [france, gdpr]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

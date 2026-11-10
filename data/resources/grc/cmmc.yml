@@ -1,0 +1,15 @@
+title: "CMMC"
+url: "https://dodcio.defense.gov/CMMC/"
+type: framework
+domain: grc
+subdomains: [compliance]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Cybersecurity Maturity Model Certification programme for US defence contractors."
+tags: [dod, defense-industrial-base]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

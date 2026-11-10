@@ -4,7 +4,7 @@
 
 > ICS/OT-Sicherheit · Sécurité ICS / OT · أمن أنظمة التحكم الصناعي · Безопасность АСУ ТП
 
-**14 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**21 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Industrial Protocols](#protocols) · [SCADA & PLC](#scada) · [Standards (IEC 62443…)](#standards)
 
@@ -14,6 +14,9 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [ICS-pcap](https://github.com/automayt/ICS-pcap) | dataset | I | 🆓 free | Collection of packet captures of industrial protocols for analysis and tool testing. |
+| [Malcolm](https://github.com/cisagov/Malcolm) | tool | I·A | 🆓 free | CISA/INL network traffic analysis suite with strong support for industrial protocols. |
+| [Modbus specifications](https://www.modbus.org/specs.php) | documentation | I | 🆓 free | Official Modbus protocol specifications and implementation guides. |
+| [OPC Foundation security](https://opcfoundation.org/security/) | documentation | I·A | 🆓 free | Security bulletins and guidance for OPC UA from the OPC Foundation. |
 | [pymodbus](https://github.com/pymodbus-dev/pymodbus) | tool | I | 🆓 free | Full Modbus protocol implementation in Python for clients, servers and testing. |
 | [Snap7](https://snap7.sourceforge.net/) | tool | I·A | 🆓 free | Open-source Ethernet communication suite for Siemens S7 PLCs. |
 
@@ -28,6 +31,7 @@
 | [Conpot](https://github.com/mushorg/conpot) | tool | I | 🆓 free | Low-interaction ICS honeypot emulating industrial protocols and devices. |
 | [Dragos Blog](https://www.dragos.com/blog/) | blog | I·A | 🆓 free | OT threat intelligence and research from Dragos. |
 | [GRFICS v2](https://github.com/Fortiphyd/GRFICSv2) | lab | I | 🆓 free | Graphical realism framework for industrial control simulation — a virtual ICS lab with a 3D process. |
+| [Labshock](https://github.com/zakharb/labshock) | lab | B·I | 🆓 free | Ready-to-run ICS/OT security lab with PLC, SCADA, IDS and pentest components. |
 | [OpenPLC](https://autonomylogic.com/) | tool | B·I | 🆓 free | Open-source PLC runtime and editor, widely used to build ICS security labs. |
 
 <a id="standards"></a>
@@ -36,6 +40,9 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | ⭐ [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) | framework | I·A | 🆓 free | ATT&CK matrix describing adversary behaviour against industrial control systems. |
+| [ISA Global Cybersecurity Alliance](https://isagca.org/) | community | B·I | 🆓 free | Industry alliance advancing OT cybersecurity awareness and adoption of ISA/IEC 62443. |
 | [ISA/IEC 62443 series](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards) | framework | I·A | 💲 paid | The international series of standards for securing industrial automation and control systems. |
+| [MITRE EMB3D](https://emb3d.mitre.org/) | framework | I·A | 🆓 free | Threat model for embedded devices in critical infrastructure, mapping device properties to threats and mitigations. |
 | [NIST SP 800-82 Rev. 3: Guide to OT Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final) | framework | I·A | 🆓 free | NIST guidance on securing operational technology while addressing performance and safety requirements. |
+| [Purdue Enterprise Reference Architecture](https://en.wikipedia.org/wiki/Purdue_Enterprise_Reference_Architecture) | article | B | 🆓 free | Overview of the Purdue model, the reference architecture behind OT network segmentation. |
 | [S4 Events](https://s4xevents.com/) | conference | I·A | 💲 paid | Leading conference focused on ICS/OT security. |

@@ -1,0 +1,16 @@
+title: "Labshock"
+url: "https://github.com/zakharb/labshock"
+type: lab
+domain: ics-ot
+subdomains: [scada]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Ready-to-run ICS/OT security lab with PLC, SCADA, IDS and pentest components."
+tags: [ics-lab, plc]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

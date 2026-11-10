@@ -1,0 +1,16 @@
+title: "COBIT"
+url: "https://www.isaca.org/resources/cobit"
+type: framework
+domain: grc
+subdomains: [frameworks]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "ISACA's framework for the governance and management of enterprise IT."
+tags: [it-governance, isaca]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

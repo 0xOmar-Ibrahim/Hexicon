@@ -1,0 +1,16 @@
+title: "smallstep certificates (step-ca)"
+url: "https://github.com/smallstep/certificates"
+type: tool
+domain: cryptography
+subdomains: [pki-tls]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open-source private certificate authority with ACME support for internal PKI."
+tags: [private-ca, acme]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
