@@ -1,0 +1,16 @@
+title: "EMBA"
+url: "https://github.com/e-m-b-a/emba"
+type: tool
+domain: reverse-engineering
+subdomains: [firmware]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Security analyser for embedded device firmware."
+tags: [firmware-analyzer]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

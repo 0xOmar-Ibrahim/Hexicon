@@ -1,0 +1,16 @@
+title: "Binary Ninja"
+url: "https://binary.ninja/"
+type: tool
+domain: reverse-engineering
+subdomains: [binary]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Modern reverse engineering platform with a free cloud version."
+tags: [disassembler, decompiler]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

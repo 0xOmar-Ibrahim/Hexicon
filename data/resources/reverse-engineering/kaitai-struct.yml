@@ -1,0 +1,16 @@
+title: "Kaitai Struct"
+url: "https://kaitai.io/"
+type: tool
+domain: reverse-engineering
+subdomains: [protocol]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Declarative language for describing binary formats and generating parsers."
+tags: [binary-formats, parser]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

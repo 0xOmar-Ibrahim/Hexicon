@@ -1,0 +1,16 @@
+title: "UEFITool"
+url: "https://github.com/LongSoft/UEFITool"
+type: tool
+domain: reverse-engineering
+subdomains: [firmware]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "UEFI firmware image viewer and editor."
+tags: [uefi]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

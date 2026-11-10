@@ -1,0 +1,16 @@
+title: "Practical Binary Analysis"
+url: "https://nostarch.com/binaryanalysis"
+type: book
+domain: reverse-engineering
+subdomains: [binary]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Building Linux tools for binary instrumentation, analysis and disassembly."
+tags: [elf, instrumentation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

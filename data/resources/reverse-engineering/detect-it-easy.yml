@@ -1,0 +1,16 @@
+title: "Detect It Easy"
+url: "https://github.com/horsicq/Detect-It-Easy"
+type: tool
+domain: reverse-engineering
+subdomains: [binary]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Determines file types, compilers and packers."
+tags: [packer-detection]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

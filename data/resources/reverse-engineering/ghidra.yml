@@ -1,0 +1,17 @@
+title: "Ghidra"
+url: "https://ghidra-sre.org/"
+type: tool
+domain: reverse-engineering
+subdomains: [binary, firmware]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Free, open-source software reverse engineering suite with a powerful decompiler."
+tags: [disassembler, decompiler, nsa]
+repo: "https://github.com/NationalSecurityAgency/ghidra"
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

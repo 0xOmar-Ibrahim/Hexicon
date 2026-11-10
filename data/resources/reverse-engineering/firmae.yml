@@ -1,0 +1,16 @@
+title: "FirmAE"
+url: "https://github.com/pr0v3rbs/FirmAE"
+type: tool
+domain: reverse-engineering
+subdomains: [firmware]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Automated framework for emulating and analysing firmware images."
+tags: [emulation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

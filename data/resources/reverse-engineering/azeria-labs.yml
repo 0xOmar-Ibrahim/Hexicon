@@ -1,0 +1,16 @@
+title: "Azeria Labs"
+url: "https://azeria-labs.com/"
+type: blog
+domain: reverse-engineering
+subdomains: [binary]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Tutorials on ARM assembly and ARM reverse engineering."
+tags: [arm, assembly]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

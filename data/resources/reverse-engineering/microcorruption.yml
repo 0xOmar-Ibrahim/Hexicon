@@ -1,0 +1,16 @@
+title: "Microcorruption"
+url: "https://microcorruption.com/"
+type: lab
+domain: reverse-engineering
+subdomains: [firmware, binary]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Embedded security CTF where you reverse engineer firmware on a simulated lock device."
+tags: [embedded, msp430]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

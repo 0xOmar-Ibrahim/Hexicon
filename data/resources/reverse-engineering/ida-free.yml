@@ -1,0 +1,16 @@
+title: "IDA Free"
+url: "https://hex-rays.com/ida-free"
+type: tool
+domain: reverse-engineering
+subdomains: [binary]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Free edition of the industry-standard IDA disassembler with a cloud decompiler."
+tags: [disassembler]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "ILSpy"
+url: "https://github.com/icsharpcode/ILSpy"
+type: tool
+domain: reverse-engineering
+subdomains: [binary]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open-source .NET assembly browser and decompiler."
+tags: [dotnet, decompiler]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

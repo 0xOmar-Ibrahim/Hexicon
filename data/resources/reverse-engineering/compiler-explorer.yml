@@ -1,0 +1,16 @@
+title: "Compiler Explorer"
+url: "https://godbolt.org/"
+type: tool
+domain: reverse-engineering
+subdomains: [binary]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "See the assembly produced by dozens of compilers in real time — great for learning to read assembly."
+tags: [assembly, learning]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

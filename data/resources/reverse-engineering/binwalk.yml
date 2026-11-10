@@ -1,0 +1,16 @@
+title: "binwalk"
+url: "https://github.com/ReFirmLabs/binwalk"
+type: tool
+domain: reverse-engineering
+subdomains: [firmware]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Firmware analysis tool for identifying and extracting embedded files."
+tags: [firmware-extraction]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

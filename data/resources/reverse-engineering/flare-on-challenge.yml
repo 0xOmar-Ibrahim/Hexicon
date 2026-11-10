@@ -1,0 +1,16 @@
+title: "Flare-On Challenge"
+url: "https://flare-on.com/"
+type: ctf
+domain: reverse-engineering
+subdomains: [binary]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Mandiant's annual reverse engineering challenge."
+tags: [mandiant, annual-ctf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

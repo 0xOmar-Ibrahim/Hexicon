@@ -1,0 +1,16 @@
+title: "ImHex"
+url: "https://github.com/WerWolv/ImHex"
+type: tool
+domain: reverse-engineering
+subdomains: [binary, protocol]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Hex editor for reverse engineers with a pattern language for parsing binary formats."
+tags: [hex-editor, patterns]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
