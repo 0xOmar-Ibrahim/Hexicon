@@ -1,0 +1,16 @@
+title: "Infosec Exchange"
+url: "https://infosec.exchange/"
+type: community
+domain: career
+subdomains: [communities]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Large Mastodon instance for the information security community."
+tags: [mastodon]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

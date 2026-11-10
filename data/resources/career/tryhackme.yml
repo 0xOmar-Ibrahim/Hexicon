@@ -1,0 +1,16 @@
+title: "TryHackMe"
+url: "https://tryhackme.com/"
+type: lab
+domain: career
+subdomains: [labs]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Browser-based, gamified security training with guided rooms and learning paths for offense and defense."
+tags: [guided-labs, beginner]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

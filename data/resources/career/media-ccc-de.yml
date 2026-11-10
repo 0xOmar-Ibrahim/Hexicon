@@ -1,0 +1,16 @@
+title: "media.ccc.de"
+url: "https://media.ccc.de/"
+type: video
+domain: career
+subdomains: [conferences]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [de, en]
+description:
+  en: "Free video archive of Chaos Computer Club events including the annual Congress."
+tags: [chaos-computer-club, talks]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

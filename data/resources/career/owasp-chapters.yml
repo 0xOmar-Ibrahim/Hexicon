@@ -1,0 +1,16 @@
+title: "OWASP Chapters"
+url: "https://owasp.org/chapters/"
+type: community
+domain: career
+subdomains: [communities]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Find a local OWASP chapter for free meetups and talks worldwide."
+tags: [meetups, owasp]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

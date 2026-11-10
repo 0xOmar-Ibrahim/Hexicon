@@ -1,0 +1,16 @@
+title: "CISSP"
+url: "https://www.isc2.org/certifications/cissp"
+type: certification
+domain: career
+subdomains: [certifications]
+level: [advanced]
+cost: paid
+languages: [en]
+description:
+  en: "ISC2's senior certification for security leaders and architects."
+tags: [isc2, management]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

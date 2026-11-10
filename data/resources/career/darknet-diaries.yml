@@ -1,0 +1,16 @@
+title: "Darknet Diaries"
+url: "https://darknetdiaries.com/"
+type: podcast
+domain: career
+subdomains: [media]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Jack Rhysider's podcast of true stories from the dark side of the Internet."
+tags: [stories, podcast]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,17 @@
+title: "Root Me"
+url: "https://www.root-me.org/"
+type: lab
+domain: career
+subdomains: [labs, ctf]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [fr, en, de, ru]
+description:
+  en: "French platform with hundreds of challenges and virtual environments across many security topics."
+  fr: "Plateforme française proposant des centaines de challenges et d'environnements virtuels dans de nombreux domaines de la sécurité."
+tags: [challenges, france]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Risky Business"
+url: "https://risky.biz/"
+type: podcast
+domain: career
+subdomains: [media]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Long-running weekly information security news podcast."
+tags: [news, podcast]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

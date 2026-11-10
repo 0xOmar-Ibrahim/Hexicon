@@ -1,0 +1,16 @@
+title: "tl;dr sec"
+url: "https://tldrsec.com/"
+type: newsletter
+domain: career
+subdomains: [media]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Clint Gibler's weekly newsletter curating the best security tools, talks and research."
+tags: [newsletter, appsec, cloud]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

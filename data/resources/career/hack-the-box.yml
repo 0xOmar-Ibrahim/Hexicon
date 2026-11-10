@@ -1,0 +1,16 @@
+title: "Hack The Box"
+url: "https://www.hackthebox.com/"
+type: lab
+domain: career
+subdomains: [labs, ctf]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Hacking labs, machines and challenges used by hundreds of thousands of practitioners."
+tags: [machines, pro-labs]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "ISC2 Certified in Cybersecurity (CC)"
+url: "https://www.isc2.org/certifications/cc"
+type: certification
+domain: career
+subdomains: [certifications]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Entry-level certification from ISC2 covering security principles, operations, networks and access control."
+tags: [entry-level, isc2]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "CompTIA Security+"
+url: "https://www.comptia.org/certifications/security"
+type: certification
+domain: career
+subdomains: [certifications]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "Widely recognised vendor-neutral entry-level security certification."
+tags: [comptia, entry-level]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

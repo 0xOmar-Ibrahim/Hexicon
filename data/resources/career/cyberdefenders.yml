@@ -1,0 +1,16 @@
+title: "CyberDefenders"
+url: "https://cyberdefenders.org/"
+type: lab
+domain: career
+subdomains: [labs]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Blue-team labs for SOC analysts, threat hunters and DFIR professionals."
+tags: [blue-team, dfir]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

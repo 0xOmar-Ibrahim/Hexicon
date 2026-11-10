@@ -1,0 +1,17 @@
+title: "Hackropole"
+url: "https://hackropole.fr/"
+type: ctf
+domain: career
+subdomains: [ctf]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [fr, en]
+description:
+  en: "ANSSI's archive of past France Cybersecurity Challenge (FCSC) tasks, playable any time."
+  fr: "Archive de l'ANSSI des épreuves du France Cybersecurity Challenge (FCSC), jouables à tout moment."
+tags: [anssi, fcsc, archive]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "OSCP (PEN-200)"
+url: "https://www.offsec.com/courses/pen-200/"
+type: certification
+domain: career
+subdomains: [certifications]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "OffSec's hands-on penetration testing course and its well-known proctored practical exam."
+tags: [offsec, pentest]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

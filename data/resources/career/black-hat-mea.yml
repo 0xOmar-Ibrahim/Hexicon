@@ -1,0 +1,16 @@
+title: "Black Hat MEA"
+url: "https://blackhatmea.com/"
+type: conference
+domain: career
+subdomains: [conferences]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en, ar]
+description:
+  en: "Large cybersecurity event in Riyadh, Saudi Arabia, with talks, trainings and CTFs."
+tags: [riyadh, middle-east]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

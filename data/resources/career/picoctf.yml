@@ -1,0 +1,16 @@
+title: "picoCTF"
+url: "https://picoctf.org/"
+type: ctf
+domain: career
+subdomains: [ctf]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Carnegie Mellon's free, beginner-friendly CTF and practice gym."
+tags: [carnegie-mellon, beginner]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

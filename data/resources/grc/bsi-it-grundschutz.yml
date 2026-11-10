@@ -1,0 +1,17 @@
+title: "BSI IT-Grundschutz"
+url: "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [intermediate, advanced]
+cost: free
+languages: [de, en]
+description:
+  en: "The German Federal Office for Information Security's methodology and compendium for building an ISMS."
+  de: "Methodik und Kompendium des Bundesamts für Sicherheit in der Informationstechnik (BSI) zum Aufbau eines ISMS."
+tags: [bsi, germany, isms]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

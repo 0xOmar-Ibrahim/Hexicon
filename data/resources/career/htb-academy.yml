@@ -1,0 +1,16 @@
+title: "HTB Academy"
+url: "https://academy.hackthebox.com/"
+type: course
+domain: career
+subdomains: [labs, certifications]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Hack The Box's structured, module-based training with paths toward its CPTS, CDSA and other certifications."
+tags: [modules, certifications]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

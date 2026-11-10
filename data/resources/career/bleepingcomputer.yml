@@ -1,0 +1,16 @@
+title: "BleepingComputer"
+url: "https://www.bleepingcomputer.com/"
+type: blog
+domain: career
+subdomains: [media]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Technology and security news covering breaches, ransomware and vulnerabilities."
+tags: [news]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

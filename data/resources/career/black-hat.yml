@@ -1,0 +1,15 @@
+title: "Black Hat"
+url: "https://www.blackhat.com/"
+type: conference
+domain: career
+subdomains: [conferences]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Global security conference series with briefings and trainings in the US, Europe, Asia and the Middle East."
+tags: [briefings, trainings]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

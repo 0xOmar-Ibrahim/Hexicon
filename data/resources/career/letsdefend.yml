@@ -1,0 +1,16 @@
+title: "LetsDefend"
+url: "https://letsdefend.io/"
+type: lab
+domain: career
+subdomains: [labs]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Hands-on SOC analyst training platform with a simulated alert queue and real-world cases."
+tags: [soc-simulator, blue-team]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
