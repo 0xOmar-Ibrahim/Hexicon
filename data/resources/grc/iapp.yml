@@ -1,0 +1,16 @@
+title: "IAPP"
+url: "https://iapp.org/"
+type: community
+domain: grc
+subdomains: [privacy]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "The International Association of Privacy Professionals: news, research and CIPP/CIPM certifications."
+tags: [privacy-professionals, cipp]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

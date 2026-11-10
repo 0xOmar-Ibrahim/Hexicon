@@ -1,0 +1,15 @@
+title: "ISO/IEC 27001"
+url: "https://www.iso.org/standard/27001"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "The international standard for information security management systems (ISMS) and the basis of ISO 27001 certification."
+tags: [iso, isms, certification]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

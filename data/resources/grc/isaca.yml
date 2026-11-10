@@ -1,0 +1,16 @@
+title: "ISACA"
+url: "https://www.isaca.org/"
+type: community
+domain: grc
+subdomains: [compliance, risk]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Professional association for IT governance, audit and risk, home of the CISA, CISM and CRISC certifications."
+tags: [cisa, cism, audit]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

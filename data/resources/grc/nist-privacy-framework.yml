@@ -1,0 +1,16 @@
+title: "NIST Privacy Framework"
+url: "https://www.nist.gov/privacy-framework"
+type: framework
+domain: grc
+subdomains: [privacy]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Voluntary tool to help organisations identify and manage privacy risk."
+tags: [privacy, nist]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

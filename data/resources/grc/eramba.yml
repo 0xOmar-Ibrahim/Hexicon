@@ -1,0 +1,16 @@
+title: "eramba"
+url: "https://www.eramba.org/"
+type: tool
+domain: grc
+subdomains: [compliance, risk]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "GRC platform with a free community edition for managing risks, controls, policies and audits."
+tags: [grc-platform]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

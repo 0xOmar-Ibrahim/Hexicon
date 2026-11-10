@@ -1,0 +1,17 @@
+title: "ANSSI — Guides & recommendations"
+url: "https://cyber.gouv.fr/"
+type: documentation
+domain: grc
+subdomains: [frameworks]
+level: [beginner, intermediate]
+cost: free
+languages: [fr, en]
+description:
+  en: "France's national cybersecurity agency: hygiene guides, technical recommendations and certification schemes."
+  fr: "L'agence nationale française de la cybersécurité : guides d'hygiène, recommandations techniques et schémas de certification."
+tags: [anssi, france, hygiene]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

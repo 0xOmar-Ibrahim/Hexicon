@@ -1,0 +1,16 @@
+title: "FAIR Institute"
+url: "https://www.fairinstitute.org/"
+type: framework
+domain: grc
+subdomains: [risk]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Home of Factor Analysis of Information Risk (FAIR), the standard model for quantifying cyber risk in financial terms."
+tags: [quantitative-risk, fair]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

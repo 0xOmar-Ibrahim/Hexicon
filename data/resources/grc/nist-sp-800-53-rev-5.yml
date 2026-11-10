@@ -1,0 +1,16 @@
+title: "NIST SP 800-53 Rev. 5"
+url: "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Comprehensive catalogue of security and privacy controls for information systems and organisations."
+tags: [nist, controls, catalog]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

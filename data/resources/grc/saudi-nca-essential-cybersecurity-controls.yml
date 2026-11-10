@@ -1,0 +1,17 @@
+title: "Saudi NCA — Essential Cybersecurity Controls"
+url: "https://nca.gov.sa/"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [intermediate]
+cost: free
+languages: [ar, en]
+description:
+  en: "Saudi National Cybersecurity Authority: the Essential Cybersecurity Controls (ECC) and related national frameworks."
+  ar: "الهيئة الوطنية للأمن السيبراني في السعودية: الضوابط الأساسية للأمن السيبراني (ECC) والأطر الوطنية ذات الصلة."
+tags: [nca, saudi-arabia, ecc]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

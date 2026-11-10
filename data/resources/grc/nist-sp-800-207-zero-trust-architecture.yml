@@ -1,0 +1,16 @@
+title: "NIST SP 800-207: Zero Trust Architecture"
+url: "https://csrc.nist.gov/pubs/sp/800/207/final"
+type: framework
+domain: grc
+subdomains: [frameworks]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "NIST's foundational definition of zero trust architecture, its components and deployment models."
+tags: [zero-trust, nist]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

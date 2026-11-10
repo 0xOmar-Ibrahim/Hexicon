@@ -1,0 +1,16 @@
+title: "NIST SP 800-30: Guide for Conducting Risk Assessments"
+url: "https://csrc.nist.gov/pubs/sp/800/30/r1/final"
+type: framework
+domain: grc
+subdomains: [risk]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "NIST guidance on preparing for, conducting and maintaining information security risk assessments."
+tags: [risk-assessment, nist]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

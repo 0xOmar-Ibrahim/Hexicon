@@ -1,0 +1,16 @@
+title: "NIST Cybersecurity Framework 2.0"
+url: "https://www.nist.gov/cyberframework"
+type: framework
+domain: grc
+subdomains: [frameworks, risk]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "NIST's widely adopted framework for managing cybersecurity risk, organised into Govern, Identify, Protect, Detect, Respond and Recover."
+tags: [nist, csf, governance]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

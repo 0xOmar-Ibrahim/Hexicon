@@ -1,0 +1,16 @@
+title: "GDPR (full text, gdpr-info.eu)"
+url: "https://gdpr-info.eu/"
+type: documentation
+domain: grc
+subdomains: [privacy, compliance]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Searchable, well-structured text of the EU General Data Protection Regulation with recitals."
+tags: [gdpr, eu, regulation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

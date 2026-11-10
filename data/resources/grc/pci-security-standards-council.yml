@@ -1,0 +1,16 @@
+title: "PCI Security Standards Council"
+url: "https://www.pcisecuritystandards.org/"
+type: framework
+domain: grc
+subdomains: [compliance]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Official source of PCI DSS and related standards for protecting payment card data."
+tags: [pci-dss, payments]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

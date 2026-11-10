@@ -1,0 +1,16 @@
+title: "Cloud Security Alliance — Cloud Controls Matrix"
+url: "https://cloudsecurityalliance.org/research/cloud-controls-matrix"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Cybersecurity control framework for cloud computing mapped to major standards."
+tags: [csa, ccm, cloud]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "NCSC Cyber Assessment Framework"
+url: "https://www.ncsc.gov.uk/collection/cyber-assessment-framework"
+type: framework
+domain: grc
+subdomains: [frameworks]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "The UK NCSC's outcome-based framework for assessing how well essential functions are protected."
+tags: [ncsc, uk, caf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

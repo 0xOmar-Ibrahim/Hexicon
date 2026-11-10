@@ -1,0 +1,16 @@
+title: "Secure Controls Framework"
+url: "https://securecontrolsframework.com/"
+type: framework
+domain: grc
+subdomains: [frameworks, compliance]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Free meta-framework that maps controls across 100+ laws, regulations and frameworks."
+tags: [control-mapping]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
