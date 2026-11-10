@@ -1,0 +1,16 @@
+title: "Android Security Internals"
+url: "https://nostarch.com/androidsecurity"
+type: book
+domain: offensive
+subdomains: [mobile]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Nikolay Elenkov's in-depth guide to Android's security architecture."
+tags: [android, internals, book]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

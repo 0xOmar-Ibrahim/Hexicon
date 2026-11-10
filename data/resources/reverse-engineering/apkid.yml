@@ -1,0 +1,16 @@
+title: "APKiD"
+url: "https://github.com/rednaga/APKiD"
+type: tool
+domain: reverse-engineering
+subdomains: [mobile-re]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Identifies packers, protectors, obfuscators and compilers used in Android apps."
+tags: [android, packers, obfuscation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

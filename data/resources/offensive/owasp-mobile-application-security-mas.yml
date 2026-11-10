@@ -1,0 +1,16 @@
+title: "OWASP Mobile Application Security (MAS)"
+url: "https://mas.owasp.org/"
+type: framework
+domain: offensive
+subdomains: [mobile]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Home of the OWASP MAS project: MASVS, MASTG and the MAS checklist for mobile app security."
+tags: [android, ios, owasp]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

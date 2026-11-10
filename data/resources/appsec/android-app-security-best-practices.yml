@@ -1,0 +1,16 @@
+title: "Android app security best practices"
+url: "https://developer.android.com/privacy-and-security/security-tips"
+type: documentation
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Google's official guidance for Android developers on secure storage, permissions, networking and IPC."
+tags: [android, developers, google]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

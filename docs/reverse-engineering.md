@@ -4,7 +4,7 @@
 
 > Reverse Engineering · Rétro-ingénierie · الهندسة العكسية · Реверс-инжиниринг
 
-**30 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**34 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Binary Analysis](#binary) · [Firmware](#firmware) · [Mobile App RE](#mobile-re) · [Protocol RE](#protocol)
 
@@ -51,8 +51,12 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| [Androguard](https://github.com/androguard/androguard) | tool | I·A | 🆓 free | Python tool and library for reverse engineering and analysing Android applications. |
+| [APKiD](https://github.com/rednaga/APKiD) | tool | B·I | 🆓 free | Identifies packers, protectors, obfuscators and compilers used in Android apps. |
 | [Apktool](https://apktool.org/) | tool | B·I | 🆓 free | Tool for reverse engineering Android APK files. |
+| [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer) | tool | B·I | 🆓 free | Java/Android reverse engineering suite combining several decompilers in one GUI. |
 | [JADX](https://github.com/skylot/jadx) | tool | B·I | 🆓 free | Dex to Java decompiler with a GUI for Android apps. |
+| [reFlutter](https://github.com/Impact-I/reFlutter) | tool | A | 🆓 free | Framework that helps reverse engineer Flutter apps by patching the Flutter engine. |
 
 <a id="protocol"></a>
 ## Protocol RE

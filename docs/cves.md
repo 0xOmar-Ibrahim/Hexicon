@@ -4,7 +4,7 @@
 
 > CVEs & Schwachstellen · CVE & vulnérabilités · الثغرات المعروفة (CVE) · CVE и уязвимости
 
-**17 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**18 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Named Vulnerabilities](#named) · [Known Exploited (CISA KEV)](#kev) · [Vulnerability Databases & Feeds](#vuln-db) · [Vulnerability Management](#vuln-mgmt)
 
@@ -28,6 +28,7 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| [Android Security Bulletins](https://source.android.com/docs/security/bulletin) | news | B·I | 🆓 free | Monthly bulletins listing Android platform vulnerabilities and their patches. |
 | [CERT-FR](https://www.cert.ssi.gouv.fr/) | news | B·I | 🆓 free | French government CERT publishing alerts and advisories. |
 | [CVE.org](https://www.cve.org/) | dataset | B | 🆓 free | Official site of the CVE Program, the authoritative catalogue of CVE identifiers. |
 | [cvelistV5](https://github.com/CVEProject/cvelistV5) | dataset | I·A | 🆓 free | All CVE records in JSON 5 format, updated continuously — ideal for automation. |

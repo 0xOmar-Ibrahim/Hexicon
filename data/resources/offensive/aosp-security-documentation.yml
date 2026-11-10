@@ -1,0 +1,16 @@
+title: "AOSP Security documentation"
+url: "https://source.android.com/docs/security"
+type: documentation
+domain: offensive
+subdomains: [mobile]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Official Android Open Source Project documentation on the platform security model, app sandbox, SELinux and verified boot."
+tags: [android, platform-security]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

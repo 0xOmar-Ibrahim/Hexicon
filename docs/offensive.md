@@ -4,7 +4,7 @@
 
 > Offensive Sicherheit · Sécurité offensive · الأمن الهجومي · Наступательная безопасность
 
-**73 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**85 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Web Application Pentesting](#web) · [API Security Testing](#api) · [Network Pentesting](#network) · [Active Directory](#active-directory) · [Red Teaming & C2](#red-team) · [Exploit Development](#exploit-dev) · [Mobile Pentesting](#mobile) · [Wireless](#wireless) · [Hardware & IoT](#hardware-iot) · [Social Engineering](#social-engineering) · [Password Attacks](#password-attacks)
 
@@ -103,11 +103,23 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| ⭐ [OWASP Mobile Application Security (MAS)](https://mas.owasp.org/) | framework | B·I·A | 🆓 free | Home of the OWASP MAS project: MASVS, MASTG and the MAS checklist for mobile app security. |
+| [Allsafe](https://github.com/t0thkr1s/allsafe) | lab | B·I | 🆓 free | Intentionally vulnerable Android app covering common flaws, with Frida and native-code challenges. |
 | [Android InsecureBankv2](https://github.com/dineshshetty/Android-InsecureBankv2) | lab | B | 🆓 free | Vulnerable Android application for learning mobile security testing. |
+| [Android Security Internals](https://nostarch.com/androidsecurity) | book | I·A | 💲 paid | Nikolay Elenkov's in-depth guide to Android's security architecture. |
+| [AOSP Security documentation](https://source.android.com/docs/security) | documentation | I·A | 🆓 free | Official Android Open Source Project documentation on the platform security model, app sandbox, SELinux and verified boot. |
+| [apk-mitm](https://github.com/niklashigi/apk-mitm) | tool | B·I | 🆓 free | Prepares Android APKs for HTTPS inspection by patching certificate pinning and network security config. |
+| [APKLeaks](https://github.com/dwisiswant0/apkleaks) | tool | B | 🆓 free | Scans APK files for URIs, endpoints and hard-coded secrets. |
+| [DIVA Android](https://github.com/payatu/diva-android) | lab | B | 🆓 free | Damn Insecure and Vulnerable App for learning insecure storage, input validation and other Android flaws. |
+| [Drozer](https://github.com/WithSecureLabs/drozer) | tool | I | 🆓 free | Security assessment framework for Android that tests exported activities, services, providers and IPC. |
+| [EVABS](https://github.com/abhi-r3v0/EVABS) | lab | B | 🆓 free | Extremely Vulnerable Android Labs — beginner-friendly Android security challenges. |
 | [Frida](https://frida.re/) | tool | I·A | 🆓 free | Dynamic instrumentation toolkit for hooking and tracing apps on Android, iOS, Windows, macOS and Linux. |
+| [InjuredAndroid](https://github.com/B3nac/InjuredAndroid) | lab | B·I | 🆓 free | Vulnerable Android app with CTF-style flags covering deep links, intents, Firebase and more. |
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | tool | B·I | 🆓 free | Automated, all-in-one mobile app pentesting and analysis framework for Android and iOS. |
 | [objection](https://github.com/sensepost/objection) | tool | I | 🆓 free | Runtime mobile exploration toolkit powered by Frida. |
 | [OWASP MASTG](https://mas.owasp.org/MASTG/) | framework | I·A | 🆓 free | OWASP Mobile Application Security Testing Guide — the reference manual for mobile app security testing. |
+| [OWASP MASTG Hacking Playground](https://github.com/OWASP/MASTG-Hacking-Playground) | lab | B·I | 🆓 free | OWASP collection of iOS and Android apps with vulnerabilities for practising the MASTG test cases. |
+| [OWASP MASTG on GitHub](https://github.com/OWASP/mastg) | documentation | I·A | 🆓 free | Source of the Mobile Application Security Testing Guide, with test cases, techniques and tools. |
 | [OWASP MASVS](https://mas.owasp.org/MASVS/) | framework | B·I | 🆓 free | Industry standard for mobile app security requirements. |
 
 <a id="wireless"></a>

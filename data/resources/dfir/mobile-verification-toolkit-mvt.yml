@@ -1,0 +1,16 @@
+title: "Mobile Verification Toolkit (MVT)"
+url: "https://github.com/mvt-project/mvt"
+type: tool
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Amnesty International's toolkit for finding traces of spyware on Android and iOS devices."
+tags: [spyware, android, ios, amnesty]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

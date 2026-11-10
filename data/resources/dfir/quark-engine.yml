@@ -1,0 +1,16 @@
+title: "Quark-Engine"
+url: "https://github.com/quark-engine/quark-engine"
+type: tool
+domain: dfir
+subdomains: [malware-analysis]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Android malware analysis tool that scores apps based on suspicious behaviour rules."
+tags: [android, malware-scoring]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

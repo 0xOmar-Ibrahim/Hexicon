@@ -1,0 +1,16 @@
+title: "OWASP MASTG Hacking Playground"
+url: "https://github.com/OWASP/MASTG-Hacking-Playground"
+type: lab
+domain: offensive
+subdomains: [mobile]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OWASP collection of iOS and Android apps with vulnerabilities for practising the MASTG test cases."
+tags: [android, ios, vulnerable-app]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

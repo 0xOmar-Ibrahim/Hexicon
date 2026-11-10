@@ -1,0 +1,16 @@
+title: "Allsafe"
+url: "https://github.com/t0thkr1s/allsafe"
+type: lab
+domain: offensive
+subdomains: [mobile]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Intentionally vulnerable Android app covering common flaws, with Frida and native-code challenges."
+tags: [android, vulnerable-app]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

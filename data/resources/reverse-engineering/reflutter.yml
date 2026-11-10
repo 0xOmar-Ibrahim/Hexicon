@@ -1,0 +1,16 @@
+title: "reFlutter"
+url: "https://github.com/Impact-I/reFlutter"
+type: tool
+domain: reverse-engineering
+subdomains: [mobile-re]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Framework that helps reverse engineer Flutter apps by patching the Flutter engine."
+tags: [flutter, android, ios]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

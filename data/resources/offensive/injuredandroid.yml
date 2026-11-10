@@ -1,0 +1,16 @@
+title: "InjuredAndroid"
+url: "https://github.com/B3nac/InjuredAndroid"
+type: lab
+domain: offensive
+subdomains: [mobile]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Vulnerable Android app with CTF-style flags covering deep links, intents, Firebase and more."
+tags: [android, ctf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

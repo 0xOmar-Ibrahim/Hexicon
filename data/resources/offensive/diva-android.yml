@@ -1,0 +1,16 @@
+title: "DIVA Android"
+url: "https://github.com/payatu/diva-android"
+type: lab
+domain: offensive
+subdomains: [mobile]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Damn Insecure and Vulnerable App for learning insecure storage, input validation and other Android flaws."
+tags: [android, vulnerable-app]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "APKLeaks"
+url: "https://github.com/dwisiswant0/apkleaks"
+type: tool
+domain: offensive
+subdomains: [mobile]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Scans APK files for URIs, endpoints and hard-coded secrets."
+tags: [android, secrets, endpoints]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

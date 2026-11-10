@@ -4,7 +4,7 @@
 
 > DFIR & Malware · DFIR & logiciels malveillants · التحقيق الجنائي والبرمجيات الخبيثة · DFIR и вредоносное ПО
 
-**35 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**39 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Digital Forensics](#digital-forensics) · [Memory Forensics](#memory-forensics) · [Incident Response](#incident-response) · [Malware Analysis](#malware-analysis)
 
@@ -13,12 +13,15 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| ⭐ [Mobile Verification Toolkit (MVT)](https://github.com/mvt-project/mvt) | tool | I·A | 🆓 free | Amnesty International's toolkit for finding traces of spyware on Android and iOS devices. |
 | [13Cubed](https://www.youtube.com/@13Cubed) | youtube-channel | B·I | 🆓 free | Richard Davis' YouTube channel on digital forensics and incident response. |
 | [AboutDFIR](https://aboutdfir.com/) | community | B·I | 🆓 free | Community resource hub for DFIR tools, challenges, jobs and education. |
+| [ALEAPP](https://github.com/abrignoni/ALEAPP) | tool | I | 🆓 free | Android Logs, Events And Protobuf Parser — parses Android forensic artifacts into reports. |
 | [Autopsy](https://www.autopsy.com/) | tool | B·I | 🆓 free | Open-source digital forensics platform and graphical interface to The Sleuth Kit. |
 | [DFIR Diva](https://dfirdiva.com/) | blog | B | 🆓 free | Curated lists of free and affordable DFIR training and career advice. |
 | [Eric Zimmerman's Tools](https://ericzimmerman.github.io/) | tool | I·A | 🆓 free | Widely used free tools for parsing Windows artifacts such as registry, prefetch, LNK and event logs. |
 | [Hindsight](https://github.com/obsidianforensics/hindsight) | tool | I | 🆓 free | Web browser forensics for Google Chrome and Chromium-based browsers. |
+| [iLEAPP](https://github.com/abrignoni/iLEAPP) | tool | I | 🆓 free | iOS Logs, Events And Plists Parser for mobile forensic investigations. |
 | [KAPE Files](https://github.com/EricZimmerman/KapeFiles) | tool | I | 🆓 free | Community targets and modules for KAPE triage collection and processing. |
 | [Plaso (log2timeline)](https://github.com/log2timeline/plaso) | tool | I | 🆓 free | Extracts timestamps from many artifact types to build super timelines. |
 | [RegRipper 3.0](https://github.com/keydet89/RegRipper3.0) | tool | I | 🆓 free | Harlan Carvey's tool for extracting forensic data from Windows registry hives. |
@@ -62,6 +65,7 @@
 | [Malware Unicorn Workshops](https://malwareunicorn.org/) | course | B·I | 🆓 free | Free reverse engineering and malware analysis workshops by Amanda Rousseau. |
 | [OALabs](https://www.youtube.com/@OALabs) | youtube-channel | A | 🆓 free | Video tutorials on malware reverse engineering and unpacking. |
 | [Practical Malware Analysis](https://nostarch.com/malware) | book | I | 💲 paid | The hands-on classic guide to dissecting malicious software. |
+| [Quark-Engine](https://github.com/quark-engine/quark-engine) | tool | I | 🆓 free | Android malware analysis tool that scores apps based on suspicious behaviour rules. |
 | [REMnux](https://remnux.org/) | tool | I·A | 🆓 free | Linux toolkit for reverse-engineering and analysing malicious software. |
 | [signature-base (Florian Roth)](https://github.com/Neo23x0/signature-base) | dataset | I | 🆓 free | Large collection of YARA rules and IOCs used by the LOKI and THOR scanners. |
 | [VirusTotal](https://www.virustotal.com/) | tool | B | ◐ freemium | Analyses files and URLs with dozens of engines and threat intelligence. |

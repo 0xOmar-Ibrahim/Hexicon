@@ -2,16 +2,16 @@
 
 # Hexicon library index
 
-**405 resources** across 14 domains, plus 18 curated CVE pages.
+**427 resources** across 14 domains, plus 18 curated CVE pages.
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
 | 01 | [Fundamentals](fundamentals.md) | 32 | 6 |
-| 02 | [Offensive Security](offensive.md) | 73 | 11 |
+| 02 | [Offensive Security](offensive.md) | 85 | 11 |
 | 03 | [Defensive Security](defensive.md) | 0 | 7 |
-| 04 | [DFIR & Malware](dfir.md) | 35 | 4 |
-| 05 | [Reverse Engineering](reverse-engineering.md) | 30 | 4 |
-| 06 | [AppSec & DevSecOps](appsec.md) | 32 | 5 |
+| 04 | [DFIR & Malware](dfir.md) | 39 | 4 |
+| 05 | [Reverse Engineering](reverse-engineering.md) | 34 | 4 |
+| 06 | [AppSec & DevSecOps](appsec.md) | 33 | 5 |
 | 07 | [Cloud & Containers](cloud.md) | 29 | 6 |
 | 08 | [Threat Intel & OSINT](threat-intel.md) | 33 | 3 |
 | 09 | [Cryptography](cryptography.md) | 20 | 4 |
@@ -19,4 +19,4 @@
 | 11 | [ICS / OT Security](ics-ot.md) | 14 | 3 |
 | 12 | [GRC & Privacy](grc.md) | 24 | 4 |
 | 13 | [Career & Community](career.md) | 38 | 7 |
-| 14 | [CVEs & Vulnerabilities](cves.md) | 17 | 4 |
+| 14 | [CVEs & Vulnerabilities](cves.md) | 18 | 4 |
