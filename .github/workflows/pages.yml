@@ -1,9 +1,8 @@
 name: Deploy website
 
+# Manual for now: run it from the Actions tab once GitHub Pages is enabled
+# (Settings → Pages → Source: GitHub Actions). Re-enable `push` later for auto-deploys.
 on:
-  push:
-    branches: [main]
-    paths: ["site/**", "data/**", "i18n/**", "scripts/build-site.mjs", "package.json", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
