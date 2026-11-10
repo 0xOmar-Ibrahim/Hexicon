@@ -1,0 +1,16 @@
+title: "Practical Packet Analysis, 3rd Edition"
+url: "https://nostarch.com/packetanalysis3"
+type: book
+domain: defensive
+subdomains: [network-defense]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "Chris Sanders' introduction to analysing real-world network traffic with Wireshark."
+tags: [wireshark, book]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

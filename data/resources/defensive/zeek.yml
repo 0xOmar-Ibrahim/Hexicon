@@ -1,0 +1,15 @@
+title: "Zeek"
+url: "https://zeek.org/"
+type: tool
+domain: defensive
+subdomains: [network-defense]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Powerful network analysis framework that turns traffic into rich, structured logs."
+tags: [nsm, network-logs]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

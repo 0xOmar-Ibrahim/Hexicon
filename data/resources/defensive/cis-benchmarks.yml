@@ -1,0 +1,16 @@
+title: "CIS Benchmarks"
+url: "https://www.cisecurity.org/cis-benchmarks"
+type: framework
+domain: defensive
+subdomains: [hardening]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Consensus-based secure configuration guides for operating systems, cloud, network devices and applications."
+tags: [configuration, baselines]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

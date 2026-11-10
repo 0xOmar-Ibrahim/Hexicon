@@ -1,0 +1,16 @@
+title: "Sysmon"
+url: "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon"
+type: tool
+domain: defensive
+subdomains: [detection-engineering, siem]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Microsoft Sysinternals service that logs detailed process, network and file activity to the Windows event log."
+tags: [windows, telemetry]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

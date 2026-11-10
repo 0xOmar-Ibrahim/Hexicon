@@ -1,0 +1,17 @@
+title: "MITRE Caldera"
+url: "https://caldera.mitre.org/"
+type: tool
+domain: defensive
+subdomains: [purple-team]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "MITRE's automated adversary emulation platform for testing defenses."
+tags: [adversary-emulation]
+repo: "https://github.com/mitre/caldera"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

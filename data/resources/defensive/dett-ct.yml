@@ -1,0 +1,16 @@
+title: "DeTT&CT"
+url: "https://github.com/rabobank-cdc/DeTTECT"
+type: tool
+domain: defensive
+subdomains: [detection-engineering, purple-team]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Framework to score and visualise data-source quality and detection coverage against ATT&CK."
+tags: [coverage, att&ck]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

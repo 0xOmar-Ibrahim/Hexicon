@@ -1,0 +1,16 @@
+title: "VECTR"
+url: "https://github.com/SecurityRiskAdvisors/VECTR"
+type: tool
+domain: defensive
+subdomains: [purple-team]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Tracks red/purple team test cases and detection outcomes over time."
+tags: [tracking, metrics]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

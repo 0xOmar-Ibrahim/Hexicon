@@ -1,0 +1,16 @@
+title: "Security Onion"
+url: "https://securityonionsolutions.com/"
+type: tool
+domain: defensive
+subdomains: [siem, network-defense]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Free Linux platform for threat hunting, network security monitoring and log management."
+tags: [nsm, siem, distribution]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

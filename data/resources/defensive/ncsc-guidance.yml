@@ -1,0 +1,16 @@
+title: "NCSC guidance"
+url: "https://www.ncsc.gov.uk/section/advice-guidance/all-topics"
+type: documentation
+domain: defensive
+subdomains: [hardening]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "The UK National Cyber Security Centre's practical guidance for organisations and individuals."
+tags: [uk, ncsc, guidance]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

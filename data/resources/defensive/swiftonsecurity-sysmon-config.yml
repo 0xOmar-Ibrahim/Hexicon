@@ -1,0 +1,16 @@
+title: "SwiftOnSecurity sysmon-config"
+url: "https://github.com/SwiftOnSecurity/sysmon-config"
+type: tool
+domain: defensive
+subdomains: [detection-engineering]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Widely used, well-commented Sysmon configuration template."
+tags: [sysmon, config]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

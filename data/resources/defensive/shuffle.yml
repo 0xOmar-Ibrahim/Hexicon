@@ -1,0 +1,17 @@
+title: "Shuffle"
+url: "https://shuffler.io/"
+type: tool
+domain: defensive
+subdomains: [soc]
+level: [intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Open-source SOAR platform for automating security workflows and alert handling."
+tags: [soar, automation]
+repo: "https://github.com/Shuffle/Shuffle"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "SANS Institute"
+url: "https://www.sans.org/"
+type: course
+domain: defensive
+subdomains: [soc, detection-engineering]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Security training and research organisation; free webcasts, white papers, posters and summits alongside paid courses."
+tags: [training, webcasts]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

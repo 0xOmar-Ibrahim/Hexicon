@@ -1,0 +1,16 @@
+title: "Elastic Detection Rules"
+url: "https://github.com/elastic/detection-rules"
+type: dataset
+domain: defensive
+subdomains: [detection-engineering]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Elastic's open detection rules for Elastic Security, mapped to ATT&CK, with tooling for testing them."
+tags: [elastic, rules, att&ck]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

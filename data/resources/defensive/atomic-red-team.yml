@@ -1,0 +1,16 @@
+title: "Atomic Red Team"
+url: "https://github.com/redcanaryco/atomic-red-team"
+type: tool
+domain: defensive
+subdomains: [purple-team, detection-engineering]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Library of small, ATT&CK-mapped tests to validate that your detections fire."
+tags: [att&ck, tests]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

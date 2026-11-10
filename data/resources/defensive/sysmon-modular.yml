@@ -1,0 +1,16 @@
+title: "sysmon-modular"
+url: "https://github.com/olafhartong/sysmon-modular"
+type: tool
+domain: defensive
+subdomains: [detection-engineering]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Modular, ATT&CK-mapped Sysmon configuration that is easy to tailor."
+tags: [sysmon, config, att&ck]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,15 @@
+title: "NSA Cybersecurity guidance"
+url: "https://www.nsa.gov/Cybersecurity/"
+type: documentation
+domain: defensive
+subdomains: [hardening, network-defense]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "NSA cybersecurity advisories, technical guidance and hardening recommendations."
+tags: [nsa, advisories, hardening]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

@@ -1,0 +1,16 @@
+title: "The Practice of Network Security Monitoring"
+url: "https://nostarch.com/nsm"
+type: book
+domain: defensive
+subdomains: [network-defense, soc]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Richard Bejtlich's guide to detecting and responding to intrusions through network security monitoring."
+tags: [nsm, book]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

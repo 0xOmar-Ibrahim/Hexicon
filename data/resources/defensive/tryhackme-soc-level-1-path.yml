@@ -1,0 +1,15 @@
+title: "TryHackMe: SOC Level 1 path"
+url: "https://tryhackme.com/path/outline/soclevel1"
+type: course
+domain: defensive
+subdomains: [soc]
+level: [beginner]
+cost: freemium
+languages: [en]
+description:
+  en: "Hands-on learning path covering the tools and workflows of a junior SOC analyst."
+tags: [soc-analyst, training]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

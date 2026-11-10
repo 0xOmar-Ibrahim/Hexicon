@@ -1,0 +1,16 @@
+title: "Elastic Security documentation"
+url: "https://www.elastic.co/guide/en/security/current/index.html"
+type: documentation
+domain: defensive
+subdomains: [siem]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Official documentation for Elastic Security's SIEM, endpoint and detection features."
+tags: [elastic, siem]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -2,13 +2,13 @@
 
 # Hexicon library index
 
-**427 resources** across 14 domains, plus 18 curated CVE pages.
+**472 resources** across 14 domains, plus 18 curated CVE pages.
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
 | 01 | [Fundamentals](fundamentals.md) | 32 | 6 |
 | 02 | [Offensive Security](offensive.md) | 85 | 11 |
-| 03 | [Defensive Security](defensive.md) | 0 | 7 |
+| 03 | [Defensive Security](defensive.md) | 45 | 7 |
 | 04 | [DFIR & Malware](dfir.md) | 39 | 4 |
 | 05 | [Reverse Engineering](reverse-engineering.md) | 34 | 4 |
 | 06 | [AppSec & DevSecOps](appsec.md) | 33 | 5 |

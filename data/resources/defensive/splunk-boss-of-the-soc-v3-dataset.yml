@@ -1,0 +1,16 @@
+title: "Splunk Boss of the SOC v3 dataset"
+url: "https://github.com/splunk/botsv3"
+type: dataset
+domain: defensive
+subdomains: [siem, soc]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Realistic security dataset from Splunk's Boss of the SOC competition for practising investigations."
+tags: [splunk, ctf, dataset]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

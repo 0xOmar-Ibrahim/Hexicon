@@ -1,0 +1,16 @@
+title: "Wazuh"
+url: "https://wazuh.com/"
+type: tool
+domain: defensive
+subdomains: [siem, soc]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Free, open-source security platform for SIEM, XDR, file integrity monitoring and compliance."
+tags: [xdr, siem, open-source]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "CISA"
+url: "https://www.cisa.gov/"
+type: documentation
+domain: defensive
+subdomains: [soc, hardening]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "US Cybersecurity and Infrastructure Security Agency: advisories, free services, tools and guidance."
+tags: [cisa, advisories]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

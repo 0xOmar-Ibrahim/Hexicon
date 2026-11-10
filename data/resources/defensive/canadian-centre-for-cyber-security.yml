@@ -1,0 +1,17 @@
+title: "Canadian Centre for Cyber Security"
+url: "https://www.cyber.gc.ca/en"
+type: documentation
+domain: defensive
+subdomains: [hardening]
+level: [beginner, intermediate]
+cost: free
+languages: [en, fr]
+description:
+  en: "Canada's national authority on cybersecurity: guidance, alerts and advisories."
+  fr: "L'autorité nationale canadienne en matière de cybersécurité : conseils, alertes et avis."
+tags: [canada, guidance]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

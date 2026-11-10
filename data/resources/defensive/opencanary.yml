@@ -1,0 +1,16 @@
+title: "OpenCanary"
+url: "https://github.com/thinkst/opencanary"
+type: tool
+domain: defensive
+subdomains: [soc, network-defense]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Lightweight multi-protocol network honeypot that alerts on suspicious connections."
+tags: [honeypot, deception]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,15 @@
+title: "TheHive"
+url: "https://strangebee.com/thehive/"
+type: tool
+domain: defensive
+subdomains: [soc]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Security incident response platform for case management and collaboration between SOC analysts."
+tags: [case-management, incident-tracking]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Microsoft Sentinel content"
+url: "https://github.com/Azure/Azure-Sentinel"
+type: dataset
+domain: defensive
+subdomains: [detection-engineering, siem]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Official repository of Microsoft Sentinel analytics rules, hunting queries, workbooks and playbooks."
+tags: [sentinel, kql, hunting]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "RITA"
+url: "https://github.com/activecm/rita"
+type: tool
+domain: defensive
+subdomains: [network-defense, threat-hunting]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Real Intelligence Threat Analytics: detects beaconing, long connections and DNS tunnelling from Zeek logs."
+tags: [beaconing, zeek]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

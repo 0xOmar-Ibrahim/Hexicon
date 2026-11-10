@@ -4,41 +4,93 @@
 
 > Defensive Sicherheit · Sécurité défensive · الأمن الدفاعي · Оборонительная безопасность
 
-**0 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**45 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [SOC Operations](#soc) · [Detection Engineering](#detection-engineering) · [Threat Hunting](#threat-hunting) · [SIEM & Log Analysis](#siem) · [System Hardening](#hardening) · [Network Defense](#network-defense) · [Purple Teaming](#purple-team)
 
 <a id="soc"></a>
 ## SOC Operations
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [Canarytokens](https://canarytokens.org/) | tool | B | 🆓 free | Free tripwires (documents, URLs, AWS keys and more) that alert you the moment an attacker touches them. |
+| [CISA](https://www.cisa.gov/) | documentation | B·I·A | 🆓 free | US Cybersecurity and Infrastructure Security Agency: advisories, free services, tools and guidance. |
+| [OpenCanary](https://github.com/thinkst/opencanary) | tool | I | 🆓 free | Lightweight multi-protocol network honeypot that alerts on suspicious connections. |
+| [SANS Institute](https://www.sans.org/) | course | B·I·A | ◐ freemium | Security training and research organisation; free webcasts, white papers, posters and summits alongside paid courses. |
+| [Shuffle](https://shuffler.io/) | tool | I | ◐ freemium | Open-source SOAR platform for automating security workflows and alert handling. |
+| [SOC-CMM](https://www.soc-cmm.com/) | framework | I·A | 🆓 free | Capability maturity model and self-assessment tool for security operations centres. |
+| [TheHive](https://strangebee.com/thehive/) | tool | B·I | ◐ freemium | Security incident response platform for case management and collaboration between SOC analysts. |
+| [TryHackMe: SOC Level 1 path](https://tryhackme.com/path/outline/soclevel1) | course | B | ◐ freemium | Hands-on learning path covering the tools and workflows of a junior SOC analyst. |
 
 <a id="detection-engineering"></a>
 ## Detection Engineering
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) | tool | B·I | 🆓 free | Microsoft Sysinternals service that logs detailed process, network and file activity to the Windows event log. |
+| [Detection Engineering Weekly](https://www.detectionengineering.net/) | newsletter | I·A | 🆓 free | Weekly newsletter on detection engineering research, rules and practices. |
+| [DeTT&CT](https://github.com/rabobank-cdc/DeTTECT) | tool | I·A | 🆓 free | Framework to score and visualise data-source quality and detection coverage against ATT&CK. |
+| [Elastic Detection Rules](https://github.com/elastic/detection-rules) | dataset | I·A | 🆓 free | Elastic's open detection rules for Elastic Security, mapped to ATT&CK, with tooling for testing them. |
+| [LOLDrivers](https://www.loldrivers.io/) | dataset | I·A | 🆓 free | Curated list of vulnerable and malicious Windows drivers with detection resources. |
+| [Microsoft Sentinel content](https://github.com/Azure/Azure-Sentinel) | dataset | I·A | 🆓 free | Official repository of Microsoft Sentinel analytics rules, hunting queries, workbooks and playbooks. |
+| [Splunk Security Content](https://research.splunk.com/) | dataset | I·A | 🆓 free | Splunk's library of detections, analytic stories and playbooks mapped to ATT&CK. |
+| [SwiftOnSecurity sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) | tool | B | 🆓 free | Widely used, well-commented Sysmon configuration template. |
+| [sysmon-modular](https://github.com/olafhartong/sysmon-modular) | tool | I | 🆓 free | Modular, ATT&CK-mapped Sysmon configuration that is easy to tailor. |
 
 <a id="threat-hunting"></a>
 ## Threat Hunting
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) | tool | B | 🆓 free | PowerShell module for threat hunting through Windows event logs. |
+| [Takajo](https://github.com/Yamato-Security/takajo) | tool | I | 🆓 free | Analyser for Hayabusa results that helps triage and hunt across large timelines. |
+| [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting) | documentation | B·I | 🆓 free | Collection of hunting ideas, procedures and resources. |
+| [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) | framework | I·A | 🆓 free | Community playbook of hunting analytics and Jupyter notebooks based on adversary techniques. |
 
 <a id="siem"></a>
 ## SIEM & Log Analysis
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [Wazuh](https://wazuh.com/) | tool | B·I | 🆓 free | Free, open-source security platform for SIEM, XDR, file integrity monitoring and compliance. |
+| [Elastic Security documentation](https://www.elastic.co/guide/en/security/current/index.html) | documentation | B·I | 🆓 free | Official documentation for Elastic Security's SIEM, endpoint and detection features. |
+| [Must Learn KQL](https://github.com/rod-trent/MustLearnKQL) | course | B | 🆓 free | Free series teaching the Kusto Query Language used by Microsoft Sentinel and Defender. |
+| [Security Onion](https://securityonionsolutions.com/) | tool | B·I | 🆓 free | Free Linux platform for threat hunting, network security monitoring and log management. |
+| [Splunk Boss of the SOC v3 dataset](https://github.com/splunk/botsv3) | dataset | I | 🆓 free | Realistic security dataset from Splunk's Boss of the SOC competition for practising investigations. |
 
 <a id="hardening"></a>
 ## System Hardening
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | framework | B·I | 🆓 free | Consensus-based secure configuration guides for operating systems, cloud, network devices and applications. |
+| [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/en) | documentation | B·I | 🆓 free | Canada's national authority on cybersecurity: guidance, alerts and advisories. |
+| [DISA STIGs](https://public.cyber.mil/stigs/) | framework | I·A | 🆓 free | US DoD Security Technical Implementation Guides for hardening systems and software. |
+| [HardeningKitty](https://github.com/scipag/HardeningKitty) | tool | I | 🆓 free | Checks and hardens Windows configuration against security baselines. |
+| [Lynis](https://cisofy.com/lynis/) | tool | B·I | 🆓 free | Security auditing and hardening tool for Linux, macOS and Unix systems. |
+| [NCSC guidance](https://www.ncsc.gov.uk/section/advice-guidance/all-topics) | documentation | B·I | 🆓 free | The UK National Cyber Security Centre's practical guidance for organisations and individuals. |
+| [NSA Cybersecurity guidance](https://www.nsa.gov/Cybersecurity/) | documentation | I·A | 🆓 free | NSA cybersecurity advisories, technical guidance and hardening recommendations. |
 
 <a id="network-defense"></a>
 ## Network Defense
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [Zeek](https://zeek.org/) | tool | I·A | 🆓 free | Powerful network analysis framework that turns traffic into rich, structured logs. |
+| [Arkime](https://arkime.com/) | tool | I | 🆓 free | Large-scale indexed full packet capture and search. |
+| [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/) | lab | I | 🆓 free | Hundreds of real malware traffic captures and exercises for practising network analysis. |
+| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | tool | B | ◐ freemium | Network forensic analysis tool that extracts files, hosts and credentials from PCAPs. |
+| [Practical Packet Analysis, 3rd Edition](https://nostarch.com/packetanalysis3) | book | B | 💲 paid | Chris Sanders' introduction to analysing real-world network traffic with Wireshark. |
+| [RITA](https://github.com/activecm/rita) | tool | I | 🆓 free | Real Intelligence Threat Analytics: detects beaconing, long connections and DNS tunnelling from Zeek logs. |
+| [Suricata](https://suricata.io/) | tool | B·I | 🆓 free | High-performance open-source IDS/IPS and network security monitoring engine. |
+| [The Practice of Network Security Monitoring](https://nostarch.com/nsm) | book | I | 💲 paid | Richard Bejtlich's guide to detecting and responding to intrusions through network security monitoring. |
 
 <a id="purple-team"></a>
 ## Purple Teaming
 
-_Nothing here yet — [suggest a resource](https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose)._
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | tool | B·I | 🆓 free | Library of small, ATT&CK-mapped tests to validate that your detections fire. |
+| [MITRE Caldera](https://caldera.mitre.org/) | tool | I·A | 🆓 free | MITRE's automated adversary emulation platform for testing defenses. |
+| [Purple Team Exercise Framework](https://github.com/scythe-io/purple-team-exercise-framework) | framework | I | 🆓 free | SCYTHE's framework for planning and running purple team exercises. |
+| [VECTR](https://github.com/SecurityRiskAdvisors/VECTR) | tool | I | 🆓 free | Tracks red/purple team test cases and detection outcomes over time. |
