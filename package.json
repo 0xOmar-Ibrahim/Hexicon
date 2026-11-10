@@ -6,10 +6,13 @@
   "type": "module",
   "license": "MIT",
   "repository": "github:0xOmar-Ibrahim/Hexicon",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "dev": "node scripts/build-site.mjs && node scripts/serve.mjs"
+    "dev": "node scripts/build-site.mjs && node scripts/serve.mjs",
+    "sync:cves": "node scripts/sync-cves.mjs"
   },
   "dependencies": {
     "yaml": "2.6.1"

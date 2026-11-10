@@ -1,0 +1,31 @@
+name: Sync CVE data
+
+# Weekly refresh of the `official:` block on every CVE page (NVD + CISA KEV + FIRST EPSS).
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run sync:cves
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "hexicon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "data(cves): weekly sync from NVD, CISA KEV and EPSS"
+          git push
