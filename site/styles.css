@@ -82,8 +82,9 @@ html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3 { letter-spacing: 0; 
 .nav-links { display: flex; gap: 28px; }
 .nav-links a { text-decoration: none; color: var(--muted); font-weight: 500; font-size: 15px; position: relative; transition: color .2s; }
 .nav-links a::after { content: ""; position: absolute; inset-inline: 0; bottom: -6px; height: 1px; background: var(--brass); transform: scaleX(0); transition: transform .3s ease; }
-.nav-links a:hover { color: var(--text); }
-.nav-links a:hover::after { transform: scaleX(1); }
+.nav-links a:hover, .nav-links a.active { color: var(--text); }
+.nav-links a:hover::after, .nav-links a.active::after { transform: scaleX(1); }
+.nav-links a.active { color: var(--brass); }
 .nav-tools { display: flex; align-items: center; gap: 8px; }
 .lang select, .selects select {
   appearance: none; -webkit-appearance: none; background: var(--surface); color: var(--text);
@@ -364,7 +365,11 @@ html[lang="ar"] .kev-table th, html[lang="ar"] .krw { font-family: var(--font-bo
   .hero { padding-top: 96px; }
 }
 @media (max-width: 720px) {
-  .nav-links { display: none; }
+  .nav { height: auto; flex-wrap: wrap; row-gap: 0; padding-top: 10px; }
+  .nav-links { order: 3; width: 100%; justify-content: space-between; gap: 6px; overflow-x: auto; padding: 8px 0 10px; margin-top: 8px; border-top: 1px solid var(--line); }
+  .nav-links a { font-size: 14px; white-space: nowrap; padding: 4px 2px; }
+  .nav-links a::after { bottom: -2px; }
+  .hero { padding-top: 140px; }
   .stats { grid-template-columns: repeat(2, auto); gap: 18px 36px; }
   .compass-wrap { max-width: 220px; }
   .filters { position: static; }

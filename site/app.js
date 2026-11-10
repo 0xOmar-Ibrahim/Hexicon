@@ -389,6 +389,20 @@
     const onScroll = () => nav.classList.toggle('scrolled', scrollY > 10);
     addEventListener('scroll', onScroll, { passive: true });
     onScroll();
+
+    // Highlight the tab of the section currently in view.
+    const links = $$('.nav-links a');
+    const sections = links.map((a) => $(a.getAttribute('href'))).filter(Boolean);
+    if ('IntersectionObserver' in window && sections.length) {
+      const visible = new Map();
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach((e) => visible.set(e.target.id, e.isIntersecting ? e.intersectionRatio : 0));
+        let best = null, bestRatio = 0;
+        visible.forEach((r, id) => { if (r > bestRatio) { best = id; bestRatio = r; } });
+        links.forEach((a) => a.classList.toggle('active', best !== null && a.getAttribute('href') === '#' + best));
+      }, { rootMargin: '-80px 0px -40% 0px', threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
+      sections.forEach((s) => spy.observe(s));
+    }
     const route = $('.route');
     if (route && io) {
       new IntersectionObserver(([e], obs) => { if (e.isIntersecting) { route.classList.add('draw'); obs.disconnect(); } }, { threshold: 0.3 }).observe(route);

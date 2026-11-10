@@ -81,7 +81,8 @@
     "sev.critical": "Critical",
     "sev.high": "High",
     "sev.medium": "Medium",
-    "sev.low": "Low"
+    "sev.low": "Low",
+    "nav.cves": "CVEs"
   },
   "de": {
     "langName": "Deutsch",
@@ -165,7 +166,8 @@
     "sev.critical": "Kritisch",
     "sev.high": "Hoch",
     "sev.medium": "Mittel",
-    "sev.low": "Niedrig"
+    "sev.low": "Niedrig",
+    "nav.cves": "CVEs"
   },
   "fr": {
     "langName": "Français",
@@ -249,7 +251,8 @@
     "sev.critical": "Critique",
     "sev.high": "Élevée",
     "sev.medium": "Moyenne",
-    "sev.low": "Faible"
+    "sev.low": "Faible",
+    "nav.cves": "CVE"
   },
   "ar": {
     "langName": "العربية",
@@ -333,7 +336,8 @@
     "sev.critical": "حرجة",
     "sev.high": "عالية",
     "sev.medium": "متوسطة",
-    "sev.low": "منخفضة"
+    "sev.low": "منخفضة",
+    "nav.cves": "الثغرات"
   },
   "ru": {
     "langName": "Русский",
@@ -417,6 +421,7 @@
     "sev.critical": "Критическая",
     "sev.high": "Высокая",
     "sev.medium": "Средняя",
-    "sev.low": "Низкая"
+    "sev.low": "Низкая",
+    "nav.cves": "CVE"
   }
 }
