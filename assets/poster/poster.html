@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hexicon Poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=IBM+Plex+Sans+Arabic:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+  :root {
+    --bg: #0B1020; --bg2: #10172B; --surface: #141C33; --line: rgba(232,163,61,.18); --line2: rgba(232,163,61,.4);
+    --text: #ECE6D9; --muted: #98A1B7; --brass: #E8A33D; --teal: #2DD4BF; --coral: #F25F5C;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1080px; height: 1350px; background: var(--bg); }
+  body { color: var(--text); font: 400 20px/1.5 Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .poster { position: relative; width: 1080px; height: 1350px; overflow: hidden; padding: 72px 76px 60px; isolation: isolate;
+    background: radial-gradient(ellipse 70% 45% at 78% 22%, rgba(232,163,61,.16), transparent 70%), radial-gradient(ellipse 60% 40% at 10% 95%, rgba(45,212,191,.08), transparent 70%), var(--bg); }
+  #contours { position: absolute; inset: 0; z-index: -1; }
+  .frame { position: absolute; inset: 28px; border: 1px solid var(--line); border-radius: 22px; pointer-events: none; }
+  .corner { position: absolute; font: 500 12px 'JetBrains Mono', monospace; letter-spacing: .18em; color: var(--muted); }
+  .c1 { top: 40px; left: 52px; } .c2 { top: 40px; right: 52px; } .c3 { bottom: 38px; left: 52px; } .c4 { bottom: 38px; right: 52px; }
+
+  .brand { display: flex; align-items: center; gap: 14px; font: 600 16px 'JetBrains Mono', monospace; letter-spacing: .22em; color: var(--brass); text-transform: uppercase; }
+  .brand svg { width: 42px; height: 42px; }
+  h1 { font: 700 156px/0.92 Fraunces, Georgia, serif; letter-spacing: -.03em; margin: 34px 0 10px; }
+  .tag { font: 500 31px/1.2 Fraunces, Georgia, serif; color: var(--brass); max-width: 600px; }
+  .lead { font-size: 21px; color: var(--muted); max-width: 560px; margin-top: 18px; }
+
+  .compass { position: absolute; top: 96px; right: 40px; width: 410px; height: 410px; filter: drop-shadow(0 0 40px rgba(232,163,61,.25)); }
+  .compass .ring { fill: none; stroke: var(--line2); stroke-width: 1.4; }
+  .compass .ring.thin { stroke: var(--line); }
+  .compass .dash { stroke-dasharray: 3 8; }
+  .compass .tick { stroke: var(--line2); }
+  .compass .tick.major { stroke: var(--brass); stroke-width: 2; }
+  .compass text { fill: var(--brass); font: 700 20px Fraunces, serif; text-anchor: middle; }
+  .compass .rose { fill: rgba(232,163,61,.10); stroke: var(--line2); }
+  .compass .rose.alt { fill: rgba(45,212,191,.08); }
+  .compass .north { fill: var(--coral); } .compass .south { fill: var(--muted); opacity: .55; }
+  .compass .hub { fill: var(--bg); stroke: var(--brass); stroke-width: 3; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 52px; border-top: 1px dashed var(--line2); border-bottom: 1px dashed var(--line2); }
+  .stat { padding: 24px 0 22px; }
+  .stat + .stat { padding-left: 26px; border-left: 1px solid var(--line); }
+  .stat b { display: block; font: 700 58px/1 Fraunces, serif; letter-spacing: -.02em; }
+  .stat span { font: 500 13px 'JetBrains Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .stat:nth-child(4) b { color: var(--coral); }
+
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 34px; }
+  .feature { padding: 22px 22px 20px; border-radius: 16px; background: linear-gradient(160deg, var(--surface), var(--bg2)); border: 1px solid var(--line); }
+  .feature .k { font: 600 12px 'JetBrains Mono', monospace; letter-spacing: .16em; color: var(--teal); }
+  .feature h3 { font: 700 25px/1.15 Fraunces, serif; margin: 8px 0 8px; }
+  .feature p { font-size: 15.5px; line-height: 1.45; color: var(--muted); }
+
+  .domains { margin-top: 30px; }
+  .label { font: 600 12px 'JetBrains Mono', monospace; letter-spacing: .18em; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-size: 14.5px; font-weight: 500; padding: 6px 13px; border-radius: 99px; border: 1px solid var(--line2); color: var(--text); background: rgba(20,28,51,.7); }
+  .chip.hot { border-color: rgba(242,95,92,.6); color: #ffb3b1; }
+
+  .langs { display: flex; gap: 22px; align-items: baseline; margin-top: 26px; font: 600 19px Inter, sans-serif; }
+  .langs .ar { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+  .langs i { font-style: normal; color: var(--brass); }
+
+  footer { position: absolute; left: 76px; right: 76px; bottom: 84px; display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
+  .author .by { font: 600 12px 'JetBrains Mono', monospace; letter-spacing: .2em; color: var(--muted); text-transform: uppercase; }
+  .author .name { font: 700 40px/1.1 Fraunces, serif; margin-top: 4px; }
+  .author .meta { margin-top: 10px; font-size: 15px; color: var(--muted); }
+  .author .meta b { color: var(--teal); font-weight: 600; }
+  .qr { display: flex; align-items: center; gap: 18px; }
+  .qr-box { padding: 10px; background: #ECE6D9; border-radius: 12px; }
+  .qr-text { text-align: right; }
+  .qr-text .cta { font: 700 22px Fraunces, serif; color: var(--brass); }
+  .qr-text .url { font: 500 14px 'JetBrains Mono', monospace; color: var(--text); margin-top: 4px; }
+  .qr-text .lic { font-size: 13px; color: var(--muted); margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="poster">
+  <svg id="contours" width="1080" height="1350" aria-hidden="true"></svg>
+  <div class="frame"></div>
+  <span class="corner c1">N 00°00′ · E 14°</span>
+  <span class="corner c2">HEXICON / 2026</span>
+  <span class="corner c3">OPEN SOURCE · COMMUNITY CURATED</span>
+  <span class="corner c4">EN · DE · FR · AR · RU</span>
+
+  <svg class="compass" viewBox="0 0 400 400" aria-hidden="true">
+    <circle class="ring" cx="200" cy="200" r="188"/>
+    <circle class="ring thin" cx="200" cy="200" r="160"/>
+    <circle class="ring dash" cx="200" cy="200" r="120"/>
+    <g id="ticks"></g>
+    <text x="200" y="64">N</text><text x="342" y="207">E</text><text x="200" y="350">S</text><text x="58" y="207">W</text>
+    <g transform="rotate(-8 200 200)">
+      <path class="rose" d="M200 60 L216 200 L200 340 L184 200 Z"/>
+      <path class="rose alt" d="M60 200 L200 184 L340 200 L200 216 Z"/>
+    </g>
+    <g transform="rotate(16 200 200)">
+      <path class="north" d="M200 78 L213 200 L187 200 Z"/>
+      <path class="south" d="M200 322 L213 200 L187 200 Z"/>
+      <circle class="hub" cx="200" cy="200" r="10"/>
+    </g>
+  </svg>
+
+  <div class="brand">
+    <svg viewBox="0 0 32 32"><path d="M16 2l12 7v14l-12 7-12-7V9z" fill="none" stroke="#E8A33D" stroke-width="1.8"/><path d="M16 8l3 8-3 8-3-8z" fill="#2DD4BF"/></svg>
+    The open lexicon of security
+  </div>
+
+  <h1>Hexicon</h1>
+  <div class="tag">Chart your way through cybersecurity.</div>
+  <p class="lead">A free, community-curated library of courses, tools, books, labs, career roadmaps and exploited vulnerabilities — organised, verified and translated.</p>
+
+  <div class="stats">
+    <div class="stat"><b>533</b><span>Resources</span></div>
+    <div class="stat"><b>14</b><span>Domains</span></div>
+    <div class="stat"><b>14</b><span>Role roadmaps</span></div>
+    <div class="stat"><b>1,001</b><span>CVE pages</span></div>
+  </div>
+
+  <div class="features">
+    <div class="feature"><div class="k">01 · LIBRARY</div><h3>Every resource, verified</h3><p>Courses, tools, books, labs and cheatsheets — tagged by level, cost and language, with live-checked links.</p></div>
+    <div class="feature"><div class="k">02 · ROADMAPS</div><h3>Zero to job-ready</h3><p>SOC, DFIR, pentest, cloud, AI security and more — staged, NICE-aligned, with a project at every stage.</p></div>
+    <div class="feature"><div class="k">03 · CVE FIELD NOTES</div><h3>Top 1000 exploited</h3><p>CISA KEV ranked by EPSS, with CVSS, ransomware flags and curated deep dives.</p></div>
+  </div>
+
+  <div class="domains">
+    <div class="label">14 domains</div>
+    <div class="chips">
+      <span class="chip">Fundamentals</span><span class="chip">Offensive Security</span><span class="chip">Defensive Security</span>
+      <span class="chip">DFIR &amp; Malware</span><span class="chip">Reverse Engineering</span><span class="chip">AppSec &amp; DevSecOps</span>
+      <span class="chip">Cloud &amp; Containers</span><span class="chip">Threat Intel &amp; OSINT</span><span class="chip">Cryptography</span>
+      <span class="chip">AI &amp; LLM Security</span><span class="chip">ICS / OT</span><span class="chip">GRC &amp; Privacy</span>
+      <span class="chip">Career &amp; Community</span><span class="chip hot">CVEs &amp; Vulnerabilities</span>
+    </div>
+  </div>
+
+  <div class="langs">
+    <span>English</span><i>·</i><span>Deutsch</span><i>·</i><span>Français</span><i>·</i><span class="ar">العربية</span><i>·</i><span>Русский</span>
+  </div>
+
+  <footer>
+    <div class="author">
+      <div class="by">Created by</div>
+      <div class="name">Omar Ibrahim</div>
+      <div class="meta">Free · Open source · <b>Contributions welcome</b></div>
+    </div>
+    <div class="qr">
+      <div class="qr-text">
+        <div class="cta">Explore &amp; contribute</div>
+        <div class="url">github.com/0xOmar-Ibrahim/Hexicon</div>
+        <div class="lic">Content CC BY 4.0 · Code MIT</div>
+      </div>
+      <div class="qr-box"><div id="qrcode"></div></div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  // Topographic contour lines
+  const svg = document.getElementById('contours');
+  const W = 1080, H = 1350, lines = 34;
+  let out = '';
+  for (let k = 0; k <= lines; k++) {
+    const base = (k / lines) * H * 1.1 - 40;
+    let d = '';
+    for (let x = -10; x <= W + 10; x += 12) {
+      const nx = x / W;
+      const pull = Math.exp(-(((nx - 0.78) ** 2) * 9 + (((base / H) - 0.2) ** 2) * 14)) * 40;
+      const y = base + Math.sin(nx * 5.2 + k * 0.55) * 20 + Math.sin(nx * 11.3 + k * 1.31) * 7 + Math.sin(nx * 2.1 - k * 0.27) * 28 - pull;
+      d += (x === -10 ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(1);
+    }
+    const index = k % 5 === 0;
+    const color = k % 7 === 3 ? '45,212,191' : '232,163,61';
+    out += `<path d="${d}" fill="none" stroke="rgba(${color},${index ? 0.2 : 0.08})" stroke-width="${index ? 1.3 : 0.8}"/>`;
+  }
+  svg.innerHTML = out;
+
+  // Compass ticks
+  const g = document.getElementById('ticks');
+  let t = '';
+  for (let i = 0; i < 72; i++) {
+    const a = (i * 5 * Math.PI) / 180, major = i % 18 === 0, mid = i % 6 === 0;
+    const r1 = 188, r2 = major ? 168 : mid ? 175 : 181;
+    t += `<line class="tick${major ? ' major' : ''}" x1="${200 + r1 * Math.sin(a)}" y1="${200 - r1 * Math.cos(a)}" x2="${200 + r2 * Math.sin(a)}" y2="${200 - r2 * Math.cos(a)}"/>`;
+  }
+  g.innerHTML = t;
+
+  // QR code to the repository
+  new QRCode(document.getElementById('qrcode'), {
+    text: 'https://github.com/0xOmar-Ibrahim/Hexicon', width: 116, height: 116,
+    colorDark: '#0B1020', colorLight: '#ECE6D9', correctLevel: QRCode.CorrectLevel.M,
+  });
+</script>
+</body>
+</html>
