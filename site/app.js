@@ -240,9 +240,6 @@
 
     const p = all[activePath];
     const done = progress.get(p.id);
-    const total = p.stages.reduce((n, s) => n + s.steps.length, 0);
-    const doneCount = p.stages.reduce((n, s) => n + s.steps.filter((st) => done.has(st.id)).length, 0);
-    const pct = total ? Math.round((doneCount / total) * 100) : 0;
     const linkList = (ids) => ids.map((id) => {
       const i = all.findIndex((x) => x.id === id);
       return i < 0 ? '' : `<button class="path-link" type="button" data-i="${i}">${esc(loc(all[i].title))}</button>`;
@@ -261,10 +258,6 @@
           <span class="badge">${p.stages.length} ${esc(t('paths.stages'))}</span>
           <span class="badge">≈ ${p.weeks} ${esc(t('paths.weeks'))}</span>
         </div>
-      </div>
-      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}">
-        <div class="progress-bar" style="width:${pct}%"></div>
-        <span>${esc(t('paths.progress'))}: ${doneCount}/${total} · ${pct}%</span>
       </div>
       ${p.prerequisites.length ? `<p class="path-rel">${esc(t('paths.prereq'))}: ${linkList(p.prerequisites)}</p>` : ''}
       <ol class="stages">

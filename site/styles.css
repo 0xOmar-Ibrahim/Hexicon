@@ -237,9 +237,6 @@ html[lang="ar"] .kicker { letter-spacing: 0; text-transform: none; font-family: 
 .track-chips { margin-bottom: 14px; }
 .nice { font-size: 13px !important; margin-top: 10px !important; }
 .nice span { color: var(--teal); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .08em; font-size: 11px; }
-.progress { position: relative; height: 30px; border-radius: 10px; background: var(--bg-2); border: 1px solid var(--line); overflow: hidden; margin-bottom: 22px; }
-.progress-bar { position: absolute; inset-block: 0; inset-inline-start: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--teal) 40%, transparent), color-mix(in srgb, var(--brass) 55%, transparent)); transition: width .6s cubic-bezier(.2,.7,.2,1); }
-.progress span { position: relative; display: block; line-height: 28px; padding-inline: 12px; font: 500 12px var(--font-mono); }
 .path-rel { color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 20px; }
 .path-rel.next { margin: 26px 0 0; }
 .path-link { font: 600 13px var(--font-body); color: var(--brass); background: transparent; border: 1px dashed var(--line-strong); border-radius: 99px; padding: 5px 12px; cursor: pointer; }
