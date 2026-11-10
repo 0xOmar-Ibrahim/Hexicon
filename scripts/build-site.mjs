@@ -123,7 +123,6 @@ const data = {
     .map((d) => ({ id: d.id, order: d.order, icon: d.icon, name: d.name, subdomains: d.subdomains, count: counts[d.id] })),
   resources: resources.sort((a, b) => Number(b.featured) - Number(a.featured) || a.title.localeCompare(b.title)),
   cves: cves.sort((a, b) => (b.score ?? 0) - (a.score ?? 0)),
-  paths,
 };
 
 fs.rmSync(DIST, { recursive: true, force: true });

@@ -55,7 +55,6 @@
     renderChips();
     renderSelects();
     renderCards();
-    renderPaths();
     renderCves();
     if (KEV) loadKev(); // reload the CVE index in the new language
   }
@@ -201,107 +200,6 @@
       timer = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); renderCards(); }, 120);
     });
     $('#more').addEventListener('click', () => renderCards(true));
-  }
-
-  /* ---------------- LEARNING PATHS ---------------- */
-  let activePath = 0;
-  const TRACKS = ['all', 'core', 'defend', 'attack', 'build', 'govern'];
-  let activeTrack = 'all';
-
-  // Per-viewer progress: which steps are ticked, kept only in this browser.
-  const progress = {
-    key: (pathId) => 'progress.' + pathId,
-    get(pathId) { try { return new Set(JSON.parse(store.get(this.key(pathId)) || '[]')); } catch { return new Set(); } },
-    toggle(pathId, stepId, on) {
-      const s = this.get(pathId);
-      on ? s.add(stepId) : s.delete(stepId);
-      store.set(this.key(pathId), JSON.stringify([...s]));
-    },
-  };
-
-  function renderPaths() {
-    const all = DATA.paths ?? [];
-    if (!all.length) { $('#paths').hidden = true; return; }
-
-    const usedTracks = TRACKS.filter((tr) => tr === 'all' || all.some((p) => p.track === tr));
-    $('#track-chips').innerHTML = usedTracks.map((tr) =>
-      `<button class="chip" type="button" data-track="${tr}" aria-pressed="${tr === activeTrack}">${esc(t('track.' + tr))}</button>`).join('');
-    $$('#track-chips .chip').forEach((b) => b.addEventListener('click', () => {
-      activeTrack = b.dataset.track;
-      const first = all.findIndex((p) => activeTrack === 'all' || p.track === activeTrack);
-      if (first >= 0) activePath = first;
-      renderPaths();
-    }));
-
-    $('#path-tabs').innerHTML = all.map((p, i) => (activeTrack !== 'all' && p.track !== activeTrack) ? '' : `
-      <button class="path-tab" type="button" role="tab" aria-selected="${i === activePath}" data-i="${i}">
-        <svg class="ic"><use href="#i-${esc(p.icon)}"/></svg><span>${esc(loc(p.title))}</span>
-      </button>`).join('');
-    $$('.path-tab').forEach((b) => b.addEventListener('click', () => { activePath = Number(b.dataset.i); renderPaths(); }));
-
-    const p = all[activePath];
-    const done = progress.get(p.id);
-    const linkList = (ids) => ids.map((id) => {
-      const i = all.findIndex((x) => x.id === id);
-      return i < 0 ? '' : `<button class="path-link" type="button" data-i="${i}">${esc(loc(all[i].title))}</button>`;
-    }).join('');
-    let n = 0;
-
-    $('#path-panel').innerHTML = `
-      <div class="path-head">
-        <div>
-          <h3>${esc(loc(p.title))}</h3>
-          <p>${esc(loc(p.description))}</p>
-          ${p.nice_roles.length ? `<p class="nice"><span>${esc(t('paths.roles'))}:</span> ${p.nice_roles.map(esc).join(' · ')}</p>` : ''}
-        </div>
-        <div class="path-meta">
-          <span class="badge">${esc(t('level.' + p.level))}</span>
-          <span class="badge">${p.stages.length} ${esc(t('paths.stages'))}</span>
-          <span class="badge">≈ ${p.weeks} ${esc(t('paths.weeks'))}</span>
-        </div>
-      </div>
-      ${p.prerequisites.length ? `<p class="path-rel">${esc(t('paths.prereq'))}: ${linkList(p.prerequisites)}</p>` : ''}
-      <ol class="stages">
-        ${p.stages.map((s, si) => `
-          <li class="stage" style="animation-delay:${si * 90}ms">
-            <div class="stage-marker"><span>${si + 1}</span></div>
-            <div class="stage-body">
-              <header class="stage-head">
-                <h4>${esc(loc(s.title))}</h4>
-                <span class="stage-weeks">≈ ${s.weeks} ${esc(t('paths.weeks'))}</span>
-              </header>
-              ${s.goal && loc(s.goal) ? `<p class="stage-goal">${esc(loc(s.goal))}</p>` : ''}
-              ${s.skills.length ? `<div class="skills">${s.skills.map((k) => `<span class="sub">${esc(k)}</span>`).join('')}</div>` : ''}
-              <ul class="route-steps">
-                ${s.steps.map((st) => { n++; const on = done.has(st.id); return `
-                  <li>
-                    <label class="tick" title="${esc(t('paths.mark'))}">
-                      <input type="checkbox" data-step="${esc(st.id)}" ${on ? 'checked' : ''}>
-                      <span class="waypoint">${n}</span>
-                    </label>
-                    <a class="step${on ? ' done' : ''}" href="${esc(st.url)}" target="_blank" rel="noopener noreferrer">
-                      <span class="card-type">${esc(st.type.replace(/-/g, ' '))} · ${esc(t('cost.' + st.cost))}</span>
-                      <strong>${esc(st.title)}</strong>
-                      ${st.note && loc(st.note) ? `<span class="step-note">${esc(loc(st.note))}</span>` : ''}
-                    </a>
-                  </li>`; }).join('')}
-              </ul>
-              ${s.project && loc(s.project) ? `
-                <div class="project"><span class="project-label">${esc(t('paths.project'))}</span><p>${esc(loc(s.project))}</p></div>` : ''}
-              ${s.checkpoint ? `<p class="checkpoint">${esc(t('paths.checkpoint'))}: <a href="${esc(s.checkpoint.url)}" target="_blank" rel="noopener noreferrer">${esc(s.checkpoint.title)}</a></p>` : ''}
-            </div>
-          </li>`).join('')}
-      </ol>
-      ${p.next.length ? `<p class="path-rel next">${esc(t('paths.next'))}: ${linkList(p.next)}</p>` : ''}`;
-
-    $$('#path-panel input[type=checkbox]').forEach((cb) => cb.addEventListener('change', () => {
-      progress.toggle(p.id, cb.dataset.step, cb.checked);
-      renderPaths();
-    }));
-    $$('#path-panel .path-link').forEach((b) => b.addEventListener('click', () => {
-      activePath = Number(b.dataset.i); activeTrack = 'all'; renderPaths();
-      $('#paths').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
-    }));
   }
 
   /* ---------------- CVEs ---------------- */
