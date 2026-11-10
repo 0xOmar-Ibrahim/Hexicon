@@ -1,50 +1,114 @@
-# Hexicon — Roadmap
+# Hexicon — Roadmap v2
 
-Decisions taken (2026-11-10):
+_Re-planned 2026-11-10 after the first build-out (533 resources, 18 CVE pages, 5 paths, website ready to deploy)._
 
-- **Format:** structured YAML → generated READMEs + website.
-- **Scope:** all 14 domains (13 + CVEs), each built to "strong" before calling it done — quality over speed.
-- **Languages:** English, German, French, Arabic (RTL), Russian.
-- **Audience:** both learners (learning paths) and practitioners (tools & references).
-- **Website:** custom, animated, professional, with its own colour palette.
+Hexicon has two jobs:
 
-## Phase 0 — Foundation
-- [x] Taxonomy (14 domains, subdomains, 5 languages)
-- [x] JSON Schemas: resource, CVE
-- [x] README, CONTRIBUTING, Code of Conduct, licenses
-- [x] Issue forms & PR template
-- [x] `hexicon-curator` Claude Code skill
-- [x] Learning-path schema + 5 paths (foundations, SOC, web, cloud, AI)
-- [x] Review & install the Masriyan cybersecurity skills (MIT) for domain-expert curation (local, not vendored)
-- [x] First push to GitHub
+1. **The Library** — every good security resource, structured, verified and translated.
+2. **The Roadmaps** — opinionated, role-based routes through that library, from zero to job-ready.
 
-## Phase 1 — Seed content (per domain, until "strong")
-`[~]` = seeded, not yet "strong". "Strong" means: ≥ 40 resources, every subdomain covered, all levels represented, at least 1 lab/practice resource per subdomain, ≥ 1 learning path.
+Version 1 built the library. Version 2 turns it into a **career navigator**.
 
-- [~] 01 Fundamentals (32)  ·  [~] 02 Offensive (73)  ·  [ ] 03 Defensive (0 — next)  ·  [~] 04 DFIR & Malware (35)
-- [~] 05 Reverse Eng. (30)  ·  [~] 06 AppSec (32)  ·  [~] 07 Cloud (29)  ·  [~] 08 Threat Intel & OSINT (33)
-- [~] 09 Cryptography (20)  ·  [~] 10 AI Security (28)  ·  [~] 11 ICS/OT (14)  ·  [~] 12 GRC (24)  ·  [~] 13 Career (38)
-- [~] 14 CVEs: 18 curated pages + 17 resources so far; target ~50 named/KEV pages (Log4Shell, EternalBlue, Heartbleed, Shellshock, ProxyLogon, Citrix Bleed, MOVEit…)
+---
 
-## Phase 2 — Automation
-- [ ] `scripts/validate` — schema + taxonomy + duplicate URL check (runs on every PR)
-- [x] `scripts/build-docs.mjs` — generated `docs/<domain>.md` (CI checks it is up to date)
-- [ ] `scripts/link-check` — weekly, opens an issue listing dead links
-- [x] `scripts/sync-cves.mjs` — weekly: NVD API 2.0 + CISA KEV JSON + FIRST EPSS → `official:` blocks
-- [ ] `scripts/kev-suggest` — propose new CVE pages for fresh KEV entries
-- [ ] Issue-form → PR bot for non-Git contributors
-- [ ] OffsecCyber (Apache-2.0) mining: extract CVE ids + reference URLs as *candidates* only; facts always re-sourced from NVD/KEV
+## Guiding principles
 
-## Phase 3 — Website
-- [x] Static site with i18n (en, de, fr, ar RTL, ru) and `?lang=` links
-- [x] Instant search + filters (domain, type, level, cost)
-- [x] Animated landing: topographic contours, compass, domain map, resource cards, CVE field notes
-- [ ] Per-domain pages, per-CVE pages, learning paths
-- [x] Midnight Cartographer palette, light/dark, reduced-motion support
-- [x] Deploy to GitHub Pages via Actions
+- **Roles, not topics.** Roadmaps follow real jobs, mapped to [NICE Framework](https://niccs.cisa.gov/workforce-development/nice-framework) work roles so they line up with how employers hire.
+- **Build, don't just read.** Every stage ends with a hands-on project you can put in a portfolio (inspired by project-based roadmaps such as [soc-roadmap-2026](https://github.com/Ak-cybe/soc-roadmap-2026)).
+- **Time-honest.** Each stage has a week estimate at ~10 hours/week, so learners can plan.
+- **Free first.** Every stage can be completed with free resources; paid options and certifications are optional checkpoints.
+- **One source of truth.** Roadmaps only reference resources that exist in `data/resources/` — the build fails otherwise.
+- **Defensive by default.** Offensive skills are always paired with how to detect and prevent them.
 
-## Phase 4 — Community & launch
-- [ ] Labels, `good-first-issue` backlog, domain maintainers via CODEOWNERS
-- [ ] Discord / GitHub Discussions
-- [ ] Launch posts: r/netsec, r/cybersecurity, LinkedIn, X, Hacker News
-- [ ] Monthly "What's new in Hexicon" changelog
+---
+
+## ✅ Done (v1)
+
+- 14-domain taxonomy in 5 languages · JSON Schemas · contributor docs & issue forms
+- 533 link-checked resources across all 14 domains (incl. 56 books, 45 defensive, 22 Android)
+- 18 curated CVE pages with NVD / CISA KEV / EPSS facts synced weekly
+- 5 learning paths · animated multilingual website (RTL Arabic) · generated Markdown docs
+- CI build check on every PR · manual GitHub Pages deploy
+
+---
+
+## Phase A — Role Roadmaps (now)
+
+Upgrade "paths" into **staged role roadmaps**:
+
+| Field | Meaning |
+|---|---|
+| `nice_roles` | Matching NICE work roles |
+| `stages[]` | 3–5 milestones, each with `weeks`, `goal`, `skills[]`, a `project` and `steps[]` |
+| `checkpoint` | Optional certification that fits the end of a stage |
+| `next` | Roadmaps that naturally follow (career transitions) |
+
+### The 14 roadmaps
+
+| # | Roadmap | NICE role (closest) | Track |
+|---|---|---|---|
+| 0 | Security Foundations | — (prerequisite for all) | Core |
+| 1 | SOC Analyst | Defensive Cybersecurity | Defend |
+| 2 | Detection Engineer & Threat Hunter | Threat Analysis · Defensive Cybersecurity | Defend |
+| 3 | Incident Responder & DFIR | Incident Response · Digital Forensics | Defend |
+| 4 | Malware Analyst & Reverse Engineer | Cyber Defense Forensics · Exploitation Analysis | Defend |
+| 5 | Threat Intelligence Analyst | Threat Analysis · All-Source Analysis | Defend |
+| 6 | Penetration Tester | Vulnerability Analysis | Attack (authorized) |
+| 7 | Web & API Security / Bug Bounty | Vulnerability Analysis · Secure Software Development | Attack / Build |
+| 8 | Mobile (Android) Security | Vulnerability Analysis | Attack / Build |
+| 9 | Cloud Security Engineer | Systems Security Analysis · Security Architecture | Build |
+| 10 | DevSecOps & Supply-Chain Security | Secure Software Development | Build |
+| 11 | AI & LLM Security | Secure Software Development · Vulnerability Analysis | Build / Attack |
+| 12 | GRC Analyst | Cybersecurity Policy & Planning · Risk Management | Govern |
+| 13 | ICS / OT Security | Operational Technology Cybersecurity | Defend |
+
+- [ ] Schema v2 (`stages`, `nice_roles`, `checkpoint`, `next`) with backwards compatibility
+- [ ] Website: stage timeline, skills checklist, project card, "what's next" links
+- [ ] Migrate the 5 existing paths, then add the remaining 9
+- [ ] Translate roadmap titles/descriptions into DE · FR · AR · RU
+- [ ] Per-viewer progress tracking (tick off steps; stored in the browser)
+
+## Phase B — Close content gaps (rolling)
+
+A domain counts as **strong** at: ≥ 40 resources, every subdomain covered, all three levels, ≥ 1 lab per subdomain, ≥ 1 roadmap.
+
+| Domain | Now | Target | Priority |
+|---|---|---|---|
+| CVE pages | 18 | 50 (KEV + named, each with a lab or detection) | 🔴 |
+| ICS / OT | 21 | 40 | 🔴 |
+| AI & LLM security | 28 | 45 (agent/MCP security, AI red-team labs) | 🔴 |
+| Cryptography | 28 | 40 | 🟠 |
+| Cloud | 30 | 40 (more Azure / GCP) | 🟠 |
+| AppSec | 34 | 40 | 🟠 |
+| iOS security | — | new batch alongside Android | 🟠 |
+| Native-language resources (AR/DE/FR/RU) | ~15 | 50+ | 🟡 |
+| Translated descriptions | 25 featured | all featured + every roadmap step | 🟡 |
+
+Also re-check links that were unreachable from the build machine (DEF CON, Let's Encrypt, Sigstore, Maltego, ICS Village, ACSC Essential Eight, UAE CSC, FSTEC/BDU).
+
+## Phase C — Platform
+
+- [ ] Schema validation script in CI (resources, CVEs, roadmaps) + duplicate-URL check
+- [ ] Weekly link checker that opens an issue listing dead links
+- [ ] Issue-form → pull-request bot, so non-Git users can contribute
+- [ ] Per-domain, per-roadmap and per-CVE pages on the website (shareable URLs, SEO)
+- [ ] Search across descriptions in all languages
+- [ ] Enable GitHub Pages and automatic deploy on push
+
+## Phase D — Community & launch
+
+- [ ] Labels, `good-first-issue` backlog, CODEOWNERS per domain (domain maintainers)
+- [ ] GitHub Discussions; monthly "What's new in Hexicon" changelog
+- [ ] Launch: r/netsec, r/cybersecurity, LinkedIn, X, Hacker News, Arabic security communities
+- [ ] Each roadmap reviewed by a working practitioner in that role
+
+---
+
+## Sources that informed this plan
+
+- [NICE Workforce Framework](https://niccs.cisa.gov/workforce-development/nice-framework) and the [NICCS career pathway tools](https://niccs.cisa.gov/workforce-development/career-pathway-roadmap) — role definitions and transitions
+- [CyberSeek](https://www.cyberseek.org/) — common entry roles and transitions
+- [roadmap.sh Cyber Security](https://roadmap.sh/cyber-security) — topic coverage for foundations
+- [soc-roadmap-2026](https://github.com/Ak-cybe/soc-roadmap-2026) (MIT) — project per stage, time-boxed tracks
+- [supabash AI/LLM security notes](https://github.com/devcore24/supabash/blob/main/docs/ai-llm-security-roadmap.md) — AI security scope: prompt injection, output handling, tool/MCP misuse, RAG poisoning
+- [Cybersecurity-Roadmap (carlcastanas)](https://github.com/carlcastanas/Cybersecurity-Roadmap) — 2026 emphasis on identity, zero trust, cloud-native and PQC
