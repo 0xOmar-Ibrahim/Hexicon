@@ -1,6 +1,12 @@
 // Fills the `official:` block of every data/cves/**/CVE-*.yml from authoritative sources:
-//   NVD API 2.0 (published date, CVSS, CWE) · CISA KEV (listing, date, ransomware use) · FIRST EPSS.
-// Curated fields are never touched. Usage: npm run sync:cves  (optional env NVD_API_KEY).
+//   CISA KEV (listing, date, ransomware use) and FIRST EPSS — refreshed for every page, in bulk;
+//   NVD API 2.0 (published date, CVSS, CWE) — only for pages that are missing it or older than --max-age days.
+// Curated fields are never touched. Progress is saved after every page, so the run can be resumed.
+//
+//   npm run sync:cves                         → default (NVD for pages missing CVSS or older than 30 days)
+//   npm run sync:cves -- --max-age 0          → force NVD refresh for every page
+//   npm run sync:cves -- --limit 200          → at most 200 NVD calls this run
+// Set NVD_API_KEY to go ~10x faster.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,18 +17,29 @@ const DIR = path.join(ROOT, 'data/cves');
 const KEY = process.env.NVD_API_KEY;
 const DELAY = KEY ? 700 : 6500; // NVD public rate limit: 5 requests / 30 s
 const TODAY = new Date().toISOString().slice(0, 10);
+const arg = (name, def) => { const i = process.argv.indexOf(name); return i > 0 ? Number(process.argv[i + 1]) : def; };
+const MAX_AGE = arg('--max-age', 30);
+const NVD_LIMIT = arg('--limit', Infinity);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const files = fs.readdirSync(DIR, { recursive: true })
   .filter((f) => /CVE-\d{4}-\d+\.yml$/.test(f))
-  .map((f) => path.join(DIR, f));
+  .map((f) => path.join(DIR, f))
+  .sort();
+const ids = files.map((f) => path.basename(f, '.yml'));
 
 async function getJson(url, headers = {}) {
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    const res = await fetch(url, { headers: { 'User-Agent': 'hexicon-cve-sync', ...headers } });
-    if (res.ok) return res.json();
-    if (attempt < 3 && (res.status === 403 || res.status === 429 || res.status >= 500)) { await sleep(DELAY * 2); continue; }
-    throw new Error(`${res.status} ${url}`);
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': 'hexicon-cve-sync', ...headers } });
+      if (res.ok) return res.json();
+      if (res.status === 404) return null;
+      if (attempt < 4 && (res.status === 403 || res.status === 429 || res.status >= 500)) { await sleep(DELAY * 3); continue; }
+      throw new Error(`${res.status} ${url}`);
+    } catch (err) {
+      if (attempt === 4) throw err;
+      await sleep(DELAY * 2);
+    }
   }
 }
 
@@ -33,44 +50,66 @@ function pickCvss(metrics = {}) {
     const m = list.find((x) => x.type === 'Primary') ?? list[0];
     const d = m.cvssData;
     const severity = (d.baseSeverity ?? m.baseSeverity ?? '').toLowerCase() || undefined;
-    return { version, score: d.baseScore, vector: d.vectorString, severity };
+    return { version, score: d.baseScore, vector: d.vectorString, ...(severity && { severity }) };
   }
   return undefined;
 }
 
+// Bulk sources
 const kev = await getJson('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json');
 const kevById = new Map(kev.vulnerabilities.map((v) => [v.cveID, v]));
-const ids = files.map((f) => path.basename(f, '.yml'));
-const epss = await getJson(`https://api.first.org/data/v1/epss?cve=${ids.join(',')}`);
-const epssById = new Map(epss.data.map((e) => [e.cve, e]));
+const epssById = new Map();
+for (let i = 0; i < ids.length; i += 100) {
+  const res = await getJson(`https://api.first.org/data/v1/epss?cve=${ids.slice(i, i + 100).join(',')}&limit=100`);
+  for (const e of res?.data ?? []) epssById.set(e.cve, { score: Number(e.epss), percentile: Number(e.percentile), date: e.date });
+}
 
-let changed = 0;
+const ageDays = (d) => (d ? (Date.now() - new Date(d).getTime()) / 864e5 : Infinity);
+let nvdCalls = 0, updated = 0;
+
 for (const [i, file] of files.entries()) {
   const id = ids[i];
   const doc = YAML.parseDocument(fs.readFileSync(file, 'utf8'));
-  const nvd = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${id}`, KEY ? { apiKey: KEY } : {});
-  const cve = nvd.vulnerabilities?.[0]?.cve;
-  if (!cve) { console.warn(`! ${id}: not found in NVD`); continue; }
+  const prev = doc.get('official')?.toJSON?.() ?? {};
+  let { published, cvss, cwe } = prev;
 
-  const cwe = [...new Set((cve.weaknesses ?? []).flatMap((w) => w.description.map((d) => d.value)))];
+  const needsNvd = !cvss || ageDays(prev.nvd_synced_on ?? prev.synced_on) > MAX_AGE || MAX_AGE === 0;
+  let nvdDate = prev.nvd_synced_on;
+  if (needsNvd && nvdCalls < NVD_LIMIT) {
+    if (nvdCalls > 0) await sleep(DELAY);
+    nvdCalls++;
+    const nvd = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${id}`, KEY ? { apiKey: KEY } : {});
+    const cve = nvd?.vulnerabilities?.[0]?.cve;
+    if (cve) {
+      published = cve.published.slice(0, 10);
+      cvss = pickCvss(cve.metrics) ?? cvss;
+      const w = [...new Set((cve.weaknesses ?? []).flatMap((x) => x.description.map((d) => d.value)))]
+        .filter((c) => /^(CWE-\d+|NVD-CWE-Other|NVD-CWE-noinfo)$/.test(c));
+      if (w.length) cwe = w;
+      nvdDate = TODAY;
+    } else {
+      console.warn(`! ${id}: not found in NVD`);
+    }
+  }
+
   const k = kevById.get(id);
   const e = epssById.get(id);
   const official = {
-    published: cve.published.slice(0, 10),
-    ...(pickCvss(cve.metrics) && { cvss: pickCvss(cve.metrics) }),
-    ...(cwe.length && { cwe }),
+    ...(published && { published }),
+    ...(cvss && { cvss }),
+    ...(cwe?.length && { cwe }),
     kev: k ? { listed: true, date_added: k.dateAdded, ransomware_use: k.knownRansomwareCampaignUse === 'Known' ? 'Known' : 'Unknown' } : { listed: false },
-    ...(e && { epss: { score: Number(e.epss), percentile: Number(e.percentile), date: e.date } }),
+    ...(e && { epss: e }),
+    ...(nvdDate && { nvd_synced_on: nvdDate }),
     synced_on: TODAY,
   };
 
-  const before = JSON.stringify(doc.get('official')?.toJSON?.() ?? null);
-  doc.set('official', doc.createNode(official, { flow: false }));
+  const before = JSON.stringify(prev);
   if (JSON.stringify(official) !== before) {
+    doc.set('official', doc.createNode(official));
     fs.writeFileSync(file, doc.toString({ lineWidth: 0 }));
-    changed++;
+    updated++;
   }
-  console.log(`✓ ${id}  CVSS ${official.cvss?.score ?? '—'}  KEV ${official.kev.listed ? 'yes' : 'no'}  EPSS ${official.epss?.score ?? '—'}`);
-  if (i < files.length - 1) await sleep(DELAY);
+  if (needsNvd && (nvdCalls % 25 === 0)) console.log(`… ${i + 1}/${files.length} pages, ${nvdCalls} NVD calls`);
 }
-console.log(`Synced ${files.length} CVE pages, ${changed} updated.`);
+console.log(`Synced ${files.length} CVE pages (${updated} updated, ${nvdCalls} NVD calls).`);

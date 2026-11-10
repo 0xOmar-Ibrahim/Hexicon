@@ -41,16 +41,31 @@ for (const d of domains) {
   }
 
   if (d.id === 'cves' && cves.length) {
-    out += '\n## Curated CVE pages\n\n| CVE | Name | CVSS | KEV | Summary |\n|---|---|---|---|---|\n';
-    for (const c of [...cves].sort((a, b) => (b.official?.cvss?.score ?? 0) - (a.official?.cvss?.score ?? 0))) {
-      out += `| [${c.id}](../data/cves/${c.id.split('-')[1]}/${c.id}.yml) | ${md(c.nickname ?? '')} | ${c.official?.cvss?.score ?? '—'} | ${c.official?.kev?.listed ? '✅' : '—'} | ${md(c.summary.en)} |\n`;
+    const curated = cves.filter((c) => (c.source ?? 'curated') === 'curated');
+    out += `\n## Curated CVE pages\n\nHand-written field notes. See also the **[Top ${cves.filter((c) => c.rank).length} exploited CVEs](cves-top.md)** imported from CISA KEV.\n\n`;
+    out += '| CVE | Name | CVSS | KEV | Summary |\n|---|---|---|---|---|\n';
+    for (const c of [...curated].sort((a, b) => (b.official?.cvss?.score ?? 0) - (a.official?.cvss?.score ?? 0))) {
+      out += `| [${c.id}](../data/cves/${c.id.split('-')[1]}/${c.id}.yml) | ${md(c.nickname ?? c.name ?? '')} | ${c.official?.cvss?.score ?? '—'} | ${c.official?.kev?.listed ? '✅' : '—'} | ${md(c.summary.en)} |\n`;
     }
   }
   fs.writeFileSync(path.join(DOCS, `${d.id}.md`), out);
 }
 
+// Ranked list of the most exploited CVEs (CISA KEV ranked by EPSS)
+const ranked = cves.filter((c) => c.rank).sort((a, b) => a.rank - b.rank);
+if (ranked.length) {
+  let top = HEADER + `# Top ${ranked.length} exploited CVEs\n\n`;
+  top += 'Every CVE in the [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), ranked by [FIRST EPSS](https://www.first.org/epss/) — the probability of exploitation in the next 30 days. 🔒 = known ransomware use. CVSS, CWE and dates are synced from NVD.\n\n';
+  top += '| # | CVE | Vulnerability | Vendor / product | CVSS | EPSS | 🔒 |\n|---|---|---|---|---|---|---|\n';
+  for (const c of ranked) {
+    const a = c.affected?.[0] ?? {};
+    top += `| ${c.rank} | [${c.id}](../data/cves/${c.id.split('-')[1]}/${c.id}.yml) | ${md(c.nickname ?? c.name ?? '')} | ${md(`${a.vendor ?? ''} ${a.product ?? ''}`.trim())} | ${c.official?.cvss?.score ?? '—'} | ${c.official?.epss ? (c.official.epss.score * 100).toFixed(1) + '%' : '—'} | ${c.official?.kev?.ransomware_use === 'Known' ? '🔒' : ''} |\n`;
+  }
+  fs.writeFileSync(path.join(DOCS, 'cves-top.md'), top);
+}
+
 let index = HEADER + '# Hexicon library index\n\n';
-index += `**${resources.length} resources** across ${domains.length} domains, plus ${cves.length} curated CVE pages.\n\n`;
+index += `**${resources.length} resources** across ${domains.length} domains, plus ${cves.length} CVE pages ([top exploited list](cves-top.md)).\n\n`;
 index += '| # | Domain | Resources | Subdomains |\n|---|---|---|---|\n';
 for (const d of domains) {
   index += `| ${String(d.order).padStart(2, '0')} | [${d.name.en}](${d.id}.md) | ${resources.filter((r) => r.domain === d.id).length} | ${d.subdomains.length} |\n`;

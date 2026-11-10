@@ -2,7 +2,7 @@
 
 # Hexicon library index
 
-**533 resources** across 14 domains, plus 18 curated CVE pages.
+**533 resources** across 14 domains, plus 1001 CVE pages ([top exploited list](cves-top.md)).
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
