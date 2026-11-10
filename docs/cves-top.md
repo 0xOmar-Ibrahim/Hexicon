@@ -6,1003 +6,1003 @@ Every CVE in the [CISA Known Exploited Vulnerabilities catalog](https://www.cisa
 
 | # | CVE | Vulnerability | Vendor / product | CVSS | EPSS | 🔒 |
 |---|---|---|---|---|---|---|
-| 1 | [CVE-2025-53770](../data/cves/2025/CVE-2025-53770.yml) | Microsoft SharePoint Deserialization of Untrusted Data Vulnerability | Microsoft SharePoint | — | 100.0% | 🔒 |
-| 2 | [CVE-2024-23897](../data/cves/2024/CVE-2024-23897.yml) | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | Jenkins Jenkins Command Line Interface (CLI) | — | 100.0% | 🔒 |
+| 1 | [CVE-2025-53770](../data/cves/2025/CVE-2025-53770.yml) | Microsoft SharePoint Deserialization of Untrusted Data Vulnerability | Microsoft SharePoint | 9.8 | 100.0% | 🔒 |
+| 2 | [CVE-2024-23897](../data/cves/2024/CVE-2024-23897.yml) | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | Jenkins Jenkins Command Line Interface (CLI) | 9.8 | 100.0% | 🔒 |
 | 3 | [CVE-2024-3400](../data/cves/2024/CVE-2024-3400.yml) | PAN-OS GlobalProtect | Palo Alto Networks PAN-OS (GlobalProtect) | 10 | 100.0% | 🔒 |
-| 4 | [CVE-2024-21893](../data/cves/2024/CVE-2024-21893.yml) | Ivanti Connect Secure, Policy Secure, and Neurons Server-Side Request Forgery (SSRF) Vulnerability | Ivanti Connect Secure, Policy Secure, and Neurons | — | 100.0% | 🔒 |
-| 5 | [CVE-2023-35082](../data/cves/2023/CVE-2023-35082.yml) | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core | — | 100.0% | 🔒 |
-| 6 | [CVE-2024-21887](../data/cves/2024/CVE-2024-21887.yml) | Ivanti Connect Secure and Policy Secure Command Injection Vulnerability | Ivanti Connect Secure and Policy Secure | — | 100.0% | 🔒 |
-| 7 | [CVE-2023-22518](../data/cves/2023/CVE-2023-22518.yml) | Atlassian Confluence Data Center and Server Improper Authorization Vulnerability | Atlassian Confluence Data Center and Server | — | 100.0% | 🔒 |
+| 4 | [CVE-2024-21893](../data/cves/2024/CVE-2024-21893.yml) | Ivanti Connect Secure, Policy Secure, and Neurons Server-Side Request Forgery (SSRF) Vulnerability | Ivanti Connect Secure, Policy Secure, and Neurons | 8.2 | 100.0% | 🔒 |
+| 5 | [CVE-2023-35082](../data/cves/2023/CVE-2023-35082.yml) | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core | 9.8 | 100.0% | 🔒 |
+| 6 | [CVE-2024-21887](../data/cves/2024/CVE-2024-21887.yml) | Ivanti Connect Secure and Policy Secure Command Injection Vulnerability | Ivanti Connect Secure and Policy Secure | 9.1 | 100.0% | 🔒 |
+| 7 | [CVE-2023-22518](../data/cves/2023/CVE-2023-22518.yml) | Atlassian Confluence Data Center and Server Improper Authorization Vulnerability | Atlassian Confluence Data Center and Server | 9.8 | 100.0% | 🔒 |
 | 8 | [CVE-2023-4966](../data/cves/2023/CVE-2023-4966.yml) | Citrix Bleed | Citrix NetScaler ADC / Gateway | 7.5 | 100.0% | 🔒 |
-| 9 | [CVE-2023-35078](../data/cves/2023/CVE-2023-35078.yml) | Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 100.0% | 🔒 |
-| 10 | [CVE-2023-27350](../data/cves/2023/CVE-2023-27350.yml) | PaperCut MF/NG Improper Access Control Vulnerability | PaperCut MF/NG | — | 100.0% | 🔒 |
-| 11 | [CVE-2023-0669](../data/cves/2023/CVE-2023-0669.yml) | Fortra GoAnywhere MFT Remote Code Execution Vulnerability | Fortra GoAnywhere MFT | — | 100.0% | 🔒 |
-| 12 | [CVE-2022-26134](../data/cves/2022/CVE-2022-26134.yml) | Atlassian Confluence Server and Data Center Remote Code Execution Vulnerability | Atlassian Confluence Server/Data Center | — | 100.0% | 🔒 |
-| 13 | [CVE-2022-29464](../data/cves/2022/CVE-2022-29464.yml) | WSO2 Multiple Products Unrestrictive Upload of File Vulnerability | WSO2 Multiple Products | — | 100.0% | 🔒 |
+| 9 | [CVE-2023-35078](../data/cves/2023/CVE-2023-35078.yml) | Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 9.8 | 100.0% | 🔒 |
+| 10 | [CVE-2023-27350](../data/cves/2023/CVE-2023-27350.yml) | PaperCut MF/NG Improper Access Control Vulnerability | PaperCut MF/NG | 9.8 | 100.0% | 🔒 |
+| 11 | [CVE-2023-0669](../data/cves/2023/CVE-2023-0669.yml) | Fortra GoAnywhere MFT Remote Code Execution Vulnerability | Fortra GoAnywhere MFT | 7.2 | 100.0% | 🔒 |
+| 12 | [CVE-2022-26134](../data/cves/2022/CVE-2022-26134.yml) | Atlassian Confluence Server and Data Center Remote Code Execution Vulnerability | Atlassian Confluence Server/Data Center | 9.8 | 100.0% | 🔒 |
+| 13 | [CVE-2022-29464](../data/cves/2022/CVE-2022-29464.yml) | WSO2 Multiple Products Unrestrictive Upload of File Vulnerability | WSO2 Multiple Products | 9.8 | 100.0% | 🔒 |
 | 14 | [CVE-2021-44228](../data/cves/2021/CVE-2021-44228.yml) | Log4Shell | Apache Log4j 2 | 10 | 100.0% | 🔒 |
-| 15 | [CVE-2021-40438](../data/cves/2021/CVE-2021-40438.yml) | Apache HTTP Server-Side Request Forgery (SSRF) | Apache Apache | — | 100.0% | 🔒 |
+| 15 | [CVE-2021-40438](../data/cves/2021/CVE-2021-40438.yml) | Apache HTTP Server-Side Request Forgery (SSRF) | Apache Apache | 9 | 100.0% | 🔒 |
 | 16 | [CVE-2017-5638](../data/cves/2017/CVE-2017-5638.yml) | Apache Struts S2-045 | Apache Struts 2 | 9.8 | 100.0% | 🔒 |
-| 17 | [CVE-2021-26084](../data/cves/2021/CVE-2021-26084.yml) | Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability | Atlassian Confluence Server and Data Center | — | 100.0% | 🔒 |
-| 18 | [CVE-2019-19781](../data/cves/2019/CVE-2019-19781.yml) | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability | Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | — | 100.0% | 🔒 |
-| 19 | [CVE-2020-5902](../data/cves/2020/CVE-2020-5902.yml) | F5 BIG-IP Traffic Management User Interface (TMUI) Remote Code Execution Vulnerability | F5 BIG-IP | — | 100.0% | 🔒 |
-| 20 | [CVE-2021-35464](../data/cves/2021/CVE-2021-35464.yml) | ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability | ForgeRock Access Management (AM) | — | 100.0% | 🔒 |
-| 21 | [CVE-2018-13379](../data/cves/2018/CVE-2018-13379.yml) | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | Fortinet FortiOS | — | 100.0% | 🔒 |
+| 17 | [CVE-2021-26084](../data/cves/2021/CVE-2021-26084.yml) | Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability | Atlassian Confluence Server and Data Center | 9.8 | 100.0% | 🔒 |
+| 18 | [CVE-2019-19781](../data/cves/2019/CVE-2019-19781.yml) | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability | Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 9.8 | 100.0% | 🔒 |
+| 19 | [CVE-2020-5902](../data/cves/2020/CVE-2020-5902.yml) | F5 BIG-IP Traffic Management User Interface (TMUI) Remote Code Execution Vulnerability | F5 BIG-IP | 9.8 | 100.0% | 🔒 |
+| 20 | [CVE-2021-35464](../data/cves/2021/CVE-2021-35464.yml) | ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability | ForgeRock Access Management (AM) | 9.8 | 100.0% | 🔒 |
+| 21 | [CVE-2018-13379](../data/cves/2018/CVE-2018-13379.yml) | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | Fortinet FortiOS | 9.8 | 100.0% | 🔒 |
 | 22 | [CVE-2019-0708](../data/cves/2019/CVE-2019-0708.yml) | BlueKeep | Microsoft Remote Desktop Services | 9.8 | 100.0% | 🔒 |
-| 23 | [CVE-2021-34473](../data/cves/2021/CVE-2021-34473.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 100.0% | 🔒 |
-| 24 | [CVE-2019-11510](../data/cves/2019/CVE-2019-11510.yml) | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | Ivanti Pulse Connect Secure | — | 100.0% | 🔒 |
-| 25 | [CVE-2021-22005](../data/cves/2021/CVE-2021-22005.yml) | VMware vCenter Server File Upload Vulnerability | VMware vCenter Server | — | 100.0% | 🔒 |
-| 26 | [CVE-2021-21985](../data/cves/2021/CVE-2021-21985.yml) | VMware vCenter Server Improper Input Validation Vulnerability | VMware vCenter Server | — | 100.0% | 🔒 |
-| 27 | [CVE-2026-109618](../data/cves/2026/CVE-2026-109618.yml) | PHP Memory Corruption Vulnerability | PHP Group PHP | — | 100.0% |  |
-| 28 | [CVE-2026-109619](../data/cves/2026/CVE-2026-109619.yml) | PHP Stale Internal Request-State Vulnerability | PHP Group PHP | — | 100.0% |  |
-| 29 | [CVE-2021-26086](../data/cves/2021/CVE-2021-26086.yml) | Atlassian Jira Server and Data Center Path Traversal Vulnerability | Atlassian Jira Server and Data Center | — | 100.0% |  |
-| 30 | [CVE-2024-7593](../data/cves/2024/CVE-2024-7593.yml) | Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability | Ivanti Virtual Traffic Manager | — | 100.0% |  |
-| 31 | [CVE-2023-1671](../data/cves/2023/CVE-2023-1671.yml) | Sophos Web Appliance Command Injection Vulnerability | Sophos Web Appliance | — | 100.0% |  |
-| 32 | [CVE-2023-44487](../data/cves/2023/CVE-2023-44487.yml) | HTTP/2 Rapid Reset Attack Vulnerability | IETF HTTP/2 | — | 100.0% |  |
-| 33 | [CVE-2023-32315](../data/cves/2023/CVE-2023-32315.yml) | Ignite Realtime Openfire Path Traversal Vulnerability | Ignite Realtime Openfire | — | 100.0% |  |
-| 34 | [CVE-2023-1389](../data/cves/2023/CVE-2023-1389.yml) | TP-Link Archer AX-21 Command Injection Vulnerability | TP-Link Archer AX21 | — | 100.0% |  |
+| 23 | [CVE-2021-34473](../data/cves/2021/CVE-2021-34473.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | 9.1 | 100.0% | 🔒 |
+| 24 | [CVE-2019-11510](../data/cves/2019/CVE-2019-11510.yml) | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | Ivanti Pulse Connect Secure | 10 | 100.0% | 🔒 |
+| 25 | [CVE-2021-22005](../data/cves/2021/CVE-2021-22005.yml) | VMware vCenter Server File Upload Vulnerability | VMware vCenter Server | 9.8 | 100.0% | 🔒 |
+| 26 | [CVE-2021-21985](../data/cves/2021/CVE-2021-21985.yml) | VMware vCenter Server Improper Input Validation Vulnerability | VMware vCenter Server | 9.8 | 100.0% | 🔒 |
+| 27 | [CVE-2026-109618](../data/cves/2026/CVE-2026-109618.yml) | PHP Memory Corruption Vulnerability | PHP Group PHP | 9.2 | 100.0% |  |
+| 28 | [CVE-2026-109619](../data/cves/2026/CVE-2026-109619.yml) | PHP Stale Internal Request-State Vulnerability | PHP Group PHP | 9.2 | 100.0% |  |
+| 29 | [CVE-2021-26086](../data/cves/2021/CVE-2021-26086.yml) | Atlassian Jira Server and Data Center Path Traversal Vulnerability | Atlassian Jira Server and Data Center | 5.3 | 100.0% |  |
+| 30 | [CVE-2024-7593](../data/cves/2024/CVE-2024-7593.yml) | Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability | Ivanti Virtual Traffic Manager | 9.8 | 100.0% |  |
+| 31 | [CVE-2023-1671](../data/cves/2023/CVE-2023-1671.yml) | Sophos Web Appliance Command Injection Vulnerability | Sophos Web Appliance | 9.8 | 100.0% |  |
+| 32 | [CVE-2023-44487](../data/cves/2023/CVE-2023-44487.yml) | HTTP/2 Rapid Reset Attack Vulnerability | IETF HTTP/2 | 7.5 | 100.0% |  |
+| 33 | [CVE-2023-32315](../data/cves/2023/CVE-2023-32315.yml) | Ignite Realtime Openfire Path Traversal Vulnerability | Ignite Realtime Openfire | 7.5 | 100.0% |  |
+| 34 | [CVE-2023-1389](../data/cves/2023/CVE-2023-1389.yml) | TP-Link Archer AX-21 Command Injection Vulnerability | TP-Link Archer AX21 | 8.8 | 100.0% |  |
 | 35 | [CVE-2014-0160](../data/cves/2014/CVE-2014-0160.yml) | Heartbleed | OpenSSL OpenSSL | 7.5 | 100.0% |  |
-| 36 | [CVE-2017-9841](../data/cves/2017/CVE-2017-9841.yml) | PHPUnit Command Injection Vulnerability | PHPUnit PHPUnit | — | 100.0% |  |
-| 37 | [CVE-2015-1635](../data/cves/2015/CVE-2015-1635.yml) | Microsoft HTTP.sys Remote Code Execution Vulnerability | Microsoft HTTP.sys | — | 100.0% |  |
+| 36 | [CVE-2017-9841](../data/cves/2017/CVE-2017-9841.yml) | PHPUnit Command Injection Vulnerability | PHPUnit PHPUnit | 9.8 | 100.0% |  |
+| 37 | [CVE-2015-1635](../data/cves/2015/CVE-2015-1635.yml) | Microsoft HTTP.sys Remote Code Execution Vulnerability | Microsoft HTTP.sys | 9.8 | 100.0% |  |
 | 38 | [CVE-2014-6271](../data/cves/2014/CVE-2014-6271.yml) | Shellshock | GNU Bash | 9.8 | 100.0% |  |
-| 39 | [CVE-2021-1498](../data/cves/2021/CVE-2021-1498.yml) | Cisco HyperFlex HX Data Platform Command Injection Vulnerability | Cisco HyperFlex HX | — | 100.0% |  |
-| 40 | [CVE-2022-22954](../data/cves/2022/CVE-2022-22954.yml) | VMware Workspace ONE Access and Identity Manager Server-Side Template Injection Vulnerability | VMware Workspace ONE Access and Identity Manager | — | 100.0% | 🔒 |
-| 41 | [CVE-2017-7921](../data/cves/2017/CVE-2017-7921.yml) | Hikvision Multiple Products Improper Authentication Vulnerability | Hikvision Multiple Products | — | 100.0% |  |
-| 42 | [CVE-2013-2251](../data/cves/2013/CVE-2013-2251.yml) | Apache Struts Improper Input Validation Vulnerability | Apache Struts | — | 100.0% |  |
-| 43 | [CVE-2012-1823](../data/cves/2012/CVE-2012-1823.yml) | PHP-CGI Query String Parameter Vulnerability | PHP PHP | — | 100.0% |  |
-| 44 | [CVE-2020-14882](../data/cves/2020/CVE-2020-14882.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | — | 100.0% |  |
+| 39 | [CVE-2021-1498](../data/cves/2021/CVE-2021-1498.yml) | Cisco HyperFlex HX Data Platform Command Injection Vulnerability | Cisco HyperFlex HX | 9.8 | 100.0% |  |
+| 40 | [CVE-2022-22954](../data/cves/2022/CVE-2022-22954.yml) | VMware Workspace ONE Access and Identity Manager Server-Side Template Injection Vulnerability | VMware Workspace ONE Access and Identity Manager | 9.8 | 100.0% | 🔒 |
+| 41 | [CVE-2017-7921](../data/cves/2017/CVE-2017-7921.yml) | Hikvision Multiple Products Improper Authentication Vulnerability | Hikvision Multiple Products | 9.8 | 100.0% |  |
+| 42 | [CVE-2013-2251](../data/cves/2013/CVE-2013-2251.yml) | Apache Struts Improper Input Validation Vulnerability | Apache Struts | 9.8 | 100.0% |  |
+| 43 | [CVE-2012-1823](../data/cves/2012/CVE-2012-1823.yml) | PHP-CGI Query String Parameter Vulnerability | PHP PHP | 9.8 | 100.0% |  |
+| 44 | [CVE-2020-14882](../data/cves/2020/CVE-2020-14882.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | 9.8 | 100.0% |  |
 | 45 | [CVE-2021-26855](../data/cves/2021/CVE-2021-26855.yml) | ProxyLogon | Microsoft Exchange Server | 9.1 | 100.0% | 🔒 |
-| 46 | [CVE-2019-16920](../data/cves/2019/CVE-2019-16920.yml) | D-Link Multiple Routers Command Injection Vulnerability | D-Link Multiple Routers | — | 100.0% |  |
-| 47 | [CVE-2018-11776](../data/cves/2018/CVE-2018-11776.yml) | Apache Struts Remote Code Execution Vulnerability | Apache Struts | — | 100.0% |  |
-| 48 | [CVE-2025-49704](../data/cves/2025/CVE-2025-49704.yml) | Microsoft SharePoint Code Injection Vulnerability | Microsoft SharePoint | — | 100.0% | 🔒 |
-| 49 | [CVE-2024-3273](../data/cves/2024/CVE-2024-3273.yml) | D-Link Multiple NAS Devices Command Injection Vulnerability | D-Link Multiple NAS Devices | — | 100.0% |  |
-| 50 | [CVE-2022-44877](../data/cves/2022/CVE-2022-44877.yml) | CWP Control Web Panel OS Command Injection Vulnerability | CWP Control Web Panel | — | 100.0% |  |
-| 51 | [CVE-2017-10271](../data/cves/2017/CVE-2017-10271.yml) | Oracle Corporation WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | — | 100.0% | 🔒 |
-| 52 | [CVE-2024-34102](../data/cves/2024/CVE-2024-34102.yml) | Adobe Commerce and Magento Open Source Improper Restriction of XML External Entity Reference (XXE) Vulnerability | Adobe Commerce and Magento Open Source | — | 100.0% |  |
-| 53 | [CVE-2025-3248](../data/cves/2025/CVE-2025-3248.yml) | Langflow Missing Authentication Vulnerability | Langflow Langflow | — | 100.0% | 🔒 |
-| 54 | [CVE-2024-13159](../data/cves/2024/CVE-2024-13159.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | — | 100.0% |  |
-| 55 | [CVE-2020-8515](../data/cves/2020/CVE-2020-8515.yml) | Multiple DrayTek Vigor Routers Web Management Page Vulnerability | DrayTek Multiple Vigor Routers | — | 100.0% |  |
-| 56 | [CVE-2023-46604](../data/cves/2023/CVE-2023-46604.yml) | Apache ActiveMQ Deserialization of Untrusted Data Vulnerability | Apache ActiveMQ | — | 100.0% | 🔒 |
-| 57 | [CVE-2021-41773](../data/cves/2021/CVE-2021-41773.yml) | Apache HTTP Server Path Traversal Vulnerability | Apache HTTP Server | — | 100.0% | 🔒 |
-| 58 | [CVE-2020-3452](../data/cves/2020/CVE-2020-3452.yml) | Cisco ASA and FTD Read-Only Path Traversal Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | — | 100.0% |  |
-| 59 | [CVE-2024-27199](../data/cves/2024/CVE-2024-27199.yml) | JetBrains TeamCity Relative Path Traversal Vulnerability | JetBrains TeamCity | — | 100.0% | 🔒 |
-| 60 | [CVE-2023-29300](../data/cves/2023/CVE-2023-29300.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | — | 100.0% | 🔒 |
-| 61 | [CVE-2018-7600](../data/cves/2018/CVE-2018-7600.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Drupal Core | — | 100.0% | 🔒 |
-| 62 | [CVE-2021-34523](../data/cves/2021/CVE-2021-34523.yml) | Microsoft Exchange Server Privilege Escalation Vulnerability | Microsoft Exchange Server | — | 100.0% | 🔒 |
-| 63 | [CVE-2021-33044](../data/cves/2021/CVE-2021-33044.yml) | Dahua IP Camera Authentication Bypass Vulnerability | Dahua IP Camera Firmware | — | 100.0% |  |
-| 64 | [CVE-2020-9054](../data/cves/2020/CVE-2020-9054.yml) | Zyxel Multiple NAS Devices OS Command Injection Vulnerability | Zyxel Multiple Network-Attached Storage (NAS) Devices | — | 100.0% |  |
-| 65 | [CVE-2024-4577](../data/cves/2024/CVE-2024-4577.yml) | PHP-CGI OS Command Injection Vulnerability | PHP Group PHP | — | 100.0% | 🔒 |
-| 66 | [CVE-2023-42793](../data/cves/2023/CVE-2023-42793.yml) | JetBrains TeamCity Authentication Bypass Vulnerability | JetBrains TeamCity | — | 100.0% | 🔒 |
-| 67 | [CVE-2019-9670](../data/cves/2019/CVE-2019-9670.yml) | Synacor Zimbra Collaboration Suite (ZCS) Improper Restriction of XML External Entity Reference | Synacor Zimbra Collaboration Suite (ZCS) | — | 100.0% |  |
-| 68 | [CVE-2023-22527](../data/cves/2023/CVE-2023-22527.yml) | Atlassian Confluence Data Center and Server Template Injection Vulnerability | Atlassian Confluence Data Center and Server | — | 100.0% | 🔒 |
-| 69 | [CVE-2023-29357](../data/cves/2023/CVE-2023-29357.yml) | Microsoft SharePoint Server Privilege Escalation Vulnerability | Microsoft SharePoint Server | — | 100.0% | 🔒 |
-| 70 | [CVE-2023-46805](../data/cves/2023/CVE-2023-46805.yml) | Ivanti Connect Secure and Policy Secure Authentication Bypass Vulnerability | Ivanti Connect Secure and Policy Secure | — | 100.0% | 🔒 |
-| 71 | [CVE-2022-40684](../data/cves/2022/CVE-2022-40684.yml) | Fortinet Multiple Products Authentication Bypass Vulnerability | Fortinet Multiple Products | — | 100.0% | 🔒 |
-| 72 | [CVE-2024-45195](../data/cves/2024/CVE-2024-45195.yml) | Apache OFBiz Forced Browsing Vulnerability | Apache OFBiz | — | 100.0% |  |
-| 73 | [CVE-2021-20090](../data/cves/2021/CVE-2021-20090.yml) | Arcadyan Buffalo Firmware Path Traversal Vulnerability | Arcadyan Buffalo Firmware | — | 100.0% |  |
-| 74 | [CVE-2025-22457](../data/cves/2025/CVE-2025-22457.yml) | Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability | Ivanti Connect Secure, Policy Secure, and ZTA Gateways | — | 100.0% | 🔒 |
-| 75 | [CVE-2025-0282](../data/cves/2025/CVE-2025-0282.yml) | Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability | Ivanti Connect Secure, Policy Secure, and ZTA Gateways | — | 100.0% | 🔒 |
-| 76 | [CVE-2021-22204](../data/cves/2021/CVE-2021-22204.yml) | ExifTool Remote Code Execution Vulnerability | Perl Exiftool | — | 100.0% |  |
-| 77 | [CVE-2024-1709](../data/cves/2024/CVE-2024-1709.yml) | ConnectWise ScreenConnect Authentication Bypass Vulnerability | ConnectWise ScreenConnect | — | 100.0% | 🔒 |
-| 78 | [CVE-2025-59287](../data/cves/2025/CVE-2025-59287.yml) | Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability | Microsoft Windows | — | 100.0% |  |
-| 79 | [CVE-2023-4863](../data/cves/2023/CVE-2023-4863.yml) | Google Chromium WebP Heap-Based Buffer Overflow Vulnerability | Google Chromium WebP | — | 100.0% |  |
-| 80 | [CVE-2024-24919](../data/cves/2024/CVE-2024-24919.yml) | Check Point Quantum Security Gateways Information Disclosure Vulnerability | Check Point Quantum Security Gateways | — | 100.0% | 🔒 |
-| 81 | [CVE-2021-45046](../data/cves/2021/CVE-2021-45046.yml) | Apache Log4j2 Deserialization of Untrusted Data Vulnerability | Apache Log4j2 | — | 100.0% | 🔒 |
-| 82 | [CVE-2019-2725](../data/cves/2019/CVE-2019-2725.yml) | Oracle WebLogic Server, Injection | Oracle WebLogic Server | — | 100.0% | 🔒 |
-| 83 | [CVE-2012-0158](../data/cves/2012/CVE-2012-0158.yml) | Microsoft MSCOMCTL.OCX Remote Code Execution Vulnerability | Microsoft MSCOMCTL.OCX | — | 100.0% | 🔒 |
-| 84 | [CVE-2025-24893](../data/cves/2025/CVE-2025-24893.yml) | XWiki Platform Eval Injection Vulnerability | XWiki Platform | — | 100.0% |  |
-| 85 | [CVE-2025-5777](../data/cves/2025/CVE-2025-5777.yml) | Citrix NetScaler ADC and Gateway Out-of-Bounds Read Vulnerability | Citrix NetScaler ADC and Gateway | — | 100.0% | 🔒 |
-| 86 | [CVE-2014-8361](../data/cves/2014/CVE-2014-8361.yml) | Realtek SDK Improper Input Validation Vulnerability | Realtek SDK | — | 100.0% |  |
-| 87 | [CVE-2022-41082](../data/cves/2022/CVE-2022-41082.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 100.0% | 🔒 |
-| 88 | [CVE-2025-31161](../data/cves/2025/CVE-2025-31161.yml) | CrushFTP Authentication Bypass Vulnerability | CrushFTP CrushFTP | — | 100.0% | 🔒 |
-| 89 | [CVE-2024-4879](../data/cves/2024/CVE-2024-4879.yml) | ServiceNow Improper Input Validation Vulnerability | ServiceNow Utah, Vancouver, and Washington DC Now Platform | — | 100.0% |  |
-| 90 | [CVE-2017-12617](../data/cves/2017/CVE-2017-12617.yml) | Apache Tomcat Remote Code Execution Vulnerability | Apache Tomcat | — | 100.0% |  |
-| 91 | [CVE-2020-25506](../data/cves/2020/CVE-2020-25506.yml) | D-Link DNS-320 Device Command Injection Vulnerability | D-Link DNS-320 Device | — | 100.0% |  |
-| 92 | [CVE-2022-47986](../data/cves/2022/CVE-2022-47986.yml) | IBM Aspera Faspex Code Execution Vulnerability | IBM Aspera Faspex | — | 100.0% | 🔒 |
-| 93 | [CVE-2021-42013](../data/cves/2021/CVE-2021-42013.yml) | Apache HTTP Server Path Traversal Vulnerability | Apache HTTP Server | — | 100.0% | 🔒 |
-| 94 | [CVE-2021-3156](../data/cves/2021/CVE-2021-3156.yml) | Sudo Heap-Based Buffer Overflow Vulnerability | Sudo Sudo | — | 100.0% |  |
-| 95 | [CVE-2019-10149](../data/cves/2019/CVE-2019-10149.yml) | Exim Mail Transfer Agent (MTA) Improper Input Validation | Exim Mail Transfer Agent (MTA) | — | 100.0% |  |
-| 96 | [CVE-2018-2628](../data/cves/2018/CVE-2018-2628.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | — | 100.0% |  |
-| 97 | [CVE-2024-38475](../data/cves/2024/CVE-2024-38475.yml) | Apache HTTP Server Improper Escaping of Output Vulnerability | Apache HTTP Server | — | 100.0% |  |
-| 98 | [CVE-2022-41040](../data/cves/2022/CVE-2022-41040.yml) | Microsoft Exchange Server Server-Side Request Forgery Vulnerability | Microsoft Exchange Server | — | 100.0% | 🔒 |
-| 99 | [CVE-2020-0688](../data/cves/2020/CVE-2020-0688.yml) | Microsoft Exchange Server Validation Key Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 100.0% | 🔒 |
-| 100 | [CVE-2022-1388](../data/cves/2022/CVE-2022-1388.yml) | F5 BIG-IP Missing Authentication Vulnerability | F5 BIG-IP | — | 100.0% | 🔒 |
-| 101 | [CVE-2023-38035](../data/cves/2023/CVE-2023-38035.yml) | Ivanti Sentry Authentication Bypass Vulnerability | Ivanti Sentry | — | 100.0% | 🔒 |
-| 102 | [CVE-2018-15961](../data/cves/2018/CVE-2018-15961.yml) | Adobe ColdFusion Unrestricted File Upload Vulnerability | Adobe ColdFusion | — | 100.0% |  |
-| 103 | [CVE-2018-10562](../data/cves/2018/CVE-2018-10562.yml) | Dasan GPON Routers Command Injection Vulnerability | Dasan Gigabit Passive Optical Network (GPON) Routers | — | 99.9% | 🔒 |
-| 104 | [CVE-2017-11882](../data/cves/2017/CVE-2017-11882.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 99.9% | 🔒 |
-| 105 | [CVE-2022-30525](../data/cves/2022/CVE-2022-30525.yml) | Zyxel Multiple Firewalls OS Command Injection Vulnerability | Zyxel Multiple Firewalls | — | 99.9% |  |
-| 106 | [CVE-2021-3129](../data/cves/2021/CVE-2021-3129.yml) | Laravel Ignition File Upload Vulnerability | Laravel Ignition | — | 99.9% | 🔒 |
-| 107 | [CVE-2025-24813](../data/cves/2025/CVE-2025-24813.yml) | Apache Tomcat Path Equivalence Vulnerability | Apache Tomcat | — | 99.9% |  |
-| 108 | [CVE-2020-10189](../data/cves/2020/CVE-2020-10189.yml) | Zoho ManageEngine Desktop Central File Upload Vulnerability | Zoho ManageEngine | — | 99.9% |  |
-| 109 | [CVE-2014-7169](../data/cves/2014/CVE-2014-7169.yml) | GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability | GNU Bourne-Again Shell (Bash) | — | 99.9% |  |
-| 110 | [CVE-2024-27198](../data/cves/2024/CVE-2024-27198.yml) | JetBrains TeamCity Authentication Bypass Vulnerability | JetBrains TeamCity | — | 99.9% | 🔒 |
-| 111 | [CVE-2024-29824](../data/cves/2024/CVE-2024-29824.yml) | Ivanti Endpoint Manager (EPM) SQL Injection Vulnerability | Ivanti Endpoint Manager (EPM) | — | 99.9% |  |
-| 112 | [CVE-2022-22963](../data/cves/2022/CVE-2022-22963.yml) | VMware Tanzu Spring Cloud Function Remote Code Execution Vulnerability | VMware Tanzu Spring Cloud | — | 99.9% |  |
-| 113 | [CVE-2021-26085](../data/cves/2021/CVE-2021-26085.yml) | Atlassian Confluence Server Pre-Authorization Arbitrary File Read Vulnerability | Atlassian Confluence Server | — | 99.9% | 🔒 |
+| 46 | [CVE-2019-16920](../data/cves/2019/CVE-2019-16920.yml) | D-Link Multiple Routers Command Injection Vulnerability | D-Link Multiple Routers | 9.8 | 100.0% |  |
+| 47 | [CVE-2018-11776](../data/cves/2018/CVE-2018-11776.yml) | Apache Struts Remote Code Execution Vulnerability | Apache Struts | 8.1 | 100.0% |  |
+| 48 | [CVE-2025-49704](../data/cves/2025/CVE-2025-49704.yml) | Microsoft SharePoint Code Injection Vulnerability | Microsoft SharePoint | 8.8 | 100.0% | 🔒 |
+| 49 | [CVE-2024-3273](../data/cves/2024/CVE-2024-3273.yml) | D-Link Multiple NAS Devices Command Injection Vulnerability | D-Link Multiple NAS Devices | 9.8 | 100.0% |  |
+| 50 | [CVE-2022-44877](../data/cves/2022/CVE-2022-44877.yml) | CWP Control Web Panel OS Command Injection Vulnerability | CWP Control Web Panel | 9.8 | 100.0% |  |
+| 51 | [CVE-2017-10271](../data/cves/2017/CVE-2017-10271.yml) | Oracle Corporation WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | 7.5 | 100.0% | 🔒 |
+| 52 | [CVE-2024-34102](../data/cves/2024/CVE-2024-34102.yml) | Adobe Commerce and Magento Open Source Improper Restriction of XML External Entity Reference (XXE) Vulnerability | Adobe Commerce and Magento Open Source | 9.8 | 100.0% |  |
+| 53 | [CVE-2025-3248](../data/cves/2025/CVE-2025-3248.yml) | Langflow Missing Authentication Vulnerability | Langflow Langflow | 9.8 | 100.0% | 🔒 |
+| 54 | [CVE-2024-13159](../data/cves/2024/CVE-2024-13159.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | 7.5 | 100.0% |  |
+| 55 | [CVE-2020-8515](../data/cves/2020/CVE-2020-8515.yml) | Multiple DrayTek Vigor Routers Web Management Page Vulnerability | DrayTek Multiple Vigor Routers | 9.8 | 100.0% |  |
+| 56 | [CVE-2023-46604](../data/cves/2023/CVE-2023-46604.yml) | Apache ActiveMQ Deserialization of Untrusted Data Vulnerability | Apache ActiveMQ | 9.8 | 100.0% | 🔒 |
+| 57 | [CVE-2021-41773](../data/cves/2021/CVE-2021-41773.yml) | Apache HTTP Server Path Traversal Vulnerability | Apache HTTP Server | 9.8 | 100.0% | 🔒 |
+| 58 | [CVE-2020-3452](../data/cves/2020/CVE-2020-3452.yml) | Cisco ASA and FTD Read-Only Path Traversal Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7.5 | 100.0% |  |
+| 59 | [CVE-2024-27199](../data/cves/2024/CVE-2024-27199.yml) | JetBrains TeamCity Relative Path Traversal Vulnerability | JetBrains TeamCity | 7.3 | 100.0% | 🔒 |
+| 60 | [CVE-2023-29300](../data/cves/2023/CVE-2023-29300.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | 9.8 | 100.0% | 🔒 |
+| 61 | [CVE-2018-7600](../data/cves/2018/CVE-2018-7600.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Drupal Core | 9.8 | 100.0% | 🔒 |
+| 62 | [CVE-2021-34523](../data/cves/2021/CVE-2021-34523.yml) | Microsoft Exchange Server Privilege Escalation Vulnerability | Microsoft Exchange Server | 9 | 100.0% | 🔒 |
+| 63 | [CVE-2021-33044](../data/cves/2021/CVE-2021-33044.yml) | Dahua IP Camera Authentication Bypass Vulnerability | Dahua IP Camera Firmware | 9.8 | 100.0% |  |
+| 64 | [CVE-2020-9054](../data/cves/2020/CVE-2020-9054.yml) | Zyxel Multiple NAS Devices OS Command Injection Vulnerability | Zyxel Multiple Network-Attached Storage (NAS) Devices | 9.8 | 100.0% |  |
+| 65 | [CVE-2024-4577](../data/cves/2024/CVE-2024-4577.yml) | PHP-CGI OS Command Injection Vulnerability | PHP Group PHP | 9.8 | 100.0% | 🔒 |
+| 66 | [CVE-2023-42793](../data/cves/2023/CVE-2023-42793.yml) | JetBrains TeamCity Authentication Bypass Vulnerability | JetBrains TeamCity | 9.8 | 100.0% | 🔒 |
+| 67 | [CVE-2019-9670](../data/cves/2019/CVE-2019-9670.yml) | Synacor Zimbra Collaboration Suite (ZCS) Improper Restriction of XML External Entity Reference | Synacor Zimbra Collaboration Suite (ZCS) | 9.8 | 100.0% |  |
+| 68 | [CVE-2023-22527](../data/cves/2023/CVE-2023-22527.yml) | Atlassian Confluence Data Center and Server Template Injection Vulnerability | Atlassian Confluence Data Center and Server | 9.8 | 100.0% | 🔒 |
+| 69 | [CVE-2023-29357](../data/cves/2023/CVE-2023-29357.yml) | Microsoft SharePoint Server Privilege Escalation Vulnerability | Microsoft SharePoint Server | 9.8 | 100.0% | 🔒 |
+| 70 | [CVE-2023-46805](../data/cves/2023/CVE-2023-46805.yml) | Ivanti Connect Secure and Policy Secure Authentication Bypass Vulnerability | Ivanti Connect Secure and Policy Secure | 8.2 | 100.0% | 🔒 |
+| 71 | [CVE-2022-40684](../data/cves/2022/CVE-2022-40684.yml) | Fortinet Multiple Products Authentication Bypass Vulnerability | Fortinet Multiple Products | 9.8 | 100.0% | 🔒 |
+| 72 | [CVE-2024-45195](../data/cves/2024/CVE-2024-45195.yml) | Apache OFBiz Forced Browsing Vulnerability | Apache OFBiz | 7.5 | 100.0% |  |
+| 73 | [CVE-2021-20090](../data/cves/2021/CVE-2021-20090.yml) | Arcadyan Buffalo Firmware Path Traversal Vulnerability | Arcadyan Buffalo Firmware | 9.8 | 100.0% |  |
+| 74 | [CVE-2025-22457](../data/cves/2025/CVE-2025-22457.yml) | Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability | Ivanti Connect Secure, Policy Secure, and ZTA Gateways | 9.8 | 100.0% | 🔒 |
+| 75 | [CVE-2025-0282](../data/cves/2025/CVE-2025-0282.yml) | Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability | Ivanti Connect Secure, Policy Secure, and ZTA Gateways | 9 | 100.0% | 🔒 |
+| 76 | [CVE-2021-22204](../data/cves/2021/CVE-2021-22204.yml) | ExifTool Remote Code Execution Vulnerability | Perl Exiftool | 7.8 | 100.0% |  |
+| 77 | [CVE-2024-1709](../data/cves/2024/CVE-2024-1709.yml) | ConnectWise ScreenConnect Authentication Bypass Vulnerability | ConnectWise ScreenConnect | 10 | 100.0% | 🔒 |
+| 78 | [CVE-2025-59287](../data/cves/2025/CVE-2025-59287.yml) | Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability | Microsoft Windows | 9.8 | 100.0% |  |
+| 79 | [CVE-2023-4863](../data/cves/2023/CVE-2023-4863.yml) | Google Chromium WebP Heap-Based Buffer Overflow Vulnerability | Google Chromium WebP | 8.8 | 100.0% |  |
+| 80 | [CVE-2024-24919](../data/cves/2024/CVE-2024-24919.yml) | Check Point Quantum Security Gateways Information Disclosure Vulnerability | Check Point Quantum Security Gateways | 8.6 | 100.0% | 🔒 |
+| 81 | [CVE-2021-45046](../data/cves/2021/CVE-2021-45046.yml) | Apache Log4j2 Deserialization of Untrusted Data Vulnerability | Apache Log4j2 | 9 | 100.0% | 🔒 |
+| 82 | [CVE-2019-2725](../data/cves/2019/CVE-2019-2725.yml) | Oracle WebLogic Server, Injection | Oracle WebLogic Server | 9.8 | 100.0% | 🔒 |
+| 83 | [CVE-2012-0158](../data/cves/2012/CVE-2012-0158.yml) | Microsoft MSCOMCTL.OCX Remote Code Execution Vulnerability | Microsoft MSCOMCTL.OCX | 8.8 | 100.0% | 🔒 |
+| 84 | [CVE-2025-24893](../data/cves/2025/CVE-2025-24893.yml) | XWiki Platform Eval Injection Vulnerability | XWiki Platform | 9.8 | 100.0% |  |
+| 85 | [CVE-2025-5777](../data/cves/2025/CVE-2025-5777.yml) | Citrix NetScaler ADC and Gateway Out-of-Bounds Read Vulnerability | Citrix NetScaler ADC and Gateway | 9.3 | 100.0% | 🔒 |
+| 86 | [CVE-2014-8361](../data/cves/2014/CVE-2014-8361.yml) | Realtek SDK Improper Input Validation Vulnerability | Realtek SDK | 9.8 | 100.0% |  |
+| 87 | [CVE-2022-41082](../data/cves/2022/CVE-2022-41082.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | 8 | 100.0% | 🔒 |
+| 88 | [CVE-2025-31161](../data/cves/2025/CVE-2025-31161.yml) | CrushFTP Authentication Bypass Vulnerability | CrushFTP CrushFTP | 9.8 | 100.0% | 🔒 |
+| 89 | [CVE-2024-4879](../data/cves/2024/CVE-2024-4879.yml) | ServiceNow Improper Input Validation Vulnerability | ServiceNow Utah, Vancouver, and Washington DC Now Platform | 9.3 | 100.0% |  |
+| 90 | [CVE-2017-12617](../data/cves/2017/CVE-2017-12617.yml) | Apache Tomcat Remote Code Execution Vulnerability | Apache Tomcat | 8.1 | 100.0% |  |
+| 91 | [CVE-2020-25506](../data/cves/2020/CVE-2020-25506.yml) | D-Link DNS-320 Device Command Injection Vulnerability | D-Link DNS-320 Device | 9.8 | 100.0% |  |
+| 92 | [CVE-2022-47986](../data/cves/2022/CVE-2022-47986.yml) | IBM Aspera Faspex Code Execution Vulnerability | IBM Aspera Faspex | 9.8 | 100.0% | 🔒 |
+| 93 | [CVE-2021-42013](../data/cves/2021/CVE-2021-42013.yml) | Apache HTTP Server Path Traversal Vulnerability | Apache HTTP Server | 9.8 | 100.0% | 🔒 |
+| 94 | [CVE-2021-3156](../data/cves/2021/CVE-2021-3156.yml) | Sudo Heap-Based Buffer Overflow Vulnerability | Sudo Sudo | 7.8 | 100.0% |  |
+| 95 | [CVE-2019-10149](../data/cves/2019/CVE-2019-10149.yml) | Exim Mail Transfer Agent (MTA) Improper Input Validation | Exim Mail Transfer Agent (MTA) | 9.8 | 100.0% |  |
+| 96 | [CVE-2018-2628](../data/cves/2018/CVE-2018-2628.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | 9.8 | 100.0% |  |
+| 97 | [CVE-2024-38475](../data/cves/2024/CVE-2024-38475.yml) | Apache HTTP Server Improper Escaping of Output Vulnerability | Apache HTTP Server | 9.1 | 100.0% |  |
+| 98 | [CVE-2022-41040](../data/cves/2022/CVE-2022-41040.yml) | Microsoft Exchange Server Server-Side Request Forgery Vulnerability | Microsoft Exchange Server | 8.8 | 100.0% | 🔒 |
+| 99 | [CVE-2020-0688](../data/cves/2020/CVE-2020-0688.yml) | Microsoft Exchange Server Validation Key Remote Code Execution Vulnerability | Microsoft Exchange Server | 8.8 | 100.0% | 🔒 |
+| 100 | [CVE-2022-1388](../data/cves/2022/CVE-2022-1388.yml) | F5 BIG-IP Missing Authentication Vulnerability | F5 BIG-IP | 9.8 | 100.0% | 🔒 |
+| 101 | [CVE-2023-38035](../data/cves/2023/CVE-2023-38035.yml) | Ivanti Sentry Authentication Bypass Vulnerability | Ivanti Sentry | 9.8 | 100.0% | 🔒 |
+| 102 | [CVE-2018-15961](../data/cves/2018/CVE-2018-15961.yml) | Adobe ColdFusion Unrestricted File Upload Vulnerability | Adobe ColdFusion | 9.8 | 100.0% |  |
+| 103 | [CVE-2018-10562](../data/cves/2018/CVE-2018-10562.yml) | Dasan GPON Routers Command Injection Vulnerability | Dasan Gigabit Passive Optical Network (GPON) Routers | 9.8 | 99.9% | 🔒 |
+| 104 | [CVE-2017-11882](../data/cves/2017/CVE-2017-11882.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 7.8 | 99.9% | 🔒 |
+| 105 | [CVE-2022-30525](../data/cves/2022/CVE-2022-30525.yml) | Zyxel Multiple Firewalls OS Command Injection Vulnerability | Zyxel Multiple Firewalls | 9.8 | 99.9% |  |
+| 106 | [CVE-2021-3129](../data/cves/2021/CVE-2021-3129.yml) | Laravel Ignition File Upload Vulnerability | Laravel Ignition | 9.8 | 99.9% | 🔒 |
+| 107 | [CVE-2025-24813](../data/cves/2025/CVE-2025-24813.yml) | Apache Tomcat Path Equivalence Vulnerability | Apache Tomcat | 9.8 | 99.9% |  |
+| 108 | [CVE-2020-10189](../data/cves/2020/CVE-2020-10189.yml) | Zoho ManageEngine Desktop Central File Upload Vulnerability | Zoho ManageEngine | 9.8 | 99.9% |  |
+| 109 | [CVE-2014-7169](../data/cves/2014/CVE-2014-7169.yml) | GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability | GNU Bourne-Again Shell (Bash) | 9.8 | 99.9% |  |
+| 110 | [CVE-2024-27198](../data/cves/2024/CVE-2024-27198.yml) | JetBrains TeamCity Authentication Bypass Vulnerability | JetBrains TeamCity | 9.8 | 99.9% | 🔒 |
+| 111 | [CVE-2024-29824](../data/cves/2024/CVE-2024-29824.yml) | Ivanti Endpoint Manager (EPM) SQL Injection Vulnerability | Ivanti Endpoint Manager (EPM) | 8.8 | 99.9% |  |
+| 112 | [CVE-2022-22963](../data/cves/2022/CVE-2022-22963.yml) | VMware Tanzu Spring Cloud Function Remote Code Execution Vulnerability | VMware Tanzu Spring Cloud | 9.8 | 99.9% |  |
+| 113 | [CVE-2021-26085](../data/cves/2021/CVE-2021-26085.yml) | Atlassian Confluence Server Pre-Authorization Arbitrary File Read Vulnerability | Atlassian Confluence Server | 5.3 | 99.9% | 🔒 |
 | 114 | [CVE-2023-34362](../data/cves/2023/CVE-2023-34362.yml) | MOVEit Transfer SQLi | Progress MOVEit Transfer | 9.8 | 99.9% | 🔒 |
-| 115 | [CVE-2021-38647](../data/cves/2021/CVE-2021-38647.yml) | Microsoft Open Management Infrastructure (OMI) Remote Code Execution Vulnerability | Microsoft Open Management Infrastructure (OMI) | — | 99.9% | 🔒 |
-| 116 | [CVE-2021-39226](../data/cves/2021/CVE-2021-39226.yml) | Grafana Authentication Bypass Vulnerability | Grafana Labs Grafana | — | 99.9% |  |
-| 117 | [CVE-2022-24816](../data/cves/2022/CVE-2022-24816.yml) | OSGeo GeoServer JAI-EXT Code Injection Vulnerability | OSGeo JAI-EXT | — | 99.9% |  |
-| 118 | [CVE-2025-4427](../data/cves/2025/CVE-2025-4427.yml) | Ivanti Endpoint Manager Mobile (EPMM) Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 99.9% |  |
-| 119 | [CVE-2021-1497](../data/cves/2021/CVE-2021-1497.yml) | Cisco HyperFlex HX Installer Virtual Machine Command Injection Vulnerability | Cisco HyperFlex HX | — | 99.9% |  |
-| 120 | [CVE-2025-25257](../data/cves/2025/CVE-2025-25257.yml) | Fortinet FortiWeb SQL Injection Vulnerability | Fortinet FortiWeb | — | 99.9% |  |
-| 121 | [CVE-2026-10520](../data/cves/2026/CVE-2026-10520.yml) | Ivanti Sentry OS Command Injection Vulnerability | Ivanti Sentry | — | 99.9% |  |
-| 122 | [CVE-2024-32113](../data/cves/2024/CVE-2024-32113.yml) | Apache OFBiz Path Traversal Vulnerability | Apache OFBiz | — | 99.9% |  |
-| 123 | [CVE-2019-3396](../data/cves/2019/CVE-2019-3396.yml) | Atlassian Confluence Server and Data Center Server-Side Template Injection Vulnerability | Atlassian Confluence Server and Data Server | — | 99.9% | 🔒 |
-| 124 | [CVE-2019-0604](../data/cves/2019/CVE-2019-0604.yml) | Microsoft SharePoint Remote Code Execution Vulnerability | Microsoft SharePoint | — | 99.9% | 🔒 |
-| 125 | [CVE-2021-20038](../data/cves/2021/CVE-2021-20038.yml) | SonicWall SMA 100 Appliances Stack-Based Buffer Overflow Vulnerability | SonicWall SMA 100 Appliances | — | 99.9% | 🔒 |
-| 126 | [CVE-2024-45519](../data/cves/2024/CVE-2024-45519.yml) | Synacor Zimbra Collaboration Suite (ZCS) Command Execution Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 99.9% |  |
-| 127 | [CVE-2019-7481](../data/cves/2019/CVE-2019-7481.yml) | SonicWall SMA100 SQL Injection Vulnerability | SonicWall SMA100 | — | 99.9% | 🔒 |
-| 128 | [CVE-2015-1427](../data/cves/2015/CVE-2015-1427.yml) | Elasticsearch Groovy Scripting Engine Remote Code Execution Vulnerability | Elastic Elasticsearch | — | 99.9% |  |
-| 129 | [CVE-2020-7961](../data/cves/2020/CVE-2020-7961.yml) | Liferay Portal Deserialization of Untrusted Data Vulnerability | Liferay Liferay Portal | — | 99.9% |  |
-| 130 | [CVE-2023-21839](../data/cves/2023/CVE-2023-21839.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | — | 99.9% |  |
-| 131 | [CVE-2021-22986](../data/cves/2021/CVE-2021-22986.yml) | F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability | F5 BIG-IP and BIG-IQ Centralized Management | — | 99.9% | 🔒 |
-| 132 | [CVE-2018-0296](../data/cves/2018/CVE-2018-0296.yml) | Cisco Adaptive Security Appliance (ASA) Denial-of-Service Vulnerability | Cisco Adaptive Security Appliance (ASA) | — | 99.9% |  |
-| 133 | [CVE-2014-0497](../data/cves/2014/CVE-2014-0497.yml) | Adobe Flash Player Integer Underflow Vulnerablity | Adobe Flash Player | — | 99.9% |  |
-| 134 | [CVE-2021-27065](../data/cves/2021/CVE-2021-27065.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 99.9% | 🔒 |
-| 135 | [CVE-2019-1653](../data/cves/2019/CVE-2019-1653.yml) | Cisco Small Business RV320 and RV325 Routers Information Disclosure Vulnerability | Cisco Small Business RV320 and RV325 Routers | — | 99.9% |  |
-| 136 | [CVE-2022-35405](../data/cves/2022/CVE-2022-35405.yml) | Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability | Zoho ManageEngine | — | 99.9% |  |
-| 137 | [CVE-2021-35394](../data/cves/2021/CVE-2021-35394.yml) | Realtek Jungle SDK Remote Code Execution Vulnerability | Realtek Jungle Software Development Kit (SDK) | — | 99.9% |  |
-| 138 | [CVE-2021-44515](../data/cves/2021/CVE-2021-44515.yml) | Zoho Desktop Central Authentication Bypass Vulnerability | Zoho Desktop Central | — | 99.9% |  |
-| 139 | [CVE-2021-36260](../data/cves/2021/CVE-2021-36260.yml) | Hikvision Improper Input Validation | Hikvision Security cameras web server | — | 99.9% |  |
-| 140 | [CVE-2021-31166](../data/cves/2021/CVE-2021-31166.yml) | Microsoft HTTP Protocol Stack Remote Code Execution Vulnerability | Microsoft HTTP Protocol Stack | — | 99.9% |  |
-| 141 | [CVE-2021-21972](../data/cves/2021/CVE-2021-21972.yml) | VMware vCenter Server Remote Code Execution Vulnerability | VMware vCenter Server | — | 99.9% | 🔒 |
-| 142 | [CVE-2022-35914](../data/cves/2022/CVE-2022-35914.yml) | Teclib GLPI Remote Code Execution Vulnerability | Teclib GLPI | — | 99.9% |  |
-| 143 | [CVE-2022-46169](../data/cves/2022/CVE-2022-46169.yml) | Cacti Command Injection Vulnerability | Cacti Cacti | — | 99.8% |  |
-| 144 | [CVE-2021-37415](../data/cves/2021/CVE-2021-37415.yml) | Zoho ManageEngine ServiceDesk Authentication Bypass Vulnerability | Zoho ManageEngine ServiceDesk Plus (SDP) | — | 99.8% |  |
-| 145 | [CVE-2025-10035](../data/cves/2025/CVE-2025-10035.yml) | Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability | Fortra GoAnywhere MFT | — | 99.8% | 🔒 |
-| 146 | [CVE-2017-7269](../data/cves/2017/CVE-2017-7269.yml) | Microsoft Windows Server Buffer Overflow Vulnerability | Microsoft Internet Information Services (IIS) | — | 99.8% |  |
-| 147 | [CVE-2023-38831](../data/cves/2023/CVE-2023-38831.yml) | RARLAB WinRAR Code Execution Vulnerability | RARLAB WinRAR | — | 99.8% | 🔒 |
-| 148 | [CVE-2024-36401](../data/cves/2024/CVE-2024-36401.yml) | OSGeo GeoServer GeoTools Eval Injection Vulnerability | OSGeo GeoServer | — | 99.8% |  |
-| 149 | [CVE-2015-3113](../data/cves/2015/CVE-2015-3113.yml) | Adobe Flash Player Heap-Based Buffer Overflow Vulnerability | Adobe Flash Player | — | 99.8% |  |
-| 150 | [CVE-2020-0796](../data/cves/2020/CVE-2020-0796.yml) | Microsoft SMBv3 Remote Code Execution Vulnerability | Microsoft SMBv3 | — | 99.8% | 🔒 |
-| 151 | [CVE-2023-23752](../data/cves/2023/CVE-2023-23752.yml) | Joomla! Improper Access Control Vulnerability | Joomla! Joomla! | — | 99.8% |  |
-| 152 | [CVE-2023-38205](../data/cves/2023/CVE-2023-38205.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | — | 99.8% |  |
-| 153 | [CVE-2016-6277](../data/cves/2016/CVE-2016-6277.yml) | NETGEAR Multiple Routers Remote Code Execution Vulnerability | NETGEAR Multiple Routers | — | 99.8% |  |
-| 154 | [CVE-2022-1040](../data/cves/2022/CVE-2022-1040.yml) | Sophos Firewall Authentication Bypass Vulnerability | Sophos Firewall | — | 99.8% |  |
-| 155 | [CVE-2026-8037](../data/cves/2026/CVE-2026-8037.yml) | Progress LoadMaster Command Injection Vulnerability | Progress LoadMaster | — | 99.8% |  |
+| 115 | [CVE-2021-38647](../data/cves/2021/CVE-2021-38647.yml) | Microsoft Open Management Infrastructure (OMI) Remote Code Execution Vulnerability | Microsoft Open Management Infrastructure (OMI) | 9.8 | 99.9% | 🔒 |
+| 116 | [CVE-2021-39226](../data/cves/2021/CVE-2021-39226.yml) | Grafana Authentication Bypass Vulnerability | Grafana Labs Grafana | 7.3 | 99.9% |  |
+| 117 | [CVE-2022-24816](../data/cves/2022/CVE-2022-24816.yml) | OSGeo GeoServer JAI-EXT Code Injection Vulnerability | OSGeo JAI-EXT | 10 | 99.9% |  |
+| 118 | [CVE-2025-4427](../data/cves/2025/CVE-2025-4427.yml) | Ivanti Endpoint Manager Mobile (EPMM) Authentication Bypass Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 7.5 | 99.9% |  |
+| 119 | [CVE-2021-1497](../data/cves/2021/CVE-2021-1497.yml) | Cisco HyperFlex HX Installer Virtual Machine Command Injection Vulnerability | Cisco HyperFlex HX | 9.8 | 99.9% |  |
+| 120 | [CVE-2025-25257](../data/cves/2025/CVE-2025-25257.yml) | Fortinet FortiWeb SQL Injection Vulnerability | Fortinet FortiWeb | 9.8 | 99.9% |  |
+| 121 | [CVE-2026-10520](../data/cves/2026/CVE-2026-10520.yml) | Ivanti Sentry OS Command Injection Vulnerability | Ivanti Sentry | 10 | 99.9% |  |
+| 122 | [CVE-2024-32113](../data/cves/2024/CVE-2024-32113.yml) | Apache OFBiz Path Traversal Vulnerability | Apache OFBiz | 9.8 | 99.9% |  |
+| 123 | [CVE-2019-3396](../data/cves/2019/CVE-2019-3396.yml) | Atlassian Confluence Server and Data Center Server-Side Template Injection Vulnerability | Atlassian Confluence Server and Data Server | 9.8 | 99.9% | 🔒 |
+| 124 | [CVE-2019-0604](../data/cves/2019/CVE-2019-0604.yml) | Microsoft SharePoint Remote Code Execution Vulnerability | Microsoft SharePoint | 9.8 | 99.9% | 🔒 |
+| 125 | [CVE-2021-20038](../data/cves/2021/CVE-2021-20038.yml) | SonicWall SMA 100 Appliances Stack-Based Buffer Overflow Vulnerability | SonicWall SMA 100 Appliances | 9.8 | 99.9% | 🔒 |
+| 126 | [CVE-2024-45519](../data/cves/2024/CVE-2024-45519.yml) | Synacor Zimbra Collaboration Suite (ZCS) Command Execution Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 9.8 | 99.9% |  |
+| 127 | [CVE-2019-7481](../data/cves/2019/CVE-2019-7481.yml) | SonicWall SMA100 SQL Injection Vulnerability | SonicWall SMA100 | 7.5 | 99.9% | 🔒 |
+| 128 | [CVE-2015-1427](../data/cves/2015/CVE-2015-1427.yml) | Elasticsearch Groovy Scripting Engine Remote Code Execution Vulnerability | Elastic Elasticsearch | 9.8 | 99.9% |  |
+| 129 | [CVE-2020-7961](../data/cves/2020/CVE-2020-7961.yml) | Liferay Portal Deserialization of Untrusted Data Vulnerability | Liferay Liferay Portal | 9.8 | 99.9% |  |
+| 130 | [CVE-2023-21839](../data/cves/2023/CVE-2023-21839.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | 7.5 | 99.9% |  |
+| 131 | [CVE-2021-22986](../data/cves/2021/CVE-2021-22986.yml) | F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability | F5 BIG-IP and BIG-IQ Centralized Management | 9.8 | 99.9% | 🔒 |
+| 132 | [CVE-2018-0296](../data/cves/2018/CVE-2018-0296.yml) | Cisco Adaptive Security Appliance (ASA) Denial-of-Service Vulnerability | Cisco Adaptive Security Appliance (ASA) | 7.5 | 99.9% |  |
+| 133 | [CVE-2014-0497](../data/cves/2014/CVE-2014-0497.yml) | Adobe Flash Player Integer Underflow Vulnerablity | Adobe Flash Player | 9.8 | 99.9% |  |
+| 134 | [CVE-2021-27065](../data/cves/2021/CVE-2021-27065.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | 7.8 | 99.9% | 🔒 |
+| 135 | [CVE-2019-1653](../data/cves/2019/CVE-2019-1653.yml) | Cisco Small Business RV320 and RV325 Routers Information Disclosure Vulnerability | Cisco Small Business RV320 and RV325 Routers | 7.5 | 99.9% |  |
+| 136 | [CVE-2022-35405](../data/cves/2022/CVE-2022-35405.yml) | Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability | Zoho ManageEngine | 9.8 | 99.9% |  |
+| 137 | [CVE-2021-35394](../data/cves/2021/CVE-2021-35394.yml) | Realtek Jungle SDK Remote Code Execution Vulnerability | Realtek Jungle Software Development Kit (SDK) | 9.8 | 99.9% |  |
+| 138 | [CVE-2021-44515](../data/cves/2021/CVE-2021-44515.yml) | Zoho Desktop Central Authentication Bypass Vulnerability | Zoho Desktop Central | 9.8 | 99.9% |  |
+| 139 | [CVE-2021-36260](../data/cves/2021/CVE-2021-36260.yml) | Hikvision Improper Input Validation | Hikvision Security cameras web server | 9.8 | 99.9% |  |
+| 140 | [CVE-2021-31166](../data/cves/2021/CVE-2021-31166.yml) | Microsoft HTTP Protocol Stack Remote Code Execution Vulnerability | Microsoft HTTP Protocol Stack | 9.8 | 99.9% |  |
+| 141 | [CVE-2021-21972](../data/cves/2021/CVE-2021-21972.yml) | VMware vCenter Server Remote Code Execution Vulnerability | VMware vCenter Server | 9.8 | 99.9% | 🔒 |
+| 142 | [CVE-2022-35914](../data/cves/2022/CVE-2022-35914.yml) | Teclib GLPI Remote Code Execution Vulnerability | Teclib GLPI | 9.8 | 99.9% |  |
+| 143 | [CVE-2022-46169](../data/cves/2022/CVE-2022-46169.yml) | Cacti Command Injection Vulnerability | Cacti Cacti | 9.8 | 99.8% |  |
+| 144 | [CVE-2021-37415](../data/cves/2021/CVE-2021-37415.yml) | Zoho ManageEngine ServiceDesk Authentication Bypass Vulnerability | Zoho ManageEngine ServiceDesk Plus (SDP) | 9.8 | 99.8% |  |
+| 145 | [CVE-2025-10035](../data/cves/2025/CVE-2025-10035.yml) | Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability | Fortra GoAnywhere MFT | 9.8 | 99.8% | 🔒 |
+| 146 | [CVE-2017-7269](../data/cves/2017/CVE-2017-7269.yml) | Microsoft Windows Server Buffer Overflow Vulnerability | Microsoft Internet Information Services (IIS) | 9.8 | 99.8% |  |
+| 147 | [CVE-2023-38831](../data/cves/2023/CVE-2023-38831.yml) | RARLAB WinRAR Code Execution Vulnerability | RARLAB WinRAR | 7.8 | 99.8% | 🔒 |
+| 148 | [CVE-2024-36401](../data/cves/2024/CVE-2024-36401.yml) | OSGeo GeoServer GeoTools Eval Injection Vulnerability | OSGeo GeoServer | 9.8 | 99.8% |  |
+| 149 | [CVE-2015-3113](../data/cves/2015/CVE-2015-3113.yml) | Adobe Flash Player Heap-Based Buffer Overflow Vulnerability | Adobe Flash Player | 9.8 | 99.8% |  |
+| 150 | [CVE-2020-0796](../data/cves/2020/CVE-2020-0796.yml) | Microsoft SMBv3 Remote Code Execution Vulnerability | Microsoft SMBv3 | 10 | 99.8% | 🔒 |
+| 151 | [CVE-2023-23752](../data/cves/2023/CVE-2023-23752.yml) | Joomla! Improper Access Control Vulnerability | Joomla! Joomla! | 5.3 | 99.8% |  |
+| 152 | [CVE-2023-38205](../data/cves/2023/CVE-2023-38205.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | 7.5 | 99.8% |  |
+| 153 | [CVE-2016-6277](../data/cves/2016/CVE-2016-6277.yml) | NETGEAR Multiple Routers Remote Code Execution Vulnerability | NETGEAR Multiple Routers | 8.8 | 99.8% |  |
+| 154 | [CVE-2022-1040](../data/cves/2022/CVE-2022-1040.yml) | Sophos Firewall Authentication Bypass Vulnerability | Sophos Firewall | 9.8 | 99.8% |  |
+| 155 | [CVE-2026-8037](../data/cves/2026/CVE-2026-8037.yml) | Progress LoadMaster Command Injection Vulnerability | Progress LoadMaster | 9.8 | 99.8% |  |
 | 156 | [CVE-2021-34527](../data/cves/2021/CVE-2021-34527.yml) | PrintNightmare | Microsoft Windows Print Spooler | 8.8 | 99.8% | 🔒 |
-| 157 | [CVE-2025-32432](../data/cves/2025/CVE-2025-32432.yml) | Craft CMS Code Injection Vulnerability | Craft CMS Craft CMS | — | 99.8% |  |
-| 158 | [CVE-2023-29298](../data/cves/2023/CVE-2023-29298.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | — | 99.8% |  |
-| 159 | [CVE-2024-0012](../data/cves/2024/CVE-2024-0012.yml) | Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | — | 99.8% | 🔒 |
-| 160 | [CVE-2008-2992](../data/cves/2008/CVE-2008-2992.yml) | Adobe Reader and Acrobat Input Validation Vulnerability | Adobe Acrobat and Reader | — | 99.8% | 🔒 |
-| 161 | [CVE-2019-11043](../data/cves/2019/CVE-2019-11043.yml) | PHP FastCGI Process Manager (FPM) Buffer Overflow Vulnerability | PHP FastCGI Process Manager (FPM) | — | 99.8% | 🔒 |
-| 162 | [CVE-2021-31207](../data/cves/2021/CVE-2021-31207.yml) | Microsoft Exchange Server Security Feature Bypass Vulnerability | Microsoft Exchange Server | — | 99.8% | 🔒 |
-| 163 | [CVE-2023-20198](../data/cves/2023/CVE-2023-20198.yml) | Cisco IOS XE Web UI Privilege Escalation Vulnerability | Cisco IOS XE Web UI | — | 99.8% |  |
-| 164 | [CVE-2020-13927](../data/cves/2020/CVE-2020-13927.yml) | Apache Airflow's Experimental API Authentication Bypass | Apache Airflow's Experimental API | — | 99.8% |  |
-| 165 | [CVE-2022-47966](../data/cves/2022/CVE-2022-47966.yml) | Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability | Zoho ManageEngine | — | 99.8% | 🔒 |
-| 166 | [CVE-2023-3519](../data/cves/2023/CVE-2023-3519.yml) | Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability | Citrix NetScaler ADC and NetScaler Gateway | — | 99.7% | 🔒 |
-| 167 | [CVE-2010-2861](../data/cves/2010/CVE-2010-2861.yml) | Adobe ColdFusion Directory Traversal Vulnerability | Adobe ColdFusion | — | 99.7% | 🔒 |
-| 168 | [CVE-2026-39987](../data/cves/2026/CVE-2026-39987.yml) | Marimo Remote Code Execution Vulnerability | Marimo Marimo | — | 99.7% |  |
-| 169 | [CVE-2014-6278](../data/cves/2014/CVE-2014-6278.yml) | GNU Bash OS Command Injection Vulnerability | GNU GNU Bash | — | 99.7% |  |
-| 170 | [CVE-2019-18935](../data/cves/2019/CVE-2019-18935.yml) | Progress Telerik UI for ASP.NET AJAX Deserialization of Untrusted Data Vulnerability | Progress Telerik UI for ASP.NET AJAX | — | 99.7% | 🔒 |
-| 171 | [CVE-2020-15505](../data/cves/2020/CVE-2020-15505.yml) | Ivanti MobileIron Multiple Products Remote Code Execution Vulnerability | Ivanti MobileIron Multiple Products | — | 99.7% |  |
-| 172 | [CVE-2025-55182](../data/cves/2025/CVE-2025-55182.yml) | Meta React Server Components Remote Code Execution Vulnerability | Meta React Server Components | — | 99.7% | 🔒 |
-| 173 | [CVE-2021-22205](../data/cves/2021/CVE-2021-22205.yml) | GitLab Community and Enterprise Editions Remote Code Execution Vulnerability | GitLab Community and Enterprise Editions | — | 99.7% | 🔒 |
-| 174 | [CVE-2025-61882](../data/cves/2025/CVE-2025-61882.yml) | Oracle E-Business Suite Unspecified Vulnerability | Oracle E-Business Suite | — | 99.7% | 🔒 |
-| 175 | [CVE-2019-16759](../data/cves/2019/CVE-2019-16759.yml) | vBulletin PHP Module Remote Code Execution Vulnerability | vBulletin vBulletin | — | 99.7% |  |
-| 176 | [CVE-2016-10033](../data/cves/2016/CVE-2016-10033.yml) | PHPMailer Command Injection Vulnerability | PHP PHPMailer | — | 99.7% |  |
-| 177 | [CVE-2019-15107](../data/cves/2019/CVE-2019-15107.yml) | Webmin Command Injection Vulnerability | Webmin Webmin | — | 99.7% | 🔒 |
-| 178 | [CVE-2017-12615](../data/cves/2017/CVE-2017-12615.yml) | Apache Tomcat on Windows Remote Code Execution Vulnerability | Apache Tomcat | — | 99.7% | 🔒 |
-| 179 | [CVE-2017-0147](../data/cves/2017/CVE-2017-0147.yml) | Microsoft Windows SMBv1 Information Disclosure Vulnerability | Microsoft SMBv1 server | — | 99.7% | 🔒 |
-| 180 | [CVE-2017-1000353](../data/cves/2017/CVE-2017-1000353.yml) | Jenkins Remote Code Execution Vulnerability | Jenkins Jenkins | — | 99.7% |  |
-| 181 | [CVE-2021-22054](../data/cves/2021/CVE-2021-22054.yml) | Omnissa Workspace ONE Server-Side Request Forgery | Omnissa Workspace One UEM | — | 99.7% |  |
-| 182 | [CVE-2026-21589](../data/cves/2026/CVE-2026-21589.yml) | Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability | Atlassian Multiple Products | — | 99.7% |  |
-| 183 | [CVE-2025-48703](../data/cves/2025/CVE-2025-48703.yml) | CWP Control Web Panel OS Command Injection Vulnerability | CWP Control Web Panel | — | 99.7% |  |
+| 157 | [CVE-2025-32432](../data/cves/2025/CVE-2025-32432.yml) | Craft CMS Code Injection Vulnerability | Craft CMS Craft CMS | 10 | 99.8% |  |
+| 158 | [CVE-2023-29298](../data/cves/2023/CVE-2023-29298.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | 7.5 | 99.8% |  |
+| 159 | [CVE-2024-0012](../data/cves/2024/CVE-2024-0012.yml) | Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | 9.3 | 99.8% | 🔒 |
+| 160 | [CVE-2008-2992](../data/cves/2008/CVE-2008-2992.yml) | Adobe Reader and Acrobat Input Validation Vulnerability | Adobe Acrobat and Reader | 7.8 | 99.8% | 🔒 |
+| 161 | [CVE-2019-11043](../data/cves/2019/CVE-2019-11043.yml) | PHP FastCGI Process Manager (FPM) Buffer Overflow Vulnerability | PHP FastCGI Process Manager (FPM) | 9.8 | 99.8% | 🔒 |
+| 162 | [CVE-2021-31207](../data/cves/2021/CVE-2021-31207.yml) | Microsoft Exchange Server Security Feature Bypass Vulnerability | Microsoft Exchange Server | 6.6 | 99.8% | 🔒 |
+| 163 | [CVE-2023-20198](../data/cves/2023/CVE-2023-20198.yml) | Cisco IOS XE Web UI Privilege Escalation Vulnerability | Cisco IOS XE Web UI | 10 | 99.8% |  |
+| 164 | [CVE-2020-13927](../data/cves/2020/CVE-2020-13927.yml) | Apache Airflow's Experimental API Authentication Bypass | Apache Airflow's Experimental API | 9.8 | 99.8% |  |
+| 165 | [CVE-2022-47966](../data/cves/2022/CVE-2022-47966.yml) | Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability | Zoho ManageEngine | 9.8 | 99.8% | 🔒 |
+| 166 | [CVE-2023-3519](../data/cves/2023/CVE-2023-3519.yml) | Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability | Citrix NetScaler ADC and NetScaler Gateway | 9.8 | 99.7% | 🔒 |
+| 167 | [CVE-2010-2861](../data/cves/2010/CVE-2010-2861.yml) | Adobe ColdFusion Directory Traversal Vulnerability | Adobe ColdFusion | 9.8 | 99.7% | 🔒 |
+| 168 | [CVE-2026-39987](../data/cves/2026/CVE-2026-39987.yml) | Marimo Remote Code Execution Vulnerability | Marimo Marimo | 9.3 | 99.7% |  |
+| 169 | [CVE-2014-6278](../data/cves/2014/CVE-2014-6278.yml) | GNU Bash OS Command Injection Vulnerability | GNU GNU Bash | 8.8 | 99.7% |  |
+| 170 | [CVE-2019-18935](../data/cves/2019/CVE-2019-18935.yml) | Progress Telerik UI for ASP.NET AJAX Deserialization of Untrusted Data Vulnerability | Progress Telerik UI for ASP.NET AJAX | 9.8 | 99.7% | 🔒 |
+| 171 | [CVE-2020-15505](../data/cves/2020/CVE-2020-15505.yml) | Ivanti MobileIron Multiple Products Remote Code Execution Vulnerability | Ivanti MobileIron Multiple Products | 9.8 | 99.7% |  |
+| 172 | [CVE-2025-55182](../data/cves/2025/CVE-2025-55182.yml) | Meta React Server Components Remote Code Execution Vulnerability | Meta React Server Components | 10 | 99.7% | 🔒 |
+| 173 | [CVE-2021-22205](../data/cves/2021/CVE-2021-22205.yml) | GitLab Community and Enterprise Editions Remote Code Execution Vulnerability | GitLab Community and Enterprise Editions | 10 | 99.7% | 🔒 |
+| 174 | [CVE-2025-61882](../data/cves/2025/CVE-2025-61882.yml) | Oracle E-Business Suite Unspecified Vulnerability | Oracle E-Business Suite | 9.8 | 99.7% | 🔒 |
+| 175 | [CVE-2019-16759](../data/cves/2019/CVE-2019-16759.yml) | vBulletin PHP Module Remote Code Execution Vulnerability | vBulletin vBulletin | 9.8 | 99.7% |  |
+| 176 | [CVE-2016-10033](../data/cves/2016/CVE-2016-10033.yml) | PHPMailer Command Injection Vulnerability | PHP PHPMailer | 9.8 | 99.7% |  |
+| 177 | [CVE-2019-15107](../data/cves/2019/CVE-2019-15107.yml) | Webmin Command Injection Vulnerability | Webmin Webmin | 9.8 | 99.7% | 🔒 |
+| 178 | [CVE-2017-12615](../data/cves/2017/CVE-2017-12615.yml) | Apache Tomcat on Windows Remote Code Execution Vulnerability | Apache Tomcat | 8.1 | 99.7% | 🔒 |
+| 179 | [CVE-2017-0147](../data/cves/2017/CVE-2017-0147.yml) | Microsoft Windows SMBv1 Information Disclosure Vulnerability | Microsoft SMBv1 server | 7.5 | 99.7% | 🔒 |
+| 180 | [CVE-2017-1000353](../data/cves/2017/CVE-2017-1000353.yml) | Jenkins Remote Code Execution Vulnerability | Jenkins Jenkins | 9.8 | 99.7% |  |
+| 181 | [CVE-2021-22054](../data/cves/2021/CVE-2021-22054.yml) | Omnissa Workspace ONE Server-Side Request Forgery | Omnissa Workspace One UEM | 7.5 | 99.7% |  |
+| 182 | [CVE-2026-21589](../data/cves/2026/CVE-2026-21589.yml) | Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability | Atlassian Multiple Products | 9.3 | 99.7% |  |
+| 183 | [CVE-2025-48703](../data/cves/2025/CVE-2025-48703.yml) | CWP Control Web Panel OS Command Injection Vulnerability | CWP Control Web Panel | 9 | 99.7% |  |
 | 184 | [CVE-2022-22965](../data/cves/2022/CVE-2022-22965.yml) | Spring4Shell | VMware Spring Framework | 9.8 | 99.6% |  |
-| 185 | [CVE-2024-5217](../data/cves/2024/CVE-2024-5217.yml) | ServiceNow Incomplete List of Disallowed Inputs Vulnerability | ServiceNow Utah, Vancouver, and Washington DC Now Platform | — | 99.6% |  |
-| 186 | [CVE-2024-9465](../data/cves/2024/CVE-2024-9465.yml) | Palo Alto Networks Expedition SQL Injection Vulnerability | Palo Alto Networks Expedition | — | 99.6% |  |
-| 187 | [CVE-2024-28995](../data/cves/2024/CVE-2024-28995.yml) | SolarWinds Serv-U Path Traversal Vulnerability  | SolarWinds Serv-U | — | 99.6% |  |
-| 188 | [CVE-2025-49113](../data/cves/2025/CVE-2025-49113.yml) | RoundCube Webmail Deserialization of Untrusted Data Vulnerability | Roundcube Webmail | — | 99.6% |  |
-| 189 | [CVE-2021-33045](../data/cves/2021/CVE-2021-33045.yml) | Dahua IP Camera Authentication Bypass Vulnerability | Dahua IP Camera Firmware | — | 99.6% |  |
-| 190 | [CVE-2020-16846](../data/cves/2020/CVE-2020-16846.yml) | SaltStack Salt Shell Injection Vulnerability | SaltStack Salt | — | 99.6% |  |
-| 191 | [CVE-2015-5477](../data/cves/2015/CVE-2015-5477.yml) |  ISC BIND Data Processing Errors Vulnerability | ISC BIND | — | 99.6% |  |
-| 192 | [CVE-2024-4040](../data/cves/2024/CVE-2024-4040.yml) | CrushFTP VFS Sandbox Escape Vulnerability | CrushFTP CrushFTP | — | 99.5% |  |
-| 193 | [CVE-2018-20062](../data/cves/2018/CVE-2018-20062.yml) | ThinkPHP "noneCms" Remote Code Execution Vulnerability | ThinkPHP noneCms | — | 99.5% |  |
-| 194 | [CVE-2017-0199](../data/cves/2017/CVE-2017-0199.yml) | Microsoft Office and WordPad Remote Code Execution Vulnerability | Microsoft Office and WordPad | — | 99.5% | 🔒 |
-| 195 | [CVE-2015-3306](../data/cves/2015/CVE-2015-3306.yml) | ProFTPD Improper Access Control Vulnerability | ProFTPD ProFTPD | — | 99.5% |  |
-| 196 | [CVE-2025-31324](../data/cves/2025/CVE-2025-31324.yml) | SAP NetWeaver Unrestricted File Upload Vulnerability | SAP NetWeaver | — | 99.5% | 🔒 |
-| 197 | [CVE-2024-23692](../data/cves/2024/CVE-2024-23692.yml) | Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | Rejetto HTTP File Server | — | 99.5% | 🔒 |
-| 198 | [CVE-2018-0171](../data/cves/2018/CVE-2018-0171.yml) | Cisco IOS and IOS XE Software Smart Install Remote Code Execution Vulnerability | Cisco IOS and IOS XE | — | 99.5% |  |
-| 199 | [CVE-2022-42475](../data/cves/2022/CVE-2022-42475.yml) | Fortinet FortiOS Heap-Based Buffer Overflow Vulnerability | Fortinet FortiOS | — | 99.5% | 🔒 |
-| 200 | [CVE-2017-7494](../data/cves/2017/CVE-2017-7494.yml) | Samba Remote Code Execution Vulnerability | Samba Samba | — | 99.4% | 🔒 |
-| 201 | [CVE-2023-36884](../data/cves/2023/CVE-2023-36884.yml) | Microsoft Windows Search Remote Code Execution Vulnerability | Microsoft Windows | — | 99.4% | 🔒 |
-| 202 | [CVE-2024-38856](../data/cves/2024/CVE-2024-38856.yml) | Apache OFBiz Incorrect Authorization Vulnerability | Apache OFBiz | — | 99.4% |  |
-| 203 | [CVE-2024-21412](../data/cves/2024/CVE-2024-21412.yml) | Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability | Microsoft Windows | — | 99.4% | 🔒 |
-| 204 | [CVE-2011-0611](../data/cves/2011/CVE-2011-0611.yml) | Adobe Flash Player Remote Code Execution Vulnerability | Adobe Flash Player | — | 99.4% |  |
-| 205 | [CVE-2017-9805](../data/cves/2017/CVE-2017-9805.yml) | Apache Struts Deserialization of Untrusted Data Vulnerability | Apache Struts | — | 99.4% |  |
-| 206 | [CVE-2021-32030](../data/cves/2021/CVE-2021-32030.yml) | ASUS Routers Improper Authentication Vulnerability | ASUS Routers | — | 99.4% |  |
+| 185 | [CVE-2024-5217](../data/cves/2024/CVE-2024-5217.yml) | ServiceNow Incomplete List of Disallowed Inputs Vulnerability | ServiceNow Utah, Vancouver, and Washington DC Now Platform | 9.2 | 99.6% |  |
+| 186 | [CVE-2024-9465](../data/cves/2024/CVE-2024-9465.yml) | Palo Alto Networks Expedition SQL Injection Vulnerability | Palo Alto Networks Expedition | 9.2 | 99.6% |  |
+| 187 | [CVE-2024-28995](../data/cves/2024/CVE-2024-28995.yml) | SolarWinds Serv-U Path Traversal Vulnerability  | SolarWinds Serv-U | 7.5 | 99.6% |  |
+| 188 | [CVE-2025-49113](../data/cves/2025/CVE-2025-49113.yml) | RoundCube Webmail Deserialization of Untrusted Data Vulnerability | Roundcube Webmail | 8.8 | 99.6% |  |
+| 189 | [CVE-2021-33045](../data/cves/2021/CVE-2021-33045.yml) | Dahua IP Camera Authentication Bypass Vulnerability | Dahua IP Camera Firmware | 9.8 | 99.6% |  |
+| 190 | [CVE-2020-16846](../data/cves/2020/CVE-2020-16846.yml) | SaltStack Salt Shell Injection Vulnerability | SaltStack Salt | 9.8 | 99.6% |  |
+| 191 | [CVE-2015-5477](../data/cves/2015/CVE-2015-5477.yml) |  ISC BIND Data Processing Errors Vulnerability | ISC BIND | 7.5 | 99.6% |  |
+| 192 | [CVE-2024-4040](../data/cves/2024/CVE-2024-4040.yml) | CrushFTP VFS Sandbox Escape Vulnerability | CrushFTP CrushFTP | 10 | 99.5% |  |
+| 193 | [CVE-2018-20062](../data/cves/2018/CVE-2018-20062.yml) | ThinkPHP "noneCms" Remote Code Execution Vulnerability | ThinkPHP noneCms | 9.8 | 99.5% |  |
+| 194 | [CVE-2017-0199](../data/cves/2017/CVE-2017-0199.yml) | Microsoft Office and WordPad Remote Code Execution Vulnerability | Microsoft Office and WordPad | 7.8 | 99.5% | 🔒 |
+| 195 | [CVE-2015-3306](../data/cves/2015/CVE-2015-3306.yml) | ProFTPD Improper Access Control Vulnerability | ProFTPD ProFTPD | 10 | 99.5% |  |
+| 196 | [CVE-2025-31324](../data/cves/2025/CVE-2025-31324.yml) | SAP NetWeaver Unrestricted File Upload Vulnerability | SAP NetWeaver | 9.8 | 99.5% | 🔒 |
+| 197 | [CVE-2024-23692](../data/cves/2024/CVE-2024-23692.yml) | Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | Rejetto HTTP File Server | 9.8 | 99.5% | 🔒 |
+| 198 | [CVE-2018-0171](../data/cves/2018/CVE-2018-0171.yml) | Cisco IOS and IOS XE Software Smart Install Remote Code Execution Vulnerability | Cisco IOS and IOS XE | 9.8 | 99.5% |  |
+| 199 | [CVE-2022-42475](../data/cves/2022/CVE-2022-42475.yml) | Fortinet FortiOS Heap-Based Buffer Overflow Vulnerability | Fortinet FortiOS | 9.8 | 99.5% | 🔒 |
+| 200 | [CVE-2017-7494](../data/cves/2017/CVE-2017-7494.yml) | Samba Remote Code Execution Vulnerability | Samba Samba | 9.8 | 99.4% | 🔒 |
+| 201 | [CVE-2023-36884](../data/cves/2023/CVE-2023-36884.yml) | Microsoft Windows Search Remote Code Execution Vulnerability | Microsoft Windows | 7.5 | 99.4% | 🔒 |
+| 202 | [CVE-2024-38856](../data/cves/2024/CVE-2024-38856.yml) | Apache OFBiz Incorrect Authorization Vulnerability | Apache OFBiz | 9.8 | 99.4% |  |
+| 203 | [CVE-2024-21412](../data/cves/2024/CVE-2024-21412.yml) | Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability | Microsoft Windows | 8.1 | 99.4% | 🔒 |
+| 204 | [CVE-2011-0611](../data/cves/2011/CVE-2011-0611.yml) | Adobe Flash Player Remote Code Execution Vulnerability | Adobe Flash Player | 8.8 | 99.4% |  |
+| 205 | [CVE-2017-9805](../data/cves/2017/CVE-2017-9805.yml) | Apache Struts Deserialization of Untrusted Data Vulnerability | Apache Struts | 8.1 | 99.4% |  |
+| 206 | [CVE-2021-32030](../data/cves/2021/CVE-2021-32030.yml) | ASUS Routers Improper Authentication Vulnerability | ASUS Routers | 9.8 | 99.4% |  |
 | 207 | [CVE-2020-1472](../data/cves/2020/CVE-2020-1472.yml) | Zerologon | Microsoft Netlogon (Windows Server) | 5.5 | 99.4% | 🔒 |
-| 208 | [CVE-2026-75650](../data/cves/2026/CVE-2026-75650.yml) | Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | Adobe Commerce and Magento | — | 99.4% |  |
-| 209 | [CVE-2017-0148](../data/cves/2017/CVE-2017-0148.yml) | Microsoft SMBv1 Server Remote Code Execution Vulnerability | Microsoft SMBv1 server | — | 99.4% | 🔒 |
-| 210 | [CVE-2022-0543](../data/cves/2022/CVE-2022-0543.yml) | Debian-specific Redis Server Lua Sandbox Escape Vulnerability | Redis Debian-specific Redis Servers | — | 99.4% |  |
-| 211 | [CVE-2014-6287](../data/cves/2014/CVE-2014-6287.yml) | Rejetto HTTP File Server (HFS) Remote Code Execution Vulnerability | Rejetto HTTP File Server (HFS) | — | 99.3% |  |
-| 212 | [CVE-2024-4885](../data/cves/2024/CVE-2024-4885.yml) | Progress WhatsUp Gold Path Traversal Vulnerability | Progress WhatsUp Gold | — | 99.3% |  |
-| 213 | [CVE-2023-28771](../data/cves/2023/CVE-2023-28771.yml) | Zyxel Multiple Firewalls OS Command Injection Vulnerability | Zyxel Multiple Firewalls | — | 99.3% |  |
-| 214 | [CVE-2020-1938](../data/cves/2020/CVE-2020-1938.yml) | Apache Tomcat Improper Privilege Management Vulnerability | Apache Tomcat | — | 99.3% |  |
-| 215 | [CVE-2020-14750](../data/cves/2020/CVE-2020-14750.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | — | 99.2% |  |
-| 216 | [CVE-2023-34048](../data/cves/2023/CVE-2023-34048.yml) | VMware vCenter Server Out-of-Bounds Write Vulnerability | VMware vCenter Server | — | 99.2% |  |
-| 217 | [CVE-2022-30333](../data/cves/2022/CVE-2022-30333.yml) | RARLAB UnRAR Directory Traversal Vulnerability | RARLAB UnRAR | — | 99.2% | 🔒 |
-| 218 | [CVE-2023-22515](../data/cves/2023/CVE-2023-22515.yml) | Atlassian Confluence Data Center and Server Broken Access Control Vulnerability | Atlassian Confluence Data Center and Server | — | 99.2% | 🔒 |
+| 208 | [CVE-2026-75650](../data/cves/2026/CVE-2026-75650.yml) | Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | Adobe Commerce and Magento | 10 | 99.4% |  |
+| 209 | [CVE-2017-0148](../data/cves/2017/CVE-2017-0148.yml) | Microsoft SMBv1 Server Remote Code Execution Vulnerability | Microsoft SMBv1 server | 8.1 | 99.4% | 🔒 |
+| 210 | [CVE-2022-0543](../data/cves/2022/CVE-2022-0543.yml) | Debian-specific Redis Server Lua Sandbox Escape Vulnerability | Redis Debian-specific Redis Servers | 10 | 99.4% |  |
+| 211 | [CVE-2014-6287](../data/cves/2014/CVE-2014-6287.yml) | Rejetto HTTP File Server (HFS) Remote Code Execution Vulnerability | Rejetto HTTP File Server (HFS) | 9.8 | 99.3% |  |
+| 212 | [CVE-2024-4885](../data/cves/2024/CVE-2024-4885.yml) | Progress WhatsUp Gold Path Traversal Vulnerability | Progress WhatsUp Gold | 9.8 | 99.3% |  |
+| 213 | [CVE-2023-28771](../data/cves/2023/CVE-2023-28771.yml) | Zyxel Multiple Firewalls OS Command Injection Vulnerability | Zyxel Multiple Firewalls | 9.8 | 99.3% |  |
+| 214 | [CVE-2020-1938](../data/cves/2020/CVE-2020-1938.yml) | Apache Tomcat Improper Privilege Management Vulnerability | Apache Tomcat | 9.8 | 99.3% |  |
+| 215 | [CVE-2020-14750](../data/cves/2020/CVE-2020-14750.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | 9.8 | 99.2% |  |
+| 216 | [CVE-2023-34048](../data/cves/2023/CVE-2023-34048.yml) | VMware vCenter Server Out-of-Bounds Write Vulnerability | VMware vCenter Server | 9.8 | 99.2% |  |
+| 217 | [CVE-2022-30333](../data/cves/2022/CVE-2022-30333.yml) | RARLAB UnRAR Directory Traversal Vulnerability | RARLAB UnRAR | 7.5 | 99.2% | 🔒 |
+| 218 | [CVE-2023-22515](../data/cves/2023/CVE-2023-22515.yml) | Atlassian Confluence Data Center and Server Broken Access Control Vulnerability | Atlassian Confluence Data Center and Server | 9.8 | 99.2% | 🔒 |
 | 219 | [CVE-2017-0144](../data/cves/2017/CVE-2017-0144.yml) | EternalBlue | Microsoft Windows SMBv1 | 8.8 | 99.2% | 🔒 |
-| 220 | [CVE-2020-0646](../data/cves/2020/CVE-2020-0646.yml) | Microsoft .NET Framework Remote Code Execution Vulnerability | Microsoft .NET Framework | — | 99.2% |  |
-| 221 | [CVE-2024-27348](../data/cves/2024/CVE-2024-27348.yml) | Apache HugeGraph-Server Improper Access Control Vulnerability | Apache HugeGraph-Server | — | 99.2% |  |
-| 222 | [CVE-2022-24086](../data/cves/2022/CVE-2022-24086.yml) | Adobe Commerce and Magento Open Source Improper Input Validation Vulnerability | Adobe Commerce and Magento Open Source | — | 99.2% |  |
-| 223 | [CVE-2020-11978](../data/cves/2020/CVE-2020-11978.yml) | Apache Airflow Command Injection | Apache Airflow | — | 99.2% |  |
-| 224 | [CVE-2018-7602](../data/cves/2018/CVE-2018-7602.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Core | — | 99.2% | 🔒 |
+| 220 | [CVE-2020-0646](../data/cves/2020/CVE-2020-0646.yml) | Microsoft .NET Framework Remote Code Execution Vulnerability | Microsoft .NET Framework | 9.8 | 99.2% |  |
+| 221 | [CVE-2024-27348](../data/cves/2024/CVE-2024-27348.yml) | Apache HugeGraph-Server Improper Access Control Vulnerability | Apache HugeGraph-Server | 9.8 | 99.2% |  |
+| 222 | [CVE-2022-24086](../data/cves/2022/CVE-2022-24086.yml) | Adobe Commerce and Magento Open Source Improper Input Validation Vulnerability | Adobe Commerce and Magento Open Source | 9.8 | 99.2% |  |
+| 223 | [CVE-2020-11978](../data/cves/2020/CVE-2020-11978.yml) | Apache Airflow Command Injection | Apache Airflow | 8.8 | 99.2% |  |
+| 224 | [CVE-2018-7602](../data/cves/2018/CVE-2018-7602.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Core | 9.8 | 99.2% | 🔒 |
 | 225 | [CVE-2022-30190](../data/cves/2022/CVE-2022-30190.yml) | Follina | Microsoft Windows MSDT | 7.8 | 99.2% | 🔒 |
-| 226 | [CVE-2021-44529](../data/cves/2021/CVE-2021-44529.yml) | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability  | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) | — | 99.1% | 🔒 |
-| 227 | [CVE-2022-36804](../data/cves/2022/CVE-2022-36804.yml) | Atlassian Bitbucket Server and Data Center Command Injection Vulnerability | Atlassian Bitbucket Server and Data Center | — | 99.1% |  |
-| 228 | [CVE-2020-10199](../data/cves/2020/CVE-2020-10199.yml) | Sonatype Nexus Repository Remote Code Execution Vulnerability | Sonatype Nexus Repository | — | 99.1% |  |
-| 229 | [CVE-2025-49706](../data/cves/2025/CVE-2025-49706.yml) | Microsoft SharePoint Improper Authentication Vulnerability | Microsoft SharePoint | — | 99.1% | 🔒 |
-| 230 | [CVE-2020-0618](../data/cves/2020/CVE-2020-0618.yml) | Microsoft SQL Server Reporting Services Remote Code Execution Vulnerability | Microsoft SQL Server | — | 99.0% | 🔒 |
-| 231 | [CVE-2019-16278](../data/cves/2019/CVE-2019-16278.yml) | Nostromo nhttpd Directory Traversal Vulnerability | Nostromo nhttpd | — | 99.0% |  |
-| 232 | [CVE-2025-68613](../data/cves/2025/CVE-2025-68613.yml) | n8n Improper Control of Dynamically-Managed Code Resources Vulnerability | n8n n8n | — | 99.0% |  |
-| 233 | [CVE-2026-24061](../data/cves/2026/CVE-2026-24061.yml) | GNU InetUtils Argument Injection Vulnerability | GNU InetUtils | — | 99.0% |  |
-| 234 | [CVE-2017-3881](../data/cves/2017/CVE-2017-3881.yml) | Cisco IOS and IOS XE Remote Code Execution Vulnerability | Cisco IOS and IOS XE | — | 99.0% |  |
-| 235 | [CVE-2020-7247](../data/cves/2020/CVE-2020-7247.yml) | OpenSMTPD Remote Code Execution Vulnerability | OpenBSD OpenSMTPD | — | 99.0% |  |
-| 236 | [CVE-2021-40539](../data/cves/2021/CVE-2021-40539.yml) | Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability | Zoho ManageEngine | — | 99.0% | 🔒 |
-| 237 | [CVE-2019-3929](../data/cves/2019/CVE-2019-3929.yml) | Crestron Multiple Products Command Injection Vulnerability | Crestron Multiple Products | — | 99.0% |  |
-| 238 | [CVE-2025-32433](../data/cves/2025/CVE-2025-32433.yml) | Erlang Erlang/OTP SSH Server Missing Authentication for Critical Function Vulnerability | Erlang Erlang/OTP | — | 98.9% |  |
-| 239 | [CVE-2017-9791](../data/cves/2017/CVE-2017-9791.yml) | Apache Struts 1 Improper Input Validation Vulnerability | Apache Struts 1 | — | 98.9% |  |
-| 240 | [CVE-2022-3236](../data/cves/2022/CVE-2022-3236.yml) | Sophos Firewall Code Injection Vulnerability | Sophos Firewall | — | 98.9% |  |
-| 241 | [CVE-2023-47246](../data/cves/2023/CVE-2023-47246.yml) | SysAid Server Path Traversal Vulnerability | SysAid SysAid Server | — | 98.9% | 🔒 |
-| 242 | [CVE-2012-3152](../data/cves/2012/CVE-2012-3152.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | — | 98.8% |  |
-| 243 | [CVE-2013-2465](../data/cves/2013/CVE-2013-2465.yml) | Oracle Java SE Unspecified Vulnerability | Oracle Java SE | — | 98.8% | 🔒 |
-| 244 | [CVE-2008-4250](../data/cves/2008/CVE-2008-4250.yml) | Microsoft Windows Buffer Overflow Vulnerability | Microsoft Windows | — | 98.8% |  |
-| 245 | [CVE-2026-1281](../data/cves/2026/CVE-2026-1281.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 98.7% |  |
-| 246 | [CVE-2022-27925](../data/cves/2022/CVE-2022-27925.yml) | Synacor Zimbra Collaboration Suite (ZCS) Arbitrary File Upload Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 98.7% | 🔒 |
-| 247 | [CVE-2026-1340](../data/cves/2026/CVE-2026-1340.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 98.6% |  |
-| 248 | [CVE-2024-29059](../data/cves/2024/CVE-2024-29059.yml) | Microsoft .NET Framework Information Disclosure Vulnerability | Microsoft .NET Framework | — | 98.6% |  |
-| 249 | [CVE-2015-5119](../data/cves/2015/CVE-2015-5119.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | — | 98.6% |  |
-| 250 | [CVE-2024-50623](../data/cves/2024/CVE-2024-50623.yml) | Cleo Multiple Products Unrestricted File Upload Vulnerability | Cleo Multiple Products | — | 98.6% | 🔒 |
-| 251 | [CVE-2024-8963](../data/cves/2024/CVE-2024-8963.yml) | Ivanti Cloud Services Appliance (CSA) Path Traversal Vulnerability | Ivanti Cloud Services Appliance (CSA) | — | 98.6% |  |
-| 252 | [CVE-2019-17558](../data/cves/2019/CVE-2019-17558.yml) | Apache Solr VelocityResponseWriter Plug-In Remote Code Execution Vulnerability | Apache Solr | — | 98.6% |  |
-| 253 | [CVE-2024-9463](../data/cves/2024/CVE-2024-9463.yml) | Palo Alto Networks Expedition OS Command Injection Vulnerability | Palo Alto Networks Expedition | — | 98.5% |  |
-| 254 | [CVE-2019-11539](../data/cves/2019/CVE-2019-11539.yml) | Ivanti Pulse Connect Secure and Policy Secure Command Injection Vulnerability | Ivanti Pulse Connect Secure and Pulse Policy Secure | — | 98.5% | 🔒 |
-| 255 | [CVE-2012-4681](../data/cves/2012/CVE-2012-4681.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | — | 98.5% | 🔒 |
-| 256 | [CVE-2026-41940](../data/cves/2026/CVE-2026-41940.yml) | WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability | WebPros cPanel & WHM and WP2 (WordPress Squared) | — | 98.5% | 🔒 |
-| 257 | [CVE-2024-50603](../data/cves/2024/CVE-2024-50603.yml) | Aviatrix Controllers OS Command Injection Vulnerability | Aviatrix Controllers | — | 98.5% |  |
-| 258 | [CVE-2024-20767](../data/cves/2024/CVE-2024-20767.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | — | 98.5% |  |
-| 259 | [CVE-2019-5418](../data/cves/2019/CVE-2019-5418.yml) | Rails Ruby on Rails Path Traversal Vulnerability | Rails Ruby on Rails | — | 98.5% |  |
-| 260 | [CVE-2026-34486](../data/cves/2026/CVE-2026-34486.yml) | Apache Tomcat Missing Encryption of Sensitive Data Vulnerability | Apache Tomcat | — | 98.5% |  |
-| 261 | [CVE-2021-21311](../data/cves/2021/CVE-2021-21311.yml) | Adminer Server-Side Request Forgery Vulnerability | Adminer Adminer | — | 98.5% |  |
-| 262 | [CVE-2025-0108](../data/cves/2025/CVE-2025-0108.yml) | Palo Alto Networks PAN-OS Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | — | 98.5% |  |
-| 263 | [CVE-2023-48788](../data/cves/2023/CVE-2023-48788.yml) | Fortinet FortiClient EMS SQL Injection Vulnerability | Fortinet FortiClient EMS | — | 98.4% | 🔒 |
-| 264 | [CVE-2016-3088](../data/cves/2016/CVE-2016-3088.yml) | Apache ActiveMQ Improper Input Validation Vulnerability | Apache ActiveMQ | — | 98.4% |  |
-| 265 | [CVE-2022-21587](../data/cves/2022/CVE-2022-21587.yml) | Oracle E-Business Suite Unspecified Vulnerability | Oracle E-Business Suite | — | 98.3% | 🔒 |
-| 266 | [CVE-2017-15944](../data/cves/2017/CVE-2017-15944.yml) | Palo Alto Networks PAN-OS Remote Code Execution Vulnerability | Palo Alto Networks PAN-OS | — | 98.3% |  |
-| 267 | [CVE-2018-1000861](../data/cves/2018/CVE-2018-1000861.yml) | Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability | Jenkins Jenkins Stapler Web Framework | — | 98.3% |  |
-| 268 | [CVE-2016-1555](../data/cves/2016/CVE-2016-1555.yml) | NETGEAR Multiple WAP Devices Command Injection Vulnerability | NETGEAR Wireless Access Point (WAP) Devices | — | 98.3% |  |
-| 269 | [CVE-2023-20887](../data/cves/2023/CVE-2023-20887.yml) | Vmware Aria Operations for Networks Command Injection Vulnerability | VMware Aria Operations for Networks | — | 98.3% |  |
-| 270 | [CVE-2026-34197](../data/cves/2026/CVE-2026-34197.yml) | Apache ActiveMQ Improper Input Validation Vulnerability | Apache ActiveMQ | — | 98.3% |  |
-| 271 | [CVE-2022-22947](../data/cves/2022/CVE-2022-22947.yml) | VMware Spring Cloud Gateway Code Injection Vulnerability | VMware Spring Cloud Gateway | — | 98.3% |  |
-| 272 | [CVE-2022-26138](../data/cves/2022/CVE-2022-26138.yml) | Atlassian Questions For Confluence App Hard-coded Credentials Vulnerability | Atlassian Confluence | — | 98.2% |  |
-| 273 | [CVE-2024-12987](../data/cves/2024/CVE-2024-12987.yml) | DrayTek Vigor Routers OS Command Injection Vulnerability | DrayTek Vigor Routers | — | 98.2% |  |
-| 274 | [CVE-2026-72898](../data/cves/2026/CVE-2026-72898.yml) | Metabase SQL Injection Vulnerability | Metabase Metabase | — | 98.2% |  |
-| 275 | [CVE-2012-0507](../data/cves/2012/CVE-2012-0507.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | — | 98.2% | 🔒 |
-| 276 | [CVE-2021-33766](../data/cves/2021/CVE-2021-33766.yml) | Microsoft Exchange Server Information Disclosure | Microsoft Exchange Server | — | 98.2% |  |
-| 277 | [CVE-2023-27524](../data/cves/2023/CVE-2023-27524.yml) | Apache Superset Insecure Default Initialization of Resource Vulnerability | Apache Superset | — | 98.1% |  |
-| 278 | [CVE-2020-6207](../data/cves/2020/CVE-2020-6207.yml) | SAP Solution Manager Missing Authentication for Critical Function Vulnerability | SAP Solution Manager | — | 98.1% |  |
-| 279 | [CVE-2019-5544](../data/cves/2019/CVE-2019-5544.yml) | VMware ESXi and Horizon DaaS OpenSLP Heap-Based Buffer Overflow Vulnerability | VMware VMware ESXi and Horizon DaaS | — | 98.1% | 🔒 |
-| 280 | [CVE-2021-39144](../data/cves/2021/CVE-2021-39144.yml) | XStream Remote Code Execution Vulnerability | XStream XStream | — | 98.1% |  |
-| 281 | [CVE-2026-31431](../data/cves/2026/CVE-2026-31431.yml) | Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability | Linux Kernel | — | 98.1% |  |
-| 282 | [CVE-2024-3272](../data/cves/2024/CVE-2024-3272.yml) | D-Link Multiple NAS Devices Use of Hard-Coded Credentials Vulnerability | D-Link Multiple NAS Devices | — | 98.1% |  |
-| 283 | [CVE-2023-25717](../data/cves/2023/CVE-2023-25717.yml) | Multiple Ruckus Wireless Products CSRF and RCE Vulnerability | Ruckus Wireless Multiple Products | — | 98.1% |  |
-| 284 | [CVE-2021-35395](../data/cves/2021/CVE-2021-35395.yml) | Realtek AP-Router SDK Buffer Overflow Vulnerability | Realtek AP-Router SDK | — | 98.1% |  |
-| 285 | [CVE-2022-29303](../data/cves/2022/CVE-2022-29303.yml) | SolarView Compact Command Injection Vulnerability | SolarView Compact | — | 98.0% |  |
-| 286 | [CVE-2020-17519](../data/cves/2020/CVE-2020-17519.yml) | Apache Flink Improper Access Control Vulnerability | Apache Flink | — | 98.0% |  |
-| 287 | [CVE-2022-22536](../data/cves/2022/CVE-2022-22536.yml) | SAP Multiple Products HTTP Request Smuggling Vulnerability | SAP Multiple Products | — | 97.9% |  |
-| 288 | [CVE-2018-19410](../data/cves/2018/CVE-2018-19410.yml) | Paessler PRTG Network Monitor Local File Inclusion Vulnerability | Paessler PRTG Network Monitor | — | 97.9% |  |
-| 289 | [CVE-2023-25280](../data/cves/2023/CVE-2023-25280.yml) | D-Link DIR-820 Router OS Command Injection Vulnerability | D-Link DIR-820 Router | — | 97.9% |  |
-| 290 | [CVE-2021-40444](../data/cves/2021/CVE-2021-40444.yml) | Microsoft MSHTML Remote Code Execution Vulnerability | Microsoft MSHTML | — | 97.8% | 🔒 |
-| 291 | [CVE-2021-45382](../data/cves/2021/CVE-2021-45382.yml) | D-Link Multiple Routers Remote Code Execution Vulnerability | D-Link Multiple Routers | — | 97.8% |  |
-| 292 | [CVE-2021-36380](../data/cves/2021/CVE-2021-36380.yml) | Sunhillo SureLine OS Command Injection Vulnerablity | Sunhillo SureLine | — | 97.8% |  |
-| 293 | [CVE-2020-11738](../data/cves/2020/CVE-2020-11738.yml) | WordPress Snap Creek Duplicator Plugin File Download Vulnerability | WordPress Snap Creek Duplicator Plugin | — | 97.8% |  |
-| 294 | [CVE-2015-7450](../data/cves/2015/CVE-2015-7450.yml) | IBM WebSphere Application Server and Server Hypervisor Edition Code Injection. | IBM WebSphere Application Server and Server Hypervisor Edition | — | 97.8% |  |
-| 295 | [CVE-2026-21643](../data/cves/2026/CVE-2026-21643.yml) | Fortinet FortiClient EMS SQL Injection Vulnerability | Fortinet FortiClient EMS | — | 97.7% |  |
-| 296 | [CVE-2020-14883](../data/cves/2020/CVE-2020-14883.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | — | 97.7% |  |
-| 297 | [CVE-2022-43769](../data/cves/2022/CVE-2022-43769.yml) | Hitachi Vantara Pentaho BA Server Special Element Injection Vulnerability | Hitachi Vantara Pentaho Business Analytics (BA) Server | — | 97.7% |  |
-| 298 | [CVE-2025-20281](../data/cves/2025/CVE-2025-20281.yml) | Cisco Identity Services Engine Injection Vulnerability | Cisco Identity Services Engine | — | 97.6% |  |
-| 299 | [CVE-2021-42237](../data/cves/2021/CVE-2021-42237.yml) | Sitecore XP Remote Command Execution Vulnerability | Sitecore XP | — | 97.6% | 🔒 |
-| 300 | [CVE-2025-34028](../data/cves/2025/CVE-2025-34028.yml) | Commvault Command Center Path Traversal Vulnerability | Commvault Command Center | — | 97.6% |  |
-| 301 | [CVE-2020-25078](../data/cves/2020/CVE-2020-25078.yml) | D-Link DCS-2530L and DCS-2670L Devices Unspecified Vulnerability | D-Link DCS-2530L and DCS-2670L Devices | — | 97.5% |  |
-| 302 | [CVE-2016-3714](../data/cves/2016/CVE-2016-3714.yml) | ImageMagick Improper Input Validation Vulnerability | ImageMagick ImageMagick | — | 97.5% |  |
-| 303 | [CVE-2024-56145](../data/cves/2024/CVE-2024-56145.yml) | Craft CMS Code Injection Vulnerability | Craft CMS Craft CMS | — | 97.5% |  |
-| 304 | [CVE-2024-4358](../data/cves/2024/CVE-2024-4358.yml) | Progress Telerik Report Server Authentication Bypass by Spoofing Vulnerability | Progress Telerik Report Server | — | 97.5% |  |
-| 305 | [CVE-2019-9082](../data/cves/2019/CVE-2019-9082.yml) | ThinkPHP Remote Code Execution Vulnerability | ThinkPHP ThinkPHP | — | 97.4% |  |
-| 306 | [CVE-2020-1956](../data/cves/2020/CVE-2020-1956.yml) | Apache Kylin OS Command Injection Vulnerability | Apache Kylin | — | 97.4% |  |
-| 307 | [CVE-2007-3010](../data/cves/2007/CVE-2007-3010.yml) | Alcatel OmniPCX Enterprise Remote Code Execution Vulnerability | Alcatel OmniPCX Enterprise | — | 97.4% |  |
-| 308 | [CVE-2026-85706](../data/cves/2026/CVE-2026-85706.yml) | GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability | GitLab Community Edition and Enterprise Edition | — | 97.4% |  |
-| 309 | [CVE-2023-24489](../data/cves/2023/CVE-2023-24489.yml) | Citrix Content Collaboration ShareFile Improper Access Control Vulnerability | Citrix Content Collaboration | — | 97.3% |  |
-| 310 | [CVE-2023-26360](../data/cves/2023/CVE-2023-26360.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | — | 97.3% |  |
-| 311 | [CVE-2020-25213](../data/cves/2020/CVE-2020-25213.yml) | WordPress File Manager Plugin Remote Code Execution Vulnerability | WordPress File Manager Plugin | — | 97.3% |  |
-| 312 | [CVE-2015-1641](../data/cves/2015/CVE-2015-1641.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 97.2% |  |
-| 313 | [CVE-2020-14864](../data/cves/2020/CVE-2020-14864.yml) | Oracle Business Intelligence Enterprise Edition Path Transversal | Oracle Intelligence Enterprise Edition | — | 97.2% |  |
-| 314 | [CVE-2024-41713](../data/cves/2024/CVE-2024-41713.yml) | Mitel MiCollab Path Traversal Vulnerability | Mitel MiCollab | — | 97.2% | 🔒 |
-| 315 | [CVE-2021-41277](../data/cves/2021/CVE-2021-41277.yml) | Metabase GeoJSON API Local File Inclusion Vulnerability | Metabase Metabase | — | 97.2% |  |
-| 316 | [CVE-2025-2747](../data/cves/2025/CVE-2025-2747.yml) | Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability | Kentico Xperience CMS | — | 97.2% |  |
-| 317 | [CVE-2023-23397](../data/cves/2023/CVE-2023-23397.yml) | Microsoft Office Outlook Privilege Escalation Vulnerability | Microsoft Office | — | 97.2% |  |
-| 318 | [CVE-2025-5086](../data/cves/2025/CVE-2025-5086.yml) | Dassault Systèmes DELMIA Apriso Deserialization of Untrusted Data Vulnerability | Dassault Systèmes DELMIA Apriso | — | 97.2% |  |
-| 319 | [CVE-2017-17562](../data/cves/2017/CVE-2017-17562.yml) | Embedthis GoAhead Remote Code Execution Vulnerability | Embedthis GoAhead | — | 97.1% |  |
-| 320 | [CVE-2020-2555](../data/cves/2020/CVE-2020-2555.yml) | Oracle Multiple Products Remote Code Execution Vulnerability | Oracle Multiple Products | — | 97.1% |  |
-| 321 | [CVE-2023-52163](../data/cves/2023/CVE-2023-52163.yml) | Digiever DS-2105 Pro Missing Authorization Vulnerability | Digiever DS-2105 Pro | — | 97.1% |  |
-| 322 | [CVE-2015-2051](../data/cves/2015/CVE-2015-2051.yml) | D-Link DIR-645 Router Remote Code Execution Vulnerability | D-Link DIR-645 Router | — | 97.1% |  |
-| 323 | [CVE-2024-20439](../data/cves/2024/CVE-2024-20439.yml) | Cisco Smart Licensing Utility Static Credential Vulnerability | Cisco Smart Licensing Utility | — | 97.1% |  |
-| 324 | [CVE-2019-7256](../data/cves/2019/CVE-2019-7256.yml) | Nice Linear eMerge E3-Series OS Command Injection Vulnerability | Nice Linear eMerge E3-Series | — | 97.1% |  |
-| 325 | [CVE-2013-0422](../data/cves/2013/CVE-2013-0422.yml) | Oracle JRE Remote Code Execution Vulnerability | Oracle Java Runtime Environment (JRE) | — | 97.1% | 🔒 |
-| 326 | [CVE-2023-38203](../data/cves/2023/CVE-2023-38203.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | — | 97.1% | 🔒 |
-| 327 | [CVE-2019-1003030](../data/cves/2019/CVE-2019-1003030.yml) | Jenkins Matrix Project Plugin Remote Code Execution Vulnerability | Jenkins Matrix Project Plugin | — | 97.1% |  |
-| 328 | [CVE-2019-3398](../data/cves/2019/CVE-2019-3398.yml) | Atlassian Confluence Server and Data Center Path Traversal Vulnerability | Atlassian Confluence Server and Data Center | — | 97.0% |  |
-| 329 | [CVE-2017-8291](../data/cves/2017/CVE-2017-8291.yml) | Artifex Ghostscript Type Confusion Vulnerability | Artifex Ghostscript | — | 97.0% |  |
-| 330 | [CVE-2018-1273](../data/cves/2018/CVE-2018-1273.yml) | VMware Tanzu Spring Data Commons Property Binder Vulnerability | VMware Tanzu Spring Data Commons | — | 97.0% | 🔒 |
-| 331 | [CVE-2026-20253](../data/cves/2026/CVE-2026-20253.yml) | Splunk Enterprise Missing Authentication for Critical Function Vulnerability | Splunk Enterprise | — | 96.9% |  |
-| 332 | [CVE-2016-3081](../data/cves/2016/CVE-2016-3081.yml) | Apache Struts Command Injection Vulnerability | Apache Struts | — | 96.9% |  |
-| 333 | [CVE-2024-57727](../data/cves/2024/CVE-2024-57727.yml) | SimpleHelp Path Traversal Vulnerability | SimpleHelp  SimpleHelp | — | 96.8% | 🔒 |
-| 334 | [CVE-2010-3962](../data/cves/2010/CVE-2010-3962.yml) | Microsoft Internet Explorer Uninitialized Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 96.8% |  |
-| 335 | [CVE-2020-25223](../data/cves/2020/CVE-2020-25223.yml) | Sophos SG UTM Remote Code Execution Vulnerability | Sophos SG UTM | — | 96.8% |  |
-| 336 | [CVE-2021-22502](../data/cves/2021/CVE-2021-22502.yml) | Micro Focus Operation Bridge Report (OBR) Remote Code Execution Vulnerability | Micro Focus Operation Bridge Reporter (OBR) | — | 96.7% |  |
-| 337 | [CVE-2020-1350](../data/cves/2020/CVE-2020-1350.yml) | Microsoft Windows DNS Server Remote Code Execution Vulnerability | Microsoft Windows | — | 96.7% |  |
-| 338 | [CVE-2023-46747](../data/cves/2023/CVE-2023-46747.yml) | F5 BIG-IP Configuration Utility Authentication Bypass Vulnerability | F5 BIG-IP Configuration Utility | — | 96.7% | 🔒 |
-| 339 | [CVE-2019-20500](../data/cves/2019/CVE-2019-20500.yml) | D-Link DWL-2600AP Access Point Command Injection Vulnerability | D-Link DWL-2600AP Access Point | — | 96.7% |  |
-| 340 | [CVE-2018-6530](../data/cves/2018/CVE-2018-6530.yml) | D-Link Multiple Routers OS Command Injection Vulnerability | D-Link Multiple Routers | — | 96.7% | 🔒 |
-| 341 | [CVE-2026-35273](../data/cves/2026/CVE-2026-35273.yml) | Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability | Oracle  PeopleSoft Enterprise PeopleTools | — | 96.7% | 🔒 |
-| 342 | [CVE-2011-3544](../data/cves/2011/CVE-2011-3544.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE JDK and JRE | — | 96.7% |  |
-| 343 | [CVE-2009-0927](../data/cves/2009/CVE-2009-0927.yml) | Adobe Reader and Adobe Acrobat Stack-Based Buffer Overflow Vulnerability | Adobe Reader and Acrobat | — | 96.6% |  |
-| 344 | [CVE-2020-11651](../data/cves/2020/CVE-2020-11651.yml) | SaltStack Salt Authentication Bypass Vulnerability | SaltStack Salt | — | 96.6% |  |
-| 345 | [CVE-2023-33246](../data/cves/2023/CVE-2023-33246.yml) | Apache RocketMQ Command Execution Vulnerability | Apache RocketMQ | — | 96.6% |  |
-| 346 | [CVE-2009-1151](../data/cves/2009/CVE-2009-1151.yml) | phpMyAdmin Remote Code Execution Vulnerability | phpMyAdmin phpMyAdmin | — | 96.6% |  |
-| 347 | [CVE-2020-8260](../data/cves/2020/CVE-2020-8260.yml) | Ivanti Pulse Connect Secure Code Execution Vulnerability | Ivanti Pulse Connect Secure | — | 96.5% |  |
-| 348 | [CVE-2026-23760](../data/cves/2026/CVE-2026-23760.yml) | SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability | SmarterTools SmarterMail | — | 96.4% | 🔒 |
-| 349 | [CVE-2026-33017](../data/cves/2026/CVE-2026-33017.yml) | Langflow Code Injection Vulnerability | Langflow Langflow | — | 96.4% |  |
-| 350 | [CVE-2010-0840](../data/cves/2010/CVE-2010-0840.yml) | Oracle JRE Unspecified Vulnerability | Oracle Java Runtime Environment (JRE) | — | 96.3% |  |
-| 351 | [CVE-2025-54068](../data/cves/2025/CVE-2025-54068.yml) | Laravel Livewire Code Injection Vulnerability | Laravel Livewire | — | 96.3% |  |
-| 352 | [CVE-2021-35587](../data/cves/2021/CVE-2021-35587.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | — | 96.3% |  |
-| 353 | [CVE-2020-17530](../data/cves/2020/CVE-2020-17530.yml) | Apache Struts Remote Code Execution Vulnerability | Apache Struts | — | 96.3% |  |
-| 354 | [CVE-2019-20085](../data/cves/2019/CVE-2019-20085.yml) | TVT NVMS-1000 Directory Traversal Vulnerability | TVT NVMS-1000 | — | 96.1% |  |
-| 355 | [CVE-2022-24112](../data/cves/2022/CVE-2022-24112.yml) | Apache APISIX Authentication Bypass Vulnerability | Apache APISIX | — | 96.1% |  |
-| 356 | [CVE-2018-20250](../data/cves/2018/CVE-2018-20250.yml) | WinRAR Absolute Path Traversal Vulnerability | RARLAB WinRAR | — | 96.0% | 🔒 |
-| 357 | [CVE-2017-3506](../data/cves/2017/CVE-2017-3506.yml) | Oracle WebLogic Server OS Command Injection Vulnerability | Oracle WebLogic Server | — | 96.0% |  |
-| 358 | [CVE-2018-14847](../data/cves/2018/CVE-2018-14847.yml) | MikroTik Router OS Directory Traversal Vulnerability | MikroTik RouterOS | — | 96.0% |  |
-| 359 | [CVE-2019-1652](../data/cves/2019/CVE-2019-1652.yml) | Cisco Small Business Routers Improper Input Validation Vulnerability | Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers | — | 95.9% |  |
-| 360 | [CVE-2021-20124](../data/cves/2021/CVE-2021-20124.yml) | Draytek VigorConnect Path Traversal Vulnerability  | DrayTek VigorConnect | — | 95.9% |  |
-| 361 | [CVE-2025-61884](../data/cves/2025/CVE-2025-61884.yml) | Oracle E-Business Suite Server-Side Request Forgery (SSRF) Vulnerability | Oracle E-Business Suite | — | 95.9% | 🔒 |
-| 362 | [CVE-2020-5847](../data/cves/2020/CVE-2020-5847.yml) | Unraid Remote Code Execution Vulnerability | Unraid Unraid | — | 95.8% |  |
-| 363 | [CVE-2020-1147](../data/cves/2020/CVE-2020-1147.yml) | Microsoft .NET Framework, SharePoint, and Visual Studio Remote Code Execution Vulnerability | Microsoft .NET Framework, SharePoint, Visual Studio | — | 95.8% |  |
-| 364 | [CVE-2026-87902](../data/cves/2026/CVE-2026-87902.yml) | WordPress Core Remote File Inclusion Vulnerability | WordPress Core | — | 95.8% |  |
-| 365 | [CVE-2021-26857](../data/cves/2021/CVE-2021-26857.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 95.8% | 🔒 |
-| 366 | [CVE-2025-12480](../data/cves/2025/CVE-2025-12480.yml) | Gladinet Triofox Improper Access Control Vulnerability | Gladinet Triofox | — | 95.7% |  |
-| 367 | [CVE-2022-23131](../data/cves/2022/CVE-2022-23131.yml) | Zabbix Frontend Authentication Bypass Vulnerability | Zabbix Frontend | — | 95.7% |  |
-| 368 | [CVE-2026-0257](../data/cves/2026/CVE-2026-0257.yml) | Palo Alto Networks PAN-OS Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | — | 95.6% | 🔒 |
-| 369 | [CVE-2020-5410](../data/cves/2020/CVE-2020-5410.yml) | VMware Tanzu Spring Cloud Config Directory Traversal Vulnerability | VMware Tanzu Spring Cloud Configuration (Config) Server | — | 95.6% |  |
-| 370 | [CVE-2016-0752](../data/cves/2016/CVE-2016-0752.yml) | Ruby on Rails Directory Traversal Vulnerability | Rails Ruby on Rails | — | 95.5% |  |
-| 371 | [CVE-2025-54236](../data/cves/2025/CVE-2025-54236.yml) | Adobe Commerce and Magento Improper Input Validation Vulnerability | Adobe Commerce and Magento | — | 95.5% |  |
-| 372 | [CVE-2022-41352](../data/cves/2022/CVE-2022-41352.yml) | Synacor Zimbra Collaboration Suite (ZCS) Arbitrary File Upload Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 95.5% | 🔒 |
-| 373 | [CVE-2024-1708](../data/cves/2024/CVE-2024-1708.yml) | ConnectWise ScreenConnect Path Traversal Vulnerability | ConnectWise ScreenConnect | — | 95.4% | 🔒 |
-| 374 | [CVE-2022-36537](../data/cves/2022/CVE-2022-36537.yml) | ZK Framework AuUploader Unspecified Vulnerability | ZK Framework AuUploader | — | 95.4% | 🔒 |
-| 375 | [CVE-2024-1212](../data/cves/2024/CVE-2024-1212.yml) | Progress Kemp LoadMaster OS Command Injection Vulnerability | Progress Kemp LoadMaster | — | 95.4% |  |
-| 376 | [CVE-2019-11580](../data/cves/2019/CVE-2019-11580.yml) | Atlassian Crowd and Crowd Data Center Remote Code Execution Vulnerability | Atlassian Crowd and Crowd Data Center | — | 95.4% | 🔒 |
-| 377 | [CVE-2015-0313](../data/cves/2015/CVE-2015-0313.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | — | 95.3% |  |
-| 378 | [CVE-2019-7609](../data/cves/2019/CVE-2019-7609.yml) | Kibana Arbitrary Code Execution | Elastic Kibana | — | 95.3% |  |
-| 379 | [CVE-2024-53704](../data/cves/2024/CVE-2024-53704.yml) | SonicWall SonicOS SSLVPN Improper Authentication Vulnerability | SonicWall SonicOS | — | 95.3% | 🔒 |
-| 380 | [CVE-2022-23134](../data/cves/2022/CVE-2022-23134.yml) | Zabbix Frontend Improper Access Control Vulnerability | Zabbix Frontend | — | 95.3% |  |
-| 381 | [CVE-2025-57819](../data/cves/2025/CVE-2025-57819.yml) | Sangoma FreePBX Authentication Bypass Vulnerability | Sangoma FreePBX | — | 95.2% |  |
-| 382 | [CVE-2018-0798](../data/cves/2018/CVE-2018-0798.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 95.1% |  |
-| 383 | [CVE-2017-12637](../data/cves/2017/CVE-2017-12637.yml) | SAP NetWeaver Directory Traversal Vulnerability | SAP NetWeaver | — | 95.1% |  |
-| 384 | [CVE-2019-10068](../data/cves/2019/CVE-2019-10068.yml) | Kentico Xperience Deserialization of Untrusted Data Vulnerability | Kentico Xperience | — | 95.1% |  |
-| 385 | [CVE-2023-36845](../data/cves/2023/CVE-2023-36845.yml) | Juniper Junos OS EX Series and SRX Series PHP External Variable Modification Vulnerability | Juniper Junos OS | — | 95.1% |  |
-| 386 | [CVE-2015-4852](../data/cves/2015/CVE-2015-4852.yml) | Oracle WebLogic Server Deserialization of Untrusted Data Vulnerability | Oracle WebLogic Server | — | 95.0% |  |
-| 387 | [CVE-2019-12989](../data/cves/2019/CVE-2019-12989.yml) | Citrix SD-WAN and NetScaler SQL Injection Vulnerability | Citrix SD-WAN and NetScaler | — | 95.0% |  |
+| 226 | [CVE-2021-44529](../data/cves/2021/CVE-2021-44529.yml) | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability  | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) | 9.8 | 99.1% | 🔒 |
+| 227 | [CVE-2022-36804](../data/cves/2022/CVE-2022-36804.yml) | Atlassian Bitbucket Server and Data Center Command Injection Vulnerability | Atlassian Bitbucket Server and Data Center | 8.8 | 99.1% |  |
+| 228 | [CVE-2020-10199](../data/cves/2020/CVE-2020-10199.yml) | Sonatype Nexus Repository Remote Code Execution Vulnerability | Sonatype Nexus Repository | 8.8 | 99.1% |  |
+| 229 | [CVE-2025-49706](../data/cves/2025/CVE-2025-49706.yml) | Microsoft SharePoint Improper Authentication Vulnerability | Microsoft SharePoint | 6.5 | 99.1% | 🔒 |
+| 230 | [CVE-2020-0618](../data/cves/2020/CVE-2020-0618.yml) | Microsoft SQL Server Reporting Services Remote Code Execution Vulnerability | Microsoft SQL Server | 8.8 | 99.0% | 🔒 |
+| 231 | [CVE-2019-16278](../data/cves/2019/CVE-2019-16278.yml) | Nostromo nhttpd Directory Traversal Vulnerability | Nostromo nhttpd | 9.8 | 99.0% |  |
+| 232 | [CVE-2025-68613](../data/cves/2025/CVE-2025-68613.yml) | n8n Improper Control of Dynamically-Managed Code Resources Vulnerability | n8n n8n | 8.8 | 99.0% |  |
+| 233 | [CVE-2026-24061](../data/cves/2026/CVE-2026-24061.yml) | GNU InetUtils Argument Injection Vulnerability | GNU InetUtils | 9.8 | 99.0% |  |
+| 234 | [CVE-2017-3881](../data/cves/2017/CVE-2017-3881.yml) | Cisco IOS and IOS XE Remote Code Execution Vulnerability | Cisco IOS and IOS XE | 9.8 | 99.0% |  |
+| 235 | [CVE-2020-7247](../data/cves/2020/CVE-2020-7247.yml) | OpenSMTPD Remote Code Execution Vulnerability | OpenBSD OpenSMTPD | 9.8 | 99.0% |  |
+| 236 | [CVE-2021-40539](../data/cves/2021/CVE-2021-40539.yml) | Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability | Zoho ManageEngine | 9.8 | 99.0% | 🔒 |
+| 237 | [CVE-2019-3929](../data/cves/2019/CVE-2019-3929.yml) | Crestron Multiple Products Command Injection Vulnerability | Crestron Multiple Products | 9.8 | 99.0% |  |
+| 238 | [CVE-2025-32433](../data/cves/2025/CVE-2025-32433.yml) | Erlang Erlang/OTP SSH Server Missing Authentication for Critical Function Vulnerability | Erlang Erlang/OTP | 10 | 98.9% |  |
+| 239 | [CVE-2017-9791](../data/cves/2017/CVE-2017-9791.yml) | Apache Struts 1 Improper Input Validation Vulnerability | Apache Struts 1 | 9.8 | 98.9% |  |
+| 240 | [CVE-2022-3236](../data/cves/2022/CVE-2022-3236.yml) | Sophos Firewall Code Injection Vulnerability | Sophos Firewall | 9.8 | 98.9% |  |
+| 241 | [CVE-2023-47246](../data/cves/2023/CVE-2023-47246.yml) | SysAid Server Path Traversal Vulnerability | SysAid SysAid Server | 9.8 | 98.9% | 🔒 |
+| 242 | [CVE-2012-3152](../data/cves/2012/CVE-2012-3152.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | 9.1 | 98.8% |  |
+| 243 | [CVE-2013-2465](../data/cves/2013/CVE-2013-2465.yml) | Oracle Java SE Unspecified Vulnerability | Oracle Java SE | 9.8 | 98.8% | 🔒 |
+| 244 | [CVE-2008-4250](../data/cves/2008/CVE-2008-4250.yml) | Microsoft Windows Buffer Overflow Vulnerability | Microsoft Windows | 9.8 | 98.8% |  |
+| 245 | [CVE-2026-1281](../data/cves/2026/CVE-2026-1281.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 9.8 | 98.7% |  |
+| 246 | [CVE-2022-27925](../data/cves/2022/CVE-2022-27925.yml) | Synacor Zimbra Collaboration Suite (ZCS) Arbitrary File Upload Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 7.2 | 98.7% | 🔒 |
+| 247 | [CVE-2026-1340](../data/cves/2026/CVE-2026-1340.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 9.8 | 98.6% |  |
+| 248 | [CVE-2024-29059](../data/cves/2024/CVE-2024-29059.yml) | Microsoft .NET Framework Information Disclosure Vulnerability | Microsoft .NET Framework | 7.5 | 98.6% |  |
+| 249 | [CVE-2015-5119](../data/cves/2015/CVE-2015-5119.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | 9.8 | 98.6% |  |
+| 250 | [CVE-2024-50623](../data/cves/2024/CVE-2024-50623.yml) | Cleo Multiple Products Unrestricted File Upload Vulnerability | Cleo Multiple Products | 9.8 | 98.6% | 🔒 |
+| 251 | [CVE-2024-8963](../data/cves/2024/CVE-2024-8963.yml) | Ivanti Cloud Services Appliance (CSA) Path Traversal Vulnerability | Ivanti Cloud Services Appliance (CSA) | 9.1 | 98.6% |  |
+| 252 | [CVE-2019-17558](../data/cves/2019/CVE-2019-17558.yml) | Apache Solr VelocityResponseWriter Plug-In Remote Code Execution Vulnerability | Apache Solr | 7.5 | 98.6% |  |
+| 253 | [CVE-2024-9463](../data/cves/2024/CVE-2024-9463.yml) | Palo Alto Networks Expedition OS Command Injection Vulnerability | Palo Alto Networks Expedition | 9.9 | 98.5% |  |
+| 254 | [CVE-2019-11539](../data/cves/2019/CVE-2019-11539.yml) | Ivanti Pulse Connect Secure and Policy Secure Command Injection Vulnerability | Ivanti Pulse Connect Secure and Pulse Policy Secure | 7.2 | 98.5% | 🔒 |
+| 255 | [CVE-2012-4681](../data/cves/2012/CVE-2012-4681.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | 9.8 | 98.5% | 🔒 |
+| 256 | [CVE-2026-41940](../data/cves/2026/CVE-2026-41940.yml) | WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability | WebPros cPanel & WHM and WP2 (WordPress Squared) | 9.3 | 98.5% | 🔒 |
+| 257 | [CVE-2024-50603](../data/cves/2024/CVE-2024-50603.yml) | Aviatrix Controllers OS Command Injection Vulnerability | Aviatrix Controllers | 9.8 | 98.5% |  |
+| 258 | [CVE-2024-20767](../data/cves/2024/CVE-2024-20767.yml) | Adobe ColdFusion Improper Access Control Vulnerability | Adobe ColdFusion | 7.4 | 98.5% |  |
+| 259 | [CVE-2019-5418](../data/cves/2019/CVE-2019-5418.yml) | Rails Ruby on Rails Path Traversal Vulnerability | Rails Ruby on Rails | 7.5 | 98.5% |  |
+| 260 | [CVE-2026-34486](../data/cves/2026/CVE-2026-34486.yml) | Apache Tomcat Missing Encryption of Sensitive Data Vulnerability | Apache Tomcat | 7.5 | 98.5% |  |
+| 261 | [CVE-2021-21311](../data/cves/2021/CVE-2021-21311.yml) | Adminer Server-Side Request Forgery Vulnerability | Adminer Adminer | 7.2 | 98.5% |  |
+| 262 | [CVE-2025-0108](../data/cves/2025/CVE-2025-0108.yml) | Palo Alto Networks PAN-OS Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | 8.8 | 98.5% |  |
+| 263 | [CVE-2023-48788](../data/cves/2023/CVE-2023-48788.yml) | Fortinet FortiClient EMS SQL Injection Vulnerability | Fortinet FortiClient EMS | 9.8 | 98.4% | 🔒 |
+| 264 | [CVE-2016-3088](../data/cves/2016/CVE-2016-3088.yml) | Apache ActiveMQ Improper Input Validation Vulnerability | Apache ActiveMQ | 9.8 | 98.4% |  |
+| 265 | [CVE-2022-21587](../data/cves/2022/CVE-2022-21587.yml) | Oracle E-Business Suite Unspecified Vulnerability | Oracle E-Business Suite | 9.8 | 98.3% | 🔒 |
+| 266 | [CVE-2017-15944](../data/cves/2017/CVE-2017-15944.yml) | Palo Alto Networks PAN-OS Remote Code Execution Vulnerability | Palo Alto Networks PAN-OS | 9.8 | 98.3% |  |
+| 267 | [CVE-2018-1000861](../data/cves/2018/CVE-2018-1000861.yml) | Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability | Jenkins Jenkins Stapler Web Framework | 9.8 | 98.3% |  |
+| 268 | [CVE-2016-1555](../data/cves/2016/CVE-2016-1555.yml) | NETGEAR Multiple WAP Devices Command Injection Vulnerability | NETGEAR Wireless Access Point (WAP) Devices | 9.8 | 98.3% |  |
+| 269 | [CVE-2023-20887](../data/cves/2023/CVE-2023-20887.yml) | Vmware Aria Operations for Networks Command Injection Vulnerability | VMware Aria Operations for Networks | 9.8 | 98.3% |  |
+| 270 | [CVE-2026-34197](../data/cves/2026/CVE-2026-34197.yml) | Apache ActiveMQ Improper Input Validation Vulnerability | Apache ActiveMQ | 8.8 | 98.3% |  |
+| 271 | [CVE-2022-22947](../data/cves/2022/CVE-2022-22947.yml) | VMware Spring Cloud Gateway Code Injection Vulnerability | VMware Spring Cloud Gateway | 10 | 98.3% |  |
+| 272 | [CVE-2022-26138](../data/cves/2022/CVE-2022-26138.yml) | Atlassian Questions For Confluence App Hard-coded Credentials Vulnerability | Atlassian Confluence | 9.8 | 98.2% |  |
+| 273 | [CVE-2024-12987](../data/cves/2024/CVE-2024-12987.yml) | DrayTek Vigor Routers OS Command Injection Vulnerability | DrayTek Vigor Routers | 6.9 | 98.2% |  |
+| 274 | [CVE-2026-72898](../data/cves/2026/CVE-2026-72898.yml) | Metabase SQL Injection Vulnerability | Metabase Metabase | 10 | 98.2% |  |
+| 275 | [CVE-2012-0507](../data/cves/2012/CVE-2012-0507.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | 9.8 | 98.2% | 🔒 |
+| 276 | [CVE-2021-33766](../data/cves/2021/CVE-2021-33766.yml) | Microsoft Exchange Server Information Disclosure | Microsoft Exchange Server | 7.3 | 98.2% |  |
+| 277 | [CVE-2023-27524](../data/cves/2023/CVE-2023-27524.yml) | Apache Superset Insecure Default Initialization of Resource Vulnerability | Apache Superset | 9.8 | 98.1% |  |
+| 278 | [CVE-2020-6207](../data/cves/2020/CVE-2020-6207.yml) | SAP Solution Manager Missing Authentication for Critical Function Vulnerability | SAP Solution Manager | 9.8 | 98.1% |  |
+| 279 | [CVE-2019-5544](../data/cves/2019/CVE-2019-5544.yml) | VMware ESXi and Horizon DaaS OpenSLP Heap-Based Buffer Overflow Vulnerability | VMware VMware ESXi and Horizon DaaS | 9.8 | 98.1% | 🔒 |
+| 280 | [CVE-2021-39144](../data/cves/2021/CVE-2021-39144.yml) | XStream Remote Code Execution Vulnerability | XStream XStream | 8.5 | 98.1% |  |
+| 281 | [CVE-2026-31431](../data/cves/2026/CVE-2026-31431.yml) | Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability | Linux Kernel | 7.8 | 98.1% |  |
+| 282 | [CVE-2024-3272](../data/cves/2024/CVE-2024-3272.yml) | D-Link Multiple NAS Devices Use of Hard-Coded Credentials Vulnerability | D-Link Multiple NAS Devices | 9.8 | 98.1% |  |
+| 283 | [CVE-2023-25717](../data/cves/2023/CVE-2023-25717.yml) | Multiple Ruckus Wireless Products CSRF and RCE Vulnerability | Ruckus Wireless Multiple Products | 9.8 | 98.1% |  |
+| 284 | [CVE-2021-35395](../data/cves/2021/CVE-2021-35395.yml) | Realtek AP-Router SDK Buffer Overflow Vulnerability | Realtek AP-Router SDK | 9.8 | 98.1% |  |
+| 285 | [CVE-2022-29303](../data/cves/2022/CVE-2022-29303.yml) | SolarView Compact Command Injection Vulnerability | SolarView Compact | 9.8 | 98.0% |  |
+| 286 | [CVE-2020-17519](../data/cves/2020/CVE-2020-17519.yml) | Apache Flink Improper Access Control Vulnerability | Apache Flink | 7.5 | 98.0% |  |
+| 287 | [CVE-2022-22536](../data/cves/2022/CVE-2022-22536.yml) | SAP Multiple Products HTTP Request Smuggling Vulnerability | SAP Multiple Products | 10 | 97.9% |  |
+| 288 | [CVE-2018-19410](../data/cves/2018/CVE-2018-19410.yml) | Paessler PRTG Network Monitor Local File Inclusion Vulnerability | Paessler PRTG Network Monitor | 9.8 | 97.9% |  |
+| 289 | [CVE-2023-25280](../data/cves/2023/CVE-2023-25280.yml) | D-Link DIR-820 Router OS Command Injection Vulnerability | D-Link DIR-820 Router | 9.8 | 97.9% |  |
+| 290 | [CVE-2021-40444](../data/cves/2021/CVE-2021-40444.yml) | Microsoft MSHTML Remote Code Execution Vulnerability | Microsoft MSHTML | 8.8 | 97.8% | 🔒 |
+| 291 | [CVE-2021-45382](../data/cves/2021/CVE-2021-45382.yml) | D-Link Multiple Routers Remote Code Execution Vulnerability | D-Link Multiple Routers | 9.8 | 97.8% |  |
+| 292 | [CVE-2021-36380](../data/cves/2021/CVE-2021-36380.yml) | Sunhillo SureLine OS Command Injection Vulnerablity | Sunhillo SureLine | 9.8 | 97.8% |  |
+| 293 | [CVE-2020-11738](../data/cves/2020/CVE-2020-11738.yml) | WordPress Snap Creek Duplicator Plugin File Download Vulnerability | WordPress Snap Creek Duplicator Plugin | 7.5 | 97.8% |  |
+| 294 | [CVE-2015-7450](../data/cves/2015/CVE-2015-7450.yml) | IBM WebSphere Application Server and Server Hypervisor Edition Code Injection. | IBM WebSphere Application Server and Server Hypervisor Edition | 9.8 | 97.8% |  |
+| 295 | [CVE-2026-21643](../data/cves/2026/CVE-2026-21643.yml) | Fortinet FortiClient EMS SQL Injection Vulnerability | Fortinet FortiClient EMS | 9.8 | 97.7% |  |
+| 296 | [CVE-2020-14883](../data/cves/2020/CVE-2020-14883.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | 7.2 | 97.7% |  |
+| 297 | [CVE-2022-43769](../data/cves/2022/CVE-2022-43769.yml) | Hitachi Vantara Pentaho BA Server Special Element Injection Vulnerability | Hitachi Vantara Pentaho Business Analytics (BA) Server | 7.2 | 97.7% |  |
+| 298 | [CVE-2025-20281](../data/cves/2025/CVE-2025-20281.yml) | Cisco Identity Services Engine Injection Vulnerability | Cisco Identity Services Engine | 10 | 97.6% |  |
+| 299 | [CVE-2021-42237](../data/cves/2021/CVE-2021-42237.yml) | Sitecore XP Remote Command Execution Vulnerability | Sitecore XP | 9.8 | 97.6% | 🔒 |
+| 300 | [CVE-2025-34028](../data/cves/2025/CVE-2025-34028.yml) | Commvault Command Center Path Traversal Vulnerability | Commvault Command Center | 9.3 | 97.6% |  |
+| 301 | [CVE-2020-25078](../data/cves/2020/CVE-2020-25078.yml) | D-Link DCS-2530L and DCS-2670L Devices Unspecified Vulnerability | D-Link DCS-2530L and DCS-2670L Devices | 7.5 | 97.5% |  |
+| 302 | [CVE-2016-3714](../data/cves/2016/CVE-2016-3714.yml) | ImageMagick Improper Input Validation Vulnerability | ImageMagick ImageMagick | 8.4 | 97.5% |  |
+| 303 | [CVE-2024-56145](../data/cves/2024/CVE-2024-56145.yml) | Craft CMS Code Injection Vulnerability | Craft CMS Craft CMS | 9.3 | 97.5% |  |
+| 304 | [CVE-2024-4358](../data/cves/2024/CVE-2024-4358.yml) | Progress Telerik Report Server Authentication Bypass by Spoofing Vulnerability | Progress Telerik Report Server | 9.8 | 97.5% |  |
+| 305 | [CVE-2019-9082](../data/cves/2019/CVE-2019-9082.yml) | ThinkPHP Remote Code Execution Vulnerability | ThinkPHP ThinkPHP | 8.8 | 97.4% |  |
+| 306 | [CVE-2020-1956](../data/cves/2020/CVE-2020-1956.yml) | Apache Kylin OS Command Injection Vulnerability | Apache Kylin | 8.8 | 97.4% |  |
+| 307 | [CVE-2007-3010](../data/cves/2007/CVE-2007-3010.yml) | Alcatel OmniPCX Enterprise Remote Code Execution Vulnerability | Alcatel OmniPCX Enterprise | 9.8 | 97.4% |  |
+| 308 | [CVE-2026-85706](../data/cves/2026/CVE-2026-85706.yml) | GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability | GitLab Community Edition and Enterprise Edition | 10 | 97.4% |  |
+| 309 | [CVE-2023-24489](../data/cves/2023/CVE-2023-24489.yml) | Citrix Content Collaboration ShareFile Improper Access Control Vulnerability | Citrix Content Collaboration | 9.8 | 97.3% |  |
+| 310 | [CVE-2023-26360](../data/cves/2023/CVE-2023-26360.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | 8.6 | 97.3% |  |
+| 311 | [CVE-2020-25213](../data/cves/2020/CVE-2020-25213.yml) | WordPress File Manager Plugin Remote Code Execution Vulnerability | WordPress File Manager Plugin | 9.8 | 97.3% |  |
+| 312 | [CVE-2015-1641](../data/cves/2015/CVE-2015-1641.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 7.8 | 97.2% |  |
+| 313 | [CVE-2020-14864](../data/cves/2020/CVE-2020-14864.yml) | Oracle Business Intelligence Enterprise Edition Path Transversal | Oracle Intelligence Enterprise Edition | 7.5 | 97.2% |  |
+| 314 | [CVE-2024-41713](../data/cves/2024/CVE-2024-41713.yml) | Mitel MiCollab Path Traversal Vulnerability | Mitel MiCollab | 9.1 | 97.2% | 🔒 |
+| 315 | [CVE-2021-41277](../data/cves/2021/CVE-2021-41277.yml) | Metabase GeoJSON API Local File Inclusion Vulnerability | Metabase Metabase | 7.5 | 97.2% |  |
+| 316 | [CVE-2025-2747](../data/cves/2025/CVE-2025-2747.yml) | Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability | Kentico Xperience CMS | 9.8 | 97.2% |  |
+| 317 | [CVE-2023-23397](../data/cves/2023/CVE-2023-23397.yml) | Microsoft Office Outlook Privilege Escalation Vulnerability | Microsoft Office | 9.8 | 97.2% |  |
+| 318 | [CVE-2025-5086](../data/cves/2025/CVE-2025-5086.yml) | Dassault Systèmes DELMIA Apriso Deserialization of Untrusted Data Vulnerability | Dassault Systèmes DELMIA Apriso | 9 | 97.2% |  |
+| 319 | [CVE-2017-17562](../data/cves/2017/CVE-2017-17562.yml) | Embedthis GoAhead Remote Code Execution Vulnerability | Embedthis GoAhead | 8.1 | 97.1% |  |
+| 320 | [CVE-2020-2555](../data/cves/2020/CVE-2020-2555.yml) | Oracle Multiple Products Remote Code Execution Vulnerability | Oracle Multiple Products | 9.8 | 97.1% |  |
+| 321 | [CVE-2023-52163](../data/cves/2023/CVE-2023-52163.yml) | Digiever DS-2105 Pro Missing Authorization Vulnerability | Digiever DS-2105 Pro | 8.8 | 97.1% |  |
+| 322 | [CVE-2015-2051](../data/cves/2015/CVE-2015-2051.yml) | D-Link DIR-645 Router Remote Code Execution Vulnerability | D-Link DIR-645 Router | 8.8 | 97.1% |  |
+| 323 | [CVE-2024-20439](../data/cves/2024/CVE-2024-20439.yml) | Cisco Smart Licensing Utility Static Credential Vulnerability | Cisco Smart Licensing Utility | 9.8 | 97.1% |  |
+| 324 | [CVE-2019-7256](../data/cves/2019/CVE-2019-7256.yml) | Nice Linear eMerge E3-Series OS Command Injection Vulnerability | Nice Linear eMerge E3-Series | 9.8 | 97.1% |  |
+| 325 | [CVE-2013-0422](../data/cves/2013/CVE-2013-0422.yml) | Oracle JRE Remote Code Execution Vulnerability | Oracle Java Runtime Environment (JRE) | 9.8 | 97.1% | 🔒 |
+| 326 | [CVE-2023-38203](../data/cves/2023/CVE-2023-38203.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | 9.8 | 97.1% | 🔒 |
+| 327 | [CVE-2019-1003030](../data/cves/2019/CVE-2019-1003030.yml) | Jenkins Matrix Project Plugin Remote Code Execution Vulnerability | Jenkins Matrix Project Plugin | 9.9 | 97.1% |  |
+| 328 | [CVE-2019-3398](../data/cves/2019/CVE-2019-3398.yml) | Atlassian Confluence Server and Data Center Path Traversal Vulnerability | Atlassian Confluence Server and Data Center | 8.8 | 97.0% |  |
+| 329 | [CVE-2017-8291](../data/cves/2017/CVE-2017-8291.yml) | Artifex Ghostscript Type Confusion Vulnerability | Artifex Ghostscript | 7.8 | 97.0% |  |
+| 330 | [CVE-2018-1273](../data/cves/2018/CVE-2018-1273.yml) | VMware Tanzu Spring Data Commons Property Binder Vulnerability | VMware Tanzu Spring Data Commons | 9.8 | 97.0% | 🔒 |
+| 331 | [CVE-2026-20253](../data/cves/2026/CVE-2026-20253.yml) | Splunk Enterprise Missing Authentication for Critical Function Vulnerability | Splunk Enterprise | 9.8 | 96.9% |  |
+| 332 | [CVE-2016-3081](../data/cves/2016/CVE-2016-3081.yml) | Apache Struts Command Injection Vulnerability | Apache Struts | 8.1 | 96.9% |  |
+| 333 | [CVE-2024-57727](../data/cves/2024/CVE-2024-57727.yml) | SimpleHelp Path Traversal Vulnerability | SimpleHelp  SimpleHelp | 7.5 | 96.8% | 🔒 |
+| 334 | [CVE-2010-3962](../data/cves/2010/CVE-2010-3962.yml) | Microsoft Internet Explorer Uninitialized Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.1 | 96.8% |  |
+| 335 | [CVE-2020-25223](../data/cves/2020/CVE-2020-25223.yml) | Sophos SG UTM Remote Code Execution Vulnerability | Sophos SG UTM | 9.8 | 96.8% |  |
+| 336 | [CVE-2021-22502](../data/cves/2021/CVE-2021-22502.yml) | Micro Focus Operation Bridge Report (OBR) Remote Code Execution Vulnerability | Micro Focus Operation Bridge Reporter (OBR) | 9.8 | 96.7% |  |
+| 337 | [CVE-2020-1350](../data/cves/2020/CVE-2020-1350.yml) | Microsoft Windows DNS Server Remote Code Execution Vulnerability | Microsoft Windows | 10 | 96.7% |  |
+| 338 | [CVE-2023-46747](../data/cves/2023/CVE-2023-46747.yml) | F5 BIG-IP Configuration Utility Authentication Bypass Vulnerability | F5 BIG-IP Configuration Utility | 9.8 | 96.7% | 🔒 |
+| 339 | [CVE-2019-20500](../data/cves/2019/CVE-2019-20500.yml) | D-Link DWL-2600AP Access Point Command Injection Vulnerability | D-Link DWL-2600AP Access Point | 7.8 | 96.7% |  |
+| 340 | [CVE-2018-6530](../data/cves/2018/CVE-2018-6530.yml) | D-Link Multiple Routers OS Command Injection Vulnerability | D-Link Multiple Routers | 9.8 | 96.7% | 🔒 |
+| 341 | [CVE-2026-35273](../data/cves/2026/CVE-2026-35273.yml) | Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability | Oracle  PeopleSoft Enterprise PeopleTools | 9.8 | 96.7% | 🔒 |
+| 342 | [CVE-2011-3544](../data/cves/2011/CVE-2011-3544.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE JDK and JRE | 9.8 | 96.7% |  |
+| 343 | [CVE-2009-0927](../data/cves/2009/CVE-2009-0927.yml) | Adobe Reader and Adobe Acrobat Stack-Based Buffer Overflow Vulnerability | Adobe Reader and Acrobat | 8.8 | 96.6% |  |
+| 344 | [CVE-2020-11651](../data/cves/2020/CVE-2020-11651.yml) | SaltStack Salt Authentication Bypass Vulnerability | SaltStack Salt | 9.8 | 96.6% |  |
+| 345 | [CVE-2023-33246](../data/cves/2023/CVE-2023-33246.yml) | Apache RocketMQ Command Execution Vulnerability | Apache RocketMQ | 9.8 | 96.6% |  |
+| 346 | [CVE-2009-1151](../data/cves/2009/CVE-2009-1151.yml) | phpMyAdmin Remote Code Execution Vulnerability | phpMyAdmin phpMyAdmin | 9.8 | 96.6% |  |
+| 347 | [CVE-2020-8260](../data/cves/2020/CVE-2020-8260.yml) | Ivanti Pulse Connect Secure Code Execution Vulnerability | Ivanti Pulse Connect Secure | 7.2 | 96.5% |  |
+| 348 | [CVE-2026-23760](../data/cves/2026/CVE-2026-23760.yml) | SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability | SmarterTools SmarterMail | 9.3 | 96.4% | 🔒 |
+| 349 | [CVE-2026-33017](../data/cves/2026/CVE-2026-33017.yml) | Langflow Code Injection Vulnerability | Langflow Langflow | 9.3 | 96.4% |  |
+| 350 | [CVE-2010-0840](../data/cves/2010/CVE-2010-0840.yml) | Oracle JRE Unspecified Vulnerability | Oracle Java Runtime Environment (JRE) | 9.8 | 96.3% |  |
+| 351 | [CVE-2025-54068](../data/cves/2025/CVE-2025-54068.yml) | Laravel Livewire Code Injection Vulnerability | Laravel Livewire | 9.2 | 96.3% |  |
+| 352 | [CVE-2021-35587](../data/cves/2021/CVE-2021-35587.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | 9.8 | 96.3% |  |
+| 353 | [CVE-2020-17530](../data/cves/2020/CVE-2020-17530.yml) | Apache Struts Remote Code Execution Vulnerability | Apache Struts | 9.8 | 96.3% |  |
+| 354 | [CVE-2019-20085](../data/cves/2019/CVE-2019-20085.yml) | TVT NVMS-1000 Directory Traversal Vulnerability | TVT NVMS-1000 | 7.5 | 96.1% |  |
+| 355 | [CVE-2022-24112](../data/cves/2022/CVE-2022-24112.yml) | Apache APISIX Authentication Bypass Vulnerability | Apache APISIX | 9.8 | 96.1% |  |
+| 356 | [CVE-2018-20250](../data/cves/2018/CVE-2018-20250.yml) | WinRAR Absolute Path Traversal Vulnerability | RARLAB WinRAR | 7.8 | 96.0% | 🔒 |
+| 357 | [CVE-2017-3506](../data/cves/2017/CVE-2017-3506.yml) | Oracle WebLogic Server OS Command Injection Vulnerability | Oracle WebLogic Server | 7.4 | 96.0% |  |
+| 358 | [CVE-2018-14847](../data/cves/2018/CVE-2018-14847.yml) | MikroTik Router OS Directory Traversal Vulnerability | MikroTik RouterOS | 9.1 | 96.0% |  |
+| 359 | [CVE-2019-1652](../data/cves/2019/CVE-2019-1652.yml) | Cisco Small Business Routers Improper Input Validation Vulnerability | Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers | 7.2 | 95.9% |  |
+| 360 | [CVE-2021-20124](../data/cves/2021/CVE-2021-20124.yml) | Draytek VigorConnect Path Traversal Vulnerability  | DrayTek VigorConnect | 7.5 | 95.9% |  |
+| 361 | [CVE-2025-61884](../data/cves/2025/CVE-2025-61884.yml) | Oracle E-Business Suite Server-Side Request Forgery (SSRF) Vulnerability | Oracle E-Business Suite | 7.5 | 95.9% | 🔒 |
+| 362 | [CVE-2020-5847](../data/cves/2020/CVE-2020-5847.yml) | Unraid Remote Code Execution Vulnerability | Unraid Unraid | 9.8 | 95.8% |  |
+| 363 | [CVE-2020-1147](../data/cves/2020/CVE-2020-1147.yml) | Microsoft .NET Framework, SharePoint, and Visual Studio Remote Code Execution Vulnerability | Microsoft .NET Framework, SharePoint, Visual Studio | 7.8 | 95.8% |  |
+| 364 | [CVE-2026-87902](../data/cves/2026/CVE-2026-87902.yml) | WordPress Core Remote File Inclusion Vulnerability | WordPress Core | 8.1 | 95.8% |  |
+| 365 | [CVE-2021-26857](../data/cves/2021/CVE-2021-26857.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | 7.8 | 95.8% | 🔒 |
+| 366 | [CVE-2025-12480](../data/cves/2025/CVE-2025-12480.yml) | Gladinet Triofox Improper Access Control Vulnerability | Gladinet Triofox | 9.1 | 95.7% |  |
+| 367 | [CVE-2022-23131](../data/cves/2022/CVE-2022-23131.yml) | Zabbix Frontend Authentication Bypass Vulnerability | Zabbix Frontend | 9.8 | 95.7% |  |
+| 368 | [CVE-2026-0257](../data/cves/2026/CVE-2026-0257.yml) | Palo Alto Networks PAN-OS Authentication Bypass Vulnerability | Palo Alto Networks PAN-OS | 7.8 | 95.6% | 🔒 |
+| 369 | [CVE-2020-5410](../data/cves/2020/CVE-2020-5410.yml) | VMware Tanzu Spring Cloud Config Directory Traversal Vulnerability | VMware Tanzu Spring Cloud Configuration (Config) Server | 7.5 | 95.6% |  |
+| 370 | [CVE-2016-0752](../data/cves/2016/CVE-2016-0752.yml) | Ruby on Rails Directory Traversal Vulnerability | Rails Ruby on Rails | 7.5 | 95.5% |  |
+| 371 | [CVE-2025-54236](../data/cves/2025/CVE-2025-54236.yml) | Adobe Commerce and Magento Improper Input Validation Vulnerability | Adobe Commerce and Magento | 9.1 | 95.5% |  |
+| 372 | [CVE-2022-41352](../data/cves/2022/CVE-2022-41352.yml) | Synacor Zimbra Collaboration Suite (ZCS) Arbitrary File Upload Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 9.8 | 95.5% | 🔒 |
+| 373 | [CVE-2024-1708](../data/cves/2024/CVE-2024-1708.yml) | ConnectWise ScreenConnect Path Traversal Vulnerability | ConnectWise ScreenConnect | 8.4 | 95.4% | 🔒 |
+| 374 | [CVE-2022-36537](../data/cves/2022/CVE-2022-36537.yml) | ZK Framework AuUploader Unspecified Vulnerability | ZK Framework AuUploader | 7.5 | 95.4% | 🔒 |
+| 375 | [CVE-2024-1212](../data/cves/2024/CVE-2024-1212.yml) | Progress Kemp LoadMaster OS Command Injection Vulnerability | Progress Kemp LoadMaster | 9.8 | 95.4% |  |
+| 376 | [CVE-2019-11580](../data/cves/2019/CVE-2019-11580.yml) | Atlassian Crowd and Crowd Data Center Remote Code Execution Vulnerability | Atlassian Crowd and Crowd Data Center | 9.8 | 95.4% | 🔒 |
+| 377 | [CVE-2015-0313](../data/cves/2015/CVE-2015-0313.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | 9.8 | 95.3% |  |
+| 378 | [CVE-2019-7609](../data/cves/2019/CVE-2019-7609.yml) | Kibana Arbitrary Code Execution | Elastic Kibana | 10 | 95.3% |  |
+| 379 | [CVE-2024-53704](../data/cves/2024/CVE-2024-53704.yml) | SonicWall SonicOS SSLVPN Improper Authentication Vulnerability | SonicWall SonicOS | 9.8 | 95.3% | 🔒 |
+| 380 | [CVE-2022-23134](../data/cves/2022/CVE-2022-23134.yml) | Zabbix Frontend Improper Access Control Vulnerability | Zabbix Frontend | 5.3 | 95.3% |  |
+| 381 | [CVE-2025-57819](../data/cves/2025/CVE-2025-57819.yml) | Sangoma FreePBX Authentication Bypass Vulnerability | Sangoma FreePBX | 10 | 95.2% |  |
+| 382 | [CVE-2018-0798](../data/cves/2018/CVE-2018-0798.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 8.8 | 95.1% |  |
+| 383 | [CVE-2017-12637](../data/cves/2017/CVE-2017-12637.yml) | SAP NetWeaver Directory Traversal Vulnerability | SAP NetWeaver | 7.5 | 95.1% |  |
+| 384 | [CVE-2019-10068](../data/cves/2019/CVE-2019-10068.yml) | Kentico Xperience Deserialization of Untrusted Data Vulnerability | Kentico Xperience | 9.8 | 95.1% |  |
+| 385 | [CVE-2023-36845](../data/cves/2023/CVE-2023-36845.yml) | Juniper Junos OS EX Series and SRX Series PHP External Variable Modification Vulnerability | Juniper Junos OS | 9.8 | 95.1% |  |
+| 386 | [CVE-2015-4852](../data/cves/2015/CVE-2015-4852.yml) | Oracle WebLogic Server Deserialization of Untrusted Data Vulnerability | Oracle WebLogic Server | 9.8 | 95.0% |  |
+| 387 | [CVE-2019-12989](../data/cves/2019/CVE-2019-12989.yml) | Citrix SD-WAN and NetScaler SQL Injection Vulnerability | Citrix SD-WAN and NetScaler | 9.8 | 95.0% |  |
 | 388 | [CVE-2021-4034](../data/cves/2021/CVE-2021-4034.yml) | PwnKit | polkit pkexec | 7.8 | 94.9% | 🔒 |
-| 389 | [CVE-2014-6332](../data/cves/2014/CVE-2014-6332.yml) | Microsoft Windows Object Linking & Embedding (OLE) Automation Array Remote Code Execution Vulnerability | Microsoft Windows | — | 94.9% |  |
-| 390 | [CVE-2026-63077](../data/cves/2026/CVE-2026-63077.yml) | JetBrains TeamCity Deserialization of Untrusted Data Vulnerability | JetBrains TeamCity | — | 94.9% | 🔒 |
-| 391 | [CVE-2017-9822](../data/cves/2017/CVE-2017-9822.yml) | DotNetNuke (DNN) Remote Code Execution Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | — | 94.8% | 🔒 |
-| 392 | [CVE-2024-47575](../data/cves/2024/CVE-2024-47575.yml) | Fortinet FortiManager Missing Authentication Vulnerability | Fortinet FortiManager | — | 94.8% |  |
-| 393 | [CVE-2018-14933](../data/cves/2018/CVE-2018-14933.yml) | NUUO NVRmini Devices OS Command Injection Vulnerability  | NUUO NVRmini Devices | — | 94.8% |  |
-| 394 | [CVE-2024-51378](../data/cves/2024/CVE-2024-51378.yml) | CyberPanel Incorrect Default Permissions Vulnerability | CyberPersons CyberPanel | — | 94.7% | 🔒 |
-| 395 | [CVE-2020-6287](../data/cves/2020/CVE-2020-6287.yml) | SAP NetWeaver Missing Authentication for Critical Function Vulnerability | SAP NetWeaver | — | 94.7% |  |
-| 396 | [CVE-2024-21413](../data/cves/2024/CVE-2024-21413.yml) | Microsoft Outlook Improper Input Validation Vulnerability | Microsoft Office Outlook | — | 94.7% |  |
-| 397 | [CVE-2020-2883](../data/cves/2020/CVE-2020-2883.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | — | 94.6% |  |
-| 398 | [CVE-2020-14644](../data/cves/2020/CVE-2020-14644.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | — | 94.5% |  |
-| 399 | [CVE-2017-18368](../data/cves/2017/CVE-2017-18368.yml) | Zyxel P660HN-T1A Routers Command Injection Vulnerability | Zyxel P660HN-T1A Routers | — | 94.5% |  |
-| 400 | [CVE-2023-7028](../data/cves/2023/CVE-2023-7028.yml) | GitLab Community and Enterprise Editions Improper Access Control Vulnerability | GitLab GitLab CE/EE | — | 94.5% |  |
-| 401 | [CVE-2024-48248](../data/cves/2024/CVE-2024-48248.yml) | NAKIVO Backup and Replication Absolute Path Traversal Vulnerability | NAKIVO Backup and Replication | — | 94.4% |  |
-| 402 | [CVE-2024-55591](../data/cves/2024/CVE-2024-55591.yml) | Fortinet FortiOS and FortiProxy Authentication Bypass Vulnerability | Fortinet FortiOS and FortiProxy | — | 94.3% | 🔒 |
-| 403 | [CVE-2025-30406](../data/cves/2025/CVE-2025-30406.yml) | Gladinet CentreStack and Triofox Use of Hard-coded Cryptographic Key Vulnerability | Gladinet CentreStack | — | 94.3% |  |
-| 404 | [CVE-2025-8088](../data/cves/2025/CVE-2025-8088.yml) | RARLAB WinRAR Path Traversal Vulnerability | RARLAB WinRAR | — | 94.3% | 🔒 |
-| 405 | [CVE-2016-4117](../data/cves/2016/CVE-2016-4117.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | — | 94.3% | 🔒 |
-| 406 | [CVE-2017-1000486](../data/cves/2017/CVE-2017-1000486.yml) | Primetek Primefaces Remote Code Execution Vulnerability | Primetek Primefaces Application | — | 94.1% |  |
-| 407 | [CVE-2016-0189](../data/cves/2016/CVE-2016-0189.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 94.1% | 🔒 |
-| 408 | [CVE-2026-35616](../data/cves/2026/CVE-2026-35616.yml) | Fortinet FortiClient EMS Improper Access Control Vulnerability | Fortinet FortiClient EMS | — | 94.0% |  |
-| 409 | [CVE-2025-11953](../data/cves/2025/CVE-2025-11953.yml) | React Native Community CLI OS Command Injection Vulnerability | React Native Community CLI | — | 94.0% |  |
-| 410 | [CVE-2024-55956](../data/cves/2024/CVE-2024-55956.yml) | Cleo Multiple Products Unauthenticated File Upload Vulnerability | Cleo Multiple Products | — | 94.0% | 🔒 |
-| 411 | [CVE-2022-27924](../data/cves/2022/CVE-2022-27924.yml) | Synacor Zimbra Collaboration Suite (ZCS) Command Injection Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 93.9% | 🔒 |
-| 412 | [CVE-2025-47812](../data/cves/2025/CVE-2025-47812.yml) | Wing FTP Server Improper Neutralization of Null Byte or NUL Character Vulnerability | Wing FTP Server Wing FTP Server | — | 93.9% |  |
-| 413 | [CVE-2026-1731](../data/cves/2026/CVE-2026-1731.yml) | BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability | BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) | — | 93.9% | 🔒 |
-| 414 | [CVE-2025-24016](../data/cves/2025/CVE-2025-24016.yml) | Wazuh Server Deserialization of Untrusted Data Vulnerability | Wazuh Wazuh Server | — | 93.8% |  |
-| 415 | [CVE-2024-9474](../data/cves/2024/CVE-2024-9474.yml) | Palo Alto Networks PAN-OS Management Interface OS Command Injection Vulnerability | Palo Alto Networks PAN-OS | — | 93.8% | 🔒 |
-| 416 | [CVE-2013-0625](../data/cves/2013/CVE-2013-0625.yml) | Adobe ColdFusion Authentication Bypass Vulnerability | Adobe ColdFusion | — | 93.8% |  |
-| 417 | [CVE-2021-26858](../data/cves/2021/CVE-2021-26858.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | — | 93.7% | 🔒 |
-| 418 | [CVE-2020-7796](../data/cves/2020/CVE-2020-7796.yml) | Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability | Synacor Zimbra Collaboration Suite | — | 93.6% |  |
-| 419 | [CVE-2012-1723](../data/cves/2012/CVE-2012-1723.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | — | 93.6% | 🔒 |
-| 420 | [CVE-2021-44077](../data/cves/2021/CVE-2021-44077.yml) | Zoho ManageEngine ServiceDesk Plus Remote Code Execution Vulnerability | Zoho ManageEngine ServiceDesk Plus (SDP) / SupportCenter Plus | — | 93.5% |  |
-| 421 | [CVE-2025-54309](../data/cves/2025/CVE-2025-54309.yml) |  CrushFTP Unprotected Alternate Channel Vulnerability | CrushFTP CrushFTP | — | 93.5% |  |
-| 422 | [CVE-2023-36846](../data/cves/2023/CVE-2023-36846.yml) | Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability | Juniper Junos OS | — | 93.5% |  |
-| 423 | [CVE-2025-4008](../data/cves/2025/CVE-2025-4008.yml) | Smartbedded Meteobridge Command Injection Vulnerability | Smartbedded Meteobridge | — | 93.4% |  |
-| 424 | [CVE-2017-0143](../data/cves/2017/CVE-2017-0143.yml) | Microsoft Windows Server Message Block (SMBv1) Remote Code Execution Vulnerability | Microsoft Windows | — | 93.3% | 🔒 |
-| 425 | [CVE-2024-28987](../data/cves/2024/CVE-2024-28987.yml) | SolarWinds Web Help Desk Hardcoded Credential Vulnerability | SolarWinds Web Help Desk | — | 93.3% |  |
-| 426 | [CVE-2018-0802](../data/cves/2018/CVE-2018-0802.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 93.3% | 🔒 |
-| 427 | [CVE-2022-33891](../data/cves/2022/CVE-2022-33891.yml) | Apache Spark Command Injection Vulnerability | Apache Spark | — | 93.2% |  |
-| 428 | [CVE-2020-5849](../data/cves/2020/CVE-2020-5849.yml) | Unraid Authentication Bypass Vulnerability | Unraid Unraid | — | 93.2% |  |
-| 429 | [CVE-2025-34291](../data/cves/2025/CVE-2025-34291.yml) | Langflow Origin Validation Error Vulnerability | Langflow Langflow | — | 93.2% |  |
-| 430 | [CVE-2026-39808](../data/cves/2026/CVE-2026-39808.yml) | Fortinet FortiSandbox OS Command Injection Vulnerability | Fortinet FortiSandbox | — | 93.2% |  |
-| 431 | [CVE-2013-0632](../data/cves/2013/CVE-2013-0632.yml) | Adobe ColdFusion Authentication Bypass Vulnerability | Adobe ColdFusion | — | 93.1% |  |
-| 432 | [CVE-2016-4437](../data/cves/2016/CVE-2016-4437.yml) | Apache Shiro Code Execution Vulnerability | Apache Shiro | — | 93.0% |  |
-| 433 | [CVE-2021-40870](../data/cves/2021/CVE-2021-40870.yml) | Aviatrix Controller Unrestricted Upload of File | Aviatrix Aviatrix Controller | — | 93.0% |  |
-| 434 | [CVE-2023-20273](../data/cves/2023/CVE-2023-20273.yml) | Cisco IOS XE Web UI Command Injection Vulnerability | Cisco Cisco IOS XE Web UI | — | 92.9% |  |
-| 435 | [CVE-2024-6670](../data/cves/2024/CVE-2024-6670.yml) | Progress WhatsUp Gold SQL Injection Vulnerability | Progress WhatsUp Gold | — | 92.9% | 🔒 |
-| 436 | [CVE-2018-10561](../data/cves/2018/CVE-2018-10561.yml) | Dasan GPON Routers Authentication Bypass Vulnerability | Dasan Gigabit Passive Optical Network (GPON) Routers | — | 92.8% |  |
-| 437 | [CVE-2020-2551](../data/cves/2020/CVE-2020-2551.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | — | 92.8% |  |
+| 389 | [CVE-2014-6332](../data/cves/2014/CVE-2014-6332.yml) | Microsoft Windows Object Linking & Embedding (OLE) Automation Array Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 94.9% |  |
+| 390 | [CVE-2026-63077](../data/cves/2026/CVE-2026-63077.yml) | JetBrains TeamCity Deserialization of Untrusted Data Vulnerability | JetBrains TeamCity | 9.8 | 94.9% | 🔒 |
+| 391 | [CVE-2017-9822](../data/cves/2017/CVE-2017-9822.yml) | DotNetNuke (DNN) Remote Code Execution Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | 8.8 | 94.8% | 🔒 |
+| 392 | [CVE-2024-47575](../data/cves/2024/CVE-2024-47575.yml) | Fortinet FortiManager Missing Authentication Vulnerability | Fortinet FortiManager | 9.8 | 94.8% |  |
+| 393 | [CVE-2018-14933](../data/cves/2018/CVE-2018-14933.yml) | NUUO NVRmini Devices OS Command Injection Vulnerability  | NUUO NVRmini Devices | 9.8 | 94.8% |  |
+| 394 | [CVE-2024-51378](../data/cves/2024/CVE-2024-51378.yml) | CyberPanel Incorrect Default Permissions Vulnerability | CyberPersons CyberPanel | 9.8 | 94.7% | 🔒 |
+| 395 | [CVE-2020-6287](../data/cves/2020/CVE-2020-6287.yml) | SAP NetWeaver Missing Authentication for Critical Function Vulnerability | SAP NetWeaver | 10 | 94.7% |  |
+| 396 | [CVE-2024-21413](../data/cves/2024/CVE-2024-21413.yml) | Microsoft Outlook Improper Input Validation Vulnerability | Microsoft Office Outlook | 9.8 | 94.7% |  |
+| 397 | [CVE-2020-2883](../data/cves/2020/CVE-2020-2883.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | 9.8 | 94.6% |  |
+| 398 | [CVE-2020-14644](../data/cves/2020/CVE-2020-14644.yml) | Oracle WebLogic Server Remote Code Execution Vulnerability | Oracle WebLogic Server | 9.8 | 94.5% |  |
+| 399 | [CVE-2017-18368](../data/cves/2017/CVE-2017-18368.yml) | Zyxel P660HN-T1A Routers Command Injection Vulnerability | Zyxel P660HN-T1A Routers | 9.8 | 94.5% |  |
+| 400 | [CVE-2023-7028](../data/cves/2023/CVE-2023-7028.yml) | GitLab Community and Enterprise Editions Improper Access Control Vulnerability | GitLab GitLab CE/EE | 9.8 | 94.5% |  |
+| 401 | [CVE-2024-48248](../data/cves/2024/CVE-2024-48248.yml) | NAKIVO Backup and Replication Absolute Path Traversal Vulnerability | NAKIVO Backup and Replication | 8.6 | 94.4% |  |
+| 402 | [CVE-2024-55591](../data/cves/2024/CVE-2024-55591.yml) | Fortinet FortiOS and FortiProxy Authentication Bypass Vulnerability | Fortinet FortiOS and FortiProxy | 9.8 | 94.3% | 🔒 |
+| 403 | [CVE-2025-30406](../data/cves/2025/CVE-2025-30406.yml) | Gladinet CentreStack and Triofox Use of Hard-coded Cryptographic Key Vulnerability | Gladinet CentreStack | 9.8 | 94.3% |  |
+| 404 | [CVE-2025-8088](../data/cves/2025/CVE-2025-8088.yml) | RARLAB WinRAR Path Traversal Vulnerability | RARLAB WinRAR | 8.4 | 94.3% | 🔒 |
+| 405 | [CVE-2016-4117](../data/cves/2016/CVE-2016-4117.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | 9.8 | 94.3% | 🔒 |
+| 406 | [CVE-2017-1000486](../data/cves/2017/CVE-2017-1000486.yml) | Primetek Primefaces Remote Code Execution Vulnerability | Primetek Primefaces Application | 9.8 | 94.1% |  |
+| 407 | [CVE-2016-0189](../data/cves/2016/CVE-2016-0189.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 7.5 | 94.1% | 🔒 |
+| 408 | [CVE-2026-35616](../data/cves/2026/CVE-2026-35616.yml) | Fortinet FortiClient EMS Improper Access Control Vulnerability | Fortinet FortiClient EMS | 9.8 | 94.0% |  |
+| 409 | [CVE-2025-11953](../data/cves/2025/CVE-2025-11953.yml) | React Native Community CLI OS Command Injection Vulnerability | React Native Community CLI | 9.8 | 94.0% |  |
+| 410 | [CVE-2024-55956](../data/cves/2024/CVE-2024-55956.yml) | Cleo Multiple Products Unauthenticated File Upload Vulnerability | Cleo Multiple Products | 9.8 | 94.0% | 🔒 |
+| 411 | [CVE-2022-27924](../data/cves/2022/CVE-2022-27924.yml) | Synacor Zimbra Collaboration Suite (ZCS) Command Injection Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 7.5 | 93.9% | 🔒 |
+| 412 | [CVE-2025-47812](../data/cves/2025/CVE-2025-47812.yml) | Wing FTP Server Improper Neutralization of Null Byte or NUL Character Vulnerability | Wing FTP Server Wing FTP Server | 10 | 93.9% |  |
+| 413 | [CVE-2026-1731](../data/cves/2026/CVE-2026-1731.yml) | BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability | BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) | 9.9 | 93.9% | 🔒 |
+| 414 | [CVE-2025-24016](../data/cves/2025/CVE-2025-24016.yml) | Wazuh Server Deserialization of Untrusted Data Vulnerability | Wazuh Wazuh Server | 9.9 | 93.8% |  |
+| 415 | [CVE-2024-9474](../data/cves/2024/CVE-2024-9474.yml) | Palo Alto Networks PAN-OS Management Interface OS Command Injection Vulnerability | Palo Alto Networks PAN-OS | 6.9 | 93.8% | 🔒 |
+| 416 | [CVE-2013-0625](../data/cves/2013/CVE-2013-0625.yml) | Adobe ColdFusion Authentication Bypass Vulnerability | Adobe ColdFusion | 9.8 | 93.8% |  |
+| 417 | [CVE-2021-26858](../data/cves/2021/CVE-2021-26858.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange Server | 7.8 | 93.7% | 🔒 |
+| 418 | [CVE-2020-7796](../data/cves/2020/CVE-2020-7796.yml) | Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability | Synacor Zimbra Collaboration Suite | 9.8 | 93.6% |  |
+| 419 | [CVE-2012-1723](../data/cves/2012/CVE-2012-1723.yml) | Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability | Oracle Java SE | 9.8 | 93.6% | 🔒 |
+| 420 | [CVE-2021-44077](../data/cves/2021/CVE-2021-44077.yml) | Zoho ManageEngine ServiceDesk Plus Remote Code Execution Vulnerability | Zoho ManageEngine ServiceDesk Plus (SDP) / SupportCenter Plus | 9.8 | 93.5% |  |
+| 421 | [CVE-2025-54309](../data/cves/2025/CVE-2025-54309.yml) |  CrushFTP Unprotected Alternate Channel Vulnerability | CrushFTP CrushFTP | 9.8 | 93.5% |  |
+| 422 | [CVE-2023-36846](../data/cves/2023/CVE-2023-36846.yml) | Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability | Juniper Junos OS | 5.3 | 93.5% |  |
+| 423 | [CVE-2025-4008](../data/cves/2025/CVE-2025-4008.yml) | Smartbedded Meteobridge Command Injection Vulnerability | Smartbedded Meteobridge | 8.7 | 93.4% |  |
+| 424 | [CVE-2017-0143](../data/cves/2017/CVE-2017-0143.yml) | Microsoft Windows Server Message Block (SMBv1) Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 93.3% | 🔒 |
+| 425 | [CVE-2024-28987](../data/cves/2024/CVE-2024-28987.yml) | SolarWinds Web Help Desk Hardcoded Credential Vulnerability | SolarWinds Web Help Desk | 9.1 | 93.3% |  |
+| 426 | [CVE-2018-0802](../data/cves/2018/CVE-2018-0802.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 7.8 | 93.3% | 🔒 |
+| 427 | [CVE-2022-33891](../data/cves/2022/CVE-2022-33891.yml) | Apache Spark Command Injection Vulnerability | Apache Spark | 8.8 | 93.2% |  |
+| 428 | [CVE-2020-5849](../data/cves/2020/CVE-2020-5849.yml) | Unraid Authentication Bypass Vulnerability | Unraid Unraid | 7.5 | 93.2% |  |
+| 429 | [CVE-2025-34291](../data/cves/2025/CVE-2025-34291.yml) | Langflow Origin Validation Error Vulnerability | Langflow Langflow | 9.4 | 93.2% |  |
+| 430 | [CVE-2026-39808](../data/cves/2026/CVE-2026-39808.yml) | Fortinet FortiSandbox OS Command Injection Vulnerability | Fortinet FortiSandbox | 9.8 | 93.2% |  |
+| 431 | [CVE-2013-0632](../data/cves/2013/CVE-2013-0632.yml) | Adobe ColdFusion Authentication Bypass Vulnerability | Adobe ColdFusion | 9.8 | 93.1% |  |
+| 432 | [CVE-2016-4437](../data/cves/2016/CVE-2016-4437.yml) | Apache Shiro Code Execution Vulnerability | Apache Shiro | 9.8 | 93.0% |  |
+| 433 | [CVE-2021-40870](../data/cves/2021/CVE-2021-40870.yml) | Aviatrix Controller Unrestricted Upload of File | Aviatrix Aviatrix Controller | 9.8 | 93.0% |  |
+| 434 | [CVE-2023-20273](../data/cves/2023/CVE-2023-20273.yml) | Cisco IOS XE Web UI Command Injection Vulnerability | Cisco Cisco IOS XE Web UI | 7.2 | 92.9% |  |
+| 435 | [CVE-2024-6670](../data/cves/2024/CVE-2024-6670.yml) | Progress WhatsUp Gold SQL Injection Vulnerability | Progress WhatsUp Gold | 9.8 | 92.9% | 🔒 |
+| 436 | [CVE-2018-10561](../data/cves/2018/CVE-2018-10561.yml) | Dasan GPON Routers Authentication Bypass Vulnerability | Dasan Gigabit Passive Optical Network (GPON) Routers | 9.8 | 92.8% |  |
+| 437 | [CVE-2020-2551](../data/cves/2020/CVE-2020-2551.yml) | Oracle Fusion Middleware Unspecified Vulnerability | Oracle Fusion Middleware | 9.8 | 92.8% |  |
 | 438 | [CVE-2022-0847](../data/cves/2022/CVE-2022-0847.yml) | Dirty Pipe | Linux Linux kernel | 7.8 | 92.8% |  |
-| 439 | [CVE-2022-24706](../data/cves/2022/CVE-2022-24706.yml) | Apache CouchDB Insecure Default Initialization of Resource Vulnerability | Apache CouchDB | — | 92.5% |  |
-| 440 | [CVE-2023-38950](../data/cves/2023/CVE-2023-38950.yml) | ZKTeco BioTime Path Traversal Vulnerability | ZKTeco BioTime | — | 92.5% |  |
-| 441 | [CVE-2016-3427](../data/cves/2016/CVE-2016-3427.yml) | Oracle Java SE and JRockit Unspecified Vulnerability | Oracle Java SE and JRockit | — | 92.3% |  |
-| 442 | [CVE-2022-43939](../data/cves/2022/CVE-2022-43939.yml) | Hitachi Vantara Pentaho BA Server Authorization Bypass Vulnerability | Hitachi Vantara Pentaho Business Analytics (BA) Server | — | 92.3% |  |
-| 443 | [CVE-2025-9242](../data/cves/2025/CVE-2025-9242.yml) | WatchGuard Firebox Out-of-Bounds Write Vulnerability | WatchGuard Firebox | — | 92.2% |  |
-| 444 | [CVE-2017-5689](../data/cves/2017/CVE-2017-5689.yml) | Intel Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability Privilege Escalation Vulnerability | Intel Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability | — | 92.2% |  |
-| 445 | [CVE-2019-2616](../data/cves/2019/CVE-2019-2616.yml) | Oracle BI Publisher Unauthorized Access Vulnerability | Oracle BI Publisher (Formerly XML Publisher) | — | 92.2% |  |
-| 446 | [CVE-2025-11371](../data/cves/2025/CVE-2025-11371.yml) | Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability | Gladinet CentreStack and Triofox | — | 92.1% |  |
-| 447 | [CVE-2022-37042](../data/cves/2022/CVE-2022-37042.yml) | Synacor Zimbra Collaboration Suite (ZCS) Authentication Bypass Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 92.1% | 🔒 |
-| 448 | [CVE-2019-6340](../data/cves/2019/CVE-2019-6340.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Core | — | 92.0% |  |
-| 449 | [CVE-2020-10148](../data/cves/2020/CVE-2020-10148.yml) | SolarWinds Orion Authentication Bypass Vulnerability | SolarWinds Orion | — | 92.0% |  |
-| 450 | [CVE-2024-7399](../data/cves/2024/CVE-2024-7399.yml) | Samsung MagicINFO 9 Server Path Traversal Vulnerability | Samsung MagicINFO 9 Server | — | 91.9% |  |
-| 451 | [CVE-2010-0249](../data/cves/2010/CVE-2010-0249.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 91.9% |  |
-| 452 | [CVE-2020-8657](../data/cves/2020/CVE-2020-8657.yml) | EyesOfNetwork Use of Hard-Coded Credentials Vulnerability | EyesOfNetwork EyesOfNetwork | — | 91.9% |  |
-| 453 | [CVE-2024-11680](../data/cves/2024/CVE-2024-11680.yml) | ProjectSend Improper Authentication Vulnerability | ProjectSend ProjectSend | — | 91.8% |  |
-| 454 | [CVE-2026-20182](../data/cves/2026/CVE-2026-20182.yml) | Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability | Cisco Catalyst SD-WAN | — | 91.8% |  |
-| 455 | [CVE-2021-42321](../data/cves/2021/CVE-2021-42321.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange | — | 91.7% | 🔒 |
-| 456 | [CVE-2024-5910](../data/cves/2024/CVE-2024-5910.yml) | Palo Alto Networks Expedition Missing Authentication Vulnerability | Palo Alto Networks Expedition | — | 91.7% |  |
-| 457 | [CVE-2026-71362](../data/cves/2026/CVE-2026-71362.yml) | Adobe Commerce and Magento Incorrect Authorization Vulnerability  | Adobe Commerce and Magento | — | 91.7% |  |
-| 458 | [CVE-2018-11138](../data/cves/2018/CVE-2018-11138.yml) | Quest KACE System Management Appliance Remote Command Execution Vulnerability | Quest KACE System Management Appliance | — | 91.6% | 🔒 |
-| 459 | [CVE-2022-26258](../data/cves/2022/CVE-2022-26258.yml) | D-Link DIR-820L Remote Code Execution Vulnerability | D-Link DIR-820L | — | 91.6% |  |
-| 460 | [CVE-2026-93616](../data/cves/2026/CVE-2026-93616.yml) | Check Point Multiple Products Path Traversal Vulnerability | Check Point Multiple Products | — | 91.6% |  |
-| 461 | [CVE-2026-3055](../data/cves/2026/CVE-2026-3055.yml) | Citrix NetScaler Out-of-Bounds Read Vulnerability | Citrix NetScaler | — | 91.5% |  |
-| 462 | [CVE-2026-42271](../data/cves/2026/CVE-2026-42271.yml) | BerriAI LiteLLM Command Injection Vulnerability | BerriAI LiteLLM | — | 91.4% |  |
-| 463 | [CVE-2012-5076](../data/cves/2012/CVE-2012-5076.yml) | Oracle Java SE Sandbox Bypass Vulnerability | Oracle Java SE | — | 91.3% |  |
-| 464 | [CVE-2022-26352](../data/cves/2022/CVE-2022-26352.yml) | dotCMS Unrestricted Upload of File Vulnerability | dotCMS dotCMS | — | 91.2% | 🔒 |
-| 465 | [CVE-2021-32648](../data/cves/2021/CVE-2021-32648.yml) | October CMS Improper Authentication | October CMS October CMS | — | 91.2% |  |
-| 466 | [CVE-2012-0754](../data/cves/2012/CVE-2012-0754.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | — | 91.2% |  |
-| 467 | [CVE-2021-35211](../data/cves/2021/CVE-2021-35211.yml) | SolarWinds Serv-U Remote Code Execution Vulnerability | SolarWinds Serv-U | — | 91.2% | 🔒 |
-| 468 | [CVE-2025-64446](../data/cves/2025/CVE-2025-64446.yml) | Fortinet FortiWeb Path Traversal Vulnerability | Fortinet FortiWeb | — | 91.1% |  |
-| 469 | [CVE-2024-13160](../data/cves/2024/CVE-2024-13160.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | — | 91.0% |  |
-| 470 | [CVE-2020-8243](../data/cves/2020/CVE-2020-8243.yml) | Ivanti Pulse Connect Secure Code Execution Vulnerability | Ivanti Pulse Connect Secure | — | 90.8% |  |
-| 471 | [CVE-2017-12149](../data/cves/2017/CVE-2017-12149.yml) | Red Hat JBoss Application Server Remote Code Execution Vulnerability | Red Hat JBoss Application Server | — | 90.7% | 🔒 |
-| 472 | [CVE-2021-21315](../data/cves/2021/CVE-2021-21315.yml) | System Information Library for Node.JS Command Injection | Npm package System Information Library for Node.JS | — | 90.7% |  |
-| 473 | [CVE-2019-17621](../data/cves/2019/CVE-2019-17621.yml) | D-Link DIR-859 Router Command Execution Vulnerability | D-Link DIR-859 Router | — | 90.6% |  |
-| 474 | [CVE-2017-3066](../data/cves/2017/CVE-2017-3066.yml) | Adobe ColdFusion Deserialization Vulnerability | Adobe ColdFusion | — | 90.6% |  |
-| 475 | [CVE-2025-26399](../data/cves/2025/CVE-2025-26399.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | — | 90.6% | 🔒 |
-| 476 | [CVE-2025-6218](../data/cves/2025/CVE-2025-6218.yml) | RARLAB WinRAR Path Traversal Vulnerability | RARLAB WinRAR | — | 90.5% |  |
-| 477 | [CVE-2020-3952](../data/cves/2020/CVE-2020-3952.yml) | VMware vCenter Server Information Disclosure Vulnerability | VMware vCenter Server | — | 90.4% |  |
-| 478 | [CVE-2024-40711](../data/cves/2024/CVE-2024-40711.yml) | Veeam Backup and Replication Deserialization Vulnerability | Veeam Backup & Replication | — | 90.4% | 🔒 |
-| 479 | [CVE-2023-40044](../data/cves/2023/CVE-2023-40044.yml) | Progress WS_FTP Server Deserialization of Untrusted Data Vulnerability | Progress WS_FTP Server | — | 90.4% | 🔒 |
-| 480 | [CVE-2016-8735](../data/cves/2016/CVE-2016-8735.yml) | Apache Tomcat Remote Code Execution Vulnerability | Apache Tomcat | — | 90.3% |  |
-| 481 | [CVE-2021-20123](../data/cves/2021/CVE-2021-20123.yml) | Draytek VigorConnect Path Traversal Vulnerability  | DrayTek VigorConnect | — | 90.3% |  |
-| 482 | [CVE-2023-41763](../data/cves/2023/CVE-2023-41763.yml) | Microsoft Skype for Business Privilege Escalation Vulnerability | Microsoft Skype for Business | — | 90.3% |  |
-| 483 | [CVE-2018-4878](../data/cves/2018/CVE-2018-4878.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | — | 90.3% | 🔒 |
-| 484 | [CVE-2025-37164](../data/cves/2025/CVE-2025-37164.yml) | Hewlett Packard Enterprise (HPE) OneView Code Injection Vulnerability | Hewlett Packard Enterprise (HPE) OneView | — | 90.2% |  |
-| 485 | [CVE-2020-29583](../data/cves/2020/CVE-2020-29583.yml) | Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability | Zyxel Multiple Products | — | 90.2% |  |
-| 486 | [CVE-2013-0431](../data/cves/2013/CVE-2013-0431.yml) | Oracle JRE Sandbox Bypass Vulnerability | Oracle Java Runtime Environment (JRE) | — | 90.1% | 🔒 |
-| 487 | [CVE-2009-3960](../data/cves/2009/CVE-2009-3960.yml) | Adobe BlazeDS Information Disclosure Vulnerability | Adobe BlazeDS | — | 90.1% | 🔒 |
-| 488 | [CVE-2026-34910](../data/cves/2026/CVE-2026-34910.yml) | Ubiquiti UniFi OS Improper Input Validation Vulnerability | Ubiquiti UniFi OS | — | 90.0% |  |
-| 489 | [CVE-2017-8464](../data/cves/2017/CVE-2017-8464.yml) | Microsoft Windows Shell (.lnk) Remote Code Execution Vulnerability | Microsoft Windows | — | 90.0% |  |
-| 490 | [CVE-2023-36844](../data/cves/2023/CVE-2023-36844.yml) | Juniper Junos OS EX Series PHP External Variable Modification Vulnerability | Juniper Junos OS | — | 90.0% |  |
-| 491 | [CVE-2017-8570](../data/cves/2017/CVE-2017-8570.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | — | 89.9% |  |
-| 492 | [CVE-2017-0146](../data/cves/2017/CVE-2017-0146.yml) | Microsoft Windows SMB Remote Code Execution Vulnerability | Microsoft Windows | — | 89.9% | 🔒 |
-| 493 | [CVE-2017-0145](../data/cves/2017/CVE-2017-0145.yml) | Microsoft SMBv1 Remote Code Execution Vulnerability | Microsoft SMBv1 | — | 89.8% | 🔒 |
-| 494 | [CVE-2024-13161](../data/cves/2024/CVE-2024-13161.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | — | 89.8% |  |
-| 495 | [CVE-2020-17463](../data/cves/2020/CVE-2020-17463.yml) | Fuel CMS SQL Injection Vulnerability | Fuel CMS Fuel CMS | — | 89.7% |  |
-| 496 | [CVE-2010-2568](../data/cves/2010/CVE-2010-2568.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | — | 89.6% |  |
-| 497 | [CVE-2018-15982](../data/cves/2018/CVE-2018-15982.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | — | 89.6% | 🔒 |
-| 498 | [CVE-2026-42208](../data/cves/2026/CVE-2026-42208.yml) | BerriAI LiteLLM SQL Injection Vulnerability | BerriAI LiteLLM | — | 89.4% |  |
-| 499 | [CVE-2010-3333](../data/cves/2010/CVE-2010-3333.yml) | Microsoft Office Stack-based Buffer Overflow Vulnerability | Microsoft Office | — | 89.4% |  |
-| 500 | [CVE-2026-9082](../data/cves/2026/CVE-2026-9082.yml) | Drupal Core SQL Injection Vulnerability | Drupal Core | — | 89.4% |  |
-| 501 | [CVE-2017-5521](../data/cves/2017/CVE-2017-5521.yml) | NETGEAR Multiple Devices Exposure of Sensitive Information Vulnerability | NETGEAR Multiple Devices | — | 89.4% |  |
-| 502 | [CVE-2019-7195](../data/cves/2019/CVE-2019-7195.yml) | QNAP Photo Station Path Traversal Vulnerability | QNAP Photo Station | — | 89.3% | 🔒 |
-| 503 | [CVE-2018-14839](../data/cves/2018/CVE-2018-14839.yml) | LG N1A1 NAS Remote Command Execution Vulnerability | LG N1A1 NAS | — | 89.2% |  |
-| 504 | [CVE-2026-48908](../data/cves/2026/CVE-2026-48908.yml) | JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability | JoomShaper SP Page Builder | — | 89.2% |  |
-| 505 | [CVE-2020-0601](../data/cves/2020/CVE-2020-0601.yml) | Microsoft Windows CryptoAPI Spoofing Vulnerability | Microsoft Windows | — | 89.1% |  |
-| 506 | [CVE-2026-104935](../data/cves/2026/CVE-2026-104935.yml) | Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability | Ivanti Connect Secure | — | 88.9% |  |
-| 507 | [CVE-2026-34908](../data/cves/2026/CVE-2026-34908.yml) | Ubiquiti UniFi OS Improper Access Control Vulnerability | Ubiquiti UniFi OS | — | 88.9% |  |
-| 508 | [CVE-2021-20021](../data/cves/2021/CVE-2021-20021.yml) | SonicWall Email Security Improper Privilege Management Vulnerability | SonicWall SonicWall Email Security | — | 88.8% | 🔒 |
-| 509 | [CVE-2017-8759](../data/cves/2017/CVE-2017-8759.yml) | Microsoft .NET Framework Remote Code Execution Vulnerability | Microsoft .NET Framework | — | 88.7% |  |
-| 510 | [CVE-2026-20079](../data/cves/2026/CVE-2026-20079.yml) | Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability | Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | — | 88.7% |  |
-| 511 | [CVE-2025-61757](../data/cves/2025/CVE-2025-61757.yml) | Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability | Oracle Fusion Middleware | — | 88.6% |  |
-| 512 | [CVE-2011-2462](../data/cves/2011/CVE-2011-2462.yml) | Adobe Reader and Acrobat Universal 3D Memory Corruption Vulnerability | Adobe Reader and Acrobat | — | 88.6% |  |
-| 513 | [CVE-2014-3120](../data/cves/2014/CVE-2014-3120.yml) | Elasticsearch Remote Code Execution Vulnerability | Elastic Elasticsearch | — | 88.6% |  |
-| 514 | [CVE-2024-8190](../data/cves/2024/CVE-2024-8190.yml) | Ivanti Cloud Services Appliance OS Command Injection Vulnerability | Ivanti Cloud Services Appliance | — | 88.5% |  |
-| 515 | [CVE-2026-20230](../data/cves/2026/CVE-2026-20230.yml) | Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability | Cisco Unified Communications Manager | — | 88.5% |  |
-| 516 | [CVE-2021-43798](../data/cves/2021/CVE-2021-43798.yml) | Grafana Path Traversal Vulnerability | Grafana Labs Grafana | — | 88.5% |  |
-| 517 | [CVE-2026-1603](../data/cves/2026/CVE-2026-1603.yml) | Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability | Ivanti  Endpoint Manager (EPM) | — | 88.3% |  |
-| 518 | [CVE-2020-8193](../data/cves/2020/CVE-2020-8193.yml) | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Authorization Bypass Vulnerability | Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | — | 88.3% |  |
-| 519 | [CVE-2018-8174](../data/cves/2018/CVE-2018-8174.yml) | Microsoft Windows VBScript Engine Out-of-Bounds Write Vulnerability | Microsoft Windows | — | 88.2% | 🔒 |
-| 520 | [CVE-2023-41265](../data/cves/2023/CVE-2023-41265.yml) | Qlik Sense HTTP Tunneling Vulnerability | Qlik Sense | — | 88.2% | 🔒 |
-| 521 | [CVE-2023-36025](../data/cves/2023/CVE-2023-36025.yml) | Microsoft Windows SmartScreen Security Feature Bypass Vulnerability | Microsoft Windows | — | 88.2% |  |
-| 522 | [CVE-2026-24423](../data/cves/2026/CVE-2026-24423.yml) | SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability | SmarterTools SmarterMail | — | 88.2% | 🔒 |
-| 523 | [CVE-2010-0188](../data/cves/2010/CVE-2010-0188.yml) | Adobe Reader and Acrobat Arbitrary Code Execution Vulnerability | Adobe Reader and Acrobat | — | 88.1% | 🔒 |
-| 524 | [CVE-2019-7192](../data/cves/2019/CVE-2019-7192.yml) | QNAP Photo Station Improper Access Control Vulnerability | QNAP Photo Station | — | 88.1% | 🔒 |
-| 525 | [CVE-2021-21973](../data/cves/2021/CVE-2021-21973.yml) | VMware vCenter Server and Cloud Foundation Server Side Request Forgery (SSRF) Vulnerability | VMware vCenter Server and Cloud Foundation | — | 88.0% |  |
-| 526 | [CVE-2025-4428](../data/cves/2025/CVE-2025-4428.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 88.0% |  |
-| 527 | [CVE-2025-29635](../data/cves/2025/CVE-2025-29635.yml) | D-Link DIR-823X Command Injection Vulnerability | D-Link DIR-823X | — | 87.9% |  |
-| 528 | [CVE-2022-27593](../data/cves/2022/CVE-2022-27593.yml) | QNAP Photo Station Externally Controlled Reference Vulnerability | QNAP Photo Station | — | 87.9% | 🔒 |
-| 529 | [CVE-2024-58136](../data/cves/2024/CVE-2024-58136.yml) | Yiiframework Yii Improper Protection of Alternate Path Vulnerability | Yiiframework Yii | — | 87.8% |  |
-| 530 | [CVE-2016-6415](../data/cves/2016/CVE-2016-6415.yml) | Cisco IOS, IOS XR, and IOS XE IKEv1 Information Disclosure Vulnerability | Cisco IOS, IOS XR, and IOS XE | — | 87.7% |  |
-| 531 | [CVE-2012-0151](../data/cves/2012/CVE-2012-0151.yml) | Microsoft Windows Authenticode Signature Verification Remote Code Execution Vulnerability | Microsoft Windows | — | 87.7% |  |
-| 532 | [CVE-2013-3893](../data/cves/2013/CVE-2013-3893.yml) | Microsoft Internet Explorer Resource Management Errors Vulnerability | Microsoft Internet Explorer | — | 87.6% |  |
-| 533 | [CVE-2026-20127](../data/cves/2026/CVE-2026-20127.yml) | Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability | Cisco Catalyst SD-WAN Controller and Manager | — | 87.6% |  |
-| 534 | [CVE-2016-6366](../data/cves/2016/CVE-2016-6366.yml) | Cisco Adaptive Security Appliance (ASA) SNMP Buffer Overflow Vulnerability | Cisco Adaptive Security Appliance (ASA) | — | 87.6% |  |
-| 535 | [CVE-2020-17496](../data/cves/2020/CVE-2020-17496.yml) | vBulletin PHP Module Remote Code Execution Vulnerability | vBulletin vBulletin | — | 87.5% |  |
-| 536 | [CVE-2024-12356](../data/cves/2024/CVE-2024-12356.yml) | BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) Command Injection Vulnerability  | BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) | — | 87.4% |  |
-| 537 | [CVE-2016-9079](../data/cves/2016/CVE-2016-9079.yml) | Mozilla Firefox, Firefox ESR, and Thunderbird Use-After-Free Vulnerability | Mozilla Firefox, Firefox ESR, and Thunderbird | — | 87.4% |  |
-| 538 | [CVE-2014-6324](../data/cves/2014/CVE-2014-6324.yml) | Microsoft Kerberos Key Distribution Center (KDC) Privilege Escalation Vulnerability | Microsoft Kerberos Key Distribution Center (KDC) | — | 87.3% |  |
-| 539 | [CVE-2022-26143](../data/cves/2022/CVE-2022-26143.yml) | MiCollab, MiVoice Business Express Access Control Vulnerability | Mitel MiCollab, MiVoice Business Express | — | 87.3% |  |
-| 540 | [CVE-2007-5659](../data/cves/2007/CVE-2007-5659.yml) | Adobe Acrobat and Reader Buffer Overflow Vulnerability | Adobe Acrobat and Reader | — | 87.3% |  |
-| 541 | [CVE-2025-33053](../data/cves/2025/CVE-2025-33053.yml) |  Microsoft Windows External Control of File Name or Path Vulnerability | Microsoft Windows | — | 87.1% |  |
-| 542 | [CVE-2021-40655](../data/cves/2021/CVE-2021-40655.yml) | D-Link DIR-605 Router Information Disclosure Vulnerability | D-Link DIR-605 Router | — | 87.0% |  |
-| 543 | [CVE-2015-5122](../data/cves/2015/CVE-2015-5122.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | — | 87.0% |  |
-| 544 | [CVE-2013-0640](../data/cves/2013/CVE-2013-0640.yml) | Adobe Reader and Acrobat Memory Corruption Vulnerability | Adobe Reader and Acrobat | — | 86.9% |  |
-| 545 | [CVE-2018-9276](../data/cves/2018/CVE-2018-9276.yml) | Paessler PRTG Network Monitor OS Command Injection Vulnerability | Paessler PRTG Network Monitor | — | 86.9% |  |
-| 546 | [CVE-2020-0674](../data/cves/2020/CVE-2020-0674.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 86.9% |  |
-| 547 | [CVE-2023-2868](../data/cves/2023/CVE-2023-2868.yml) | Barracuda Networks ESG Appliance Improper Input Validation Vulnerability | Barracuda Networks Email Security Gateway (ESG) Appliance | — | 86.8% |  |
-| 548 | [CVE-2017-18362](../data/cves/2017/CVE-2017-18362.yml) | Kaseya VSA SQL Injection Vulnerability | Kaseya Virtual System/Server Administrator (VSA) | — | 86.8% | 🔒 |
-| 549 | [CVE-2023-27997](../data/cves/2023/CVE-2023-27997.yml) | Fortinet FortiOS and FortiProxy SSL-VPN Heap-Based Buffer Overflow Vulnerability | Fortinet FortiOS and FortiProxy SSL-VPN | — | 86.8% | 🔒 |
-| 550 | [CVE-2025-20362](../data/cves/2025/CVE-2025-20362.yml) | Cisco Secure Firewall Adaptive Security (ASA) Appliance and Secure Firewall Threat Defense (FTD) Missing Authorization Vulnerability | Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense | — | 86.7% |  |
-| 551 | [CVE-2014-4113](../data/cves/2014/CVE-2014-4113.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 86.6% |  |
-| 552 | [CVE-2026-24858](../data/cves/2026/CVE-2026-24858.yml) | Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability | Fortinet Multiple Products | — | 86.6% |  |
-| 553 | [CVE-2015-2426](../data/cves/2015/CVE-2015-2426.yml) | Microsoft Windows Adobe Type Manager Library Remote Code Execution Vulnerability | Microsoft Windows | — | 86.6% |  |
-| 554 | [CVE-2009-3459](../data/cves/2009/CVE-2009-3459.yml) | Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | — | 86.5% |  |
-| 555 | [CVE-2021-31755](../data/cves/2021/CVE-2021-31755.yml) | Tenda AC11 Router Stack Buffer Overflow Vulnerability | Tenda AC11 Router | — | 86.5% |  |
-| 556 | [CVE-2019-16057](../data/cves/2019/CVE-2019-16057.yml) | D-Link DNS-320 Remote Code Execution Vulnerability | D-Link DNS-320 Storage Device | — | 86.5% | 🔒 |
-| 557 | [CVE-2020-11652](../data/cves/2020/CVE-2020-11652.yml) | SaltStack Salt Path Traversal Vulnerability | SaltStack Salt | — | 86.4% |  |
-| 558 | [CVE-2019-4716](../data/cves/2019/CVE-2019-4716.yml) | IBM Planning Analytics Remote Code Execution Vulnerability | IBM Planning Analytics | — | 86.4% |  |
-| 559 | [CVE-2020-8644](../data/cves/2020/CVE-2020-8644.yml) | PlaySMS Server-Side Template Injection Vulnerability | PlaySMS PlaySMS | — | 86.3% |  |
-| 560 | [CVE-2021-21017](../data/cves/2021/CVE-2021-21017.yml) | Adobe Acrobat and Reader Heap-based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | — | 86.3% |  |
-| 561 | [CVE-2015-2545](../data/cves/2015/CVE-2015-2545.yml) | Microsoft Office Malformed EPS File Vulnerability | Microsoft Office | — | 85.9% |  |
-| 562 | [CVE-2023-43208](../data/cves/2023/CVE-2023-43208.yml) | NextGen Healthcare Mirth Connect Deserialization of Untrusted Data Vulnerability | NextGen Healthcare Mirth Connect | — | 85.9% | 🔒 |
-| 563 | [CVE-2021-30116](../data/cves/2021/CVE-2021-30116.yml) | Kaseya Virtual System/Server Administrator (VSA) Information Disclosure Vulnerability | Kaseya Virtual System/Server Administrator (VSA) | — | 85.7% | 🔒 |
-| 564 | [CVE-2025-52691](../data/cves/2025/CVE-2025-52691.yml) | SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability | SmarterTools SmarterMail | — | 85.7% | 🔒 |
-| 565 | [CVE-2015-0311](../data/cves/2015/CVE-2015-0311.yml) | Adobe Flash Player Remote Code Execution Vulnerability | Adobe Flash Player | — | 85.6% |  |
-| 566 | [CVE-2020-3580](../data/cves/2020/CVE-2020-3580.yml) | Cisco ASA and FTD Cross-Site Scripting (XSS) Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | — | 85.6% | 🔒 |
-| 567 | [CVE-2018-6961](../data/cves/2018/CVE-2018-6961.yml) | VMware SD-WAN Edge by VeloCloud Command Injection Vulnerability | VMware SD-WAN Edge | — | 85.5% |  |
-| 568 | [CVE-2026-48907](../data/cves/2026/CVE-2026-48907.yml) | Widget Factory Joomla Content Editor Improper Access Control Vulnerability | Widget Factory Joomla Content Editor | — | 85.4% |  |
-| 569 | [CVE-2026-50751](../data/cves/2026/CVE-2026-50751.yml) | Check Point Security Gateway Improper Authentication Vulnerability | Check Point Security Gateway | — | 85.3% | 🔒 |
-| 570 | [CVE-2021-1675](../data/cves/2021/CVE-2021-1675.yml) | Microsoft Windows Print Spooler Remote Code Execution Vulnerability | Microsoft Windows | — | 85.3% | 🔒 |
-| 571 | [CVE-2013-2423](../data/cves/2013/CVE-2013-2423.yml) | Oracle JRE Unspecified Vulnerability | Oracle Java Runtime Environment (JRE) | — | 85.2% |  |
-| 572 | [CVE-2014-0322](../data/cves/2014/CVE-2014-0322.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 85.1% |  |
-| 573 | [CVE-2023-24955](../data/cves/2023/CVE-2023-24955.yml) | Microsoft SharePoint Server Code Injection Vulnerability | Microsoft SharePoint Server | — | 85.0% | 🔒 |
-| 574 | [CVE-2020-11023](../data/cves/2020/CVE-2020-11023.yml) | JQuery Cross-Site Scripting (XSS) Vulnerability | JQuery JQuery | — | 84.9% |  |
-| 575 | [CVE-2013-3906](../data/cves/2013/CVE-2013-3906.yml) | Microsoft Graphics Component Memory Corruption Vulnerability | Microsoft Graphics Component | — | 84.9% |  |
-| 576 | [CVE-2023-41266](../data/cves/2023/CVE-2023-41266.yml) | Qlik Sense Path Traversal Vulnerability | Qlik Sense | — | 84.8% | 🔒 |
-| 577 | [CVE-2026-81578](../data/cves/2026/CVE-2026-81578.yml) | PaperCut NG/MF Missing Authentication for Critical Function Vulnerability | PaperCut NG/MF | — | 84.7% |  |
-| 578 | [CVE-2019-10758](../data/cves/2019/CVE-2019-10758.yml) | MongoDB mongo-express Remote Code Execution Vulnerability | MongoDB mongo-express | — | 84.7% |  |
-| 579 | [CVE-2024-28986](../data/cves/2024/CVE-2024-28986.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | — | 84.6% |  |
-| 580 | [CVE-2019-11581](../data/cves/2019/CVE-2019-11581.yml) | Atlassian Jira Server and Data Center Server-Side Template Injection Vulnerability | Atlassian Jira Server and Data Center | — | 84.6% |  |
-| 581 | [CVE-2025-64328](../data/cves/2025/CVE-2025-64328.yml) | Sangoma FreePBX OS Command Injection Vulnerability | Sangoma FreePBX | — | 84.6% |  |
-| 582 | [CVE-2024-21762](../data/cves/2024/CVE-2024-21762.yml) | Fortinet FortiOS Out-of-Bound Write Vulnerability | Fortinet FortiOS | — | 84.6% | 🔒 |
-| 583 | [CVE-2018-17463](../data/cves/2018/CVE-2018-17463.yml) | Google Chromium V8 Remote Code Execution Vulnerability | Google Chromium V8 | — | 84.6% |  |
-| 584 | [CVE-2020-28949](../data/cves/2020/CVE-2020-28949.yml) | PEAR Archive_Tar Deserialization of Untrusted Data Vulnerability | PEAR Archive_Tar | — | 84.6% |  |
-| 585 | [CVE-2020-15415](../data/cves/2020/CVE-2020-15415.yml) | DrayTek Multiple Vigor Routers OS Command Injection Vulnerability | DrayTek Multiple Vigor Routers | — | 84.5% |  |
-| 586 | [CVE-2026-105133](../data/cves/2026/CVE-2026-105133.yml) | Ahsay AhsayCBS Improper Authentication Vulnerability | Ahsay AhsayCBS | — | 84.5% |  |
-| 587 | [CVE-2024-51567](../data/cves/2024/CVE-2024-51567.yml) | CyberPanel Incorrect Default Permissions Vulnerability | CyberPersons CyberPanel | — | 84.4% | 🔒 |
-| 588 | [CVE-2020-12641](../data/cves/2020/CVE-2020-12641.yml) | Roundcube Webmail Remote Code Execution Vulnerability | Roundcube Roundcube Webmail | — | 84.4% |  |
-| 589 | [CVE-2020-5722](../data/cves/2020/CVE-2020-5722.yml) | Grandstream Networks UCM6200 Series SQL Injection Vulnerability | Grandstream UCM6200 | — | 84.3% |  |
-| 590 | [CVE-2024-43451](../data/cves/2024/CVE-2024-43451.yml) | Microsoft Windows NTLMv2 Hash Disclosure Spoofing Vulnerability | Microsoft Windows | — | 84.3% |  |
-| 591 | [CVE-2017-0213](../data/cves/2017/CVE-2017-0213.yml) | Microsoft Windows Privilege Escalation Vulnerability | Microsoft Windows | — | 84.3% | 🔒 |
-| 592 | [CVE-2024-38112](../data/cves/2024/CVE-2024-38112.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | — | 84.2% |  |
-| 593 | [CVE-2025-40551](../data/cves/2025/CVE-2025-40551.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | — | 84.2% |  |
-| 594 | [CVE-2017-11317](../data/cves/2017/CVE-2017-11317.yml) | Telerik UI for ASP.NET AJAX Unrestricted File Upload Vulnerability | Telerik User Interface (UI) for ASP.NET AJAX | — | 84.2% |  |
-| 595 | [CVE-2021-21224](../data/cves/2021/CVE-2021-21224.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 84.2% |  |
-| 596 | [CVE-2009-3129](../data/cves/2009/CVE-2009-3129.yml) | Microsoft Excel Featheader Record Memory Corruption Vulnerability | Microsoft Excel | — | 84.0% |  |
-| 597 | [CVE-2023-28432](../data/cves/2023/CVE-2023-28432.yml) | MinIO Information Disclosure Vulnerability | MinIO MinIO | — | 84.0% |  |
-| 598 | [CVE-2015-3035](../data/cves/2015/CVE-2015-3035.yml) | TP-Link Multiple Archer Devices Directory Traversal Vulnerability | TP-Link Multiple Archer Devices | — | 83.9% |  |
-| 599 | [CVE-2020-3161](../data/cves/2020/CVE-2020-3161.yml) | Cisco IP Phones Web Server Remote Code Execution and Denial-of-Service Vulnerability | Cisco Cisco IP Phones | — | 83.9% |  |
-| 600 | [CVE-2019-9874](../data/cves/2019/CVE-2019-9874.yml) | Sitecore CMS and Experience Platform (XP) Deserialization Vulnerability | Sitecore CMS and Experience Platform (XP) | — | 83.7% |  |
-| 601 | [CVE-2021-27561](../data/cves/2021/CVE-2021-27561.yml) | Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability | Yealink Device Management | — | 83.6% |  |
-| 602 | [CVE-2019-0193](../data/cves/2019/CVE-2019-0193.yml) | Apache Solr DataImportHandler Code Injection Vulnerability | Apache Solr | — | 83.5% |  |
+| 439 | [CVE-2022-24706](../data/cves/2022/CVE-2022-24706.yml) | Apache CouchDB Insecure Default Initialization of Resource Vulnerability | Apache CouchDB | 9.8 | 92.5% |  |
+| 440 | [CVE-2023-38950](../data/cves/2023/CVE-2023-38950.yml) | ZKTeco BioTime Path Traversal Vulnerability | ZKTeco BioTime | 7.5 | 92.5% |  |
+| 441 | [CVE-2016-3427](../data/cves/2016/CVE-2016-3427.yml) | Oracle Java SE and JRockit Unspecified Vulnerability | Oracle Java SE and JRockit | 9.8 | 92.3% |  |
+| 442 | [CVE-2022-43939](../data/cves/2022/CVE-2022-43939.yml) | Hitachi Vantara Pentaho BA Server Authorization Bypass Vulnerability | Hitachi Vantara Pentaho Business Analytics (BA) Server | 9.8 | 92.3% |  |
+| 443 | [CVE-2025-9242](../data/cves/2025/CVE-2025-9242.yml) | WatchGuard Firebox Out-of-Bounds Write Vulnerability | WatchGuard Firebox | 9.3 | 92.2% |  |
+| 444 | [CVE-2017-5689](../data/cves/2017/CVE-2017-5689.yml) | Intel Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability Privilege Escalation Vulnerability | Intel Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability | 9.8 | 92.2% |  |
+| 445 | [CVE-2019-2616](../data/cves/2019/CVE-2019-2616.yml) | Oracle BI Publisher Unauthorized Access Vulnerability | Oracle BI Publisher (Formerly XML Publisher) | 7.2 | 92.2% |  |
+| 446 | [CVE-2025-11371](../data/cves/2025/CVE-2025-11371.yml) | Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability | Gladinet CentreStack and Triofox | 7.5 | 92.1% |  |
+| 447 | [CVE-2022-37042](../data/cves/2022/CVE-2022-37042.yml) | Synacor Zimbra Collaboration Suite (ZCS) Authentication Bypass Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 9.8 | 92.1% | 🔒 |
+| 448 | [CVE-2019-6340](../data/cves/2019/CVE-2019-6340.yml) | Drupal Core Remote Code Execution Vulnerability | Drupal Core | 8.1 | 92.0% |  |
+| 449 | [CVE-2020-10148](../data/cves/2020/CVE-2020-10148.yml) | SolarWinds Orion Authentication Bypass Vulnerability | SolarWinds Orion | 9.8 | 92.0% |  |
+| 450 | [CVE-2024-7399](../data/cves/2024/CVE-2024-7399.yml) | Samsung MagicINFO 9 Server Path Traversal Vulnerability | Samsung MagicINFO 9 Server | 9.8 | 91.9% |  |
+| 451 | [CVE-2010-0249](../data/cves/2010/CVE-2010-0249.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 91.9% |  |
+| 452 | [CVE-2020-8657](../data/cves/2020/CVE-2020-8657.yml) | EyesOfNetwork Use of Hard-Coded Credentials Vulnerability | EyesOfNetwork EyesOfNetwork | 9.8 | 91.9% |  |
+| 453 | [CVE-2024-11680](../data/cves/2024/CVE-2024-11680.yml) | ProjectSend Improper Authentication Vulnerability | ProjectSend ProjectSend | 9.8 | 91.8% |  |
+| 454 | [CVE-2026-20182](../data/cves/2026/CVE-2026-20182.yml) | Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability | Cisco Catalyst SD-WAN | 10 | 91.8% |  |
+| 455 | [CVE-2021-42321](../data/cves/2021/CVE-2021-42321.yml) | Microsoft Exchange Server Remote Code Execution Vulnerability | Microsoft Exchange | 8.8 | 91.7% | 🔒 |
+| 456 | [CVE-2024-5910](../data/cves/2024/CVE-2024-5910.yml) | Palo Alto Networks Expedition Missing Authentication Vulnerability | Palo Alto Networks Expedition | 9.3 | 91.7% |  |
+| 457 | [CVE-2026-71362](../data/cves/2026/CVE-2026-71362.yml) | Adobe Commerce and Magento Incorrect Authorization Vulnerability  | Adobe Commerce and Magento | 9.1 | 91.7% |  |
+| 458 | [CVE-2018-11138](../data/cves/2018/CVE-2018-11138.yml) | Quest KACE System Management Appliance Remote Command Execution Vulnerability | Quest KACE System Management Appliance | 9.8 | 91.6% | 🔒 |
+| 459 | [CVE-2022-26258](../data/cves/2022/CVE-2022-26258.yml) | D-Link DIR-820L Remote Code Execution Vulnerability | D-Link DIR-820L | 9.8 | 91.6% |  |
+| 460 | [CVE-2026-93616](../data/cves/2026/CVE-2026-93616.yml) | Check Point Multiple Products Path Traversal Vulnerability | Check Point Multiple Products | 9.8 | 91.6% |  |
+| 461 | [CVE-2026-3055](../data/cves/2026/CVE-2026-3055.yml) | Citrix NetScaler Out-of-Bounds Read Vulnerability | Citrix NetScaler | 9.3 | 91.5% |  |
+| 462 | [CVE-2026-42271](../data/cves/2026/CVE-2026-42271.yml) | BerriAI LiteLLM Command Injection Vulnerability | BerriAI LiteLLM | 8.7 | 91.4% |  |
+| 463 | [CVE-2012-5076](../data/cves/2012/CVE-2012-5076.yml) | Oracle Java SE Sandbox Bypass Vulnerability | Oracle Java SE | 9.8 | 91.3% |  |
+| 464 | [CVE-2022-26352](../data/cves/2022/CVE-2022-26352.yml) | dotCMS Unrestricted Upload of File Vulnerability | dotCMS dotCMS | 9.8 | 91.2% | 🔒 |
+| 465 | [CVE-2021-32648](../data/cves/2021/CVE-2021-32648.yml) | October CMS Improper Authentication | October CMS October CMS | 9.1 | 91.2% |  |
+| 466 | [CVE-2012-0754](../data/cves/2012/CVE-2012-0754.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | 8.1 | 91.2% |  |
+| 467 | [CVE-2021-35211](../data/cves/2021/CVE-2021-35211.yml) | SolarWinds Serv-U Remote Code Execution Vulnerability | SolarWinds Serv-U | 10 | 91.2% | 🔒 |
+| 468 | [CVE-2025-64446](../data/cves/2025/CVE-2025-64446.yml) | Fortinet FortiWeb Path Traversal Vulnerability | Fortinet FortiWeb | 9.8 | 91.1% |  |
+| 469 | [CVE-2024-13160](../data/cves/2024/CVE-2024-13160.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | 7.5 | 91.0% |  |
+| 470 | [CVE-2020-8243](../data/cves/2020/CVE-2020-8243.yml) | Ivanti Pulse Connect Secure Code Execution Vulnerability | Ivanti Pulse Connect Secure | 7.2 | 90.8% |  |
+| 471 | [CVE-2017-12149](../data/cves/2017/CVE-2017-12149.yml) | Red Hat JBoss Application Server Remote Code Execution Vulnerability | Red Hat JBoss Application Server | 9.8 | 90.7% | 🔒 |
+| 472 | [CVE-2021-21315](../data/cves/2021/CVE-2021-21315.yml) | System Information Library for Node.JS Command Injection | Npm package System Information Library for Node.JS | 7.8 | 90.7% |  |
+| 473 | [CVE-2019-17621](../data/cves/2019/CVE-2019-17621.yml) | D-Link DIR-859 Router Command Execution Vulnerability | D-Link DIR-859 Router | 9.8 | 90.6% |  |
+| 474 | [CVE-2017-3066](../data/cves/2017/CVE-2017-3066.yml) | Adobe ColdFusion Deserialization Vulnerability | Adobe ColdFusion | 9.8 | 90.6% |  |
+| 475 | [CVE-2025-26399](../data/cves/2025/CVE-2025-26399.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | 9.8 | 90.6% | 🔒 |
+| 476 | [CVE-2025-6218](../data/cves/2025/CVE-2025-6218.yml) | RARLAB WinRAR Path Traversal Vulnerability | RARLAB WinRAR | 7.8 | 90.5% |  |
+| 477 | [CVE-2020-3952](../data/cves/2020/CVE-2020-3952.yml) | VMware vCenter Server Information Disclosure Vulnerability | VMware vCenter Server | 9.8 | 90.4% |  |
+| 478 | [CVE-2024-40711](../data/cves/2024/CVE-2024-40711.yml) | Veeam Backup and Replication Deserialization Vulnerability | Veeam Backup & Replication | 9.8 | 90.4% | 🔒 |
+| 479 | [CVE-2023-40044](../data/cves/2023/CVE-2023-40044.yml) | Progress WS_FTP Server Deserialization of Untrusted Data Vulnerability | Progress WS_FTP Server | 8.8 | 90.4% | 🔒 |
+| 480 | [CVE-2016-8735](../data/cves/2016/CVE-2016-8735.yml) | Apache Tomcat Remote Code Execution Vulnerability | Apache Tomcat | 9.8 | 90.3% |  |
+| 481 | [CVE-2021-20123](../data/cves/2021/CVE-2021-20123.yml) | Draytek VigorConnect Path Traversal Vulnerability  | DrayTek VigorConnect | 7.5 | 90.3% |  |
+| 482 | [CVE-2023-41763](../data/cves/2023/CVE-2023-41763.yml) | Microsoft Skype for Business Privilege Escalation Vulnerability | Microsoft Skype for Business | 5.3 | 90.3% |  |
+| 483 | [CVE-2018-4878](../data/cves/2018/CVE-2018-4878.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | 7.8 | 90.3% | 🔒 |
+| 484 | [CVE-2025-37164](../data/cves/2025/CVE-2025-37164.yml) | Hewlett Packard Enterprise (HPE) OneView Code Injection Vulnerability | Hewlett Packard Enterprise (HPE) OneView | 9.8 | 90.2% |  |
+| 485 | [CVE-2020-29583](../data/cves/2020/CVE-2020-29583.yml) | Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability | Zyxel Multiple Products | 9.8 | 90.2% |  |
+| 486 | [CVE-2013-0431](../data/cves/2013/CVE-2013-0431.yml) | Oracle JRE Sandbox Bypass Vulnerability | Oracle Java Runtime Environment (JRE) | 3.7 | 90.1% | 🔒 |
+| 487 | [CVE-2009-3960](../data/cves/2009/CVE-2009-3960.yml) | Adobe BlazeDS Information Disclosure Vulnerability | Adobe BlazeDS | 6.5 | 90.1% | 🔒 |
+| 488 | [CVE-2026-34910](../data/cves/2026/CVE-2026-34910.yml) | Ubiquiti UniFi OS Improper Input Validation Vulnerability | Ubiquiti UniFi OS | 10 | 90.0% |  |
+| 489 | [CVE-2017-8464](../data/cves/2017/CVE-2017-8464.yml) | Microsoft Windows Shell (.lnk) Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 90.0% |  |
+| 490 | [CVE-2023-36844](../data/cves/2023/CVE-2023-36844.yml) | Juniper Junos OS EX Series PHP External Variable Modification Vulnerability | Juniper Junos OS | 5.3 | 90.0% |  |
+| 491 | [CVE-2017-8570](../data/cves/2017/CVE-2017-8570.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | 7.8 | 89.9% |  |
+| 492 | [CVE-2017-0146](../data/cves/2017/CVE-2017-0146.yml) | Microsoft Windows SMB Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 89.9% | 🔒 |
+| 493 | [CVE-2017-0145](../data/cves/2017/CVE-2017-0145.yml) | Microsoft SMBv1 Remote Code Execution Vulnerability | Microsoft SMBv1 | 8.8 | 89.8% | 🔒 |
+| 494 | [CVE-2024-13161](../data/cves/2024/CVE-2024-13161.yml) | Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability | Ivanti Endpoint Manager (EPM) | 7.5 | 89.8% |  |
+| 495 | [CVE-2020-17463](../data/cves/2020/CVE-2020-17463.yml) | Fuel CMS SQL Injection Vulnerability | Fuel CMS Fuel CMS | 9.8 | 89.7% |  |
+| 496 | [CVE-2010-2568](../data/cves/2010/CVE-2010-2568.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 89.6% |  |
+| 497 | [CVE-2018-15982](../data/cves/2018/CVE-2018-15982.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | 7.8 | 89.6% | 🔒 |
+| 498 | [CVE-2026-42208](../data/cves/2026/CVE-2026-42208.yml) | BerriAI LiteLLM SQL Injection Vulnerability | BerriAI LiteLLM | 9.3 | 89.4% |  |
+| 499 | [CVE-2010-3333](../data/cves/2010/CVE-2010-3333.yml) | Microsoft Office Stack-based Buffer Overflow Vulnerability | Microsoft Office | 7.8 | 89.4% |  |
+| 500 | [CVE-2026-9082](../data/cves/2026/CVE-2026-9082.yml) | Drupal Core SQL Injection Vulnerability | Drupal Core | 9.8 | 89.4% |  |
+| 501 | [CVE-2017-5521](../data/cves/2017/CVE-2017-5521.yml) | NETGEAR Multiple Devices Exposure of Sensitive Information Vulnerability | NETGEAR Multiple Devices | 8.1 | 89.4% |  |
+| 502 | [CVE-2019-7195](../data/cves/2019/CVE-2019-7195.yml) | QNAP Photo Station Path Traversal Vulnerability | QNAP Photo Station | 9.8 | 89.3% | 🔒 |
+| 503 | [CVE-2018-14839](../data/cves/2018/CVE-2018-14839.yml) | LG N1A1 NAS Remote Command Execution Vulnerability | LG N1A1 NAS | 9.8 | 89.2% |  |
+| 504 | [CVE-2026-48908](../data/cves/2026/CVE-2026-48908.yml) | JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability | JoomShaper SP Page Builder | 10 | 89.2% |  |
+| 505 | [CVE-2020-0601](../data/cves/2020/CVE-2020-0601.yml) | Microsoft Windows CryptoAPI Spoofing Vulnerability | Microsoft Windows | 8.1 | 89.1% |  |
+| 506 | [CVE-2026-104935](../data/cves/2026/CVE-2026-104935.yml) | Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability | Ivanti Connect Secure | 8.6 | 88.9% |  |
+| 507 | [CVE-2026-34908](../data/cves/2026/CVE-2026-34908.yml) | Ubiquiti UniFi OS Improper Access Control Vulnerability | Ubiquiti UniFi OS | 10 | 88.9% |  |
+| 508 | [CVE-2021-20021](../data/cves/2021/CVE-2021-20021.yml) | SonicWall Email Security Improper Privilege Management Vulnerability | SonicWall SonicWall Email Security | 9.8 | 88.8% | 🔒 |
+| 509 | [CVE-2017-8759](../data/cves/2017/CVE-2017-8759.yml) | Microsoft .NET Framework Remote Code Execution Vulnerability | Microsoft .NET Framework | 7.8 | 88.7% |  |
+| 510 | [CVE-2026-20079](../data/cves/2026/CVE-2026-20079.yml) | Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability | Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 10 | 88.7% |  |
+| 511 | [CVE-2025-61757](../data/cves/2025/CVE-2025-61757.yml) | Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability | Oracle Fusion Middleware | 9.8 | 88.6% |  |
+| 512 | [CVE-2011-2462](../data/cves/2011/CVE-2011-2462.yml) | Adobe Reader and Acrobat Universal 3D Memory Corruption Vulnerability | Adobe Reader and Acrobat | 9.8 | 88.6% |  |
+| 513 | [CVE-2014-3120](../data/cves/2014/CVE-2014-3120.yml) | Elasticsearch Remote Code Execution Vulnerability | Elastic Elasticsearch | 8.1 | 88.6% |  |
+| 514 | [CVE-2024-8190](../data/cves/2024/CVE-2024-8190.yml) | Ivanti Cloud Services Appliance OS Command Injection Vulnerability | Ivanti Cloud Services Appliance | 7.2 | 88.5% |  |
+| 515 | [CVE-2026-20230](../data/cves/2026/CVE-2026-20230.yml) | Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability | Cisco Unified Communications Manager | 8.6 | 88.5% |  |
+| 516 | [CVE-2021-43798](../data/cves/2021/CVE-2021-43798.yml) | Grafana Path Traversal Vulnerability | Grafana Labs Grafana | 7.5 | 88.5% |  |
+| 517 | [CVE-2026-1603](../data/cves/2026/CVE-2026-1603.yml) | Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability | Ivanti  Endpoint Manager (EPM) | 7.5 | 88.3% |  |
+| 518 | [CVE-2020-8193](../data/cves/2020/CVE-2020-8193.yml) | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Authorization Bypass Vulnerability | Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 6.5 | 88.3% |  |
+| 519 | [CVE-2018-8174](../data/cves/2018/CVE-2018-8174.yml) | Microsoft Windows VBScript Engine Out-of-Bounds Write Vulnerability | Microsoft Windows | 7.5 | 88.2% | 🔒 |
+| 520 | [CVE-2023-41265](../data/cves/2023/CVE-2023-41265.yml) | Qlik Sense HTTP Tunneling Vulnerability | Qlik Sense | 9.9 | 88.2% | 🔒 |
+| 521 | [CVE-2023-36025](../data/cves/2023/CVE-2023-36025.yml) | Microsoft Windows SmartScreen Security Feature Bypass Vulnerability | Microsoft Windows | 8.8 | 88.2% |  |
+| 522 | [CVE-2026-24423](../data/cves/2026/CVE-2026-24423.yml) | SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability | SmarterTools SmarterMail | 9.3 | 88.2% | 🔒 |
+| 523 | [CVE-2010-0188](../data/cves/2010/CVE-2010-0188.yml) | Adobe Reader and Acrobat Arbitrary Code Execution Vulnerability | Adobe Reader and Acrobat | 7.8 | 88.1% | 🔒 |
+| 524 | [CVE-2019-7192](../data/cves/2019/CVE-2019-7192.yml) | QNAP Photo Station Improper Access Control Vulnerability | QNAP Photo Station | 9.8 | 88.1% | 🔒 |
+| 525 | [CVE-2021-21973](../data/cves/2021/CVE-2021-21973.yml) | VMware vCenter Server and Cloud Foundation Server Side Request Forgery (SSRF) Vulnerability | VMware vCenter Server and Cloud Foundation | 5.3 | 88.0% |  |
+| 526 | [CVE-2025-4428](../data/cves/2025/CVE-2025-4428.yml) | Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 8.8 | 88.0% |  |
+| 527 | [CVE-2025-29635](../data/cves/2025/CVE-2025-29635.yml) | D-Link DIR-823X Command Injection Vulnerability | D-Link DIR-823X | 7.2 | 87.9% |  |
+| 528 | [CVE-2022-27593](../data/cves/2022/CVE-2022-27593.yml) | QNAP Photo Station Externally Controlled Reference Vulnerability | QNAP Photo Station | 9.1 | 87.9% | 🔒 |
+| 529 | [CVE-2024-58136](../data/cves/2024/CVE-2024-58136.yml) | Yiiframework Yii Improper Protection of Alternate Path Vulnerability | Yiiframework Yii | 9.8 | 87.8% |  |
+| 530 | [CVE-2016-6415](../data/cves/2016/CVE-2016-6415.yml) | Cisco IOS, IOS XR, and IOS XE IKEv1 Information Disclosure Vulnerability | Cisco IOS, IOS XR, and IOS XE | 7.5 | 87.7% |  |
+| 531 | [CVE-2012-0151](../data/cves/2012/CVE-2012-0151.yml) | Microsoft Windows Authenticode Signature Verification Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 87.7% |  |
+| 532 | [CVE-2013-3893](../data/cves/2013/CVE-2013-3893.yml) | Microsoft Internet Explorer Resource Management Errors Vulnerability | Microsoft Internet Explorer | 8.8 | 87.6% |  |
+| 533 | [CVE-2026-20127](../data/cves/2026/CVE-2026-20127.yml) | Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability | Cisco Catalyst SD-WAN Controller and Manager | 10 | 87.6% |  |
+| 534 | [CVE-2016-6366](../data/cves/2016/CVE-2016-6366.yml) | Cisco Adaptive Security Appliance (ASA) SNMP Buffer Overflow Vulnerability | Cisco Adaptive Security Appliance (ASA) | 8.8 | 87.6% |  |
+| 535 | [CVE-2020-17496](../data/cves/2020/CVE-2020-17496.yml) | vBulletin PHP Module Remote Code Execution Vulnerability | vBulletin vBulletin | 9.8 | 87.5% |  |
+| 536 | [CVE-2024-12356](../data/cves/2024/CVE-2024-12356.yml) | BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) Command Injection Vulnerability  | BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) | 9.8 | 87.4% |  |
+| 537 | [CVE-2016-9079](../data/cves/2016/CVE-2016-9079.yml) | Mozilla Firefox, Firefox ESR, and Thunderbird Use-After-Free Vulnerability | Mozilla Firefox, Firefox ESR, and Thunderbird | 7.5 | 87.4% |  |
+| 538 | [CVE-2014-6324](../data/cves/2014/CVE-2014-6324.yml) | Microsoft Kerberos Key Distribution Center (KDC) Privilege Escalation Vulnerability | Microsoft Kerberos Key Distribution Center (KDC) | 8.8 | 87.3% |  |
+| 539 | [CVE-2022-26143](../data/cves/2022/CVE-2022-26143.yml) | MiCollab, MiVoice Business Express Access Control Vulnerability | Mitel MiCollab, MiVoice Business Express | 9.8 | 87.3% |  |
+| 540 | [CVE-2007-5659](../data/cves/2007/CVE-2007-5659.yml) | Adobe Acrobat and Reader Buffer Overflow Vulnerability | Adobe Acrobat and Reader | 7.8 | 87.3% |  |
+| 541 | [CVE-2025-33053](../data/cves/2025/CVE-2025-33053.yml) |  Microsoft Windows External Control of File Name or Path Vulnerability | Microsoft Windows | 8.8 | 87.1% |  |
+| 542 | [CVE-2021-40655](../data/cves/2021/CVE-2021-40655.yml) | D-Link DIR-605 Router Information Disclosure Vulnerability | D-Link DIR-605 Router | 7.5 | 87.0% |  |
+| 543 | [CVE-2015-5122](../data/cves/2015/CVE-2015-5122.yml) | Adobe Flash Player Use-After-Free Vulnerability | Adobe Flash Player | 9.8 | 87.0% |  |
+| 544 | [CVE-2013-0640](../data/cves/2013/CVE-2013-0640.yml) | Adobe Reader and Acrobat Memory Corruption Vulnerability | Adobe Reader and Acrobat | 7.8 | 86.9% |  |
+| 545 | [CVE-2018-9276](../data/cves/2018/CVE-2018-9276.yml) | Paessler PRTG Network Monitor OS Command Injection Vulnerability | Paessler PRTG Network Monitor | 7.2 | 86.9% |  |
+| 546 | [CVE-2020-0674](../data/cves/2020/CVE-2020-0674.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | 7.5 | 86.9% |  |
+| 547 | [CVE-2023-2868](../data/cves/2023/CVE-2023-2868.yml) | Barracuda Networks ESG Appliance Improper Input Validation Vulnerability | Barracuda Networks Email Security Gateway (ESG) Appliance | 9.8 | 86.8% |  |
+| 548 | [CVE-2017-18362](../data/cves/2017/CVE-2017-18362.yml) | Kaseya VSA SQL Injection Vulnerability | Kaseya Virtual System/Server Administrator (VSA) | 9.8 | 86.8% | 🔒 |
+| 549 | [CVE-2023-27997](../data/cves/2023/CVE-2023-27997.yml) | Fortinet FortiOS and FortiProxy SSL-VPN Heap-Based Buffer Overflow Vulnerability | Fortinet FortiOS and FortiProxy SSL-VPN | 9.8 | 86.8% | 🔒 |
+| 550 | [CVE-2025-20362](../data/cves/2025/CVE-2025-20362.yml) | Cisco Secure Firewall Adaptive Security (ASA) Appliance and Secure Firewall Threat Defense (FTD) Missing Authorization Vulnerability | Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense | 8.6 | 86.7% |  |
+| 551 | [CVE-2014-4113](../data/cves/2014/CVE-2014-4113.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 86.6% |  |
+| 552 | [CVE-2026-24858](../data/cves/2026/CVE-2026-24858.yml) | Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability | Fortinet Multiple Products | 9.8 | 86.6% |  |
+| 553 | [CVE-2015-2426](../data/cves/2015/CVE-2015-2426.yml) | Microsoft Windows Adobe Type Manager Library Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 86.6% |  |
+| 554 | [CVE-2009-3459](../data/cves/2009/CVE-2009-3459.yml) | Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | 8.8 | 86.5% |  |
+| 555 | [CVE-2021-31755](../data/cves/2021/CVE-2021-31755.yml) | Tenda AC11 Router Stack Buffer Overflow Vulnerability | Tenda AC11 Router | 9.8 | 86.5% |  |
+| 556 | [CVE-2019-16057](../data/cves/2019/CVE-2019-16057.yml) | D-Link DNS-320 Remote Code Execution Vulnerability | D-Link DNS-320 Storage Device | 9.8 | 86.5% | 🔒 |
+| 557 | [CVE-2020-11652](../data/cves/2020/CVE-2020-11652.yml) | SaltStack Salt Path Traversal Vulnerability | SaltStack Salt | 6.5 | 86.4% |  |
+| 558 | [CVE-2019-4716](../data/cves/2019/CVE-2019-4716.yml) | IBM Planning Analytics Remote Code Execution Vulnerability | IBM Planning Analytics | 9.8 | 86.4% |  |
+| 559 | [CVE-2020-8644](../data/cves/2020/CVE-2020-8644.yml) | PlaySMS Server-Side Template Injection Vulnerability | PlaySMS PlaySMS | 9.8 | 86.3% |  |
+| 560 | [CVE-2021-21017](../data/cves/2021/CVE-2021-21017.yml) | Adobe Acrobat and Reader Heap-based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | 8.8 | 86.3% |  |
+| 561 | [CVE-2015-2545](../data/cves/2015/CVE-2015-2545.yml) | Microsoft Office Malformed EPS File Vulnerability | Microsoft Office | 7.8 | 85.9% |  |
+| 562 | [CVE-2023-43208](../data/cves/2023/CVE-2023-43208.yml) | NextGen Healthcare Mirth Connect Deserialization of Untrusted Data Vulnerability | NextGen Healthcare Mirth Connect | 9.8 | 85.9% | 🔒 |
+| 563 | [CVE-2021-30116](../data/cves/2021/CVE-2021-30116.yml) | Kaseya Virtual System/Server Administrator (VSA) Information Disclosure Vulnerability | Kaseya Virtual System/Server Administrator (VSA) | 9.8 | 85.7% | 🔒 |
+| 564 | [CVE-2025-52691](../data/cves/2025/CVE-2025-52691.yml) | SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability | SmarterTools SmarterMail | 10 | 85.7% | 🔒 |
+| 565 | [CVE-2015-0311](../data/cves/2015/CVE-2015-0311.yml) | Adobe Flash Player Remote Code Execution Vulnerability | Adobe Flash Player | 9.8 | 85.6% |  |
+| 566 | [CVE-2020-3580](../data/cves/2020/CVE-2020-3580.yml) | Cisco ASA and FTD Cross-Site Scripting (XSS) Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 6.1 | 85.6% | 🔒 |
+| 567 | [CVE-2018-6961](../data/cves/2018/CVE-2018-6961.yml) | VMware SD-WAN Edge by VeloCloud Command Injection Vulnerability | VMware SD-WAN Edge | 8.1 | 85.5% |  |
+| 568 | [CVE-2026-48907](../data/cves/2026/CVE-2026-48907.yml) | Widget Factory Joomla Content Editor Improper Access Control Vulnerability | Widget Factory Joomla Content Editor | 10 | 85.4% |  |
+| 569 | [CVE-2026-50751](../data/cves/2026/CVE-2026-50751.yml) | Check Point Security Gateway Improper Authentication Vulnerability | Check Point Security Gateway | 9.3 | 85.3% | 🔒 |
+| 570 | [CVE-2021-1675](../data/cves/2021/CVE-2021-1675.yml) | Microsoft Windows Print Spooler Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 85.3% | 🔒 |
+| 571 | [CVE-2013-2423](../data/cves/2013/CVE-2013-2423.yml) | Oracle JRE Unspecified Vulnerability | Oracle Java Runtime Environment (JRE) | 3.7 | 85.2% |  |
+| 572 | [CVE-2014-0322](../data/cves/2014/CVE-2014-0322.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 85.1% |  |
+| 573 | [CVE-2023-24955](../data/cves/2023/CVE-2023-24955.yml) | Microsoft SharePoint Server Code Injection Vulnerability | Microsoft SharePoint Server | 7.2 | 85.0% | 🔒 |
+| 574 | [CVE-2020-11023](../data/cves/2020/CVE-2020-11023.yml) | JQuery Cross-Site Scripting (XSS) Vulnerability | JQuery JQuery | 6.1 | 84.9% |  |
+| 575 | [CVE-2013-3906](../data/cves/2013/CVE-2013-3906.yml) | Microsoft Graphics Component Memory Corruption Vulnerability | Microsoft Graphics Component | 7.8 | 84.9% |  |
+| 576 | [CVE-2023-41266](../data/cves/2023/CVE-2023-41266.yml) | Qlik Sense Path Traversal Vulnerability | Qlik Sense | 6.5 | 84.8% | 🔒 |
+| 577 | [CVE-2026-81578](../data/cves/2026/CVE-2026-81578.yml) | PaperCut NG/MF Missing Authentication for Critical Function Vulnerability | PaperCut NG/MF | 8.8 | 84.7% |  |
+| 578 | [CVE-2019-10758](../data/cves/2019/CVE-2019-10758.yml) | MongoDB mongo-express Remote Code Execution Vulnerability | MongoDB mongo-express | 9.9 | 84.7% |  |
+| 579 | [CVE-2024-28986](../data/cves/2024/CVE-2024-28986.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | 9.8 | 84.6% |  |
+| 580 | [CVE-2019-11581](../data/cves/2019/CVE-2019-11581.yml) | Atlassian Jira Server and Data Center Server-Side Template Injection Vulnerability | Atlassian Jira Server and Data Center | 9.8 | 84.6% |  |
+| 581 | [CVE-2025-64328](../data/cves/2025/CVE-2025-64328.yml) | Sangoma FreePBX OS Command Injection Vulnerability | Sangoma FreePBX | 8.6 | 84.6% |  |
+| 582 | [CVE-2024-21762](../data/cves/2024/CVE-2024-21762.yml) | Fortinet FortiOS Out-of-Bound Write Vulnerability | Fortinet FortiOS | 9.8 | 84.6% | 🔒 |
+| 583 | [CVE-2018-17463](../data/cves/2018/CVE-2018-17463.yml) | Google Chromium V8 Remote Code Execution Vulnerability | Google Chromium V8 | 8.8 | 84.6% |  |
+| 584 | [CVE-2020-28949](../data/cves/2020/CVE-2020-28949.yml) | PEAR Archive_Tar Deserialization of Untrusted Data Vulnerability | PEAR Archive_Tar | 7.8 | 84.6% |  |
+| 585 | [CVE-2020-15415](../data/cves/2020/CVE-2020-15415.yml) | DrayTek Multiple Vigor Routers OS Command Injection Vulnerability | DrayTek Multiple Vigor Routers | 9.8 | 84.5% |  |
+| 586 | [CVE-2026-105133](../data/cves/2026/CVE-2026-105133.yml) | Ahsay AhsayCBS Improper Authentication Vulnerability | Ahsay AhsayCBS | 6.9 | 84.5% |  |
+| 587 | [CVE-2024-51567](../data/cves/2024/CVE-2024-51567.yml) | CyberPanel Incorrect Default Permissions Vulnerability | CyberPersons CyberPanel | 9.8 | 84.4% | 🔒 |
+| 588 | [CVE-2020-12641](../data/cves/2020/CVE-2020-12641.yml) | Roundcube Webmail Remote Code Execution Vulnerability | Roundcube Roundcube Webmail | 9.8 | 84.4% |  |
+| 589 | [CVE-2020-5722](../data/cves/2020/CVE-2020-5722.yml) | Grandstream Networks UCM6200 Series SQL Injection Vulnerability | Grandstream UCM6200 | 9.8 | 84.3% |  |
+| 590 | [CVE-2024-43451](../data/cves/2024/CVE-2024-43451.yml) | Microsoft Windows NTLMv2 Hash Disclosure Spoofing Vulnerability | Microsoft Windows | 6.5 | 84.3% |  |
+| 591 | [CVE-2017-0213](../data/cves/2017/CVE-2017-0213.yml) | Microsoft Windows Privilege Escalation Vulnerability | Microsoft Windows | 7.3 | 84.3% | 🔒 |
+| 592 | [CVE-2024-38112](../data/cves/2024/CVE-2024-38112.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | 7.5 | 84.2% |  |
+| 593 | [CVE-2025-40551](../data/cves/2025/CVE-2025-40551.yml) | SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability | SolarWinds Web Help Desk | 9.8 | 84.2% |  |
+| 594 | [CVE-2017-11317](../data/cves/2017/CVE-2017-11317.yml) | Telerik UI for ASP.NET AJAX Unrestricted File Upload Vulnerability | Telerik User Interface (UI) for ASP.NET AJAX | 9.8 | 84.2% |  |
+| 595 | [CVE-2021-21224](../data/cves/2021/CVE-2021-21224.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 84.2% |  |
+| 596 | [CVE-2009-3129](../data/cves/2009/CVE-2009-3129.yml) | Microsoft Excel Featheader Record Memory Corruption Vulnerability | Microsoft Excel | 7.8 | 84.0% |  |
+| 597 | [CVE-2023-28432](../data/cves/2023/CVE-2023-28432.yml) | MinIO Information Disclosure Vulnerability | MinIO MinIO | 7.5 | 84.0% |  |
+| 598 | [CVE-2015-3035](../data/cves/2015/CVE-2015-3035.yml) | TP-Link Multiple Archer Devices Directory Traversal Vulnerability | TP-Link Multiple Archer Devices | 7.5 | 83.9% |  |
+| 599 | [CVE-2020-3161](../data/cves/2020/CVE-2020-3161.yml) | Cisco IP Phones Web Server Remote Code Execution and Denial-of-Service Vulnerability | Cisco Cisco IP Phones | 9.8 | 83.9% |  |
+| 600 | [CVE-2019-9874](../data/cves/2019/CVE-2019-9874.yml) | Sitecore CMS and Experience Platform (XP) Deserialization Vulnerability | Sitecore CMS and Experience Platform (XP) | 9.8 | 83.7% |  |
+| 601 | [CVE-2021-27561](../data/cves/2021/CVE-2021-27561.yml) | Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability | Yealink Device Management | 9.8 | 83.6% |  |
+| 602 | [CVE-2019-0193](../data/cves/2019/CVE-2019-0193.yml) | Apache Solr DataImportHandler Code Injection Vulnerability | Apache Solr | 7.2 | 83.5% |  |
 | 603 | [CVE-2016-5195](../data/cves/2016/CVE-2016-5195.yml) | Dirty COW | Linux Linux kernel | 7 | 83.5% |  |
-| 604 | [CVE-2012-1889](../data/cves/2012/CVE-2012-1889.yml) | Microsoft XML Core Services Memory Corruption Vulnerability | Microsoft XML Core Services | — | 83.5% |  |
-| 605 | [CVE-2022-26923](../data/cves/2022/CVE-2022-26923.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | — | 83.5% |  |
-| 606 | [CVE-2023-36847](../data/cves/2023/CVE-2023-36847.yml) | Juniper Junos OS EX Series Missing Authentication for Critical Function Vulnerability | Juniper Junos OS | — | 83.5% |  |
-| 607 | [CVE-2010-1871](../data/cves/2010/CVE-2010-1871.yml) | Red Hat Linux JBoss Seam 2 Remote Code Execution Vulnerability | Red Hat JBoss Seam 2 | — | 83.4% |  |
-| 608 | [CVE-2016-10174](../data/cves/2016/CVE-2016-10174.yml) | NETGEAR WNR2000v5 Router Buffer Overflow Vulnerability | NETGEAR WNR2000v5 Router | — | 83.3% |  |
-| 609 | [CVE-2009-3953](../data/cves/2009/CVE-2009-3953.yml) | Adobe Acrobat and Reader Universal 3D Remote Code Execution Vulnerability | Adobe Acrobat and Reader | — | 83.2% |  |
-| 610 | [CVE-2025-14847](../data/cves/2025/CVE-2025-14847.yml) | MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability | MongoDB MongoDB and MongoDB Server | — | 83.2% |  |
-| 611 | [CVE-2022-24990](../data/cves/2022/CVE-2022-24990.yml) | TerraMaster OS Remote Command Execution Vulnerability | TerraMaster TerraMaster OS | — | 83.2% | 🔒 |
-| 612 | [CVE-2010-3765](../data/cves/2010/CVE-2010-3765.yml) | Mozilla Multiple Products Remote Code Execution Vulnerability | Mozilla Multiple Products | — | 83.2% |  |
-| 613 | [CVE-2020-3992](../data/cves/2020/CVE-2020-3992.yml) | VMware ESXi OpenSLP Use-After-Free Vulnerability | VMware ESXi | — | 83.0% | 🔒 |
-| 614 | [CVE-2024-42009](../data/cves/2024/CVE-2024-42009.yml) | RoundCube Webmail Cross-Site Scripting Vulnerability | Roundcube Webmail | — | 82.9% |  |
-| 615 | [CVE-2025-33073](../data/cves/2025/CVE-2025-33073.yml) | Microsoft Windows SMB Client Improper Access Control Vulnerability | Microsoft Windows | — | 82.8% |  |
-| 616 | [CVE-2016-7200](../data/cves/2016/CVE-2016-7200.yml) | Microsoft Edge Memory Corruption Vulnerability | Microsoft Edge | — | 82.8% |  |
-| 617 | [CVE-2024-0769](../data/cves/2024/CVE-2024-0769.yml) |  D-Link DIR-859 Router Path Traversal Vulnerability | D-Link DIR-859 Router | — | 82.7% |  |
-| 618 | [CVE-2019-7194](../data/cves/2019/CVE-2019-7194.yml) | QNAP Photo Station Path Traversal Vulnerability | QNAP Photo Station | — | 82.7% | 🔒 |
-| 619 | [CVE-2015-1187](../data/cves/2015/CVE-2015-1187.yml) | D-Link and TRENDnet Multiple Devices Remote Code Execution Vulnerability | D-Link and TRENDnet Multiple Devices | — | 82.7% |  |
-| 620 | [CVE-2014-1776](../data/cves/2014/CVE-2014-1776.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 82.7% |  |
-| 621 | [CVE-2026-111497](../data/cves/2026/CVE-2026-111497.yml) | Google Brotli Unchecked Return Value Vulnerability | Google Brotli | — | 82.6% |  |
-| 622 | [CVE-2021-23758](../data/cves/2021/CVE-2021-23758.yml) | Ajax.NET Professional Deserialization of Untrusted Data Vulnerability | Ajax.NET Professional Ajax.NET Professional | — | 82.6% |  |
-| 623 | [CVE-2010-1297](../data/cves/2010/CVE-2010-1297.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | — | 82.5% |  |
-| 624 | [CVE-2023-27992](../data/cves/2023/CVE-2023-27992.yml) | Zyxel Multiple NAS Devices Command Injection Vulnerability | Zyxel Multiple Network-Attached Storage (NAS) Devices | — | 82.3% |  |
-| 625 | [CVE-2017-11826](../data/cves/2017/CVE-2017-11826.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | — | 82.2% |  |
-| 626 | [CVE-2018-6789](../data/cves/2018/CVE-2018-6789.yml) | Exim Buffer Overflow Vulnerability | Exim Exim | — | 82.1% | 🔒 |
-| 627 | [CVE-2010-0806](../data/cves/2010/CVE-2010-0806.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 82.1% |  |
-| 628 | [CVE-2021-40449](../data/cves/2021/CVE-2021-40449.yml) | Microsoft Windows Win32k Privilege Escalation Vulnerability | Microsoft Windows | — | 81.9% | 🔒 |
-| 629 | [CVE-2026-88771](../data/cves/2026/CVE-2026-88771.yml) | Citrix NetScaler Improper Input Validation Vulnerability | Citrix NetScaler | — | 81.9% |  |
-| 630 | [CVE-2009-4324](../data/cves/2009/CVE-2009-4324.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | — | 81.9% |  |
-| 631 | [CVE-2025-34026](../data/cves/2025/CVE-2025-34026.yml) | Versa Concerto Improper Authentication Vulnerability | Versa Concerto | — | 81.8% |  |
-| 632 | [CVE-2026-105134](../data/cves/2026/CVE-2026-105134.yml) | Ahsay AhsayCBS Command Injection Vulnerability | Ahsay AhsayCBS | — | 81.8% |  |
-| 633 | [CVE-2018-13382](../data/cves/2018/CVE-2018-13382.yml) | Fortinet FortiOS and FortiProxy Improper Authorization | Fortinet FortiOS and FortiProxy | — | 81.7% | 🔒 |
-| 634 | [CVE-2019-0752](../data/cves/2019/CVE-2019-0752.yml) | Microsoft Internet Explorer Type Confusion Vulnerability | Microsoft Internet Explorer | — | 81.7% | 🔒 |
-| 635 | [CVE-2021-26411](../data/cves/2021/CVE-2021-26411.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 81.7% | 🔒 |
-| 636 | [CVE-2014-4114](../data/cves/2014/CVE-2014-4114.yml) | Microsoft Windows Object Linking & Embedding (OLE) Remote Code Execution Vulnerability | Microsoft Windows | — | 81.6% |  |
-| 637 | [CVE-2010-2883](../data/cves/2010/CVE-2010-2883.yml) | Adobe Acrobat and Reader Stack-Based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | — | 81.4% |  |
-| 638 | [CVE-2021-31955](../data/cves/2021/CVE-2021-31955.yml) | Microsoft Windows Kernel Information Disclosure Vulnerability | Microsoft Windows | — | 81.1% |  |
-| 639 | [CVE-2024-43468](../data/cves/2024/CVE-2024-43468.yml) | Microsoft Configuration Manager SQL Injection Vulnerability | Microsoft Configuration Manager | — | 81.0% |  |
-| 640 | [CVE-2019-9621](../data/cves/2019/CVE-2019-9621.yml) | Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery (SSRF) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 81.0% |  |
-| 641 | [CVE-2017-0262](../data/cves/2017/CVE-2017-0262.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | — | 81.0% |  |
-| 642 | [CVE-2016-7255](../data/cves/2016/CVE-2016-7255.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 81.0% | 🔒 |
-| 643 | [CVE-2025-54253](../data/cves/2025/CVE-2025-54253.yml) | Adobe Experience Manager Forms Code Execution Vulnerability | Adobe Experience Manager (AEM) Forms | — | 80.8% |  |
-| 644 | [CVE-2023-27532](../data/cves/2023/CVE-2023-27532.yml) | Veeam Backup & Replication Cloud Connect Missing Authentication for Critical Function Vulnerability | Veeam Backup & Replication | — | 80.6% | 🔒 |
-| 645 | [CVE-2017-0037](../data/cves/2017/CVE-2017-0037.yml) | Microsoft Edge and Internet Explorer Type Confusion Vulnerability | Microsoft Edge and Internet Explorer | — | 80.4% |  |
-| 646 | [CVE-2025-8110](../data/cves/2025/CVE-2025-8110.yml) | Gogs Path Traversal Vulnerability | Gogs Gogs | — | 80.3% |  |
-| 647 | [CVE-2026-48558](../data/cves/2026/CVE-2026-48558.yml) | SimpleHelp Authentication Bypass Vulnerability | SimpleHelp  SimpleHelp | — | 80.3% |  |
-| 648 | [CVE-2012-4969](../data/cves/2012/CVE-2012-4969.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 80.3% |  |
-| 649 | [CVE-2026-45659](../data/cves/2026/CVE-2026-45659.yml) | Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability | Microsoft SharePoint Server | — | 80.2% | 🔒 |
-| 650 | [CVE-2020-14871](../data/cves/2020/CVE-2020-14871.yml) | Oracle Solaris and Zettabyte File System (ZFS) Unspecified Vulnerability | Oracle Solaris and Zettabyte File System (ZFS) | — | 80.2% |  |
-| 651 | [CVE-2023-22952](../data/cves/2023/CVE-2023-22952.yml) | Multiple SugarCRM Products Remote Code Execution Vulnerability | SugarCRM Multiple Products | — | 80.1% |  |
-| 652 | [CVE-2016-7201](../data/cves/2016/CVE-2016-7201.yml) | Microsoft Edge Memory Corruption Vulnerability | Microsoft Edge | — | 80.0% |  |
-| 653 | [CVE-2024-8957](../data/cves/2024/CVE-2024-8957.yml) | PTZOptics PT30X-SDI/NDI Cameras OS Command Injection Vulnerability | PTZOptics PT30X-SDI/NDI Cameras | — | 79.8% |  |
-| 654 | [CVE-2013-1331](../data/cves/2013/CVE-2013-1331.yml) | Microsoft Office Buffer Overflow Vulnerability | Microsoft Office | — | 79.8% |  |
-| 655 | [CVE-2020-10987](../data/cves/2020/CVE-2020-10987.yml) | Tenda AC1900 Router AC15 Model Remote Code Execution Vulnerability | Tenda AC1900 Router AC15 Model | — | 79.8% |  |
-| 656 | [CVE-2021-21551](../data/cves/2021/CVE-2021-21551.yml) | Dell dbutil Driver Insufficient Access Control Vulnerability | Dell dbutil Driver | — | 79.6% |  |
-| 657 | [CVE-2013-4810](../data/cves/2013/CVE-2013-4810.yml) | HP Multiple Products Remote Code Execution Vulnerability | Hewlett Packard (HP) ProCurve Manager (PCM), PCM+, Identity Driven Manager (IDM), and Application Lifecycle Management | — | 79.5% |  |
-| 658 | [CVE-2018-18809](../data/cves/2018/CVE-2018-18809.yml) | TIBCO JasperReports Library Directory Traversal Vulnerability | TIBCO JasperReports | — | 79.1% |  |
-| 659 | [CVE-2013-3346](../data/cves/2013/CVE-2013-3346.yml) | Adobe Reader and Acrobat Memory Corruption Vulnerability | Adobe Reader and Acrobat | — | 78.9% |  |
-| 660 | [CVE-2013-0074](../data/cves/2013/CVE-2013-0074.yml) | Microsoft Silverlight Double Dereference Vulnerability | Microsoft Silverlight | — | 78.9% | 🔒 |
-| 661 | [CVE-2012-4792](../data/cves/2012/CVE-2012-4792.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 78.8% |  |
-| 662 | [CVE-2020-6418](../data/cves/2020/CVE-2020-6418.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 78.8% |  |
-| 663 | [CVE-2021-22555](../data/cves/2021/CVE-2021-22555.yml) | Linux Kernel Heap Out-of-Bounds Write Vulnerability | Linux Kernel | — | 78.7% |  |
-| 664 | [CVE-2021-1732](../data/cves/2021/CVE-2021-1732.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 78.4% | 🔒 |
-| 665 | [CVE-2020-8816](../data/cves/2020/CVE-2020-8816.yml) | Pi-Hole AdminLTE Remote Code Execution Vulnerability | Pi-hole AdminLTE | — | 78.3% |  |
-| 666 | [CVE-2021-28799](../data/cves/2021/CVE-2021-28799.yml) | QNAP NAS Improper Authorization Vulnerability | QNAP Network Attached Storage (NAS) | — | 78.3% | 🔒 |
-| 667 | [CVE-2022-26318](../data/cves/2022/CVE-2022-26318.yml) | WatchGuard Firebox and XTM Appliances Arbitrary Code Execution | WatchGuard Firebox and XTM Appliances | — | 78.2% |  |
-| 668 | [CVE-2023-24880](../data/cves/2023/CVE-2023-24880.yml) | Microsoft Windows SmartScreen Security Feature Bypass Vulnerability | Microsoft Windows | — | 78.2% | 🔒 |
-| 669 | [CVE-2011-3402](../data/cves/2011/CVE-2011-3402.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | — | 78.1% |  |
-| 670 | [CVE-2017-0261](../data/cves/2017/CVE-2017-0261.yml) | Microsoft Office Use-After-Free Vulnerability | Microsoft Office | — | 78.1% |  |
-| 671 | [CVE-2023-27351](../data/cves/2023/CVE-2023-27351.yml) | PaperCut NG/MF Improper Authentication Vulnerability | PaperCut NG/MF | — | 78.1% | 🔒 |
-| 672 | [CVE-2021-21975](../data/cves/2021/CVE-2021-21975.yml) | VMware Server Side Request Forgery in vRealize Operations Manager API | VMware vRealize Operations Manager API | — | 78.0% | 🔒 |
-| 673 | [CVE-2026-102764](../data/cves/2026/CVE-2026-102764.yml) | BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability | BeyondTrust Remote Support | — | 78.0% |  |
-| 674 | [CVE-2023-49103](../data/cves/2023/CVE-2023-49103.yml) | ownCloud graphapi Information Disclosure Vulnerability | ownCloud ownCloud graphapi | — | 77.8% |  |
-| 675 | [CVE-2013-1347](../data/cves/2013/CVE-2013-1347.yml) | Microsoft Internet Explorer Remote Code Execution Vulnerability | Microsoft Internet Explorer | — | 77.7% |  |
-| 676 | [CVE-2014-1761](../data/cves/2014/CVE-2014-1761.yml) | Microsoft Word Memory Corruption Vulnerability | Microsoft Word | — | 77.7% |  |
-| 677 | [CVE-2017-11357](../data/cves/2017/CVE-2017-11357.yml) | Telerik UI for ASP.NET AJAX Insecure Direct Object Reference Vulnerability | Telerik User Interface (UI) for ASP.NET AJAX | — | 77.7% | 🔒 |
-| 678 | [CVE-2014-6352](../data/cves/2014/CVE-2014-6352.yml) | Microsoft Windows Code Injection Vulnerability | Microsoft Windows | — | 77.5% |  |
-| 679 | [CVE-2022-41080](../data/cves/2022/CVE-2022-41080.yml) | Microsoft Exchange Server Privilege Escalation Vulnerability | Microsoft Exchange Server | — | 77.3% | 🔒 |
-| 680 | [CVE-2013-3897](../data/cves/2013/CVE-2013-3897.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 77.3% |  |
-| 681 | [CVE-2019-1429](../data/cves/2019/CVE-2019-1429.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 77.3% |  |
-| 682 | [CVE-2020-10221](../data/cves/2020/CVE-2020-10221.yml) | rConfig OS Command Injection Vulnerability | rConfig rConfig | — | 77.3% |  |
-| 683 | [CVE-2023-34192](../data/cves/2023/CVE-2023-34192.yml) | Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 77.3% |  |
-| 684 | [CVE-2021-42287](../data/cves/2021/CVE-2021-42287.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | — | 77.2% | 🔒 |
-| 685 | [CVE-2026-33824](../data/cves/2026/CVE-2026-33824.yml) | Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability | Microsoft Internet Key Exchange (IKE) Service Extensions | — | 77.1% |  |
-| 686 | [CVE-2019-15949](../data/cves/2019/CVE-2019-15949.yml) | Nagios XI Remote Code Execution Vulnerability | Nagios Nagios XI | — | 77.0% |  |
-| 687 | [CVE-2019-7238](../data/cves/2019/CVE-2019-7238.yml) | Sonatype Nexus Repository Manager Incorrect Access Control Vulnerability | Sonatype Nexus Repository Manager | — | 76.6% |  |
-| 688 | [CVE-2026-73570](../data/cves/2026/CVE-2026-73570.yml) | Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 76.6% |  |
-| 689 | [CVE-2025-6204](../data/cves/2025/CVE-2025-6204.yml) | Dassault Systèmes DELMIA Apriso Code Injection Vulnerability | Dassault Systèmes DELMIA Apriso | — | 76.6% |  |
-| 690 | [CVE-2020-13965](../data/cves/2020/CVE-2020-13965.yml) | Roundcube Webmail Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | — | 76.6% |  |
-| 691 | [CVE-2008-0015](../data/cves/2008/CVE-2008-0015.yml) |  Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability | Microsoft Windows | — | 76.6% |  |
-| 692 | [CVE-2018-15133](../data/cves/2018/CVE-2018-15133.yml) | Laravel Deserialization of Untrusted Data Vulnerability | Laravel Laravel Framework | — | 76.6% |  |
-| 693 | [CVE-2026-88772](../data/cves/2026/CVE-2026-88772.yml) | Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability | Citrix NetScaler | — | 76.6% |  |
-| 694 | [CVE-2021-38406](../data/cves/2021/CVE-2021-38406.yml) | Delta Electronics DOPSoft 2 Improper Input Validation Vulnerability | Delta Electronics DOPSoft 2 | — | 76.4% |  |
-| 695 | [CVE-2023-5631](../data/cves/2023/CVE-2023-5631.yml) | Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | — | 76.3% |  |
-| 696 | [CVE-2018-15811](../data/cves/2018/CVE-2018-15811.yml) | DotNetNuke (DNN) Inadequate Encryption Strength Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | — | 76.3% |  |
-| 697 | [CVE-2023-44221](../data/cves/2023/CVE-2023-44221.yml) | SonicWall SMA100 Appliances OS Command Injection Vulnerability | SonicWall SMA100 Appliances | — | 76.3% |  |
-| 698 | [CVE-2026-25089](../data/cves/2026/CVE-2026-25089.yml) | Fortinet FortiSandbox OS Command Injection Vulnerability | Fortinet FortiSandbox | — | 76.1% |  |
-| 699 | [CVE-2021-30860](../data/cves/2021/CVE-2021-30860.yml) | Apple Multiple Products Integer Overflow Vulnerability | Apple Multiple Products | — | 76.0% |  |
-| 700 | [CVE-2015-0016](../data/cves/2015/CVE-2015-0016.yml) | Microsoft Windows TS WebProxy Directory Traversal Vulnerability | Microsoft Windows | — | 75.8% |  |
-| 701 | [CVE-2016-3718](../data/cves/2016/CVE-2016-3718.yml) | ImageMagick Server-Side Request Forgery (SSRF) Vulnerability | ImageMagick ImageMagick | — | 75.6% |  |
-| 702 | [CVE-2026-76460](../data/cves/2026/CVE-2026-76460.yml) | Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability | Cisco Identity Services Engine | — | 75.6% |  |
-| 703 | [CVE-2012-0391](../data/cves/2012/CVE-2012-0391.yml) | Apache Struts 2 Improper Input Validation Vulnerability | Apache Struts 2 | — | 75.6% |  |
-| 704 | [CVE-2016-3715](../data/cves/2016/CVE-2016-3715.yml) | ImageMagick Arbitrary File Deletion Vulnerability | ImageMagick ImageMagick | — | 75.3% |  |
-| 705 | [CVE-2021-42258](../data/cves/2021/CVE-2021-42258.yml) | BQE BillQuick Web Suite SQL Injection Vulnerability | BQE BillQuick Web Suite | — | 75.2% | 🔒 |
-| 706 | [CVE-2017-9248](../data/cves/2017/CVE-2017-9248.yml) | Progress Telerik UI for ASP.NET AJAX and Sitefinity Cryptographic Weakness Vulnerability | Progress ASP.NET AJAX and Sitefinity | — | 75.1% |  |
-| 707 | [CVE-2022-44698](../data/cves/2022/CVE-2022-44698.yml) | Microsoft Defender SmartScreen Security Feature Bypass Vulnerability | Microsoft Defender | — | 75.0% | 🔒 |
-| 708 | [CVE-2025-31125](../data/cves/2025/CVE-2025-31125.yml) | Vite Vitejs Improper Access Control Vulnerability | Vite Vitejs | — | 74.9% |  |
-| 709 | [CVE-2018-8298](../data/cves/2018/CVE-2018-8298.yml) | ChakraCore Scripting Engine Type Confusion Vulnerability | ChakraCore ChakraCore scripting engine | — | 74.7% |  |
-| 710 | [CVE-2014-0780](../data/cves/2014/CVE-2014-0780.yml) | InduSoft Web Studio NTWebServer Directory Traversal Vulnerability | InduSoft Web Studio | — | 74.7% |  |
+| 604 | [CVE-2012-1889](../data/cves/2012/CVE-2012-1889.yml) | Microsoft XML Core Services Memory Corruption Vulnerability | Microsoft XML Core Services | 8.8 | 83.5% |  |
+| 605 | [CVE-2022-26923](../data/cves/2022/CVE-2022-26923.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | 8.8 | 83.5% |  |
+| 606 | [CVE-2023-36847](../data/cves/2023/CVE-2023-36847.yml) | Juniper Junos OS EX Series Missing Authentication for Critical Function Vulnerability | Juniper Junos OS | 5.3 | 83.5% |  |
+| 607 | [CVE-2010-1871](../data/cves/2010/CVE-2010-1871.yml) | Red Hat Linux JBoss Seam 2 Remote Code Execution Vulnerability | Red Hat JBoss Seam 2 | 8.8 | 83.4% |  |
+| 608 | [CVE-2016-10174](../data/cves/2016/CVE-2016-10174.yml) | NETGEAR WNR2000v5 Router Buffer Overflow Vulnerability | NETGEAR WNR2000v5 Router | 9.8 | 83.3% |  |
+| 609 | [CVE-2009-3953](../data/cves/2009/CVE-2009-3953.yml) | Adobe Acrobat and Reader Universal 3D Remote Code Execution Vulnerability | Adobe Acrobat and Reader | 8.8 | 83.2% |  |
+| 610 | [CVE-2025-14847](../data/cves/2025/CVE-2025-14847.yml) | MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability | MongoDB MongoDB and MongoDB Server | 8.7 | 83.2% |  |
+| 611 | [CVE-2022-24990](../data/cves/2022/CVE-2022-24990.yml) | TerraMaster OS Remote Command Execution Vulnerability | TerraMaster TerraMaster OS | 7.5 | 83.2% | 🔒 |
+| 612 | [CVE-2010-3765](../data/cves/2010/CVE-2010-3765.yml) | Mozilla Multiple Products Remote Code Execution Vulnerability | Mozilla Multiple Products | 9.8 | 83.2% |  |
+| 613 | [CVE-2020-3992](../data/cves/2020/CVE-2020-3992.yml) | VMware ESXi OpenSLP Use-After-Free Vulnerability | VMware ESXi | 9.8 | 83.0% | 🔒 |
+| 614 | [CVE-2024-42009](../data/cves/2024/CVE-2024-42009.yml) | RoundCube Webmail Cross-Site Scripting Vulnerability | Roundcube Webmail | 9.3 | 82.9% |  |
+| 615 | [CVE-2025-33073](../data/cves/2025/CVE-2025-33073.yml) | Microsoft Windows SMB Client Improper Access Control Vulnerability | Microsoft Windows | 8.8 | 82.8% |  |
+| 616 | [CVE-2016-7200](../data/cves/2016/CVE-2016-7200.yml) | Microsoft Edge Memory Corruption Vulnerability | Microsoft Edge | 8.8 | 82.8% |  |
+| 617 | [CVE-2024-0769](../data/cves/2024/CVE-2024-0769.yml) |  D-Link DIR-859 Router Path Traversal Vulnerability | D-Link DIR-859 Router | 9.8 | 82.7% |  |
+| 618 | [CVE-2019-7194](../data/cves/2019/CVE-2019-7194.yml) | QNAP Photo Station Path Traversal Vulnerability | QNAP Photo Station | 9.8 | 82.7% | 🔒 |
+| 619 | [CVE-2015-1187](../data/cves/2015/CVE-2015-1187.yml) | D-Link and TRENDnet Multiple Devices Remote Code Execution Vulnerability | D-Link and TRENDnet Multiple Devices | 9.8 | 82.7% |  |
+| 620 | [CVE-2014-1776](../data/cves/2014/CVE-2014-1776.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 9.8 | 82.7% |  |
+| 621 | [CVE-2026-111497](../data/cves/2026/CVE-2026-111497.yml) | Google Brotli Unchecked Return Value Vulnerability | Google Brotli | 9.2 | 82.6% |  |
+| 622 | [CVE-2021-23758](../data/cves/2021/CVE-2021-23758.yml) | Ajax.NET Professional Deserialization of Untrusted Data Vulnerability | Ajax.NET Professional Ajax.NET Professional | 9.8 | 82.6% |  |
+| 623 | [CVE-2010-1297](../data/cves/2010/CVE-2010-1297.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | 7.8 | 82.5% |  |
+| 624 | [CVE-2023-27992](../data/cves/2023/CVE-2023-27992.yml) | Zyxel Multiple NAS Devices Command Injection Vulnerability | Zyxel Multiple Network-Attached Storage (NAS) Devices | 9.8 | 82.3% |  |
+| 625 | [CVE-2017-11826](../data/cves/2017/CVE-2017-11826.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | 7.8 | 82.2% |  |
+| 626 | [CVE-2018-6789](../data/cves/2018/CVE-2018-6789.yml) | Exim Buffer Overflow Vulnerability | Exim Exim | 9.8 | 82.1% | 🔒 |
+| 627 | [CVE-2010-0806](../data/cves/2010/CVE-2010-0806.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 82.1% |  |
+| 628 | [CVE-2021-40449](../data/cves/2021/CVE-2021-40449.yml) | Microsoft Windows Win32k Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 81.9% | 🔒 |
+| 629 | [CVE-2026-88771](../data/cves/2026/CVE-2026-88771.yml) | Citrix NetScaler Improper Input Validation Vulnerability | Citrix NetScaler | 9.5 | 81.9% |  |
+| 630 | [CVE-2009-4324](../data/cves/2009/CVE-2009-4324.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | 7.8 | 81.9% |  |
+| 631 | [CVE-2025-34026](../data/cves/2025/CVE-2025-34026.yml) | Versa Concerto Improper Authentication Vulnerability | Versa Concerto | 9.2 | 81.8% |  |
+| 632 | [CVE-2026-105134](../data/cves/2026/CVE-2026-105134.yml) | Ahsay AhsayCBS Command Injection Vulnerability | Ahsay AhsayCBS | 10 | 81.8% |  |
+| 633 | [CVE-2018-13382](../data/cves/2018/CVE-2018-13382.yml) | Fortinet FortiOS and FortiProxy Improper Authorization | Fortinet FortiOS and FortiProxy | 7.5 | 81.7% | 🔒 |
+| 634 | [CVE-2019-0752](../data/cves/2019/CVE-2019-0752.yml) | Microsoft Internet Explorer Type Confusion Vulnerability | Microsoft Internet Explorer | 7.5 | 81.7% | 🔒 |
+| 635 | [CVE-2021-26411](../data/cves/2021/CVE-2021-26411.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.8 | 81.7% | 🔒 |
+| 636 | [CVE-2014-4114](../data/cves/2014/CVE-2014-4114.yml) | Microsoft Windows Object Linking & Embedding (OLE) Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 81.6% |  |
+| 637 | [CVE-2010-2883](../data/cves/2010/CVE-2010-2883.yml) | Adobe Acrobat and Reader Stack-Based Buffer Overflow Vulnerability | Adobe Acrobat and Reader | 7.3 | 81.4% |  |
+| 638 | [CVE-2021-31955](../data/cves/2021/CVE-2021-31955.yml) | Microsoft Windows Kernel Information Disclosure Vulnerability | Microsoft Windows | 5.5 | 81.1% |  |
+| 639 | [CVE-2024-43468](../data/cves/2024/CVE-2024-43468.yml) | Microsoft Configuration Manager SQL Injection Vulnerability | Microsoft Configuration Manager | 9.8 | 81.0% |  |
+| 640 | [CVE-2019-9621](../data/cves/2019/CVE-2019-9621.yml) | Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery (SSRF) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 7.5 | 81.0% |  |
+| 641 | [CVE-2017-0262](../data/cves/2017/CVE-2017-0262.yml) | Microsoft Office Remote Code Execution Vulnerability | Microsoft Office | 7.8 | 81.0% |  |
+| 642 | [CVE-2016-7255](../data/cves/2016/CVE-2016-7255.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 81.0% | 🔒 |
+| 643 | [CVE-2025-54253](../data/cves/2025/CVE-2025-54253.yml) | Adobe Experience Manager Forms Code Execution Vulnerability | Adobe Experience Manager (AEM) Forms | 10 | 80.8% |  |
+| 644 | [CVE-2023-27532](../data/cves/2023/CVE-2023-27532.yml) | Veeam Backup & Replication Cloud Connect Missing Authentication for Critical Function Vulnerability | Veeam Backup & Replication | 7.5 | 80.6% | 🔒 |
+| 645 | [CVE-2017-0037](../data/cves/2017/CVE-2017-0037.yml) | Microsoft Edge and Internet Explorer Type Confusion Vulnerability | Microsoft Edge and Internet Explorer | 8.1 | 80.4% |  |
+| 646 | [CVE-2025-8110](../data/cves/2025/CVE-2025-8110.yml) | Gogs Path Traversal Vulnerability | Gogs Gogs | 8.7 | 80.3% |  |
+| 647 | [CVE-2026-48558](../data/cves/2026/CVE-2026-48558.yml) | SimpleHelp Authentication Bypass Vulnerability | SimpleHelp  SimpleHelp | 9.5 | 80.3% |  |
+| 648 | [CVE-2012-4969](../data/cves/2012/CVE-2012-4969.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.1 | 80.3% |  |
+| 649 | [CVE-2026-45659](../data/cves/2026/CVE-2026-45659.yml) | Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability | Microsoft SharePoint Server | 8.8 | 80.2% | 🔒 |
+| 650 | [CVE-2020-14871](../data/cves/2020/CVE-2020-14871.yml) | Oracle Solaris and Zettabyte File System (ZFS) Unspecified Vulnerability | Oracle Solaris and Zettabyte File System (ZFS) | 10 | 80.2% |  |
+| 651 | [CVE-2023-22952](../data/cves/2023/CVE-2023-22952.yml) | Multiple SugarCRM Products Remote Code Execution Vulnerability | SugarCRM Multiple Products | 8.8 | 80.1% |  |
+| 652 | [CVE-2016-7201](../data/cves/2016/CVE-2016-7201.yml) | Microsoft Edge Memory Corruption Vulnerability | Microsoft Edge | 8.8 | 80.0% |  |
+| 653 | [CVE-2024-8957](../data/cves/2024/CVE-2024-8957.yml) | PTZOptics PT30X-SDI/NDI Cameras OS Command Injection Vulnerability | PTZOptics PT30X-SDI/NDI Cameras | 7.2 | 79.8% |  |
+| 654 | [CVE-2013-1331](../data/cves/2013/CVE-2013-1331.yml) | Microsoft Office Buffer Overflow Vulnerability | Microsoft Office | 7.8 | 79.8% |  |
+| 655 | [CVE-2020-10987](../data/cves/2020/CVE-2020-10987.yml) | Tenda AC1900 Router AC15 Model Remote Code Execution Vulnerability | Tenda AC1900 Router AC15 Model | 9.8 | 79.8% |  |
+| 656 | [CVE-2021-21551](../data/cves/2021/CVE-2021-21551.yml) | Dell dbutil Driver Insufficient Access Control Vulnerability | Dell dbutil Driver | 7.8 | 79.6% |  |
+| 657 | [CVE-2013-4810](../data/cves/2013/CVE-2013-4810.yml) | HP Multiple Products Remote Code Execution Vulnerability | Hewlett Packard (HP) ProCurve Manager (PCM), PCM+, Identity Driven Manager (IDM), and Application Lifecycle Management | 9.8 | 79.5% |  |
+| 658 | [CVE-2018-18809](../data/cves/2018/CVE-2018-18809.yml) | TIBCO JasperReports Library Directory Traversal Vulnerability | TIBCO JasperReports | 6.5 | 79.1% |  |
+| 659 | [CVE-2013-3346](../data/cves/2013/CVE-2013-3346.yml) | Adobe Reader and Acrobat Memory Corruption Vulnerability | Adobe Reader and Acrobat | 9.8 | 78.9% |  |
+| 660 | [CVE-2013-0074](../data/cves/2013/CVE-2013-0074.yml) | Microsoft Silverlight Double Dereference Vulnerability | Microsoft Silverlight | 7.8 | 78.9% | 🔒 |
+| 661 | [CVE-2012-4792](../data/cves/2012/CVE-2012-4792.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 78.8% |  |
+| 662 | [CVE-2020-6418](../data/cves/2020/CVE-2020-6418.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 78.8% |  |
+| 663 | [CVE-2021-22555](../data/cves/2021/CVE-2021-22555.yml) | Linux Kernel Heap Out-of-Bounds Write Vulnerability | Linux Kernel | 7.8 | 78.7% |  |
+| 664 | [CVE-2021-1732](../data/cves/2021/CVE-2021-1732.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 78.4% | 🔒 |
+| 665 | [CVE-2020-8816](../data/cves/2020/CVE-2020-8816.yml) | Pi-Hole AdminLTE Remote Code Execution Vulnerability | Pi-hole AdminLTE | 7.2 | 78.3% |  |
+| 666 | [CVE-2021-28799](../data/cves/2021/CVE-2021-28799.yml) | QNAP NAS Improper Authorization Vulnerability | QNAP Network Attached Storage (NAS) | 9.8 | 78.3% | 🔒 |
+| 667 | [CVE-2022-26318](../data/cves/2022/CVE-2022-26318.yml) | WatchGuard Firebox and XTM Appliances Arbitrary Code Execution | WatchGuard Firebox and XTM Appliances | 9.8 | 78.2% |  |
+| 668 | [CVE-2023-24880](../data/cves/2023/CVE-2023-24880.yml) | Microsoft Windows SmartScreen Security Feature Bypass Vulnerability | Microsoft Windows | 4.4 | 78.2% | 🔒 |
+| 669 | [CVE-2011-3402](../data/cves/2011/CVE-2011-3402.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 78.1% |  |
+| 670 | [CVE-2017-0261](../data/cves/2017/CVE-2017-0261.yml) | Microsoft Office Use-After-Free Vulnerability | Microsoft Office | 7.8 | 78.1% |  |
+| 671 | [CVE-2023-27351](../data/cves/2023/CVE-2023-27351.yml) | PaperCut NG/MF Improper Authentication Vulnerability | PaperCut NG/MF | 7.5 | 78.1% | 🔒 |
+| 672 | [CVE-2021-21975](../data/cves/2021/CVE-2021-21975.yml) | VMware Server Side Request Forgery in vRealize Operations Manager API | VMware vRealize Operations Manager API | 7.5 | 78.0% | 🔒 |
+| 673 | [CVE-2026-102764](../data/cves/2026/CVE-2026-102764.yml) | BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability | BeyondTrust Remote Support | 9.3 | 78.0% |  |
+| 674 | [CVE-2023-49103](../data/cves/2023/CVE-2023-49103.yml) | ownCloud graphapi Information Disclosure Vulnerability | ownCloud ownCloud graphapi | 7.5 | 77.8% |  |
+| 675 | [CVE-2013-1347](../data/cves/2013/CVE-2013-1347.yml) | Microsoft Internet Explorer Remote Code Execution Vulnerability | Microsoft Internet Explorer | 8.8 | 77.7% |  |
+| 676 | [CVE-2014-1761](../data/cves/2014/CVE-2014-1761.yml) | Microsoft Word Memory Corruption Vulnerability | Microsoft Word | 7.8 | 77.7% |  |
+| 677 | [CVE-2017-11357](../data/cves/2017/CVE-2017-11357.yml) | Telerik UI for ASP.NET AJAX Insecure Direct Object Reference Vulnerability | Telerik User Interface (UI) for ASP.NET AJAX | 9.8 | 77.7% | 🔒 |
+| 678 | [CVE-2014-6352](../data/cves/2014/CVE-2014-6352.yml) | Microsoft Windows Code Injection Vulnerability | Microsoft Windows | 7.8 | 77.5% |  |
+| 679 | [CVE-2022-41080](../data/cves/2022/CVE-2022-41080.yml) | Microsoft Exchange Server Privilege Escalation Vulnerability | Microsoft Exchange Server | 8.8 | 77.3% | 🔒 |
+| 680 | [CVE-2013-3897](../data/cves/2013/CVE-2013-3897.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 77.3% |  |
+| 681 | [CVE-2019-1429](../data/cves/2019/CVE-2019-1429.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | 7.5 | 77.3% |  |
+| 682 | [CVE-2020-10221](../data/cves/2020/CVE-2020-10221.yml) | rConfig OS Command Injection Vulnerability | rConfig rConfig | 8.8 | 77.3% |  |
+| 683 | [CVE-2023-34192](../data/cves/2023/CVE-2023-34192.yml) | Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 9 | 77.3% |  |
+| 684 | [CVE-2021-42287](../data/cves/2021/CVE-2021-42287.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | 7.5 | 77.2% | 🔒 |
+| 685 | [CVE-2026-33824](../data/cves/2026/CVE-2026-33824.yml) | Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability | Microsoft Internet Key Exchange (IKE) Service Extensions | 9.8 | 77.1% |  |
+| 686 | [CVE-2019-15949](../data/cves/2019/CVE-2019-15949.yml) | Nagios XI Remote Code Execution Vulnerability | Nagios Nagios XI | 8.8 | 77.0% |  |
+| 687 | [CVE-2019-7238](../data/cves/2019/CVE-2019-7238.yml) | Sonatype Nexus Repository Manager Incorrect Access Control Vulnerability | Sonatype Nexus Repository Manager | 9.8 | 76.6% |  |
+| 688 | [CVE-2026-73570](../data/cves/2026/CVE-2026-73570.yml) | Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 8.9 | 76.6% |  |
+| 689 | [CVE-2025-6204](../data/cves/2025/CVE-2025-6204.yml) | Dassault Systèmes DELMIA Apriso Code Injection Vulnerability | Dassault Systèmes DELMIA Apriso | 8 | 76.6% |  |
+| 690 | [CVE-2020-13965](../data/cves/2020/CVE-2020-13965.yml) | Roundcube Webmail Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | 6.1 | 76.6% |  |
+| 691 | [CVE-2008-0015](../data/cves/2008/CVE-2008-0015.yml) |  Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 76.6% |  |
+| 692 | [CVE-2018-15133](../data/cves/2018/CVE-2018-15133.yml) | Laravel Deserialization of Untrusted Data Vulnerability | Laravel Laravel Framework | 8.1 | 76.6% |  |
+| 693 | [CVE-2026-88772](../data/cves/2026/CVE-2026-88772.yml) | Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability | Citrix NetScaler | 9.5 | 76.6% |  |
+| 694 | [CVE-2021-38406](../data/cves/2021/CVE-2021-38406.yml) | Delta Electronics DOPSoft 2 Improper Input Validation Vulnerability | Delta Electronics DOPSoft 2 | 7.8 | 76.4% |  |
+| 695 | [CVE-2023-5631](../data/cves/2023/CVE-2023-5631.yml) | Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | 5.4 | 76.3% |  |
+| 696 | [CVE-2018-15811](../data/cves/2018/CVE-2018-15811.yml) | DotNetNuke (DNN) Inadequate Encryption Strength Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | 7.5 | 76.3% |  |
+| 697 | [CVE-2023-44221](../data/cves/2023/CVE-2023-44221.yml) | SonicWall SMA100 Appliances OS Command Injection Vulnerability | SonicWall SMA100 Appliances | 7.2 | 76.3% |  |
+| 698 | [CVE-2026-25089](../data/cves/2026/CVE-2026-25089.yml) | Fortinet FortiSandbox OS Command Injection Vulnerability | Fortinet FortiSandbox | 9.8 | 76.1% |  |
+| 699 | [CVE-2021-30860](../data/cves/2021/CVE-2021-30860.yml) | Apple Multiple Products Integer Overflow Vulnerability | Apple Multiple Products | 7.8 | 76.0% |  |
+| 700 | [CVE-2015-0016](../data/cves/2015/CVE-2015-0016.yml) | Microsoft Windows TS WebProxy Directory Traversal Vulnerability | Microsoft Windows | 7.8 | 75.8% |  |
+| 701 | [CVE-2016-3718](../data/cves/2016/CVE-2016-3718.yml) | ImageMagick Server-Side Request Forgery (SSRF) Vulnerability | ImageMagick ImageMagick | 5.5 | 75.6% |  |
+| 702 | [CVE-2026-76460](../data/cves/2026/CVE-2026-76460.yml) | Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability | Cisco Identity Services Engine | 10 | 75.6% |  |
+| 703 | [CVE-2012-0391](../data/cves/2012/CVE-2012-0391.yml) | Apache Struts 2 Improper Input Validation Vulnerability | Apache Struts 2 | 9.8 | 75.6% |  |
+| 704 | [CVE-2016-3715](../data/cves/2016/CVE-2016-3715.yml) | ImageMagick Arbitrary File Deletion Vulnerability | ImageMagick ImageMagick | 5.5 | 75.3% |  |
+| 705 | [CVE-2021-42258](../data/cves/2021/CVE-2021-42258.yml) | BQE BillQuick Web Suite SQL Injection Vulnerability | BQE BillQuick Web Suite | 9.8 | 75.2% | 🔒 |
+| 706 | [CVE-2017-9248](../data/cves/2017/CVE-2017-9248.yml) | Progress Telerik UI for ASP.NET AJAX and Sitefinity Cryptographic Weakness Vulnerability | Progress ASP.NET AJAX and Sitefinity | 9.8 | 75.1% |  |
+| 707 | [CVE-2022-44698](../data/cves/2022/CVE-2022-44698.yml) | Microsoft Defender SmartScreen Security Feature Bypass Vulnerability | Microsoft Defender | 5.4 | 75.0% | 🔒 |
+| 708 | [CVE-2025-31125](../data/cves/2025/CVE-2025-31125.yml) | Vite Vitejs Improper Access Control Vulnerability | Vite Vitejs | 7.5 | 74.9% |  |
+| 709 | [CVE-2018-8298](../data/cves/2018/CVE-2018-8298.yml) | ChakraCore Scripting Engine Type Confusion Vulnerability | ChakraCore ChakraCore scripting engine | 7.5 | 74.7% |  |
+| 710 | [CVE-2014-0780](../data/cves/2014/CVE-2014-0780.yml) | InduSoft Web Studio NTWebServer Directory Traversal Vulnerability | InduSoft Web Studio | 9.8 | 74.7% |  |
 | 711 | [CVE-2005-2773](../data/cves/2005/CVE-2005-2773.yml) | HP OpenView Network Node Manager Remote Code Execution Vulnerability | Hewlett Packard (HP) OpenView Network Node Manager | 9.8 | 74.6% |  |
-| 712 | [CVE-2025-20337](../data/cves/2025/CVE-2025-20337.yml) | Cisco Identity Services Engine Injection Vulnerability | Cisco Identity Services Engine | — | 74.5% |  |
-| 713 | [CVE-2025-1316](../data/cves/2025/CVE-2025-1316.yml) | Edimax IC-7100 IP Camera OS Command Injection Vulnerability | Edimax IC-7100 IP Camera | — | 74.5% |  |
-| 714 | [CVE-2019-1003029](../data/cves/2019/CVE-2019-1003029.yml) | Jenkins Script Security Plugin Sandbox Bypass Vulnerability | Jenkins Script Security Plugin | — | 74.4% |  |
-| 715 | [CVE-2019-1458](../data/cves/2019/CVE-2019-1458.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 74.4% | 🔒 |
-| 716 | [CVE-2018-14667](../data/cves/2018/CVE-2018-14667.yml) | Red Hat JBoss RichFaces Framework Expression Language Injection Vulnerability | Red Hat JBoss RichFaces Framework | — | 74.2% |  |
-| 717 | [CVE-2017-8543](../data/cves/2017/CVE-2017-8543.yml) | Microsoft Windows Search Remote Code Execution Vulnerability | Microsoft Windows | — | 74.2% |  |
-| 718 | [CVE-2024-21182](../data/cves/2024/CVE-2024-21182.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | — | 74.2% |  |
-| 719 | [CVE-2013-2551](../data/cves/2013/CVE-2013-2551.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | — | 74.1% | 🔒 |
-| 720 | [CVE-2019-12991](../data/cves/2019/CVE-2019-12991.yml) | Citrix SD-WAN and NetScaler Command Injection Vulnerability | Citrix SD-WAN and NetScaler | — | 74.1% |  |
-| 721 | [CVE-2025-2746](../data/cves/2025/CVE-2025-2746.yml) | Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability | Kentico Xperience CMS | — | 74.1% |  |
-| 722 | [CVE-2018-18325](../data/cves/2018/CVE-2018-18325.yml) | DotNetNuke (DNN) Inadequate Encryption Strength Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | — | 74.0% |  |
-| 723 | [CVE-2024-37383](../data/cves/2024/CVE-2024-37383.yml) | RoundCube Webmail Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | — | 74.0% |  |
-| 724 | [CVE-2015-3043](../data/cves/2015/CVE-2015-3043.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | — | 73.9% |  |
-| 725 | [CVE-2010-0738](../data/cves/2010/CVE-2010-0738.yml) | Red Hat JBoss Authentication Bypass Vulnerability | Red Hat JBoss | — | 73.8% | 🔒 |
-| 726 | [CVE-2013-3918](../data/cves/2013/CVE-2013-3918.yml) | Microsoft Windows Out-of-Bounds Write Vulnerability | Microsoft Windows | — | 73.7% |  |
-| 727 | [CVE-2021-25298](../data/cves/2021/CVE-2021-25298.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | — | 73.6% |  |
-| 728 | [CVE-2025-40536](../data/cves/2025/CVE-2025-40536.yml) | SolarWinds Web Help Desk Security Control Bypass Vulnerability | SolarWinds Web Help Desk | — | 73.6% |  |
-| 729 | [CVE-2026-110447](../data/cves/2026/CVE-2026-110447.yml) | Collabora Online – Built-in CODE Server OS Command Injection Vulnerability | Collabora Collabora Online – Built-in CODE Server | — | 73.3% |  |
-| 730 | [CVE-2021-42278](../data/cves/2021/CVE-2021-42278.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | — | 73.3% | 🔒 |
-| 731 | [CVE-2018-8120](../data/cves/2018/CVE-2018-8120.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 73.3% | 🔒 |
-| 732 | [CVE-2023-47565](../data/cves/2023/CVE-2023-47565.yml) | QNAP VioStor NVR OS Command Injection Vulnerability | QNAP VioStor NVR | — | 73.3% |  |
-| 733 | [CVE-2026-21962](../data/cves/2026/CVE-2026-21962.yml) | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | — | 73.2% |  |
-| 734 | [CVE-2018-0824](../data/cves/2018/CVE-2018-0824.yml) | Microsoft COM for Windows Deserialization of Untrusted Data Vulnerability | Microsoft Windows | — | 73.0% |  |
-| 735 | [CVE-2017-6316](../data/cves/2017/CVE-2017-6316.yml) | Citrix Multiple Products Remote Code Execution Vulnerability | Citrix NetScaler SD-WAN Enterprise, CloudBridge Virtual WAN, and XenMobile Server | — | 73.0% |  |
-| 736 | [CVE-2019-9978](../data/cves/2019/CVE-2019-9978.yml) | WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability | WordPress Social Warfare Plugin | — | 72.9% |  |
-| 737 | [CVE-2020-5741](../data/cves/2020/CVE-2020-5741.yml) | Plex Media Server Remote Code Execution Vulnerability | Plex Media Server | — | 72.9% |  |
-| 738 | [CVE-2017-6334](../data/cves/2017/CVE-2017-6334.yml) | NETGEAR DGN2200 Devices OS Command Injection Vulnerability | NETGEAR DGN2200 Devices | — | 72.6% |  |
-| 739 | [CVE-2018-8414](../data/cves/2018/CVE-2018-8414.yml) | Microsoft Windows Shell Remote Code Execution Vulnerability | Microsoft Windows | — | 72.6% |  |
-| 740 | [CVE-2018-7841](../data/cves/2018/CVE-2018-7841.yml) | Schneider Electric U.motion Builder SQL Injection Vulnerability | Schneider Electric U.motion Builder | — | 72.5% |  |
-| 741 | [CVE-2022-20699](../data/cves/2022/CVE-2022-20699.yml) | Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability | Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers | — | 72.5% |  |
-| 742 | [CVE-2019-2215](../data/cves/2019/CVE-2019-2215.yml) | Android Kernel Use-After-Free Vulnerability | Android Android Kernel | — | 72.1% |  |
-| 743 | [CVE-2025-30066](../data/cves/2025/CVE-2025-30066.yml) | tj-actions/changed-files GitHub Action Embedded Malicious Code Vulnerability | tj-actions changed-files GitHub Action | — | 72.1% |  |
-| 744 | [CVE-2025-20333](../data/cves/2025/CVE-2025-20333.yml) | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Buffer Overflow Vulnerability | Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense | — | 72.0% |  |
-| 745 | [CVE-2012-1856](../data/cves/2012/CVE-2012-1856.yml) | Microsoft Office MSCOMCTL.OCX Remote Code Execution Vulnerability | Microsoft Office | — | 72.0% |  |
-| 746 | [CVE-2021-25296](../data/cves/2021/CVE-2021-25296.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | — | 71.9% |  |
-| 747 | [CVE-2017-8540](../data/cves/2017/CVE-2017-8540.yml) | Microsoft Malware Protection Engine Improper Restriction of Operations Vulnerability | Microsoft Malware Protection Engine | — | 71.9% |  |
-| 748 | [CVE-2010-4344](../data/cves/2010/CVE-2010-4344.yml) | Exim Heap-Based Buffer Overflow Vulnerability | Exim Exim | — | 71.7% |  |
-| 749 | [CVE-2016-2386](../data/cves/2016/CVE-2016-2386.yml) | SAP NetWeaver SQL Injection Vulnerability | SAP NetWeaver | — | 71.5% |  |
-| 750 | [CVE-2020-3259](../data/cves/2020/CVE-2020-3259.yml) | Cisco ASA and FTD Information Disclosure Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | — | 71.5% | 🔒 |
-| 751 | [CVE-2022-28810](../data/cves/2022/CVE-2022-28810.yml) | Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability | Zoho ManageEngine | — | 71.0% |  |
-| 752 | [CVE-2026-32202](../data/cves/2026/CVE-2026-32202.yml) | Microsoft Windows Protection Mechanism Failure Vulnerability | Microsoft Windows | — | 70.9% |  |
-| 753 | [CVE-2022-2294](../data/cves/2022/CVE-2022-2294.yml) | WebRTC Heap Buffer Overflow Vulnerability | WebRTC WebRTC | — | 70.8% | 🔒 |
-| 754 | [CVE-2026-21509](../data/cves/2026/CVE-2026-21509.yml) | Microsoft Office Security Feature Bypass Vulnerability | Microsoft Office | — | 70.8% |  |
-| 755 | [CVE-2013-3163](../data/cves/2013/CVE-2013-3163.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 70.7% |  |
-| 756 | [CVE-2026-42897](../data/cves/2026/CVE-2026-42897.yml) | Microsoft Exchange Server Cross-Site Scripting Vulnerability | Microsoft Microsoft | — | 70.7% |  |
-| 757 | [CVE-2020-36193](../data/cves/2020/CVE-2020-36193.yml) | PEAR Archive_Tar Improper Link Resolution Vulnerability | PEAR Archive_Tar | — | 70.6% |  |
-| 758 | [CVE-2021-21220](../data/cves/2021/CVE-2021-21220.yml) | Google Chromium V8 Improper Input Validation Vulnerability | Google Chromium V8 | — | 70.4% |  |
-| 759 | [CVE-2012-1535](../data/cves/2012/CVE-2012-1535.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | — | 70.4% |  |
-| 760 | [CVE-2017-6736](../data/cves/2017/CVE-2017-6736.yml) | Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability | Cisco IOS and IOS XE Software | — | 70.4% |  |
-| 761 | [CVE-2026-48710](../data/cves/2026/CVE-2026-48710.yml) | Kludex Starlette HTTP Request/Response Smuggling Vulnerability | Kludex Starlette | — | 70.3% |  |
-| 762 | [CVE-2018-8453](../data/cves/2018/CVE-2018-8453.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 70.0% | 🔒 |
-| 763 | [CVE-2020-4427](../data/cves/2020/CVE-2020-4427.yml) | IBM Data Risk Manager Security Bypass Vulnerability | IBM Data Risk Manager | — | 70.0% |  |
-| 764 | [CVE-2021-44026](../data/cves/2021/CVE-2021-44026.yml) | Roundcube Webmail SQL Injection Vulnerability | Roundcube Roundcube Webmail | — | 69.9% |  |
-| 765 | [CVE-2016-0185](../data/cves/2016/CVE-2016-0185.yml) | Microsoft Windows Media Center Remote Code Execution Vulnerability | Microsoft Windows | — | 69.8% |  |
-| 766 | [CVE-2024-20353](../data/cves/2024/CVE-2024-20353.yml) | Cisco ASA and FTD Denial of Service Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | — | 69.8% |  |
-| 767 | [CVE-2016-11021](../data/cves/2016/CVE-2016-11021.yml) | D-Link DCS-930L Devices OS Command Injection Vulnerability | D-Link DCS-930L Devices | — | 69.6% |  |
-| 768 | [CVE-2026-55040](../data/cves/2026/CVE-2026-55040.yml) | Microsoft SharePoint Weak Authentication Vulnerability | Microsoft SharePoint | — | 69.5% |  |
-| 769 | [CVE-2016-0034](../data/cves/2016/CVE-2016-0034.yml) | Microsoft Silverlight Runtime Remote Code Execution Vulnerability | Microsoft Silverlight | — | 69.4% | 🔒 |
-| 770 | [CVE-2026-34909](../data/cves/2026/CVE-2026-34909.yml) | Ubiquiti UniFi OS Path Traversal Vulnerability | Ubiquiti UniFi OS | — | 69.2% |  |
-| 771 | [CVE-2013-1690](../data/cves/2013/CVE-2013-1690.yml) | Mozilla Firefox and Thunderbird Denial-of-Service Vulnerability | Mozilla Firefox and Thunderbird | — | 69.0% |  |
-| 772 | [CVE-2020-0938](../data/cves/2020/CVE-2020-0938.yml) | Microsoft Windows Adobe Font Manager Library Remote Code Execution Vulnerability | Microsoft Windows | — | 69.0% |  |
-| 773 | [CVE-2017-6077](../data/cves/2017/CVE-2017-6077.yml) | NETGEAR DGN2200 Remote Code Execution Vulnerability | NETGEAR Wireless Router DGN2200 | — | 68.7% |  |
-| 774 | [CVE-2015-4495](../data/cves/2015/CVE-2015-4495.yml) | Mozilla Firefox Security Feature Bypass Vulnerability | Mozilla Firefox | — | 68.6% |  |
-| 775 | [CVE-2020-4430](../data/cves/2020/CVE-2020-4430.yml) | IBM Data Risk Manager Directory Traversal Vulnerability | IBM Data Risk Manager | — | 68.5% |  |
-| 776 | [CVE-2021-30657](../data/cves/2021/CVE-2021-30657.yml) | Apple macOS Unspecified Vulnerability | Apple macOS | — | 68.5% |  |
-| 777 | [CVE-2016-3393](../data/cves/2016/CVE-2016-3393.yml) | Microsoft Windows Graphics Device Interface (GDI) Remote Code Execution Vulnerability | Microsoft Windows | — | 68.5% |  |
-| 778 | [CVE-2024-30088](../data/cves/2024/CVE-2024-30088.yml) | Microsoft Windows Kernel TOCTOU Race Condition Vulnerability | Microsoft Windows | — | 68.2% | 🔒 |
-| 779 | [CVE-2025-59718](../data/cves/2025/CVE-2025-59718.yml) | Fortinet Multiple Products Improper Verification of Cryptographic Signature Vulnerability | Fortinet Multiple Products | — | 68.1% |  |
-| 780 | [CVE-2019-18426](../data/cves/2019/CVE-2019-18426.yml) | WhatsApp Cross-Site Scripting Vulnerability | Meta Platforms WhatsApp | — | 68.1% |  |
-| 781 | [CVE-2023-28461](../data/cves/2023/CVE-2023-28461.yml) | Array Networks AG and vxAG ArrayOS Missing Authentication for Critical Function Vulnerability | Array Networks  AG/vxAG ArrayOS | — | 68.1% | 🔒 |
-| 782 | [CVE-2022-34713](../data/cves/2022/CVE-2022-34713.yml) | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability | Microsoft Windows | — | 67.8% |  |
-| 783 | [CVE-2015-8651](../data/cves/2015/CVE-2015-8651.yml) | Adobe Flash Player Integer Overflow Vulnerability | Adobe Flash Player | — | 67.7% |  |
-| 784 | [CVE-2009-0556](../data/cves/2009/CVE-2009-0556.yml) | Microsoft Office PowerPoint Code Injection Vulnerability | Microsoft Office | — | 67.3% |  |
-| 785 | [CVE-2021-36934](../data/cves/2021/CVE-2021-36934.yml) | Microsoft Windows SAM Local Privilege Escalation Vulnerability | Microsoft Windows | — | 67.3% |  |
-| 786 | [CVE-2025-6205](../data/cves/2025/CVE-2025-6205.yml) | Dassault Systèmes DELMIA Apriso Missing Authorization Vulnerability | Dassault Systèmes DELMIA Apriso | — | 67.2% |  |
-| 787 | [CVE-2013-3896](../data/cves/2013/CVE-2013-3896.yml) | Microsoft Silverlight Information Disclosure Vulnerability | Microsoft Silverlight | — | 67.1% |  |
-| 788 | [CVE-2016-4657](../data/cves/2016/CVE-2016-4657.yml) | Apple iOS Webkit Memory Corruption Vulnerability | Apple iOS | — | 66.8% |  |
-| 789 | [CVE-2024-43572](../data/cves/2024/CVE-2024-43572.yml) | Microsoft Windows Management Console Remote Code Execution Vulnerability | Microsoft Windows | — | 66.7% |  |
-| 790 | [CVE-2013-2729](../data/cves/2013/CVE-2013-2729.yml) | Adobe Reader and Acrobat Arbitrary Integer Overflow Vulnerability | Adobe Reader and Acrobat | — | 66.6% |  |
-| 791 | [CVE-2024-57726](../data/cves/2024/CVE-2024-57726.yml) | SimpleHelp Missing Authorization Vulnerability | SimpleHelp  SimpleHelp | — | 66.4% | 🔒 |
-| 792 | [CVE-2013-0631](../data/cves/2013/CVE-2013-0631.yml) | Adobe ColdFusion Information Disclosure Vulnerability | Adobe ColdFusion | — | 66.4% |  |
-| 793 | [CVE-2021-36942](../data/cves/2021/CVE-2021-36942.yml) | Microsoft Windows Local Security Authority (LSA) Spoofing Vulnerability | Microsoft Windows | — | 66.0% | 🔒 |
-| 794 | [CVE-2018-7445](../data/cves/2018/CVE-2018-7445.yml) | MikroTik RouterOS Stack-Based Buffer Overflow Vulnerability | MikroTik RouterOS | — | 65.8% |  |
-| 795 | [CVE-2013-0629](../data/cves/2013/CVE-2013-0629.yml) | Adobe ColdFusion Directory Traversal Vulnerability | Adobe ColdFusion | — | 65.8% |  |
-| 796 | [CVE-2016-20017](../data/cves/2016/CVE-2016-20017.yml) | D-Link DSL-2750B Devices Command Injection Vulnerability | D-Link DSL-2750B Devices | — | 65.8% |  |
-| 797 | [CVE-2015-7645](../data/cves/2015/CVE-2015-7645.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | — | 65.3% | 🔒 |
-| 798 | [CVE-2025-2776](../data/cves/2025/CVE-2025-2776.yml) | SysAid On-Prem Improper Restriction of XML External Entity Reference Vulnerability | SysAid SysAid On-Prem | — | 65.2% |  |
-| 799 | [CVE-2026-97229](../data/cves/2026/CVE-2026-97229.yml) | GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability | GitLab Community Edition and Enterprise Edition | — | 65.2% |  |
-| 800 | [CVE-2025-43300](../data/cves/2025/CVE-2025-43300.yml) | Apple iOS, iPadOS, and macOS Out-of-Bounds Write Vulnerability | Apple iOS, iPadOS, and macOS | — | 65.2% |  |
-| 801 | [CVE-2014-1812](../data/cves/2014/CVE-2014-1812.yml) | Microsoft Windows Group Policy Preferences Password Privilege Escalation Vulnerability | Microsoft Windows | — | 65.1% | 🔒 |
-| 802 | [CVE-2020-1020](../data/cves/2020/CVE-2020-1020.yml) | Microsoft Windows Adobe Font Manager Library Remote Code Execution Vulnerability | Microsoft Windows | — | 65.0% |  |
-| 803 | [CVE-2019-0211](../data/cves/2019/CVE-2019-0211.yml) | Apache HTTP Server Privilege Escalation Vulnerability | Apache HTTP Server | — | 65.0% |  |
-| 804 | [CVE-2021-27877](../data/cves/2021/CVE-2021-27877.yml) | Veritas Backup Exec Agent Improper Authentication Vulnerability | Veritas Backup Exec Agent | — | 64.9% | 🔒 |
-| 805 | [CVE-2021-30551](../data/cves/2021/CVE-2021-30551.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 64.7% |  |
-| 806 | [CVE-2016-7256](../data/cves/2016/CVE-2016-7256.yml) | Microsoft Windows Open Type Font Remote Code Execution Vulnerability | Microsoft Windows | — | 64.6% |  |
-| 807 | [CVE-2024-57728](../data/cves/2024/CVE-2024-57728.yml) | SimpleHelp Path Traversal Vulnerability | SimpleHelp  SimpleHelp | — | 64.5% | 🔒 |
-| 808 | [CVE-2023-29552](../data/cves/2023/CVE-2023-29552.yml) | Service Location Protocol (SLP) Denial-of-Service Vulnerability | IETF Service Location Protocol (SLP) | — | 64.0% |  |
-| 809 | [CVE-2020-15999](../data/cves/2020/CVE-2020-15999.yml) | Google Chrome FreeType Heap Buffer Overflow Vulnerability | Google Chrome FreeType | — | 63.9% |  |
-| 810 | [CVE-2023-4911](../data/cves/2023/CVE-2023-4911.yml) | GNU C Library Buffer Overflow Vulnerability | GNU GNU C Library | — | 63.8% |  |
-| 811 | [CVE-2023-43770](../data/cves/2023/CVE-2023-43770.yml) | Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | — | 63.7% |  |
-| 812 | [CVE-2015-4068](../data/cves/2015/CVE-2015-4068.yml) | Arcserve Unified Data Protection (UDP) Directory Traversal Vulnerability | Arcserve Unified Data Protection (UDP) | — | 63.6% |  |
-| 813 | [CVE-2021-22681](../data/cves/2021/CVE-2021-22681.yml) | Rockwell Multiple Products Insufficient Protected Credentials Vulnerability | Rockwell Multiple Products | — | 63.6% |  |
-| 814 | [CVE-2023-35081](../data/cves/2023/CVE-2023-35081.yml) | Ivanti Endpoint Manager Mobile (EPMM) Path Traversal Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | — | 63.6% |  |
-| 815 | [CVE-2011-0609](../data/cves/2011/CVE-2011-0609.yml) | Adobe Flash Player Unspecified Vulnerability | Adobe Flash Player | — | 63.5% |  |
-| 816 | [CVE-2019-8394](../data/cves/2019/CVE-2019-8394.yml) | Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability | Zoho ManageEngine | — | 63.3% |  |
-| 817 | [CVE-2021-30632](../data/cves/2021/CVE-2021-30632.yml) | Google Chromium V8 Out-of-Bounds Write Vulnerability | Google Chromium V8 | — | 63.2% |  |
-| 818 | [CVE-2026-45498](../data/cves/2026/CVE-2026-45498.yml) | Microsoft Defender Denial of Service Vulnerability | Microsoft Defender | — | 63.1% |  |
-| 819 | [CVE-2026-82078](../data/cves/2026/CVE-2026-82078.yml) | PaperCut NG/MF Unsafe Reflection Vulnerability | PaperCut NG/MF | — | 63.0% |  |
-| 820 | [CVE-2016-0151](../data/cves/2016/CVE-2016-0151.yml) | Microsoft Windows CSRSS Security Feature Bypass Vulnerability | Microsoft Client-Server Run-time Subsystem (CSRSS) | — | 62.8% | 🔒 |
-| 821 | [CVE-2026-0770](../data/cves/2026/CVE-2026-0770.yml) | Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability | Langflow Langflow | — | 62.6% |  |
-| 822 | [CVE-2025-47813](../data/cves/2025/CVE-2025-47813.yml) | Wing FTP Server Information Disclosure Vulnerability | Wing FTP Server Wing FTP Server | — | 62.5% |  |
-| 823 | [CVE-2022-21445](../data/cves/2022/CVE-2022-21445.yml) | Oracle ADF Faces Deserialization of Untrusted Data Vulnerability | Oracle ADF Faces | — | 62.5% |  |
-| 824 | [CVE-2021-22991](../data/cves/2021/CVE-2021-22991.yml) | F5 BIG-IP Traffic Management Microkernel Buffer Overflow | F5 BIG-IP Traffic Management Microkernel | — | 62.4% |  |
-| 825 | [CVE-2025-24054](../data/cves/2025/CVE-2025-24054.yml) | Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability | Microsoft Windows | — | 62.3% |  |
-| 826 | [CVE-2024-21338](../data/cves/2024/CVE-2024-21338.yml) | Microsoft Windows Kernel Exposed IOCTL with Insufficient Access Control Vulnerability | Microsoft Windows | — | 62.2% | 🔒 |
-| 827 | [CVE-2017-0059](../data/cves/2017/CVE-2017-0059.yml) | Microsoft Internet Explorer Information Disclosure Vulnerability | Microsoft Internet Explorer | — | 62.0% |  |
-| 828 | [CVE-2018-4939](../data/cves/2018/CVE-2018-4939.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | — | 61.8% |  |
-| 829 | [CVE-2018-8373](../data/cves/2018/CVE-2018-8373.yml) | Microsoft Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer Scripting Engine | — | 61.8% |  |
-| 830 | [CVE-2024-23113](../data/cves/2024/CVE-2024-23113.yml) | Fortinet Multiple Products Format String Vulnerability | Fortinet Multiple Products | — | 61.7% |  |
-| 831 | [CVE-2020-4428](../data/cves/2020/CVE-2020-4428.yml) | IBM Data Risk Manager Remote Code Execution Vulnerability | IBM Data Risk Manager | — | 61.7% |  |
-| 832 | [CVE-2026-59310](../data/cves/2026/CVE-2026-59310.yml) | Broadcom VMware vCenter Path Traversal Vulnerability | Broadcom VMware vCenter | — | 61.7% | 🔒 |
-| 833 | [CVE-2015-7755](../data/cves/2015/CVE-2015-7755.yml) | Juniper ScreenOS Improper Authentication Vulnerability | Juniper ScreenOS | — | 61.4% |  |
-| 834 | [CVE-2026-21510](../data/cves/2026/CVE-2026-21510.yml) | Microsoft Windows Shell Protection Mechanism Failure Vulnerability | Microsoft Windows | — | 61.2% |  |
-| 835 | [CVE-2025-58360](../data/cves/2025/CVE-2025-58360.yml) | OSGeo GeoServer Improper Restriction of XML External Entity Reference Vulnerability | OSGeo GeoServer | — | 61.2% |  |
-| 836 | [CVE-2019-5786](../data/cves/2019/CVE-2019-5786.yml) | Google Chrome Blink Use-After-Free Vulnerability | Google Chrome Blink | — | 61.1% |  |
-| 837 | [CVE-2024-54085](../data/cves/2024/CVE-2024-54085.yml) | AMI MegaRAC SPx Authentication Bypass by Spoofing Vulnerability | AMI MegaRAC SPx | — | 60.7% |  |
-| 838 | [CVE-2025-53690](../data/cves/2025/CVE-2025-53690.yml) | Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability | Sitecore Multiple Products | — | 60.7% |  |
-| 839 | [CVE-2026-33634](../data/cves/2026/CVE-2026-33634.yml) | Aquasecurity Trivy Embedded Malicious Code Vulnerability | Aquasecurity Trivy | — | 60.4% |  |
-| 840 | [CVE-2018-6065](../data/cves/2018/CVE-2018-6065.yml) | Google Chromium V8 Integer Overflow Vulnerability | Google Chromium V8 | — | 60.3% |  |
-| 841 | [CVE-2025-62593](../data/cves/2025/CVE-2025-62593.yml) | Ray-Project Ray Code Injection Vulnerability | Ray-Project Ray | — | 60.2% |  |
-| 842 | [CVE-2020-8655](../data/cves/2020/CVE-2020-8655.yml) | EyesOfNetwork Improper Privilege Management Vulnerability | EyesOfNetwork EyesOfNetwork | — | 59.9% |  |
-| 843 | [CVE-2014-4148](../data/cves/2014/CVE-2014-4148.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | — | 59.9% |  |
-| 844 | [CVE-2009-0563](../data/cves/2009/CVE-2009-0563.yml) | Microsoft Office Buffer Overflow Vulnerability | Microsoft Office | — | 59.6% |  |
-| 845 | [CVE-2017-11774](../data/cves/2017/CVE-2017-11774.yml) | Microsoft Office Outlook Security Feature Bypass Vulnerability | Microsoft Office | — | 59.6% |  |
-| 846 | [CVE-2023-21608](../data/cves/2023/CVE-2023-21608.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | — | 59.4% |  |
-| 847 | [CVE-2021-33742](../data/cves/2021/CVE-2021-33742.yml) | Microsoft Windows MSHTML Platform Remote Code Execution Vulnerability | Microsoft Windows | — | 59.4% |  |
-| 848 | [CVE-2023-21529](../data/cves/2023/CVE-2023-21529.yml) | Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability | Microsoft Exchange Server | — | 59.3% | 🔒 |
-| 849 | [CVE-2022-21882](../data/cves/2022/CVE-2022-21882.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 59.2% | 🔒 |
-| 850 | [CVE-2016-7262](../data/cves/2016/CVE-2016-7262.yml) | Microsoft Office Security Feature Bypass Vulnerability | Microsoft Excel | — | 58.8% |  |
-| 851 | [CVE-2024-8956](../data/cves/2024/CVE-2024-8956.yml) | PTZOptics PT30X-SDI/NDI Cameras Authentication Bypass Vulnerability | PTZOptics PT30X-SDI/NDI Cameras | — | 58.8% |  |
-| 852 | [CVE-2010-2572](../data/cves/2010/CVE-2010-2572.yml) | Microsoft PowerPoint Buffer Overflow Vulnerability | Microsoft PowerPoint | — | 58.6% |  |
-| 853 | [CVE-2024-9380](../data/cves/2024/CVE-2024-9380.yml) | Ivanti Cloud Services Appliance (CSA) OS Command Injection Vulnerability | Ivanti Cloud Services Appliance (CSA) | — | 58.3% |  |
-| 854 | [CVE-2023-32434](../data/cves/2023/CVE-2023-32434.yml) | Apple Multiple Products Integer Overflow Vulnerability | Apple Multiple Products | — | 58.2% |  |
-| 855 | [CVE-2023-6549](../data/cves/2023/CVE-2023-6549.yml) | Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability | Citrix NetScaler ADC and NetScaler Gateway | — | 57.6% |  |
-| 856 | [CVE-2016-7193](../data/cves/2016/CVE-2016-7193.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 57.6% |  |
-| 857 | [CVE-2017-0101](../data/cves/2017/CVE-2017-0101.yml) | Microsoft Windows Transaction Manager Privilege Escalation Vulnerability | Microsoft Windows | — | 57.5% | 🔒 |
-| 858 | [CVE-2020-26919](../data/cves/2020/CVE-2020-26919.yml) | Netgear JGS516PE Devices Missing Function Level Access Control Vulnerability | NETGEAR JGS516PE Devices | — | 57.5% |  |
-| 859 | [CVE-2019-1068](../data/cves/2019/CVE-2019-1068.yml) | Microsoft SQL Server Remote Code Execution Vulnerability | Microsoft SQL Server | — | 57.3% |  |
-| 860 | [CVE-2021-27104](../data/cves/2021/CVE-2021-27104.yml) | Accellion FTA OS Command Injection Vulnerability | Accellion FTA | — | 56.7% | 🔒 |
-| 861 | [CVE-2021-25297](../data/cves/2021/CVE-2021-25297.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | — | 56.7% |  |
-| 862 | [CVE-2025-32463](../data/cves/2025/CVE-2025-32463.yml) | Sudo Inclusion of Functionality from Untrusted Control Sphere Vulnerability | Sudo Sudo | — | 56.3% |  |
-| 863 | [CVE-2019-5825](../data/cves/2019/CVE-2019-5825.yml) | Google Chromium V8 Out-of-Bounds Write Vulnerability | Google Chromium V8 | — | 55.9% |  |
-| 864 | [CVE-2015-1701](../data/cves/2015/CVE-2015-1701.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 55.9% | 🔒 |
-| 865 | [CVE-2019-11708](../data/cves/2019/CVE-2019-11708.yml) | Mozilla Firefox and Thunderbird Sandbox Escape Vulnerability | Mozilla Firefox and Thunderbird | — | 55.9% |  |
-| 866 | [CVE-2020-29557](../data/cves/2020/CVE-2020-29557.yml) | D-Link DIR-825 R1 Devices Buffer Overflow Vulnerability | D-Link DIR-825 R1 Devices | — | 55.7% |  |
-| 867 | [CVE-2022-37055](../data/cves/2022/CVE-2022-37055.yml) | D-Link Routers Buffer Overflow Vulnerability | D-Link Routers | — | 55.5% |  |
-| 868 | [CVE-2025-14174](../data/cves/2025/CVE-2025-14174.yml) | Google Chromium Out of Bounds Memory Access Vulnerability | Google Chromium | — | 55.3% |  |
-| 869 | [CVE-2022-29499](../data/cves/2022/CVE-2022-29499.yml) | Mitel MiVoice Connect Data Validation Vulnerability | Mitel MiVoice Connect | — | 55.2% | 🔒 |
-| 870 | [CVE-2018-0125](../data/cves/2018/CVE-2018-0125.yml) | Cisco VPN Routers Remote Code Execution Vulnerability | Cisco VPN Routers | — | 55.2% |  |
-| 871 | [CVE-2025-25181](../data/cves/2025/CVE-2025-25181.yml) |  Advantive VeraCore SQL Injection Vulnerability | Advantive VeraCore | — | 54.8% |  |
-| 872 | [CVE-2025-58034](../data/cves/2025/CVE-2025-58034.yml) | Fortinet FortiWeb OS Command Injection Vulnerability | Fortinet FortiWeb | — | 54.7% |  |
-| 873 | [CVE-2019-19006](../data/cves/2019/CVE-2019-19006.yml) |  Sangoma FreePBX Improper Authentication Vulnerability | Sangoma FreePBX | — | 54.7% |  |
+| 712 | [CVE-2025-20337](../data/cves/2025/CVE-2025-20337.yml) | Cisco Identity Services Engine Injection Vulnerability | Cisco Identity Services Engine | 10 | 74.5% |  |
+| 713 | [CVE-2025-1316](../data/cves/2025/CVE-2025-1316.yml) | Edimax IC-7100 IP Camera OS Command Injection Vulnerability | Edimax IC-7100 IP Camera | 9.3 | 74.5% |  |
+| 714 | [CVE-2019-1003029](../data/cves/2019/CVE-2019-1003029.yml) | Jenkins Script Security Plugin Sandbox Bypass Vulnerability | Jenkins Script Security Plugin | 9.9 | 74.4% |  |
+| 715 | [CVE-2019-1458](../data/cves/2019/CVE-2019-1458.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 74.4% | 🔒 |
+| 716 | [CVE-2018-14667](../data/cves/2018/CVE-2018-14667.yml) | Red Hat JBoss RichFaces Framework Expression Language Injection Vulnerability | Red Hat JBoss RichFaces Framework | 9.8 | 74.2% |  |
+| 717 | [CVE-2017-8543](../data/cves/2017/CVE-2017-8543.yml) | Microsoft Windows Search Remote Code Execution Vulnerability | Microsoft Windows | 9.8 | 74.2% |  |
+| 718 | [CVE-2024-21182](../data/cves/2024/CVE-2024-21182.yml) | Oracle WebLogic Server Unspecified Vulnerability | Oracle WebLogic Server | 7.5 | 74.2% |  |
+| 719 | [CVE-2013-2551](../data/cves/2013/CVE-2013-2551.yml) | Microsoft Internet Explorer Use-After-Free Vulnerability | Microsoft Internet Explorer | 8.8 | 74.1% | 🔒 |
+| 720 | [CVE-2019-12991](../data/cves/2019/CVE-2019-12991.yml) | Citrix SD-WAN and NetScaler Command Injection Vulnerability | Citrix SD-WAN and NetScaler | 8.8 | 74.1% |  |
+| 721 | [CVE-2025-2746](../data/cves/2025/CVE-2025-2746.yml) | Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability | Kentico Xperience CMS | 9.8 | 74.1% |  |
+| 722 | [CVE-2018-18325](../data/cves/2018/CVE-2018-18325.yml) | DotNetNuke (DNN) Inadequate Encryption Strength Vulnerability | DotNetNuke (DNN) DotNetNuke (DNN) | 7.5 | 74.0% |  |
+| 723 | [CVE-2024-37383](../data/cves/2024/CVE-2024-37383.yml) | RoundCube Webmail Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | 6.1 | 74.0% |  |
+| 724 | [CVE-2015-3043](../data/cves/2015/CVE-2015-3043.yml) | Adobe Flash Player Memory Corruption Vulnerability | Adobe Flash Player | 9.8 | 73.9% |  |
+| 725 | [CVE-2010-0738](../data/cves/2010/CVE-2010-0738.yml) | Red Hat JBoss Authentication Bypass Vulnerability | Red Hat JBoss | 5.3 | 73.8% | 🔒 |
+| 726 | [CVE-2013-3918](../data/cves/2013/CVE-2013-3918.yml) | Microsoft Windows Out-of-Bounds Write Vulnerability | Microsoft Windows | 8.8 | 73.7% |  |
+| 727 | [CVE-2021-25298](../data/cves/2021/CVE-2021-25298.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | 8.8 | 73.6% |  |
+| 728 | [CVE-2025-40536](../data/cves/2025/CVE-2025-40536.yml) | SolarWinds Web Help Desk Security Control Bypass Vulnerability | SolarWinds Web Help Desk | 9.8 | 73.6% |  |
+| 729 | [CVE-2026-110447](../data/cves/2026/CVE-2026-110447.yml) | Collabora Online – Built-in CODE Server OS Command Injection Vulnerability | Collabora Collabora Online – Built-in CODE Server | 9.2 | 73.3% |  |
+| 730 | [CVE-2021-42278](../data/cves/2021/CVE-2021-42278.yml) | Microsoft Active Directory Domain Services Privilege Escalation Vulnerability | Microsoft Active Directory | 7.5 | 73.3% | 🔒 |
+| 731 | [CVE-2018-8120](../data/cves/2018/CVE-2018-8120.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7 | 73.3% | 🔒 |
+| 732 | [CVE-2023-47565](../data/cves/2023/CVE-2023-47565.yml) | QNAP VioStor NVR OS Command Injection Vulnerability | QNAP VioStor NVR | 8.8 | 73.3% |  |
+| 733 | [CVE-2026-21962](../data/cves/2026/CVE-2026-21962.yml) | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | 10 | 73.2% |  |
+| 734 | [CVE-2018-0824](../data/cves/2018/CVE-2018-0824.yml) | Microsoft COM for Windows Deserialization of Untrusted Data Vulnerability | Microsoft Windows | 8.8 | 73.0% |  |
+| 735 | [CVE-2017-6316](../data/cves/2017/CVE-2017-6316.yml) | Citrix Multiple Products Remote Code Execution Vulnerability | Citrix NetScaler SD-WAN Enterprise, CloudBridge Virtual WAN, and XenMobile Server | 9.8 | 73.0% |  |
+| 736 | [CVE-2019-9978](../data/cves/2019/CVE-2019-9978.yml) | WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability | WordPress Social Warfare Plugin | 6.1 | 72.9% |  |
+| 737 | [CVE-2020-5741](../data/cves/2020/CVE-2020-5741.yml) | Plex Media Server Remote Code Execution Vulnerability | Plex Media Server | 7.2 | 72.9% |  |
+| 738 | [CVE-2017-6334](../data/cves/2017/CVE-2017-6334.yml) | NETGEAR DGN2200 Devices OS Command Injection Vulnerability | NETGEAR DGN2200 Devices | 8.8 | 72.6% |  |
+| 739 | [CVE-2018-8414](../data/cves/2018/CVE-2018-8414.yml) | Microsoft Windows Shell Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 72.6% |  |
+| 740 | [CVE-2018-7841](../data/cves/2018/CVE-2018-7841.yml) | Schneider Electric U.motion Builder SQL Injection Vulnerability | Schneider Electric U.motion Builder | 9.8 | 72.5% |  |
+| 741 | [CVE-2022-20699](../data/cves/2022/CVE-2022-20699.yml) | Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability | Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers | 9.8 | 72.5% |  |
+| 742 | [CVE-2019-2215](../data/cves/2019/CVE-2019-2215.yml) | Android Kernel Use-After-Free Vulnerability | Android Android Kernel | 7.8 | 72.1% |  |
+| 743 | [CVE-2025-30066](../data/cves/2025/CVE-2025-30066.yml) | tj-actions/changed-files GitHub Action Embedded Malicious Code Vulnerability | tj-actions changed-files GitHub Action | 8.6 | 72.1% |  |
+| 744 | [CVE-2025-20333](../data/cves/2025/CVE-2025-20333.yml) | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Buffer Overflow Vulnerability | Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense | 9.9 | 72.0% |  |
+| 745 | [CVE-2012-1856](../data/cves/2012/CVE-2012-1856.yml) | Microsoft Office MSCOMCTL.OCX Remote Code Execution Vulnerability | Microsoft Office | 8.8 | 72.0% |  |
+| 746 | [CVE-2021-25296](../data/cves/2021/CVE-2021-25296.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | 8.8 | 71.9% |  |
+| 747 | [CVE-2017-8540](../data/cves/2017/CVE-2017-8540.yml) | Microsoft Malware Protection Engine Improper Restriction of Operations Vulnerability | Microsoft Malware Protection Engine | 7.8 | 71.9% |  |
+| 748 | [CVE-2010-4344](../data/cves/2010/CVE-2010-4344.yml) | Exim Heap-Based Buffer Overflow Vulnerability | Exim Exim | 9.8 | 71.7% |  |
+| 749 | [CVE-2016-2386](../data/cves/2016/CVE-2016-2386.yml) | SAP NetWeaver SQL Injection Vulnerability | SAP NetWeaver | 9.8 | 71.5% |  |
+| 750 | [CVE-2020-3259](../data/cves/2020/CVE-2020-3259.yml) | Cisco ASA and FTD Information Disclosure Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7.5 | 71.5% | 🔒 |
+| 751 | [CVE-2022-28810](../data/cves/2022/CVE-2022-28810.yml) | Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability | Zoho ManageEngine | 6.8 | 71.0% |  |
+| 752 | [CVE-2026-32202](../data/cves/2026/CVE-2026-32202.yml) | Microsoft Windows Protection Mechanism Failure Vulnerability | Microsoft Windows | 4.3 | 70.9% |  |
+| 753 | [CVE-2022-2294](../data/cves/2022/CVE-2022-2294.yml) | WebRTC Heap Buffer Overflow Vulnerability | WebRTC WebRTC | 8.8 | 70.8% | 🔒 |
+| 754 | [CVE-2026-21509](../data/cves/2026/CVE-2026-21509.yml) | Microsoft Office Security Feature Bypass Vulnerability | Microsoft Office | 7.8 | 70.8% |  |
+| 755 | [CVE-2013-3163](../data/cves/2013/CVE-2013-3163.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.8 | 70.7% |  |
+| 756 | [CVE-2026-42897](../data/cves/2026/CVE-2026-42897.yml) | Microsoft Exchange Server Cross-Site Scripting Vulnerability | Microsoft Microsoft | 6.1 | 70.7% |  |
+| 757 | [CVE-2020-36193](../data/cves/2020/CVE-2020-36193.yml) | PEAR Archive_Tar Improper Link Resolution Vulnerability | PEAR Archive_Tar | 7.5 | 70.6% |  |
+| 758 | [CVE-2021-21220](../data/cves/2021/CVE-2021-21220.yml) | Google Chromium V8 Improper Input Validation Vulnerability | Google Chromium V8 | 8.8 | 70.4% |  |
+| 759 | [CVE-2012-1535](../data/cves/2012/CVE-2012-1535.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | 7.8 | 70.4% |  |
+| 760 | [CVE-2017-6736](../data/cves/2017/CVE-2017-6736.yml) | Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability | Cisco IOS and IOS XE Software | 8.8 | 70.4% |  |
+| 761 | [CVE-2026-48710](../data/cves/2026/CVE-2026-48710.yml) | Kludex Starlette HTTP Request/Response Smuggling Vulnerability | Kludex Starlette | 6.5 | 70.3% |  |
+| 762 | [CVE-2018-8453](../data/cves/2018/CVE-2018-8453.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 70.0% | 🔒 |
+| 763 | [CVE-2020-4427](../data/cves/2020/CVE-2020-4427.yml) | IBM Data Risk Manager Security Bypass Vulnerability | IBM Data Risk Manager | 9.8 | 70.0% |  |
+| 764 | [CVE-2021-44026](../data/cves/2021/CVE-2021-44026.yml) | Roundcube Webmail SQL Injection Vulnerability | Roundcube Roundcube Webmail | 9.8 | 69.9% |  |
+| 765 | [CVE-2016-0185](../data/cves/2016/CVE-2016-0185.yml) | Microsoft Windows Media Center Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 69.8% |  |
+| 766 | [CVE-2024-20353](../data/cves/2024/CVE-2024-20353.yml) | Cisco ASA and FTD Denial of Service Vulnerability | Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 8.6 | 69.8% |  |
+| 767 | [CVE-2016-11021](../data/cves/2016/CVE-2016-11021.yml) | D-Link DCS-930L Devices OS Command Injection Vulnerability | D-Link DCS-930L Devices | 7.2 | 69.6% |  |
+| 768 | [CVE-2026-55040](../data/cves/2026/CVE-2026-55040.yml) | Microsoft SharePoint Weak Authentication Vulnerability | Microsoft SharePoint | 9.1 | 69.5% |  |
+| 769 | [CVE-2016-0034](../data/cves/2016/CVE-2016-0034.yml) | Microsoft Silverlight Runtime Remote Code Execution Vulnerability | Microsoft Silverlight | 8.8 | 69.4% | 🔒 |
+| 770 | [CVE-2026-34909](../data/cves/2026/CVE-2026-34909.yml) | Ubiquiti UniFi OS Path Traversal Vulnerability | Ubiquiti UniFi OS | 10 | 69.2% |  |
+| 771 | [CVE-2013-1690](../data/cves/2013/CVE-2013-1690.yml) | Mozilla Firefox and Thunderbird Denial-of-Service Vulnerability | Mozilla Firefox and Thunderbird | 8.8 | 69.0% |  |
+| 772 | [CVE-2020-0938](../data/cves/2020/CVE-2020-0938.yml) | Microsoft Windows Adobe Font Manager Library Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 69.0% |  |
+| 773 | [CVE-2017-6077](../data/cves/2017/CVE-2017-6077.yml) | NETGEAR DGN2200 Remote Code Execution Vulnerability | NETGEAR Wireless Router DGN2200 | 9.8 | 68.7% |  |
+| 774 | [CVE-2015-4495](../data/cves/2015/CVE-2015-4495.yml) | Mozilla Firefox Security Feature Bypass Vulnerability | Mozilla Firefox | 8.8 | 68.6% |  |
+| 775 | [CVE-2020-4430](../data/cves/2020/CVE-2020-4430.yml) | IBM Data Risk Manager Directory Traversal Vulnerability | IBM Data Risk Manager | 4.3 | 68.5% |  |
+| 776 | [CVE-2021-30657](../data/cves/2021/CVE-2021-30657.yml) | Apple macOS Unspecified Vulnerability | Apple macOS | 5.5 | 68.5% |  |
+| 777 | [CVE-2016-3393](../data/cves/2016/CVE-2016-3393.yml) | Microsoft Windows Graphics Device Interface (GDI) Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 68.5% |  |
+| 778 | [CVE-2024-30088](../data/cves/2024/CVE-2024-30088.yml) | Microsoft Windows Kernel TOCTOU Race Condition Vulnerability | Microsoft Windows | 7 | 68.2% | 🔒 |
+| 779 | [CVE-2025-59718](../data/cves/2025/CVE-2025-59718.yml) | Fortinet Multiple Products Improper Verification of Cryptographic Signature Vulnerability | Fortinet Multiple Products | 9.8 | 68.1% |  |
+| 780 | [CVE-2019-18426](../data/cves/2019/CVE-2019-18426.yml) | WhatsApp Cross-Site Scripting Vulnerability | Meta Platforms WhatsApp | 8.2 | 68.1% |  |
+| 781 | [CVE-2023-28461](../data/cves/2023/CVE-2023-28461.yml) | Array Networks AG and vxAG ArrayOS Missing Authentication for Critical Function Vulnerability | Array Networks  AG/vxAG ArrayOS | 9.8 | 68.1% | 🔒 |
+| 782 | [CVE-2022-34713](../data/cves/2022/CVE-2022-34713.yml) | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 67.8% |  |
+| 783 | [CVE-2015-8651](../data/cves/2015/CVE-2015-8651.yml) | Adobe Flash Player Integer Overflow Vulnerability | Adobe Flash Player | 8.8 | 67.7% |  |
+| 784 | [CVE-2009-0556](../data/cves/2009/CVE-2009-0556.yml) | Microsoft Office PowerPoint Code Injection Vulnerability | Microsoft Office | 8.8 | 67.3% |  |
+| 785 | [CVE-2021-36934](../data/cves/2021/CVE-2021-36934.yml) | Microsoft Windows SAM Local Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 67.3% |  |
+| 786 | [CVE-2025-6205](../data/cves/2025/CVE-2025-6205.yml) | Dassault Systèmes DELMIA Apriso Missing Authorization Vulnerability | Dassault Systèmes DELMIA Apriso | 9.1 | 67.2% |  |
+| 787 | [CVE-2013-3896](../data/cves/2013/CVE-2013-3896.yml) | Microsoft Silverlight Information Disclosure Vulnerability | Microsoft Silverlight | 5.5 | 67.1% |  |
+| 788 | [CVE-2016-4657](../data/cves/2016/CVE-2016-4657.yml) | Apple iOS Webkit Memory Corruption Vulnerability | Apple iOS | 8.8 | 66.8% |  |
+| 789 | [CVE-2024-43572](../data/cves/2024/CVE-2024-43572.yml) | Microsoft Windows Management Console Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 66.7% |  |
+| 790 | [CVE-2013-2729](../data/cves/2013/CVE-2013-2729.yml) | Adobe Reader and Acrobat Arbitrary Integer Overflow Vulnerability | Adobe Reader and Acrobat | 9.8 | 66.6% |  |
+| 791 | [CVE-2024-57726](../data/cves/2024/CVE-2024-57726.yml) | SimpleHelp Missing Authorization Vulnerability | SimpleHelp  SimpleHelp | 9.9 | 66.4% | 🔒 |
+| 792 | [CVE-2013-0631](../data/cves/2013/CVE-2013-0631.yml) | Adobe ColdFusion Information Disclosure Vulnerability | Adobe ColdFusion | 7.5 | 66.4% |  |
+| 793 | [CVE-2021-36942](../data/cves/2021/CVE-2021-36942.yml) | Microsoft Windows Local Security Authority (LSA) Spoofing Vulnerability | Microsoft Windows | 7.5 | 66.0% | 🔒 |
+| 794 | [CVE-2018-7445](../data/cves/2018/CVE-2018-7445.yml) | MikroTik RouterOS Stack-Based Buffer Overflow Vulnerability | MikroTik RouterOS | 9.8 | 65.8% |  |
+| 795 | [CVE-2013-0629](../data/cves/2013/CVE-2013-0629.yml) | Adobe ColdFusion Directory Traversal Vulnerability | Adobe ColdFusion | 7.5 | 65.8% |  |
+| 796 | [CVE-2016-20017](../data/cves/2016/CVE-2016-20017.yml) | D-Link DSL-2750B Devices Command Injection Vulnerability | D-Link DSL-2750B Devices | 9.8 | 65.8% |  |
+| 797 | [CVE-2015-7645](../data/cves/2015/CVE-2015-7645.yml) | Adobe Flash Player Arbitrary Code Execution Vulnerability | Adobe Flash Player | 7.8 | 65.3% | 🔒 |
+| 798 | [CVE-2025-2776](../data/cves/2025/CVE-2025-2776.yml) | SysAid On-Prem Improper Restriction of XML External Entity Reference Vulnerability | SysAid SysAid On-Prem | 9.8 | 65.2% |  |
+| 799 | [CVE-2026-97229](../data/cves/2026/CVE-2026-97229.yml) | GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability | GitLab Community Edition and Enterprise Edition | 10 | 65.2% |  |
+| 800 | [CVE-2025-43300](../data/cves/2025/CVE-2025-43300.yml) | Apple iOS, iPadOS, and macOS Out-of-Bounds Write Vulnerability | Apple iOS, iPadOS, and macOS | 10 | 65.2% |  |
+| 801 | [CVE-2014-1812](../data/cves/2014/CVE-2014-1812.yml) | Microsoft Windows Group Policy Preferences Password Privilege Escalation Vulnerability | Microsoft Windows | 8.8 | 65.1% | 🔒 |
+| 802 | [CVE-2020-1020](../data/cves/2020/CVE-2020-1020.yml) | Microsoft Windows Adobe Font Manager Library Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 65.0% |  |
+| 803 | [CVE-2019-0211](../data/cves/2019/CVE-2019-0211.yml) | Apache HTTP Server Privilege Escalation Vulnerability | Apache HTTP Server | 7.8 | 65.0% |  |
+| 804 | [CVE-2021-27877](../data/cves/2021/CVE-2021-27877.yml) | Veritas Backup Exec Agent Improper Authentication Vulnerability | Veritas Backup Exec Agent | 9.8 | 64.9% | 🔒 |
+| 805 | [CVE-2021-30551](../data/cves/2021/CVE-2021-30551.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 64.7% |  |
+| 806 | [CVE-2016-7256](../data/cves/2016/CVE-2016-7256.yml) | Microsoft Windows Open Type Font Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 64.6% |  |
+| 807 | [CVE-2024-57728](../data/cves/2024/CVE-2024-57728.yml) | SimpleHelp Path Traversal Vulnerability | SimpleHelp  SimpleHelp | 7.2 | 64.5% | 🔒 |
+| 808 | [CVE-2023-29552](../data/cves/2023/CVE-2023-29552.yml) | Service Location Protocol (SLP) Denial-of-Service Vulnerability | IETF Service Location Protocol (SLP) | 7.5 | 64.0% |  |
+| 809 | [CVE-2020-15999](../data/cves/2020/CVE-2020-15999.yml) | Google Chrome FreeType Heap Buffer Overflow Vulnerability | Google Chrome FreeType | 9.6 | 63.9% |  |
+| 810 | [CVE-2023-4911](../data/cves/2023/CVE-2023-4911.yml) | GNU C Library Buffer Overflow Vulnerability | GNU GNU C Library | 7.8 | 63.8% |  |
+| 811 | [CVE-2023-43770](../data/cves/2023/CVE-2023-43770.yml) | Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability | Roundcube Webmail | 6.1 | 63.7% |  |
+| 812 | [CVE-2015-4068](../data/cves/2015/CVE-2015-4068.yml) | Arcserve Unified Data Protection (UDP) Directory Traversal Vulnerability | Arcserve Unified Data Protection (UDP) | 9.1 | 63.6% |  |
+| 813 | [CVE-2021-22681](../data/cves/2021/CVE-2021-22681.yml) | Rockwell Multiple Products Insufficient Protected Credentials Vulnerability | Rockwell Multiple Products | 9.8 | 63.6% |  |
+| 814 | [CVE-2023-35081](../data/cves/2023/CVE-2023-35081.yml) | Ivanti Endpoint Manager Mobile (EPMM) Path Traversal Vulnerability | Ivanti Endpoint Manager Mobile (EPMM) | 7.2 | 63.6% |  |
+| 815 | [CVE-2011-0609](../data/cves/2011/CVE-2011-0609.yml) | Adobe Flash Player Unspecified Vulnerability | Adobe Flash Player | 7.8 | 63.5% |  |
+| 816 | [CVE-2019-8394](../data/cves/2019/CVE-2019-8394.yml) | Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability | Zoho ManageEngine | 6.5 | 63.3% |  |
+| 817 | [CVE-2021-30632](../data/cves/2021/CVE-2021-30632.yml) | Google Chromium V8 Out-of-Bounds Write Vulnerability | Google Chromium V8 | 8.8 | 63.2% |  |
+| 818 | [CVE-2026-45498](../data/cves/2026/CVE-2026-45498.yml) | Microsoft Defender Denial of Service Vulnerability | Microsoft Defender | 7.5 | 63.1% |  |
+| 819 | [CVE-2026-82078](../data/cves/2026/CVE-2026-82078.yml) | PaperCut NG/MF Unsafe Reflection Vulnerability | PaperCut NG/MF | 9.4 | 63.0% |  |
+| 820 | [CVE-2016-0151](../data/cves/2016/CVE-2016-0151.yml) | Microsoft Windows CSRSS Security Feature Bypass Vulnerability | Microsoft Client-Server Run-time Subsystem (CSRSS) | 7.8 | 62.8% | 🔒 |
+| 821 | [CVE-2026-0770](../data/cves/2026/CVE-2026-0770.yml) | Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability | Langflow Langflow | 9.8 | 62.6% |  |
+| 822 | [CVE-2025-47813](../data/cves/2025/CVE-2025-47813.yml) | Wing FTP Server Information Disclosure Vulnerability | Wing FTP Server Wing FTP Server | 4.3 | 62.5% |  |
+| 823 | [CVE-2022-21445](../data/cves/2022/CVE-2022-21445.yml) | Oracle ADF Faces Deserialization of Untrusted Data Vulnerability | Oracle ADF Faces | 9.8 | 62.5% |  |
+| 824 | [CVE-2021-22991](../data/cves/2021/CVE-2021-22991.yml) | F5 BIG-IP Traffic Management Microkernel Buffer Overflow | F5 BIG-IP Traffic Management Microkernel | 9.8 | 62.4% |  |
+| 825 | [CVE-2025-24054](../data/cves/2025/CVE-2025-24054.yml) | Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability | Microsoft Windows | 5.4 | 62.3% |  |
+| 826 | [CVE-2024-21338](../data/cves/2024/CVE-2024-21338.yml) | Microsoft Windows Kernel Exposed IOCTL with Insufficient Access Control Vulnerability | Microsoft Windows | 7.8 | 62.2% | 🔒 |
+| 827 | [CVE-2017-0059](../data/cves/2017/CVE-2017-0059.yml) | Microsoft Internet Explorer Information Disclosure Vulnerability | Microsoft Internet Explorer | 4.3 | 62.0% |  |
+| 828 | [CVE-2018-4939](../data/cves/2018/CVE-2018-4939.yml) | Adobe ColdFusion Deserialization of Untrusted Data Vulnerability | Adobe ColdFusion | 9.8 | 61.8% |  |
+| 829 | [CVE-2018-8373](../data/cves/2018/CVE-2018-8373.yml) | Microsoft Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer Scripting Engine | 7.5 | 61.8% |  |
+| 830 | [CVE-2024-23113](../data/cves/2024/CVE-2024-23113.yml) | Fortinet Multiple Products Format String Vulnerability | Fortinet Multiple Products | 9.8 | 61.7% |  |
+| 831 | [CVE-2020-4428](../data/cves/2020/CVE-2020-4428.yml) | IBM Data Risk Manager Remote Code Execution Vulnerability | IBM Data Risk Manager | 9.1 | 61.7% |  |
+| 832 | [CVE-2026-59310](../data/cves/2026/CVE-2026-59310.yml) | Broadcom VMware vCenter Path Traversal Vulnerability | Broadcom VMware vCenter | 9.8 | 61.7% | 🔒 |
+| 833 | [CVE-2015-7755](../data/cves/2015/CVE-2015-7755.yml) | Juniper ScreenOS Improper Authentication Vulnerability | Juniper ScreenOS | 9.8 | 61.4% |  |
+| 834 | [CVE-2026-21510](../data/cves/2026/CVE-2026-21510.yml) | Microsoft Windows Shell Protection Mechanism Failure Vulnerability | Microsoft Windows | 8.8 | 61.2% |  |
+| 835 | [CVE-2025-58360](../data/cves/2025/CVE-2025-58360.yml) | OSGeo GeoServer Improper Restriction of XML External Entity Reference Vulnerability | OSGeo GeoServer | 9.8 | 61.2% |  |
+| 836 | [CVE-2019-5786](../data/cves/2019/CVE-2019-5786.yml) | Google Chrome Blink Use-After-Free Vulnerability | Google Chrome Blink | 6.5 | 61.1% |  |
+| 837 | [CVE-2024-54085](../data/cves/2024/CVE-2024-54085.yml) | AMI MegaRAC SPx Authentication Bypass by Spoofing Vulnerability | AMI MegaRAC SPx | 10 | 60.7% |  |
+| 838 | [CVE-2025-53690](../data/cves/2025/CVE-2025-53690.yml) | Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability | Sitecore Multiple Products | 9 | 60.7% |  |
+| 839 | [CVE-2026-33634](../data/cves/2026/CVE-2026-33634.yml) | Aquasecurity Trivy Embedded Malicious Code Vulnerability | Aquasecurity Trivy | 9.4 | 60.4% |  |
+| 840 | [CVE-2018-6065](../data/cves/2018/CVE-2018-6065.yml) | Google Chromium V8 Integer Overflow Vulnerability | Google Chromium V8 | 8.8 | 60.3% |  |
+| 841 | [CVE-2025-62593](../data/cves/2025/CVE-2025-62593.yml) | Ray-Project Ray Code Injection Vulnerability | Ray-Project Ray | 9.4 | 60.2% |  |
+| 842 | [CVE-2020-8655](../data/cves/2020/CVE-2020-8655.yml) | EyesOfNetwork Improper Privilege Management Vulnerability | EyesOfNetwork EyesOfNetwork | 7.8 | 59.9% |  |
+| 843 | [CVE-2014-4148](../data/cves/2014/CVE-2014-4148.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | 8.8 | 59.9% |  |
+| 844 | [CVE-2009-0563](../data/cves/2009/CVE-2009-0563.yml) | Microsoft Office Buffer Overflow Vulnerability | Microsoft Office | 7.8 | 59.6% |  |
+| 845 | [CVE-2017-11774](../data/cves/2017/CVE-2017-11774.yml) | Microsoft Office Outlook Security Feature Bypass Vulnerability | Microsoft Office | 7.8 | 59.6% |  |
+| 846 | [CVE-2023-21608](../data/cves/2023/CVE-2023-21608.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | 7.8 | 59.4% |  |
+| 847 | [CVE-2021-33742](../data/cves/2021/CVE-2021-33742.yml) | Microsoft Windows MSHTML Platform Remote Code Execution Vulnerability | Microsoft Windows | 7.5 | 59.4% |  |
+| 848 | [CVE-2023-21529](../data/cves/2023/CVE-2023-21529.yml) | Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability | Microsoft Exchange Server | 8.8 | 59.3% | 🔒 |
+| 849 | [CVE-2022-21882](../data/cves/2022/CVE-2022-21882.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 59.2% | 🔒 |
+| 850 | [CVE-2016-7262](../data/cves/2016/CVE-2016-7262.yml) | Microsoft Office Security Feature Bypass Vulnerability | Microsoft Excel | 7.8 | 58.8% |  |
+| 851 | [CVE-2024-8956](../data/cves/2024/CVE-2024-8956.yml) | PTZOptics PT30X-SDI/NDI Cameras Authentication Bypass Vulnerability | PTZOptics PT30X-SDI/NDI Cameras | 9.1 | 58.8% |  |
+| 852 | [CVE-2010-2572](../data/cves/2010/CVE-2010-2572.yml) | Microsoft PowerPoint Buffer Overflow Vulnerability | Microsoft PowerPoint | 7.8 | 58.6% |  |
+| 853 | [CVE-2024-9380](../data/cves/2024/CVE-2024-9380.yml) | Ivanti Cloud Services Appliance (CSA) OS Command Injection Vulnerability | Ivanti Cloud Services Appliance (CSA) | 7.2 | 58.3% |  |
+| 854 | [CVE-2023-32434](../data/cves/2023/CVE-2023-32434.yml) | Apple Multiple Products Integer Overflow Vulnerability | Apple Multiple Products | 7.8 | 58.2% |  |
+| 855 | [CVE-2023-6549](../data/cves/2023/CVE-2023-6549.yml) | Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability | Citrix NetScaler ADC and NetScaler Gateway | 7.5 | 57.6% |  |
+| 856 | [CVE-2016-7193](../data/cves/2016/CVE-2016-7193.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 7.8 | 57.6% |  |
+| 857 | [CVE-2017-0101](../data/cves/2017/CVE-2017-0101.yml) | Microsoft Windows Transaction Manager Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 57.5% | 🔒 |
+| 858 | [CVE-2020-26919](../data/cves/2020/CVE-2020-26919.yml) | Netgear JGS516PE Devices Missing Function Level Access Control Vulnerability | NETGEAR JGS516PE Devices | 9.8 | 57.5% |  |
+| 859 | [CVE-2019-1068](../data/cves/2019/CVE-2019-1068.yml) | Microsoft SQL Server Remote Code Execution Vulnerability | Microsoft SQL Server | 8.8 | 57.3% |  |
+| 860 | [CVE-2021-27104](../data/cves/2021/CVE-2021-27104.yml) | Accellion FTA OS Command Injection Vulnerability | Accellion FTA | 9.8 | 56.7% | 🔒 |
+| 861 | [CVE-2021-25297](../data/cves/2021/CVE-2021-25297.yml) | Nagios XI OS Command Injection | Nagios Nagios XI | 8.8 | 56.7% |  |
+| 862 | [CVE-2025-32463](../data/cves/2025/CVE-2025-32463.yml) | Sudo Inclusion of Functionality from Untrusted Control Sphere Vulnerability | Sudo Sudo | 7.8 | 56.3% |  |
+| 863 | [CVE-2019-5825](../data/cves/2019/CVE-2019-5825.yml) | Google Chromium V8 Out-of-Bounds Write Vulnerability | Google Chromium V8 | 6.5 | 55.9% |  |
+| 864 | [CVE-2015-1701](../data/cves/2015/CVE-2015-1701.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 55.9% | 🔒 |
+| 865 | [CVE-2019-11708](../data/cves/2019/CVE-2019-11708.yml) | Mozilla Firefox and Thunderbird Sandbox Escape Vulnerability | Mozilla Firefox and Thunderbird | 10 | 55.9% |  |
+| 866 | [CVE-2020-29557](../data/cves/2020/CVE-2020-29557.yml) | D-Link DIR-825 R1 Devices Buffer Overflow Vulnerability | D-Link DIR-825 R1 Devices | 9.8 | 55.7% |  |
+| 867 | [CVE-2022-37055](../data/cves/2022/CVE-2022-37055.yml) | D-Link Routers Buffer Overflow Vulnerability | D-Link Routers | 9.8 | 55.5% |  |
+| 868 | [CVE-2025-14174](../data/cves/2025/CVE-2025-14174.yml) | Google Chromium Out of Bounds Memory Access Vulnerability | Google Chromium | 8.8 | 55.3% |  |
+| 869 | [CVE-2022-29499](../data/cves/2022/CVE-2022-29499.yml) | Mitel MiVoice Connect Data Validation Vulnerability | Mitel MiVoice Connect | 9.8 | 55.2% | 🔒 |
+| 870 | [CVE-2018-0125](../data/cves/2018/CVE-2018-0125.yml) | Cisco VPN Routers Remote Code Execution Vulnerability | Cisco VPN Routers | 9.8 | 55.2% |  |
+| 871 | [CVE-2025-25181](../data/cves/2025/CVE-2025-25181.yml) |  Advantive VeraCore SQL Injection Vulnerability | Advantive VeraCore | 7.5 | 54.8% |  |
+| 872 | [CVE-2025-58034](../data/cves/2025/CVE-2025-58034.yml) | Fortinet FortiWeb OS Command Injection Vulnerability | Fortinet FortiWeb | 7.2 | 54.7% |  |
+| 873 | [CVE-2019-19006](../data/cves/2019/CVE-2019-19006.yml) |  Sangoma FreePBX Improper Authentication Vulnerability | Sangoma FreePBX | 9.8 | 54.7% |  |
 | 874 | [CVE-2006-1547](../data/cves/2006/CVE-2006-1547.yml) | Apache Struts 1 ActionForm Denial-of-Service Vulnerability | Apache Struts 1 | 7.5 | 54.6% |  |
-| 875 | [CVE-2014-4077](../data/cves/2014/CVE-2014-4077.yml) | Microsoft IME Japanese Privilege Escalation Vulnerability | Microsoft Input Method Editor (IME) Japanese | — | 54.6% |  |
-| 876 | [CVE-2024-38812](../data/cves/2024/CVE-2024-38812.yml) | VMware vCenter Server Heap-Based Buffer Overflow Vulnerability | VMware vCenter Server | — | 54.6% |  |
-| 877 | [CVE-2016-0984](../data/cves/2016/CVE-2016-0984.yml) | Adobe Flash Player and AIR Use-After-Free Vulnerability | Adobe Flash Player and AIR | — | 54.5% |  |
-| 878 | [CVE-2026-2441](../data/cves/2026/CVE-2026-2441.yml) | Google Chromium CSS Use-After-Free Vulnerability | Google Chromium | — | 54.5% |  |
-| 879 | [CVE-2024-43461](../data/cves/2024/CVE-2024-43461.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | — | 54.2% |  |
-| 880 | [CVE-2026-85102](../data/cves/2026/CVE-2026-85102.yml) | Check Point Multiple Products Improper Certificate Validation Vulnerability | Check Point Multiple Products | — | 54.1% |  |
-| 881 | [CVE-2023-20118](../data/cves/2023/CVE-2023-20118.yml) | Cisco Small Business RV Series Routers Command Injection Vulnerability | Cisco Small Business RV Series Routers | — | 54.1% |  |
-| 882 | [CVE-2021-31196](../data/cves/2021/CVE-2021-31196.yml) | Microsoft Exchange Server Information Disclosure Vulnerability | Microsoft Exchange Server | — | 54.1% |  |
-| 883 | [CVE-2020-25079](../data/cves/2020/CVE-2020-25079.yml) | D-Link DCS-2530L and DCS-2670L Command Injection Vulnerability | D-Link DCS-2530L and DCS-2670L Devices | — | 54.0% |  |
-| 884 | [CVE-2022-21971](../data/cves/2022/CVE-2022-21971.yml) | Microsoft Windows Runtime Remote Code Execution Vulnerability | Microsoft Windows | — | 53.9% |  |
-| 885 | [CVE-2020-1054](../data/cves/2020/CVE-2020-1054.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 53.9% |  |
-| 886 | [CVE-2014-0130](../data/cves/2014/CVE-2014-0130.yml) | Ruby on Rails Directory Traversal Vulnerability | Rails Ruby on Rails | — | 53.7% |  |
-| 887 | [CVE-2021-22941](../data/cves/2021/CVE-2021-22941.yml) | Citrix ShareFile Improper Access Control Vulnerability | Citrix ShareFile | — | 53.6% | 🔒 |
-| 888 | [CVE-2023-45249](../data/cves/2023/CVE-2023-45249.yml) | Acronis Cyber Infrastructure (ACI) Insecure Default Password Vulnerability | Acronis Cyber Infrastructure (ACI) | — | 53.5% |  |
-| 889 | [CVE-2023-41064](../data/cves/2023/CVE-2023-41064.yml) | Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow Vulnerability | Apple iOS, iPadOS, and macOS | — | 53.4% |  |
-| 890 | [CVE-2021-22175](../data/cves/2021/CVE-2021-22175.yml) | GitLab Server-Side Request Forgery (SSRF) Vulnerability | GitLab GitLab | — | 53.4% |  |
-| 891 | [CVE-2025-14611](../data/cves/2025/CVE-2025-14611.yml) | Gladinet CentreStack and Triofox Hard Coded Cryptographic Vulnerability | Gladinet CentreStack and Triofox | — | 53.3% |  |
-| 892 | [CVE-2019-0808](../data/cves/2019/CVE-2019-0808.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 53.3% |  |
-| 893 | [CVE-2019-0541](../data/cves/2019/CVE-2019-0541.yml) | Microsoft MSHTML Remote Code Execution Vulnerability | Microsoft MSHTML | — | 53.2% |  |
-| 894 | [CVE-2015-1642](../data/cves/2015/CVE-2015-1642.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | — | 53.1% |  |
-| 895 | [CVE-2012-2539](../data/cves/2012/CVE-2012-2539.yml) | Microsoft Word Remote Code Execution Vulnerability | Microsoft Word | — | 53.0% |  |
-| 896 | [CVE-2015-2419](../data/cves/2015/CVE-2015-2419.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 53.0% |  |
-| 897 | [CVE-2009-0557](../data/cves/2009/CVE-2009-0557.yml) | Microsoft Office Object Record Corruption Vulnerability | Microsoft Office | — | 52.8% |  |
-| 898 | [CVE-2010-1428](../data/cves/2010/CVE-2010-1428.yml) | Red Hat JBoss Information Disclosure Vulnerability | Red Hat JBoss | — | 52.7% | 🔒 |
-| 899 | [CVE-2019-1367](../data/cves/2019/CVE-2019-1367.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 52.4% | 🔒 |
-| 900 | [CVE-2016-2388](../data/cves/2016/CVE-2016-2388.yml) | SAP NetWeaver Information Disclosure Vulnerability | SAP NetWeaver | — | 52.2% |  |
-| 901 | [CVE-2019-13272](../data/cves/2019/CVE-2019-13272.yml) | Linux Kernel Improper Privilege Management Vulnerability | Linux Kernel | — | 52.2% |  |
-| 902 | [CVE-2021-28550](../data/cves/2021/CVE-2021-28550.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | — | 52.1% |  |
-| 903 | [CVE-2021-20023](../data/cves/2021/CVE-2021-20023.yml) | SonicWall Email Security Path Traversal Vulnerability | SonicWall SonicWall Email Security | — | 51.7% | 🔒 |
-| 904 | [CVE-2009-1537](../data/cves/2009/CVE-2009-1537.yml) | Microsoft DirectX NULL Byte Overwrite Vulnerability | Microsoft DirectX | — | 51.1% |  |
-| 905 | [CVE-2015-2502](../data/cves/2015/CVE-2015-2502.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 51.0% |  |
-| 906 | [CVE-2024-38094](../data/cves/2024/CVE-2024-38094.yml) | Microsoft SharePoint Deserialization Vulnerability | Microsoft SharePoint | — | 50.9% | 🔒 |
-| 907 | [CVE-2013-5223](../data/cves/2013/CVE-2013-5223.yml) | D-Link DSL-2760U Gateway Cross-Site Scripting Vulnerability | D-Link DSL-2760U | — | 50.8% |  |
-| 908 | [CVE-2025-68645](../data/cves/2025/CVE-2025-68645.yml) | Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability | Synacor  Zimbra Collaboration Suite (ZCS) | — | 50.6% |  |
-| 909 | [CVE-2023-49897](../data/cves/2023/CVE-2023-49897.yml) | FXC AE1021, AE1021PE OS Command Injection Vulnerability | FXC AE1021, AE1021PE | — | 50.4% |  |
-| 910 | [CVE-2013-7331](../data/cves/2013/CVE-2013-7331.yml) | Microsoft Internet Explorer Information Disclosure Vulnerability | Microsoft Internet Explorer | — | 50.2% |  |
-| 911 | [CVE-2026-102489](../data/cves/2026/CVE-2026-102489.yml) | Zammad GmbH Zammad Session Fixation Vulnerability | Zammad GmbH Zammad | — | 49.9% |  |
-| 912 | [CVE-2019-13720](../data/cves/2019/CVE-2019-13720.yml) | Google Chrome WebAudio Use-After-Free Vulnerability | Google Chrome WebAudio | — | 49.4% |  |
-| 913 | [CVE-2021-22017](../data/cves/2021/CVE-2021-22017.yml) | VMware vCenter Server Improper Access Control | VMware vCenter Server | — | 49.2% |  |
-| 914 | [CVE-2021-3493](../data/cves/2021/CVE-2021-3493.yml) | Linux Kernel Privilege Escalation Vulnerability | Linux Kernel | — | 49.2% |  |
-| 915 | [CVE-2023-37580](../data/cves/2023/CVE-2023-37580.yml) | Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | — | 49.1% |  |
-| 916 | [CVE-2011-1889](../data/cves/2011/CVE-2011-1889.yml) | Microsoft Forefront TMG Remote Code Execution Vulnerability | Microsoft Forefront Threat Management Gateway (TMG) | — | 49.0% |  |
-| 917 | [CVE-2023-5217](../data/cves/2023/CVE-2023-5217.yml) | Google Chromium libvpx Heap Buffer Overflow Vulnerability | Google Chromium libvpx | — | 49.0% |  |
-| 918 | [CVE-2014-4404](../data/cves/2014/CVE-2014-4404.yml) | Apple OS X Heap-Based Buffer Overflow Vulnerability | Apple OS X | — | 48.9% |  |
-| 919 | [CVE-2023-28252](../data/cves/2023/CVE-2023-28252.yml) | Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability | Microsoft Windows | — | 48.9% | 🔒 |
-| 920 | [CVE-2015-1671](../data/cves/2015/CVE-2015-1671.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | — | 48.8% |  |
-| 921 | [CVE-2019-15752](../data/cves/2019/CVE-2019-15752.yml) | Docker Desktop Community Edition Privilege Escalation Vulnerability | Docker Desktop Community Edition | — | 48.8% |  |
-| 922 | [CVE-2022-23227](../data/cves/2022/CVE-2022-23227.yml) | NUUO NVRmini2 Devices Missing Authentication Vulnerability  | NUUO NVRmini2 Devices | — | 48.5% |  |
-| 923 | [CVE-2020-16009](../data/cves/2020/CVE-2020-16009.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 48.3% |  |
-| 924 | [CVE-2016-1646](../data/cves/2016/CVE-2016-1646.yml) | Google Chromium V8 Out-of-Bounds Read Vulnerability | Google Chromium V8 | — | 48.1% |  |
+| 875 | [CVE-2014-4077](../data/cves/2014/CVE-2014-4077.yml) | Microsoft IME Japanese Privilege Escalation Vulnerability | Microsoft Input Method Editor (IME) Japanese | 7.8 | 54.6% |  |
+| 876 | [CVE-2024-38812](../data/cves/2024/CVE-2024-38812.yml) | VMware vCenter Server Heap-Based Buffer Overflow Vulnerability | VMware vCenter Server | 9.8 | 54.6% |  |
+| 877 | [CVE-2016-0984](../data/cves/2016/CVE-2016-0984.yml) | Adobe Flash Player and AIR Use-After-Free Vulnerability | Adobe Flash Player and AIR | 8.8 | 54.5% |  |
+| 878 | [CVE-2026-2441](../data/cves/2026/CVE-2026-2441.yml) | Google Chromium CSS Use-After-Free Vulnerability | Google Chromium | 8.8 | 54.5% |  |
+| 879 | [CVE-2024-43461](../data/cves/2024/CVE-2024-43461.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | 8.8 | 54.2% |  |
+| 880 | [CVE-2026-85102](../data/cves/2026/CVE-2026-85102.yml) | Check Point Multiple Products Improper Certificate Validation Vulnerability | Check Point Multiple Products | 9.8 | 54.1% |  |
+| 881 | [CVE-2023-20118](../data/cves/2023/CVE-2023-20118.yml) | Cisco Small Business RV Series Routers Command Injection Vulnerability | Cisco Small Business RV Series Routers | 7.2 | 54.1% |  |
+| 882 | [CVE-2021-31196](../data/cves/2021/CVE-2021-31196.yml) | Microsoft Exchange Server Information Disclosure Vulnerability | Microsoft Exchange Server | 7.2 | 54.1% |  |
+| 883 | [CVE-2020-25079](../data/cves/2020/CVE-2020-25079.yml) | D-Link DCS-2530L and DCS-2670L Command Injection Vulnerability | D-Link DCS-2530L and DCS-2670L Devices | 8.8 | 54.0% |  |
+| 884 | [CVE-2022-21971](../data/cves/2022/CVE-2022-21971.yml) | Microsoft Windows Runtime Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 53.9% |  |
+| 885 | [CVE-2020-1054](../data/cves/2020/CVE-2020-1054.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7 | 53.9% |  |
+| 886 | [CVE-2014-0130](../data/cves/2014/CVE-2014-0130.yml) | Ruby on Rails Directory Traversal Vulnerability | Rails Ruby on Rails | 7.5 | 53.7% |  |
+| 887 | [CVE-2021-22941](../data/cves/2021/CVE-2021-22941.yml) | Citrix ShareFile Improper Access Control Vulnerability | Citrix ShareFile | 9.8 | 53.6% | 🔒 |
+| 888 | [CVE-2023-45249](../data/cves/2023/CVE-2023-45249.yml) | Acronis Cyber Infrastructure (ACI) Insecure Default Password Vulnerability | Acronis Cyber Infrastructure (ACI) | 9.8 | 53.5% |  |
+| 889 | [CVE-2023-41064](../data/cves/2023/CVE-2023-41064.yml) | Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow Vulnerability | Apple iOS, iPadOS, and macOS | 7.8 | 53.4% |  |
+| 890 | [CVE-2021-22175](../data/cves/2021/CVE-2021-22175.yml) | GitLab Server-Side Request Forgery (SSRF) Vulnerability | GitLab GitLab | 9.8 | 53.4% |  |
+| 891 | [CVE-2025-14611](../data/cves/2025/CVE-2025-14611.yml) | Gladinet CentreStack and Triofox Hard Coded Cryptographic Vulnerability | Gladinet CentreStack and Triofox | 7.1 | 53.3% |  |
+| 892 | [CVE-2019-0808](../data/cves/2019/CVE-2019-0808.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 53.3% |  |
+| 893 | [CVE-2019-0541](../data/cves/2019/CVE-2019-0541.yml) | Microsoft MSHTML Remote Code Execution Vulnerability | Microsoft MSHTML | 8.8 | 53.2% |  |
+| 894 | [CVE-2015-1642](../data/cves/2015/CVE-2015-1642.yml) | Microsoft Office Memory Corruption Vulnerability | Microsoft Office | 7.8 | 53.1% |  |
+| 895 | [CVE-2012-2539](../data/cves/2012/CVE-2012-2539.yml) | Microsoft Word Remote Code Execution Vulnerability | Microsoft Word | 7.8 | 53.0% |  |
+| 896 | [CVE-2015-2419](../data/cves/2015/CVE-2015-2419.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.8 | 53.0% |  |
+| 897 | [CVE-2009-0557](../data/cves/2009/CVE-2009-0557.yml) | Microsoft Office Object Record Corruption Vulnerability | Microsoft Office | 7.8 | 52.8% |  |
+| 898 | [CVE-2010-1428](../data/cves/2010/CVE-2010-1428.yml) | Red Hat JBoss Information Disclosure Vulnerability | Red Hat JBoss | 7.5 | 52.7% | 🔒 |
+| 899 | [CVE-2019-1367](../data/cves/2019/CVE-2019-1367.yml) | Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability | Microsoft Internet Explorer | 7.5 | 52.4% | 🔒 |
+| 900 | [CVE-2016-2388](../data/cves/2016/CVE-2016-2388.yml) | SAP NetWeaver Information Disclosure Vulnerability | SAP NetWeaver | 5.3 | 52.2% |  |
+| 901 | [CVE-2019-13272](../data/cves/2019/CVE-2019-13272.yml) | Linux Kernel Improper Privilege Management Vulnerability | Linux Kernel | 7.8 | 52.2% |  |
+| 902 | [CVE-2021-28550](../data/cves/2021/CVE-2021-28550.yml) | Adobe Acrobat and Reader Use-After-Free Vulnerability | Adobe Acrobat and Reader | 8.8 | 52.1% |  |
+| 903 | [CVE-2021-20023](../data/cves/2021/CVE-2021-20023.yml) | SonicWall Email Security Path Traversal Vulnerability | SonicWall SonicWall Email Security | 4.9 | 51.7% | 🔒 |
+| 904 | [CVE-2009-1537](../data/cves/2009/CVE-2009-1537.yml) | Microsoft DirectX NULL Byte Overwrite Vulnerability | Microsoft DirectX | 8.8 | 51.1% |  |
+| 905 | [CVE-2015-2502](../data/cves/2015/CVE-2015-2502.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.8 | 51.0% |  |
+| 906 | [CVE-2024-38094](../data/cves/2024/CVE-2024-38094.yml) | Microsoft SharePoint Deserialization Vulnerability | Microsoft SharePoint | 7.2 | 50.9% | 🔒 |
+| 907 | [CVE-2013-5223](../data/cves/2013/CVE-2013-5223.yml) | D-Link DSL-2760U Gateway Cross-Site Scripting Vulnerability | D-Link DSL-2760U | 5.4 | 50.8% |  |
+| 908 | [CVE-2025-68645](../data/cves/2025/CVE-2025-68645.yml) | Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability | Synacor  Zimbra Collaboration Suite (ZCS) | 8.8 | 50.6% |  |
+| 909 | [CVE-2023-49897](../data/cves/2023/CVE-2023-49897.yml) | FXC AE1021, AE1021PE OS Command Injection Vulnerability | FXC AE1021, AE1021PE | 8.8 | 50.4% |  |
+| 910 | [CVE-2013-7331](../data/cves/2013/CVE-2013-7331.yml) | Microsoft Internet Explorer Information Disclosure Vulnerability | Microsoft Internet Explorer | 6.5 | 50.2% |  |
+| 911 | [CVE-2026-102489](../data/cves/2026/CVE-2026-102489.yml) | Zammad GmbH Zammad Session Fixation Vulnerability | Zammad GmbH Zammad | 9.4 | 49.9% |  |
+| 912 | [CVE-2019-13720](../data/cves/2019/CVE-2019-13720.yml) | Google Chrome WebAudio Use-After-Free Vulnerability | Google Chrome WebAudio | 8.8 | 49.4% |  |
+| 913 | [CVE-2021-22017](../data/cves/2021/CVE-2021-22017.yml) | VMware vCenter Server Improper Access Control | VMware vCenter Server | 5.3 | 49.2% |  |
+| 914 | [CVE-2021-3493](../data/cves/2021/CVE-2021-3493.yml) | Linux Kernel Privilege Escalation Vulnerability | Linux Kernel | 7.8 | 49.2% |  |
+| 915 | [CVE-2023-37580](../data/cves/2023/CVE-2023-37580.yml) | Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability | Synacor Zimbra Collaboration Suite (ZCS) | 6.1 | 49.1% |  |
+| 916 | [CVE-2011-1889](../data/cves/2011/CVE-2011-1889.yml) | Microsoft Forefront TMG Remote Code Execution Vulnerability | Microsoft Forefront Threat Management Gateway (TMG) | 9.8 | 49.0% |  |
+| 917 | [CVE-2023-5217](../data/cves/2023/CVE-2023-5217.yml) | Google Chromium libvpx Heap Buffer Overflow Vulnerability | Google Chromium libvpx | 8.8 | 49.0% |  |
+| 918 | [CVE-2014-4404](../data/cves/2014/CVE-2014-4404.yml) | Apple OS X Heap-Based Buffer Overflow Vulnerability | Apple OS X | 7.8 | 48.9% |  |
+| 919 | [CVE-2023-28252](../data/cves/2023/CVE-2023-28252.yml) | Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 48.9% | 🔒 |
+| 920 | [CVE-2015-1671](../data/cves/2015/CVE-2015-1671.yml) | Microsoft Windows Remote Code Execution Vulnerability | Microsoft Windows | 7.8 | 48.8% |  |
+| 921 | [CVE-2019-15752](../data/cves/2019/CVE-2019-15752.yml) | Docker Desktop Community Edition Privilege Escalation Vulnerability | Docker Desktop Community Edition | 7.8 | 48.8% |  |
+| 922 | [CVE-2022-23227](../data/cves/2022/CVE-2022-23227.yml) | NUUO NVRmini2 Devices Missing Authentication Vulnerability  | NUUO NVRmini2 Devices | 9.8 | 48.5% |  |
+| 923 | [CVE-2020-16009](../data/cves/2020/CVE-2020-16009.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 48.3% |  |
+| 924 | [CVE-2016-1646](../data/cves/2016/CVE-2016-1646.yml) | Google Chromium V8 Out-of-Bounds Read Vulnerability | Google Chromium V8 | 8.8 | 48.1% |  |
 | 925 | [CVE-2006-2492](../data/cves/2006/CVE-2006-2492.yml) | Microsoft Word Malformed Object Pointer Vulnerability | Microsoft Word | 8.8 | 48.1% |  |
-| 926 | [CVE-2018-5430](../data/cves/2018/CVE-2018-5430.yml) | TIBCO JasperReports Server Information Disclosure Vulnerability | TIBCO JasperReports | — | 48.1% |  |
-| 927 | [CVE-2021-26829](../data/cves/2021/CVE-2021-26829.yml) | OpenPLC ScadaBR Cross-site Scripting Vulnerability | OpenPLC ScadaBR | — | 48.0% |  |
-| 928 | [CVE-2026-28318](../data/cves/2026/CVE-2026-28318.yml) | SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability | SolarWinds Serv-U | — | 48.0% |  |
-| 929 | [CVE-2023-48365](../data/cves/2023/CVE-2023-48365.yml) | Qlik Sense HTTP Tunneling Vulnerability | Qlik Sense | — | 47.7% | 🔒 |
-| 930 | [CVE-2013-2094](../data/cves/2013/CVE-2013-2094.yml) | Linux Kernel Privilege Escalation Vulnerability | Linux Kernel | — | 47.7% |  |
-| 931 | [CVE-2021-40407](../data/cves/2021/CVE-2021-40407.yml) | Reolink RLC-410W IP Camera OS Command Injection Vulnerability  | Reolink RLC-410W IP Camera | — | 47.6% |  |
-| 932 | [CVE-2025-0411](../data/cves/2025/CVE-2025-0411.yml) | 7-Zip Mark of the Web Bypass Vulnerability | 7-Zip 7-Zip | — | 47.6% |  |
-| 933 | [CVE-2021-22893](../data/cves/2021/CVE-2021-22893.yml) | Ivanti Pulse Connect Secure Use-After-Free Vulnerability | Ivanti Pulse Connect Secure | — | 47.5% | 🔒 |
-| 934 | [CVE-2026-48356](../data/cves/2026/CVE-2026-48356.yml) | Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability | Adobe Commerce and Magento | — | 47.5% |  |
-| 935 | [CVE-2016-3976](../data/cves/2016/CVE-2016-3976.yml) | SAP NetWeaver Directory Traversal Vulnerability | SAP NetWeaver | — | 47.3% |  |
-| 936 | [CVE-2014-4123](../data/cves/2014/CVE-2014-4123.yml) | Microsoft Internet Explorer Privilege Escalation Vulnerability | Microsoft Internet Explorer | — | 47.1% |  |
-| 937 | [CVE-2019-17026](../data/cves/2019/CVE-2019-17026.yml) | Mozilla Firefox And Thunderbird Type Confusion Vulnerability | Mozilla Firefox and Thunderbird | — | 46.3% |  |
-| 938 | [CVE-2024-43573](../data/cves/2024/CVE-2024-43573.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | — | 46.1% |  |
-| 939 | [CVE-2026-12569](../data/cves/2026/CVE-2026-12569.yml) | PTC Windchill and FlexPLM Improper Input Validation Vulnerability | PTC Windchill and FlexPLM | — | 46.0% | 🔒 |
-| 940 | [CVE-2017-6862](../data/cves/2017/CVE-2017-6862.yml) | NETGEAR Multiple Devices Buffer Overflow Vulnerability | NETGEAR Multiple Devices | — | 45.7% |  |
-| 941 | [CVE-2017-16651](../data/cves/2017/CVE-2017-16651.yml) | Roundcube Webmail File Disclosure Vulnerability | Roundcube Roundcube Webmail | — | 45.7% |  |
-| 942 | [CVE-2020-12812](../data/cves/2020/CVE-2020-12812.yml) | Fortinet FortiOS SSL VPN Improper Authentication Vulnerability | Fortinet FortiOS | — | 45.4% | 🔒 |
-| 943 | [CVE-2019-0803](../data/cves/2019/CVE-2019-0803.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 45.2% | 🔒 |
-| 944 | [CVE-2024-29988](../data/cves/2024/CVE-2024-29988.yml) | Microsoft SmartScreen Prompt Security Feature Bypass Vulnerability | Microsoft SmartScreen Prompt | — | 45.2% |  |
-| 945 | [CVE-2017-6737](../data/cves/2017/CVE-2017-6737.yml) | Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability | Cisco IOS and IOS XE Software | — | 45.0% |  |
-| 946 | [CVE-2014-9163](../data/cves/2014/CVE-2014-9163.yml) | Adobe Flash Player Stack-Based Buffer Overflow Vulnerability | Adobe Flash Player | — | 44.9% |  |
-| 947 | [CVE-2015-2425](../data/cves/2015/CVE-2015-2425.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | — | 44.7% |  |
-| 948 | [CVE-2013-3900](../data/cves/2013/CVE-2013-3900.yml) | Microsoft WinVerifyTrust function Remote Code Execution | Microsoft WinVerifyTrust function | — | 44.6% |  |
-| 949 | [CVE-2023-36874](../data/cves/2023/CVE-2023-36874.yml) | Microsoft Windows Error Reporting Service Privilege Escalation Vulnerability | Microsoft Windows | — | 44.4% |  |
-| 950 | [CVE-2026-20131](../data/cves/2026/CVE-2026-20131.yml) | Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability | Cisco Secure Firewall Management Center (FMC) | — | 44.4% | 🔒 |
-| 951 | [CVE-2024-9379](../data/cves/2024/CVE-2024-9379.yml) | Ivanti Cloud Services Appliance (CSA) SQL Injection Vulnerability | Ivanti Cloud Services Appliance (CSA) | — | 44.3% |  |
-| 952 | [CVE-2019-1579](../data/cves/2019/CVE-2019-1579.yml) | Palo Alto Networks PAN-OS Remote Code Execution Vulnerability | Palo Alto Networks PAN-OS | — | 44.2% | 🔒 |
-| 953 | [CVE-2022-39197](../data/cves/2022/CVE-2022-39197.yml) | Fortra Cobalt Strike Teamserver Cross-Site Scripting (XSS) Vulnerability | Fortra Cobalt Strike | — | 44.1% |  |
-| 954 | [CVE-2007-0671](../data/cves/2007/CVE-2007-0671.yml) | Microsoft Office Excel Remote Code Execution Vulnerability | Microsoft Office | — | 44.1% |  |
-| 955 | [CVE-2014-100005](../data/cves/2014/CVE-2014-100005.yml) | D-Link DIR-600 Router Cross-Site Request Forgery (CSRF) Vulnerability | D-Link DIR-600 Router | — | 43.5% |  |
-| 956 | [CVE-2026-32201](../data/cves/2026/CVE-2026-32201.yml) | Microsoft SharePoint Server Improper Input Validation Vulnerability | Microsoft SharePoint Server | — | 43.4% |  |
-| 957 | [CVE-2020-12271](../data/cves/2020/CVE-2020-12271.yml) | Sophos SFOS SQL Injection Vulnerability | Sophos SFOS | — | 43.3% | 🔒 |
-| 958 | [CVE-2016-3235](../data/cves/2016/CVE-2016-3235.yml) | Microsoft Office OLE DLL Side Loading Vulnerability | Microsoft Office | — | 43.3% |  |
-| 959 | [CVE-2023-49105](../data/cves/2023/CVE-2023-49105.yml) | ownCloud Improper Authentication Vulnerability | ownCloud ownCloud | — | 43.2% |  |
-| 960 | [CVE-2025-2775](../data/cves/2025/CVE-2025-2775.yml) | SysAid On-Prem Improper Restriction of XML External Entity Reference Vulnerability | SysAid SysAid On-Prem | — | 43.2% |  |
-| 961 | [CVE-2021-42292](../data/cves/2021/CVE-2021-42292.yml) | Microsoft Excel Security Feature Bypass | Microsoft Office | — | 43.0% |  |
-| 962 | [CVE-2009-0238](../data/cves/2009/CVE-2009-0238.yml) | Microsoft Office Remote Code Execution | Microsoft Office | — | 42.9% |  |
-| 963 | [CVE-2020-0787](../data/cves/2020/CVE-2020-0787.yml) | Microsoft Windows Background Intelligent Transfer Service (BITS) Improper Privilege Management Vulnerability | Microsoft Windows | — | 42.5% | 🔒 |
-| 964 | [CVE-2026-48282](../data/cves/2026/CVE-2026-48282.yml) | Adobe ColdFusion Path Traversal Vulnerability | Adobe ColdFusion | — | 42.4% |  |
-| 965 | [CVE-2026-0300](../data/cves/2026/CVE-2026-0300.yml) | Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability | Palo Alto Networks PAN-OS | — | 41.7% |  |
-| 966 | [CVE-2024-41710](../data/cves/2024/CVE-2024-41710.yml) | Mitel SIP Phones Argument Injection Vulnerability | Mitel SIP Phones | — | 41.6% |  |
-| 967 | [CVE-2019-16928](../data/cves/2019/CVE-2019-16928.yml) | Exim Out-of-bounds Write Vulnerability | Exim Exim Internet Mailer | — | 41.6% |  |
-| 968 | [CVE-2023-33538](../data/cves/2023/CVE-2023-33538.yml) | TP-Link Multiple Routers Command Injection Vulnerability | TP-Link Multiple Routers | — | 41.6% |  |
-| 969 | [CVE-2019-0841](../data/cves/2019/CVE-2019-0841.yml) | Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability | Microsoft Windows | — | 41.4% | 🔒 |
-| 970 | [CVE-2024-38178](../data/cves/2024/CVE-2024-38178.yml) | Microsoft Windows Scripting Engine Memory Corruption Vulnerability | Microsoft Windows | — | 41.4% |  |
-| 971 | [CVE-2023-4762](../data/cves/2023/CVE-2023-4762.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 41.4% |  |
-| 972 | [CVE-2011-1823](../data/cves/2011/CVE-2011-1823.yml) | Android OS Privilege Escalation Vulnerability | Android Android OS | — | 41.4% |  |
-| 973 | [CVE-2025-9377](../data/cves/2025/CVE-2025-9377.yml) | TP-Link Archer C7(EU) and TL-WR841N/ND(MS) OS Command Injection Vulnerability | TP-Link Multiple Routers | — | 41.3% |  |
-| 974 | [CVE-2021-22894](../data/cves/2021/CVE-2021-22894.yml) | Ivanti Pulse Connect Secure Collaboration Suite Buffer Overflow Vulnerability | Ivanti Pulse Connect Secure | — | 41.3% |  |
-| 975 | [CVE-2023-29336](../data/cves/2023/CVE-2023-29336.yml) | Microsoft Win32K Privilege Escalation Vulnerability | Microsoft Win32k | — | 41.2% |  |
-| 976 | [CVE-2022-21999](../data/cves/2022/CVE-2022-21999.yml) | Microsoft Windows Print Spooler Privilege Escalation Vulnerability | Microsoft Windows | — | 41.0% | 🔒 |
-| 977 | [CVE-2023-2033](../data/cves/2023/CVE-2023-2033.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 40.6% |  |
-| 978 | [CVE-2017-5030](../data/cves/2017/CVE-2017-5030.yml) | Google Chromium V8 Memory Corruption Vulnerability | Google Chromium V8 | — | 40.6% |  |
-| 979 | [CVE-2025-20352](../data/cves/2025/CVE-2025-20352.yml) | Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability | Cisco IOS and IOS XE | — | 40.6% |  |
-| 980 | [CVE-2015-0666](../data/cves/2015/CVE-2015-0666.yml) | Cisco Prime Data Center Network Manager (DCNM) Directory Traversal Vulnerability | Cisco Prime Data Center Network Manager (DCNM) | — | 40.4% |  |
-| 981 | [CVE-2010-5330](../data/cves/2010/CVE-2010-5330.yml) | Ubiquiti AirOS Command Injection Vulnerability | Ubiquiti AirOS | — | 40.2% |  |
-| 982 | [CVE-2026-76461](../data/cves/2026/CVE-2026-76461.yml) | Cisco Secure Email Gateway SQL Injection Vulnerability | Cisco Secure Email Gateway | — | 40.2% |  |
-| 983 | [CVE-2015-2424](../data/cves/2015/CVE-2015-2424.yml) | Microsoft PowerPoint Memory Corruption Vulnerability | Microsoft PowerPoint | — | 40.1% |  |
-| 984 | [CVE-2021-34448](../data/cves/2021/CVE-2021-34448.yml) | Microsoft Windows Scripting Engine Memory Corruption Vulnerability | Microsoft Windows | — | 40.1% |  |
-| 985 | [CVE-2021-20016](../data/cves/2021/CVE-2021-20016.yml) | SonicWall SSLVPN SMA100 SQL Injection Vulnerability | SonicWall SSLVPN SMA100 | — | 40.0% | 🔒 |
-| 986 | [CVE-2014-0496](../data/cves/2014/CVE-2014-0496.yml) | Adobe Reader and Acrobat Use-After-Free Vulnerability | Adobe Reader and Acrobat | — | 40.0% |  |
-| 987 | [CVE-2013-6282](../data/cves/2013/CVE-2013-6282.yml) | Linux Kernel Improper Input Validation Vulnerability | Linux Kernel | — | 39.7% |  |
-| 988 | [CVE-2021-27860](../data/cves/2021/CVE-2021-27860.yml) | FatPipe WARP, IPVPN, and MPVPN Configuration Upload exploit | FatPipe WARP, IPVPN, and MPVPN software | — | 39.7% |  |
-| 989 | [CVE-2021-1647](../data/cves/2021/CVE-2021-1647.yml) | Microsoft Defender Remote Code Execution Vulnerability | Microsoft Defender | — | 39.7% |  |
-| 990 | [CVE-2023-39780](../data/cves/2023/CVE-2023-39780.yml) | ASUS RT-AX55 Routers OS Command Injection Vulnerability | ASUS RT-AX55 Routers | — | 39.5% |  |
-| 991 | [CVE-2013-3660](../data/cves/2013/CVE-2013-3660.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | — | 39.3% |  |
-| 992 | [CVE-2021-26828](../data/cves/2021/CVE-2021-26828.yml) | OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability | OpenPLC ScadaBR | — | 39.1% |  |
-| 993 | [CVE-2020-1464](../data/cves/2020/CVE-2020-1464.yml) | Microsoft Windows Spoofing Vulnerability | Microsoft Windows | — | 38.9% |  |
-| 994 | [CVE-2026-76504](../data/cves/2026/CVE-2026-76504.yml) | Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability | Cisco Catalyst SD-WAN Manager | — | 38.9% |  |
-| 995 | [CVE-2021-38003](../data/cves/2021/CVE-2021-38003.yml) | Google Chromium V8 Memory Corruption Vulnerability | Google Chromium V8 | — | 38.6% |  |
-| 996 | [CVE-2024-55550](../data/cves/2024/CVE-2024-55550.yml) | Mitel MiCollab Path Traversal Vulnerability | Mitel MiCollab | — | 38.2% | 🔒 |
-| 997 | [CVE-2018-13374](../data/cves/2018/CVE-2018-13374.yml) | Fortinet FortiOS and FortiADC Improper Access Control Vulnerability | Fortinet FortiOS and FortiADC | — | 38.1% | 🔒 |
-| 998 | [CVE-2019-11707](../data/cves/2019/CVE-2019-11707.yml) | Mozilla Firefox and Thunderbird Type Confusion Vulnerability | Mozilla Firefox and Thunderbird | — | 38.0% |  |
-| 999 | [CVE-2008-0655](../data/cves/2008/CVE-2008-0655.yml) | Adobe Acrobat and Reader Unspecified Vulnerability | Adobe Acrobat and Reader | — | 37.9% |  |
-| 1000 | [CVE-2023-3079](../data/cves/2023/CVE-2023-3079.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | — | 37.9% |  |
+| 926 | [CVE-2018-5430](../data/cves/2018/CVE-2018-5430.yml) | TIBCO JasperReports Server Information Disclosure Vulnerability | TIBCO JasperReports | 8.8 | 48.1% |  |
+| 927 | [CVE-2021-26829](../data/cves/2021/CVE-2021-26829.yml) | OpenPLC ScadaBR Cross-site Scripting Vulnerability | OpenPLC ScadaBR | 5.4 | 48.0% |  |
+| 928 | [CVE-2026-28318](../data/cves/2026/CVE-2026-28318.yml) | SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability | SolarWinds Serv-U | 7.5 | 48.0% |  |
+| 929 | [CVE-2023-48365](../data/cves/2023/CVE-2023-48365.yml) | Qlik Sense HTTP Tunneling Vulnerability | Qlik Sense | 9.9 | 47.7% | 🔒 |
+| 930 | [CVE-2013-2094](../data/cves/2013/CVE-2013-2094.yml) | Linux Kernel Privilege Escalation Vulnerability | Linux Kernel | 8.4 | 47.7% |  |
+| 931 | [CVE-2021-40407](../data/cves/2021/CVE-2021-40407.yml) | Reolink RLC-410W IP Camera OS Command Injection Vulnerability  | Reolink RLC-410W IP Camera | 7.2 | 47.6% |  |
+| 932 | [CVE-2025-0411](../data/cves/2025/CVE-2025-0411.yml) | 7-Zip Mark of the Web Bypass Vulnerability | 7-Zip 7-Zip | 7 | 47.6% |  |
+| 933 | [CVE-2021-22893](../data/cves/2021/CVE-2021-22893.yml) | Ivanti Pulse Connect Secure Use-After-Free Vulnerability | Ivanti Pulse Connect Secure | 10 | 47.5% | 🔒 |
+| 934 | [CVE-2026-48356](../data/cves/2026/CVE-2026-48356.yml) | Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability | Adobe Commerce and Magento | 9.3 | 47.5% |  |
+| 935 | [CVE-2016-3976](../data/cves/2016/CVE-2016-3976.yml) | SAP NetWeaver Directory Traversal Vulnerability | SAP NetWeaver | 7.5 | 47.3% |  |
+| 936 | [CVE-2014-4123](../data/cves/2014/CVE-2014-4123.yml) | Microsoft Internet Explorer Privilege Escalation Vulnerability | Microsoft Internet Explorer | 8.8 | 47.1% |  |
+| 937 | [CVE-2019-17026](../data/cves/2019/CVE-2019-17026.yml) | Mozilla Firefox And Thunderbird Type Confusion Vulnerability | Mozilla Firefox and Thunderbird | 8.8 | 46.3% |  |
+| 938 | [CVE-2024-43573](../data/cves/2024/CVE-2024-43573.yml) | Microsoft Windows MSHTML Platform Spoofing Vulnerability | Microsoft Windows | 8.1 | 46.1% |  |
+| 939 | [CVE-2026-12569](../data/cves/2026/CVE-2026-12569.yml) | PTC Windchill and FlexPLM Improper Input Validation Vulnerability | PTC Windchill and FlexPLM | 9.3 | 46.0% | 🔒 |
+| 940 | [CVE-2017-6862](../data/cves/2017/CVE-2017-6862.yml) | NETGEAR Multiple Devices Buffer Overflow Vulnerability | NETGEAR Multiple Devices | 9.8 | 45.7% |  |
+| 941 | [CVE-2017-16651](../data/cves/2017/CVE-2017-16651.yml) | Roundcube Webmail File Disclosure Vulnerability | Roundcube Roundcube Webmail | 7.8 | 45.7% |  |
+| 942 | [CVE-2020-12812](../data/cves/2020/CVE-2020-12812.yml) | Fortinet FortiOS SSL VPN Improper Authentication Vulnerability | Fortinet FortiOS | 9.8 | 45.4% | 🔒 |
+| 943 | [CVE-2019-0803](../data/cves/2019/CVE-2019-0803.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 45.2% | 🔒 |
+| 944 | [CVE-2024-29988](../data/cves/2024/CVE-2024-29988.yml) | Microsoft SmartScreen Prompt Security Feature Bypass Vulnerability | Microsoft SmartScreen Prompt | 8.8 | 45.2% |  |
+| 945 | [CVE-2017-6737](../data/cves/2017/CVE-2017-6737.yml) | Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability | Cisco IOS and IOS XE Software | 8.8 | 45.0% |  |
+| 946 | [CVE-2014-9163](../data/cves/2014/CVE-2014-9163.yml) | Adobe Flash Player Stack-Based Buffer Overflow Vulnerability | Adobe Flash Player | 7.8 | 44.9% |  |
+| 947 | [CVE-2015-2425](../data/cves/2015/CVE-2015-2425.yml) | Microsoft Internet Explorer Memory Corruption Vulnerability | Microsoft Internet Explorer | 8.8 | 44.7% |  |
+| 948 | [CVE-2013-3900](../data/cves/2013/CVE-2013-3900.yml) | Microsoft WinVerifyTrust function Remote Code Execution | Microsoft WinVerifyTrust function | 5.5 | 44.6% |  |
+| 949 | [CVE-2023-36874](../data/cves/2023/CVE-2023-36874.yml) | Microsoft Windows Error Reporting Service Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 44.4% |  |
+| 950 | [CVE-2026-20131](../data/cves/2026/CVE-2026-20131.yml) | Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability | Cisco Secure Firewall Management Center (FMC) | 10 | 44.4% | 🔒 |
+| 951 | [CVE-2024-9379](../data/cves/2024/CVE-2024-9379.yml) | Ivanti Cloud Services Appliance (CSA) SQL Injection Vulnerability | Ivanti Cloud Services Appliance (CSA) | 7.2 | 44.3% |  |
+| 952 | [CVE-2019-1579](../data/cves/2019/CVE-2019-1579.yml) | Palo Alto Networks PAN-OS Remote Code Execution Vulnerability | Palo Alto Networks PAN-OS | 8.1 | 44.2% | 🔒 |
+| 953 | [CVE-2022-39197](../data/cves/2022/CVE-2022-39197.yml) | Fortra Cobalt Strike Teamserver Cross-Site Scripting (XSS) Vulnerability | Fortra Cobalt Strike | 6.1 | 44.1% |  |
+| 954 | [CVE-2007-0671](../data/cves/2007/CVE-2007-0671.yml) | Microsoft Office Excel Remote Code Execution Vulnerability | Microsoft Office | 8.8 | 44.1% |  |
+| 955 | [CVE-2014-100005](../data/cves/2014/CVE-2014-100005.yml) | D-Link DIR-600 Router Cross-Site Request Forgery (CSRF) Vulnerability | D-Link DIR-600 Router | 8 | 43.5% |  |
+| 956 | [CVE-2026-32201](../data/cves/2026/CVE-2026-32201.yml) | Microsoft SharePoint Server Improper Input Validation Vulnerability | Microsoft SharePoint Server | 6.5 | 43.4% |  |
+| 957 | [CVE-2020-12271](../data/cves/2020/CVE-2020-12271.yml) | Sophos SFOS SQL Injection Vulnerability | Sophos SFOS | 9.8 | 43.3% | 🔒 |
+| 958 | [CVE-2016-3235](../data/cves/2016/CVE-2016-3235.yml) | Microsoft Office OLE DLL Side Loading Vulnerability | Microsoft Office | 7.8 | 43.3% |  |
+| 959 | [CVE-2023-49105](../data/cves/2023/CVE-2023-49105.yml) | ownCloud Improper Authentication Vulnerability | ownCloud ownCloud | 9.8 | 43.2% |  |
+| 960 | [CVE-2025-2775](../data/cves/2025/CVE-2025-2775.yml) | SysAid On-Prem Improper Restriction of XML External Entity Reference Vulnerability | SysAid SysAid On-Prem | 7.5 | 43.2% |  |
+| 961 | [CVE-2021-42292](../data/cves/2021/CVE-2021-42292.yml) | Microsoft Excel Security Feature Bypass | Microsoft Office | 7.8 | 43.0% |  |
+| 962 | [CVE-2009-0238](../data/cves/2009/CVE-2009-0238.yml) | Microsoft Office Remote Code Execution | Microsoft Office | 8.8 | 42.9% |  |
+| 963 | [CVE-2020-0787](../data/cves/2020/CVE-2020-0787.yml) | Microsoft Windows Background Intelligent Transfer Service (BITS) Improper Privilege Management Vulnerability | Microsoft Windows | 7.8 | 42.5% | 🔒 |
+| 964 | [CVE-2026-48282](../data/cves/2026/CVE-2026-48282.yml) | Adobe ColdFusion Path Traversal Vulnerability | Adobe ColdFusion | 10 | 42.4% |  |
+| 965 | [CVE-2026-0300](../data/cves/2026/CVE-2026-0300.yml) | Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability | Palo Alto Networks PAN-OS | 9.3 | 41.7% |  |
+| 966 | [CVE-2024-41710](../data/cves/2024/CVE-2024-41710.yml) | Mitel SIP Phones Argument Injection Vulnerability | Mitel SIP Phones | 7.2 | 41.6% |  |
+| 967 | [CVE-2019-16928](../data/cves/2019/CVE-2019-16928.yml) | Exim Out-of-bounds Write Vulnerability | Exim Exim Internet Mailer | 9.8 | 41.6% |  |
+| 968 | [CVE-2023-33538](../data/cves/2023/CVE-2023-33538.yml) | TP-Link Multiple Routers Command Injection Vulnerability | TP-Link Multiple Routers | 8.8 | 41.6% |  |
+| 969 | [CVE-2019-0841](../data/cves/2019/CVE-2019-0841.yml) | Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 41.4% | 🔒 |
+| 970 | [CVE-2024-38178](../data/cves/2024/CVE-2024-38178.yml) | Microsoft Windows Scripting Engine Memory Corruption Vulnerability | Microsoft Windows | 7.5 | 41.4% |  |
+| 971 | [CVE-2023-4762](../data/cves/2023/CVE-2023-4762.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 41.4% |  |
+| 972 | [CVE-2011-1823](../data/cves/2011/CVE-2011-1823.yml) | Android OS Privilege Escalation Vulnerability | Android Android OS | 7.8 | 41.4% |  |
+| 973 | [CVE-2025-9377](../data/cves/2025/CVE-2025-9377.yml) | TP-Link Archer C7(EU) and TL-WR841N/ND(MS) OS Command Injection Vulnerability | TP-Link Multiple Routers | 8.6 | 41.3% |  |
+| 974 | [CVE-2021-22894](../data/cves/2021/CVE-2021-22894.yml) | Ivanti Pulse Connect Secure Collaboration Suite Buffer Overflow Vulnerability | Ivanti Pulse Connect Secure | 8.8 | 41.3% |  |
+| 975 | [CVE-2023-29336](../data/cves/2023/CVE-2023-29336.yml) | Microsoft Win32K Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 41.2% |  |
+| 976 | [CVE-2022-21999](../data/cves/2022/CVE-2022-21999.yml) | Microsoft Windows Print Spooler Privilege Escalation Vulnerability | Microsoft Windows | 7.8 | 41.0% | 🔒 |
+| 977 | [CVE-2023-2033](../data/cves/2023/CVE-2023-2033.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 40.6% |  |
+| 978 | [CVE-2017-5030](../data/cves/2017/CVE-2017-5030.yml) | Google Chromium V8 Memory Corruption Vulnerability | Google Chromium V8 | 8.8 | 40.6% |  |
+| 979 | [CVE-2025-20352](../data/cves/2025/CVE-2025-20352.yml) | Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability | Cisco IOS and IOS XE | 7.7 | 40.6% |  |
+| 980 | [CVE-2015-0666](../data/cves/2015/CVE-2015-0666.yml) | Cisco Prime Data Center Network Manager (DCNM) Directory Traversal Vulnerability | Cisco Prime Data Center Network Manager (DCNM) | 7.5 | 40.4% |  |
+| 981 | [CVE-2010-5330](../data/cves/2010/CVE-2010-5330.yml) | Ubiquiti AirOS Command Injection Vulnerability | Ubiquiti AirOS | 9.8 | 40.2% |  |
+| 982 | [CVE-2026-76461](../data/cves/2026/CVE-2026-76461.yml) | Cisco Secure Email Gateway SQL Injection Vulnerability | Cisco Secure Email Gateway | 9.8 | 40.2% |  |
+| 983 | [CVE-2015-2424](../data/cves/2015/CVE-2015-2424.yml) | Microsoft PowerPoint Memory Corruption Vulnerability | Microsoft PowerPoint | 8.8 | 40.1% |  |
+| 984 | [CVE-2021-34448](../data/cves/2021/CVE-2021-34448.yml) | Microsoft Windows Scripting Engine Memory Corruption Vulnerability | Microsoft Windows | 6.8 | 40.1% |  |
+| 985 | [CVE-2021-20016](../data/cves/2021/CVE-2021-20016.yml) | SonicWall SSLVPN SMA100 SQL Injection Vulnerability | SonicWall SSLVPN SMA100 | 9.8 | 40.0% | 🔒 |
+| 986 | [CVE-2014-0496](../data/cves/2014/CVE-2014-0496.yml) | Adobe Reader and Acrobat Use-After-Free Vulnerability | Adobe Reader and Acrobat | 8.8 | 40.0% |  |
+| 987 | [CVE-2013-6282](../data/cves/2013/CVE-2013-6282.yml) | Linux Kernel Improper Input Validation Vulnerability | Linux Kernel | 8.8 | 39.7% |  |
+| 988 | [CVE-2021-27860](../data/cves/2021/CVE-2021-27860.yml) | FatPipe WARP, IPVPN, and MPVPN Configuration Upload exploit | FatPipe WARP, IPVPN, and MPVPN software | 8.8 | 39.7% |  |
+| 989 | [CVE-2021-1647](../data/cves/2021/CVE-2021-1647.yml) | Microsoft Defender Remote Code Execution Vulnerability | Microsoft Defender | 7.8 | 39.7% |  |
+| 990 | [CVE-2023-39780](../data/cves/2023/CVE-2023-39780.yml) | ASUS RT-AX55 Routers OS Command Injection Vulnerability | ASUS RT-AX55 Routers | 8.8 | 39.5% |  |
+| 991 | [CVE-2013-3660](../data/cves/2013/CVE-2013-3660.yml) | Microsoft Win32k Privilege Escalation Vulnerability | Microsoft Win32k | 7.8 | 39.3% |  |
+| 992 | [CVE-2021-26828](../data/cves/2021/CVE-2021-26828.yml) | OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability | OpenPLC ScadaBR | 8.8 | 39.1% |  |
+| 993 | [CVE-2020-1464](../data/cves/2020/CVE-2020-1464.yml) | Microsoft Windows Spoofing Vulnerability | Microsoft Windows | 7.8 | 38.9% |  |
+| 994 | [CVE-2026-76504](../data/cves/2026/CVE-2026-76504.yml) | Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability | Cisco Catalyst SD-WAN Manager | 9.8 | 38.9% |  |
+| 995 | [CVE-2021-38003](../data/cves/2021/CVE-2021-38003.yml) | Google Chromium V8 Memory Corruption Vulnerability | Google Chromium V8 | 8.8 | 38.6% |  |
+| 996 | [CVE-2024-55550](../data/cves/2024/CVE-2024-55550.yml) | Mitel MiCollab Path Traversal Vulnerability | Mitel MiCollab | 2.7 | 38.2% | 🔒 |
+| 997 | [CVE-2018-13374](../data/cves/2018/CVE-2018-13374.yml) | Fortinet FortiOS and FortiADC Improper Access Control Vulnerability | Fortinet FortiOS and FortiADC | 4.3 | 38.1% | 🔒 |
+| 998 | [CVE-2019-11707](../data/cves/2019/CVE-2019-11707.yml) | Mozilla Firefox and Thunderbird Type Confusion Vulnerability | Mozilla Firefox and Thunderbird | 8.8 | 38.0% |  |
+| 999 | [CVE-2008-0655](../data/cves/2008/CVE-2008-0655.yml) | Adobe Acrobat and Reader Unspecified Vulnerability | Adobe Acrobat and Reader | 8.8 | 37.9% |  |
+| 1000 | [CVE-2023-3079](../data/cves/2023/CVE-2023-3079.yml) | Google Chromium V8 Type Confusion Vulnerability | Google Chromium V8 | 8.8 | 37.9% |  |

@@ -6,6 +6,7 @@
 //   npm run sync:cves                         → default (NVD for pages missing CVSS or older than 30 days)
 //   npm run sync:cves -- --max-age 0          → force NVD refresh for every page
 //   npm run sync:cves -- --limit 200          → at most 200 NVD calls this run
+//   npm run sync:cves -- --feeds              → use NVD yearly bulk feeds (fast; recommended for many pages)
 // Set NVD_API_KEY to go ~10x faster.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -64,6 +65,30 @@ for (let i = 0; i < ids.length; i += 100) {
   for (const e of res?.data ?? []) epssById.set(e.cve, { score: Number(e.epss), percentile: Number(e.percentile), date: e.date });
 }
 
+// --feeds: use NVD's yearly JSON 2.0 bulk feeds instead of one API call per CVE (minutes instead of hours).
+const FEEDS = process.argv.includes('--feeds');
+const feedCves = new Map();
+if (FEEDS) {
+  const zlib = await import('node:zlib');
+  const cacheDir = path.join(ROOT, '.cache', 'nvd');
+  fs.mkdirSync(cacheDir, { recursive: true });
+  const wanted = new Set(ids);
+  const years = [...new Set(ids.map((id) => id.split('-')[1]))].sort();
+  for (const year of years) {
+    const file = path.join(cacheDir, `nvdcve-2.0-${year}.json.gz`);
+    const fresh = fs.existsSync(file) && Date.now() - fs.statSync(file).mtimeMs < 864e5;
+    if (!fresh) {
+      const res = await fetch(`https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-${year}.json.gz`, { headers: { 'User-Agent': 'hexicon-cve-sync' } });
+      if (!res.ok) { console.warn(`! feed ${year}: HTTP ${res.status}`); continue; }
+      fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
+    }
+    const feed = JSON.parse(zlib.gunzipSync(fs.readFileSync(file)).toString('utf8'));
+    let hits = 0;
+    for (const v of feed.vulnerabilities ?? []) if (wanted.has(v.cve.id)) { feedCves.set(v.cve.id, v.cve); hits++; }
+    console.log(`feed ${year}: ${hits} matching CVEs`);
+  }
+}
+
 const ageDays = (d) => (d ? (Date.now() - new Date(d).getTime()) / 864e5 : Infinity);
 let nvdCalls = 0, updated = 0;
 
@@ -75,11 +100,16 @@ for (const [i, file] of files.entries()) {
 
   const needsNvd = !cvss || ageDays(prev.nvd_synced_on ?? prev.synced_on) > MAX_AGE || MAX_AGE === 0;
   let nvdDate = prev.nvd_synced_on;
-  if (needsNvd && nvdCalls < NVD_LIMIT) {
-    if (nvdCalls > 0) await sleep(DELAY);
-    nvdCalls++;
-    const nvd = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${id}`, KEY ? { apiKey: KEY } : {});
-    const cve = nvd?.vulnerabilities?.[0]?.cve;
+  if (FEEDS ? needsNvd || feedCves.has(id) : needsNvd && nvdCalls < NVD_LIMIT) {
+    let cve;
+    if (FEEDS) {
+      cve = feedCves.get(id);
+    } else {
+      if (nvdCalls > 0) await sleep(DELAY);
+      nvdCalls++;
+      const nvd = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${id}`, KEY ? { apiKey: KEY } : {});
+      cve = nvd?.vulnerabilities?.[0]?.cve;
+    }
     if (cve) {
       published = cve.published.slice(0, 10);
       cvss = pickCvss(cve.metrics) ?? cvss;
@@ -110,6 +140,6 @@ for (const [i, file] of files.entries()) {
     fs.writeFileSync(file, doc.toString({ lineWidth: 0 }));
     updated++;
   }
-  if (needsNvd && (nvdCalls % 25 === 0)) console.log(`… ${i + 1}/${files.length} pages, ${nvdCalls} NVD calls`);
+  if (!FEEDS && needsNvd && nvdCalls % 25 === 0) console.log(`… ${i + 1}/${files.length} pages, ${nvdCalls} NVD calls`);
 }
 console.log(`Synced ${files.length} CVE pages (${updated} updated, ${nvdCalls} NVD calls).`);

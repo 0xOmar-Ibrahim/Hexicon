@@ -19,7 +19,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run sync:cves
+      - run: npm run sync:cves -- --feeds
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
       - name: Commit changes
