@@ -1,0 +1,16 @@
+title: "Conpot"
+url: "https://github.com/mushorg/conpot"
+type: tool
+domain: ics-ot
+subdomains: [scada]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Low-interaction ICS honeypot emulating industrial protocols and devices."
+tags: [honeypot, ics]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

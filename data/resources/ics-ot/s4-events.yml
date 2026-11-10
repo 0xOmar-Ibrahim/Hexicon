@@ -1,0 +1,16 @@
+title: "S4 Events"
+url: "https://s4xevents.com/"
+type: conference
+domain: ics-ot
+subdomains: [standards, scada]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Leading conference focused on ICS/OT security."
+tags: [conference, ot]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

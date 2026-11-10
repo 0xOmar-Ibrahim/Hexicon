@@ -1,0 +1,15 @@
+title: "Snap7"
+url: "https://snap7.sourceforge.net/"
+type: tool
+domain: ics-ot
+subdomains: [protocols]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Open-source Ethernet communication suite for Siemens S7 PLCs."
+tags: [s7, siemens]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

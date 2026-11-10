@@ -1,0 +1,16 @@
+title: "NIST SP 800-82 Rev. 3: Guide to OT Security"
+url: "https://csrc.nist.gov/pubs/sp/800/82/r3/final"
+type: framework
+domain: ics-ot
+subdomains: [standards]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "NIST guidance on securing operational technology while addressing performance and safety requirements."
+tags: [nist, ot]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Dragos Blog"
+url: "https://www.dragos.com/blog/"
+type: blog
+domain: ics-ot
+subdomains: [scada, standards]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "OT threat intelligence and research from Dragos."
+tags: [ot-threat-intel]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

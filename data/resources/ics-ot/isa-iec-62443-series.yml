@@ -1,0 +1,16 @@
+title: "ISA/IEC 62443 series"
+url: "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards"
+type: framework
+domain: ics-ot
+subdomains: [standards]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "The international series of standards for securing industrial automation and control systems."
+tags: [iec-62443]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

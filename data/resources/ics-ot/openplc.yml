@@ -1,0 +1,16 @@
+title: "OpenPLC"
+url: "https://autonomylogic.com/"
+type: tool
+domain: ics-ot
+subdomains: [scada]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open-source PLC runtime and editor, widely used to build ICS security labs."
+tags: [plc, open-source]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

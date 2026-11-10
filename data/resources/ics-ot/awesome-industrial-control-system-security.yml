@@ -1,0 +1,16 @@
+title: "Awesome Industrial Control System Security"
+url: "https://github.com/hslatman/awesome-industrial-control-system-security"
+type: documentation
+domain: ics-ot
+subdomains: [scada, protocols, standards]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Curated list of ICS security resources, tools, papers and datasets."
+tags: [curated-list]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "MITRE ATT&CK for ICS"
+url: "https://attack.mitre.org/matrices/ics/"
+type: framework
+domain: ics-ot
+subdomains: [standards, scada]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "ATT&CK matrix describing adversary behaviour against industrial control systems."
+tags: [mitre, ics]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

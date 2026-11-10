@@ -1,0 +1,16 @@
+title: "Claroty Team82"
+url: "https://claroty.com/team82"
+type: blog
+domain: ics-ot
+subdomains: [scada, protocols]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Claroty's research team publishing OT, IoT and medical device vulnerability research."
+tags: [ot-vulnerability-research]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "GRFICS v2"
+url: "https://github.com/Fortiphyd/GRFICSv2"
+type: lab
+domain: ics-ot
+subdomains: [scada]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Graphical realism framework for industrial control simulation — a virtual ICS lab with a 3D process."
+tags: [simulation, virtual-lab]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
