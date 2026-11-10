@@ -1,0 +1,17 @@
+title: CISA Known Exploited Vulnerabilities Catalog
+url: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+type: dataset
+domain: cves
+subdomains: [kev, vuln-db, vuln-mgmt]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: Authoritative list of vulnerabilities confirmed to be exploited in the wild, with remediation due dates. Available as JSON/CSV — a key input for patch prioritization.
+tags: [kev, cisa, prioritization, patch-management]
+author: CISA
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

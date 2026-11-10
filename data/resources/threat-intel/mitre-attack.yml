@@ -1,0 +1,17 @@
+title: MITRE ATT&CK
+url: https://attack.mitre.org/
+type: framework
+domain: threat-intel
+subdomains: [attack-frameworks, cti]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: Globally used knowledge base of adversary tactics and techniques based on real-world observations, used for threat modeling, detection and red/purple teaming.
+tags: [mitre, ttp, detection, purple-team]
+author: MITRE
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,166 @@
+# Hexicon — Taxonomy
+# Every resource belongs to exactly one domain and one or more subdomains.
+# Names are translated into all supported languages: en, de, fr, ar, ru.
+# To propose a new domain/subdomain, open an issue first — don't edit this file in a resource PR.
+
+languages: [en, de, fr, ar, ru]
+rtl_languages: [ar]
+
+domains:
+  - id: fundamentals
+    order: 1
+    icon: compass
+    name: { en: Fundamentals, de: Grundlagen, fr: Fondamentaux, ar: الأساسيات, ru: Основы }
+    subdomains:
+      - { id: networking,        name: { en: Networking, de: Netzwerke, fr: Réseaux, ar: الشبكات, ru: Сети } }
+      - { id: linux,             name: { en: Linux, de: Linux, fr: Linux, ar: لينكس, ru: Linux } }
+      - { id: windows,           name: { en: Windows, de: Windows, fr: Windows, ar: ويندوز, ru: Windows } }
+      - { id: programming,       name: { en: Programming & Scripting, de: Programmierung & Skripting, fr: Programmation & scripts, ar: البرمجة والسكربتات, ru: Программирование и скрипты } }
+      - { id: web-basics,        name: { en: How the Web Works, de: Wie das Web funktioniert, fr: Fonctionnement du Web, ar: كيف يعمل الويب, ru: Как работает веб } }
+      - { id: security-concepts, name: { en: Security Concepts, de: Sicherheitskonzepte, fr: Concepts de sécurité, ar: مفاهيم الأمن, ru: Концепции безопасности } }
+
+  - id: offensive
+    order: 2
+    icon: crosshair
+    name: { en: Offensive Security, de: Offensive Sicherheit, fr: Sécurité offensive, ar: الأمن الهجومي, ru: Наступательная безопасность }
+    subdomains:
+      - { id: web,                name: { en: Web Application Pentesting, de: Webanwendungs-Pentesting, fr: Pentest d'applications Web, ar: اختبار اختراق تطبيقات الويب, ru: Пентест веб-приложений } }
+      - { id: api,                name: { en: API Security Testing, de: API-Sicherheitstests, fr: Tests de sécurité des API, ar: اختبار أمان واجهات API, ru: Тестирование безопасности API } }
+      - { id: network,            name: { en: Network Pentesting, de: Netzwerk-Pentesting, fr: Pentest réseau, ar: اختبار اختراق الشبكات, ru: Пентест сетей } }
+      - { id: active-directory,   name: { en: Active Directory, de: Active Directory, fr: Active Directory, ar: الدليل النشط (AD), ru: Active Directory } }
+      - { id: red-team,           name: { en: Red Teaming & C2, de: Red Teaming & C2, fr: Red Team & C2, ar: الفريق الأحمر و C2, ru: Red Team и C2 } }
+      - { id: exploit-dev,        name: { en: Exploit Development, de: Exploit-Entwicklung, fr: Développement d'exploits, ar: تطوير الثغرات, ru: Разработка эксплойтов } }
+      - { id: mobile,             name: { en: Mobile Pentesting, de: Mobile-Pentesting, fr: Pentest mobile, ar: اختبار اختراق الهواتف, ru: Пентест мобильных приложений } }
+      - { id: wireless,           name: { en: Wireless, de: Drahtlos, fr: Sans fil, ar: الشبكات اللاسلكية, ru: Беспроводные сети } }
+      - { id: hardware-iot,       name: { en: Hardware & IoT, de: Hardware & IoT, fr: Matériel & IoT, ar: العتاد وإنترنت الأشياء, ru: Железо и IoT } }
+      - { id: social-engineering, name: { en: Social Engineering, de: Social Engineering, fr: Ingénierie sociale, ar: الهندسة الاجتماعية, ru: Социальная инженерия } }
+      - { id: password-attacks,   name: { en: Password Attacks, de: Passwortangriffe, fr: Attaques de mots de passe, ar: هجمات كلمات المرور, ru: Атаки на пароли } }
+
+  - id: defensive
+    order: 3
+    icon: shield
+    name: { en: Defensive Security, de: Defensive Sicherheit, fr: Sécurité défensive, ar: الأمن الدفاعي, ru: Оборонительная безопасность }
+    subdomains:
+      - { id: soc,                   name: { en: SOC Operations, de: SOC-Betrieb, fr: Opérations SOC, ar: عمليات مركز SOC, ru: Работа SOC } }
+      - { id: detection-engineering, name: { en: Detection Engineering, de: Detection Engineering, fr: Ingénierie de détection, ar: هندسة الكشف, ru: Инженерия обнаружения } }
+      - { id: threat-hunting,        name: { en: Threat Hunting, de: Threat Hunting, fr: Chasse aux menaces, ar: صيد التهديدات, ru: Охота за угрозами } }
+      - { id: siem,                  name: { en: SIEM & Log Analysis, de: SIEM & Log-Analyse, fr: SIEM & analyse de logs, ar: SIEM وتحليل السجلات, ru: SIEM и анализ логов } }
+      - { id: hardening,             name: { en: System Hardening, de: Systemhärtung, fr: Durcissement des systèmes, ar: تقوية الأنظمة, ru: Харднинг систем } }
+      - { id: network-defense,       name: { en: Network Defense, de: Netzwerkverteidigung, fr: Défense réseau, ar: الدفاع عن الشبكات, ru: Защита сетей } }
+      - { id: purple-team,           name: { en: Purple Teaming, de: Purple Teaming, fr: Purple Team, ar: الفريق البنفسجي, ru: Purple Team } }
+
+  - id: dfir
+    order: 4
+    icon: magnifier
+    name: { en: DFIR & Malware, de: DFIR & Malware, fr: DFIR & logiciels malveillants, ar: التحقيق الجنائي والبرمجيات الخبيثة, ru: DFIR и вредоносное ПО }
+    subdomains:
+      - { id: digital-forensics,  name: { en: Digital Forensics, de: Digitale Forensik, fr: Forensique numérique, ar: التحقيق الجنائي الرقمي, ru: Цифровая криминалистика } }
+      - { id: memory-forensics,   name: { en: Memory Forensics, de: Speicherforensik, fr: Forensique mémoire, ar: تحليل الذاكرة, ru: Криминалистика памяти } }
+      - { id: incident-response,  name: { en: Incident Response, de: Incident Response, fr: Réponse aux incidents, ar: الاستجابة للحوادث, ru: Реагирование на инциденты } }
+      - { id: malware-analysis,   name: { en: Malware Analysis, de: Malware-Analyse, fr: Analyse de malwares, ar: تحليل البرمجيات الخبيثة, ru: Анализ вредоносного ПО } }
+
+  - id: reverse-engineering
+    order: 5
+    icon: gear
+    name: { en: Reverse Engineering, de: Reverse Engineering, fr: Rétro-ingénierie, ar: الهندسة العكسية, ru: Реверс-инжиниринг }
+    subdomains:
+      - { id: binary,    name: { en: Binary Analysis, de: Binäranalyse, fr: Analyse binaire, ar: تحليل الملفات التنفيذية, ru: Анализ бинарных файлов } }
+      - { id: firmware,  name: { en: Firmware, de: Firmware, fr: Firmware, ar: البرامج الثابتة, ru: Прошивки } }
+      - { id: mobile-re, name: { en: Mobile App RE, de: Mobile-App-RE, fr: RE d'applications mobiles, ar: الهندسة العكسية لتطبيقات الهاتف, ru: Реверс мобильных приложений } }
+      - { id: protocol,  name: { en: Protocol RE, de: Protokoll-RE, fr: RE de protocoles, ar: الهندسة العكسية للبروتوكولات, ru: Реверс протоколов } }
+
+  - id: appsec
+    order: 6
+    icon: code
+    name: { en: AppSec & DevSecOps, de: AppSec & DevSecOps, fr: AppSec & DevSecOps, ar: أمن التطبيقات و DevSecOps, ru: AppSec и DevSecOps }
+    subdomains:
+      - { id: secure-coding,   name: { en: Secure Coding, de: Sichere Programmierung, fr: Développement sécurisé, ar: البرمجة الآمنة, ru: Безопасная разработка } }
+      - { id: threat-modeling, name: { en: Threat Modeling, de: Bedrohungsmodellierung, fr: Modélisation des menaces, ar: نمذجة التهديدات, ru: Моделирование угроз } }
+      - { id: sast-dast,       name: { en: SAST / DAST / SCA, de: SAST / DAST / SCA, fr: SAST / DAST / SCA, ar: SAST / DAST / SCA, ru: SAST / DAST / SCA } }
+      - { id: supply-chain,    name: { en: Supply Chain Security, de: Lieferkettensicherheit, fr: Sécurité de la chaîne d'approvisionnement, ar: أمن سلسلة التوريد, ru: Безопасность цепочки поставок } }
+      - { id: devsecops,       name: { en: DevSecOps & CI/CD, de: DevSecOps & CI/CD, fr: DevSecOps & CI/CD, ar: DevSecOps و CI/CD, ru: DevSecOps и CI/CD } }
+
+  - id: cloud
+    order: 7
+    icon: cloud
+    name: { en: Cloud & Containers, de: Cloud & Container, fr: Cloud & conteneurs, ar: السحابة والحاويات, ru: Облака и контейнеры }
+    subdomains:
+      - { id: aws,        name: { en: AWS, de: AWS, fr: AWS, ar: AWS, ru: AWS } }
+      - { id: azure,      name: { en: Azure & Entra ID, de: Azure & Entra ID, fr: Azure & Entra ID, ar: Azure و Entra ID, ru: Azure и Entra ID } }
+      - { id: gcp,        name: { en: Google Cloud, de: Google Cloud, fr: Google Cloud, ar: Google Cloud, ru: Google Cloud } }
+      - { id: kubernetes, name: { en: Kubernetes, de: Kubernetes, fr: Kubernetes, ar: Kubernetes, ru: Kubernetes } }
+      - { id: containers, name: { en: Containers & Docker, de: Container & Docker, fr: Conteneurs & Docker, ar: الحاويات و Docker, ru: Контейнеры и Docker } }
+      - { id: iac,        name: { en: Infrastructure as Code, de: Infrastructure as Code, fr: Infrastructure as Code, ar: البنية التحتية ككود, ru: Инфраструктура как код } }
+
+  - id: threat-intel
+    order: 8
+    icon: radar
+    name: { en: Threat Intel & OSINT, de: Threat Intelligence & OSINT, fr: Renseignement sur les menaces & OSINT, ar: استخبارات التهديدات و OSINT, ru: Разведка угроз и OSINT }
+    subdomains:
+      - { id: cti,               name: { en: Cyber Threat Intelligence, de: Cyber Threat Intelligence, fr: Renseignement sur les cybermenaces, ar: استخبارات التهديدات السيبرانية, ru: Киберразведка } }
+      - { id: osint,             name: { en: OSINT, de: OSINT, fr: OSINT, ar: الاستخبارات مفتوحة المصدر, ru: OSINT } }
+      - { id: attack-frameworks, name: { en: ATT&CK & Frameworks, de: ATT&CK & Frameworks, fr: ATT&CK & référentiels, ar: ATT&CK والأطر, ru: ATT&CK и фреймворки } }
+
+  - id: cryptography
+    order: 9
+    icon: key
+    name: { en: Cryptography, de: Kryptographie, fr: Cryptographie, ar: التشفير, ru: Криптография }
+    subdomains:
+      - { id: applied,      name: { en: Applied Cryptography, de: Angewandte Kryptographie, fr: Cryptographie appliquée, ar: التشفير التطبيقي, ru: Прикладная криптография } }
+      - { id: cryptanalysis, name: { en: Cryptanalysis, de: Kryptoanalyse, fr: Cryptanalyse, ar: تحليل الشفرات, ru: Криптоанализ } }
+      - { id: pki-tls,      name: { en: PKI & TLS, de: PKI & TLS, fr: PKI & TLS, ar: PKI و TLS, ru: PKI и TLS } }
+      - { id: post-quantum, name: { en: Post-Quantum, de: Post-Quanten, fr: Post-quantique, ar: ما بعد الكم, ru: Постквантовая } }
+
+  - id: ai-security
+    order: 10
+    icon: spark
+    name: { en: AI & LLM Security, de: KI- & LLM-Sicherheit, fr: Sécurité de l'IA & des LLM, ar: أمن الذكاء الاصطناعي ونماذج اللغة, ru: Безопасность ИИ и LLM }
+    subdomains:
+      - { id: llm-security,     name: { en: LLM Application Security, de: LLM-Anwendungssicherheit, fr: Sécurité des applications LLM, ar: أمن تطبيقات نماذج اللغة, ru: Безопасность LLM-приложений } }
+      - { id: adversarial-ml,   name: { en: Adversarial ML, de: Adversarial ML, fr: ML adverse, ar: التعلم الآلي العدائي, ru: Состязательное МО } }
+      - { id: ai-red-teaming,   name: { en: AI Red Teaming, de: KI-Red-Teaming, fr: Red Team IA, ar: الفريق الأحمر للذكاء الاصطناعي, ru: Red Team для ИИ } }
+      - { id: ai-for-security,  name: { en: AI for Security, de: KI für Sicherheit, fr: L'IA pour la sécurité, ar: الذكاء الاصطناعي للأمن, ru: ИИ для безопасности } }
+
+  - id: ics-ot
+    order: 11
+    icon: factory
+    name: { en: ICS / OT Security, de: ICS/OT-Sicherheit, fr: Sécurité ICS / OT, ar: أمن أنظمة التحكم الصناعي, ru: Безопасность АСУ ТП }
+    subdomains:
+      - { id: protocols, name: { en: Industrial Protocols, de: Industrieprotokolle, fr: Protocoles industriels, ar: البروتوكولات الصناعية, ru: Промышленные протоколы } }
+      - { id: scada,     name: { en: SCADA & PLC, de: SCADA & SPS, fr: SCADA & automates, ar: SCADA و PLC, ru: SCADA и ПЛК } }
+      - { id: standards, name: { en: Standards (IEC 62443…), de: Normen (IEC 62443…), fr: Normes (IEC 62443…), ar: المعايير (IEC 62443…), ru: Стандарты (IEC 62443…) } }
+
+  - id: grc
+    order: 12
+    icon: scale
+    name: { en: GRC & Privacy, de: GRC & Datenschutz, fr: GRC & vie privée, ar: الحوكمة والمخاطر والامتثال والخصوصية, ru: GRC и приватность }
+    subdomains:
+      - { id: frameworks, name: { en: Frameworks & Standards, de: Frameworks & Standards, fr: Référentiels & normes, ar: الأطر والمعايير, ru: Фреймворки и стандарты } }
+      - { id: risk,       name: { en: Risk Management, de: Risikomanagement, fr: Gestion des risques, ar: إدارة المخاطر, ru: Управление рисками } }
+      - { id: compliance, name: { en: Compliance & Audit, de: Compliance & Audit, fr: Conformité & audit, ar: الامتثال والتدقيق, ru: Соответствие и аудит } }
+      - { id: privacy,    name: { en: Privacy, de: Datenschutz, fr: Vie privée, ar: الخصوصية, ru: Приватность } }
+
+  - id: career
+    order: 13
+    icon: flag
+    name: { en: Career & Community, de: Karriere & Community, fr: Carrière & communauté, ar: المسار المهني والمجتمع, ru: Карьера и сообщество }
+    subdomains:
+      - { id: certifications, name: { en: Certifications, de: Zertifizierungen, fr: Certifications, ar: الشهادات, ru: Сертификации } }
+      - { id: ctf,            name: { en: CTFs, de: CTFs, fr: CTF, ar: مسابقات CTF, ru: CTF } }
+      - { id: labs,           name: { en: Labs & Practice, de: Labs & Übung, fr: Labs & entraînement, ar: المختبرات والتدريب, ru: Лаборатории и практика } }
+      - { id: communities,    name: { en: Communities, de: Communities, fr: Communautés, ar: المجتمعات, ru: Сообщества } }
+      - { id: media,          name: { en: Podcasts, News & Newsletters, de: Podcasts, News & Newsletter, fr: Podcasts, actus & newsletters, ar: البودكاست والأخبار والنشرات, ru: Подкасты, новости и рассылки } }
+      - { id: conferences,    name: { en: Conferences, de: Konferenzen, fr: Conférences, ar: المؤتمرات, ru: Конференции } }
+      - { id: jobs,           name: { en: Jobs & Interviews, de: Jobs & Vorstellungsgespräche, fr: Emplois & entretiens, ar: الوظائف والمقابلات, ru: Работа и собеседования } }
+
+  - id: cves
+    order: 14
+    icon: alert
+    name: { en: CVEs & Vulnerabilities, de: CVEs & Schwachstellen, fr: CVE & vulnérabilités, ar: الثغرات المعروفة (CVE), ru: CVE и уязвимости }
+    description:
+      en: Curated pages for notable vulnerabilities — not a mirror of NVD. Each page links advisories, write-ups, labs, detections and patches.
+    subdomains:
+      - { id: named,     name: { en: Named Vulnerabilities, de: Benannte Schwachstellen, fr: Vulnérabilités célèbres, ar: الثغرات الشهيرة, ru: Именные уязвимости } }
+      - { id: kev,       name: { en: Known Exploited (CISA KEV), de: Aktiv ausgenutzt (CISA KEV), fr: Exploitées activement (CISA KEV), ar: المستغلة فعليًا (CISA KEV), ru: Эксплуатируемые (CISA KEV) } }
+      - { id: vuln-db,   name: { en: Vulnerability Databases & Feeds, de: Schwachstellendatenbanken & Feeds, fr: Bases & flux de vulnérabilités, ar: قواعد بيانات الثغرات والتغذيات, ru: Базы и фиды уязвимостей } }
+      - { id: vuln-mgmt, name: { en: Vulnerability Management, de: Schwachstellenmanagement, fr: Gestion des vulnérabilités, ar: إدارة الثغرات, ru: Управление уязвимостями } }

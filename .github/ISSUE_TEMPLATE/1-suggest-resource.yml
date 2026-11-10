@@ -1,0 +1,69 @@
+name: "📚 Suggest a resource"
+description: Propose a course, tool, book, lab, cheatsheet… for Hexicon (no Git needed).
+title: "[Resource] "
+labels: ["resource", "triage"]
+body:
+  - type: input
+    id: title
+    attributes: { label: Title }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: URL, description: "Canonical https:// link, no tracking parameters." }
+    validations: { required: true }
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - fundamentals
+        - offensive
+        - defensive
+        - dfir
+        - reverse-engineering
+        - appsec
+        - cloud
+        - threat-intel
+        - cryptography
+        - ai-security
+        - ics-ot
+        - grc
+        - career
+        - cves
+    validations: { required: true }
+  - type: input
+    id: subdomains
+    attributes: { label: Subdomain(s), description: "See data/taxonomy.yml, e.g. web, active-directory" }
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [tool, course, book, video, youtube-channel, blog, article, cheatsheet, lab, ctf, paper, certification, podcast, newsletter, community, conference, framework, dataset, wordlist, roadmap, documentation]
+    validations: { required: true }
+  - type: checkboxes
+    id: level
+    attributes:
+      label: Level
+      options: [{ label: beginner }, { label: intermediate }, { label: advanced }]
+  - type: dropdown
+    id: cost
+    attributes: { label: Cost, options: [free, freemium, paid] }
+    validations: { required: true }
+  - type: input
+    id: languages
+    attributes: { label: Language(s) of the resource, placeholder: "en, ar" }
+    validations: { required: true }
+  - type: textarea
+    id: description
+    attributes: { label: Short description (English), description: "1–2 neutral sentences." }
+    validations: { required: true }
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: I searched Hexicon and this resource is not already listed.
+          required: true
+        - label: It contains no malware, leaked data or pirated material.
+          required: true
+        - label: This is my own work (fine — just tick it so maintainers know).

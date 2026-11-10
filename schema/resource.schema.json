@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/0xOmar-Ibrahim/Hexicon/schema/resource.schema.json",
+  "title": "Hexicon resource",
+  "description": "One file = one resource. File path: data/resources/<domain>/<slug>.yml. Domain/subdomain ids must exist in data/taxonomy.yml (checked by scripts/validate).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "url", "type", "domain", "subdomains", "level", "cost", "languages", "description", "added_by", "added_on"],
+  "properties": {
+    "title": { "type": "string", "minLength": 2, "maxLength": 120 },
+    "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "type": {
+      "enum": [
+        "tool", "course", "book", "video", "youtube-channel", "blog", "article",
+        "cheatsheet", "lab", "ctf", "paper", "certification", "podcast",
+        "newsletter", "community", "conference", "framework", "dataset",
+        "wordlist", "roadmap", "documentation"
+      ]
+    },
+    "domain": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "subdomains": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "level": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["beginner", "intermediate", "advanced"] } },
+    "cost": { "enum": ["free", "freemium", "paid"] },
+    "languages": {
+      "description": "Language(s) the resource itself is written/spoken in (ISO 639-1).",
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z]{2}$" }
+    },
+    "description": {
+      "description": "Short neutral summary (max ~300 chars). English is required; other languages are added by translators.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "minLength": 20, "maxLength": 400 },
+        "de": { "type": "string", "maxLength": 500 },
+        "fr": { "type": "string", "maxLength": 500 },
+        "ar": { "type": "string", "maxLength": 500 },
+        "ru": { "type": "string", "maxLength": 500 }
+      }
+    },
+    "tags": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+.-]*$" } },
+    "author": { "type": "string" },
+    "repo": { "type": "string", "format": "uri", "description": "Source repository if different from url (used for stars/last-commit stats)." },
+    "related_cves": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^CVE-\\d{4}-\\d{4,}$" } },
+    "mitre_attack": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^(T\\d{4}(\\.\\d{3})?|TA\\d{4})$" } },
+    "status": { "enum": ["active", "archived", "unmaintained"], "default": "active" },
+    "featured": { "type": "boolean", "default": false },
+    "added_by": { "type": "string", "pattern": "^@[A-Za-z0-9-]+$" },
+    "added_on": { "type": "string", "format": "date" },
+    "last_verified": { "type": "string", "format": "date" }
+  }
+}

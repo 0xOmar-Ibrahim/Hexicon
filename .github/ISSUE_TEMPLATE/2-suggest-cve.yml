@@ -1,0 +1,25 @@
+name: "🚨 Suggest a CVE page"
+description: Propose a notable vulnerability for a curated CVE page.
+title: "[CVE] CVE-"
+labels: ["cve", "triage"]
+body:
+  - type: input
+    id: cve
+    attributes: { label: CVE ID, placeholder: CVE-2024-3400 }
+    validations: { required: true }
+  - type: input
+    id: nickname
+    attributes: { label: Common name (if any), placeholder: "e.g. Log4Shell" }
+  - type: dropdown
+    id: why
+    attributes:
+      label: Why is it notable?
+      multiple: true
+      options: [In CISA KEV, Widely exploited, Named / famous, Great learning case, Affects very common software]
+    validations: { required: true }
+  - type: textarea
+    id: references
+    attributes:
+      label: Good references
+      description: "Advisories, write-ups, labs (e.g. Vulhub), detection rules, patches — one URL per line."
+    validations: { required: true }

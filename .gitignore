@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.cache/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
+.claude/settings.local.json
+
+# third-party skills installed locally (see CONTRIBUTING)
+.claude/skills/cyber-*/
+.claude/skills/_vendor/

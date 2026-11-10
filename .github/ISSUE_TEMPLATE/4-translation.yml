@@ -1,0 +1,16 @@
+name: "🌍 Translation"
+description: Offer or request translations (de, fr, ar, ru).
+title: "[i18n] "
+labels: ["i18n"]
+body:
+  - type: dropdown
+    id: lang
+    attributes: { label: Language, options: [Deutsch (de), Français (fr), العربية (ar), Русский (ru)] }
+    validations: { required: true }
+  - type: dropdown
+    id: scope
+    attributes: { label: What, options: [Resource descriptions, Website interface, Learning paths, CVE summaries, Docs] }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Details }

@@ -1,0 +1,16 @@
+name: "🔗 Broken or outdated link"
+description: Report a dead link or a resource that is no longer maintained.
+title: "[Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: file
+    attributes: { label: Resource file or title }
+    validations: { required: true }
+  - type: dropdown
+    id: problem
+    attributes: { label: Problem, options: [Dead link (404/timeout), Moved to a new URL, No longer maintained, Became paid, Other] }
+    validations: { required: true }
+  - type: input
+    id: new_url
+    attributes: { label: New URL (if known) }
