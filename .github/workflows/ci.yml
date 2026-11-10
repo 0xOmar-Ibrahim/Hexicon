@@ -1,0 +1,32 @@
+name: CI
+
+# Every PR must build: YAML must parse, every learning-path step must resolve,
+# and docs/ must be regenerated (npm run docs) when data/ changes.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build website data
+        run: npm run build
+      - name: Check docs/ is up to date
+        run: |
+          npm run docs
+          if ! git diff --quiet -- docs/; then
+            echo "::error::docs/ is out of date — run 'npm run docs' and commit the result."
+            git diff --stat -- docs/
+            exit 1
+          fi

@@ -28,9 +28,9 @@ Decisions taken (2026-11-10):
 
 ## Phase 2 — Automation
 - [ ] `scripts/validate` — schema + taxonomy + duplicate URL check (runs on every PR)
-- [ ] `scripts/build-readmes` — generate `docs/<domain>.md` per language
+- [x] `scripts/build-docs.mjs` — generated `docs/<domain>.md` (CI checks it is up to date)
 - [ ] `scripts/link-check` — weekly, opens an issue listing dead links
-- [ ] `scripts/sync-cves` — weekly: NVD API 2.0 + CISA KEV JSON + FIRST EPSS → `official:` blocks
+- [x] `scripts/sync-cves.mjs` — weekly: NVD API 2.0 + CISA KEV JSON + FIRST EPSS → `official:` blocks
 - [ ] `scripts/kev-suggest` — propose new CVE pages for fresh KEV entries
 - [ ] Issue-form → PR bot for non-Git contributors
 - [ ] OffsecCyber (Apache-2.0) mining: extract CVE ids + reference URLs as *candidates* only; facts always re-sourced from NVD/KEV
