@@ -1,0 +1,16 @@
+title: "Sandworm (Andy Greenberg)"
+url: "https://en.wikipedia.org/wiki/Sandworm_(book)"
+type: book
+domain: career
+subdomains: [media]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "The story of a state hacking group's attacks on Ukraine's power grid and NotPetya."
+tags: [history, ics]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

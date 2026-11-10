@@ -4,7 +4,7 @@
 
 > Reverse Engineering · Rétro-ingénierie · الهندسة العكسية · Реверс-инжиниринг
 
-**34 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**36 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Binary Analysis](#binary) · [Firmware](#firmware) · [Mobile App RE](#mobile-re) · [Protocol RE](#protocol)
 
@@ -43,6 +43,7 @@
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | tool | B·I | 🆓 free | Firmware analysis tool for identifying and extracting embedded files. |
 | [EMBA](https://github.com/e-m-b-a/emba) | tool | I·A | 🆓 free | Security analyser for embedded device firmware. |
 | [FirmAE](https://github.com/pr0v3rbs/FirmAE) | tool | A | 🆓 free | Automated framework for emulating and analysing firmware images. |
+| [Hacking the Xbox (free edition)](https://nostarch.com/xboxfree) | book | I | 🆓 free | Andrew 'bunnie' Huang's classic introduction to hardware reverse engineering, released free by No Starch. |
 | [Microcorruption](https://microcorruption.com/) | lab | B·I | 🆓 free | Embedded security CTF where you reverse engineer firmware on a simulated lock device. |
 | [UEFITool](https://github.com/LongSoft/UEFITool) | tool | A | 🆓 free | UEFI firmware image viewer and editor. |
 
@@ -63,5 +64,6 @@
 
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
+| [Attacking Network Protocols](https://nostarch.com/networkprotocols) | book | I·A | 💲 paid | James Forshaw's guide to capturing, analysing and finding bugs in network protocols. |
 | [Kaitai Struct](https://kaitai.io/) | tool | I | 🆓 free | Declarative language for describing binary formats and generating parsers. |
 | [Scapy](https://scapy.net/) | tool | I | 🆓 free | Python program for crafting, sending, sniffing and dissecting packets. |

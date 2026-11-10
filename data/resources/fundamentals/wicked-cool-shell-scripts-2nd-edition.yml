@@ -1,0 +1,16 @@
+title: "Wicked Cool Shell Scripts, 2nd Edition"
+url: "https://nostarch.com/wcss2"
+type: book
+domain: fundamentals
+subdomains: [programming, linux]
+level: [beginner, intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "101 practical shell scripts for Linux, macOS and Unix administration and automation."
+tags: [bash, scripting]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

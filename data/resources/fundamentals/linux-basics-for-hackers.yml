@@ -1,0 +1,16 @@
+title: "Linux Basics for Hackers"
+url: "https://nostarch.com/linuxbasicsforhackers"
+type: book
+domain: fundamentals
+subdomains: [linux]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "OccupyTheWeb's introduction to Linux, networking, scripting and security tooling for newcomers."
+tags: [linux, kali]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

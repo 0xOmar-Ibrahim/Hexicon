@@ -4,7 +4,7 @@
 
 > Cloud & Container · Cloud & conteneurs · السحابة والحاويات · Облака и контейнеры
 
-**29 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**30 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [AWS](#aws) · [Azure & Entra ID](#azure) · [Google Cloud](#gcp) · [Kubernetes](#kubernetes) · [Containers & Docker](#containers) · [Infrastructure as Code](#iac)
 
@@ -61,6 +61,7 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | ⭐ [Trivy](https://trivy.dev/) | tool | B | 🆓 free | All-in-one scanner for vulnerabilities, misconfigurations, secrets and SBOMs in images, IaC and clusters. |
+| [Container Security (Liz Rice)](https://www.oreilly.com/library/view/container-security/9781492056690/) | book | I | 💲 paid | How container isolation really works and how to secure containerised applications. |
 | [Docker Bench for Security](https://github.com/docker/docker-bench-security) | tool | B | 🆓 free | Script that checks dozens of common best practices for deploying Docker containers. |
 | [Docker Security documentation](https://docs.docker.com/engine/security/) | documentation | B·I | 🆓 free | Official Docker guidance on namespaces, capabilities, rootless mode and more. |
 | [Hadolint](https://github.com/hadolint/hadolint) | tool | B | 🆓 free | Dockerfile linter that helps build best-practice container images. |

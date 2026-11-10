@@ -4,7 +4,7 @@
 
 > Kryptographie · Cryptographie · التشفير · Криптография
 
-**20 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**21 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Applied Cryptography](#applied) · [Cryptanalysis](#cryptanalysis) · [PKI & TLS](#pki-tls) · [Post-Quantum](#post-quantum)
 
@@ -19,6 +19,7 @@
 | [Cryptography I (Dan Boneh, Coursera)](https://www.coursera.org/learn/crypto) | course | I | ◐ freemium | Stanford's renowned introduction to how cryptographic primitives work and how to use them correctly. |
 | [Cryptography Stack Exchange](https://crypto.stackexchange.com/) | community | B·I·A | 🆓 free | Q&A community for cryptography questions from beginner to research level. |
 | [libsodium documentation](https://doc.libsodium.org/) | documentation | B·I | 🆓 free | Documentation for libsodium, a modern, easy-to-use crypto library with safe defaults. |
+| [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) | book | I·A | 🆓 free | Andreas Antonopoulos and Gavin Wood's book on Ethereum and smart contracts, free under a Creative Commons licence. |
 | [Practical Cryptography for Developers](https://cryptobook.nakov.com/) | book | B·I | 🆓 free | Free book by Svetlin Nakov with clear explanations and code examples of hashes, MACs, ciphers and signatures. |
 | [Project Wycheproof](https://github.com/C2SP/wycheproof) | tool | A | 🆓 free | Test vectors for detecting known weaknesses in cryptographic library implementations. |
 | [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | book | I | 💲 paid | David Wong's guide to the cryptographic protocols and primitives used in real systems. |

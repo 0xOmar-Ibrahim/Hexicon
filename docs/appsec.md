@@ -4,7 +4,7 @@
 
 > AppSec & DevSecOps · AppSec & DevSecOps · أمن التطبيقات و DevSecOps · AppSec и DevSecOps
 
-**33 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**34 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Secure Coding](#secure-coding) · [Threat Modeling](#threat-modeling) · [SAST / DAST / SCA](#sast-dast) · [Supply Chain Security](#supply-chain) · [DevSecOps & CI/CD](#devsecops)
 
@@ -15,6 +15,7 @@
 |---|---|---|---|---|
 | ⭐ [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | cheatsheet | B·I | 🆓 free | Concise, practical guidance for developers on authentication, session management, input validation and much more. |
 | ⭐ [OWASP Top 10](https://owasp.org/www-project-top-ten/) | framework | B | 🆓 free | The standard awareness document for the most critical web application security risks. |
+| [Alice and Bob Learn Application Security](https://www.wiley.com/en-us/Alice+and+Bob+Learn+Application+Security-p-9781119687405) | book | B | 💲 paid | Tanya Janca's accessible introduction to secure software development. |
 | [Android app security best practices](https://developer.android.com/privacy-and-security/security-tips) | documentation | B·I | 🆓 free | Google's official guidance for Android developers on secure storage, permissions, networking and IPC. |
 | [Building Secure and Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html) | book | I·A | 🆓 free | Free book from Google on designing, implementing and maintaining secure, reliable systems. |
 | [CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/) | framework | B·I | 🆓 free | MITRE's annual list of the most common and impactful software weaknesses. |

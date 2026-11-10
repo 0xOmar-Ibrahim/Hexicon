@@ -1,0 +1,16 @@
+title: "Intelligence-Driven Incident Response, 2nd Edition"
+url: "https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/"
+type: book
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Combining threat intelligence and incident response into one cycle."
+tags: [cti, incident-response]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

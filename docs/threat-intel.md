@@ -4,7 +4,7 @@
 
 > Threat Intelligence & OSINT · Renseignement sur les menaces & OSINT · استخبارات التهديدات و OSINT · Разведка угроз и OSINT
 
-**33 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**34 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Cyber Threat Intelligence](#cti) · [OSINT](#osint) · [ATT&CK & Frameworks](#attack-frameworks)
 
@@ -19,6 +19,7 @@
 | [ETDA Threat Group Cards](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | dataset | I | 🆓 free | Encyclopedia of threat actor groups and their tools, aliases and operations. |
 | [Google Threat Intelligence (Mandiant) blog](https://cloud.google.com/blog/topics/threat-intelligence) | blog | I·A | 🆓 free | Threat intelligence research from Mandiant and Google. |
 | [GreyNoise](https://www.greynoise.io/) | tool | B·I | ◐ freemium | Identifies Internet-wide scanning and background noise so analysts can focus on real threats. |
+| [Intelligence-Driven Incident Response, 2nd Edition](https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/) | book | I | 💲 paid | Combining threat intelligence and incident response into one cycle. |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) | dataset | I·A | 🆓 free | Fraunhofer FKIE's curated resource on malware families with references and YARA rules. |
 | [MISP](https://www.misp-project.org/) | tool | I·A | 🆓 free | Open-source threat intelligence and sharing platform. |
 | [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | tool | I·A | 🆓 free | Open-source platform for managing and visualising cyber threat intelligence knowledge. |

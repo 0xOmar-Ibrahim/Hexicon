@@ -4,7 +4,7 @@
 
 > Grundlagen · Fondamentaux · الأساسيات · Основы
 
-**32 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**37 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Networking](#networking) · [Linux](#linux) · [Windows](#windows) · [Programming & Scripting](#programming) · [How the Web Works](#web-basics) · [Security Concepts](#security-concepts)
 
@@ -19,6 +19,7 @@
 | [NetworkChuck](https://www.youtube.com/@NetworkChuck) | youtube-channel | B | 🆓 free | Beginner-friendly YouTube channel on networking, Linux, homelabs and getting started in IT and security. |
 | [Practical Networking](https://www.practicalnetworking.net/) | course | B·I | ◐ freemium | Clear explanations of how packets actually move through networks: subnetting, ARP, routing, NAT and TLS. |
 | [Professor Messer](https://www.professormesser.com/) | video | B | 🆓 free | Free, complete video courses for CompTIA A+, Network+ and Security+, widely used as a first step into IT and security. |
+| [Silence on the Wire](https://nostarch.com/silence.htm) | book | I·A | 💲 paid | Michal Zalewski's classic on passive reconnaissance and indirect attacks hidden in everyday network traffic. |
 | [TryHackMe: Pre Security Path](https://tryhackme.com/path/outline/presecurity) | course | B | ◐ freemium | Hands-on beginner path covering networking, the web, Linux and Windows before diving into security. |
 | [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/) | documentation | B·I | 🆓 free | Official guide to capturing and analysing traffic with Wireshark, the standard packet analyser. |
 
@@ -29,6 +30,7 @@
 |---|---|---|---|---|
 | ⭐ [GTFOBins](https://gtfobins.github.io/) | cheatsheet | I·A | 🆓 free | Curated list of Unix binaries that can be abused to bypass local security restrictions — privilege escalation, file read/write, reverse shells and more. |
 | [explainshell](https://explainshell.com/) | tool | B | 🆓 free | Paste any shell command and see each part explained using the matching man-page sections. |
+| [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers) | book | B | 💲 paid | OccupyTheWeb's introduction to Linux, networking, scripting and security tooling for newcomers. |
 | [Linux Journey](https://linuxjourney.com/) | course | B | 🆓 free | Free, structured lessons that take you from Linux basics to processes, networking and the kernel. |
 | [Linux Upskill Challenge](https://linuxupskillchallenge.org/) | course | B | 🆓 free | Free month-long course that teaches practical Linux server administration with daily hands-on tasks. |
 | [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) | lab | B | 🆓 free | Classic beginner wargame that teaches Linux command-line skills through progressively harder SSH levels. |
@@ -53,9 +55,11 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | book | B | 🆓 free | Free online book teaching practical Python programming by automating everyday tasks. |
+| [Black Hat Go](https://nostarch.com/blackhatgo) | book | I | 💲 paid | Writing security tools in Go: scanners, proxies, DNS tooling and more. |
 | [Black Hat Python, 2nd Edition](https://nostarch.com/black-hat-python2E) | book | I | 💲 paid | Writing network tools, sniffers, trojans and web hacking scripts in Python 3 for security testing. |
 | [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/) | course | B | 🆓 free | Harvard's free introduction to computer science — a strong foundation in C, Python, SQL and how computers work. |
 | [Learn X in Y Minutes](https://learnxinyminutes.com/) | cheatsheet | B | 🆓 free | Whirlwind syntax tours of dozens of programming languages — handy when reading exploits or tools in a new language. |
+| [Wicked Cool Shell Scripts, 2nd Edition](https://nostarch.com/wcss2) | book | B·I | 💲 paid | 101 practical shell scripts for Linux, macOS and Unix administration and automation. |
 
 <a id="web-basics"></a>
 ## How the Web Works
@@ -72,6 +76,7 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | ⭐ [CyberChef](https://gchq.github.io/CyberChef/) | tool | B·I | 🆓 free | GCHQ's 'Cyber Swiss Army Knife' for encoding, decoding, encryption, compression and data analysis in the browser. |
+| [Cybersecurity for Small Networks](https://nostarch.com/cybersecurity-small-networks) | book | B | 💲 paid | Practical, step-by-step guide to securing home and small-business networks. |
 | [NIST CSRC Glossary](https://csrc.nist.gov/glossary) | documentation | B | 🆓 free | Searchable glossary of security terms with definitions sourced from NIST publications. |
 | [roadmap.sh: Cyber Security](https://roadmap.sh/cyber-security) | roadmap | B | 🆓 free | Interactive, community-maintained roadmap of the skills and topics needed to start in cybersecurity. |
 | [Security Engineering (Ross Anderson)](https://www.cl.cam.ac.uk/archive/rja14/book.html) | book | I·A | ◐ freemium | Classic textbook on building dependable systems against malice, error and mischief; earlier editions are free online. |

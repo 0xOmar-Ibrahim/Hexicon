@@ -1,0 +1,16 @@
+title: "Alice and Bob Learn Application Security"
+url: "https://www.wiley.com/en-us/Alice+and+Bob+Learn+Application+Security-p-9781119687405"
+type: book
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner]
+cost: paid
+languages: [en]
+description:
+  en: "Tanya Janca's accessible introduction to secure software development."
+tags: [appsec, beginner]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

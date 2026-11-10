@@ -1,0 +1,16 @@
+title: "Mastering Ethereum"
+url: "https://github.com/ethereumbook/ethereumbook"
+type: book
+domain: cryptography
+subdomains: [applied]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Andreas Antonopoulos and Gavin Wood's book on Ethereum and smart contracts, free under a Creative Commons licence."
+tags: [ethereum, smart-contracts]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

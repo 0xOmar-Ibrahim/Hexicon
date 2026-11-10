@@ -4,7 +4,7 @@
 
 > Karriere & Community · Carrière & communauté · المسار المهني والمجتمع · Карьера и сообщество
 
-**38 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**43 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Certifications](#certifications) · [CTFs](#ctf) · [Labs & Practice](#labs) · [Communities](#communities) · [Podcasts](#media) · [Conferences](#conferences) · [Jobs & Interviews](#jobs)
 
@@ -62,11 +62,16 @@
 |---|---|---|---|---|
 | ⭐ [Darknet Diaries](https://darknetdiaries.com/) | podcast | B | 🆓 free | Jack Rhysider's podcast of true stories from the dark side of the Internet. |
 | [BleepingComputer](https://www.bleepingcomputer.com/) | blog | B | 🆓 free | Technology and security news covering breaches, ransomware and vulnerabilities. |
+| [Ghost in the Wires (Kevin Mitnick)](https://en.wikipedia.org/wiki/Ghost_in_the_Wires) | book | B | 💲 paid | Kevin Mitnick's memoir of his years as one of the world's most wanted hackers. |
 | [IppSec](https://www.youtube.com/@ippsec) | youtube-channel | I·A | 🆓 free | In-depth video walkthroughs of Hack The Box machines and the methodology behind them. |
 | [John Hammond](https://www.youtube.com/@_JohnHammond) | youtube-channel | B·I | 🆓 free | YouTube channel covering CTFs, malware analysis and security news. |
 | [Krebs on Security](https://krebsonsecurity.com/) | blog | B | 🆓 free | Investigative journalism on cybercrime by Brian Krebs. |
 | [Risky Business](https://risky.biz/) | podcast | I·A | 🆓 free | Long-running weekly information security news podcast. |
+| [Sandworm (Andy Greenberg)](https://en.wikipedia.org/wiki/Sandworm_(book)) | book | B | 💲 paid | The story of a state hacking group's attacks on Ukraine's power grid and NotPetya. |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | blog | B·I | 🆓 free | Daily handler diaries, threat analysis and the Stormcast podcast from SANS. |
+| [The Art of Deception (Kevin Mitnick)](https://en.wikipedia.org/wiki/The_Art_of_Deception) | book | B | 💲 paid | Classic book on social engineering and the human element of security. |
+| [The Cuckoo's Egg (Clifford Stoll)](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)) | book | B | 💲 paid | The true story of an astronomer tracking a KGB-linked hacker in 1986 — a founding text of incident response. |
+| [This Is How They Tell Me the World Ends](https://en.wikipedia.org/wiki/This_Is_How_They_Tell_Me_the_World_Ends) | book | B | 💲 paid | Nicole Perlroth's investigation of the market for zero-day vulnerabilities. |
 | [tl;dr sec](https://tldrsec.com/) | newsletter | I·A | 🆓 free | Clint Gibler's weekly newsletter curating the best security tools, talks and research. |
 
 <a id="conferences"></a>

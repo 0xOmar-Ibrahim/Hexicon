@@ -1,0 +1,16 @@
+title: "Silence on the Wire"
+url: "https://nostarch.com/silence.htm"
+type: book
+domain: fundamentals
+subdomains: [networking]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Michal Zalewski's classic on passive reconnaissance and indirect attacks hidden in everyday network traffic."
+tags: [passive-recon, zalewski]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

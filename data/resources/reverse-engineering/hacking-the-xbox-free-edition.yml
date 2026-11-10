@@ -1,0 +1,16 @@
+title: "Hacking the Xbox (free edition)"
+url: "https://nostarch.com/xboxfree"
+type: book
+domain: reverse-engineering
+subdomains: [firmware, binary]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Andrew 'bunnie' Huang's classic introduction to hardware reverse engineering, released free by No Starch."
+tags: [hardware-re, classic]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

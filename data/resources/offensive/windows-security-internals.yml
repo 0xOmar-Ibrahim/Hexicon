@@ -1,0 +1,16 @@
+title: "Windows Security Internals"
+url: "https://nostarch.com/windows-security-internals"
+type: book
+domain: offensive
+subdomains: [active-directory]
+level: [advanced]
+cost: paid
+languages: [en]
+description:
+  en: "James Forshaw's deep dive into Windows authentication, authorization and auditing internals."
+tags: [windows, access-control]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

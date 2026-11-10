@@ -4,7 +4,7 @@
 
 > DFIR & Malware · DFIR & logiciels malveillants · التحقيق الجنائي والبرمجيات الخبيثة · DFIR и вредоносное ПО
 
-**39 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**42 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Digital Forensics](#digital-forensics) · [Memory Forensics](#memory-forensics) · [Incident Response](#incident-response) · [Malware Analysis](#malware-analysis)
 
@@ -24,6 +24,7 @@
 | [iLEAPP](https://github.com/abrignoni/iLEAPP) | tool | I | 🆓 free | iOS Logs, Events And Plists Parser for mobile forensic investigations. |
 | [KAPE Files](https://github.com/EricZimmerman/KapeFiles) | tool | I | 🆓 free | Community targets and modules for KAPE triage collection and processing. |
 | [Plaso (log2timeline)](https://github.com/log2timeline/plaso) | tool | I | 🆓 free | Extracts timestamps from many artifact types to build super timelines. |
+| [Practical Linux Forensics](https://nostarch.com/practical-linux-forensics) | book | I·A | 💲 paid | Bruce Nikkel's guide to investigating Linux systems and their artifacts. |
 | [RegRipper 3.0](https://github.com/keydet89/RegRipper3.0) | tool | I | 🆓 free | Harlan Carvey's tool for extracting forensic data from Windows registry hives. |
 | [SANS DFIR posters & cheat sheets](https://www.sans.org/posters/) | cheatsheet | B·I | ◐ freemium | Free SANS posters including Windows forensic analysis and hunt evil (free account required). |
 | [The Sleuth Kit](https://www.sleuthkit.org/) | tool | I·A | 🆓 free | Command-line tools and library for analysing disk images and file systems. |
@@ -60,8 +61,10 @@
 | [ANY.RUN](https://any.run/) | tool | B·I | ◐ freemium | Interactive online malware sandbox for dynamic analysis. |
 | [capa](https://github.com/mandiant/capa) | tool | I | 🆓 free | Identifies capabilities in executables and maps them to ATT&CK and MBC. |
 | [CAPEv2](https://github.com/kevoreilly/CAPEv2) | tool | A | 🆓 free | Open-source malware sandbox with payload and configuration extraction. |
+| [Evasive Malware](https://nostarch.com/evasive-malware) | book | I·A | 💲 paid | Kyle Cucci on how malware evades analysis and sandboxes — and how analysts can see through it. |
 | [FLARE-VM](https://github.com/mandiant/flare-vm) | tool | I·A | 🆓 free | Mandiant's scripts to build a Windows malware analysis environment. |
 | [Hybrid Analysis](https://www.hybrid-analysis.com/) | tool | B·I | ◐ freemium | Free malware analysis service powered by CrowdStrike Falcon Sandbox. |
+| [Malware Data Science](https://nostarch.com/malwaredatascience) | book | I·A | 💲 paid | Applying data science and machine learning to detect and analyse malware. |
 | [Malware Unicorn Workshops](https://malwareunicorn.org/) | course | B·I | 🆓 free | Free reverse engineering and malware analysis workshops by Amanda Rousseau. |
 | [OALabs](https://www.youtube.com/@OALabs) | youtube-channel | A | 🆓 free | Video tutorials on malware reverse engineering and unpacking. |
 | [Practical Malware Analysis](https://nostarch.com/malware) | book | I | 💲 paid | The hands-on classic guide to dissecting malicious software. |

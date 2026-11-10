@@ -1,0 +1,16 @@
+title: "Attacking Network Protocols"
+url: "https://nostarch.com/networkprotocols"
+type: book
+domain: reverse-engineering
+subdomains: [protocol]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "James Forshaw's guide to capturing, analysing and finding bugs in network protocols."
+tags: [protocol-analysis]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

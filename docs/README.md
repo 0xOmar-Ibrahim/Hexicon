@@ -2,21 +2,21 @@
 
 # Hexicon library index
 
-**472 resources** across 14 domains, plus 18 curated CVE pages.
+**501 resources** across 14 domains, plus 18 curated CVE pages.
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
-| 01 | [Fundamentals](fundamentals.md) | 32 | 6 |
-| 02 | [Offensive Security](offensive.md) | 85 | 11 |
+| 01 | [Fundamentals](fundamentals.md) | 37 | 6 |
+| 02 | [Offensive Security](offensive.md) | 95 | 11 |
 | 03 | [Defensive Security](defensive.md) | 45 | 7 |
-| 04 | [DFIR & Malware](dfir.md) | 39 | 4 |
-| 05 | [Reverse Engineering](reverse-engineering.md) | 34 | 4 |
-| 06 | [AppSec & DevSecOps](appsec.md) | 33 | 5 |
-| 07 | [Cloud & Containers](cloud.md) | 29 | 6 |
-| 08 | [Threat Intel & OSINT](threat-intel.md) | 33 | 3 |
-| 09 | [Cryptography](cryptography.md) | 20 | 4 |
+| 04 | [DFIR & Malware](dfir.md) | 42 | 4 |
+| 05 | [Reverse Engineering](reverse-engineering.md) | 36 | 4 |
+| 06 | [AppSec & DevSecOps](appsec.md) | 34 | 5 |
+| 07 | [Cloud & Containers](cloud.md) | 30 | 6 |
+| 08 | [Threat Intel & OSINT](threat-intel.md) | 34 | 3 |
+| 09 | [Cryptography](cryptography.md) | 21 | 4 |
 | 10 | [AI & LLM Security](ai-security.md) | 28 | 4 |
 | 11 | [ICS / OT Security](ics-ot.md) | 14 | 3 |
 | 12 | [GRC & Privacy](grc.md) | 24 | 4 |
-| 13 | [Career & Community](career.md) | 38 | 7 |
+| 13 | [Career & Community](career.md) | 43 | 7 |
 | 14 | [CVEs & Vulnerabilities](cves.md) | 18 | 4 |

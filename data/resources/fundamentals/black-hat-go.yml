@@ -1,0 +1,16 @@
+title: "Black Hat Go"
+url: "https://nostarch.com/blackhatgo"
+type: book
+domain: fundamentals
+subdomains: [programming]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Writing security tools in Go: scanners, proxies, DNS tooling and more."
+tags: [go, tooling]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Practical Linux Forensics"
+url: "https://nostarch.com/practical-linux-forensics"
+type: book
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Bruce Nikkel's guide to investigating Linux systems and their artifacts."
+tags: [linux, forensics]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

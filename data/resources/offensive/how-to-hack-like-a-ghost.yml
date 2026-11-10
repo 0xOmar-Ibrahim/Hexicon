@@ -1,0 +1,16 @@
+title: "How to Hack Like a Ghost"
+url: "https://nostarch.com/how-hack-ghost"
+type: book
+domain: offensive
+subdomains: [red-team]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Sparc Flow's narrative walkthrough of a cloud-era red team engagement."
+tags: [cloud, red-team, narrative]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

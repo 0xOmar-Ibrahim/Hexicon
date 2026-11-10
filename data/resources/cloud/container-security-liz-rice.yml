@@ -1,0 +1,16 @@
+title: "Container Security (Liz Rice)"
+url: "https://www.oreilly.com/library/view/container-security/9781492056690/"
+type: book
+domain: cloud
+subdomains: [containers, kubernetes]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "How container isolation really works and how to secure containerised applications."
+tags: [containers, linux-isolation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Hacking APIs"
+url: "https://nostarch.com/hacking-apis"
+type: book
+domain: offensive
+subdomains: [api]
+level: [beginner, intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Corey Ball's guide to breaking web APIs, from reconnaissance to exploitation."
+tags: [api-testing]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

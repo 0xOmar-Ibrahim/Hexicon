@@ -1,0 +1,16 @@
+title: "Practical IoT Hacking"
+url: "https://nostarch.com/practical-iot-hacking"
+type: book
+domain: offensive
+subdomains: [hardware-iot]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Testing IoT devices end to end: hardware, firmware, radio and network protocols."
+tags: [iot, embedded]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

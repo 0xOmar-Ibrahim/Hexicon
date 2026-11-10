@@ -4,7 +4,7 @@
 
 > Offensive Sicherheit · Sécurité offensive · الأمن الهجومي · Наступательная безопасность
 
-**85 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**95 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Web Application Pentesting](#web) · [API Security Testing](#api) · [Network Pentesting](#network) · [Active Directory](#active-directory) · [Red Teaming & C2](#red-team) · [Exploit Development](#exploit-dev) · [Mobile Pentesting](#mobile) · [Wireless](#wireless) · [Hardware & IoT](#hardware-iot) · [Social Engineering](#social-engineering) · [Password Attacks](#password-attacks)
 
@@ -16,6 +16,7 @@
 | ⭐ [HackTricks](https://book.hacktricks.wiki/) | cheatsheet | I·A | 🆓 free | Huge community wiki of pentesting techniques, tricks and methodology across web, network, cloud and Active Directory. |
 | ⭐ [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | cheatsheet | I·A | 🆓 free | Large collection of payloads and bypass techniques for web application security testing. |
 | ⭐ [PortSwigger Web Security Academy](https://portswigger.net/web-security) | course | B·I·A | 🆓 free | Free, interactive web security training from the makers of Burp Suite, with hundreds of hands-on labs covering nearly every web vulnerability class. |
+| [Bug Bounty Bootcamp](https://nostarch.com/bug-bounty-bootcamp) | book | B·I | 💲 paid | Vickie Li's guide to finding and reporting web vulnerabilities in bug bounty programmes. |
 | [Burp Suite](https://portswigger.net/burp) | tool | B·I·A | ◐ freemium | The industry-standard intercepting proxy and toolkit for web application security testing. |
 | [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA) | lab | B | 🆓 free | Classic PHP/MySQL vulnerable web application for practising common web attacks at adjustable difficulty. |
 | [ffuf](https://github.com/ffuf/ffuf) | tool | I | 🆓 free | Fast web fuzzer written in Go for content discovery, virtual host and parameter fuzzing. |
@@ -37,6 +38,8 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [APIsec University](https://www.apisecuniversity.com/) | course | B·I | 🆓 free | Free courses on API security testing, OWASP API Top 10 and API pentesting. |
+| [Black Hat GraphQL](https://nostarch.com/black-hat-graphql) | book | I | 💲 paid | Testing and attacking GraphQL APIs, by Nick Aleks and Dolev Farhi. |
+| [Hacking APIs](https://nostarch.com/hacking-apis) | book | B·I | 💲 paid | Corey Ball's guide to breaking web APIs, from reconnaissance to exploitation. |
 | [OWASP API Security Top 10](https://owasp.org/API-Security/) | framework | B·I | 🆓 free | The ten most critical API security risks, with examples and prevention guidance. |
 | [OWASP crAPI](https://github.com/OWASP/crAPI) | lab | B·I | 🆓 free | Completely Ridiculous API — an intentionally vulnerable API-driven application for learning API security. |
 | [RESTler](https://github.com/microsoft/restler-fuzzer) | tool | A | 🆓 free | Microsoft's stateful REST API fuzzer that learns from OpenAPI specs to find security and reliability bugs. |
@@ -54,6 +57,7 @@
 | [Nmap Network Scanning (official book)](https://nmap.org/book/) | book | I | ◐ freemium | Gordon Lyon's guide to Nmap; much of the book is free to read online. |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | tool | B·I | 🆓 free | Fast, template-based vulnerability scanner with thousands of community templates. |
 | [PEASS-ng (LinPEAS / WinPEAS)](https://github.com/peass-ng/PEASS-ng) | tool | B·I | 🆓 free | Privilege escalation enumeration scripts for Linux, Windows and macOS. |
+| [Penetration Testing: A Hands-On Introduction to Hacking](https://nostarch.com/pentesting) | book | B | 💲 paid | Georgia Weidman's beginner-friendly walkthrough of a full penetration test in a lab. |
 | [Responder](https://github.com/lgandx/Responder) | tool | I | 🆓 free | LLMNR/NBT-NS/mDNS poisoner and rogue authentication server used in internal network assessments. |
 
 <a id="active-directory"></a>
@@ -73,6 +77,7 @@
 | [PingCastle](https://github.com/netwrix/pingcastle) | tool | B·I | ◐ freemium | Active Directory security assessment tool producing a risk score and prioritized findings. |
 | [Rubeus](https://github.com/GhostPack/Rubeus) | tool | A | 🆓 free | C# toolset for raw Kerberos interaction and abuse. |
 | [The Hacker Recipes](https://www.thehacker.recipes/) | cheatsheet | I·A | 🆓 free | Well-structured knowledge base of offensive techniques with a focus on Active Directory. |
+| [Windows Security Internals](https://nostarch.com/windows-security-internals) | book | A | 💲 paid | James Forshaw's deep dive into Windows authentication, authorization and auditing internals. |
 
 <a id="red-team"></a>
 ## Red Teaming & C2
@@ -80,6 +85,7 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [Havoc](https://github.com/HavocFramework/Havoc) | tool | A | 🆓 free | Modern, malleable post-exploitation command and control framework. |
+| [How to Hack Like a Ghost](https://nostarch.com/how-hack-ghost) | book | I·A | 💲 paid | Sparc Flow's narrative walkthrough of a cloud-era red team engagement. |
 | [ired.team](https://www.ired.team/) | cheatsheet | I·A | 🆓 free | Red team notes covering offensive techniques, code injection, AD attacks and evasion concepts. |
 | [Mythic](https://github.com/its-a-feature/Mythic) | tool | A | 🆓 free | Collaborative, multi-platform red teaming C2 framework with pluggable agents. |
 | [Red Team Development and Operations](https://redteam.guide/) | book | I | 💲 paid | Practical guide by Joe Vest and James Tubberville on planning and running red team engagements. |
@@ -92,6 +98,7 @@
 |---|---|---|---|---|
 | ⭐ [pwn.college](https://pwn.college/) | course | B·I·A | 🆓 free | Arizona State University's free, hands-on platform teaching binary exploitation and system security from scratch. |
 | [Corelan Team Tutorials](https://www.corelan.be/) | blog | I·A | 🆓 free | Well-known Windows exploit development tutorials, from stack overflows to heap and ROP. |
+| [From Day Zero to Zero Day](https://nostarch.com/zero-day) | book | I·A | 💲 paid | Eugene Lim's practical introduction to vulnerability research: code review, fuzzing and reverse engineering. |
 | [Hacking: The Art of Exploitation](https://nostarch.com/hacking2.htm) | book | B·I | 💲 paid | Jon Erickson's classic introduction to programming, networking and exploitation fundamentals. |
 | [how2heap](https://github.com/shellphish/how2heap) | lab | A | 🆓 free | Educational repository of heap exploitation techniques for glibc. |
 | [Nightmare](https://guyinatuxedo.github.io/) | course | I·A | 🆓 free | Intro to binary exploitation and reverse engineering through CTF challenges. |
@@ -138,6 +145,8 @@
 | [CHIPSEC](https://github.com/chipsec/chipsec) | tool | A | 🆓 free | Framework for analysing the security of PC platforms including hardware, system firmware (BIOS/UEFI) and configuration. |
 | [Flipper Zero Documentation](https://docs.flipper.net/) | documentation | B | 🆓 free | Official docs for the Flipper Zero multi-tool: Sub-GHz, NFC, RFID, infrared and GPIO. |
 | [OWASP IoT Project](https://owasp.org/www-project-internet-of-things/) | framework | B·I | 🆓 free | OWASP resources on IoT security including the IoT Top 10. |
+| [Practical IoT Hacking](https://nostarch.com/practical-iot-hacking) | book | I·A | 💲 paid | Testing IoT devices end to end: hardware, firmware, radio and network protocols. |
+| [The Car Hacker's Handbook](https://nostarch.com/carhacking) | book | I·A | 💲 paid | Craig Smith's guide to vehicle networks, CAN bus and automotive security testing. |
 | [The Hardware Hacking Handbook](https://nostarch.com/hardwarehacking) | book | I·A | 💲 paid | Breaking embedded security with hardware attacks — side channels, fault injection and more. |
 
 <a id="social-engineering"></a>
@@ -146,6 +155,7 @@
 | Resource | Type | Level | Cost | Description |
 |---|---|---|---|---|
 | [GoPhish](https://getgophish.com/) | tool | B·I | 🆓 free | Open-source phishing simulation framework for authorized security awareness campaigns. |
+| [Practical Social Engineering](https://nostarch.com/practical-social-engineering) | book | B·I | 💲 paid | Joe Gray's guide to OSINT and social engineering engagements — and defending against them. |
 | [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) | tool | I | 🆓 free | TrustedSec's open-source framework for social engineering penetration tests. |
 
 <a id="password-attacks"></a>
