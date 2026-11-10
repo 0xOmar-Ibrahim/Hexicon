@@ -40,7 +40,8 @@
     "footer.license": "Content CC BY 4.0 · Code MIT",
     "footer.responsible": "For education, defense and authorized testing only.",
     "theme.toggle": "Toggle theme",
-    "open": "Open"
+    "open": "Open",
+    "explore.more": "Show more"
   },
   "de": {
     "langName": "Deutsch",
@@ -83,7 +84,8 @@
     "footer.license": "Inhalte CC BY 4.0 · Code MIT",
     "footer.responsible": "Nur für Bildung, Verteidigung und autorisierte Tests.",
     "theme.toggle": "Design wechseln",
-    "open": "Öffnen"
+    "open": "Öffnen",
+    "explore.more": "Mehr anzeigen"
   },
   "fr": {
     "langName": "Français",
@@ -126,7 +128,8 @@
     "footer.license": "Contenu CC BY 4.0 · Code MIT",
     "footer.responsible": "Pour l'éducation, la défense et les tests autorisés uniquement.",
     "theme.toggle": "Changer de thème",
-    "open": "Ouvrir"
+    "open": "Ouvrir",
+    "explore.more": "Afficher plus"
   },
   "ar": {
     "langName": "العربية",
@@ -169,7 +172,8 @@
     "footer.license": "المحتوى CC BY 4.0 · الكود MIT",
     "footer.responsible": "للتعليم والدفاع والاختبارات المصرّح بها فقط.",
     "theme.toggle": "تبديل المظهر",
-    "open": "فتح"
+    "open": "فتح",
+    "explore.more": "عرض المزيد"
   },
   "ru": {
     "langName": "Русский",
@@ -212,6 +216,7 @@
     "footer.license": "Контент CC BY 4.0 · Код MIT",
     "footer.responsible": "Только для обучения, защиты и авторизованного тестирования.",
     "theme.toggle": "Сменить тему",
-    "open": "Открыть"
+    "open": "Открыть",
+    "explore.more": "Показать ещё"
   }
 }

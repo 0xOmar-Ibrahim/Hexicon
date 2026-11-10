@@ -109,9 +109,10 @@
   /* ---------------- EXPLORER ---------------- */
   function renderChips() {
     const wrap = $('#domain-chips');
-    const items = [{ id: 'all', label: t('explore.all') }, ...DATA.domains.map((d) => ({ id: d.id, label: loc(d.name) }))];
+    const items = [{ id: 'all', label: t('explore.all'), n: DATA.resources.length },
+      ...DATA.domains.map((d) => ({ id: d.id, label: loc(d.name), n: d.count }))];
     wrap.innerHTML = items.map((c) =>
-      `<button class="chip" type="button" data-id="${esc(c.id)}" aria-pressed="${state.domain === c.id}">${esc(c.label)}</button>`).join('');
+      `<button class="chip" type="button" data-id="${esc(c.id)}" aria-pressed="${state.domain === c.id}">${esc(c.label)} <span class="chip-n">${c.n}</span></button>`).join('');
     $$('.chip', wrap).forEach((b) => b.addEventListener('click', () => {
       state.domain = b.dataset.id;
       $$('.chip', wrap).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
@@ -148,11 +149,34 @@
 
   function host(url) { try { return new URL(url).host.replace(/^www\./, ''); } catch { return ''; } }
 
-  function renderCards() {
+  const PAGE = 24;
+  let shown = PAGE;
+
+  // Keep filters in the URL so any view can be shared.
+  function syncUrl() {
+    const p = new URLSearchParams();
+    if (state.lang !== 'en') p.set('lang', state.lang);
+    for (const k of ['domain', 'type', 'level', 'cost']) if (state[k] !== 'all') p.set(k, state[k]);
+    if (state.q) p.set('q', state.q);
+    const qs = p.toString();
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+  }
+
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    for (const k of ['domain', 'type', 'level', 'cost']) if (p.get(k)) state[k] = p.get(k);
+    if (p.get('q')) { state.q = p.get('q').toLowerCase(); $('#q').value = p.get('q'); }
+  }
+
+  function renderCards(more = false) {
     const list = DATA.resources.filter(matches);
+    const start = more ? shown : 0;
+    shown = more ? shown + PAGE : PAGE;
     $('#count').textContent = list.length;
     $('#empty').hidden = list.length > 0;
-    $('#cards').innerHTML = list.slice(0, 240).map((r, i) => `
+    $('#more').hidden = shown >= list.length;
+    if (!more) syncUrl();
+    const html = list.slice(start, shown).map((r, i) => `
       <a class="card${r.featured ? ' featured' : ''}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
         <span class="card-type">${esc(r.type.replace(/-/g, ' '))}</span>
         <h3>${esc(r.title)}</h3>
@@ -164,6 +188,8 @@
           <span class="card-host">${esc(host(r.url))}</span>
         </div>
       </a>`).join('');
+    if (more) $('#cards').insertAdjacentHTML('beforeend', html);
+    else $('#cards').innerHTML = html;
   }
 
   function initSearch() {
@@ -172,6 +198,7 @@
       clearTimeout(timer);
       timer = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); renderCards(); }, 120);
     });
+    $('#more').addEventListener('click', () => renderCards(true));
   }
 
   /* ---------------- CVEs ---------------- */
@@ -183,6 +210,7 @@
         <div class="cve-head">
           <span class="cve-id">${esc(c.id)}</span>
           ${c.kev ? '<span class="kev">CISA KEV</span>' : ''}
+          ${c.epss != null ? `<span class="epss" title="EPSS: probability of exploitation in the next 30 days">EPSS ${esc((c.epss * 100).toFixed(1))}%</span>` : ''}
           ${c.score != null ? `<span class="score">CVSS ${esc(c.score.toFixed(1))}</span>` : ''}
         </div>
         <h3>${esc(c.nickname || c.id)}</h3>
@@ -317,6 +345,7 @@
       console.error('Hexicon: failed to load data', err);
     }
     state.lang = pickInitialLang();
+    readUrl();
     initLangSelect();
     initSearch();
     applyLang(state.lang);

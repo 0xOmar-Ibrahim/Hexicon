@@ -48,6 +48,7 @@ const cves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     severity: c.official?.cvss?.severity ?? null,
     score: c.official?.cvss?.score ?? null,
     kev: !!c.official?.kev?.listed,
+    epss: c.official?.epss?.score ?? null,
     published: iso(c.official?.published),
     summary: c.summary ?? {},
     references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
