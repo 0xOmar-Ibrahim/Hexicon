@@ -181,6 +181,36 @@
         <p data-i18n="cve.lead">Curated pages for notable CVEs.</p>
       </div>
       <div class="cve-grid" id="cve-grid"></div>
+
+      <div class="kev-explorer reveal" id="kev">
+        <div class="kev-head">
+          <h3 data-i18n="cve.top.title">Top exploited CVEs</h3>
+          <p data-i18n="cve.top.lead">Every vulnerability CISA has confirmed as exploited in the wild, ranked by EPSS — the probability of exploitation in the next 30 days.</p>
+        </div>
+        <div class="filters kev-filters">
+          <label class="search">
+            <svg class="ic"><use href="#i-magnifier"/></svg>
+            <input id="kq" type="search" autocomplete="off" data-i18n-placeholder="cve.search" placeholder="Search CVE, product or vendor…">
+          </label>
+          <div class="selects">
+            <label><span data-i18n="cve.vendor">Vendor</span><select id="k-vendor"></select></label>
+            <label><span data-i18n="cve.severity">Severity</span><select id="k-sev"></select></label>
+            <label><span data-i18n="cve.sort">Sort</span><select id="k-sort"></select></label>
+            <label class="toggle"><input type="checkbox" id="k-rw"> <span data-i18n="cve.ransomware">Ransomware only</span></label>
+            <p class="result-count" aria-live="polite"><strong id="kcount">0</strong> <span data-i18n="explore.results">results</span></p>
+          </div>
+        </div>
+        <div class="kev-table-wrap">
+          <table class="kev-table">
+            <thead><tr>
+              <th>#</th><th>CVE</th><th data-i18n="cve.col.name">Vulnerability</th>
+              <th data-i18n="cve.col.cvss">CVSS</th><th data-i18n="cve.col.epss">EPSS</th><th data-i18n="cve.col.added">KEV added</th>
+            </tr></thead>
+            <tbody id="kev-rows"></tbody>
+          </table>
+        </div>
+        <div class="more-wrap"><button class="btn btn-ghost" id="kmore" type="button" hidden data-i18n="explore.more">Show more</button></div>
+      </div>
     </section>
 
     <!-- CONTRIBUTE -->

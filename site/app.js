@@ -57,6 +57,8 @@
     renderCards();
     renderPaths();
     renderCves();
+    renderKevControls();
+    renderKev();
   }
 
   function initLangSelect() {
@@ -323,13 +325,70 @@
     observeReveal($$('#cve-grid .reveal'));
   }
 
+  /* ---------------- TOP EXPLOITED CVEs (lazy) ---------------- */
+  let KEV = null;
+  const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, shown: 25 };
+  const SEV = ['critical', 'high', 'medium', 'low'];
+
+  async function loadKev() {
+    if (KEV) return;
+    try { KEV = await fetch('cves.json').then((r) => r.json()); } catch { KEV = []; }
+    if (!KEV.length) { $('#kev').hidden = true; return; }
+    renderKevControls();
+    renderKev();
+    $('#kq').addEventListener('input', (e) => { kstate.q = e.target.value.trim().toLowerCase(); kstate.shown = 25; renderKev(); });
+    $('#k-rw').addEventListener('change', (e) => { kstate.rw = e.target.checked; kstate.shown = 25; renderKev(); });
+    $('#kmore').addEventListener('click', () => { kstate.shown += 50; renderKev(); });
+    $('#kev-rows').addEventListener('click', (e) => {
+      const row = e.target.closest('tr.krow');
+      if (!row || e.target.closest('a')) return;
+      row.classList.toggle('open');
+      row.nextElementSibling.hidden = !row.classList.contains('open');
+    });
+  }
+
+  function renderKevControls() {
+    if (!KEV) return;
+    const counts = new Map();
+    for (const c of KEV) if (c.v) counts.set(c.v, (counts.get(c.v) ?? 0) + 1);
+    const vendors = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 40);
+    const opt = (v, l) => `<option value="${esc(v)}">${esc(l)}</option>`;
+    const sel = (id, html, key) => { const s = $(id); s.innerHTML = html; s.value = kstate[key]; s.onchange = () => { kstate[key] = s.value; kstate.shown = 25; renderKev(); }; };
+    sel('#k-vendor', opt('all', t('explore.all')) + vendors.map(([v, n]) => opt(v, `${v} (${n})`)).join(''), 'vendor');
+    sel('#k-sev', opt('all', t('explore.all')) + SEV.map((s) => opt(s, t('sev.' + s))).join(''), 'sev');
+    sel('#k-sort', ['rank', 'cvss', 'newest'].map((s) => opt(s, t('cve.sort.' + s))).join(''), 'sort');
+  }
+
+  function renderKev() {
+    if (!KEV || !KEV.length) return;
+    let list = KEV.filter((c) =>
+      (kstate.vendor === 'all' || c.v === kstate.vendor) &&
+      (kstate.sev === 'all' || c.sv === kstate.sev) &&
+      (!kstate.rw || c.rw) &&
+      (!kstate.q || `${c.id} ${c.n} ${c.v} ${c.p}`.toLowerCase().includes(kstate.q)));
+    if (kstate.sort === 'cvss') list = [...list].sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.r - b.r);
+    if (kstate.sort === 'newest') list = [...list].sort((a, b) => (b.kev ?? '').localeCompare(a.kev ?? '') || a.r - b.r);
+    $('#kcount').textContent = list.length;
+    $('#kmore').hidden = kstate.shown >= list.length;
+    $('#kev-rows').innerHTML = list.slice(0, kstate.shown).map((c) => `
+      <tr class="krow" tabindex="0">
+        <td class="krank">${c.r}</td>
+        <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ' <span class="kcur" title="Curated field notes">★</span>' : ''}</td>
+        <td class="kname"><strong>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}</td>
+        <td><span class="kscore" style="--sev:${sevColor(c.sv)}">${c.s != null ? esc(Number(c.s).toFixed(1)) : '—'}</span></td>
+        <td class="kepss"><span class="kbar"><i style="width:${Math.round((c.e ?? 0) * 100)}%"></i></span>${c.e != null ? (c.e * 100).toFixed(1) + '%' : '—'}</td>
+        <td class="kdate">${esc(c.kev ?? '')}</td>
+      </tr>
+      <tr class="kdetail" hidden><td></td><td colspan="5">${esc(c.d ?? '')}${c.pub ? ` <em>· ${esc(t('cve.published'))} ${esc(c.pub)}</em>` : ''}</td></tr>`).join('');
+  }
+
   /* ---------------- STATS COUNT-UP ---------------- */
   function initStats() {
     const values = {
       resources: DATA.resources.length,
       domains: DATA.domains.length,
       languages: DATA.languages.length,
-      cves: DATA.cves.length,
+      cves: DATA.cveTotal ?? DATA.cves.length,
     };
     $$('[data-count]').forEach((el) => {
       const target = values[el.dataset.count] ?? 0;
@@ -452,6 +511,10 @@
     initSearch();
     applyLang(state.lang);
     initStats();
+    // Load the 1000-CVE index only when the reader gets close to it.
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([e], obs) => { if (e.isIntersecting) { obs.disconnect(); loadKev(); } }, { rootMargin: '800px' }).observe($('#cves'));
+    } else loadKev();
   }
 
   boot();

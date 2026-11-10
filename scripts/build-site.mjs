@@ -40,20 +40,34 @@ const resources = walk(path.join(ROOT, 'data/resources')).map((f) => {
   };
 });
 
-const cves = walk(path.join(ROOT, 'data/cves')).map((f) => {
+const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
   const c = read(f);
   return {
     id: c.id,
     nickname: c.nickname ?? null,
+    name: c.name ?? null,
+    curated: (c.source ?? 'curated') === 'curated',
+    rank: c.rank ?? null,
+    vendor: c.affected?.[0]?.vendor ?? null,
+    product: c.affected?.[0]?.product ?? null,
     severity: c.official?.cvss?.severity ?? null,
     score: c.official?.cvss?.score ?? null,
     kev: !!c.official?.kev?.listed,
+    ransomware: c.official?.kev?.ransomware_use === 'Known',
     epss: c.official?.epss?.score ?? null,
     published: iso(c.official?.published),
+    added: iso(c.official?.kev?.date_added),
     summary: c.summary ?? {},
     references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
   };
 });
+// Curated field notes go into data.json; the full ranked list is a separate, lazily loaded file.
+const cves = allCves.filter((c) => c.curated);
+const cveIndex = allCves
+  .filter((c) => c.rank)
+  .sort((a, b) => a.rank - b.rank)
+  .map(({ id, nickname, name, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary }) =>
+    ({ id, n: nickname ?? name, c: curated ? 1 : 0, r: rank, v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0, e: epss, pub: published, kev: added, d: summary.en }));
 
 const byKey = new Map(resources.map((r) => [`${r.domain}/${r.id}`, r]));
 // Roadmaps: v2 files have `stages`; v1 files with a flat `steps` list become a single stage.
@@ -106,7 +120,10 @@ const data = {
 
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.cpSync(path.join(ROOT, 'site'), DIST, { recursive: true });
+data.cveTotal = allCves.length;
+data.cveRanked = cveIndex.length;
 fs.writeFileSync(path.join(DIST, 'data.json'), JSON.stringify(data));
+fs.writeFileSync(path.join(DIST, 'cves.json'), JSON.stringify(cveIndex));
 fs.copyFileSync(path.join(ROOT, 'i18n/ui.json'), path.join(DIST, 'ui.json'));
 
-console.log(`Built dist/ — ${resources.length} resources, ${cves.length} CVE pages, ${paths.length} paths, ${data.domains.length} domains.`);
+console.log(`Built dist/ — ${resources.length} resources, ${allCves.length} CVE pages (${cves.length} curated, ${cveIndex.length} ranked), ${paths.length} paths, ${data.domains.length} domains.`);

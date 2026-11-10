@@ -290,6 +290,43 @@ html[lang="ar"] .kicker { letter-spacing: 0; text-transform: none; font-family: 
 .refs a { font-size: 12px; padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line); text-decoration: none; color: var(--text); transition: border-color .2s, color .2s; }
 .refs a:hover { border-color: var(--teal); color: var(--teal); }
 
+/* ---------- TOP EXPLOITED CVEs ---------- */
+.kev-explorer { margin-top: 56px; }
+html[lang="ar"] .kev-table th, html[lang="ar"] .krw { font-family: var(--font-body) !important; letter-spacing: 0; }
+.kev-head h3 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 8px; }
+.kev-head p { color: var(--muted); max-width: 70ch; margin: 0 0 20px; }
+.kev-filters { position: static; }
+.toggle { cursor: pointer; }
+.toggle input { accent-color: var(--coral); }
+.kev-table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); }
+.kev-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.kev-table th { text-align: start; font: 600 11px var(--font-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--muted);
+  padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--bg-2); position: sticky; top: 0; }
+.kev-table td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.krow { cursor: pointer; transition: background-color .15s; }
+.krow:hover, .krow.open { background: color-mix(in srgb, var(--brass) 6%, transparent); }
+.krank { font: 600 13px var(--font-mono); color: var(--muted); width: 3.5em; }
+.kid { white-space: nowrap; font: 500 13px var(--font-mono); direction: ltr; }
+.kid a { color: var(--text); text-decoration: none; }
+.kid a:hover { color: var(--teal); }
+.kcur { color: var(--brass); }
+.kname strong { display: block; font-weight: 600; }
+.kname span { display: inline-block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.krw { margin-inline-start: 8px; font: 600 10.5px var(--font-mono) !important; letter-spacing: .06em; padding: 1px 7px; border-radius: 5px;
+  color: var(--coral) !important; background: color-mix(in srgb, var(--coral) 12%, transparent); }
+.kscore { display: inline-block; min-width: 2.6em; text-align: center; font: 600 12.5px var(--font-mono); padding: 2px 6px; border-radius: 6px;
+  color: var(--sev); border: 1px solid currentColor; }
+.kepss { white-space: nowrap; font: 500 12.5px var(--font-mono); }
+.kbar { display: inline-block; width: 52px; height: 6px; border-radius: 3px; background: var(--bg-2); margin-inline-end: 8px; vertical-align: middle; overflow: hidden; }
+.kbar i { display: block; height: 100%; background: linear-gradient(90deg, var(--teal), var(--coral)); }
+.kdate { white-space: nowrap; font: 400 12.5px var(--font-mono); color: var(--muted); }
+.kdetail td { color: var(--muted); font-size: 14px; background: var(--bg-2); }
+.kdetail em { font-style: normal; font-family: var(--font-mono); font-size: 12px; }
+@media (max-width: 720px) {
+  .kev-table th:nth-child(1), .kev-table td:nth-child(1), .kev-table th:nth-child(6), .kev-table td:nth-child(6) { display: none; }
+  .kbar { display: none; }
+}
+
 /* ---------- CONTRIBUTE ---------- */
 .contribute { text-align: center; padding-bottom: 120px; }
 .route { position: absolute; inset: 40px 0 auto; width: 100%; height: 220px; z-index: -1; }
