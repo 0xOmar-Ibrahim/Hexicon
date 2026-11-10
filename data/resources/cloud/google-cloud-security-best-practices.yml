@@ -1,0 +1,16 @@
+title: "Google Cloud security best practices"
+url: "https://cloud.google.com/security/best-practices"
+type: documentation
+domain: cloud
+subdomains: [gcp]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Google's security best-practice centre for Google Cloud."
+tags: [best-practices]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

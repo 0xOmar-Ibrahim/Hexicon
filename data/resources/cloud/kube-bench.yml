@@ -1,0 +1,16 @@
+title: "kube-bench"
+url: "https://github.com/aquasecurity/kube-bench"
+type: tool
+domain: cloud
+subdomains: [kubernetes]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Checks whether Kubernetes is deployed according to the CIS Kubernetes Benchmark."
+tags: [cis-benchmark]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

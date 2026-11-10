@@ -1,0 +1,16 @@
+title: "ROADtools"
+url: "https://github.com/dirkjanm/ROADtools"
+type: tool
+domain: cloud
+subdomains: [azure]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Framework for interacting with Azure AD / Entra ID, including ROADrecon for exploration."
+tags: [entra-id, enumeration]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

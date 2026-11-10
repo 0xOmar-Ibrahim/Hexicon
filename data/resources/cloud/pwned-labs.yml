@@ -1,0 +1,16 @@
+title: "Pwned Labs"
+url: "https://pwnedlabs.io/"
+type: lab
+domain: cloud
+subdomains: [aws, azure, gcp]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "Hands-on cloud security labs and bootcamps for AWS, Azure and GCP."
+tags: [cloud-labs]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

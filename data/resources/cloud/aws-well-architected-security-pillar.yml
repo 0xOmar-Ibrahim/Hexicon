@@ -1,0 +1,16 @@
+title: "AWS Well-Architected: Security Pillar"
+url: "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html"
+type: documentation
+domain: cloud
+subdomains: [aws]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "AWS's design principles and best practices for securing workloads in the cloud."
+tags: [best-practices]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

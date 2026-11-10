@@ -1,0 +1,16 @@
+title: "Thunder CTF"
+url: "https://thunder-ctf.cloud/"
+type: lab
+domain: cloud
+subdomains: [gcp]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Scenario-based challenges for learning Google Cloud security."
+tags: [gcp, ctf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

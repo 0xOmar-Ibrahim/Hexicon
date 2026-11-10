@@ -1,0 +1,16 @@
+title: "OWASP Kubernetes Top 10"
+url: "https://owasp.org/www-project-kubernetes-top-ten/"
+type: framework
+domain: cloud
+subdomains: [kubernetes]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "The most common Kubernetes security risks and how to mitigate them."
+tags: [owasp, risks]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

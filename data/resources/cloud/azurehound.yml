@@ -1,0 +1,16 @@
+title: "AzureHound"
+url: "https://github.com/SpecterOps/AzureHound"
+type: tool
+domain: cloud
+subdomains: [azure]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "BloodHound data collector for Azure and Entra ID attack paths."
+tags: [bloodhound, entra-id]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

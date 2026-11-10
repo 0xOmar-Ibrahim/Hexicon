@@ -1,0 +1,16 @@
+title: "Prowler"
+url: "https://github.com/prowler-cloud/prowler"
+type: tool
+domain: cloud
+subdomains: [aws, azure, gcp, kubernetes]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open-source cloud security assessment tool with hundreds of checks and compliance frameworks."
+tags: [cspm, compliance]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

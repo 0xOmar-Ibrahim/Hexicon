@@ -1,0 +1,17 @@
+title: "Falco"
+url: "https://falco.org/"
+type: tool
+domain: cloud
+subdomains: [kubernetes, containers]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "CNCF runtime security tool that detects threats in containers, Kubernetes and hosts."
+tags: [runtime-detection, cncf]
+repo: "https://github.com/falcosecurity/falco"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,17 @@
+title: "Trivy"
+url: "https://trivy.dev/"
+type: tool
+domain: cloud
+subdomains: [containers, kubernetes, iac]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "All-in-one scanner for vulnerabilities, misconfigurations, secrets and SBOMs in images, IaC and clusters."
+tags: [scanner, sbom]
+repo: "https://github.com/aquasecurity/trivy"
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

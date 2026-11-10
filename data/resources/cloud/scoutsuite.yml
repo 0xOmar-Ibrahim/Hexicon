@@ -1,0 +1,16 @@
+title: "ScoutSuite"
+url: "https://github.com/nccgroup/ScoutSuite"
+type: tool
+domain: cloud
+subdomains: [aws, azure, gcp]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Multi-cloud security auditing tool that highlights risky configurations."
+tags: [multi-cloud, audit]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

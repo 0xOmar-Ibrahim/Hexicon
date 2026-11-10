@@ -1,0 +1,16 @@
+title: "Hacking The Cloud"
+url: "https://hackingthe.cloud/"
+type: cheatsheet
+domain: cloud
+subdomains: [aws, azure, gcp]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Community encyclopedia of attack and defense techniques for AWS, Azure and GCP."
+tags: [cloud-security, knowledge-base]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
