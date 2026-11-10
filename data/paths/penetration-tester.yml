@@ -1,0 +1,62 @@
+id: penetration-tester
+order: 6
+icon: crosshair
+track: attack
+level: intermediate
+title:
+  en: "Penetration Tester"
+  de: "Penetrationstester:in"
+  fr: "Pentesteur"
+  ar: "مختبر الاختراق"
+  ru: "Пентестер"
+description:
+  en: "Plan and run authorized tests across networks, web apps and Active Directory — and write reports that get issues fixed."
+  de: "Autorisierte Tests in Netzwerken, Webanwendungen und Active Directory planen und durchführen — mit Berichten, die zu Behebungen führen."
+  fr: "Planifier et mener des tests autorisés sur réseaux, applications Web et Active Directory — et rédiger des rapports qui font corriger."
+  ar: "خطط ونفّذ اختبارات مصرّحًا بها على الشبكات وتطبيقات الويب و Active Directory — واكتب تقارير تؤدي إلى إصلاح المشكلات."
+  ru: "Планируйте и проводите авторизованные тесты сетей, веб-приложений и Active Directory — и пишите отчёты, по которым всё исправляют."
+nice_roles: ["Vulnerability Analysis"]
+prerequisites: [security-foundations]
+next: [web-application-security, cloud-security]
+stages:
+  - title: "Methodology and reconnaissance"
+    weeks: 4
+    goal: "Work methodically within scope and rules of engagement."
+    skills: ["scoping & rules of engagement", "port & service discovery", "enumeration"]
+    project: "Write a rules-of-engagement document for a lab target from VulnHub, then perform and document the reconnaissance phase."
+    steps:
+      - { resource: offensive/penetration-testing-a-hands-on-introduction-to-hacking }
+      - { resource: offensive/nmap }
+      - { resource: offensive/nmap-network-scanning-official-book }
+      - { resource: offensive/hacktricks, note: "Methodology reference." }
+  - title: "Web application testing"
+    weeks: 5
+    goal: "Find and explain the most common web vulnerabilities."
+    skills: ["OWASP Top 10", "Burp Suite", "authentication & access-control flaws"]
+    project: "Complete every Apprentice-level lab in the Web Security Academy and record the root cause and fix for each vulnerability class."
+    steps:
+      - { resource: offensive/portswigger-web-security-academy }
+      - { resource: offensive/burp-suite }
+      - { resource: offensive/owasp-juice-shop }
+  - title: "Active Directory — attack and defend"
+    weeks: 6
+    goal: "Understand AD attack paths and how to close them."
+    skills: ["Kerberos", "attack-path analysis", "AD hardening"]
+    project: "Deploy GOAD, map attack paths with BloodHound, then run PingCastle and write a prioritised remediation plan that would break those paths."
+    steps:
+      - { resource: offensive/the-hacker-recipes }
+      - { resource: offensive/goad-game-of-active-directory, note: "Your own vulnerable AD lab." }
+      - { resource: offensive/bloodhound }
+      - { resource: offensive/pingcastle, note: "Pair every finding with the defender's view." }
+      - { resource: offensive/adsecurity-org }
+  - title: "Practice and professional reporting"
+    weeks: 6
+    goal: "Build speed, breadth and a report clients can act on."
+    skills: ["exploitation practice", "privilege escalation", "report writing"]
+    project: "Complete 20 retired lab machines and publish professional pentest-style reports (summary, risk ratings, evidence, remediation) for three of them."
+    checkpoint: career/oscp-pen-200
+    steps:
+      - { resource: career/hack-the-box }
+      - { resource: career/ippsec, note: "Watch how experienced testers think." }
+      - { resource: career/0xdf-hacks-stuff }
+added_by: "@0xOmar-Ibrahim"

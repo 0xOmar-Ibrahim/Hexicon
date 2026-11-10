@@ -1,0 +1,61 @@
+id: ics-ot-security
+order: 13
+icon: factory
+track: defend
+level: advanced
+title:
+  en: "ICS / OT Security"
+  de: "ICS/OT-Sicherheit"
+  fr: "Sécurité ICS / OT"
+  ar: "أمن أنظمة التحكم الصناعي"
+  ru: "Безопасность АСУ ТП"
+description:
+  en: "Protect industrial systems where safety comes first: architectures, protocols, labs, threats and OT incident response."
+  de: "Industrielle Systeme schützen, in denen Sicherheit für Menschen vorgeht: Architekturen, Protokolle, Labs, Bedrohungen und OT-Incident-Response."
+  fr: "Protéger les systèmes industriels où la sûreté prime : architectures, protocoles, labs, menaces et réponse aux incidents OT."
+  ar: "احمِ الأنظمة الصناعية حيث تأتي السلامة أولًا: المعماريات والبروتوكولات والمختبرات والتهديدات والاستجابة لحوادث التقنيات التشغيلية."
+  ru: "Защищайте промышленные системы, где безопасность людей на первом месте: архитектуры, протоколы, лаборатории, угрозы и реагирование в ОТ."
+nice_roles: ["Operational Technology Cybersecurity"]
+prerequisites: [soc-analyst]
+next: [incident-responder]
+stages:
+  - title: "OT fundamentals"
+    weeks: 3
+    goal: "Understand how industrial environments are built and why they differ from IT."
+    skills: ["Purdue model", "safety vs. security", "IEC 62443 zones & conduits"]
+    project: "Draw a segmented architecture for a small water-treatment plant using Purdue levels and 62443 zones and conduits."
+    steps:
+      - { resource: ics-ot/purdue-enterprise-reference-architecture }
+      - { resource: ics-ot/nist-sp-800-82-rev-3-guide-to-ot-security }
+      - { resource: ics-ot/isa-iec-62443-series }
+  - title: "Industrial protocols"
+    weeks: 4
+    goal: "Read industrial traffic and spot what doesn't belong."
+    skills: ["Modbus", "S7 / DNP3 basics", "passive monitoring"]
+    project: "Analyse ICS packet captures in Malcolm and document what normal Modbus traffic looks like versus suspicious writes."
+    steps:
+      - { resource: ics-ot/modbus-specifications }
+      - { resource: ics-ot/pymodbus }
+      - { resource: ics-ot/ics-pcap }
+      - { resource: ics-ot/malcolm }
+  - title: "Build an OT lab"
+    weeks: 4
+    goal: "Get hands-on safely with virtual industrial processes."
+    skills: ["PLC programming basics", "HMI", "OT monitoring"]
+    project: "Build a virtual lab with OpenPLC and GRFICS, add passive monitoring, and record a baseline of normal behaviour."
+    steps:
+      - { resource: ics-ot/openplc }
+      - { resource: ics-ot/grfics-v2 }
+      - { resource: ics-ot/labshock }
+      - { resource: ics-ot/conpot }
+  - title: "Threats and OT response"
+    weeks: 3
+    goal: "Know the adversaries and plan a safe response."
+    skills: ["ATT&CK for ICS", "OT threat intelligence", "OT incident response"]
+    project: "Write an OT incident response plan for your lab, mapped to ATT&CK for ICS, that keeps safety and operations first."
+    steps:
+      - { resource: ics-ot/mitre-att-ck-for-ics }
+      - { resource: ics-ot/dragos-blog }
+      - { resource: ics-ot/cisa-ics-advisories }
+      - { resource: ics-ot/mitre-emb3d }
+added_by: "@0xOmar-Ibrahim"

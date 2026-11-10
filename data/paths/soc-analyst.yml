@@ -1,28 +1,63 @@
 id: soc-analyst
+order: 1
 icon: shield
+track: defend
 level: beginner
-hours: 150
 title:
-  en: SOC Analyst & Incident Responder
-  de: SOC-Analyst:in & Incident Responder
-  fr: Analyste SOC & réponse aux incidents
-  ar: محلل مركز العمليات الأمنية والاستجابة للحوادث
-  ru: Аналитик SOC и реагирование на инциденты
+  en: "SOC Analyst"
+  de: "SOC-Analyst:in"
+  fr: "Analyste SOC"
+  ar: "محلل مركز العمليات الأمنية"
+  ru: "Аналитик SOC"
 description:
-  en: Learn how attacks look from the defender's seat — triage alerts, investigate endpoints and memory, and run an incident.
-  de: Angriffe aus Sicht der Verteidigung verstehen — Alarme bewerten, Endpunkte und Speicher untersuchen, Vorfälle steuern.
-  fr: Voir les attaques côté défense — trier les alertes, enquêter sur les postes et la mémoire, piloter un incident.
-  ar: تعلّم كيف تبدو الهجمات من موقع المدافع — فرز التنبيهات والتحقيق في الأجهزة والذاكرة وإدارة الحادثة.
-  ru: Атаки глазами защитника — разбор алертов, расследование на хостах и в памяти, управление инцидентом.
-steps:
-  - { resource: threat-intel/mitre-att-ck, note: "Learn the common language for attacker behaviour." }
-  - { resource: threat-intel/the-pyramid-of-pain, note: "Understand which indicators actually matter." }
-  - { resource: dfir/nist-sp-800-61-rev-3-incident-response, note: "Know the incident response lifecycle." }
-  - { resource: career/letsdefend, note: "Work a simulated SOC alert queue." }
-  - { resource: dfir/hayabusa, note: "Build fast timelines from Windows event logs." }
-  - { resource: dfir/eric-zimmerman-s-tools, note: "Parse the key Windows artifacts." }
-  - { resource: dfir/volatility-3, note: "Investigate a memory image." }
-  - { resource: dfir/velociraptor, note: "Collect and hunt across many endpoints." }
-  - { resource: dfir/13cubed, note: "Deepen your forensics with video walkthroughs." }
-  - { resource: career/cyberdefenders, note: "Prove it on realistic investigation labs." }
+  en: "Triage alerts, investigate logs, network traffic and phishing, and work incidents like a Tier-1/2 analyst."
+  de: "Alarme bewerten, Logs, Netzwerkverkehr und Phishing untersuchen und Vorfälle wie Tier-1/2-Analyst:innen bearbeiten."
+  fr: "Trier les alertes, analyser journaux, trafic réseau et hameçonnage, et traiter les incidents comme un analyste N1/N2."
+  ar: "فرز التنبيهات والتحقيق في السجلات وحركة الشبكة والتصيد، والتعامل مع الحوادث كمحلل من المستوى الأول والثاني."
+  ru: "Разбор алертов, расследование логов, сетевого трафика и фишинга, работа с инцидентами на уровне L1/L2."
+nice_roles: ["Defensive Cybersecurity", "Incident Response"]
+prerequisites: [security-foundations]
+next: [detection-engineer, incident-responder, threat-intel-analyst]
+stages:
+  - title: "Think like a defender"
+    weeks: 3
+    goal: "Learn the models defenders use to describe and prioritise attacks."
+    skills: ["MITRE ATT&CK", "kill chain", "Pyramid of Pain", "alert lifecycle"]
+    project: "Pick one report from The DFIR Report and map at least ten of the attacker's actions to ATT&CK techniques in a table."
+    steps:
+      - { resource: threat-intel/mitre-att-ck }
+      - { resource: threat-intel/the-pyramid-of-pain }
+      - { resource: threat-intel/lockheed-martin-cyber-kill-chain }
+      - { resource: threat-intel/the-dfir-report, note: "Read real intrusions end to end." }
+  - title: "Logs, SIEM and triage"
+    weeks: 5
+    goal: "Collect endpoint telemetry and query it in a SIEM."
+    skills: ["Windows event IDs", "Sysmon", "SIEM queries", "KQL / SPL"]
+    project: "Build a home lab: a Windows VM with Sysmon forwarding to Wazuh. Trigger three suspicious behaviours and document how each appears in the logs."
+    steps:
+      - { resource: defensive/sysmon }
+      - { resource: defensive/swiftonsecurity-sysmon-config }
+      - { resource: defensive/wazuh, note: "Your free SIEM for the lab." }
+      - { resource: defensive/must-learn-kql }
+      - { resource: defensive/splunk-boss-of-the-soc-v3-dataset, note: "Practise on realistic data." }
+  - title: "Network and email investigations"
+    weeks: 4
+    goal: "Investigate packet captures and suspicious emails confidently."
+    skills: ["PCAP analysis", "Zeek logs", "phishing analysis", "IOC extraction"]
+    project: "Solve two Malware-Traffic-Analysis exercises and write an incident ticket for each: summary, IOCs, affected hosts, recommended actions."
+    steps:
+      - { resource: defensive/practical-packet-analysis-3rd-edition }
+      - { resource: defensive/malware-traffic-analysis-net, note: "Real captures with exercises." }
+      - { resource: defensive/zeek }
+      - { resource: career/letsdefend, note: "Work a simulated alert queue." }
+  - title: "Work the queue"
+    weeks: 4
+    goal: "Handle cases end to end and build a portfolio."
+    skills: ["case management", "escalation", "reporting", "shift handover"]
+    project: "Complete ten investigations on CyberDefenders or Blue Team Labs Online and publish anonymised case write-ups as your portfolio."
+    checkpoint: career/comptia-security
+    steps:
+      - { resource: defensive/thehive }
+      - { resource: career/blue-team-labs-online }
+      - { resource: career/cyberdefenders }
 added_by: "@0xOmar-Ibrahim"

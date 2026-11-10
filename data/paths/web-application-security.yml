@@ -1,27 +1,69 @@
 id: web-application-security
+order: 7
 icon: code
+track: attack
 level: intermediate
-hours: 200
 title:
-  en: Web Application Security
-  de: Sicherheit von Webanwendungen
-  fr: Sécurité des applications Web
-  ar: أمن تطبيقات الويب
-  ru: Безопасность веб-приложений
+  en: "Web & API Security"
+  de: "Web- & API-Sicherheit"
+  fr: "Sécurité Web & API"
+  ar: "أمن الويب وواجهات API"
+  ru: "Безопасность веба и API"
 description:
-  en: From the OWASP Top 10 to finding and fixing real vulnerabilities — for testers and developers alike.
-  de: Von den OWASP Top 10 bis zum Finden und Beheben echter Schwachstellen — für Tester:innen und Entwickler:innen.
-  fr: Du Top 10 OWASP à la découverte et correction de vraies vulnérabilités — pour testeurs comme développeurs.
-  ar: من قائمة OWASP Top 10 إلى اكتشاف الثغرات الحقيقية وإصلاحها — للمختبرين والمطورين على حد سواء.
-  ru: От OWASP Top 10 до поиска и исправления реальных уязвимостей — для тестировщиков и разработчиков.
-steps:
-  - { resource: appsec/owasp-top-10, note: "Know the most critical risk categories." }
-  - { resource: offensive/portswigger-web-security-academy, note: "Work through the labs topic by topic — the core of this path." }
-  - { resource: offensive/burp-suite, note: "Master the essential testing proxy." }
-  - { resource: offensive/owasp-juice-shop, note: "Practise on a realistic modern vulnerable app." }
-  - { resource: offensive/owasp-web-security-testing-guide, note: "Learn a complete testing methodology." }
-  - { resource: offensive/owasp-api-security-top-10, note: "APIs are where most modern apps break." }
-  - { resource: appsec/owasp-cheat-sheet-series, note: "Learn how each issue is fixed properly." }
-  - { resource: appsec/owasp-asvs, note: "Turn findings into verifiable requirements." }
-  - { resource: offensive/real-world-bug-hunting, note: "See how real reports are found and written." }
+  en: "From how browsers work to finding, fixing and preventing real vulnerabilities in web apps and APIs."
+  de: "Von der Funktionsweise von Browsern bis zum Finden, Beheben und Verhindern echter Schwachstellen in Web-Apps und APIs."
+  fr: "Du fonctionnement des navigateurs à la découverte, la correction et la prévention de vraies vulnérabilités dans les applis Web et les API."
+  ar: "من فهم عمل المتصفحات إلى اكتشاف الثغرات الحقيقية في تطبيقات الويب وواجهات API وإصلاحها ومنعها."
+  ru: "От устройства браузеров до поиска, исправления и предотвращения реальных уязвимостей в веб-приложениях и API."
+nice_roles: ["Vulnerability Analysis", "Secure Software Development"]
+prerequisites: [security-foundations]
+next: [devsecops, ai-security, mobile-security]
+stages:
+  - title: "How the web really works"
+    weeks: 3
+    goal: "Understand the browser security model before attacking it."
+    skills: ["same-origin policy", "CORS", "cookies & sessions"]
+    project: "Build a two-page demo that shows the same-origin policy and a correctly configured CORS request, and explain both."
+    steps:
+      - { resource: appsec/owasp-top-10 }
+      - { resource: fundamentals/mdn-web-docs-http }
+      - { resource: fundamentals/the-tangled-web }
+  - title: "Find vulnerabilities"
+    weeks: 6
+    goal: "Find, exploit in the lab, and explain web vulnerabilities."
+    skills: ["injection", "XSS", "SSRF", "access control", "testing methodology"]
+    project: "Reach four stars in Juice Shop and, for each challenge, write the code-level fix."
+    steps:
+      - { resource: offensive/portswigger-web-security-academy, note: "The core of this roadmap." }
+      - { resource: offensive/burp-suite }
+      - { resource: offensive/owasp-juice-shop }
+      - { resource: offensive/owasp-web-security-testing-guide }
+  - title: "APIs"
+    weeks: 4
+    goal: "Test modern API-driven applications."
+    skills: ["OWASP API Top 10", "BOLA/IDOR", "authentication flaws", "GraphQL"]
+    project: "Assess crAPI against each item of the OWASP API Security Top 10 and write a short report with evidence."
+    steps:
+      - { resource: offensive/owasp-api-security-top-10 }
+      - { resource: offensive/hacking-apis }
+      - { resource: offensive/owasp-crapi }
+      - { resource: offensive/apisec-university }
+  - title: "Fix and prevent"
+    weeks: 3
+    goal: "Turn findings into requirements and automated checks."
+    skills: ["secure coding", "verification requirements", "SAST rules"]
+    project: "Convert five of your findings into ASVS requirements and Semgrep rules that would catch them in code review."
+    steps:
+      - { resource: appsec/owasp-cheat-sheet-series }
+      - { resource: appsec/owasp-asvs }
+      - { resource: appsec/semgrep }
+  - title: "Bug bounty (optional)"
+    weeks: 4
+    goal: "Apply your skills responsibly on public programmes."
+    skills: ["programme scope", "report writing", "responsible disclosure"]
+    project: "Read 30 disclosed reports, then submit your first report to a public programme, strictly within its published scope."
+    steps:
+      - { resource: offensive/bug-bounty-bootcamp }
+      - { resource: offensive/hackerone-hacktivity, note: "Learn from disclosed reports." }
+      - { resource: offensive/real-world-bug-hunting }
 added_by: "@0xOmar-Ibrahim"

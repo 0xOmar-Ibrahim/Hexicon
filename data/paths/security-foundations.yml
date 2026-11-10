@@ -1,28 +1,59 @@
 id: security-foundations
+order: 0
 icon: compass
+track: core
 level: beginner
-hours: 120
 title:
-  en: Zero to Security Foundations
-  de: Von null zu den Sicherheitsgrundlagen
-  fr: De zéro aux fondamentaux de la sécurité
-  ar: من الصفر إلى أساسيات الأمن
-  ru: С нуля до основ безопасности
+  en: "Security Foundations"
+  de: "Sicherheitsgrundlagen"
+  fr: "Fondamentaux de la sécurité"
+  ar: "أساسيات الأمن"
+  ru: "Основы безопасности"
 description:
-  en: Networking, Linux, Windows, the web and scripting — the base every security role is built on.
-  de: Netzwerke, Linux, Windows, das Web und Skripting — die Basis jeder Sicherheitsrolle.
-  fr: Réseaux, Linux, Windows, le Web et les scripts — la base de tout métier de la sécurité.
-  ar: الشبكات ولينكس وويندوز والويب والبرمجة النصية — الأساس الذي تُبنى عليه كل أدوار الأمن.
-  ru: Сети, Linux, Windows, веб и скрипты — фундамент любой профессии в безопасности.
-steps:
-  - { resource: fundamentals/roadmap-sh-cyber-security, note: "Get the big picture of the field first." }
-  - { resource: fundamentals/professor-messer, note: "Watch the Network+ course for solid networking fundamentals." }
-  - { resource: fundamentals/practical-networking, note: "Understand how packets really travel." }
-  - { resource: fundamentals/linux-journey, note: "Learn the Linux basics." }
-  - { resource: fundamentals/overthewire-bandit, note: "Practise the command line until it feels natural." }
-  - { resource: fundamentals/under-the-wire, note: "Same idea for PowerShell and Windows." }
-  - { resource: fundamentals/mdn-web-docs-http, note: "Learn HTTP — the web is most of the attack surface." }
-  - { resource: fundamentals/automate-the-boring-stuff-with-python, note: "Learn enough Python to automate your work." }
-  - { resource: fundamentals/tryhackme-pre-security-path, note: "Tie it together with guided hands-on rooms." }
-  - { resource: career/picoctf, note: "Play your first CTF." }
+  en: "Networks, operating systems, the web and scripting — the base every security role builds on."
+  de: "Netzwerke, Betriebssysteme, das Web und Skripting — die Basis jeder Sicherheitsrolle."
+  fr: "Réseaux, systèmes, Web et scripts — la base de tous les métiers de la sécurité."
+  ar: "الشبكات وأنظمة التشغيل والويب والبرمجة النصية — الأساس الذي تُبنى عليه كل أدوار الأمن."
+  ru: "Сети, операционные системы, веб и скрипты — фундамент любой роли в безопасности."
+next: [soc-analyst, penetration-tester, cloud-security, grc-analyst]
+stages:
+  - title: "How computers and networks talk"
+    weeks: 4
+    goal: "Understand packets, addressing, DNS, HTTP and TLS well enough to explain them."
+    skills: ["TCP/IP", "subnetting", "DNS", "HTTP", "TLS"]
+    project: "Capture your own traffic while opening a website and write a one-page walkthrough of the DNS lookup, TCP handshake and TLS handshake you observed."
+    steps:
+      - { resource: fundamentals/professor-messer, note: "Network+ videos for structured fundamentals." }
+      - { resource: fundamentals/practical-networking, note: "How packets really move." }
+      - { resource: fundamentals/cloudflare-learning-center, note: "Short explainers for DNS, CDNs and DDoS." }
+      - { resource: fundamentals/wireshark-user-s-guide, note: "Capture and read traffic yourself." }
+  - title: "Live in the terminal"
+    weeks: 4
+    goal: "Be comfortable on Linux and Windows command lines."
+    skills: ["Linux CLI", "permissions", "processes", "PowerShell"]
+    project: "Reach Bandit level 20 and keep public notes explaining the lesson of each level (never the passwords)."
+    steps:
+      - { resource: fundamentals/linux-journey }
+      - { resource: fundamentals/overthewire-bandit, note: "Practise until the shell feels natural." }
+      - { resource: fundamentals/under-the-wire, note: "The same idea for PowerShell." }
+      - { resource: fundamentals/the-linux-command-line-william-shotts, note: "Keep as a reference." }
+  - title: "Automate and understand the web"
+    weeks: 3
+    goal: "Script small tasks and understand how web applications work."
+    skills: ["Python", "HTTP methods & headers", "cookies", "APIs"]
+    project: "Write a Python script that fetches a website's response headers and grades its security headers (HSTS, CSP, X-Content-Type-Options…)."
+    steps:
+      - { resource: fundamentals/automate-the-boring-stuff-with-python }
+      - { resource: fundamentals/mdn-web-docs-http }
+      - { resource: fundamentals/how-https-works }
+  - title: "First steps in security"
+    weeks: 3
+    goal: "Learn core security concepts and the habit of solving challenges."
+    skills: ["CIA triad", "threats & controls", "CTF problem solving"]
+    project: "Solve 15 picoCTF challenges in at least three categories and publish short write-ups of how you solved them."
+    checkpoint: career/isc2-certified-in-cybersecurity-cc
+    steps:
+      - { resource: fundamentals/roadmap-sh-cyber-security, note: "See the whole field before you specialise." }
+      - { resource: fundamentals/tryhackme-pre-security-path }
+      - { resource: career/picoctf }
 added_by: "@0xOmar-Ibrahim"

@@ -1,0 +1,62 @@
+id: detection-engineer
+order: 2
+icon: radar
+track: defend
+level: intermediate
+title:
+  en: "Detection Engineer & Threat Hunter"
+  de: "Detection Engineer & Threat Hunter"
+  fr: "Ingénieur détection & chasseur de menaces"
+  ar: "مهندس الكشف وصائد التهديدات"
+  ru: "Инженер обнаружения и охотник за угрозами"
+description:
+  en: "Design telemetry, write detections as code, prove them with adversary emulation and hunt for what rules miss."
+  de: "Telemetrie gestalten, Erkennungen als Code schreiben, mit Angriffsemulation belegen und nach dem suchen, was Regeln übersehen."
+  fr: "Concevoir la télémétrie, écrire les détections en code, les valider par émulation et chasser ce que les règles manquent."
+  ar: "صمّم البيانات التشغيلية واكتب قواعد الكشف ككود وأثبت فعاليتها بمحاكاة الخصوم وابحث عمّا تفوته القواعد."
+  ru: "Проектируйте телеметрию, пишите детекты как код, проверяйте их эмуляцией атак и ищите то, что пропускают правила."
+nice_roles: ["Threat Analysis", "Defensive Cybersecurity"]
+prerequisites: [soc-analyst]
+next: [incident-responder, threat-intel-analyst]
+stages:
+  - title: "Telemetry that matters"
+    weeks: 3
+    goal: "Know which data sources catch which techniques — and where you are blind."
+    skills: ["data sources", "coverage mapping", "log quality"]
+    project: "Score your lab's data-source coverage with DeTT&CT and choose five gaps to close, with a reason for each."
+    steps:
+      - { resource: defensive/sysmon-modular }
+      - { resource: defensive/elastic-security-documentation }
+      - { resource: defensive/dett-ct }
+      - { resource: defensive/loldrivers }
+  - title: "Detections as code"
+    weeks: 5
+    goal: "Write, test and version detections like software."
+    skills: ["rule logic", "false-positive tuning", "Git workflows", "ATT&CK mapping"]
+    project: "Keep ten detection rules in a Git repository, each with a test case and notes on its logic, blind spots and expected false positives."
+    steps:
+      - { resource: defensive/elastic-detection-rules, note: "Study how mature rules are written and tested." }
+      - { resource: defensive/splunk-security-content }
+      - { resource: defensive/microsoft-sentinel-content }
+      - { resource: defensive/detection-engineering-weekly, note: "Stay current." }
+  - title: "Prove it with emulation"
+    weeks: 4
+    goal: "Validate detections continuously instead of hoping they work."
+    skills: ["adversary emulation", "purple teaming", "coverage metrics"]
+    project: "Run fifteen Atomic Red Team tests in your lab and record detected / partially detected / missed in VECTR, then fix two misses."
+    steps:
+      - { resource: defensive/atomic-red-team }
+      - { resource: defensive/mitre-caldera }
+      - { resource: defensive/vectr }
+      - { resource: defensive/purple-team-exercise-framework }
+  - title: "Hunt"
+    weeks: 4
+    goal: "Find threats that no rule caught yet."
+    skills: ["hypothesis-driven hunting", "timeline analysis", "beaconing detection"]
+    project: "Write and run three hypothesis-driven hunts. Publish each hypothesis, data used, queries and what you found — even if it was nothing."
+    steps:
+      - { resource: defensive/threathunter-playbook }
+      - { resource: defensive/the-threathunting-project }
+      - { resource: dfir/hayabusa }
+      - { resource: defensive/rita }
+added_by: "@0xOmar-Ibrahim"

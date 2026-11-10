@@ -1,0 +1,61 @@
+id: mobile-security
+order: 8
+icon: key
+track: attack
+level: intermediate
+title:
+  en: "Mobile (Android) Security"
+  de: "Mobile-Sicherheit (Android)"
+  fr: "Sécurité mobile (Android)"
+  ar: "أمن تطبيقات الهاتف (أندرويد)"
+  ru: "Мобильная безопасность (Android)"
+description:
+  en: "Understand the Android platform, analyse apps statically and dynamically, and fix what you find using OWASP MAS."
+  de: "Die Android-Plattform verstehen, Apps statisch und dynamisch analysieren und Gefundenes mit OWASP MAS beheben."
+  fr: "Comprendre la plateforme Android, analyser les applis en statique et en dynamique, et corriger avec OWASP MAS."
+  ar: "افهم منصة أندرويد وحلّل التطبيقات تحليلًا ثابتًا وديناميكيًا وأصلح ما تجده وفق OWASP MAS."
+  ru: "Разберитесь в платформе Android, анализируйте приложения статически и динамически и исправляйте найденное по OWASP MAS."
+nice_roles: ["Vulnerability Analysis"]
+prerequisites: [web-application-security]
+next: [devsecops]
+stages:
+  - title: "The Android platform"
+    weeks: 3
+    goal: "Know how Android isolates and protects apps."
+    skills: ["app sandbox", "permissions", "IPC", "MASVS"]
+    project: "Draw and explain Android's sandbox, permission and IPC model in a short illustrated article."
+    steps:
+      - { resource: offensive/aosp-security-documentation }
+      - { resource: offensive/android-security-internals }
+      - { resource: offensive/owasp-masvs }
+  - title: "Static analysis"
+    weeks: 4
+    goal: "Read an app without running it."
+    skills: ["decompilation", "manifest review", "secrets in code"]
+    project: "Decompile three open-source apps and review them against MASVS-STORAGE and MASVS-NETWORK; report what you find to the maintainers if it's real."
+    steps:
+      - { resource: reverse-engineering/jadx }
+      - { resource: reverse-engineering/apktool }
+      - { resource: offensive/mobsf }
+      - { resource: offensive/apkleaks }
+  - title: "Dynamic analysis"
+    weeks: 4
+    goal: "Observe and instrument an app at runtime."
+    skills: ["Frida hooking", "traffic interception", "exported components"]
+    project: "Intercept the traffic of an app you built yourself, then add certificate pinning and document how it changes the picture."
+    steps:
+      - { resource: offensive/frida }
+      - { resource: offensive/objection }
+      - { resource: offensive/drozer }
+      - { resource: offensive/apk-mitm }
+  - title: "Labs and secure development"
+    weeks: 4
+    goal: "Practise on vulnerable apps and learn the fixes."
+    skills: ["vulnerable-app labs", "secure Android coding"]
+    project: "Solve Allsafe and InjuredAndroid and, for each flaw, write the secure-coding fix with a code snippet."
+    steps:
+      - { resource: offensive/allsafe }
+      - { resource: offensive/injuredandroid }
+      - { resource: offensive/owasp-mastg-hacking-playground }
+      - { resource: appsec/android-app-security-best-practices }
+added_by: "@0xOmar-Ibrahim"

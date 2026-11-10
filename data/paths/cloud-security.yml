@@ -1,27 +1,62 @@
 id: cloud-security
+order: 9
 icon: cloud
+track: build
 level: intermediate
-hours: 140
 title:
-  en: Cloud & Kubernetes Security
-  de: Cloud- & Kubernetes-Sicherheit
-  fr: Sécurité du cloud & de Kubernetes
-  ar: أمن السحابة و Kubernetes
-  ru: Безопасность облаков и Kubernetes
+  en: "Cloud Security Engineer"
+  de: "Cloud Security Engineer"
+  fr: "Ingénieur sécurité cloud"
+  ar: "مهندس أمن السحابة"
+  ru: "Инженер по безопасности облаков"
 description:
-  en: Secure AWS, Azure, GCP and Kubernetes — understand misconfigurations, audit them and prevent them with code.
-  de: AWS, Azure, GCP und Kubernetes absichern — Fehlkonfigurationen verstehen, prüfen und per Code verhindern.
-  fr: Sécuriser AWS, Azure, GCP et Kubernetes — comprendre, auditer et prévenir les erreurs de configuration.
-  ar: تأمين AWS و Azure و GCP و Kubernetes — فهم أخطاء الإعداد وتدقيقها ومنعها بالكود.
-  ru: Защита AWS, Azure, GCP и Kubernetes — понимать ошибки конфигурации, проверять и предотвращать их кодом.
-steps:
-  - { resource: cloud/aws-well-architected-security-pillar, note: "Start with how the cloud should be secured." }
-  - { resource: cloud/hacking-the-cloud, note: "Learn how cloud environments are actually attacked." }
-  - { resource: cloud/prowler, note: "Audit an account against best practices." }
-  - { resource: cloud/cloudgoat, note: "Practise in a deliberately vulnerable AWS setup." }
-  - { resource: cloud/kubernetes-security-documentation, note: "Learn the Kubernetes security model." }
-  - { resource: cloud/owasp-kubernetes-top-10, note: "Know the most common cluster risks." }
-  - { resource: cloud/kubernetes-goat, note: "Break and fix a vulnerable cluster." }
-  - { resource: cloud/trivy, note: "Scan images, IaC and clusters in one tool." }
-  - { resource: cloud/checkov, note: "Stop misconfigurations before they deploy." }
+  en: "Secure AWS, Azure, GCP and Kubernetes: identity first, continuous posture checks and defenses you can prove."
+  de: "AWS, Azure, GCP und Kubernetes absichern: Identität zuerst, laufende Posture-Prüfungen und nachweisbare Abwehr."
+  fr: "Sécuriser AWS, Azure, GCP et Kubernetes : l'identité d'abord, des contrôles de posture continus et des défenses vérifiables."
+  ar: "أمّن AWS و Azure و GCP و Kubernetes: الهوية أولًا وفحوصات مستمرة للوضع الأمني ودفاعات يمكن إثباتها."
+  ru: "Защищайте AWS, Azure, GCP и Kubernetes: сначала идентичность, постоянная проверка конфигураций и доказуемая защита."
+nice_roles: ["Systems Security Analysis", "Security Architecture"]
+prerequisites: [security-foundations]
+next: [devsecops]
+stages:
+  - title: "Cloud security foundations"
+    weeks: 3
+    goal: "Understand the shared responsibility model and cloud identity."
+    skills: ["shared responsibility", "IAM", "logging", "network controls"]
+    project: "Diagram the identity model of a free-tier account: who can assume what, and which logs record it."
+    steps:
+      - { resource: cloud/aws-well-architected-security-pillar }
+      - { resource: cloud/google-cloud-security-best-practices }
+      - { resource: cloud/hacking-the-cloud, note: "How the same controls fail in practice." }
+  - title: "Posture and identity"
+    weeks: 4
+    goal: "Find and fix misconfigurations continuously."
+    skills: ["CSPM", "least privilege", "attack-path discovery"]
+    project: "Audit a free-tier account with Prowler, fix every critical finding and re-run to show the before/after."
+    steps:
+      - { resource: cloud/prowler }
+      - { resource: cloud/scoutsuite }
+      - { resource: cloud/cloudfox }
+      - { resource: cloud/pwned-labs }
+  - title: "Attack-and-defend labs"
+    weeks: 4
+    goal: "Learn how cloud breaches unfold — and how to detect them."
+    skills: ["privilege escalation in IAM", "detection in cloud logs"]
+    project: "Complete three CloudGoat scenarios and, for each, write the CloudTrail-based detection that would have caught it."
+    steps:
+      - { resource: cloud/cloudgoat }
+      - { resource: cloud/awsgoat }
+      - { resource: cloud/azuregoat }
+      - { resource: cloud/azurehound }
+  - title: "Containers and Kubernetes"
+    weeks: 5
+    goal: "Secure workloads from image to runtime."
+    skills: ["image scanning", "pod security", "runtime detection", "RBAC"]
+    project: "Harden a local kind cluster using kube-bench findings, add Falco rules, and document what changed and what Falco now catches."
+    steps:
+      - { resource: cloud/container-security-liz-rice }
+      - { resource: cloud/kubernetes-security-documentation }
+      - { resource: cloud/owasp-kubernetes-top-10 }
+      - { resource: cloud/kubernetes-goat }
+      - { resource: cloud/falco }
 added_by: "@0xOmar-Ibrahim"

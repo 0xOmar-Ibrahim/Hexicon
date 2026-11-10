@@ -1,0 +1,62 @@
+id: incident-responder
+order: 3
+icon: magnifier
+track: defend
+level: intermediate
+title:
+  en: "Incident Responder & DFIR"
+  de: "Incident Responder & DFIR"
+  fr: "Réponse aux incidents & forensique"
+  ar: "الاستجابة للحوادث والتحقيق الجنائي الرقمي"
+  ru: "Реагирование на инциденты и криминалистика"
+description:
+  en: "Lead an incident from first alert to report: playbooks, disk and memory forensics, timelines and evidence at scale."
+  de: "Einen Vorfall vom ersten Alarm bis zum Bericht führen: Playbooks, Datenträger- und Speicherforensik, Zeitleisten und Beweise im großen Maßstab."
+  fr: "Mener un incident de la première alerte au rapport : playbooks, forensique disque et mémoire, chronologies et collecte à grande échelle."
+  ar: "قُد الحادثة من التنبيه الأول حتى التقرير: الأدلة الإرشادية وتحليل الأقراص والذاكرة والخطوط الزمنية وجمع الأدلة على نطاق واسع."
+  ru: "Ведите инцидент от первого алерта до отчёта: плейбуки, криминалистика дисков и памяти, таймлайны и сбор данных в масштабе."
+nice_roles: ["Incident Response", "Digital Forensics"]
+prerequisites: [soc-analyst]
+next: [malware-analyst, threat-intel-analyst]
+stages:
+  - title: "The response playbook"
+    weeks: 3
+    goal: "Know what to do in the first hour and who does it."
+    skills: ["IR lifecycle", "containment", "communication", "evidence handling"]
+    project: "Write a ransomware response playbook for a small company: roles, a first-hour checklist, containment options and who to call."
+    steps:
+      - { resource: dfir/nist-sp-800-61-rev-3-incident-response }
+      - { resource: dfir/microsoft-incident-response-playbooks }
+      - { resource: dfir/cisa-stopransomware }
+  - title: "Windows and disk forensics"
+    weeks: 5
+    goal: "Reconstruct what happened on a host from its artifacts."
+    skills: ["registry", "event logs", "prefetch & LNK", "file-system timelines"]
+    project: "Investigate a public forensic image from CyberDefenders and build a timeline of the attacker's actions with evidence for each entry."
+    steps:
+      - { resource: dfir/eric-zimmerman-s-tools }
+      - { resource: dfir/kape-files }
+      - { resource: dfir/autopsy }
+      - { resource: dfir/the-sleuth-kit }
+      - { resource: dfir/13cubed, note: "Video deep dives on each artifact." }
+  - title: "Memory and super-timelines"
+    weeks: 4
+    goal: "Find what lives only in RAM and correlate everything in time."
+    skills: ["memory analysis", "process trees", "super-timelines"]
+    project: "Analyse a memory image: identify the malicious process, its parent, network connections and persistence, and explain how you proved each."
+    steps:
+      - { resource: dfir/volatility-3 }
+      - { resource: dfir/memprocfs }
+      - { resource: dfir/plaso-log2timeline }
+      - { resource: dfir/timesketch }
+  - title: "Respond at scale and report"
+    weeks: 3
+    goal: "Collect from many hosts quickly and communicate clearly."
+    skills: ["remote collection", "hunting across endpoints", "executive reporting"]
+    project: "Deploy Velociraptor to three lab hosts, run a hunt for a planted artifact and write both an executive summary and a technical incident report."
+    checkpoint: career/giac-certifications
+    steps:
+      - { resource: dfir/velociraptor }
+      - { resource: dfir/chainsaw }
+      - { resource: dfir/sans-dfir-posters-cheat-sheets }
+added_by: "@0xOmar-Ibrahim"

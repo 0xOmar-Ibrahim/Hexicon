@@ -1,0 +1,64 @@
+id: devsecops
+order: 10
+icon: code
+track: build
+level: intermediate
+title:
+  en: "DevSecOps & Supply-Chain Security"
+  de: "DevSecOps & Lieferkettensicherheit"
+  fr: "DevSecOps & sécurité de la chaîne d'approvisionnement"
+  ar: "DevSecOps وأمن سلسلة التوريد"
+  ru: "DevSecOps и безопасность цепочки поставок"
+description:
+  en: "Build security into the pipeline: threat modeling, code and secret scanning, SBOMs, signing and hardened CI/CD."
+  de: "Sicherheit in die Pipeline einbauen: Bedrohungsmodellierung, Code- und Secret-Scans, SBOMs, Signaturen und gehärtetes CI/CD."
+  fr: "Intégrer la sécurité au pipeline : modélisation des menaces, analyse du code et des secrets, SBOM, signature et CI/CD durci."
+  ar: "ادمج الأمن في خط الإنتاج: نمذجة التهديدات وفحص الكود والأسرار وقوائم المكونات والتوقيع وتقوية CI/CD."
+  ru: "Встраивайте безопасность в конвейер: моделирование угроз, сканирование кода и секретов, SBOM, подписи и защищённый CI/CD."
+nice_roles: ["Secure Software Development"]
+prerequisites: [web-application-security]
+next: [cloud-security, ai-security]
+stages:
+  - title: "Secure design"
+    weeks: 3
+    goal: "Catch problems before code exists."
+    skills: ["threat modeling", "security requirements", "maturity models"]
+    project: "Threat-model a small app you know, and track every mitigation as an issue in its repository."
+    steps:
+      - { resource: appsec/owasp-samm }
+      - { resource: appsec/threat-modeling-manifesto }
+      - { resource: appsec/owasp-threat-dragon }
+  - title: "Code and secrets"
+    weeks: 4
+    goal: "Automate the checks reviewers forget."
+    skills: ["SAST", "secret scanning", "triage"]
+    project: "Add SAST and secret scanning to a GitHub repository's CI, triage the first results and document your suppression policy."
+    steps:
+      - { resource: appsec/semgrep }
+      - { resource: appsec/codeql }
+      - { resource: appsec/gitleaks }
+      - { resource: appsec/trufflehog }
+  - title: "Software supply chain"
+    weeks: 4
+    goal: "Know what you ship and prove where it came from."
+    skills: ["SBOM", "dependency risk", "signing", "provenance"]
+    project: "Generate an SBOM for a container image, sign the image with cosign and verify the signature in CI before deploy."
+    steps:
+      - { resource: appsec/syft }
+      - { resource: appsec/grype }
+      - { resource: appsec/osv-scanner }
+      - { resource: appsec/slsa }
+      - { resource: appsec/cosign }
+      - { resource: appsec/openssf-scorecard }
+  - title: "Pipelines and infrastructure as code"
+    weeks: 4
+    goal: "Make the pipeline itself hard to abuse."
+    skills: ["CI/CD risks", "runner hardening", "IaC scanning"]
+    project: "Solve CI/CD Goat, then harden your own pipeline against each weakness you exploited there."
+    steps:
+      - { resource: appsec/owasp-top-10-ci-cd-security-risks }
+      - { resource: appsec/ci-cd-goat }
+      - { resource: appsec/harden-runner }
+      - { resource: cloud/checkov }
+      - { resource: cloud/trivy }
+added_by: "@0xOmar-Ibrahim"

@@ -62,11 +62,13 @@ Upgrade "paths" into **staged role roadmaps**:
 | 12 | GRC Analyst | Cybersecurity Policy & Planning · Risk Management | Govern |
 | 13 | ICS / OT Security | Operational Technology Cybersecurity | Defend |
 
-- [ ] Schema v2 (`stages`, `nice_roles`, `checkpoint`, `next`) with backwards compatibility
-- [ ] Website: stage timeline, skills checklist, project card, "what's next" links
-- [ ] Migrate the 5 existing paths, then add the remaining 9
-- [ ] Translate roadmap titles/descriptions into DE · FR · AR · RU
-- [ ] Per-viewer progress tracking (tick off steps; stored in the browser)
+- [x] Schema v2 (`stages`, `nice_roles`, `checkpoint`, `next`) with backwards compatibility
+- [x] Website: stage timeline, skills checklist, project card, "what's next" links
+- [x] Migrate the 5 existing paths, then add the remaining 9
+- [x] Translate roadmap titles/descriptions into DE · FR · AR · RU
+- [ ] Translate stage titles, goals, projects and step notes
+- [ ] Practitioner review of each roadmap
+- [x] Per-viewer progress tracking (tick off steps; stored in the browser)
 
 ## Phase B — Close content gaps (rolling)
 

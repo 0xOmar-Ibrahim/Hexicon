@@ -1,0 +1,60 @@
+id: grc-analyst
+order: 12
+icon: scale
+track: govern
+level: beginner
+title:
+  en: "GRC Analyst"
+  de: "GRC-Analyst:in"
+  fr: "Analyste GRC"
+  ar: "محلل الحوكمة والمخاطر والامتثال"
+  ru: "Аналитик GRC"
+description:
+  en: "Frameworks, risk and compliance: help organisations decide what to protect, how well, and prove it."
+  de: "Frameworks, Risiko und Compliance: Organisationen helfen zu entscheiden, was wie gut geschützt wird — und es nachzuweisen."
+  fr: "Référentiels, risques et conformité : aider les organisations à décider quoi protéger, à quel niveau, et à le prouver."
+  ar: "الأطر والمخاطر والامتثال: ساعد المؤسسات على تحديد ما يجب حمايته وبأي مستوى، وإثبات ذلك."
+  ru: "Фреймворки, риски и соответствие: помогайте организациям решать, что и насколько защищать, и доказывать это."
+nice_roles: ["Cybersecurity Policy & Planning", "Risk Management"]
+prerequisites: [security-foundations]
+next: [cloud-security]
+stages:
+  - title: "Frameworks"
+    weeks: 3
+    goal: "Speak the language of controls."
+    skills: ["NIST CSF 2.0", "CIS Controls", "ISO 27001"]
+    project: "Map a small company's current practices to the CSF 2.0 functions and identify its five weakest areas."
+    steps:
+      - { resource: grc/nist-cybersecurity-framework-2-0 }
+      - { resource: grc/cis-critical-security-controls }
+      - { resource: grc/iso-iec-27001 }
+  - title: "Risk"
+    weeks: 3
+    goal: "Assess and communicate risk in business terms."
+    skills: ["risk assessment", "risk registers", "quantification"]
+    project: "Build a risk register with ten risks and quantify the top three using FAIR-style ranges."
+    steps:
+      - { resource: grc/nist-sp-800-30-guide-for-conducting-risk-assessments }
+      - { resource: grc/fair-institute }
+      - { resource: grc/owasp-risk-rating-methodology }
+  - title: "Compliance and privacy"
+    weeks: 4
+    goal: "Turn regulations into concrete obligations."
+    skills: ["GDPR", "NIS2", "PCI DSS", "control mapping"]
+    project: "Perform a gap analysis of a fictional company against NIS2 (or your national framework) with prioritised actions."
+    steps:
+      - { resource: grc/gdpr-full-text-gdpr-info-eu }
+      - { resource: grc/nis2-directive-eur-lex }
+      - { resource: grc/pci-security-standards-council }
+      - { resource: grc/secure-controls-framework }
+  - title: "Run a programme"
+    weeks: 3
+    goal: "Operate GRC with tools instead of spreadsheets."
+    skills: ["GRC platforms", "evidence collection", "compliance as code"]
+    project: "Set up CISO Assistant, load a framework, record evidence for ten controls and produce an audit-ready report."
+    checkpoint: career/cissp
+    steps:
+      - { resource: grc/ciso-assistant }
+      - { resource: grc/eramba }
+      - { resource: grc/oscal-open-security-controls-assessment-language }
+added_by: "@0xOmar-Ibrahim"

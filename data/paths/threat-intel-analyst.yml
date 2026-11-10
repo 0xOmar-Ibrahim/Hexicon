@@ -1,0 +1,61 @@
+id: threat-intel-analyst
+order: 5
+icon: radar
+track: defend
+level: intermediate
+title:
+  en: "Threat Intelligence Analyst"
+  de: "Threat-Intelligence-Analyst:in"
+  fr: "Analyste en renseignement sur les menaces"
+  ar: "محلل استخبارات التهديدات"
+  ru: "Аналитик киберразведки"
+description:
+  en: "Turn raw data about adversaries into decisions: requirements, collection, platforms and finished reporting."
+  de: "Rohdaten über Angreifer in Entscheidungen verwandeln: Anforderungen, Sammlung, Plattformen und fertige Berichte."
+  fr: "Transformer les données brutes sur les adversaires en décisions : besoins, collecte, plateformes et rapports finis."
+  ar: "حوّل البيانات الخام عن الخصوم إلى قرارات: المتطلبات والجمع والمنصات والتقارير النهائية."
+  ru: "Превращайте сырые данные о противниках в решения: требования, сбор, платформы и итоговые отчёты."
+nice_roles: ["Threat Analysis", "All-Source Analysis"]
+prerequisites: [soc-analyst]
+next: [detection-engineer]
+stages:
+  - title: "Intelligence fundamentals"
+    weeks: 3
+    goal: "Know what intelligence is for and how analysts reason."
+    skills: ["intelligence cycle", "requirements", "Diamond Model", "analytic bias"]
+    project: "Write a one-page set of intelligence requirements for a fictional company in your country's main industry."
+    steps:
+      - { resource: threat-intel/att-ck-cti-training }
+      - { resource: threat-intel/the-diamond-model-of-intrusion-analysis }
+      - { resource: threat-intel/intelligence-driven-incident-response-2nd-edition }
+  - title: "Open sources"
+    weeks: 4
+    goal: "Collect reliably from open sources — legally and ethically."
+    skills: ["OSINT method", "Internet scan data", "source reliability"]
+    project: "Map the external attack surface of an organisation you are authorised to assess (or your own domain) and rate the reliability of each source."
+    steps:
+      - { resource: threat-intel/osint-framework }
+      - { resource: threat-intel/bellingcat-online-investigations-toolkit }
+      - { resource: threat-intel/shodan }
+      - { resource: threat-intel/greynoise }
+  - title: "Platforms and sharing"
+    weeks: 4
+    goal: "Store, enrich and share intelligence in standard formats."
+    skills: ["MISP", "OpenCTI", "STIX/TAXII", "feeds"]
+    project: "Run MISP locally, import two public feeds, correlate an indicator across them and export a STIX bundle."
+    steps:
+      - { resource: threat-intel/misp }
+      - { resource: threat-intel/opencti }
+      - { resource: threat-intel/stix-taxii-documentation }
+      - { resource: threat-intel/alienvault-otx }
+  - title: "Track actors and report"
+    weeks: 3
+    goal: "Write intelligence people act on."
+    skills: ["actor profiling", "ATT&CK layers", "finished intelligence"]
+    project: "Write a finished report on one threat group with an ATT&CK Navigator layer and three concrete detection or hardening recommendations."
+    steps:
+      - { resource: threat-intel/malpedia }
+      - { resource: threat-intel/etda-threat-group-cards }
+      - { resource: threat-intel/att-ck-navigator }
+      - { resource: threat-intel/google-threat-intelligence-mandiant-blog }
+added_by: "@0xOmar-Ibrahim"

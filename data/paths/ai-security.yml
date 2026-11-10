@@ -1,26 +1,64 @@
 id: ai-security
+order: 11
 icon: spark
+track: build
 level: intermediate
-hours: 60
 title:
-  en: AI & LLM Security
-  de: KI- & LLM-Sicherheit
-  fr: Sécurité de l'IA & des LLM
-  ar: أمن الذكاء الاصطناعي ونماذج اللغة
-  ru: Безопасность ИИ и LLM
+  en: "AI & LLM Security"
+  de: "KI- & LLM-Sicherheit"
+  fr: "Sécurité de l'IA & des LLM"
+  ar: "أمن الذكاء الاصطناعي ونماذج اللغة"
+  ru: "Безопасность ИИ и LLM"
 description:
-  en: Understand prompt injection, agent risks and adversarial ML — then test and harden AI applications.
-  de: Prompt Injection, Agentenrisiken und Adversarial ML verstehen — und KI-Anwendungen testen und härten.
-  fr: Comprendre l'injection de prompt, les risques des agents et le ML adverse — puis tester et durcir les applications d'IA.
-  ar: افهم حقن الأوامر ومخاطر الوكلاء والتعلم الآلي العدائي — ثم اختبر تطبيقات الذكاء الاصطناعي وعزّز أمنها.
-  ru: Разберитесь в prompt injection, рисках агентов и состязательном МО — затем тестируйте и защищайте ИИ-приложения.
-steps:
-  - { resource: ai-security/owasp-top-10-for-llm-applications, note: "Map the risk landscape." }
-  - { resource: ai-security/simon-willison-on-prompt-injection, note: "Understand why prompt injection is so hard to fix." }
-  - { resource: ai-security/gandalf-lakera, note: "Get a hands-on feel for prompt injection." }
-  - { resource: ai-security/portswigger-web-llm-attacks, note: "Attack LLM features inside web apps." }
-  - { resource: ai-security/mitre-atlas, note: "Learn the adversary tactics against AI systems." }
-  - { resource: ai-security/promptfoo, note: "Evaluate and red-team your own LLM app." }
-  - { resource: ai-security/garak, note: "Scan models for known weaknesses." }
-  - { resource: ai-security/nist-ai-risk-management-framework, note: "Govern AI risk at organisational level." }
+  en: "Threat-model AI apps, understand prompt injection and agent/tool risks, red-team them and add guardrails that measurably work."
+  de: "KI-Apps bedrohungsmodellieren, Prompt Injection und Agenten-/Tool-Risiken verstehen, sie red-teamen und messbar wirksame Guardrails einbauen."
+  fr: "Modéliser les menaces des applis d'IA, comprendre l'injection de prompt et les risques des agents, les tester et ajouter des garde-fous mesurables."
+  ar: "انمذج تهديدات تطبيقات الذكاء الاصطناعي وافهم حقن الأوامر ومخاطر الوكلاء والأدوات واختبرها هجوميًا وأضف حواجز حماية فعّالة يمكن قياسها."
+  ru: "Моделируйте угрозы ИИ-приложений, разберитесь в prompt injection и рисках агентов, проводите red teaming и добавляйте измеримо работающие ограничители."
+nice_roles: ["Secure Software Development", "Vulnerability Analysis"]
+prerequisites: [web-application-security]
+next: [devsecops]
+stages:
+  - title: "The AI risk landscape"
+    weeks: 2
+    goal: "Know the risks before touching tools."
+    skills: ["OWASP LLM Top 10", "AI threat modeling", "AI governance"]
+    project: "Threat-model an LLM app that uses retrieval (RAG) and tools: list assets, trust boundaries, and where untrusted text can reach the model."
+    steps:
+      - { resource: ai-security/owasp-top-10-for-llm-applications }
+      - { resource: ai-security/owasp-ai-exchange }
+      - { resource: ai-security/nist-ai-risk-management-framework }
+  - title: "Prompt injection and agents"
+    weeks: 4
+    goal: "Understand why injection is hard and where it becomes dangerous."
+    skills: ["direct & indirect injection", "insecure output handling", "tool / MCP misuse", "RAG poisoning"]
+    project: "Build a tiny RAG app, demonstrate an indirect injection through a poisoned document in your own environment, then add mitigations and show the result."
+    steps:
+      - { resource: ai-security/simon-willison-on-prompt-injection }
+      - { resource: ai-security/indirect-prompt-injection-greshake-et-al }
+      - { resource: ai-security/gandalf-lakera }
+      - { resource: ai-security/portswigger-web-llm-attacks }
+      - { resource: ai-security/damn-vulnerable-llm-agent }
+  - title: "Red-team AI systems"
+    weeks: 4
+    goal: "Test AI systems systematically and repeatably."
+    skills: ["MITRE ATLAS", "automated evals", "regression testing"]
+    project: "Set up promptfoo red-team evaluations for your app and track the scores across three versions as you add defenses."
+    steps:
+      - { resource: ai-security/mitre-atlas }
+      - { resource: ai-security/promptfoo }
+      - { resource: ai-security/garak }
+      - { resource: ai-security/pyrit }
+      - { resource: ai-security/crucible-dreadnode }
+  - title: "Guardrails and agent security"
+    weeks: 3
+    goal: "Add defenses and measure what they actually stop."
+    skills: ["input/output filtering", "least-privilege tools", "MCP security", "model robustness"]
+    project: "Add input/output guardrails and scan your MCP servers; report what is blocked, what still gets through, and why."
+    steps:
+      - { resource: ai-security/llm-guard }
+      - { resource: ai-security/nemo-guardrails }
+      - { resource: ai-security/mcp-scan }
+      - { resource: ai-security/microsoft-ai-red-team }
+      - { resource: ai-security/adversarial-robustness-toolbox }
 added_by: "@0xOmar-Ibrahim"
