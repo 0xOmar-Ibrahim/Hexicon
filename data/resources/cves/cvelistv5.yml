@@ -1,0 +1,16 @@
+title: "cvelistV5"
+url: "https://github.com/CVEProject/cvelistV5"
+type: dataset
+domain: cves
+subdomains: [vuln-db]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "All CVE records in JSON 5 format, updated continuously — ideal for automation."
+tags: [json, cve-records]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

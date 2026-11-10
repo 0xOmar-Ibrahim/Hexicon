@@ -1,0 +1,16 @@
+title: "CISA SSVC"
+url: "https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc"
+type: framework
+domain: cves
+subdomains: [vuln-mgmt]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Stakeholder-Specific Vulnerability Categorization decision trees for prioritising remediation."
+tags: [decision-tree, prioritization]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

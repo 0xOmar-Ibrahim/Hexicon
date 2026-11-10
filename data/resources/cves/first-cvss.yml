@@ -1,0 +1,16 @@
+title: "FIRST CVSS"
+url: "https://www.first.org/cvss/"
+type: framework
+domain: cves
+subdomains: [vuln-mgmt]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Specification and calculators for the Common Vulnerability Scoring System, including CVSS v4.0."
+tags: [cvss, scoring]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

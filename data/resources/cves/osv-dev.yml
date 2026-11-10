@@ -1,0 +1,16 @@
+title: "OSV.dev"
+url: "https://osv.dev/"
+type: dataset
+domain: cves
+subdomains: [vuln-db]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Distributed vulnerability database for open-source ecosystems with a precise schema and API."
+tags: [open-source-vulns]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

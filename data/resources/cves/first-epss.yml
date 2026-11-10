@@ -1,0 +1,16 @@
+title: "FIRST EPSS"
+url: "https://www.first.org/epss/"
+type: dataset
+domain: cves
+subdomains: [vuln-mgmt]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Exploit Prediction Scoring System: daily probability that a CVE will be exploited in the next 30 days."
+tags: [epss, probability]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

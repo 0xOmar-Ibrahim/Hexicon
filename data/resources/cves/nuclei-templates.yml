@@ -1,0 +1,16 @@
+title: "Nuclei Templates"
+url: "https://github.com/projectdiscovery/nuclei-templates"
+type: dataset
+domain: cves
+subdomains: [vuln-db, vuln-mgmt]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Community templates for detecting thousands of CVEs and misconfigurations with Nuclei."
+tags: [detection-templates]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

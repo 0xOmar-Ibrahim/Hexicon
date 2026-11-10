@@ -1,0 +1,17 @@
+title: "CERT-FR"
+url: "https://www.cert.ssi.gouv.fr/"
+type: news
+domain: cves
+subdomains: [vuln-db]
+level: [beginner, intermediate]
+cost: free
+languages: [fr]
+description:
+  en: "French government CERT publishing alerts and advisories."
+  fr: "Le CERT gouvernemental français publie alertes, avis de sécurité et bulletins d'actualité."
+tags: [advisories, france]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "OWASP Dependency-Track"
+url: "https://dependencytrack.org/"
+type: tool
+domain: cves
+subdomains: [vuln-mgmt]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Platform that continuously tracks component vulnerabilities using SBOMs."
+tags: [sbom, component-analysis]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
