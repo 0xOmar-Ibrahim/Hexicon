@@ -1,0 +1,16 @@
+title: "Snyk Learn"
+url: "https://learn.snyk.io/"
+type: course
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Free interactive lessons on vulnerabilities and secure coding in many languages."
+tags: [developer-training]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

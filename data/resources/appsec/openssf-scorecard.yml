@@ -1,0 +1,16 @@
+title: "OpenSSF Scorecard"
+url: "https://github.com/ossf/scorecard"
+type: tool
+domain: appsec
+subdomains: [supply-chain]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Automated checks that score the security practices of open-source projects."
+tags: [open-source-risk]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

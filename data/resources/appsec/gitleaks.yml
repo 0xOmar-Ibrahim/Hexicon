@@ -1,0 +1,16 @@
+title: "Gitleaks"
+url: "https://github.com/gitleaks/gitleaks"
+type: tool
+domain: appsec
+subdomains: [devsecops]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Detects hardcoded secrets such as passwords and API keys in git repositories."
+tags: [secrets-detection]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

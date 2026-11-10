@@ -1,0 +1,16 @@
+title: "OWASP ASVS"
+url: "https://owasp.org/www-project-application-security-verification-standard/"
+type: framework
+domain: appsec
+subdomains: [secure-coding]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Application Security Verification Standard: a detailed list of security requirements for designing and testing apps."
+tags: [verification-standard]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

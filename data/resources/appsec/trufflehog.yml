@@ -1,0 +1,16 @@
+title: "TruffleHog"
+url: "https://github.com/trufflesecurity/trufflehog"
+type: tool
+domain: appsec
+subdomains: [devsecops]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Finds and verifies leaked credentials across git history, filesystems and cloud storage."
+tags: [secrets-detection, verification]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

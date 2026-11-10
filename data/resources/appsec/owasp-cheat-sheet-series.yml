@@ -1,0 +1,16 @@
+title: "OWASP Cheat Sheet Series"
+url: "https://cheatsheetseries.owasp.org/"
+type: cheatsheet
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Concise, practical guidance for developers on authentication, session management, input validation and much more."
+tags: [secure-coding, guidance]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

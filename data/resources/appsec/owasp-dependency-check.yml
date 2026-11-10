@@ -1,0 +1,16 @@
+title: "OWASP Dependency-Check"
+url: "https://owasp.org/www-project-dependency-check/"
+type: tool
+domain: appsec
+subdomains: [supply-chain, sast-dast]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Software composition analysis tool that detects publicly disclosed vulnerabilities in project dependencies."
+tags: [sca]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

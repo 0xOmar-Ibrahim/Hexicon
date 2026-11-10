@@ -1,0 +1,16 @@
+title: "OWASP Top 10"
+url: "https://owasp.org/www-project-top-ten/"
+type: framework
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "The standard awareness document for the most critical web application security risks."
+tags: [owasp, awareness]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

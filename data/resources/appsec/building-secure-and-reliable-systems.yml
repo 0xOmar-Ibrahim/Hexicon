@@ -1,0 +1,16 @@
+title: "Building Secure and Reliable Systems"
+url: "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html"
+type: book
+domain: appsec
+subdomains: [secure-coding, devsecops]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Free book from Google on designing, implementing and maintaining secure, reliable systems."
+tags: [google, sre]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

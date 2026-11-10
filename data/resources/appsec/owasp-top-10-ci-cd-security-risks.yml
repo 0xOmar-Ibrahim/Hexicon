@@ -1,0 +1,16 @@
+title: "OWASP Top 10 CI/CD Security Risks"
+url: "https://owasp.org/www-project-top-10-ci-cd-security-risks/"
+type: framework
+domain: appsec
+subdomains: [devsecops]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "The most significant risks in CI/CD pipelines and how to address them."
+tags: [cicd, pipeline]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

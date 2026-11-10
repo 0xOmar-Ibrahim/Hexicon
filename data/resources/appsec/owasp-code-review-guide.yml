@@ -1,0 +1,16 @@
+title: "OWASP Code Review Guide"
+url: "https://owasp.org/www-project-code-review-guide/"
+type: documentation
+domain: appsec
+subdomains: [secure-coding]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Guidance on reviewing source code for security flaws."
+tags: [code-review]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

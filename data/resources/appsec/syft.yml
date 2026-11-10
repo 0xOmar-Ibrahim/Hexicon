@@ -1,0 +1,16 @@
+title: "Syft"
+url: "https://github.com/anchore/syft"
+type: tool
+domain: appsec
+subdomains: [supply-chain]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "CLI tool for generating a Software Bill of Materials from container images and filesystems."
+tags: [sbom]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

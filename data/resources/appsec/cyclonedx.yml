@@ -1,0 +1,16 @@
+title: "CycloneDX"
+url: "https://cyclonedx.org/"
+type: framework
+domain: appsec
+subdomains: [supply-chain]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OWASP's full-stack Bill of Materials standard for software supply chain risk."
+tags: [sbom, standard]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

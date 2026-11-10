@@ -1,0 +1,16 @@
+title: "Threat Modeling Manifesto"
+url: "https://www.threatmodelingmanifesto.org/"
+type: framework
+domain: appsec
+subdomains: [threat-modeling]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Core values and principles of threat modeling, written by leading practitioners."
+tags: [principles]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

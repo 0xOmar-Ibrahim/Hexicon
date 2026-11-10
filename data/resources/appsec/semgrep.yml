@@ -1,0 +1,17 @@
+title: "Semgrep"
+url: "https://semgrep.dev/"
+type: tool
+domain: appsec
+subdomains: [sast-dast]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Fast, open-source static analysis with readable rules for finding bugs and enforcing secure patterns."
+tags: [sast, rules]
+repo: "https://github.com/semgrep/semgrep"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

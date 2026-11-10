@@ -1,0 +1,16 @@
+title: "OWASP SAMM"
+url: "https://owaspsamm.org/"
+type: framework
+domain: appsec
+subdomains: [devsecops]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Software Assurance Maturity Model for assessing and improving a software security programme."
+tags: [maturity-model]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

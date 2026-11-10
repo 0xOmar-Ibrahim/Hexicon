@@ -1,0 +1,16 @@
+title: "CWE Top 25 Most Dangerous Software Weaknesses"
+url: "https://cwe.mitre.org/top25/"
+type: framework
+domain: appsec
+subdomains: [secure-coding]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "MITRE's annual list of the most common and impactful software weaknesses."
+tags: [cwe, mitre]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

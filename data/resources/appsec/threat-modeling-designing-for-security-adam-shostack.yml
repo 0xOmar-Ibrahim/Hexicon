@@ -1,0 +1,16 @@
+title: "Threat Modeling: Designing for Security (Adam Shostack)"
+url: "https://shostack.org/books/threat-modeling-book"
+type: book
+domain: appsec
+subdomains: [threat-modeling]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "The classic book on practical threat modeling, including STRIDE."
+tags: [stride, shostack]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
