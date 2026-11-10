@@ -11,6 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
+import { localizedSummaries } from './vuln-types.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = path.join(ROOT, 'data/cves');
@@ -68,6 +69,10 @@ for (const [rank, { v, e }] of ranked.entries()) {
   }
   const prevOfficial = previous?.official ?? {};
   const cwes = (v.cwes ?? []).filter((c) => /^CWE-\d+$/.test(c));
+  const { type, summaries } = localizedSummaries({
+    name: v.vulnerabilityName, vendor: v.vendorProject, product: v.product,
+    dateAdded: v.dateAdded, ransomware: v.knownRansomwareCampaignUse === 'Known',
+  });
   const page = {
     id,
     name: v.vulnerabilityName,
@@ -81,7 +86,8 @@ for (const [rank, { v, e }] of ranked.entries()) {
       synced_on: TODAY,
     },
     affected: [{ vendor: v.vendorProject, product: v.product }],
-    summary: { en: v.shortDescription.length >= 40 ? v.shortDescription : `${v.vulnerabilityName}. ${v.shortDescription}` },
+    vuln_type: type,
+    summary: { en: v.shortDescription.length >= 40 ? v.shortDescription : `${v.vulnerabilityName}. ${v.shortDescription}`, ...summaries },
     references: [
       { kind: 'advisory', url: `https://nvd.nist.gov/vuln/detail/${id}`, title: 'NVD entry' },
       ...urlsFromNotes(v.notes).map((url) => ({ kind: 'advisory', url, title: 'Vendor / CISA reference' })),

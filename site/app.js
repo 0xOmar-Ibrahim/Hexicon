@@ -57,8 +57,7 @@
     renderCards();
     renderPaths();
     renderCves();
-    renderKevControls();
-    renderKev();
+    if (KEV) loadKev(); // reload the CVE index in the new language
   }
 
   function initLangSelect() {
@@ -326,16 +325,21 @@
   }
 
   /* ---------------- TOP EXPLOITED CVEs (lazy) ---------------- */
-  let KEV = null;
+  let KEV = null, kevLang = null, kevWired = false;
   const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, shown: 25 };
   const SEV = ['critical', 'high', 'medium', 'low'];
 
+  // Loads the ranked CVE index for the current language (cves.<lang>.json).
   async function loadKev() {
-    if (KEV) return;
-    try { KEV = await fetch('cves.json').then((r) => r.json()); } catch { KEV = []; }
+    if (KEV && kevLang === state.lang) return;
+    const lang = state.lang;
+    try { KEV = await fetch(`cves.${lang}.json`).then((r) => r.json()); } catch { KEV = []; }
+    kevLang = lang;
     if (!KEV.length) { $('#kev').hidden = true; return; }
     renderKevControls();
     renderKev();
+    if (kevWired) return;
+    kevWired = true;
     $('#kq').addEventListener('input', (e) => { kstate.q = e.target.value.trim().toLowerCase(); kstate.shown = 25; renderKev(); });
     $('#k-rw').addEventListener('change', (e) => { kstate.rw = e.target.checked; kstate.shown = 25; renderKev(); });
     $('#kmore').addEventListener('click', () => { kstate.shown += 50; renderKev(); });
@@ -365,7 +369,7 @@
       (kstate.vendor === 'all' || c.v === kstate.vendor) &&
       (kstate.sev === 'all' || c.sv === kstate.sev) &&
       (!kstate.rw || c.rw) &&
-      (!kstate.q || `${c.id} ${c.n} ${c.v} ${c.p}`.toLowerCase().includes(kstate.q)));
+      (!kstate.q || `${c.id} ${c.n} ${c.o ?? ''} ${c.v} ${c.p}`.toLowerCase().includes(kstate.q)));
     if (kstate.sort === 'cvss') list = [...list].sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.r - b.r);
     if (kstate.sort === 'newest') list = [...list].sort((a, b) => (b.kev ?? '').localeCompare(a.kev ?? '') || a.r - b.r);
     $('#kcount').textContent = list.length;
@@ -374,7 +378,7 @@
       <tr class="krow" tabindex="0">
         <td class="krank">${c.r}</td>
         <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ' <span class="kcur" title="Curated field notes">★</span>' : ''}</td>
-        <td class="kname"><strong>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}</td>
+        <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}</td>
         <td><span class="kscore" style="--sev:${sevColor(c.sv)}">${c.s != null ? esc(Number(c.s).toFixed(1)) : '—'}</span></td>
         <td class="kepss"><span class="kbar"><i style="width:${Math.round((c.e ?? 0) * 100)}%"></i></span>${c.e != null ? (c.e * 100).toFixed(1) + '%' : '—'}</td>
         <td class="kdate">${esc(c.kev ?? '')}</td>

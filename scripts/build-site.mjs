@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
+import { TYPE_NAMES } from './vuln-types.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
@@ -57,17 +58,24 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     epss: c.official?.epss?.score ?? null,
     published: iso(c.official?.published),
     added: iso(c.official?.kev?.date_added),
+    type: c.vuln_type ?? null,
     summary: c.summary ?? {},
     references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
   };
 });
 // Curated field notes go into data.json; the full ranked list is a separate, lazily loaded file.
 const cves = allCves.filter((c) => c.curated);
-const cveIndex = allCves
-  .filter((c) => c.rank)
-  .sort((a, b) => a.rank - b.rank)
-  .map(({ id, nickname, name, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary }) =>
-    ({ id, n: nickname ?? name, c: curated ? 1 : 0, r: rank, v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0, e: epss, pub: published, kev: added, d: summary.en }));
+const ranked = allCves.filter((c) => c.rank).sort((a, b) => a.rank - b.rank);
+// One index per language: localized name (vulnerability type + product) and summary, English original kept as `o`.
+const cveIndexFor = (lang) => ranked.map(({ id, nickname, name, type, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary }) => {
+  const localName = lang === 'en' || nickname || !type ? (nickname ?? name) : `${TYPE_NAMES[type][lang]} — ${product}`;
+  return {
+    id, n: localName, ...(localName !== (nickname ?? name) && { o: nickname ?? name }),
+    c: curated ? 1 : 0, r: rank, v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0,
+    e: epss, pub: published, kev: added, d: summary[lang] ?? summary.en,
+  };
+});
+const cveIndex = cveIndexFor('en');
 
 const byKey = new Map(resources.map((r) => [`${r.domain}/${r.id}`, r]));
 // Roadmaps: v2 files have `stages`; v1 files with a flat `steps` list become a single stage.
@@ -123,7 +131,7 @@ fs.cpSync(path.join(ROOT, 'site'), DIST, { recursive: true });
 data.cveTotal = allCves.length;
 data.cveRanked = cveIndex.length;
 fs.writeFileSync(path.join(DIST, 'data.json'), JSON.stringify(data));
-fs.writeFileSync(path.join(DIST, 'cves.json'), JSON.stringify(cveIndex));
+for (const lang of taxonomy.languages) fs.writeFileSync(path.join(DIST, `cves.${lang}.json`), JSON.stringify(cveIndexFor(lang)));
 fs.copyFileSync(path.join(ROOT, 'i18n/ui.json'), path.join(DIST, 'ui.json'));
 
 console.log(`Built dist/ — ${resources.length} resources, ${allCves.length} CVE pages (${cves.length} curated, ${cveIndex.length} ranked), ${paths.length} paths, ${data.domains.length} domains.`);

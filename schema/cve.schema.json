@@ -236,6 +236,10 @@
       "type": "integer",
       "minimum": 1,
       "description": "Position in Hexicon's top-KEV list (by EPSS); set by scripts/import-kev.mjs."
+    },
+    "vuln_type": {
+      "type": "string",
+      "description": "Vulnerability class key from scripts/vuln-types.mjs (e.g. rce, sqli, authbypass); localized on the website."
     }
   }
 }
