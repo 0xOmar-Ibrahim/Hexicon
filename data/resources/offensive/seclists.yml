@@ -1,0 +1,16 @@
+title: "SecLists"
+url: "https://github.com/danielmiessler/SecLists"
+type: wordlist
+domain: offensive
+subdomains: [password-attacks, web]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "The security tester's companion: usernames, passwords, URLs, fuzzing payloads and more."
+tags: [wordlists, fuzzing]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

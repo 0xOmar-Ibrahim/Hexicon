@@ -1,0 +1,17 @@
+title: "OWASP Juice Shop"
+url: "https://owasp.org/www-project-juice-shop/"
+type: lab
+domain: offensive
+subdomains: [web]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Probably the most modern and sophisticated intentionally insecure web application, covering the OWASP Top 10 and beyond."
+tags: [vulnerable-app, training]
+repo: "https://github.com/juice-shop/juice-shop"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

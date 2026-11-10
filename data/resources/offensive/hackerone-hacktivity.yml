@@ -1,0 +1,16 @@
+title: "HackerOne Hacktivity"
+url: "https://hackerone.com/hacktivity"
+type: blog
+domain: offensive
+subdomains: [web, api]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Feed of publicly disclosed bug bounty reports — a goldmine for learning real-world vulnerabilities."
+tags: [bug-bounty, reports]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

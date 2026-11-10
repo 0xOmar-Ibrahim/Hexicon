@@ -1,0 +1,16 @@
+title: "APIsec University"
+url: "https://www.apisecuniversity.com/"
+type: course
+domain: offensive
+subdomains: [api]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Free courses on API security testing, OWASP API Top 10 and API pentesting."
+tags: [api-testing]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

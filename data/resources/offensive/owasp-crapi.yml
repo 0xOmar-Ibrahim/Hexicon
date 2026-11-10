@@ -1,0 +1,16 @@
+title: "OWASP crAPI"
+url: "https://github.com/OWASP/crAPI"
+type: lab
+domain: offensive
+subdomains: [api]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Completely Ridiculous API — an intentionally vulnerable API-driven application for learning API security."
+tags: [vulnerable-api]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

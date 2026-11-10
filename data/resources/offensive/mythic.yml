@@ -1,0 +1,16 @@
+title: "Mythic"
+url: "https://github.com/its-a-feature/Mythic"
+type: tool
+domain: offensive
+subdomains: [red-team]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Collaborative, multi-platform red teaming C2 framework with pluggable agents."
+tags: [c2]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

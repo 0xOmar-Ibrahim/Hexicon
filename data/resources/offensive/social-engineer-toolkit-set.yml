@@ -1,0 +1,16 @@
+title: "Social-Engineer Toolkit (SET)"
+url: "https://github.com/trustedsec/social-engineer-toolkit"
+type: tool
+domain: offensive
+subdomains: [social-engineering]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "TrustedSec's open-source framework for social engineering penetration tests."
+tags: [phishing]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

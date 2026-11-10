@@ -1,0 +1,16 @@
+title: "pwn.college"
+url: "https://pwn.college/"
+type: course
+domain: offensive
+subdomains: [exploit-dev]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Arizona State University's free, hands-on platform teaching binary exploitation and system security from scratch."
+tags: [binary-exploitation, asu]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

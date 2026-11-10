@@ -1,0 +1,16 @@
+title: "Nmap Network Scanning (official book)"
+url: "https://nmap.org/book/"
+type: book
+domain: offensive
+subdomains: [network]
+level: [intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Gordon Lyon's guide to Nmap; much of the book is free to read online."
+tags: [nmap]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

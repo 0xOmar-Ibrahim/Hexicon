@@ -1,0 +1,16 @@
+title: "pwntools"
+url: "https://github.com/Gallopsled/pwntools"
+type: tool
+domain: offensive
+subdomains: [exploit-dev]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "CTF framework and exploit development library for Python."
+tags: [ctf, python]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

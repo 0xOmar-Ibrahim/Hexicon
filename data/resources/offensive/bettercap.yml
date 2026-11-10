@@ -1,0 +1,17 @@
+title: "bettercap"
+url: "https://www.bettercap.org/"
+type: tool
+domain: offensive
+subdomains: [wireless, network]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Swiss-army knife for Wi-Fi, Bluetooth LE and network reconnaissance and MITM attacks."
+tags: [mitm, wifi, ble]
+repo: "https://github.com/bettercap/bettercap"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

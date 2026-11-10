@@ -1,0 +1,16 @@
+title: "Certipy"
+url: "https://github.com/ly4k/Certipy"
+type: tool
+domain: offensive
+subdomains: [active-directory]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Tool for enumerating and abusing Active Directory Certificate Services (AD CS)."
+tags: [adcs, certificates]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

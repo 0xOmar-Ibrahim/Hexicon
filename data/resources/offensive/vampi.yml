@@ -1,0 +1,16 @@
+title: "VAmPI"
+url: "https://github.com/erev0s/VAmPI"
+type: lab
+domain: offensive
+subdomains: [api]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Vulnerable REST API built with Flask that includes the OWASP API Top 10 flaws."
+tags: [vulnerable-api, rest]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

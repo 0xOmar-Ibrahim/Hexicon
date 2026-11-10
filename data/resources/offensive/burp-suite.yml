@@ -1,0 +1,16 @@
+title: "Burp Suite"
+url: "https://portswigger.net/burp"
+type: tool
+domain: offensive
+subdomains: [web, api]
+level: [beginner, intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "The industry-standard intercepting proxy and toolkit for web application security testing."
+tags: [proxy, scanner]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

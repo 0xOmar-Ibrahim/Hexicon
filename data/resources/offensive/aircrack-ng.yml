@@ -1,0 +1,16 @@
+title: "Aircrack-ng"
+url: "https://www.aircrack-ng.org/"
+type: tool
+domain: offensive
+subdomains: [wireless]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Suite of tools for assessing Wi-Fi network security: monitoring, attacking, testing and cracking."
+tags: [wifi, wpa]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

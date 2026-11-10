@@ -1,0 +1,16 @@
+title: "PEASS-ng (LinPEAS / WinPEAS)"
+url: "https://github.com/peass-ng/PEASS-ng"
+type: tool
+domain: offensive
+subdomains: [network]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Privilege escalation enumeration scripts for Linux, Windows and macOS."
+tags: [privilege-escalation, enumeration]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

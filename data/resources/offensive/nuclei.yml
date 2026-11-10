@@ -1,0 +1,16 @@
+title: "Nuclei"
+url: "https://github.com/projectdiscovery/nuclei"
+type: tool
+domain: offensive
+subdomains: [network, web]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Fast, template-based vulnerability scanner with thousands of community templates."
+tags: [scanner, templates]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

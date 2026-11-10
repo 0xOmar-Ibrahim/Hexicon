@@ -1,0 +1,16 @@
+title: "Real-World Bug Hunting"
+url: "https://nostarch.com/bughunting"
+type: book
+domain: offensive
+subdomains: [web]
+level: [beginner, intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Peter Yaworski's field guide to web hacking, built around real, paid bug bounty reports."
+tags: [bug-bounty]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

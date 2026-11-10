@@ -1,0 +1,16 @@
+title: "Nikto"
+url: "https://github.com/sullo/nikto"
+type: tool
+domain: offensive
+subdomains: [web]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Classic web server scanner that checks for dangerous files, outdated software and misconfigurations."
+tags: [web-scanner]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

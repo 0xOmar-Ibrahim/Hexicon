@@ -1,0 +1,16 @@
+title: "BloodHound"
+url: "https://github.com/SpecterOps/BloodHound"
+type: tool
+domain: offensive
+subdomains: [active-directory]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Uses graph theory to reveal hidden attack paths in Active Directory and Entra ID environments."
+tags: [attack-paths, graph]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

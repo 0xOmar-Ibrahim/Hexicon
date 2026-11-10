@@ -1,0 +1,16 @@
+title: "jwt_tool"
+url: "https://github.com/ticarpi/jwt_tool"
+type: tool
+domain: offensive
+subdomains: [web, api]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Toolkit for testing, tweaking and cracking JSON Web Tokens."
+tags: [jwt, tokens]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

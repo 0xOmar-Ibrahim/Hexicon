@@ -1,0 +1,17 @@
+title: "sqlmap"
+url: "https://sqlmap.org/"
+type: tool
+domain: offensive
+subdomains: [web]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open-source tool that automates detecting and exploiting SQL injection flaws."
+tags: [sqli, automation]
+repo: "https://github.com/sqlmapproject/sqlmap"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

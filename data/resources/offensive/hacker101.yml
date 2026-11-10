@@ -1,0 +1,16 @@
+title: "Hacker101"
+url: "https://www.hacker101.com/"
+type: course
+domain: offensive
+subdomains: [web]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "HackerOne's free web security classes and CTF for aspiring bug bounty hunters."
+tags: [bug-bounty, hackerone, ctf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

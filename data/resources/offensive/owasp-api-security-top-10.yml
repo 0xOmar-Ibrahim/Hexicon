@@ -1,0 +1,16 @@
+title: "OWASP API Security Top 10"
+url: "https://owasp.org/API-Security/"
+type: framework
+domain: offensive
+subdomains: [api]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "The ten most critical API security risks, with examples and prevention guidance."
+tags: [owasp, api]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

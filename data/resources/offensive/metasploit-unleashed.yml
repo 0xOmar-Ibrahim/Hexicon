@@ -1,0 +1,15 @@
+title: "Metasploit Unleashed"
+url: "https://www.offsec.com/metasploit-unleashed/"
+type: course
+domain: offensive
+subdomains: [network]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OffSec's free course on using the Metasploit Framework effectively."
+tags: [metasploit]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

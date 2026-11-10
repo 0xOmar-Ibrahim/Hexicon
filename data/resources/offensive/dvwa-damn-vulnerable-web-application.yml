@@ -1,0 +1,16 @@
+title: "DVWA (Damn Vulnerable Web Application)"
+url: "https://github.com/digininja/DVWA"
+type: lab
+domain: offensive
+subdomains: [web]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Classic PHP/MySQL vulnerable web application for practising common web attacks at adjustable difficulty."
+tags: [vulnerable-app, php]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

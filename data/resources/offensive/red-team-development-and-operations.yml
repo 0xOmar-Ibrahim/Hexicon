@@ -1,0 +1,16 @@
+title: "Red Team Development and Operations"
+url: "https://redteam.guide/"
+type: book
+domain: offensive
+subdomains: [red-team]
+level: [intermediate]
+cost: paid
+languages: [en]
+description:
+  en: "Practical guide by Joe Vest and James Tubberville on planning and running red team engagements."
+tags: [red-team, methodology]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

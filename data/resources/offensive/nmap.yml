@@ -1,0 +1,16 @@
+title: "Nmap"
+url: "https://nmap.org/"
+type: tool
+domain: offensive
+subdomains: [network]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "The standard network scanner for host discovery, port scanning, service detection and scripted checks."
+tags: [port-scanning, nse]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

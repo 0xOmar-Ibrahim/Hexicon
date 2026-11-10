@@ -1,0 +1,16 @@
+title: "CHIPSEC"
+url: "https://github.com/chipsec/chipsec"
+type: tool
+domain: offensive
+subdomains: [hardware-iot]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Framework for analysing the security of PC platforms including hardware, system firmware (BIOS/UEFI) and configuration."
+tags: [firmware, uefi, platform-security]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "ffuf"
+url: "https://github.com/ffuf/ffuf"
+type: tool
+domain: offensive
+subdomains: [web]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Fast web fuzzer written in Go for content discovery, virtual host and parameter fuzzing."
+tags: [fuzzing, content-discovery]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

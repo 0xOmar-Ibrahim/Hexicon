@@ -1,0 +1,16 @@
+title: "ired.team"
+url: "https://www.ired.team/"
+type: cheatsheet
+domain: offensive
+subdomains: [red-team, active-directory]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Red team notes covering offensive techniques, code injection, AD attacks and evasion concepts."
+tags: [red-team-notes]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

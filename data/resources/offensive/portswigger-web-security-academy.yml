@@ -1,5 +1,5 @@
-title: PortSwigger Web Security Academy
-url: https://portswigger.net/web-security
+title: "PortSwigger Web Security Academy"
+url: "https://portswigger.net/web-security"
 type: course
 domain: offensive
 subdomains: [web, api]
@@ -7,13 +7,8 @@ level: [beginner, intermediate, advanced]
 cost: free
 languages: [en]
 description:
-  en: Free, interactive web security training from the makers of Burp Suite, with hundreds of hands-on labs covering nearly every web vulnerability class.
-  de: Kostenloses, interaktives Websicherheitstraining der Burp-Suite-Entwickler mit Hunderten praktischer Labs zu fast allen Klassen von Web-Schwachstellen.
-  fr: Formation interactive et gratuite à la sécurité Web par les créateurs de Burp Suite, avec des centaines de labs couvrant presque toutes les classes de vulnérabilités Web.
-  ar: تدريب تفاعلي مجاني في أمن الويب من مطوري Burp Suite، يضم مئات المختبرات العملية التي تغطي معظم أنواع ثغرات الويب.
-  ru: Бесплатное интерактивное обучение веб-безопасности от создателей Burp Suite с сотнями практических лабораторий по почти всем классам веб-уязвимостей.
+  en: "Free, interactive web security training from the makers of Burp Suite, with hundreds of hands-on labs covering nearly every web vulnerability class."
 tags: [xss, sqli, ssrf, burp-suite, labs]
-author: PortSwigger
 status: active
 featured: true
 added_by: "@0xOmar-Ibrahim"

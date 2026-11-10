@@ -1,0 +1,16 @@
+title: "ADSecurity.org"
+url: "https://adsecurity.org/"
+type: blog
+domain: offensive
+subdomains: [active-directory]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Sean Metcalf's long-running blog on Active Directory attack and defense."
+tags: [kerberos, ad-attacks]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Rubeus"
+url: "https://github.com/GhostPack/Rubeus"
+type: tool
+domain: offensive
+subdomains: [active-directory]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "C# toolset for raw Kerberos interaction and abuse."
+tags: [kerberos]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

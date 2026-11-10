@@ -1,0 +1,16 @@
+title: "ROP Emporium"
+url: "https://ropemporium.com/"
+type: lab
+domain: offensive
+subdomains: [exploit-dev]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Challenges designed to teach return-oriented programming step by step."
+tags: [rop]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

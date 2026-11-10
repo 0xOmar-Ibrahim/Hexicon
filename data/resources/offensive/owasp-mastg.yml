@@ -1,0 +1,16 @@
+title: "OWASP MASTG"
+url: "https://mas.owasp.org/MASTG/"
+type: framework
+domain: offensive
+subdomains: [mobile]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "OWASP Mobile Application Security Testing Guide — the reference manual for mobile app security testing."
+tags: [android, ios, testing]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

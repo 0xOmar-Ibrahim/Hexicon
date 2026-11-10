@@ -1,0 +1,16 @@
+title: "Responder"
+url: "https://github.com/lgandx/Responder"
+type: tool
+domain: offensive
+subdomains: [network, active-directory]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "LLMNR/NBT-NS/mDNS poisoner and rogue authentication server used in internal network assessments."
+tags: [llmnr, nbt-ns, poisoning]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

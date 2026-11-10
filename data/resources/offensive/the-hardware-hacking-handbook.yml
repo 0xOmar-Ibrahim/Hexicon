@@ -1,0 +1,16 @@
+title: "The Hardware Hacking Handbook"
+url: "https://nostarch.com/hardwarehacking"
+type: book
+domain: offensive
+subdomains: [hardware-iot]
+level: [intermediate, advanced]
+cost: paid
+languages: [en]
+description:
+  en: "Breaking embedded security with hardware attacks — side channels, fault injection and more."
+tags: [side-channel, fault-injection]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

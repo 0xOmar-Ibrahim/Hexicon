@@ -1,0 +1,17 @@
+title: "ZAP (Zed Attack Proxy)"
+url: "https://www.zaproxy.org/"
+type: tool
+domain: offensive
+subdomains: [web, api]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Free, open-source web application scanner and intercepting proxy."
+tags: [proxy, scanner, dast]
+repo: "https://github.com/zaproxy/zaproxy"
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

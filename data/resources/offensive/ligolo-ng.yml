@@ -1,0 +1,16 @@
+title: "Ligolo-ng"
+url: "https://github.com/nicocha30/ligolo-ng"
+type: tool
+domain: offensive
+subdomains: [network, red-team]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Simple, fast tunneling tool for pivoting through networks using a TUN interface."
+tags: [pivoting, tunneling]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

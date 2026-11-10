@@ -1,0 +1,16 @@
+title: "Impacket"
+url: "https://github.com/fortra/impacket"
+type: tool
+domain: offensive
+subdomains: [active-directory, network]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Python classes and example scripts for working with Windows network protocols (SMB, Kerberos, LDAP, MSRPC)."
+tags: [smb, kerberos, python]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Hashcat"
+url: "https://hashcat.net/hashcat/"
+type: tool
+domain: offensive
+subdomains: [password-attacks]
+level: [beginner, intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "World's fastest password recovery tool, using GPUs to crack hundreds of hash types."
+tags: [gpu, cracking]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

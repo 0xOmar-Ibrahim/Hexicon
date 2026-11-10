@@ -1,0 +1,16 @@
+title: "NetExec"
+url: "https://github.com/Pennyw0rth/NetExec"
+type: tool
+domain: offensive
+subdomains: [active-directory, network]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Network service exploitation tool (successor of CrackMapExec) for assessing Windows/AD environments."
+tags: [smb, ldap, winrm]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

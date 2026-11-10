@@ -1,0 +1,16 @@
+title: "OWASP IoT Project"
+url: "https://owasp.org/www-project-internet-of-things/"
+type: framework
+domain: offensive
+subdomains: [hardware-iot]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OWASP resources on IoT security including the IoT Top 10."
+tags: [iot-top-10]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
