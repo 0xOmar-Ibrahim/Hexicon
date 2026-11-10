@@ -1,0 +1,15 @@
+title: "OWASP Top 10 for LLM Applications"
+url: "https://genai.owasp.org/llm-top-10/"
+type: framework
+domain: ai-security
+subdomains: [llm-security]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OWASP's list of the most critical risks for applications built on large language models."
+tags: [owasp, prompt-injection]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

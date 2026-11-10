@@ -1,0 +1,16 @@
+title: "Simon Willison on prompt injection"
+url: "https://simonwillison.net/tags/prompt-injection/"
+type: blog
+domain: ai-security
+subdomains: [llm-security]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Long-running series of clear, practical writing about prompt injection and LLM security."
+tags: [prompt-injection]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

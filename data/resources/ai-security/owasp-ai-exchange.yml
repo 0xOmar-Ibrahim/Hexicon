@@ -1,0 +1,16 @@
+title: "OWASP AI Exchange"
+url: "https://owaspai.org/"
+type: framework
+domain: ai-security
+subdomains: [llm-security, adversarial-ml]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Open, comprehensive guidance on protecting AI systems against threats, contributed to global standards."
+tags: [owasp, ai-threats]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

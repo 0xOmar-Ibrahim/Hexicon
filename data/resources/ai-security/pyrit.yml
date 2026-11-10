@@ -1,0 +1,16 @@
+title: "PyRIT"
+url: "https://github.com/Azure/PyRIT"
+type: tool
+domain: ai-security
+subdomains: [ai-red-teaming]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Microsoft's Python Risk Identification Tool for automating generative-AI red teaming."
+tags: [microsoft, red-team-automation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

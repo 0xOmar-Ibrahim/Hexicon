@@ -1,0 +1,16 @@
+title: "Universal and Transferable Adversarial Attacks on Aligned LLMs"
+url: "https://arxiv.org/abs/2307.15043"
+type: paper
+domain: ai-security
+subdomains: [adversarial-ml, ai-red-teaming]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Research demonstrating automatically generated adversarial suffixes that transfer across models."
+tags: [jailbreak, research]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

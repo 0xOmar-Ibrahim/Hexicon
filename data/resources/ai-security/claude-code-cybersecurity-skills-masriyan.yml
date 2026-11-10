@@ -1,0 +1,16 @@
+title: "Claude Code CyberSecurity Skills (Masriyan)"
+url: "https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill"
+type: tool
+domain: ai-security
+subdomains: [ai-for-security]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "22 MIT-licensed Claude Code skills covering recon, DFIR, threat hunting, cloud, AI security, GRC and more."
+tags: [claude-code, skills, agents]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

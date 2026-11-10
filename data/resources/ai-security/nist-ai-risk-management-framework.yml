@@ -1,0 +1,16 @@
+title: "NIST AI Risk Management Framework"
+url: "https://www.nist.gov/itl/ai-risk-management-framework"
+type: framework
+domain: ai-security
+subdomains: [llm-security]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "NIST's voluntary framework for managing risks of AI systems across their lifecycle."
+tags: [nist, governance]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

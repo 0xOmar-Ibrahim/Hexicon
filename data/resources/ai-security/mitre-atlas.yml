@@ -1,0 +1,16 @@
+title: "MITRE ATLAS"
+url: "https://atlas.mitre.org/"
+type: framework
+domain: ai-security
+subdomains: [adversarial-ml, ai-red-teaming]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Knowledge base of adversary tactics and techniques against AI-enabled systems, modelled after ATT&CK."
+tags: [mitre, adversarial-tactics]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

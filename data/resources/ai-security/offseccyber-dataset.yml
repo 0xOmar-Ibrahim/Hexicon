@@ -1,0 +1,16 @@
+title: "OffsecCyber dataset"
+url: "https://huggingface.co/datasets/PentesterFlow/OffsecCyber"
+type: dataset
+domain: ai-security
+subdomains: [ai-for-security]
+level: [advanced]
+cost: free
+languages: [en]
+description:
+  en: "Apache-2.0 dataset of ~60k security conversations (largely CVE analysis) for instruction tuning; labels are annotations, not authoritative."
+tags: [dataset, cve, instruction-tuning]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

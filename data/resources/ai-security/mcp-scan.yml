@@ -1,0 +1,16 @@
+title: "mcp-scan"
+url: "https://github.com/invariantlabs-ai/mcp-scan"
+type: tool
+domain: ai-security
+subdomains: [llm-security]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Scans Model Context Protocol servers for tool poisoning and other security issues."
+tags: [mcp, agents]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

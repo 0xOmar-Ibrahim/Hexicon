@@ -1,0 +1,16 @@
+title: "Anthropic Cybersecurity Skills (community)"
+url: "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+type: tool
+domain: ai-security
+subdomains: [ai-for-security]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Community library of 800+ agent skills mapped to ATT&CK, NIST CSF, ATLAS and D3FEND (not affiliated with Anthropic)."
+tags: [agent-skills, mitre-mapped]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Crucible (Dreadnode)"
+url: "https://crucible.dreadnode.io/"
+type: lab
+domain: ai-security
+subdomains: [ai-red-teaming, adversarial-ml]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "AI red teaming challenges covering prompt injection, model evasion and data extraction."
+tags: [ai-ctf]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

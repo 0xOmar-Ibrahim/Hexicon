@@ -1,0 +1,16 @@
+title: "Embrace The Red"
+url: "https://embracethered.com/blog/"
+type: blog
+domain: ai-security
+subdomains: [llm-security, ai-red-teaming]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Johann Rehberger's research on prompt injection and data exfiltration in AI assistants."
+tags: [research]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

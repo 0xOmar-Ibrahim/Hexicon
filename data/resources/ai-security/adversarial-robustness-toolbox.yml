@@ -1,0 +1,16 @@
+title: "Adversarial Robustness Toolbox"
+url: "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
+type: tool
+domain: ai-security
+subdomains: [adversarial-ml]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Python library for evaluating and defending ML models against evasion, poisoning, extraction and inference attacks."
+tags: [evasion, poisoning]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
