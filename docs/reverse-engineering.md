@@ -4,7 +4,7 @@
 
 > Reverse Engineering · Rétro-ingénierie · الهندسة العكسية · Реверс-инжиниринг
 
-**36 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**37 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Binary Analysis](#binary) · [Firmware](#firmware) · [Mobile App RE](#mobile-re) · [Protocol RE](#protocol)
 
@@ -33,6 +33,7 @@
 | [pwndbg](https://github.com/pwndbg/pwndbg) | tool | I·A | 🆓 free | GDB and LLDB plug-in that makes debugging and reversing easier. |
 | [radare2](https://rada.re/n/) | tool | I·A | 🆓 free | Open-source command-line reverse engineering framework. |
 | [Reverse Engineering for Beginners](https://beginners.re/) | book | B·I | 🆓 free | Dennis Yurichev's free book on understanding assembly and compiled code, translated into many languages. |
+| [The Ghidra Book](https://nostarch.com/GhidraBook) | book | I·A | 💲 paid | The definitive guide to the Ghidra reverse engineering framework. |
 | [x64dbg](https://x64dbg.com/) | tool | B·I | 🆓 free | Open-source x64/x32 debugger for Windows. |
 
 <a id="firmware"></a>

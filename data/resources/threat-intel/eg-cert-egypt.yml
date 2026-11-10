@@ -1,0 +1,17 @@
+title: "EG-CERT (Egypt)"
+url: "https://www.egcert.eg/"
+type: news
+domain: threat-intel
+subdomains: [cti]
+level: [beginner, intermediate]
+cost: free
+languages: [ar, en]
+description:
+  en: "Egypt's national Computer Emergency Response Team: advisories, alerts and incident coordination."
+  ar: "فريق الاستجابة لطوارئ الحاسب الآلي الوطني في مصر: نشرات وتنبيهات وتنسيق الاستجابة للحوادث."
+tags: [egypt, cert, advisories]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

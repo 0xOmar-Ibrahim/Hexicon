@@ -1,0 +1,16 @@
+title: "NATO CCDCOE"
+url: "https://ccdcoe.org/"
+type: documentation
+domain: grc
+subdomains: [frameworks]
+level: [intermediate, advanced]
+cost: freemium
+languages: [en]
+description:
+  en: "NATO Cooperative Cyber Defence Centre of Excellence: research, the Tallinn Manual on cyber law, and the Locked Shields exercise."
+tags: [tallinn-manual, locked-shields]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

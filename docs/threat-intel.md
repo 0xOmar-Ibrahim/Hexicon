@@ -4,7 +4,7 @@
 
 > Threat Intelligence & OSINT · Renseignement sur les menaces & OSINT · استخبارات التهديدات و OSINT · Разведка угроз и OSINT
 
-**34 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**38 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Cyber Threat Intelligence](#cti) · [OSINT](#osint) · [ATT&CK & Frameworks](#attack-frameworks)
 
@@ -15,12 +15,16 @@
 |---|---|---|---|---|
 | [AlienVault OTX](https://otx.alienvault.com/) | dataset | B·I | 🆓 free | Open Threat Exchange: community-driven threat data and indicator pulses. |
 | [ATT&CK CTI Training](https://attack.mitre.org/resources/learn-more-about-attack/training/cti/) | course | B | 🆓 free | Free MITRE training on applying ATT&CK to cyber threat intelligence. |
+| [Cisco Talos blog](https://blog.talosintelligence.com/) | blog | I·A | 🆓 free | Threat research and vulnerability disclosures from Cisco Talos. |
+| [CrowdStrike blog](https://www.crowdstrike.com/en-us/blog/) | blog | I·A | 🆓 free | Threat intelligence and adversary research from CrowdStrike. |
 | [Curated Intelligence](https://www.curatedintel.org/) | community | I·A | 🆓 free | Community of CTI analysts sharing research, guides and collaborative reporting. |
+| [EG-CERT (Egypt)](https://www.egcert.eg/) | news | B·I | 🆓 free | Egypt's national Computer Emergency Response Team: advisories, alerts and incident coordination. |
 | [ETDA Threat Group Cards](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | dataset | I | 🆓 free | Encyclopedia of threat actor groups and their tools, aliases and operations. |
 | [Google Threat Intelligence (Mandiant) blog](https://cloud.google.com/blog/topics/threat-intelligence) | blog | I·A | 🆓 free | Threat intelligence research from Mandiant and Google. |
 | [GreyNoise](https://www.greynoise.io/) | tool | B·I | ◐ freemium | Identifies Internet-wide scanning and background noise so analysts can focus on real threats. |
 | [Intelligence-Driven Incident Response, 2nd Edition](https://www.oreilly.com/library/view/intelligence-driven-incident-response/9781098120672/) | book | I | 💲 paid | Combining threat intelligence and incident response into one cycle. |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) | dataset | I·A | 🆓 free | Fraunhofer FKIE's curated resource on malware families with references and YARA rules. |
+| [Microsoft Threat Intelligence blog](https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/) | blog | I·A | 🆓 free | Research on threat actors and campaigns from Microsoft Threat Intelligence. |
 | [MISP](https://www.misp-project.org/) | tool | I·A | 🆓 free | Open-source threat intelligence and sharing platform. |
 | [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | tool | I·A | 🆓 free | Open-source platform for managing and visualising cyber threat intelligence knowledge. |
 | [ransomware.live](https://www.ransomware.live/) | dataset | B·I | 🆓 free | Tracks ransomware groups and victim postings to support research and situational awareness. |

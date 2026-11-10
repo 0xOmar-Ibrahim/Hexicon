@@ -1,0 +1,16 @@
+title: "ENISA"
+url: "https://www.enisa.europa.eu/"
+type: documentation
+domain: grc
+subdomains: [frameworks, compliance]
+level: [beginner, intermediate]
+cost: free
+languages: [en, de, fr]
+description:
+  en: "The EU Agency for Cybersecurity: threat landscape reports, good practices and EU certification schemes."
+tags: [eu, agency, threat-landscape]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

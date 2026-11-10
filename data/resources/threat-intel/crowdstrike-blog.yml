@@ -1,0 +1,16 @@
+title: "CrowdStrike blog"
+url: "https://www.crowdstrike.com/en-us/blog/"
+type: blog
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Threat intelligence and adversary research from CrowdStrike."
+tags: [vendor-research, adversaries]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

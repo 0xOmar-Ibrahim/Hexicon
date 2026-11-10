@@ -4,7 +4,7 @@
 
 > GRC & Datenschutz · GRC & vie privée · الحوكمة والمخاطر والامتثال والخصوصية · GRC и приватность
 
-**24 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**26 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
 [Frameworks & Standards](#frameworks) · [Risk Management](#risk) · [Compliance & Audit](#compliance) · [Privacy](#privacy)
 
@@ -19,7 +19,9 @@
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | framework | B·I | 🆓 free | Prioritised set of safeguards to mitigate the most prevalent cyber attacks, with implementation groups for organisations of every size. |
 | [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model) | framework | I | 🆓 free | CISA's roadmap for moving toward zero trust across identity, devices, networks, applications and data. |
 | [Cloud Security Alliance — Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix) | framework | I | 🆓 free | Cybersecurity control framework for cloud computing mapped to major standards. |
+| [ENISA](https://www.enisa.europa.eu/) | documentation | B·I | 🆓 free | The EU Agency for Cybersecurity: threat landscape reports, good practices and EU certification schemes. |
 | [ISO/IEC 27001](https://www.iso.org/standard/27001) | framework | I·A | 💲 paid | The international standard for information security management systems (ISMS) and the basis of ISO 27001 certification. |
+| [NATO CCDCOE](https://ccdcoe.org/) | documentation | I·A | ◐ freemium | NATO Cooperative Cyber Defence Centre of Excellence: research, the Tallinn Manual on cyber law, and the Locked Shields exercise. |
 | [NCSC Cyber Assessment Framework](https://www.ncsc.gov.uk/collection/cyber-assessment-framework) | framework | I | 🆓 free | The UK NCSC's outcome-based framework for assessing how well essential functions are protected. |
 | [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | framework | I·A | 🆓 free | NIST's foundational definition of zero trust architecture, its components and deployment models. |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | framework | A | 🆓 free | Comprehensive catalogue of security and privacy controls for information systems and organisations. |
