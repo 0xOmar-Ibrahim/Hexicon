@@ -1,0 +1,16 @@
+title: "IntelTechniques"
+url: "https://inteltechniques.com/"
+type: blog
+domain: threat-intel
+subdomains: [osint]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Michael Bazzell's OSINT and privacy resources, tools and training."
+tags: [osint, privacy]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

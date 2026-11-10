@@ -1,0 +1,16 @@
+title: "MITRE D3FEND"
+url: "https://d3fend.mitre.org/"
+type: framework
+domain: threat-intel
+subdomains: [attack-frameworks]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Knowledge graph of defensive cybersecurity countermeasures mapped to offensive techniques."
+tags: [countermeasures]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

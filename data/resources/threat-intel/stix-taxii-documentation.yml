@@ -1,0 +1,16 @@
+title: "STIX / TAXII documentation"
+url: "https://oasis-open.github.io/cti-documentation/"
+type: documentation
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Official introduction to the STIX and TAXII standards for sharing threat intelligence."
+tags: [stix, taxii, standards]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

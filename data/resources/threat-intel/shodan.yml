@@ -1,0 +1,16 @@
+title: "Shodan"
+url: "https://www.shodan.io/"
+type: tool
+domain: threat-intel
+subdomains: [osint, cti]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Search engine for Internet-connected devices and exposed services."
+tags: [internet-scanning]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

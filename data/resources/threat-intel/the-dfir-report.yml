@@ -1,0 +1,16 @@
+title: "The DFIR Report"
+url: "https://thedfirreport.com/"
+type: blog
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Detailed real-world intrusion reports with timelines, TTPs and detections."
+tags: [intrusion-reports]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

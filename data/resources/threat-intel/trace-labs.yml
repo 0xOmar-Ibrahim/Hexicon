@@ -1,0 +1,15 @@
+title: "Trace Labs"
+url: "https://www.tracelabs.org/"
+type: ctf
+domain: threat-intel
+subdomains: [osint]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Non-profit running OSINT Search Party CTFs that help find missing persons."
+tags: [missing-persons, search-party]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10

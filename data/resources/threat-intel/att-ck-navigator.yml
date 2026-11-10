@@ -1,0 +1,16 @@
+title: "ATT&CK Navigator"
+url: "https://mitre-attack.github.io/attack-navigator/"
+type: tool
+domain: threat-intel
+subdomains: [attack-frameworks]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Web app to annotate and visualise ATT&CK matrices, e.g. detection coverage or actor profiles."
+tags: [coverage, heatmap]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

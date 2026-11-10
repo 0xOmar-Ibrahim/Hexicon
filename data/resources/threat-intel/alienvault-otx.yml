@@ -1,0 +1,16 @@
+title: "AlienVault OTX"
+url: "https://otx.alienvault.com/"
+type: dataset
+domain: threat-intel
+subdomains: [cti]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Open Threat Exchange: community-driven threat data and indicator pulses."
+tags: [ioc, community-feed]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

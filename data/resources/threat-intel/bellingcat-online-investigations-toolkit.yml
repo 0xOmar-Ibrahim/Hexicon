@@ -1,0 +1,16 @@
+title: "Bellingcat Online Investigations Toolkit"
+url: "https://bellingcat.gitbook.io/toolkit"
+type: tool
+domain: threat-intel
+subdomains: [osint]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Bellingcat's curated, regularly updated toolkit for open-source investigations."
+tags: [investigations]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "ThreatFox"
+url: "https://threatfox.abuse.ch/"
+type: dataset
+domain: threat-intel
+subdomains: [cti]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "abuse.ch platform for sharing indicators of compromise associated with malware."
+tags: [ioc, abuse-ch]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

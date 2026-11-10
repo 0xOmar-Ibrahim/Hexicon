@@ -1,0 +1,16 @@
+title: "The Diamond Model of Intrusion Analysis"
+url: "https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf"
+type: paper
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Foundational paper describing intrusions through adversary, capability, infrastructure and victim."
+tags: [analysis-model]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

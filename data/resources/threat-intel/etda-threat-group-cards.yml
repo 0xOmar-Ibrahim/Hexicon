@@ -1,0 +1,16 @@
+title: "ETDA Threat Group Cards"
+url: "https://apt.etda.or.th/cgi-bin/aptgroups.cgi"
+type: dataset
+domain: threat-intel
+subdomains: [cti]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Encyclopedia of threat actor groups and their tools, aliases and operations."
+tags: [apt, actor-profiles]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

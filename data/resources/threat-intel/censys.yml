@@ -1,0 +1,16 @@
+title: "Censys"
+url: "https://censys.com/"
+type: tool
+domain: threat-intel
+subdomains: [osint, cti]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Internet-wide scan data and attack-surface management."
+tags: [internet-scanning, certificates]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

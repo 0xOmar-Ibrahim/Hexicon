@@ -1,0 +1,16 @@
+title: "SpiderFoot"
+url: "https://github.com/smicallef/spiderfoot"
+type: tool
+domain: threat-intel
+subdomains: [osint]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "OSINT automation tool with 200+ modules for reconnaissance and attack-surface monitoring."
+tags: [automation]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

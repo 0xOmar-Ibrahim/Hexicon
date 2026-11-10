@@ -1,0 +1,16 @@
+title: "Sherlock"
+url: "https://github.com/sherlock-project/sherlock"
+type: tool
+domain: threat-intel
+subdomains: [osint]
+level: [beginner]
+cost: free
+languages: [en]
+description:
+  en: "Hunts usernames across hundreds of social networks."
+tags: [usernames]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

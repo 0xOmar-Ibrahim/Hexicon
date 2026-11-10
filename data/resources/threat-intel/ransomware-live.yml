@@ -1,0 +1,16 @@
+title: "ransomware.live"
+url: "https://www.ransomware.live/"
+type: dataset
+domain: threat-intel
+subdomains: [cti]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Tracks ransomware groups and victim postings to support research and situational awareness."
+tags: [ransomware, leak-sites]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
