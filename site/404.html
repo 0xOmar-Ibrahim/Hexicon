@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Off the map · Hexicon</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root { --bg: #0B1020; --text: #ECE6D9; --muted: #98A1B7; --brass: #E8A33D; --teal: #2DD4BF; color-scheme: dark; }
+    @media (prefers-color-scheme: light) { :root { --bg: #F6F1E7; --text: #1B2236; --muted: #5A6074; --brass: #A8650F; --teal: #0E7C70; color-scheme: light; } }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: var(--bg); color: var(--text);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; text-align: center; padding: 24px; }
+    svg { width: 140px; height: 140px; margin: 0 auto 24px; }
+    .ring { fill: none; stroke: var(--brass); stroke-width: 2; stroke-dasharray: 4 6; }
+    .needle { fill: var(--teal); transform-origin: 70px 70px; animation: spin 2.4s cubic-bezier(.5,0,.5,1) infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .needle { animation: none; } }
+    h1 { font: 600 clamp(30px, 6vw, 48px)/1.1 Georgia, serif; margin: 0 0 10px; }
+    p { color: var(--muted); margin: 0 0 26px; }
+    a { color: var(--bg); background: var(--brass); padding: 12px 22px; border-radius: 12px; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main>
+    <svg viewBox="0 0 140 140" aria-hidden="true"><circle class="ring" cx="70" cy="70" r="64"/><path class="needle" d="M70 18l9 52-9 52-9-52z"/></svg>
+    <h1>You've sailed off the map.</h1>
+    <p>This page doesn't exist — the compass can't find north here.</p>
+    <a href="./">Back to Hexicon</a>
+  </main>
+</body>
+</html>
