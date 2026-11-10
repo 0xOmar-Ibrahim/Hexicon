@@ -55,6 +55,7 @@
     renderChips();
     renderSelects();
     renderCards();
+    renderPaths();
     renderCves();
   }
 
@@ -199,6 +200,43 @@
       timer = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); renderCards(); }, 120);
     });
     $('#more').addEventListener('click', () => renderCards(true));
+  }
+
+  /* ---------------- LEARNING PATHS ---------------- */
+  let activePath = 0;
+  function renderPaths() {
+    const paths = DATA.paths ?? [];
+    if (!paths.length) { $('#paths').hidden = true; return; }
+    $('#path-tabs').innerHTML = paths.map((p, i) => `
+      <button class="path-tab" type="button" role="tab" aria-selected="${i === activePath}" data-i="${i}">
+        <svg class="ic"><use href="#i-${esc(p.icon)}"/></svg><span>${esc(loc(p.title))}</span>
+      </button>`).join('');
+    $$('.path-tab').forEach((b) => b.addEventListener('click', () => { activePath = Number(b.dataset.i); renderPaths(); }));
+
+    const p = paths[activePath];
+    $('#path-panel').innerHTML = `
+      <div class="path-head">
+        <div>
+          <h3>${esc(loc(p.title))}</h3>
+          <p>${esc(loc(p.description))}</p>
+        </div>
+        <div class="path-meta">
+          <span class="badge">${esc(t('level.' + p.level))}</span>
+          <span class="badge">${p.steps.length} ${esc(t('paths.steps'))}</span>
+          ${p.hours ? `<span class="badge">≈ ${p.hours} ${esc(t('paths.hours'))}</span>` : ''}
+        </div>
+      </div>
+      <ol class="route-steps">
+        ${p.steps.map((s, i) => `
+          <li style="animation-delay:${i * 70}ms">
+            <span class="waypoint">${i + 1}</span>
+            <a class="step" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
+              <span class="card-type">${esc(s.type.replace(/-/g, ' '))} · ${esc(t('cost.' + s.cost))}</span>
+              <strong>${esc(s.title)}</strong>
+              ${s.note ? `<span class="step-note">${esc(s.note)}</span>` : ''}
+            </a>
+          </li>`).join('')}
+      </ol>`;
   }
 
   /* ---------------- CVEs ---------------- */

@@ -41,7 +41,12 @@
     "footer.responsible": "For education, defense and authorized testing only.",
     "theme.toggle": "Toggle theme",
     "open": "Open",
-    "explore.more": "Show more"
+    "explore.more": "Show more",
+    "nav.paths": "Paths",
+    "paths.title": "Learning paths",
+    "paths.lead": "Curated routes through the library, step by step.",
+    "paths.steps": "steps",
+    "paths.hours": "hours"
   },
   "de": {
     "langName": "Deutsch",
@@ -85,7 +90,12 @@
     "footer.responsible": "Nur für Bildung, Verteidigung und autorisierte Tests.",
     "theme.toggle": "Design wechseln",
     "open": "Öffnen",
-    "explore.more": "Mehr anzeigen"
+    "explore.more": "Mehr anzeigen",
+    "nav.paths": "Lernpfade",
+    "paths.title": "Lernpfade",
+    "paths.lead": "Kuratierte Routen durch die Bibliothek, Schritt für Schritt.",
+    "paths.steps": "Schritte",
+    "paths.hours": "Stunden"
   },
   "fr": {
     "langName": "Français",
@@ -129,7 +139,12 @@
     "footer.responsible": "Pour l'éducation, la défense et les tests autorisés uniquement.",
     "theme.toggle": "Changer de thème",
     "open": "Ouvrir",
-    "explore.more": "Afficher plus"
+    "explore.more": "Afficher plus",
+    "nav.paths": "Parcours",
+    "paths.title": "Parcours d'apprentissage",
+    "paths.lead": "Des itinéraires choisis à travers la bibliothèque, étape par étape.",
+    "paths.steps": "étapes",
+    "paths.hours": "heures"
   },
   "ar": {
     "langName": "العربية",
@@ -173,7 +188,12 @@
     "footer.responsible": "للتعليم والدفاع والاختبارات المصرّح بها فقط.",
     "theme.toggle": "تبديل المظهر",
     "open": "فتح",
-    "explore.more": "عرض المزيد"
+    "explore.more": "عرض المزيد",
+    "nav.paths": "المسارات",
+    "paths.title": "مسارات التعلّم",
+    "paths.lead": "مسارات منسّقة عبر المكتبة، خطوة بخطوة.",
+    "paths.steps": "خطوات",
+    "paths.hours": "ساعة"
   },
   "ru": {
     "langName": "Русский",
@@ -217,6 +237,11 @@
     "footer.responsible": "Только для обучения, защиты и авторизованного тестирования.",
     "theme.toggle": "Сменить тему",
     "open": "Открыть",
-    "explore.more": "Показать ещё"
+    "explore.more": "Показать ещё",
+    "nav.paths": "Маршруты",
+    "paths.title": "Учебные маршруты",
+    "paths.lead": "Продуманные маршруты по библиотеке, шаг за шагом.",
+    "paths.steps": "шагов",
+    "paths.hours": "часов"
   }
 }

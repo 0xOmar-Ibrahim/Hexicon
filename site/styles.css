@@ -222,6 +222,31 @@ html[lang="ar"] .kicker { letter-spacing: 0; text-transform: none; font-family: 
 .chip-n { font: 500 11px var(--font-mono); opacity: .7; margin-inline-start: 4px; }
 .epss { font: 500 12px var(--font-mono); color: var(--teal); }
 
+/* ---------- LEARNING PATHS ---------- */
+.path-tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 18px; }
+.path-tab { flex: none; display: inline-flex; align-items: center; gap: 9px; padding: 11px 16px; border-radius: 12px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--muted); font: 600 14px var(--font-body); transition: all .25s; }
+.path-tab:hover { color: var(--text); border-color: var(--line-strong); }
+.path-tab[aria-selected="true"] { color: var(--brass-ink); background: var(--brass); border-color: var(--brass); box-shadow: 0 8px 24px var(--glow); }
+.path-panel { padding: clamp(20px, 3vw, 34px); border-radius: 20px; border: 1px solid var(--line);
+  background: radial-gradient(ellipse at top right, var(--glow), transparent 55%), var(--surface); }
+.path-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; margin-bottom: 26px; }
+.path-head h3 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 6px; }
+.path-head p { margin: 0; color: var(--muted); max-width: 60ch; }
+.path-meta { display: flex; gap: 6px; align-items: flex-start; flex-wrap: wrap; }
+.route-steps { list-style: none; margin: 0; padding: 0; position: relative; display: grid; gap: 12px; }
+.route-steps::before { content: ""; position: absolute; top: 18px; bottom: 18px; inset-inline-start: 17px; border-inline-start: 2px dashed var(--line-strong); }
+.route-steps li { position: relative; display: grid; grid-template-columns: 36px 1fr; gap: 16px; align-items: start; animation: card-in .5s cubic-bezier(.2,.7,.2,1) both; }
+.waypoint { position: relative; z-index: 1; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--bg); border: 2px solid var(--brass); color: var(--brass); font: 600 14px var(--font-mono); }
+.route-steps li:last-child .waypoint { background: var(--brass); color: var(--brass-ink); }
+.step { display: flex; flex-direction: column; gap: 4px; padding: 14px 18px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg-2);
+  text-decoration: none; color: var(--text); transition: border-color .2s, transform .2s; }
+.step:hover { border-color: var(--teal); transform: translateX(4px); }
+[dir="rtl"] .step:hover { transform: translateX(-4px); }
+.step strong { font: 600 17px var(--font-display); }
+.step-note { color: var(--muted); font-size: 14px; }
+
 /* ---------- CVE ---------- */
 .cve-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
 .cve { position: relative; padding: 22px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); overflow: hidden; }

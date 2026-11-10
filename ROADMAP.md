@@ -14,7 +14,7 @@ Decisions taken (2026-11-10):
 - [x] README, CONTRIBUTING, Code of Conduct, licenses
 - [x] Issue forms & PR template
 - [x] `hexicon-curator` Claude Code skill
-- [ ] Learning-path schema
+- [x] Learning-path schema + 5 paths (foundations, SOC, web, cloud, AI)
 - [ ] Review & install the Masriyan cybersecurity skills (MIT) for domain-expert curation
 - [ ] First push to GitHub
 

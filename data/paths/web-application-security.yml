@@ -1,0 +1,27 @@
+id: web-application-security
+icon: code
+level: intermediate
+hours: 200
+title:
+  en: Web Application Security
+  de: Sicherheit von Webanwendungen
+  fr: Sécurité des applications Web
+  ar: أمن تطبيقات الويب
+  ru: Безопасность веб-приложений
+description:
+  en: From the OWASP Top 10 to finding and fixing real vulnerabilities — for testers and developers alike.
+  de: Von den OWASP Top 10 bis zum Finden und Beheben echter Schwachstellen — für Tester:innen und Entwickler:innen.
+  fr: Du Top 10 OWASP à la découverte et correction de vraies vulnérabilités — pour testeurs comme développeurs.
+  ar: من قائمة OWASP Top 10 إلى اكتشاف الثغرات الحقيقية وإصلاحها — للمختبرين والمطورين على حد سواء.
+  ru: От OWASP Top 10 до поиска и исправления реальных уязвимостей — для тестировщиков и разработчиков.
+steps:
+  - { resource: appsec/owasp-top-10, note: "Know the most critical risk categories." }
+  - { resource: offensive/portswigger-web-security-academy, note: "Work through the labs topic by topic — the core of this path." }
+  - { resource: offensive/burp-suite, note: "Master the essential testing proxy." }
+  - { resource: offensive/owasp-juice-shop, note: "Practise on a realistic modern vulnerable app." }
+  - { resource: offensive/owasp-web-security-testing-guide, note: "Learn a complete testing methodology." }
+  - { resource: offensive/owasp-api-security-top-10, note: "APIs are where most modern apps break." }
+  - { resource: appsec/owasp-cheat-sheet-series, note: "Learn how each issue is fixed properly." }
+  - { resource: appsec/owasp-asvs, note: "Turn findings into verifiable requirements." }
+  - { resource: offensive/real-world-bug-hunting, note: "See how real reports are found and written." }
+added_by: "@0xOmar-Ibrahim"

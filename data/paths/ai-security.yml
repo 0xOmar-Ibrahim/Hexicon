@@ -1,0 +1,26 @@
+id: ai-security
+icon: spark
+level: intermediate
+hours: 60
+title:
+  en: AI & LLM Security
+  de: KI- & LLM-Sicherheit
+  fr: Sécurité de l'IA & des LLM
+  ar: أمن الذكاء الاصطناعي ونماذج اللغة
+  ru: Безопасность ИИ и LLM
+description:
+  en: Understand prompt injection, agent risks and adversarial ML — then test and harden AI applications.
+  de: Prompt Injection, Agentenrisiken und Adversarial ML verstehen — und KI-Anwendungen testen und härten.
+  fr: Comprendre l'injection de prompt, les risques des agents et le ML adverse — puis tester et durcir les applications d'IA.
+  ar: افهم حقن الأوامر ومخاطر الوكلاء والتعلم الآلي العدائي — ثم اختبر تطبيقات الذكاء الاصطناعي وعزّز أمنها.
+  ru: Разберитесь в prompt injection, рисках агентов и состязательном МО — затем тестируйте и защищайте ИИ-приложения.
+steps:
+  - { resource: ai-security/owasp-top-10-for-llm-applications, note: "Map the risk landscape." }
+  - { resource: ai-security/simon-willison-on-prompt-injection, note: "Understand why prompt injection is so hard to fix." }
+  - { resource: ai-security/gandalf-lakera, note: "Get a hands-on feel for prompt injection." }
+  - { resource: ai-security/portswigger-web-llm-attacks, note: "Attack LLM features inside web apps." }
+  - { resource: ai-security/mitre-atlas, note: "Learn the adversary tactics against AI systems." }
+  - { resource: ai-security/promptfoo, note: "Evaluate and red-team your own LLM app." }
+  - { resource: ai-security/garak, note: "Scan models for known weaknesses." }
+  - { resource: ai-security/nist-ai-risk-management-framework, note: "Govern AI risk at organisational level." }
+added_by: "@0xOmar-Ibrahim"

@@ -1,0 +1,28 @@
+id: security-foundations
+icon: compass
+level: beginner
+hours: 120
+title:
+  en: Zero to Security Foundations
+  de: Von null zu den Sicherheitsgrundlagen
+  fr: De zéro aux fondamentaux de la sécurité
+  ar: من الصفر إلى أساسيات الأمن
+  ru: С нуля до основ безопасности
+description:
+  en: Networking, Linux, Windows, the web and scripting — the base every security role is built on.
+  de: Netzwerke, Linux, Windows, das Web und Skripting — die Basis jeder Sicherheitsrolle.
+  fr: Réseaux, Linux, Windows, le Web et les scripts — la base de tout métier de la sécurité.
+  ar: الشبكات ولينكس وويندوز والويب والبرمجة النصية — الأساس الذي تُبنى عليه كل أدوار الأمن.
+  ru: Сети, Linux, Windows, веб и скрипты — фундамент любой профессии в безопасности.
+steps:
+  - { resource: fundamentals/roadmap-sh-cyber-security, note: "Get the big picture of the field first." }
+  - { resource: fundamentals/professor-messer, note: "Watch the Network+ course for solid networking fundamentals." }
+  - { resource: fundamentals/practical-networking, note: "Understand how packets really travel." }
+  - { resource: fundamentals/linux-journey, note: "Learn the Linux basics." }
+  - { resource: fundamentals/overthewire-bandit, note: "Practise the command line until it feels natural." }
+  - { resource: fundamentals/under-the-wire, note: "Same idea for PowerShell and Windows." }
+  - { resource: fundamentals/mdn-web-docs-http, note: "Learn HTTP — the web is most of the attack surface." }
+  - { resource: fundamentals/automate-the-boring-stuff-with-python, note: "Learn enough Python to automate your work." }
+  - { resource: fundamentals/tryhackme-pre-security-path, note: "Tie it together with guided hands-on rooms." }
+  - { resource: career/picoctf, note: "Play your first CTF." }
+added_by: "@0xOmar-Ibrahim"

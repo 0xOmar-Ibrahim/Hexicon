@@ -11,6 +11,7 @@ Thank you for helping map the security world. 🧭
 | Add / improve a CVE page | PR in `data/cves/<year>/CVE-YYYY-NNNN.yml` |
 | Translate | Add `de` / `fr` / `ar` / `ru` keys to `description`, or translate UI strings in `i18n/` |
 | Report a dead link | Open the **Broken link** issue form |
+| Propose a learning path | PR a file in `data/paths/` (schema: [`schema/path.schema.json`](schema/path.schema.json)) — each step points to an existing resource as `domain/file-name` |
 
 ## Adding a resource
 

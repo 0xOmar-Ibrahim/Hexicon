@@ -55,6 +55,19 @@ const cves = walk(path.join(ROOT, 'data/cves')).map((f) => {
   };
 });
 
+const byKey = new Map(resources.map((r) => [`${r.domain}/${r.id}`, r]));
+const paths = walk(path.join(ROOT, 'data/paths')).map((f) => {
+  const p = read(f);
+  const steps = p.steps.map((s) => {
+    const r = byKey.get(s.resource);
+    if (!r) throw new Error(`${path.basename(f)}: step "${s.resource}" does not match any resource`);
+    return { title: r.title, url: r.url, type: r.type, cost: r.cost, note: s.note ?? '' };
+  });
+  return { id: p.id, icon: p.icon ?? 'compass', level: p.level, hours: p.hours ?? null, title: p.title, description: p.description, steps };
+});
+const LEVEL_RANK = { beginner: 0, intermediate: 1, advanced: 2 };
+paths.sort((a, b) => LEVEL_RANK[a.level] - LEVEL_RANK[b.level] || (a.hours ?? 0) - (b.hours ?? 0));
+
 const counts = Object.fromEntries(taxonomy.domains.map((d) => [d.id, 0]));
 for (const r of resources) if (r.domain in counts) counts[r.domain]++;
 
@@ -67,6 +80,7 @@ const data = {
     .map((d) => ({ id: d.id, order: d.order, icon: d.icon, name: d.name, subdomains: d.subdomains, count: counts[d.id] })),
   resources: resources.sort((a, b) => Number(b.featured) - Number(a.featured) || a.title.localeCompare(b.title)),
   cves: cves.sort((a, b) => (b.score ?? 0) - (a.score ?? 0)),
+  paths,
 };
 
 fs.rmSync(DIST, { recursive: true, force: true });
@@ -74,4 +88,4 @@ fs.cpSync(path.join(ROOT, 'site'), DIST, { recursive: true });
 fs.writeFileSync(path.join(DIST, 'data.json'), JSON.stringify(data));
 fs.copyFileSync(path.join(ROOT, 'i18n/ui.json'), path.join(DIST, 'ui.json'));
 
-console.log(`Built dist/ — ${resources.length} resources, ${cves.length} CVE pages, ${data.domains.length} domains.`);
+console.log(`Built dist/ — ${resources.length} resources, ${cves.length} CVE pages, ${paths.length} paths, ${data.domains.length} domains.`);

@@ -1,0 +1,28 @@
+id: soc-analyst
+icon: shield
+level: beginner
+hours: 150
+title:
+  en: SOC Analyst & Incident Responder
+  de: SOC-Analyst:in & Incident Responder
+  fr: Analyste SOC & réponse aux incidents
+  ar: محلل مركز العمليات الأمنية والاستجابة للحوادث
+  ru: Аналитик SOC и реагирование на инциденты
+description:
+  en: Learn how attacks look from the defender's seat — triage alerts, investigate endpoints and memory, and run an incident.
+  de: Angriffe aus Sicht der Verteidigung verstehen — Alarme bewerten, Endpunkte und Speicher untersuchen, Vorfälle steuern.
+  fr: Voir les attaques côté défense — trier les alertes, enquêter sur les postes et la mémoire, piloter un incident.
+  ar: تعلّم كيف تبدو الهجمات من موقع المدافع — فرز التنبيهات والتحقيق في الأجهزة والذاكرة وإدارة الحادثة.
+  ru: Атаки глазами защитника — разбор алертов, расследование на хостах и в памяти, управление инцидентом.
+steps:
+  - { resource: threat-intel/mitre-att-ck, note: "Learn the common language for attacker behaviour." }
+  - { resource: threat-intel/the-pyramid-of-pain, note: "Understand which indicators actually matter." }
+  - { resource: dfir/nist-sp-800-61-rev-3-incident-response, note: "Know the incident response lifecycle." }
+  - { resource: career/letsdefend, note: "Work a simulated SOC alert queue." }
+  - { resource: dfir/hayabusa, note: "Build fast timelines from Windows event logs." }
+  - { resource: dfir/eric-zimmerman-s-tools, note: "Parse the key Windows artifacts." }
+  - { resource: dfir/volatility-3, note: "Investigate a memory image." }
+  - { resource: dfir/velociraptor, note: "Collect and hunt across many endpoints." }
+  - { resource: dfir/13cubed, note: "Deepen your forensics with video walkthroughs." }
+  - { resource: career/cyberdefenders, note: "Prove it on realistic investigation labs." }
+added_by: "@0xOmar-Ibrahim"

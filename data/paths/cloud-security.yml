@@ -1,0 +1,27 @@
+id: cloud-security
+icon: cloud
+level: intermediate
+hours: 140
+title:
+  en: Cloud & Kubernetes Security
+  de: Cloud- & Kubernetes-Sicherheit
+  fr: Sécurité du cloud & de Kubernetes
+  ar: أمن السحابة و Kubernetes
+  ru: Безопасность облаков и Kubernetes
+description:
+  en: Secure AWS, Azure, GCP and Kubernetes — understand misconfigurations, audit them and prevent them with code.
+  de: AWS, Azure, GCP und Kubernetes absichern — Fehlkonfigurationen verstehen, prüfen und per Code verhindern.
+  fr: Sécuriser AWS, Azure, GCP et Kubernetes — comprendre, auditer et prévenir les erreurs de configuration.
+  ar: تأمين AWS و Azure و GCP و Kubernetes — فهم أخطاء الإعداد وتدقيقها ومنعها بالكود.
+  ru: Защита AWS, Azure, GCP и Kubernetes — понимать ошибки конфигурации, проверять и предотвращать их кодом.
+steps:
+  - { resource: cloud/aws-well-architected-security-pillar, note: "Start with how the cloud should be secured." }
+  - { resource: cloud/hacking-the-cloud, note: "Learn how cloud environments are actually attacked." }
+  - { resource: cloud/prowler, note: "Audit an account against best practices." }
+  - { resource: cloud/cloudgoat, note: "Practise in a deliberately vulnerable AWS setup." }
+  - { resource: cloud/kubernetes-security-documentation, note: "Learn the Kubernetes security model." }
+  - { resource: cloud/owasp-kubernetes-top-10, note: "Know the most common cluster risks." }
+  - { resource: cloud/kubernetes-goat, note: "Break and fix a vulnerable cluster." }
+  - { resource: cloud/trivy, note: "Scan images, IaC and clusters in one tool." }
+  - { resource: cloud/checkov, note: "Stop misconfigurations before they deploy." }
+added_by: "@0xOmar-Ibrahim"
