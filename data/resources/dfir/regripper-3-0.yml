@@ -1,0 +1,16 @@
+title: "RegRipper 3.0"
+url: "https://github.com/keydet89/RegRipper3.0"
+type: tool
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Harlan Carvey's tool for extracting forensic data from Windows registry hives."
+tags: [registry]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

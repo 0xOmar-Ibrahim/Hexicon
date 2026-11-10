@@ -1,0 +1,16 @@
+title: "The Sleuth Kit"
+url: "https://www.sleuthkit.org/"
+type: tool
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Command-line tools and library for analysing disk images and file systems."
+tags: [file-system-forensics]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

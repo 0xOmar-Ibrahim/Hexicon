@@ -1,0 +1,16 @@
+title: "FLARE-VM"
+url: "https://github.com/mandiant/flare-vm"
+type: tool
+domain: dfir
+subdomains: [malware-analysis]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Mandiant's scripts to build a Windows malware analysis environment."
+tags: [windows-analysis-vm]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

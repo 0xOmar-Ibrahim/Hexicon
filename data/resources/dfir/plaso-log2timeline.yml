@@ -1,0 +1,16 @@
+title: "Plaso (log2timeline)"
+url: "https://github.com/log2timeline/plaso"
+type: tool
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Extracts timestamps from many artifact types to build super timelines."
+tags: [super-timeline]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

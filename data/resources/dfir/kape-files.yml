@@ -1,0 +1,16 @@
+title: "KAPE Files"
+url: "https://github.com/EricZimmerman/KapeFiles"
+type: tool
+domain: dfir
+subdomains: [digital-forensics, incident-response]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Community targets and modules for KAPE triage collection and processing."
+tags: [triage, targets]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

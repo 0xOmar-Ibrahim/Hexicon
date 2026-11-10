@@ -1,0 +1,16 @@
+title: "signature-base (Florian Roth)"
+url: "https://github.com/Neo23x0/signature-base"
+type: dataset
+domain: dfir
+subdomains: [malware-analysis]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Large collection of YARA rules and IOCs used by the LOKI and THOR scanners."
+tags: [yara, iocs]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

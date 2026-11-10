@@ -1,0 +1,16 @@
+title: "YARA-X"
+url: "https://virustotal.github.io/yara-x/"
+type: tool
+domain: dfir
+subdomains: [malware-analysis]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Next-generation YARA rewritten in Rust by VirusTotal."
+tags: [yara, rust]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

@@ -1,0 +1,16 @@
+title: "Chainsaw"
+url: "https://github.com/WithSecureLabs/chainsaw"
+type: tool
+domain: dfir
+subdomains: [incident-response]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Rapidly searches and hunts through Windows event logs using Sigma rules."
+tags: [event-logs, sigma]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

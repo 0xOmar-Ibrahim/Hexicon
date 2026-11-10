@@ -1,0 +1,16 @@
+title: "Volatility 3"
+url: "https://github.com/volatilityfoundation/volatility3"
+type: tool
+domain: dfir
+subdomains: [memory-forensics]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "The world's most widely used framework for extracting artifacts from memory images."
+tags: [memory-analysis]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

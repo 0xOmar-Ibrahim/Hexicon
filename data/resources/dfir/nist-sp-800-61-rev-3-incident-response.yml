@@ -1,0 +1,16 @@
+title: "NIST SP 800-61 Rev. 3: Incident Response"
+url: "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+type: framework
+domain: dfir
+subdomains: [incident-response]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "NIST's incident response recommendations aligned with CSF 2.0."
+tags: [nist, ir-lifecycle]
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

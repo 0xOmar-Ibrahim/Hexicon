@@ -1,0 +1,16 @@
+title: "Hindsight"
+url: "https://github.com/obsidianforensics/hindsight"
+type: tool
+domain: dfir
+subdomains: [digital-forensics]
+level: [intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Web browser forensics for Google Chrome and Chromium-based browsers."
+tags: [browser-forensics, chrome]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

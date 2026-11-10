@@ -1,0 +1,16 @@
+title: "SANS DFIR posters & cheat sheets"
+url: "https://www.sans.org/posters/"
+type: cheatsheet
+domain: dfir
+subdomains: [digital-forensics, incident-response]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Free SANS posters including Windows forensic analysis and hunt evil (free account required)."
+tags: [posters, cheatsheets]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

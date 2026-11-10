@@ -1,0 +1,16 @@
+title: "Hybrid Analysis"
+url: "https://www.hybrid-analysis.com/"
+type: tool
+domain: dfir
+subdomains: [malware-analysis]
+level: [beginner, intermediate]
+cost: freemium
+languages: [en]
+description:
+  en: "Free malware analysis service powered by CrowdStrike Falcon Sandbox."
+tags: [sandbox]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

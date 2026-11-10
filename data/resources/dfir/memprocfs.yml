@@ -1,0 +1,16 @@
+title: "MemProcFS"
+url: "https://github.com/ufrisk/MemProcFS"
+type: tool
+domain: dfir
+subdomains: [memory-forensics]
+level: [intermediate, advanced]
+cost: free
+languages: [en]
+description:
+  en: "Mounts physical memory as a virtual file system for fast analysis."
+tags: [memory-as-filesystem]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10

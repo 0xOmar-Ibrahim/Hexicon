@@ -1,0 +1,16 @@
+title: "AboutDFIR"
+url: "https://aboutdfir.com/"
+type: community
+domain: dfir
+subdomains: [digital-forensics]
+level: [beginner, intermediate]
+cost: free
+languages: [en]
+description:
+  en: "Community resource hub for DFIR tools, challenges, jobs and education."
+tags: [dfir-resources]
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-10
+last_verified: 2026-11-10
