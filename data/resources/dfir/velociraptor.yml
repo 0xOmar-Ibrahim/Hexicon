@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Open-source endpoint visibility and collection tool for DFIR at scale."
+  de: "Open-Source-Tool für Endpunkt-Transparenz und Datensammlung für DFIR im großen Maßstab."
+  fr: "Outil open source de visibilité et de collecte sur les postes pour la DFIR à grande échelle."
+  ar: "أداة مفتوحة المصدر لرؤية الأجهزة الطرفية وجمع الأدلة للتحقيق الجنائي والاستجابة للحوادث على نطاق واسع."
+  ru: "Инструмент с открытым кодом для видимости и сбора данных с конечных точек при DFIR в больших масштабах."
 tags: [dfir, endpoint-visibility]
 repo: "https://github.com/Velocidex/velociraptor"
 status: active

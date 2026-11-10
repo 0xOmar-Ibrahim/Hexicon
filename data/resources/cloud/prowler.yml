@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Open-source cloud security assessment tool with hundreds of checks and compliance frameworks."
+  de: "Open-Source-Tool zur Bewertung der Cloud-Sicherheit mit Hunderten von Prüfungen und Compliance-Frameworks."
+  fr: "Outil open source d'évaluation de la sécurité du cloud, avec des centaines de contrôles et de référentiels de conformité."
+  ar: "أداة مفتوحة المصدر لتقييم أمن السحابة تضم مئات الفحوصات وأطر الامتثال."
+  ru: "Инструмент с открытым кодом для оценки безопасности облаков: сотни проверок и фреймворков соответствия."
 tags: [cspm, compliance]
 status: active
 featured: true

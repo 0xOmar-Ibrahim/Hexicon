@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Free, open-source software reverse engineering suite with a powerful decompiler."
+  de: "Kostenlose Open-Source-Suite für Software-Reverse-Engineering mit leistungsstarkem Decompiler."
+  fr: "Suite gratuite et open source de rétro-ingénierie logicielle, dotée d'un puissant décompilateur."
+  ar: "حزمة مجانية ومفتوحة المصدر للهندسة العكسية للبرمجيات مع مُفكِّك شيفرة قوي."
+  ru: "Бесплатный пакет для реверс-инжиниринга ПО с открытым исходным кодом и мощным декомпилятором."
 tags: [disassembler, decompiler, nsa]
 repo: "https://github.com/NationalSecurityAgency/ghidra"
 status: active

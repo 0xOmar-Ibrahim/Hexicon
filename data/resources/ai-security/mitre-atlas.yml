@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Knowledge base of adversary tactics and techniques against AI-enabled systems, modelled after ATT&CK."
+  de: "Wissensdatenbank zu Taktiken und Techniken von Angreifern gegen KI-Systeme, nach dem Vorbild von ATT&CK."
+  fr: "Base de connaissances des tactiques et techniques adverses visant les systèmes d'IA, sur le modèle d'ATT&CK."
+  ar: "قاعدة معرفية لتكتيكات المهاجمين وتقنياتهم ضد أنظمة الذكاء الاصطناعي، على غرار ATT&CK."
+  ru: "База знаний о тактиках и техниках злоумышленников против систем ИИ, построенная по образцу ATT&CK."
 tags: [mitre, adversarial-tactics]
 status: active
 featured: true

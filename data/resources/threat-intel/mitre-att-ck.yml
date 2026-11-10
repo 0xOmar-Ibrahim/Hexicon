@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Globally used knowledge base of adversary tactics and techniques based on real-world observations, used for threat modeling, detection and red/purple teaming."
+  de: "Weltweit genutzte Wissensdatenbank zu Taktiken und Techniken von Angreifern auf Basis realer Beobachtungen — für Bedrohungsmodellierung, Erkennung und Red/Purple Teaming."
+  fr: "Base de connaissances mondiale des tactiques et techniques adverses fondée sur des observations réelles, utilisée pour la modélisation des menaces, la détection et le red/purple teaming."
+  ar: "قاعدة معرفية مستخدمة عالميًا لتكتيكات المهاجمين وتقنياتهم مبنية على ملاحظات واقعية، تُستخدم في نمذجة التهديدات والكشف وتمارين الفريق الأحمر والبنفسجي."
+  ru: "Используемая во всём мире база знаний о тактиках и техниках злоумышленников на основе реальных наблюдений — для моделирования угроз, обнаружения и red/purple teaming."
 tags: [mitre, ttp, detection, purple-team]
 status: active
 featured: true

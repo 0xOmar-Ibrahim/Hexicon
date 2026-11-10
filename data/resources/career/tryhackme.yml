@@ -8,6 +8,10 @@ cost: freemium
 languages: [en]
 description:
   en: "Browser-based, gamified security training with guided rooms and learning paths for offense and defense."
+  de: "Browserbasiertes, spielerisches Sicherheitstraining mit geführten Räumen und Lernpfaden für Angriff und Verteidigung."
+  fr: "Formation à la sécurité ludique dans le navigateur, avec des salles guidées et des parcours pour l'attaque comme la défense."
+  ar: "تدريب أمني تفاعلي عبر المتصفح بأسلوب الألعاب، مع غرف موجّهة ومسارات تعلّم للهجوم والدفاع."
+  ru: "Игровое обучение безопасности в браузере: пошаговые комнаты и учебные маршруты для атаки и защиты."
 tags: [guided-labs, beginner]
 status: active
 featured: true

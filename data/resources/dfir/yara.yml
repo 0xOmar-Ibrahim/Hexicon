@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "The pattern-matching Swiss knife for identifying and classifying malware."
+  de: "Das „Schweizer Taschenmesser“ des Musterabgleichs zur Erkennung und Klassifizierung von Malware."
+  fr: "Le « couteau suisse » de la recherche de motifs pour identifier et classer les logiciels malveillants."
+  ar: "«السكين السويسرية» لمطابقة الأنماط من أجل التعرف على البرمجيات الخبيثة وتصنيفها."
+  ru: "«Швейцарский нож» поиска по шаблонам для выявления и классификации вредоносного ПО."
 tags: [signatures, pattern-matching]
 status: active
 featured: true

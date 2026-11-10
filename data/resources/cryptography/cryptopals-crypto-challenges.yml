@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Eight sets of hands-on challenges that teach real-world cryptographic weaknesses by breaking them yourself."
+  de: "Acht Sets praktischer Challenges, die reale kryptographische Schwächen vermitteln, indem man sie selbst bricht."
+  fr: "Huit séries de défis pratiques qui enseignent les faiblesses cryptographiques réelles en les cassant soi-même."
+  ar: "ثماني مجموعات من التحديات العملية تعلّمك نقاط الضعف الحقيقية في التشفير عبر كسرها بنفسك."
+  ru: "Восемь наборов практических задач, обучающих реальным криптографическим слабостям через их самостоятельный взлом."
 tags: [challenges, classic]
 status: active
 featured: true

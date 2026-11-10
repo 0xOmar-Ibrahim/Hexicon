@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Concise, practical guidance for developers on authentication, session management, input validation and much more."
+  de: "Kompakte, praxisnahe Leitfäden für Entwickler:innen zu Authentifizierung, Session-Management, Eingabevalidierung und vielem mehr."
+  fr: "Conseils concis et pratiques pour les développeurs sur l'authentification, la gestion des sessions, la validation des entrées et bien plus."
+  ar: "إرشادات موجزة وعملية للمطورين حول المصادقة وإدارة الجلسات والتحقق من المدخلات وغير ذلك الكثير."
+  ru: "Краткие практические руководства для разработчиков по аутентификации, управлению сессиями, проверке ввода и многому другому."
 tags: [secure-coding, guidance]
 status: active
 featured: true

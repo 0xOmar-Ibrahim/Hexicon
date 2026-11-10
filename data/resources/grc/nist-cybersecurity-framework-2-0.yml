@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "NIST's widely adopted framework for managing cybersecurity risk, organised into Govern, Identify, Protect, Detect, Respond and Recover."
+  de: "Das weit verbreitete NIST-Framework zum Management von Cyberrisiken, gegliedert in Govern, Identify, Protect, Detect, Respond und Recover."
+  fr: "Le référentiel du NIST, largement adopté, pour gérer les risques cyber, organisé en Govern, Identify, Protect, Detect, Respond et Recover."
+  ar: "إطار NIST واسع الانتشار لإدارة مخاطر الأمن السيبراني، مقسّم إلى الحوكمة والتحديد والحماية والكشف والاستجابة والتعافي."
+  ru: "Широко используемый фреймворк NIST для управления киберрисками, разделённый на функции Govern, Identify, Protect, Detect, Respond и Recover."
 tags: [nist, csf, governance]
 status: active
 featured: true

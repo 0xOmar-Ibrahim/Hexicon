@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Community encyclopedia of attack and defense techniques for AWS, Azure and GCP."
+  de: "Community-Enzyklopädie der Angriffs- und Verteidigungstechniken für AWS, Azure und GCP."
+  fr: "Encyclopédie communautaire des techniques d'attaque et de défense pour AWS, Azure et GCP."
+  ar: "موسوعة مجتمعية لتقنيات الهجوم والدفاع في AWS و Azure و GCP."
+  ru: "Энциклопедия сообщества о техниках атаки и защиты в AWS, Azure и GCP."
 tags: [cloud-security, knowledge-base]
 status: active
 featured: true

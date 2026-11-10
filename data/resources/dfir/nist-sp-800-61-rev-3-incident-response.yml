@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "NIST's incident response recommendations aligned with CSF 2.0."
+  de: "Die NIST-Empfehlungen zur Reaktion auf Sicherheitsvorfälle, abgestimmt auf CSF 2.0."
+  fr: "Les recommandations du NIST pour la réponse aux incidents, alignées sur le CSF 2.0."
+  ar: "توصيات NIST للاستجابة للحوادث، متوافقة مع إطار CSF 2.0."
+  ru: "Рекомендации NIST по реагированию на инциденты, согласованные с CSF 2.0."
 tags: [nist, ir-lifecycle]
 status: active
 featured: true

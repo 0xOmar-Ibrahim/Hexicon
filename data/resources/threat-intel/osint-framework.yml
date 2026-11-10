@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Interactive tree of free OSINT tools and resources organised by category."
+  de: "Interaktiver Baum kostenloser OSINT-Tools und -Quellen, nach Kategorien geordnet."
+  fr: "Arborescence interactive d'outils et de ressources OSINT gratuits, classés par catégorie."
+  ar: "شجرة تفاعلية لأدوات ومصادر الاستخبارات مفتوحة المصدر المجانية مرتبة حسب الفئة."
+  ru: "Интерактивное дерево бесплатных OSINT-инструментов и ресурсов, упорядоченных по категориям."
 tags: [osint, directory]
 status: active
 featured: true

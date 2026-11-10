@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "ATT&CK matrix describing adversary behaviour against industrial control systems."
+  de: "ATT&CK-Matrix, die das Verhalten von Angreifern gegen industrielle Steuerungssysteme beschreibt."
+  fr: "Matrice ATT&CK décrivant le comportement des attaquants contre les systèmes de contrôle industriels."
+  ar: "مصفوفة ATT&CK التي تصف سلوك المهاجمين ضد أنظمة التحكم الصناعي."
+  ru: "Матрица ATT&CK, описывающая поведение злоумышленников против промышленных систем управления."
 tags: [mitre, ics]
 status: active
 featured: true

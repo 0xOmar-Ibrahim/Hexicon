@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "GCHQ's 'Cyber Swiss Army Knife' for encoding, decoding, encryption, compression and data analysis in the browser."
+  de: "Das „Cyber-Schweizer-Taschenmesser“ des GCHQ zum Kodieren, Dekodieren, Verschlüsseln, Komprimieren und Analysieren von Daten im Browser."
+  fr: "Le « couteau suisse cyber » du GCHQ pour encoder, décoder, chiffrer, compresser et analyser des données dans le navigateur."
+  ar: "«السكين السويسرية السيبرانية» من GCHQ للترميز وفك الترميز والتشفير والضغط وتحليل البيانات داخل المتصفح."
+  ru: "«Кибер-швейцарский нож» от GCHQ для кодирования, декодирования, шифрования, сжатия и анализа данных прямо в браузере."
 tags: [encoding, decoding, data-transformation]
 repo: "https://github.com/gchq/CyberChef"
 status: active

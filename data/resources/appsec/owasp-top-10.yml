@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "The standard awareness document for the most critical web application security risks."
+  de: "Das Standard-Awareness-Dokument zu den kritischsten Sicherheitsrisiken von Webanwendungen."
+  fr: "Le document de sensibilisation de référence sur les risques de sécurité les plus critiques des applications Web."
+  ar: "الوثيقة المرجعية للتوعية بأخطر المخاطر الأمنية في تطبيقات الويب."
+  ru: "Эталонный документ о самых критичных рисках безопасности веб-приложений."
 tags: [owasp, awareness]
 status: active
 featured: true

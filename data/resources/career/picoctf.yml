@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Carnegie Mellon's free, beginner-friendly CTF and practice gym."
+  de: "Kostenloses, einsteigerfreundliches CTF der Carnegie Mellon University mit Übungsbereich."
+  fr: "CTF gratuit et accessible aux débutants de l'université Carnegie Mellon, avec un espace d'entraînement."
+  ar: "مسابقة CTF مجانية وملائمة للمبتدئين من جامعة كارنيغي ميلون، مع مساحة للتدرّب."
+  ru: "Бесплатный CTF от Университета Карнеги — Меллона для начинающих, с тренировочной площадкой."
 tags: [carnegie-mellon, beginner]
 status: active
 featured: true

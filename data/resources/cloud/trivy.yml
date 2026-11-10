@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "All-in-one scanner for vulnerabilities, misconfigurations, secrets and SBOMs in images, IaC and clusters."
+  de: "All-in-one-Scanner für Schwachstellen, Fehlkonfigurationen, Secrets und SBOMs in Images, IaC und Clustern."
+  fr: "Scanner tout-en-un des vulnérabilités, erreurs de configuration, secrets et SBOM dans les images, l'IaC et les clusters."
+  ar: "ماسح شامل للثغرات وأخطاء الإعداد والأسرار وقوائم مكونات البرمجيات في الصور والبنية التحتية ككود والعناقيد."
+  ru: "Универсальный сканер уязвимостей, ошибок конфигурации, секретов и SBOM в образах, IaC и кластерах."
 tags: [scanner, sbom]
 repo: "https://github.com/aquasecurity/trivy"
 status: active

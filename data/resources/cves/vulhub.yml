@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Pre-built Docker environments reproducing well-known vulnerabilities for learning and testing detections."
+  de: "Vorgefertigte Docker-Umgebungen, die bekannte Schwachstellen nachbilden — zum Lernen und zum Testen von Erkennungsregeln."
+  fr: "Environnements Docker prêts à l'emploi reproduisant des vulnérabilités connues, pour apprendre et tester les détections."
+  ar: "بيئات Docker جاهزة تعيد إنتاج ثغرات معروفة، للتعلّم واختبار قواعد الكشف."
+  ru: "Готовые Docker-окружения, воспроизводящие известные уязвимости, — для обучения и проверки правил обнаружения."
 tags: [docker, reproducible-labs]
 status: active
 featured: true

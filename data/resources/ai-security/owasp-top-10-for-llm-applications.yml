@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "OWASP's list of the most critical risks for applications built on large language models."
+  de: "OWASP-Liste der kritischsten Risiken für Anwendungen auf Basis großer Sprachmodelle."
+  fr: "La liste OWASP des risques les plus critiques pour les applications fondées sur de grands modèles de langage."
+  ar: "قائمة OWASP لأخطر المخاطر في التطبيقات المبنية على النماذج اللغوية الكبيرة."
+  ru: "Список OWASP самых критичных рисков для приложений на основе больших языковых моделей."
 tags: [owasp, prompt-injection]
 status: active
 featured: true

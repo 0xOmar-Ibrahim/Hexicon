@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "The world's most widely used framework for extracting artifacts from memory images."
+  de: "Das weltweit meistgenutzte Framework zur Extraktion von Artefakten aus Speicherabbildern."
+  fr: "Le framework le plus utilisé au monde pour extraire des artefacts d'images mémoire."
+  ar: "الإطار الأكثر استخدامًا في العالم لاستخراج الأدلة من صور الذاكرة."
+  ru: "Самый популярный в мире фреймворк для извлечения артефактов из образов памяти."
 tags: [memory-analysis]
 status: active
 featured: true

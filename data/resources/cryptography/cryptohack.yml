@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Free, gamified platform for learning modern cryptography through challenges, from basics to elliptic curves and lattices."
+  de: "Kostenlose, spielerische Plattform zum Erlernen moderner Kryptographie durch Challenges — von den Grundlagen bis zu elliptischen Kurven und Gittern."
+  fr: "Plateforme gratuite et ludique pour apprendre la cryptographie moderne par des défis, des bases jusqu'aux courbes elliptiques et aux réseaux euclidiens."
+  ar: "منصة مجانية بأسلوب الألعاب لتعلّم التشفير الحديث عبر التحديات، من الأساسيات حتى المنحنيات الإهليلجية والشبكات."
+  ru: "Бесплатная игровая платформа для изучения современной криптографии через задачи — от основ до эллиптических кривых и решёток."
 tags: [challenges, gamified]
 status: active
 featured: true

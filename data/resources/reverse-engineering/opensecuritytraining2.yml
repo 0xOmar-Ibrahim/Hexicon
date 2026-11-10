@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Free in-depth courses on assembly, debuggers, reverse engineering and firmware security."
+  de: "Kostenlose, tiefgehende Kurse zu Assembler, Debuggern, Reverse Engineering und Firmware-Sicherheit."
+  fr: "Cours gratuits et approfondis sur l'assembleur, les débogueurs, la rétro-ingénierie et la sécurité des firmwares."
+  ar: "دورات مجانية متعمقة في لغة التجميع ومصححات الأخطاء والهندسة العكسية وأمن البرامج الثابتة."
+  ru: "Бесплатные глубокие курсы по ассемблеру, отладчикам, реверс-инжинирингу и безопасности прошивок."
 tags: [x86, arm, uefi]
 status: active
 featured: true

@@ -8,6 +8,10 @@ cost: free
 languages: [en]
 description:
   en: "Jack Rhysider's podcast of true stories from the dark side of the Internet."
+  de: "Jack Rhysiders Podcast mit wahren Geschichten von der dunklen Seite des Internets."
+  fr: "Le podcast de Jack Rhysider qui raconte des histoires vraies venues de la face cachée d'Internet."
+  ar: "بودكاست جاك رايسايدر يروي قصصًا حقيقية من الجانب المظلم للإنترنت."
+  ru: "Подкаст Джека Райсайдера с реальными историями с тёмной стороны интернета."
 tags: [stories, podcast]
 status: active
 featured: true
