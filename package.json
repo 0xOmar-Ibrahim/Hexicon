@@ -1,0 +1,20 @@
+{
+  "name": "hexicon",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Hexicon — the open lexicon of security. Data tooling and website.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:0xOmar-Ibrahim/Hexicon",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "links": "node scripts/check-links.mjs",
+    "stats": "node scripts/stats.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1",
+    "yaml": "2.6.1"
+  }
+}
