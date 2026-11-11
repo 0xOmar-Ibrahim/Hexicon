@@ -151,17 +151,26 @@
   }
 
   /* ---------------- EXPLORER ---------------- */
+  // Topic navigation: a sidebar list on wide screens, a dropdown on phones.
   function renderChips() {
-    const wrap = $('#domain-chips');
-    const items = [{ id: 'all', label: t('explore.all'), n: DATA.resources.length },
-      ...DATA.domains.map((d) => ({ id: d.id, label: loc(d.name), n: d.count }))];
-    wrap.innerHTML = items.map((c) =>
-      `<button class="chip" type="button" data-id="${esc(c.id)}" aria-pressed="${state.domain === c.id}">${esc(c.label)} <span class="chip-n">${c.n}</span></button>`).join('');
-    $$('.chip', wrap).forEach((b) => b.addEventListener('click', () => {
-      state.domain = b.dataset.id;
-      $$('.chip', wrap).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-      renderCards();
-    }));
+    const items = [{ id: 'all', icon: 'compass', label: t('explore.all'), n: DATA.resources.length },
+      ...DATA.domains.map((d) => ({ id: d.id, icon: d.icon, label: loc(d.name), n: d.count }))];
+    $('#topic-list').innerHTML = items.map((c) => `
+      <button class="topic-item" type="button" role="listitem" data-id="${esc(c.id)}" aria-pressed="${state.domain === c.id}">
+        <svg class="ic"><use href="#i-${esc(c.icon)}"/></svg><span>${esc(c.label)}</span><em>${c.n}</em>
+      </button>`).join('');
+    $$('#topic-list .topic-item').forEach((b) => b.addEventListener('click', () => selectTopic(b.dataset.id)));
+    const sel = $('#f-topic');
+    sel.innerHTML = items.map((c) => `<option value="${esc(c.id)}">${esc(c.label)} (${c.n})</option>`).join('');
+    sel.value = state.domain;
+    sel.onchange = () => selectTopic(sel.value);
+  }
+
+  function selectTopic(id) {
+    state.domain = id;
+    $$('#topic-list .topic-item').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.id === id)));
+    $('#f-topic').value = id;
+    renderCards();
   }
 
   function renderSelects() {
@@ -191,6 +200,15 @@
       return state.q.split(/\s+/).every((w) => hay.includes(w));
     }
     return true;
+  }
+
+  // Three-segment level meter, e.g. ■■□ for beginner–intermediate.
+  function levelMeter(levels) {
+    const all = ['beginner', 'intermediate', 'advanced'];
+    const on = all.filter((l) => levels.includes(l));
+    const label = on.length > 1 ? `${t('level.' + on[0])} – ${t('level.' + on[on.length - 1])}` : t('level.' + on[0]);
+    return `<span class="lvl" title="${esc(t('explore.level'))}: ${esc(label)}">
+      <span class="lvl-bars">${all.map((l) => `<i class="${levels.includes(l) ? 'on' : ''}"></i>`).join('')}</span>${esc(label)}</span>`;
   }
 
   function host(url) { try { return new URL(url).host.replace(/^www\./, ''); } catch { return ''; } }
@@ -223,15 +241,17 @@
     $('#more').hidden = shown >= list.length;
     if (!more) syncUrl();
     const html = list.slice(start, shown).map((r, i) => `
-      <a class="card${r.featured ? ' featured' : ''}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
-        <span class="card-type">${esc(typeLabel(r.type))}</span>
-        <h3>${esc(r.title)}</h3>
+      <a class="card" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
+        <div class="card-top">
+          <span class="card-type">${esc(typeLabel(r.type))}</span>
+          <span class="cost-tag ${esc(r.cost)}">${esc(t('cost.' + r.cost))}</span>
+        </div>
+        <h3>${esc(r.title)}${r.featured ? ` <span class="pick" title="${esc(t('explore.pick'))}">★</span>` : ''}</h3>
         ${(() => { const d = describe(r); return `<p${d.auto ? ` class="auto" title="${esc(r.description.en)}"` : ''}>${esc(d.text)}</p>`; })()}
         <div class="card-foot">
-          <span class="badge ${esc(r.cost)}">${esc(t('cost.' + r.cost))}</span>
-          ${r.level.map((l) => `<span class="badge">${esc(t('level.' + l))}</span>`).join('')}
-          ${r.languages.map((l) => `<span class="badge lang">${esc(l)}</span>`).join('')}
-          <span class="card-host">${esc(host(r.url))}</span>
+          ${levelMeter(r.level)}
+          ${r.languages.some((l) => l !== 'en') ? `<span class="langs-tag">${r.languages.map((l) => esc(l.toUpperCase())).join(' · ')}</span>` : ''}
+          <span class="card-host">${esc(host(r.url))} <svg class="ic"><use href="#i-arrow"/></svg></span>
         </div>
       </a>`).join('');
     if (more) $('#cards').insertAdjacentHTML('beforeend', html);
@@ -360,9 +380,31 @@
   const io = 'IntersectionObserver' in window
     ? new IntersectionObserver((entries) => entries.forEach((e) => {
         if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-      }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+      }), { threshold: 0, rootMargin: '0px 0px -8% 0px' })
     : null;
-  function observeReveal(els) { els.forEach((el) => (io ? io.observe(el) : el.classList.add('in'))); }
+  function observeReveal(els) {
+    els.forEach((el) => (io ? io.observe(el) : el.classList.add('in')));
+    requestAnimationFrame(checkReveal);
+  }
+
+  // Safety net: some mobile/in-app browsers fire IntersectionObserver late or not at all,
+  // which would leave content invisible. Reveal anything that has entered the viewport.
+  function checkReveal() {
+    const limit = innerHeight * 0.96;
+    $$('.reveal:not(.in), .domain:not(.in)').forEach((el) => {
+      const r = el.getBoundingClientRect();
+      if (r.top < limit && r.bottom > 0) el.classList.add('in');
+    });
+  }
+  let revealTick = false;
+  addEventListener('scroll', () => {
+    if (revealTick) return;
+    revealTick = true;
+    requestAnimationFrame(() => { revealTick = false; checkReveal(); });
+  }, { passive: true });
+  addEventListener('resize', checkReveal, { passive: true });
+  // Last resort: never keep content hidden for more than a few seconds.
+  setTimeout(() => $$('.reveal:not(.in), .domain:not(.in)').forEach((el) => el.classList.add('in')), 4000);
 
   /* ---------------- COMPASS TICKS ---------------- */
   function initCompass() {

@@ -157,7 +157,8 @@
     "ref.patch": "Patch",
     "ref.mitigation": "Mitigation",
     "ref.video": "Video",
-    "ref.news": "News"
+    "ref.news": "News",
+    "explore.pick": "Editor’s pick"
   },
   "de": {
     "langName": "Deutsch",
@@ -317,7 +318,8 @@
     "ref.patch": "Patch",
     "ref.mitigation": "Gegenmaßnahme",
     "ref.video": "Video",
-    "ref.news": "Nachrichten"
+    "ref.news": "Nachrichten",
+    "explore.pick": "Empfehlung der Redaktion"
   },
   "fr": {
     "langName": "Français",
@@ -477,7 +479,8 @@
     "ref.patch": "Correctif",
     "ref.mitigation": "Atténuation",
     "ref.video": "Vidéo",
-    "ref.news": "Actualités"
+    "ref.news": "Actualités",
+    "explore.pick": "Coup de cœur"
   },
   "ar": {
     "langName": "العربية",
@@ -637,7 +640,8 @@
     "ref.patch": "تحديث",
     "ref.mitigation": "إجراءات التخفيف",
     "ref.video": "فيديو",
-    "ref.news": "أخبار"
+    "ref.news": "أخبار",
+    "explore.pick": "اختيار المحرر"
   },
   "ru": {
     "langName": "Русский",
@@ -797,6 +801,7 @@
     "ref.patch": "Патч",
     "ref.mitigation": "Меры защиты",
     "ref.video": "Видео",
-    "ref.news": "Новости"
+    "ref.news": "Новости",
+    "explore.pick": "Выбор редакции"
   }
 }
