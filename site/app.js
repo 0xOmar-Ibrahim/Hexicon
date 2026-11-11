@@ -19,6 +19,22 @@
   const loc = (obj) => (obj && (obj[state.lang] || obj.en)) || '';
   const typeLabel = (ty) => t('type.' + ty) === 'type.' + ty ? ty.replace(/-/g, ' ') : t('type.' + ty);
 
+  // Description in the current language. If no translation exists yet, build a short,
+  // fully localized line from facts we already know (type, cost, topic, sub-areas, level).
+  function describe(r) {
+    const own = r.description[state.lang];
+    if (own || state.lang === 'en') return { text: own || r.description.en, auto: false };
+    const dom = DATA.domains.find((d) => d.id === r.domain);
+    const subs = (r.subdomains ?? []).map((id) => dom?.subdomains.find((s) => s.id === id)).filter(Boolean).map((s) => loc(s.name));
+    const levels = ['beginner', 'intermediate', 'advanced'].filter((l) => r.level.includes(l)).map((l) => t('level.' + l));
+    const parts = [
+      `${typeLabel(r.type)} · ${t('cost.' + r.cost)}`,
+      dom ? `${loc(dom.name)}${subs.length ? ' › ' + subs.join(', ') : ''}` : '',
+      levels.length ? `${t('explore.level')}: ${levels.length > 1 ? levels[0] + ' – ' + levels[levels.length - 1] : levels[0]}` : '',
+    ].filter(Boolean);
+    return { text: parts.join(' · '), auto: true };
+  }
+
   /* ---------------- THEME ---------------- */
   function initTheme() {
     const saved = store.get('theme');
@@ -210,7 +226,7 @@
       <a class="card${r.featured ? ' featured' : ''}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
         <span class="card-type">${esc(typeLabel(r.type))}</span>
         <h3>${esc(r.title)}</h3>
-        <p>${esc(loc(r.description))}</p>
+        ${(() => { const d = describe(r); return `<p${d.auto ? ` class="auto" title="${esc(r.description.en)}"` : ''}>${esc(d.text)}</p>`; })()}
         <div class="card-foot">
           <span class="badge ${esc(r.cost)}">${esc(t('cost.' + r.cost))}</span>
           ${r.level.map((l) => `<span class="badge">${esc(t('level.' + l))}</span>`).join('')}

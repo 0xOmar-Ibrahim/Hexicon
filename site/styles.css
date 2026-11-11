@@ -452,3 +452,5 @@ html[lang="ar"] .kev-table th, html[lang="ar"] .krw { font-family: var(--font-bo
   .result-count { margin-inline-start: 0; width: 100%; }
   .section { padding-top: 80px; }
 }
+
+.card p.auto { font-size: 14px; }
