@@ -17,6 +17,7 @@
     "import:kev": "node scripts/import-kev.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "yaml": "2.6.1"
   }
 }
