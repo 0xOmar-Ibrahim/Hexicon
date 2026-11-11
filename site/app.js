@@ -13,10 +13,11 @@
 
   let UI = {};
   let DATA = { domains: [], resources: [], cves: [], languages: ['en'], rtl: ['ar'] };
-  const state = { lang: 'en', domain: 'all', type: 'all', level: 'all', cost: 'all', q: '' };
+  const state = { lang: 'en', domain: 'all', type: 'all', level: 'all', cost: 'all', q: '', beginner: false, free: false };
 
   const t = (key) => UI[state.lang]?.[key] ?? UI.en?.[key] ?? key;
   const loc = (obj) => (obj && (obj[state.lang] || obj.en)) || '';
+  const typeLabel = (ty) => t('type.' + ty) === 'type.' + ty ? ty.replace(/-/g, ' ') : t('type.' + ty);
 
   /* ---------------- THEME ---------------- */
   function initTheme() {
@@ -51,6 +52,7 @@
     $$('[data-i18n-placeholder]').forEach((el) => { el.placeholder = t(el.dataset.i18nPlaceholder); });
     $$('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', t(el.dataset.i18nAria)); });
     splitTitle();
+    renderSteps();
     renderDomains();
     renderChips();
     renderSelects();
@@ -73,36 +75,61 @@
     h1.innerHTML = words.map((w, i) => `<span class="w" style="animation-delay:${120 + i * 90}ms">${esc(w)}</span>`).join(' ');
   }
 
-  /* ---------------- DOMAINS ---------------- */
+  /* ---------------- START HERE ---------------- */
+  // Three beginner steps; resources are referenced as domain/id and must exist in the library.
+  const STEPS = [
+    { key: 'step1', icon: 'compass', items: ['fundamentals/professor-messer', 'fundamentals/tryhackme-pre-security-path', 'fundamentals/linux-journey'] },
+    { key: 'step2', icon: 'flag', items: ['career/picoctf', 'fundamentals/overthewire-bandit', 'career/tryhackme'] },
+    { key: 'step3', icon: 'radar', topics: ['offensive', 'defensive', 'cloud', 'dfir', 'appsec', 'grc'] },
+  ];
+
+  function renderSteps() {
+    const byKey = new Map(DATA.resources.map((r) => [r.domain + '/' + r.id, r]));
+    $('#steps').innerHTML = STEPS.map((st, i) => `
+      <li class="step-col reveal">
+        <div class="step-num">${i + 1}</div>
+        <h3>${esc(t('start.' + st.key + '.title'))}</h3>
+        <p>${esc(t('start.' + st.key + '.text'))}</p>
+        ${st.items ? `<ul class="mini">${st.items.map((k) => byKey.get(k)).filter(Boolean).map((r) => `
+          <li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
+            <strong>${esc(r.title)}</strong><span>${esc(typeLabel(r.type))} · ${esc(t('cost.' + r.cost))}</span>
+          </a></li>`).join('')}</ul>` : ''}
+        ${st.topics ? `<div class="topic-btns">${st.topics.map((id) => DATA.domains.find((d) => d.id === id)).filter(Boolean).map((d) => `
+          <button type="button" class="topic-btn" data-id="${esc(d.id)}"><svg class="ic"><use href="#i-${esc(d.icon)}"/></svg>${esc(loc(d.name))}</button>`).join('')}</div>` : ''}
+      </li>`).join('');
+    $$('#steps .topic-btn').forEach((b) => b.addEventListener('click', () => openTopic(b.dataset.id)));
+    observeReveal($$('#steps .reveal'));
+  }
+
+  // Jump to the library filtered to one topic.
+  function openTopic(id) {
+    state.domain = id;
+    renderChips();
+    renderCards();
+    $('#explore').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+  }
+
+  /* ---------------- TOPICS ---------------- */
   function renderDomains() {
     const grid = $('#domain-grid');
     grid.innerHTML = DATA.domains.map((d) => `
       <button class="domain" type="button" data-id="${esc(d.id)}">
-        <div class="domain-top">
-          <span class="domain-num">N°${String(d.order).padStart(2, '0')}</span>
-          <span class="domain-icon"><svg class="ic"><use href="#i-${esc(d.icon)}"/></svg></span>
-        </div>
-        <h3>${esc(loc(d.name))}</h3>
-        <div class="domain-meta">
-          <span><b>${d.count}</b> ${esc(t('domains.count'))}</span>
-          <span><b>${d.subdomains.length}</b> ${esc(t('domains.sub'))}</span>
-        </div>
-        <div class="domain-subs">${d.subdomains.map((s) => `<span class="sub">${esc(loc(s.name))}</span>`).join('')}</div>
+        <span class="domain-icon"><svg class="ic"><use href="#i-${esc(d.icon)}"/></svg></span>
+        <span class="domain-text">
+          <h3>${esc(loc(d.name))}</h3>
+          <span class="domain-desc">${esc(t('dom.' + d.id))}</span>
+          <span class="domain-count">${d.count} ${esc(t('domains.count'))}</span>
+        </span>
       </button>`).join('');
 
     $$('.domain', grid).forEach((el, i) => {
-      el.style.transitionDelay = `${(i % 4) * 70}ms`;
+      el.style.transitionDelay = `${(i % 4) * 60}ms`;
       el.addEventListener('pointermove', (e) => {
         const r = el.getBoundingClientRect();
         el.style.setProperty('--mx', `${e.clientX - r.left}px`);
         el.style.setProperty('--my', `${e.clientY - r.top}px`);
       });
-      el.addEventListener('click', () => {
-        state.domain = el.dataset.id;
-        renderChips();
-        renderCards();
-        $('#explore').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
-      });
+      el.addEventListener('click', () => openTopic(el.dataset.id));
     });
     observeReveal($$('.domain', grid));
   }
@@ -130,7 +157,7 @@
       sel.value = state[key];
       sel.onchange = () => { state[key] = sel.value; renderCards(); };
     };
-    fill('#f-type', types, (v) => v.replace(/-/g, ' '), 'type');
+    fill('#f-type', types, typeLabel, 'type');
     fill('#f-level', ['beginner', 'intermediate', 'advanced'], (v) => t('level.' + v), 'level');
     fill('#f-cost', ['free', 'freemium', 'paid'], (v) => t('cost.' + v), 'cost');
   }
@@ -140,8 +167,10 @@
     if (state.type !== 'all' && r.type !== state.type) return false;
     if (state.level !== 'all' && !r.level.includes(state.level)) return false;
     if (state.cost !== 'all' && r.cost !== state.cost) return false;
+    if (state.beginner && !r.level.includes('beginner')) return false;
+    if (state.free && r.cost !== 'free') return false;
     if (state.q) {
-      const hay = [r.title, loc(r.description), r.description.en, r.tags.join(' '), r.type, r.domain, r.subdomains.join(' ')]
+      const hay = [r.title, loc(r.description), r.description.en, r.tags.join(' '), r.type, typeLabel(r.type), r.domain, r.subdomains.join(' ')]
         .join(' ').toLowerCase();
       return state.q.split(/\s+/).every((w) => hay.includes(w));
     }
@@ -179,7 +208,7 @@
     if (!more) syncUrl();
     const html = list.slice(start, shown).map((r, i) => `
       <a class="card${r.featured ? ' featured' : ''}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${Math.min(i, 12) * 35}ms">
-        <span class="card-type">${esc(r.type.replace(/-/g, ' '))}</span>
+        <span class="card-type">${esc(typeLabel(r.type))}</span>
         <h3>${esc(r.title)}</h3>
         <p>${esc(loc(r.description))}</p>
         <div class="card-foot">
@@ -200,24 +229,30 @@
       timer = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); renderCards(); }, 120);
     });
     $('#more').addEventListener('click', () => renderCards(true));
+    $('#f-beginner').addEventListener('change', (e) => { state.beginner = e.target.checked; renderCards(); });
+    $('#f-free').addEventListener('change', (e) => { state.free = e.target.checked; renderCards(); });
+    $('#cve-all').addEventListener('click', () => { cveAll = true; renderCves(); });
   }
 
   /* ---------------- CVEs ---------------- */
   const sevColor = (s) => ({ critical: 'var(--coral)', high: 'var(--amber)', medium: 'var(--brass)', low: 'var(--teal)' }[s] || 'var(--muted)');
 
+  let cveAll = false;
   function renderCves() {
-    $('#cve-grid').innerHTML = DATA.cves.map((c) => `
+    const list = cveAll ? DATA.cves : DATA.cves.slice(0, 6);
+    $('#cve-all').hidden = cveAll || DATA.cves.length <= 6;
+    $('#cve-grid').innerHTML = list.map((c) => `
       <article class="cve reveal" style="--sev:${sevColor(c.severity)}">
         <div class="cve-head">
           <span class="cve-id">${esc(c.id)}</span>
-          ${c.kev ? '<span class="kev">CISA KEV</span>' : ''}
-          ${c.epss != null ? `<span class="epss" title="EPSS: probability of exploitation in the next 30 days">EPSS ${esc((c.epss * 100).toFixed(1))}%</span>` : ''}
+          ${c.kev ? `<span class="kev">${esc(t('cve.kevbadge'))}</span>` : ''}
+          ${c.epss != null ? `<span class="epss" title="${esc(t('cve.ex.epss'))}">${esc(t('cve.col.epss'))} ${esc((c.epss * 100).toFixed(1))}%</span>` : ''}
           ${c.score != null ? `<span class="score">CVSS ${esc(c.score.toFixed(1))}</span>` : ''}
         </div>
         <h3>${esc(c.nickname || c.id)}</h3>
         <p>${esc(loc(c.summary))}</p>
         <div class="refs">${c.references.map((r) =>
-          `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(r.kind)}</a>`).join('')}</div>
+          `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(t('ref.' + r.kind))}</a>`).join('')}</div>
       </article>`).join('');
     observeReveal($$('#cve-grid .reveal'));
   }
@@ -275,7 +310,7 @@
     $('#kev-rows').innerHTML = list.slice(0, kstate.shown).map((c) => `
       <tr class="krow" tabindex="0">
         <td class="krank">${c.r}</td>
-        <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ' <span class="kcur" title="Curated field notes">★</span>' : ''}</td>
+        <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ` <span class="kcur" title="${esc(t('cve.deep.title'))}">★</span>` : ''}</td>
         <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}</td>
         <td><span class="kscore" style="--sev:${sevColor(c.sv)}">${c.s != null ? esc(Number(c.s).toFixed(1)) : '—'}</span></td>
         <td class="kepss"><span class="kbar"><i style="width:${Math.round((c.e ?? 0) * 100)}%"></i></span>${c.e != null ? (c.e * 100).toFixed(1) + '%' : '—'}</td>

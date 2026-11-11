@@ -58,8 +58,9 @@
       <span>Hexicon</span>
     </a>
     <nav class="nav-links" aria-label="Main">
-      <a href="#domains" data-i18n="nav.domains">Domains</a>
-      <a href="#explore" data-i18n="nav.explore">Explore</a>
+      <a href="#start" data-i18n="nav.start">Start here</a>
+      <a href="#domains" data-i18n="nav.domains">Topics</a>
+      <a href="#explore" data-i18n="nav.explore">Library</a>
       <a href="#cves" data-i18n="nav.cves">CVEs</a>
       <a href="#contribute" data-i18n="nav.contribute">Contribute</a>
     </nav>
@@ -84,18 +85,28 @@
       <canvas id="contours" aria-hidden="true"></canvas>
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="kicker"><span class="coord">N 00°00′ · E 14°</span> <span data-i18n="hero.kicker">The open lexicon of security</span></p>
-          <h1 data-i18n="hero.title">Chart your way through cybersecurity.</h1>
-          <p class="lead" data-i18n="hero.lead">A community-curated, multilingual library of courses, tools, books, labs and vulnerabilities — organised into 14 domains, tagged, and verified.</p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="#explore"><span data-i18n="hero.cta">Start exploring</span><svg class="ic flip-rtl"><use href="#i-arrow"/></svg></a>
-            <a class="btn btn-ghost" href="https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose"><span data-i18n="contribute.suggest">Suggest a resource</span></a>
+          <p class="kicker" data-i18n="hero.kicker">The open lexicon of security</p>
+          <h1 data-i18n="hero.title">Learn cybersecurity, step by step.</h1>
+          <p class="lead" data-i18n="hero.lead">Free, hand-picked courses, tools, books and labs — sorted by topic and level, in your language.</p>
+          <div class="choices">
+            <a class="choice primary" href="#start">
+              <svg class="ic"><use href="#i-flag"/></svg>
+              <span><b data-i18n="choice.start">I'm new — start here</b><small data-i18n="choice.start.sub">3 simple steps for beginners</small></span>
+            </a>
+            <a class="choice" href="#domains">
+              <svg class="ic"><use href="#i-compass"/></svg>
+              <span><b data-i18n="choice.topics">Browse topics</b><small data-i18n="choice.topics.sub">14 areas of security, explained</small></span>
+            </a>
+            <a class="choice" href="#cves">
+              <svg class="ic"><use href="#i-alert"/></svg>
+              <span><b data-i18n="choice.cves">Exploited vulnerabilities</b><small data-i18n="choice.cves.sub">What attackers use right now</small></span>
+            </a>
           </div>
           <dl class="stats">
             <div><dt data-i18n="stats.resources">Resources</dt><dd data-count="resources">0</dd></div>
-            <div><dt data-i18n="stats.domains">Domains</dt><dd data-count="domains">0</dd></div>
+            <div><dt data-i18n="stats.domains">Topics</dt><dd data-count="domains">0</dd></div>
+            <div><dt data-i18n="stats.cves">CVEs</dt><dd data-count="cves">0</dd></div>
             <div><dt data-i18n="stats.languages">Languages</dt><dd data-count="languages">0</dd></div>
-            <div><dt data-i18n="stats.cves">CVE pages</dt><dd data-count="cves">0</dd></div>
           </dl>
         </div>
 
@@ -121,85 +132,109 @@
           </svg>
         </div>
       </div>
-      <a class="scroll-cue" href="#domains" aria-label="Scroll to domains"><span></span></a>
     </section>
 
-    <!-- DOMAINS -->
+    <!-- START HERE -->
+    <section class="section" id="start">
+      <div class="section-head reveal">
+        <h2 data-i18n="start.title">New to security? Start here.</h2>
+        <p data-i18n="start.lead">Three steps. Everything below is free.</p>
+      </div>
+      <ol class="steps" id="steps"></ol>
+    </section>
+
+    <!-- TOPICS -->
     <section class="section" id="domains">
       <div class="section-head reveal">
-        <p class="eyebrow">§ 01</p>
-        <h2 data-i18n="domains.title">The map</h2>
-        <p data-i18n="domains.lead">Fourteen territories, from first principles to zero-days.</p>
+        <h2 data-i18n="domains.title">Browse by topic</h2>
+        <p data-i18n="domains.lead">Pick an area to see its resources.</p>
       </div>
       <div class="domain-grid" id="domain-grid"></div>
     </section>
 
-    <!-- EXPLORE -->
+    <!-- LIBRARY -->
     <section class="section" id="explore">
       <div class="section-head reveal">
-        <p class="eyebrow">§ 02</p>
-        <h2 data-i18n="explore.title">Explore the library</h2>
+        <h2 data-i18n="explore.title">Library</h2>
+        <p data-i18n="explore.lead">Search everything, or narrow it down.</p>
       </div>
 
       <div class="filters reveal">
         <label class="search">
           <svg class="ic"><use href="#i-magnifier"/></svg>
-          <input id="q" type="search" autocomplete="off" data-i18n-placeholder="explore.search" placeholder="Search resources, tags, tools…">
+          <input id="q" type="search" autocomplete="off" data-i18n-placeholder="explore.search" placeholder="Search: Linux, web, Wireshark…">
         </label>
-        <div class="chips" id="domain-chips" role="toolbar" aria-label="Domains"></div>
-        <div class="selects">
-          <label><span data-i18n="explore.type">Type</span><select id="f-type"></select></label>
-          <label><span data-i18n="explore.level">Level</span><select id="f-level"></select></label>
-          <label><span data-i18n="explore.cost">Cost</span><select id="f-cost"></select></label>
+        <div class="quick">
+          <label class="pill"><input type="checkbox" id="f-beginner"><span data-i18n="explore.beginner">Beginner-friendly</span></label>
+          <label class="pill"><input type="checkbox" id="f-free"><span data-i18n="explore.free">Free only</span></label>
           <p class="result-count" aria-live="polite"><strong id="count">0</strong> <span data-i18n="explore.results">results</span></p>
         </div>
+        <div class="chips" id="domain-chips" role="toolbar" aria-label="Topics"></div>
+        <details class="more-filters">
+          <summary data-i18n="explore.morefilters">More filters</summary>
+          <div class="selects">
+            <label><span data-i18n="explore.type">Type</span><select id="f-type"></select></label>
+            <label><span data-i18n="explore.level">Level</span><select id="f-level"></select></label>
+            <label><span data-i18n="explore.cost">Cost</span><select id="f-cost"></select></label>
+          </div>
+        </details>
       </div>
 
-      <noscript><p class="empty">Hexicon's explorer needs JavaScript. You can browse the full library as Markdown on <a href="https://github.com/0xOmar-Ibrahim/Hexicon/tree/main/docs">GitHub</a>.</p></noscript>
+      <noscript><p class="empty">Hexicon needs JavaScript. You can browse the full library as Markdown on <a href="https://github.com/0xOmar-Ibrahim/Hexicon/tree/main/docs">GitHub</a>.</p></noscript>
       <div class="cards" id="cards"></div>
       <div class="more-wrap"><button class="btn btn-ghost" id="more" type="button" hidden data-i18n="explore.more">Show more</button></div>
       <p class="empty" id="empty" hidden data-i18n="explore.empty">No resources match yet — be the first to add one.</p>
     </section>
 
-
-    <!-- CVE -->
+    <!-- CVEs -->
     <section class="section" id="cves">
       <div class="section-head reveal">
-        <p class="eyebrow">§ 03</p>
-        <h2 data-i18n="cve.title">Vulnerability field notes</h2>
-        <p data-i18n="cve.lead">Curated pages for notable CVEs.</p>
+        <h2 data-i18n="cve.title">Vulnerabilities attackers use right now</h2>
+        <p data-i18n="cve.lead">Real security flaws that are being exploited today. Use this list to decide what to patch first.</p>
       </div>
-      <div class="cve-grid" id="cve-grid"></div>
+      <div class="explain reveal">
+        <div><b data-i18n="cve.ex.cvss.t">CVSS</b><span data-i18n="cve.ex.cvss">How severe the flaw is, from 0 to 10.</span></div>
+        <div><b data-i18n="cve.ex.epss.t">Exploit chance</b><span data-i18n="cve.ex.epss">How likely attackers use it in the next 30 days.</span></div>
+        <div><b data-i18n="cve.ex.rw.t">Ransomware</b><span data-i18n="cve.ex.rw">Used by ransomware gangs — patch it first.</span></div>
+      </div>
 
       <div class="kev-explorer reveal" id="kev">
-        <div class="kev-head">
-          <h3 data-i18n="cve.top.title">Top exploited CVEs</h3>
-          <p data-i18n="cve.top.lead">Every vulnerability CISA has confirmed as exploited in the wild, ranked by EPSS — the probability of exploitation in the next 30 days.</p>
-        </div>
         <div class="filters kev-filters">
           <label class="search">
             <svg class="ic"><use href="#i-magnifier"/></svg>
-            <input id="kq" type="search" autocomplete="off" data-i18n-placeholder="cve.search" placeholder="Search CVE, product or vendor…">
+            <input id="kq" type="search" autocomplete="off" data-i18n-placeholder="cve.search" placeholder="Search a product, vendor or CVE…">
           </label>
-          <div class="selects">
-            <label><span data-i18n="cve.vendor">Vendor</span><select id="k-vendor"></select></label>
-            <label><span data-i18n="cve.severity">Severity</span><select id="k-sev"></select></label>
-            <label><span data-i18n="cve.sort">Sort</span><select id="k-sort"></select></label>
-            <label class="toggle"><input type="checkbox" id="k-rw"> <span data-i18n="cve.ransomware">Ransomware only</span></label>
+          <div class="quick">
+            <label class="pill"><input type="checkbox" id="k-rw"><span data-i18n="cve.ransomware">Ransomware only</span></label>
             <p class="result-count" aria-live="polite"><strong id="kcount">0</strong> <span data-i18n="explore.results">results</span></p>
           </div>
+          <details class="more-filters">
+            <summary data-i18n="explore.morefilters">More filters</summary>
+            <div class="selects">
+              <label><span data-i18n="cve.vendor">Vendor</span><select id="k-vendor"></select></label>
+              <label><span data-i18n="cve.severity">Severity</span><select id="k-sev"></select></label>
+              <label><span data-i18n="cve.sort">Sort</span><select id="k-sort"></select></label>
+            </div>
+          </details>
         </div>
         <div class="kev-table-wrap">
           <table class="kev-table">
             <thead><tr>
               <th>#</th><th>CVE</th><th data-i18n="cve.col.name">Vulnerability</th>
-              <th data-i18n="cve.col.cvss">CVSS</th><th data-i18n="cve.col.epss">EPSS</th><th data-i18n="cve.col.added">KEV added</th>
+              <th data-i18n="cve.col.cvss">CVSS</th><th data-i18n="cve.col.epss">Exploit chance</th><th data-i18n="cve.col.added">Exploited since</th>
             </tr></thead>
             <tbody id="kev-rows"></tbody>
           </table>
         </div>
         <div class="more-wrap"><button class="btn btn-ghost" id="kmore" type="button" hidden data-i18n="explore.more">Show more</button></div>
       </div>
+
+      <div class="section-head deep-head reveal">
+        <h3 data-i18n="cve.deep.title">Famous vulnerabilities, explained</h3>
+        <p data-i18n="cve.deep.lead">Hand-written notes with advisories, labs and fixes.</p>
+      </div>
+      <div class="cve-grid" id="cve-grid"></div>
+      <div class="more-wrap"><button class="btn btn-ghost" id="cve-all" type="button" hidden data-i18n="cve.showall">Show all</button></div>
     </section>
 
     <!-- CONTRIBUTE -->
@@ -209,10 +244,11 @@
         <circle cx="520" cy="110" r="6"/><circle cx="1000" cy="120" r="6"/>
       </svg>
       <div class="contribute-inner reveal">
-        <h2 data-i18n="contribute.title">Every map is drawn by many hands.</h2>
-        <p data-i18n="contribute.lead">Suggest a resource with a simple form, open a pull request, or translate Hexicon into your language.</p>
+        <h2 data-i18n="contribute.title">Know a great resource?</h2>
+        <p data-i18n="contribute.lead">Share it with everyone — it takes 30 seconds and no coding.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose" data-i18n="contribute.suggest">Suggest a resource</a>        </div>
+          <a class="btn btn-primary" href="https://github.com/0xOmar-Ibrahim/Hexicon/issues/new/choose" data-i18n="contribute.suggest">Suggest a resource</a>
+        </div>
       </div>
     </section>
   </main>
