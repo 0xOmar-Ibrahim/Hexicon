@@ -59,20 +59,38 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     published: iso(c.official?.published),
     added: iso(c.official?.kev?.date_added),
     type: c.vuln_type ?? null,
+    priority: c.intel?.priority ?? null,
     summary: c.summary ?? {},
     references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
+    // Full record for the detail page (written to dist/cve/<ID>.json).
+    detail: {
+      id: c.id, nickname: c.nickname ?? null, name: c.name ?? null, type: c.vuln_type ?? null,
+      curated: (c.source ?? 'curated') === 'curated', rank: c.rank ?? null,
+      affected_product: c.affected ?? [],
+      official: {
+        published: iso(c.official?.published) ?? null,
+        cvss: c.official?.cvss ?? null,
+        cwe: c.official?.cwe ?? [],
+        kev: c.official?.kev ? { ...c.official.kev, date_added: iso(c.official.kev.date_added) } : null,
+        epss: c.official?.epss ? { ...c.official.epss, date: iso(c.official.epss.date) } : null,
+      },
+      summary: c.summary ?? {},
+      references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
+      mitre_attack: c.mitre_attack ?? [],
+      intel: c.intel ? JSON.parse(JSON.stringify(c.intel, (k, v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v))) : null,
+    },
   };
 });
 // Curated field notes go into data.json; the full ranked list is a separate, lazily loaded file.
 const cves = allCves.filter((c) => c.curated);
 const ranked = allCves.filter((c) => c.rank).sort((a, b) => a.rank - b.rank);
 // One index per language: localized name (vulnerability type + product) and summary, English original kept as `o`.
-const cveIndexFor = (lang) => ranked.map(({ id, nickname, name, type, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary }) => {
+const cveIndexFor = (lang) => ranked.map(({ id, nickname, name, type, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary, priority }) => {
   const localName = lang === 'en' || nickname || !type ? (nickname ?? name) : `${TYPE_NAMES[type][lang]} — ${product}`;
   return {
     id, n: localName, ...(localName !== (nickname ?? name) && { o: nickname ?? name }),
     c: curated ? 1 : 0, r: rank, v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0,
-    e: epss, pub: published, kev: added, d: summary[lang] ?? summary.en,
+    e: epss, pub: published, kev: added, d: summary[lang] ?? summary.en, pr: priority,
   };
 });
 const cveIndex = cveIndexFor('en');
@@ -134,6 +152,9 @@ data.cveTotal = allCves.length;
 data.cveRanked = cveIndex.length;
 fs.writeFileSync(path.join(DIST, 'data.json'), JSON.stringify(data));
 for (const lang of taxonomy.languages) fs.writeFileSync(path.join(DIST, `cves.${lang}.json`), JSON.stringify(cveIndexFor(lang)));
+// One detail file per CVE, loaded on demand by the CVE page.
+fs.mkdirSync(path.join(DIST, 'cve'), { recursive: true });
+for (const c of allCves) fs.writeFileSync(path.join(DIST, 'cve', `${c.id}.json`), JSON.stringify(c.detail));
 fs.copyFileSync(path.join(ROOT, 'i18n/ui.json'), path.join(DIST, 'ui.json'));
 
 console.log(`Built dist/ — ${resources.length} resources, ${allCves.length} CVE pages (${cves.length} curated, ${cveIndex.length} ranked), ${paths.length} paths, ${data.domains.length} domains.`);

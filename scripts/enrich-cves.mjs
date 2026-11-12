@@ -146,7 +146,16 @@ for (const year of [...new Set([...ids].map((id) => id.split('-')[1]))].sort()) 
 }
 
 // cpe:2.3:a:vendor:product:version:... → readable "Product version range"
-const pretty = (s) => s.replace(/\\/g, '').replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+// Readable product name: reuse the page's own spelling when the CPE slug matches it (e.g. "PAN-OS",
+// "MOVEit Transfer"), otherwise just tidy the slug ("log4j" → "Log4j").
+const slugOf = (x) => String(x).toLowerCase().replace(/[^a-z0-9]+/g, '');
+let ownProducts = [];
+const pretty = (raw) => {
+  const s = raw.replace(/\\/g, '').replace(/_/g, ' ');
+  const key = slugOf(s);
+  const own = ownProducts.find((p) => slugOf(p) === key);
+  return own ?? s.charAt(0).toUpperCase() + s.slice(1);
+};
 function affectedFrom(cve) {
   const out = new Set();
   const walk = (nodes = []) => {
@@ -215,6 +224,11 @@ for (const file of files) {
   const k = kev.get(id);
 
   const words = productWords(doc);
+  // Candidate spellings from the page itself: the full product name and each of its words
+  // ("PAN-OS (GlobalProtect)" → "PAN-OS (GlobalProtect)", "PAN-OS", "GlobalProtect").
+  ownProducts = (doc.get('affected')?.toJSON?.() ?? [])
+    .flatMap((a) => [a.product, ...(String(a.product ?? '').match(/[A-Za-z0-9][A-Za-z0-9.-]{2,}/g) ?? [])])
+    .filter(Boolean);
   const e = (edb.get(id) ?? []).sort((a, b) => relevance(b.title, words) - relevance(a.title, words) ||
     Number(b.verified) - Number(a.verified) || (b.date ?? '').localeCompare(a.date ?? ''));
   const ms = msf.get(id) ?? [];

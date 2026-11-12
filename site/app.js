@@ -75,6 +75,8 @@
     renderCards();
     renderCves();
     if (KEV) loadKev(); // reload the CVE index in the new language
+    const openId = new URLSearchParams(location.search).get('cve');
+    if (openId && cveCache.has(openId) && !$('#cve-view').hidden) renderCve(cveCache.get(openId));
   }
 
   function initLangSelect() {
@@ -222,6 +224,8 @@
     if (state.lang !== 'en') p.set('lang', state.lang);
     for (const k of ['domain', 'type', 'level', 'cost']) if (state[k] !== 'all') p.set(k, state[k]);
     if (state.q) p.set('q', state.q);
+    const openCveId = new URLSearchParams(location.search).get('cve');
+    if (openCveId) p.set('cve', openCveId);
     const qs = p.toString();
     history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
   }
@@ -285,17 +289,18 @@
           ${c.epss != null ? `<span class="epss" title="${esc(t('cve.ex.epss'))}">${esc(t('cve.col.epss'))} ${esc((c.epss * 100).toFixed(1))}%</span>` : ''}
           ${c.score != null ? `<span class="score">CVSS ${esc(c.score.toFixed(1))}</span>` : ''}
         </div>
-        <h3>${esc(c.nickname || c.id)}</h3>
+        <h3><button type="button" class="cv-link" data-id="${esc(c.id)}">${esc(c.nickname || c.id)}</button></h3>
         <p>${esc(loc(c.summary))}</p>
         <div class="refs">${c.references.map((r) =>
           `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(t('ref.' + r.kind))}</a>`).join('')}</div>
       </article>`).join('');
+    $$('#cve-grid .cv-link').forEach((b) => b.addEventListener('click', () => openCve(b.dataset.id)));
     observeReveal($$('#cve-grid .reveal'));
   }
 
   /* ---------------- TOP EXPLOITED CVEs (lazy) ---------------- */
   let KEV = null, kevLang = null, kevWired = false;
-  const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, shown: 25 };
+  const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, p1: false, shown: 25 };
   const SEV = ['critical', 'high', 'medium', 'low'];
 
   // Loads the ranked CVE index for the current language (cves.<lang>.json).
@@ -312,12 +317,14 @@
     $('#kq').addEventListener('input', (e) => { kstate.q = e.target.value.trim().toLowerCase(); kstate.shown = 25; renderKev(); });
     $('#k-rw').addEventListener('change', (e) => { kstate.rw = e.target.checked; kstate.shown = 25; renderKev(); });
     $('#kmore').addEventListener('click', () => { kstate.shown += 50; renderKev(); });
-    $('#kev-rows').addEventListener('click', (e) => {
+    const openRow = (e) => {
       const row = e.target.closest('tr.krow');
       if (!row || e.target.closest('a')) return;
-      row.classList.toggle('open');
-      row.nextElementSibling.hidden = !row.classList.contains('open');
-    });
+      openCve(row.dataset.id);
+    };
+    $('#kev-rows').addEventListener('click', openRow);
+    $('#kev-rows').addEventListener('keydown', (e) => { if (e.key === 'Enter') openRow(e); });
+    $('#k-p1').addEventListener('change', (e) => { kstate.p1 = e.target.checked; kstate.shown = 25; renderKev(); });
   }
 
   function renderKevControls() {
@@ -338,21 +345,186 @@
       (kstate.vendor === 'all' || c.v === kstate.vendor) &&
       (kstate.sev === 'all' || c.sv === kstate.sev) &&
       (!kstate.rw || c.rw) &&
+      (!kstate.p1 || c.pr === 'P1') &&
       (!kstate.q || `${c.id} ${c.n} ${c.o ?? ''} ${c.v} ${c.p}`.toLowerCase().includes(kstate.q)));
     if (kstate.sort === 'cvss') list = [...list].sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.r - b.r);
     if (kstate.sort === 'newest') list = [...list].sort((a, b) => (b.kev ?? '').localeCompare(a.kev ?? '') || a.r - b.r);
     $('#kcount').textContent = list.length;
     $('#kmore').hidden = kstate.shown >= list.length;
     $('#kev-rows').innerHTML = list.slice(0, kstate.shown).map((c) => `
-      <tr class="krow" tabindex="0">
+      <tr class="krow" tabindex="0" data-id="${esc(c.id)}">
         <td class="krank">${c.r}</td>
         <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ` <span class="kcur" title="${esc(t('cve.deep.title'))}">★</span>` : ''}</td>
-        <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}</td>
+        <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}${c.pr ? `<span class="prio ${esc(c.pr)}">${esc(t('cv.prio.' + c.pr))}</span>` : ''}</td>
         <td><span class="kscore" style="--sev:${sevColor(c.sv)}">${c.s != null ? esc(Number(c.s).toFixed(1)) : '—'}</span></td>
         <td class="kepss"><span class="kbar"><i style="width:${Math.round((c.e ?? 0) * 100)}%"></i></span>${c.e != null ? (c.e * 100).toFixed(1) + '%' : '—'}</td>
         <td class="kdate">${esc(c.kev ?? '')}</td>
       </tr>
-      <tr class="kdetail" hidden><td></td><td colspan="5">${esc(c.d ?? '')}${c.pub ? ` <em>· ${esc(t('cve.published'))} ${esc(c.pub)}</em>` : ''}</td></tr>`).join('');
+`).join('');
+  }
+
+  /* ---------------- CVE DETAIL PAGE ---------------- */
+  const cveCache = new Map();
+  let lastFocus = null;
+
+  const nvdUrl = (id) => `https://nvd.nist.gov/vuln/detail/${id}`;
+  const attackUrl = (tid) => `https://attack.mitre.org/techniques/${tid.replace('.', '/')}/`;
+  const cweUrl = (cwe) => (/^CWE-(\d+)$/.test(cwe) ? `https://cwe.mitre.org/data/definitions/${cwe.slice(4)}.html` : null);
+  const ext = (url, label, extra = '') => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"${extra}>${label}</a>`;
+
+  async function openCve(id, push = true) {
+    if (!/^CVE-\d{4}-\d+$/.test(id)) return;
+    lastFocus = document.activeElement;
+    const view = $('#cve-view');
+    view.hidden = false;
+    document.body.classList.add('cv-open');
+    $('#cv-body').innerHTML = `<p class="cv-loading">${esc(t('cv.loading'))}</p>`;
+    if (push) history.pushState({ cve: id }, '', withParam('cve', id));
+    try {
+      if (!cveCache.has(id)) cveCache.set(id, await fetch(`cve/${id}.json`).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+      renderCve(cveCache.get(id));
+    } catch {
+      $('#cv-body').innerHTML = `<p class="cv-loading">${esc(t('cv.notfound'))}</p>`;
+    }
+    $('.cv-panel').scrollTop = 0;
+    $('.cv-panel').focus({ preventScroll: true });
+  }
+
+  function closeCve(push = true) {
+    if ($('#cve-view').hidden) return;
+    $('#cve-view').hidden = true;
+    document.body.classList.remove('cv-open');
+    if (push) history.pushState({}, '', withParam('cve', null));
+    lastFocus?.focus?.({ preventScroll: true });
+  }
+
+  function withParam(key, value) {
+    const p = new URLSearchParams(location.search);
+    value ? p.set(key, value) : p.delete(key);
+    const qs = p.toString();
+    return location.pathname + (qs ? '?' + qs : '') + location.hash;
+  }
+
+  function cvSection(icon, title, body, cls = '') {
+    return `<section class="cv-sec ${cls}"><h3><svg class="ic"><use href="#i-${icon}"/></svg>${esc(title)}</h3>${body}</section>`;
+  }
+
+  function renderCve(c) {
+    const o = c.official ?? {}, I = c.intel ?? {};
+    const row = KEV?.find((x) => x.id === c.id);
+    const title = c.nickname || row?.n || c.name || c.id;
+    const subtitle = (c.nickname || (row && row.n !== c.name)) ? (c.name ?? '') : '';
+    const vendor = c.affected_product?.[0];
+    const summary = c.summary?.[state.lang] || c.summary?.en || '';
+    const showOriginal = state.lang !== 'en' && c.summary?.en && c.summary.en !== summary;
+    const sev = o.cvss?.severity;
+    const prio = I.priority;
+    const pct = (v) => `${(v * 100).toFixed(v >= 0.995 ? 1 : 1)}%`;
+    const fname = (p) => p.split('/').pop();
+
+    // Header
+    let h = `
+      <header class="cv-head" style="--sev:${sevColor(sev)}">
+        <p class="cv-id">${esc(c.id)}${c.rank ? ` · <span>#${c.rank} ${esc(t('cv.ranked'))}</span>` : ''}</p>
+        <h2 id="cv-title">${esc(title)}</h2>
+        ${subtitle ? `<p class="cv-sub">${esc(subtitle)}</p>` : ''}
+        ${vendor ? `<p class="cv-vendor">${esc([vendor.vendor, vendor.product].filter(Boolean).join(' · '))}</p>` : ''}
+        <div class="cv-metrics">
+          ${prio ? `<div class="cv-m prio-box ${esc(prio)}"><b>${esc(t('cv.prio.' + prio))}</b><span>${esc(t('cv.priority'))}</span></div>` : ''}
+          ${o.cvss ? `<div class="cv-m"><b style="color:var(--sev)">${esc(Number(o.cvss.score).toFixed(1))}</b><span>CVSS ${esc(o.cvss.version ?? '')} · ${esc(t('sev.' + sev) || sev || '')}</span></div>` : ''}
+          ${o.epss ? `<div class="cv-m"><b>${esc(pct(o.epss.score))}</b><span>${esc(t('cve.col.epss'))}</span></div>` : ''}
+          ${o.kev?.listed ? `<div class="cv-m"><b>${esc(o.kev.date_added ?? '')}</b><span>${esc(t('cve.col.added'))}</span></div>` : ''}
+        </div>
+        ${I.reasons?.length ? `<ul class="cv-reasons">${I.reasons.map((r) => `<li class="r-${esc(r)}">${esc(t('cv.r.' + r))}</li>`).join('')}</ul>` : ''}
+      </header>`;
+
+    // What is it?
+    h += cvSection('magnifier', t('cv.what'), `
+      <p class="cv-summary">${esc(summary)}</p>
+      ${showOriginal ? `<details class="cv-orig"><summary>${esc(t('cv.original'))}</summary><p>${esc(c.summary.en)}</p></details>` : ''}
+      <dl class="cv-facts">
+        ${o.published ? `<div><dt>${esc(t('cve.published'))}</dt><dd>${esc(o.published)}</dd></div>` : ''}
+        ${o.cwe?.length ? `<div><dt>${esc(t('cv.weakness'))}</dt><dd>${o.cwe.map((w) => cweUrl(w) ? ext(cweUrl(w), esc(w)) : esc(w)).join(', ')}</dd></div>` : ''}
+        ${o.cvss?.vector ? `<div><dt>${esc(t('cv.vector'))}</dt><dd class="mono">${esc(o.cvss.vector)}</dd></div>` : ''}
+      </dl>`);
+
+    // Am I affected?
+    if (I.affected?.count) {
+      h += cvSection('shield', t('cv.affected'), `
+        <ul class="cv-list mono">${I.affected.items.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>
+        ${I.affected.count > I.affected.items.length ? `<p class="cv-more">${esc(t('cv.more').replace('{n}', I.affected.count - I.affected.items.length))} ${ext(nvdUrl(c.id), 'NVD')}</p>` : ''}`);
+    }
+
+    // Is it being exploited?
+    const edb = I.exploits?.exploitdb, msf = I.exploits?.metasploit;
+    const exploitCount = (edb?.count ?? 0) + (msf?.count ?? 0);
+    let ex = `<div class="cv-status">
+        <div class="${o.kev?.listed ? 'yes' : 'no'}"><b>${esc(t(o.kev?.listed ? 'cv.yes' : 'cv.no'))}</b><span>${esc(t('cv.inwild'))}</span></div>
+        <div class="${o.kev?.ransomware_use === 'Known' ? 'yes' : 'no'}"><b>${esc(t(o.kev?.ransomware_use === 'Known' ? 'cv.yes' : 'cv.unknown'))}</b><span>${esc(t('cve.ex.rw.t'))}</span></div>
+        <div class="${exploitCount ? 'yes' : 'no'}"><b>${exploitCount ? esc(String(exploitCount)) : esc(t('cv.no'))}</b><span>${esc(t('cv.publicex'))}</span></div>
+      </div>`;
+    if (o.epss) ex += `<p class="cv-note">${esc(t('cv.epsspct').replace('{p}', Math.min(99, Math.round((o.epss.percentile ?? 0) * 100))))}</p>`;
+    if (exploitCount) {
+      ex += `<div class="cv-cols">`;
+      if (edb?.count) ex += `<div><h4>Exploit-DB <em>${edb.count}</em></h4><ul class="cv-links">${edb.items.map((e) =>
+        `<li>${ext(`https://www.exploit-db.com/exploits/${e.id}`, esc(e.title))}<span>${esc(e.date ?? '')} · ${esc(e.type ?? '')}${e.verified ? ' · ✓' : ''}</span></li>`).join('')}</ul></div>`;
+      if (msf?.count) ex += `<div><h4>Metasploit <em>${msf.count}</em></h4><ul class="cv-links">${msf.items.map((m) =>
+        `<li>${ext(`https://github.com/rapid7/metasploit-framework/blob/master/modules/${m.name}.rb`, `<span class="mono">${esc(m.name)}</span>`)}<span>${esc(m.type)}${m.rank ? ' · ' + esc(m.rank) : ''}</span></li>`).join('')}</ul></div>`;
+      ex += `</div><p class="cv-warn">${esc(t('cv.authorized'))}</p>`;
+    } else {
+      ex += `<p class="cv-note">${esc(t('cv.noexploit'))}</p>`;
+    }
+    h += cvSection('alert', t('cv.exploited'), ex, 'cv-exploited');
+
+    // Check / practise / detect
+    const tools = [];
+    if (I.scanners?.nuclei?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.check'))}</h4><p>${esc(t('cv.check.d'))}</p><ul class="cv-links">${I.scanners.nuclei.map((p) =>
+      `<li>${ext(`https://github.com/projectdiscovery/nuclei-templates/blob/main/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Nuclei</span></li>`).join('')}</ul></div>`);
+    if (I.labs?.vulhub?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.lab'))}</h4><p>${esc(t('cv.lab.d'))}</p><ul class="cv-links">${I.labs.vulhub.map((p) =>
+      `<li>${ext(`https://github.com/vulhub/vulhub/tree/master/${p}`, `<span class="mono">${esc(p)}</span>`)}<span>Vulhub · Docker</span></li>`).join('')}</ul></div>`);
+    if (I.detections?.sigma?.count) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.detect'))} <em>${I.detections.sigma.count}</em></h4><p>${esc(t('cv.detect.d'))}</p><ul class="cv-links">${I.detections.sigma.items.map((p) =>
+      `<li>${ext(`https://github.com/SigmaHQ/sigma/blob/master/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Sigma</span></li>`).join('')}</ul></div>`);
+    if (tools.length) h += cvSection('radar', t('cv.tools'), `<div class="cv-tools">${tools.join('')}</div>`);
+
+    // ATT&CK
+    const techs = I.attack?.length ? I.attack : (c.mitre_attack ?? []).map((tid) => ({ id: tid, name: '', role: '' }));
+    if (techs.length) {
+      h += cvSection('crosshair', t('cv.attack'), `<ul class="cv-attack">${techs.map((a) =>
+        `<li>${ext(attackUrl(a.id), `<b class="mono">${esc(a.id)}</b> ${esc(a.name ?? '')}`)}${a.role ? `<span>${esc(t('cv.role.' + a.role) || a.role)}</span>` : ''}</li>`).join('')}</ul>`);
+    }
+
+    // Fix it
+    const fix = I.fix ?? {};
+    h += cvSection('key', t('cv.fix'), `
+      <p class="cv-summary">${esc(t('cv.fix.generic'))}</p>
+      ${fix.due_date ? `<p class="cv-due">${esc(t('cv.due'))}: <b>${esc(fix.due_date)}</b></p>` : ''}
+      ${fix.references?.length ? `<ul class="cv-links">${fix.references.map((r) =>
+        `<li>${ext(r.url, esc(r.url.replace(/^https:\/\/(www\.)?/, '').slice(0, 90)))}<span>${esc((r.tags ?? []).map((x) => t('cv.tag.' + x.toLowerCase().replace(/\s+/g, '-'))).join(' · '))}</span></li>`).join('')}</ul>` : ''}
+      ${fix.required_action ? `<details class="cv-orig"><summary>${esc(t('cv.fix.cisa'))}</summary><p>${esc(fix.required_action)}</p></details>` : ''}`);
+
+    // References (curated pages have hand-picked ones)
+    const refs = [{ kind: 'advisory', url: nvdUrl(c.id), title: 'NVD' }, ...(c.references ?? []).filter((r) => !r.url.includes('nvd.nist.gov'))];
+    h += cvSection('flag', t('cv.refs'), `<ul class="cv-links">${refs.map((r) =>
+      `<li>${ext(r.url, esc(r.title || r.url))}<span>${esc(t('ref.' + r.kind))}</span></li>`).join('')}</ul>`);
+
+    h += `<p class="cv-sources">${esc(t('cv.sources'))}${I.enriched_on ? ` · ${esc(t('cv.updated'))} ${esc(I.enriched_on)}` : ''}</p>`;
+    $('#cv-body').innerHTML = h;
+    document.title = `${c.id} · Hexicon`;
+  }
+
+  function initCveView() {
+    $$('#cve-view [data-close]').forEach((b) => b.addEventListener('click', () => closeCve()));
+    addEventListener('keydown', (e) => { if (e.key === 'Escape') closeCve(); });
+    addEventListener('popstate', () => {
+      const id = new URLSearchParams(location.search).get('cve');
+      if (id) openCve(id, false); else { closeCve(false); document.title = 'Hexicon'; }
+    });
+    $('#cv-copy').addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(location.href); $('#cv-copy').textContent = t('cv.copied'); } catch { /* clipboard blocked */ }
+      setTimeout(() => { $('#cv-copy').textContent = t('cv.copy'); }, 1600);
+    });
+    const initial = new URLSearchParams(location.search).get('cve');
+    if (initial) openCve(initial.toUpperCase(), false);
   }
 
   /* ---------------- STATS COUNT-UP ---------------- */
@@ -520,6 +692,7 @@
     initSearch();
     applyLang(state.lang);
     initStats();
+    initCveView();
     // Load the 1000-CVE index only when the reader gets close to it.
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([e], obs) => { if (e.isIntersecting) { obs.disconnect(); loadKev(); } }, { rootMargin: '800px' }).observe($('#cves'));

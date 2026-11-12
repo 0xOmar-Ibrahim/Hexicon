@@ -56,10 +56,17 @@ const ranked = cves.filter((c) => c.rank).sort((a, b) => a.rank - b.rank);
 if (ranked.length) {
   let top = HEADER + `# Top ${ranked.length} exploited CVEs\n\n`;
   top += 'Every CVE in the [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), ranked by [FIRST EPSS](https://www.first.org/epss/) — the probability of exploitation in the next 30 days. 🔒 = known ransomware use. CVSS, CWE and dates are synced from NVD.\n\n';
-  top += '| # | CVE | Vulnerability | Vendor / product | CVSS | EPSS | 🔒 |\n|---|---|---|---|---|---|---|\n';
+  top += 'Priority: **P1** patch immediately · **P2** this week · **P3** on schedule. 💥 public exploit known · 🧪 practice lab · 🛡 detection rule.\n\n';
+  top += '| # | Priority | CVE | Vulnerability | Vendor / product | CVSS | EPSS | 🔒 | Intel |\n|---|---|---|---|---|---|---|---|---|\n';
   for (const c of ranked) {
     const a = c.affected?.[0] ?? {};
-    top += `| ${c.rank} | [${c.id}](../data/cves/${c.id.split('-')[1]}/${c.id}.yml) | ${md(c.nickname ?? c.name ?? '')} | ${md(`${a.vendor ?? ''} ${a.product ?? ''}`.trim())} | ${c.official?.cvss?.score ?? '—'} | ${c.official?.epss ? (c.official.epss.score * 100).toFixed(1) + '%' : '—'} | ${c.official?.kev?.ransomware_use === 'Known' ? '🔒' : ''} |\n`;
+    const I = c.intel ?? {};
+    const icons = [
+      (I.exploits?.exploitdb?.count || I.exploits?.metasploit?.count) ? '💥' : '',
+      I.labs?.vulhub?.length ? '🧪' : '',
+      I.detections?.sigma?.count ? '🛡' : '',
+    ].join('');
+    top += `| ${c.rank} | ${I.priority ?? '—'} | [${c.id}](../data/cves/${c.id.split('-')[1]}/${c.id}.yml) | ${md(c.nickname ?? c.name ?? '')} | ${md(`${a.vendor ?? ''} ${a.product ?? ''}`.trim())} | ${c.official?.cvss?.score ?? '—'} | ${c.official?.epss ? (c.official.epss.score * 100).toFixed(1) + '%' : '—'} | ${c.official?.kev?.ransomware_use === 'Known' ? '🔒' : ''} | ${icons} |\n`;
   }
   fs.writeFileSync(path.join(DOCS, 'cves-top.md'), top);
 }

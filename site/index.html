@@ -213,6 +213,7 @@
             <input id="kq" type="search" autocomplete="off" data-i18n-placeholder="cve.search" placeholder="Search a product, vendor or CVE…">
           </label>
           <div class="quick">
+            <label class="pill"><input type="checkbox" id="k-p1"><span data-i18n="cv.p1only">Patch immediately only</span></label>
             <label class="pill"><input type="checkbox" id="k-rw"><span data-i18n="cve.ransomware">Ransomware only</span></label>
             <p class="result-count" aria-live="polite"><strong id="kcount">0</strong> <span data-i18n="explore.results">results</span></p>
           </div>
@@ -260,6 +261,19 @@
       </div>
     </section>
   </main>
+
+  <!-- CVE DETAIL PAGE -->
+  <div class="cve-view" id="cve-view" hidden>
+    <div class="cv-backdrop" data-close></div>
+    <article class="cv-panel" role="dialog" aria-modal="true" aria-labelledby="cv-title" tabindex="-1">
+      <div class="cv-bar">
+        <button class="btn btn-ghost cv-back" type="button" data-close><svg class="ic flip-rtl" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg><span data-i18n="cv.back">Back</span></button>
+        <button class="btn btn-ghost cv-copy" type="button" id="cv-copy" data-i18n="cv.copy">Copy link</button>
+      </div>
+      <div id="cv-body" class="cv-body"></div>
+    </article>
+  </div>
+
 
   <footer class="footer">
     <div class="brand small">
