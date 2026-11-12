@@ -22,10 +22,14 @@ jobs:
       - run: npm run sync:cves -- --feeds
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+      - name: Enrich CVE pages (exploits, labs, detections, ATT&CK, priority)
+        run: npm run enrich:cves
+      - name: Regenerate docs
+        run: npm run docs
       - name: Commit changes
         run: |
           if git diff --quiet; then echo "No changes"; exit 0; fi
           git config user.name "hexicon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "data(cves): weekly sync from NVD, CISA KEV and EPSS"
+          git add -A data docs && git commit -m "data(cves): weekly sync and enrichment"
           git push
