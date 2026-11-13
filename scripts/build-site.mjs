@@ -49,6 +49,7 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     name: c.name ?? null,
     curated: (c.source ?? 'curated') === 'curated',
     rank: c.rank ?? null,
+    recent: !!c.recent,
     vendor: c.affected?.[0]?.vendor ?? null,
     product: c.affected?.[0]?.product ?? null,
     severity: c.official?.cvss?.severity ?? null,
@@ -65,7 +66,7 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     // Full record for the detail page (written to dist/cve/<ID>.json).
     detail: {
       id: c.id, nickname: c.nickname ?? null, name: c.name ?? null, type: c.vuln_type ?? null,
-      curated: (c.source ?? 'curated') === 'curated', rank: c.rank ?? null,
+      curated: (c.source ?? 'curated') === 'curated', rank: c.rank ?? null, recent: !!c.recent,
       affected_product: c.affected ?? [],
       official: {
         published: iso(c.official?.published) ?? null,
@@ -83,13 +84,15 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
 });
 // Curated field notes go into data.json; the full ranked list is a separate, lazily loaded file.
 const cves = allCves.filter((c) => c.curated);
-const ranked = allCves.filter((c) => c.rank).sort((a, b) => a.rank - b.rank);
+// Top-ranked CVEs first, then recent KEV additions (newest first).
+const ranked = allCves.filter((c) => c.rank || c.recent)
+  .sort((a, b) => (a.rank ?? 1e9) - (b.rank ?? 1e9) || (b.added ?? '').localeCompare(a.added ?? ''));
 // One index per language: localized name (vulnerability type + product) and summary, English original kept as `o`.
-const cveIndexFor = (lang) => ranked.map(({ id, nickname, name, type, curated, rank, vendor, product, severity, score, ransomware, epss, published, added, summary, priority }) => {
+const cveIndexFor = (lang) => ranked.map(({ id, nickname, name, type, curated, rank, recent, vendor, product, severity, score, ransomware, epss, published, added, summary, priority }) => {
   const localName = lang === 'en' || nickname || !type ? (nickname ?? name) : `${TYPE_NAMES[type][lang]} — ${product}`;
   return {
     id, n: localName, ...(localName !== (nickname ?? name) && { o: nickname ?? name }),
-    c: curated ? 1 : 0, r: rank, v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0,
+    c: curated ? 1 : 0, r: rank, ...(recent && { nw: 1 }), v: vendor, p: product, sv: severity, s: score, rw: ransomware ? 1 : 0,
     e: epss, pub: published, kev: added, d: summary[lang] ?? summary.en, pr: priority,
   };
 });

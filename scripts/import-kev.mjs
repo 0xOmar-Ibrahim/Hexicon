@@ -38,13 +38,23 @@ for (let i = 0; i < kev.length; i += 100) {
 }
 console.log(`EPSS scores: ${epss.size}`);
 
-const ranked = kev
+const byEpss = kev
   .map((v) => ({ v, e: epss.get(v.cveID) }))
   .sort((a, b) =>
     (b.e?.score ?? 0) - (a.e?.score ?? 0) ||
     Number(b.v.knownRansomwareCampaignUse === 'Known') - Number(a.v.knownRansomwareCampaignUse === 'Known') ||
-    b.v.dateAdded.localeCompare(a.v.dateAdded))
-  .slice(0, LIMIT);
+    b.v.dateAdded.localeCompare(a.v.dateAdded));
+
+// Newly confirmed exploited CVEs often have a low EPSS score at first, so they would never reach
+// the top N. Always include everything CISA added in the last RECENT_DAYS days, ranked after the top N.
+const RECENT_DAYS = Number(process.env.KEV_RECENT_DAYS) || 180;
+const recentCut = new Date(Date.now() - RECENT_DAYS * 864e5).toISOString().slice(0, 10);
+const top = byEpss.slice(0, LIMIT);
+const topIds = new Set(top.map(({ v }) => v.cveID));
+const recent = byEpss.filter(({ v }) => v.dateAdded >= recentCut && !topIds.has(v.cveID))
+  .sort((a, b) => b.v.dateAdded.localeCompare(a.v.dateAdded));
+const ranked = [...top, ...recent];
+console.log(`Top ${LIMIT} by EPSS + ${recent.length} recent KEV additions (since ${recentCut}).`);
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const urlsFromNotes = (notes = '') =>
@@ -62,7 +72,14 @@ for (const [rank, { v, e }] of ranked.entries()) {
     if ((previous.source ?? 'curated') === 'curated') {
       // Curated page: only record its rank, never touch the hand-written content.
       const doc = YAML.parseDocument(fs.readFileSync(file, 'utf8'));
-      if (doc.get('rank') !== rank + 1) { doc.set('rank', rank + 1); fs.writeFileSync(file, doc.toString({ lineWidth: 0 })); }
+      // Top N get a rank; recent additions outside the top N are flagged `recent` instead.
+      const wantRank = rank < LIMIT ? rank + 1 : null;
+      let dirty = false;
+      if (wantRank && doc.get('rank') !== wantRank) { doc.set('rank', wantRank); dirty = true; }
+      if (!wantRank && doc.has('rank')) { doc.delete('rank'); dirty = true; }
+      if (!wantRank && doc.get('recent') !== true) { doc.set('recent', true); dirty = true; }
+      if (wantRank && doc.has('recent')) { doc.delete('recent'); dirty = true; }
+      if (dirty) fs.writeFileSync(file, doc.toString({ lineWidth: 0 }));
       kept++;
       continue;
     }
@@ -93,9 +110,11 @@ for (const [rank, { v, e }] of ranked.entries()) {
       ...urlsFromNotes(v.notes).map((url) => ({ kind: 'advisory', url, title: 'Vendor / CISA reference' })),
     ],
     tags: [...new Set([slug(v.vendorProject), slug(v.product), ...(v.knownRansomwareCampaignUse === 'Known' ? ['ransomware'] : [])])].filter(Boolean),
-    rank: rank + 1,
+    ...(rank < LIMIT ? { rank: rank + 1 } : { recent: true }),
     added_by: '@hexicon-bot',
     added_on: previous?.added_on ?? TODAY,
+    // Keep the generated intel block until enrich-cves.mjs refreshes it.
+    ...(previous?.intel && { intel: previous.intel }),
   };
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, HEADER + YAML.stringify(page, { lineWidth: 0 }));
@@ -108,6 +127,6 @@ for (const f of fs.readdirSync(DIR, { recursive: true }).filter((x) => /CVE-\d{4
   const file = path.join(DIR, f);
   if (inTop.has(path.basename(f, '.yml'))) continue;
   const doc = YAML.parseDocument(fs.readFileSync(file, 'utf8'));
-  if (doc.has('rank')) { doc.delete('rank'); fs.writeFileSync(file, doc.toString({ lineWidth: 0 })); unranked++; }
+  if (doc.has('rank') || doc.has('recent')) { doc.delete('rank'); doc.delete('recent'); fs.writeFileSync(file, doc.toString({ lineWidth: 0 })); unranked++; }
 }
 console.log(`Top ${LIMIT}: ${written} pages written, ${kept} curated pages kept (rank only), ${unranked} pages un-ranked.`);

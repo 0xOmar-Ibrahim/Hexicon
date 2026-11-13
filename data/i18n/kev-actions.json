@@ -1,0 +1,87 @@
+{
+  "_about": "Translations of CISA KEV 'required action' texts (US government work, public domain). Keys are the exact English text from the KEV catalog. scripts/enrich-cves.mjs attaches the matching translations to each CVE page. Add a new entry whenever CISA introduces a new recurring text.",
+  "Apply updates per vendor instructions.": {
+    "de": "Updates gemäß den Anweisungen des Herstellers einspielen.",
+    "fr": "Appliquer les mises à jour conformément aux instructions de l'éditeur.",
+    "ar": "طبّق التحديثات وفق تعليمات المورّد.",
+    "ru": "Установите обновления согласно инструкциям производителя."
+  },
+  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.": {
+    "de": "Gegenmaßnahmen gemäß den Anweisungen des Herstellers umsetzen, für Cloud-Dienste die geltenden Vorgaben der BOD 22-01 befolgen oder das Produkt nicht mehr verwenden, falls keine Gegenmaßnahmen verfügbar sind.",
+    "fr": "Appliquer les mesures d'atténuation conformément aux instructions de l'éditeur, suivre les consignes applicables de la BOD 22-01 pour les services cloud, ou cesser d'utiliser le produit si aucune mesure n'est disponible.",
+    "ar": "طبّق إجراءات التخفيف وفق تعليمات المورّد، واتبع إرشادات التوجيه BOD 22-01 الخاصة بالخدمات السحابية، أو توقّف عن استخدام المنتج إذا لم تتوفر إجراءات تخفيف.",
+    "ru": "Примените меры защиты согласно инструкциям производителя, соблюдайте применимые требования BOD 22-01 для облачных сервисов или прекратите использование продукта, если меры защиты недоступны."
+  },
+  "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.": {
+    "de": "Gegenmaßnahmen gemäß den Anweisungen des Herstellers umsetzen und dabei die CISA-Vorgaben der BOD 26-04 „Prioritizing Security Updates Based on Risk“ sowie die „Forensics Triage Requirements“ der CISA einhalten (siehe URLs in den Hinweisen). Für Cloud-Dienste die geltenden Vorgaben der BOD 26-04 befolgen oder das Produkt nicht mehr verwenden, falls keine Gegenmaßnahmen verfügbar sind. Die Verantwortlichen müssen die Internet-Exponierung jedes Systems bewerten und die Patch-Vorgaben der BOD 26-04 einhalten.",
+    "fr": "Appliquer les mesures d'atténuation conformément aux instructions de l'éditeur, en respectant la directive BOD 26-04 de la CISA « Prioritizing Security Updates Based on Risk » et les « Forensics Triage Requirements » de la CISA (voir les URL dans les notes). Suivre les consignes applicables de la BOD 26-04 pour les services cloud ou cesser d'utiliser le produit si aucune mesure n'est disponible. Les responsables doivent évaluer l'exposition à Internet de chaque actif et respecter les règles de correction de la BOD 26-04.",
+    "ar": "طبّق إجراءات التخفيف وفق تعليمات المورّد مع الالتزام بتوجيه CISA رقم BOD 26-04 «ترتيب أولويات التحديثات الأمنية حسب المخاطر» وبـ«متطلبات الفرز الجنائي» الصادرة عن CISA (انظر الروابط في الملاحظات). اتبع إرشادات BOD 26-04 الخاصة بالخدمات السحابية أو توقّف عن استخدام المنتج إذا لم تتوفر إجراءات تخفيف. وعلى الجهات المعنية تقييم مدى تعرّض كل أصل للإنترنت والالتزام بإرشادات التحديث في BOD 26-04.",
+    "ru": "Примените меры защиты согласно инструкциям производителя, соблюдая директиву CISA BOD 26-04 «Prioritizing Security Updates Based on Risk» и «Forensics Triage Requirements» CISA (ссылки — в примечаниях). Для облачных сервисов следуйте требованиям BOD 26-04 или прекратите использование продукта, если меры защиты недоступны. Ответственные лица должны оценить доступность каждого актива из интернета и соблюдать требования BOD 26-04 к установке патчей."
+  },
+  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.": {
+    "de": "Gegenmaßnahmen gemäß den Anweisungen des Herstellers umsetzen oder das Produkt nicht mehr verwenden, falls keine Gegenmaßnahmen verfügbar sind.",
+    "fr": "Appliquer les mesures d'atténuation conformément aux instructions de l'éditeur ou cesser d'utiliser le produit si aucune mesure n'est disponible.",
+    "ar": "طبّق إجراءات التخفيف وفق تعليمات المورّد أو توقّف عن استخدام المنتج إذا لم تتوفر إجراءات تخفيف.",
+    "ru": "Примените меры защиты согласно инструкциям производителя или прекратите использование продукта, если меры защиты недоступны."
+  },
+  "The impacted product is end-of-life and should be disconnected if still in use.": {
+    "de": "Das betroffene Produkt wird nicht mehr unterstützt (End-of-Life) und sollte vom Netz getrennt werden, falls es noch genutzt wird.",
+    "fr": "Le produit concerné est en fin de vie et doit être déconnecté s'il est encore utilisé.",
+    "ar": "انتهى عمر المنتج المتأثر (End-of-Life) ويجب فصله إذا كان لا يزال قيد الاستخدام.",
+    "ru": "Поддержка затронутого продукта прекращена (End-of-Life); если он ещё используется, его следует отключить."
+  },
+  "The impacted product is end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue utilization of the product.": {
+    "de": "Das betroffene Produkt hat das Ende seiner Lebensdauer (EoL) und/oder seines Supports (EoS) erreicht. Nutzer sollten es nicht mehr verwenden.",
+    "fr": "Le produit concerné est en fin de vie (EoL) et/ou en fin de service (EoS). Les utilisateurs doivent cesser de l'utiliser.",
+    "ar": "انتهى عمر المنتج المتأثر (EoL) و/أو انتهت خدمته (EoS). يجب على المستخدمين التوقف عن استخدامه.",
+    "ru": "Жизненный цикл (EoL) и/или обслуживание (EoS) затронутого продукта завершены. Пользователям следует прекратить его использование."
+  },
+  "This vulnerability affects legacy D-Link products. All associated hardware revisions have reached their end-of-life (EOL) or end-of-service (EOS) life cycle and should be retired and replaced per vendor instructions.": {
+    "de": "Diese Schwachstelle betrifft ältere D-Link-Produkte. Alle betroffenen Hardware-Revisionen haben das Ende ihrer Lebensdauer (EOL) bzw. ihres Supports (EOS) erreicht und sollten gemäß den Anweisungen des Herstellers außer Betrieb genommen und ersetzt werden.",
+    "fr": "Cette vulnérabilité touche d'anciens produits D-Link. Toutes les révisions matérielles concernées sont en fin de vie (EOL) ou de service (EOS) et doivent être retirées et remplacées conformément aux instructions de l'éditeur.",
+    "ar": "تؤثر هذه الثغرة على منتجات D-Link القديمة. وقد وصلت جميع إصدارات العتاد المرتبطة بها إلى نهاية العمر (EOL) أو نهاية الخدمة (EOS)، ويجب إخراجها من الخدمة واستبدالها وفق تعليمات المورّد.",
+    "ru": "Уязвимость затрагивает устаревшие продукты D-Link. Все соответствующие аппаратные ревизии сняты с поддержки (EOL/EOS) и должны быть выведены из эксплуатации и заменены согласно инструкциям производителя."
+  },
+  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.": {
+    "de": "Updates gemäß den Anweisungen des Herstellers einspielen oder das Produkt nicht mehr verwenden, falls keine Updates verfügbar sind.",
+    "fr": "Appliquer les mises à jour conformément aux instructions de l'éditeur ou cesser d'utiliser le produit si aucune mise à jour n'est disponible.",
+    "ar": "طبّق التحديثات وفق تعليمات المورّد أو توقّف عن استخدام المنتج إذا لم تتوفر تحديثات.",
+    "ru": "Установите обновления согласно инструкциям производителя или прекратите использование продукта, если обновления недоступны."
+  },
+  "Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.": {
+    "de": "Aus dem Internet erreichbare SharePoint-Server-Versionen, die das Ende ihrer Lebensdauer (EOL) bzw. ihres Supports (EOS) erreicht haben – darunter SharePoint Server 2013 und ältere –, vom Netz trennen. Für unterstützte Versionen die Gegenmaßnahmen der CISA und die Anweisungen des Herstellers befolgen (siehe URLs in den Hinweisen). Für Cloud-Dienste die Vorgaben der BOD 22-01 einhalten oder das Produkt nicht mehr verwenden, falls keine Gegenmaßnahmen verfügbar sind.",
+    "fr": "Déconnecter les versions de SharePoint Server exposées sur Internet qui sont en fin de vie (EOL) ou de service (EOS), y compris SharePoint Server 2013 et les versions antérieures. Pour les versions prises en charge, suivre les mesures d'atténuation de la CISA et les instructions de l'éditeur (voir les URL dans les notes). Respecter les consignes de la BOD 22-01 pour les services cloud ou cesser d'utiliser le produit si aucune mesure n'est disponible.",
+    "ar": "افصل إصدارات SharePoint Server المكشوفة على الإنترنت التي وصلت إلى نهاية العمر (EOL) أو نهاية الخدمة (EOS)، بما في ذلك SharePoint Server 2013 والإصدارات الأقدم. أما الإصدارات المدعومة فاتبع إجراءات التخفيف الصادرة عن CISA وتعليمات المورّد (انظر الروابط في الملاحظات). والتزم بإرشادات BOD 22-01 الخاصة بالخدمات السحابية أو توقّف عن استخدام المنتج إذا لم تتوفر إجراءات تخفيف.",
+    "ru": "Отключите доступные из интернета версии SharePoint Server с завершённым жизненным циклом (EOL) или обслуживанием (EOS), включая SharePoint Server 2013 и более ранние. Для поддерживаемых версий примените меры защиты CISA и следуйте инструкциям производителя (ссылки — в примечаниях). Соблюдайте требования BOD 22-01 для облачных сервисов или прекратите использование продукта, если меры защиты недоступны."
+  },
+  "The impacted products are end-of-life and should be disconnected if still in use.": {
+    "de": "Die betroffenen Produkte werden nicht mehr unterstützt (End-of-Life) und sollten vom Netz getrennt werden, falls sie noch genutzt werden.",
+    "fr": "Les produits concernés sont en fin de vie et doivent être déconnectés s'ils sont encore utilisés.",
+    "ar": "انتهى عمر المنتجات المتأثرة (End-of-Life) ويجب فصلها إذا كانت لا تزال قيد الاستخدام.",
+    "ru": "Поддержка затронутых продуктов прекращена (End-of-Life); если они ещё используются, их следует отключить."
+  },
+  "Verify that instances of Cisco IOS XE Web UI are in compliance with BOD 23-02 and apply mitigations per vendor instructions. For affected products (Cisco IOS XE Web UI exposed to the internet or to untrusted networks), follow vendor instructions to determine if a system may have been compromised and immediately report positive findings to CISA.": {
+    "de": "Prüfen, ob Instanzen der Cisco IOS XE Web UI die Vorgaben der BOD 23-02 erfüllen, und Gegenmaßnahmen gemäß den Anweisungen des Herstellers umsetzen. Bei betroffenen Produkten (Cisco IOS XE Web UI aus dem Internet oder aus nicht vertrauenswürdigen Netzen erreichbar) anhand der Herstelleranweisungen prüfen, ob ein System kompromittiert wurde, und positive Befunde sofort der CISA melden.",
+    "fr": "Vérifier que les instances de l'interface Web Cisco IOS XE respectent la BOD 23-02 et appliquer les mesures d'atténuation conformément aux instructions de l'éditeur. Pour les produits concernés (interface Web Cisco IOS XE exposée à Internet ou à des réseaux non fiables), suivre les instructions de l'éditeur pour déterminer si un système a pu être compromis et signaler immédiatement tout résultat positif à la CISA.",
+    "ar": "تحقّق من التزام نسخ واجهة الويب Cisco IOS XE بالتوجيه BOD 23-02، وطبّق إجراءات التخفيف وفق تعليمات المورّد. وفي المنتجات المتأثرة (واجهة Cisco IOS XE المكشوفة على الإنترنت أو على شبكات غير موثوقة)، اتبع تعليمات المورّد لمعرفة ما إذا كان النظام قد اختُرق، وأبلغ CISA فورًا بأي نتيجة إيجابية.",
+    "ru": "Убедитесь, что экземпляры веб-интерфейса Cisco IOS XE соответствуют BOD 23-02, и примените меры защиты согласно инструкциям производителя. Для затронутых продуктов (веб-интерфейс Cisco IOS XE, доступный из интернета или недоверенных сетей) проверьте по инструкциям производителя, не была ли система скомпрометирована, и немедленно сообщите CISA о положительных результатах."
+  },
+  "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.": {
+    "de": "Korrekturen oder Gegenmaßnahmen gemäß den Anweisungen des Herstellers umsetzen oder das Produkt nicht mehr verwenden, falls keine verfügbar sind.",
+    "fr": "Appliquer les correctifs ou mesures d'atténuation conformément aux instructions de l'éditeur, ou cesser d'utiliser le produit si aucun n'est disponible.",
+    "ar": "طبّق الإصلاحات أو إجراءات التخفيف وفق تعليمات المورّد، أو توقّف عن استخدام المنتج إذا لم تتوفر.",
+    "ru": "Примените исправления или меры защиты согласно инструкциям производителя или прекратите использование продукта, если они недоступны."
+  },
+  "As Ivanti CSA 4.6.x has reached End-of-Life status, users are urged to remove CSA 4.6.x from service or upgrade to the 5.0.x line, or later, of supported solution.": {
+    "de": "Da Ivanti CSA 4.6.x das Ende seiner Lebensdauer erreicht hat, sollten Nutzer CSA 4.6.x außer Betrieb nehmen oder auf die unterstützte Version 5.0.x oder neuer aktualisieren.",
+    "fr": "Ivanti CSA 4.6.x étant en fin de vie, il est vivement recommandé de le retirer du service ou de passer à la branche 5.0.x ou ultérieure, qui est prise en charge.",
+    "ar": "نظرًا لانتهاء عمر Ivanti CSA 4.6.x، يُنصح المستخدمون بشدة بإخراجه من الخدمة أو الترقية إلى الإصدار 5.0.x أو أحدث من الإصدارات المدعومة.",
+    "ru": "Поскольку жизненный цикл Ivanti CSA 4.6.x завершён, настоятельно рекомендуется вывести CSA 4.6.x из эксплуатации или перейти на поддерживаемую ветку 5.0.x или новее."
+  },
+  "The KEV due date refers to the deadline by which FCEB agencies are expected to review and begin implementing the guidance outlined in Emergency Directive (ED) 25-03 (URL listed below in Notes). Agencies must follow the mitigation steps provided by CISA (URL listed below in Notes) and vendor’s instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.": {
+    "de": "Das KEV-Fälligkeitsdatum ist die Frist, bis zu der US-Bundesbehörden (FCEB) die Vorgaben der Emergency Directive (ED) 25-03 prüfen und mit der Umsetzung beginnen müssen (siehe URL in den Hinweisen). Die Behörden müssen die Gegenmaßnahmen der CISA und die Anweisungen des Herstellers befolgen (siehe URLs in den Hinweisen). Für Cloud-Dienste die Vorgaben der BOD 22-01 einhalten oder das Produkt nicht mehr verwenden, falls keine Gegenmaßnahmen verfügbar sind.",
+    "fr": "La date d'échéance KEV correspond au délai dont disposent les agences fédérales américaines (FCEB) pour examiner et commencer à appliquer les consignes de la directive d'urgence (ED) 25-03 (voir l'URL dans les notes). Les agences doivent suivre les mesures d'atténuation de la CISA et les instructions de l'éditeur (voir les URL dans les notes). Respecter les consignes de la BOD 22-01 pour les services cloud ou cesser d'utiliser le produit si aucune mesure n'est disponible.",
+    "ar": "يشير الموعد النهائي في KEV إلى المهلة التي يجب على الجهات الفيدرالية الأمريكية (FCEB) خلالها مراجعة إرشادات التوجيه الطارئ ED 25-03 والبدء في تطبيقها (انظر الرابط في الملاحظات). ويجب على الجهات اتباع خطوات التخفيف الصادرة عن CISA وتعليمات المورّد (انظر الروابط في الملاحظات). والتزم بإرشادات BOD 22-01 الخاصة بالخدمات السحابية أو توقّف عن استخدام المنتج إذا لم تتوفر إجراءات تخفيف.",
+    "ru": "Срок KEV — это дата, к которой федеральные ведомства США (FCEB) должны изучить и начать выполнять требования экстренной директивы ED 25-03 (ссылка — в примечаниях). Ведомства обязаны применить меры защиты CISA и следовать инструкциям производителя (ссылки — в примечаниях). Соблюдайте требования BOD 22-01 для облачных сервисов или прекратите использование продукта, если меры защиты недоступны."
+  }
+}

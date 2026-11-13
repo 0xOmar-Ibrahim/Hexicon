@@ -12,6 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
+import { readNvdFeed } from './lib-nvd.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = path.join(ROOT, 'data/cves');
@@ -82,9 +83,8 @@ if (FEEDS) {
       if (!res.ok) { console.warn(`! feed ${year}: HTTP ${res.status}`); continue; }
       fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
     }
-    const feed = JSON.parse(zlib.gunzipSync(fs.readFileSync(file)).toString('utf8'));
     let hits = 0;
-    for (const v of feed.vulnerabilities ?? []) if (wanted.has(v.cve.id)) { feedCves.set(v.cve.id, v.cve); hits++; }
+    for (const v of readNvdFeed(file, wanted)) { feedCves.set(v.cve.id, v.cve); hits++; }
     console.log(`feed ${year}: ${hits} matching CVEs`);
   }
 }

@@ -621,3 +621,12 @@ body.cv-open { overflow: hidden; }
 }
 
 html[lang="ar"] .cv-id span { font-family: var(--font-body); }
+
+/* new KEV additions, CISA instruction, inferred ATT&CK */
+.new-tag { display: inline-block; margin-inline-start: 8px; font: 700 10.5px var(--font-body); letter-spacing: .04em; padding: 1px 8px; border-radius: 5px;
+  color: var(--bg); background: var(--teal); vertical-align: 2px; }
+.cv-id .new-tag { color: var(--bg); }
+.cv-cisa { margin-top: 12px; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--line-strong); background: var(--surface); }
+.cv-cisa b { display: block; font-size: 13px; color: var(--brass); margin-bottom: 4px; }
+.cv-cisa p { margin: 0; }
+.cv-attack li.inferred { border-style: dashed; }

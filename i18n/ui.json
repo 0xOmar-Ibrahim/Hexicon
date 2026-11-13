@@ -213,7 +213,13 @@
     "cv.tag.release-notes": "Release notes",
     "cv.refs": "References",
     "cv.sources": "Data: NVD, CISA KEV, FIRST EPSS, Exploit-DB, Metasploit, ProjectDiscovery, Vulhub, SigmaHQ and MITRE CTID — refreshed weekly.",
-    "cv.updated": "updated"
+    "cv.updated": "updated",
+    "cv.new": "Newly exploited",
+    "cv.newbadge": "NEW",
+    "cv.newonly": "New only",
+    "cv.cisa": "CISA's instruction",
+    "cv.cisa.en": "This instruction is specific to this CVE and is shown in English.",
+    "cv.inferred": "Dashed techniques are inferred from the vulnerability type and attack vector — not an official MITRE mapping yet."
   },
   "de": {
     "langName": "Deutsch",
@@ -429,7 +435,13 @@
     "cv.tag.release-notes": "Versionshinweise",
     "cv.refs": "Quellen",
     "cv.sources": "Daten: NVD, CISA KEV, FIRST EPSS, Exploit-DB, Metasploit, ProjectDiscovery, Vulhub, SigmaHQ und MITRE CTID — wöchentlich aktualisiert.",
-    "cv.updated": "aktualisiert"
+    "cv.updated": "aktualisiert",
+    "cv.new": "Neu ausgenutzt",
+    "cv.newbadge": "NEU",
+    "cv.newonly": "Nur neue",
+    "cv.cisa": "Anweisung der CISA",
+    "cv.cisa.en": "Diese Anweisung gilt speziell für diese CVE und wird auf Englisch angezeigt.",
+    "cv.inferred": "Gestrichelte Techniken sind aus Schwachstellentyp und Angriffsvektor abgeleitet — noch keine offizielle MITRE-Zuordnung."
   },
   "fr": {
     "langName": "Français",
@@ -645,7 +657,13 @@
     "cv.tag.release-notes": "Notes de version",
     "cv.refs": "Références",
     "cv.sources": "Données : NVD, CISA KEV, FIRST EPSS, Exploit-DB, Metasploit, ProjectDiscovery, Vulhub, SigmaHQ et MITRE CTID — mises à jour chaque semaine.",
-    "cv.updated": "mis à jour le"
+    "cv.updated": "mis à jour le",
+    "cv.new": "Nouvellement exploitée",
+    "cv.newbadge": "NOUVEAU",
+    "cv.newonly": "Nouvelles seulement",
+    "cv.cisa": "Instruction de la CISA",
+    "cv.cisa.en": "Cette instruction est propre à cette CVE et s'affiche en anglais.",
+    "cv.inferred": "Les techniques en pointillé sont déduites du type de vulnérabilité et du vecteur d'attaque — pas encore de correspondance officielle MITRE."
   },
   "ar": {
     "langName": "العربية",
@@ -861,7 +879,13 @@
     "cv.tag.release-notes": "ملاحظات الإصدار",
     "cv.refs": "المراجع",
     "cv.sources": "البيانات: NVD و CISA KEV و FIRST EPSS و Exploit-DB و Metasploit و ProjectDiscovery و Vulhub و SigmaHQ و MITRE CTID — تُحدَّث أسبوعيًا.",
-    "cv.updated": "آخر تحديث"
+    "cv.updated": "آخر تحديث",
+    "cv.new": "مُستغلة حديثًا",
+    "cv.newbadge": "جديد",
+    "cv.newonly": "الجديدة فقط",
+    "cv.cisa": "تعليمات CISA",
+    "cv.cisa.en": "هذه التعليمات خاصة بهذه الثغرة وتُعرض بالإنجليزية.",
+    "cv.inferred": "التقنيات ذات الإطار المتقطع مستنتجة من نوع الثغرة ومتجه الهجوم — وليست ربطًا رسميًا من MITRE بعد."
   },
   "ru": {
     "langName": "Русский",
@@ -1077,6 +1101,12 @@
     "cv.tag.release-notes": "Примечания к выпуску",
     "cv.refs": "Источники",
     "cv.sources": "Данные: NVD, CISA KEV, FIRST EPSS, Exploit-DB, Metasploit, ProjectDiscovery, Vulhub, SigmaHQ и MITRE CTID — обновляются еженедельно.",
-    "cv.updated": "обновлено"
+    "cv.updated": "обновлено",
+    "cv.new": "Недавно эксплуатируется",
+    "cv.newbadge": "НОВОЕ",
+    "cv.newonly": "Только новые",
+    "cv.cisa": "Инструкция CISA",
+    "cv.cisa.en": "Эта инструкция относится только к этой CVE и показана на английском.",
+    "cv.inferred": "Техники с пунктирной рамкой выведены из типа уязвимости и вектора атаки — это ещё не официальное сопоставление MITRE."
   }
 }

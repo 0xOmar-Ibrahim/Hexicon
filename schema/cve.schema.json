@@ -253,6 +253,10 @@
           ]
         }
       }
+    },
+    "recent": {
+      "type": "boolean",
+      "description": "Added to CISA KEV recently but outside the top-N by EPSS; set by scripts/import-kev.mjs."
     }
   }
 }

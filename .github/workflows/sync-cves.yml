@@ -19,6 +19,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Import new KEV entries (top 1000 by EPSS + last 180 days)
+        run: npm run import:kev
       - run: npm run sync:cves -- --feeds
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}

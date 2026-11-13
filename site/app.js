@@ -300,7 +300,7 @@
 
   /* ---------------- TOP EXPLOITED CVEs (lazy) ---------------- */
   let KEV = null, kevLang = null, kevWired = false;
-  const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, p1: false, shown: 25 };
+  const kstate = { q: '', vendor: 'all', sev: 'all', sort: 'rank', rw: false, p1: false, nw: false, shown: 25 };
   const SEV = ['critical', 'high', 'medium', 'low'];
 
   // Loads the ranked CVE index for the current language (cves.<lang>.json).
@@ -325,6 +325,7 @@
     $('#kev-rows').addEventListener('click', openRow);
     $('#kev-rows').addEventListener('keydown', (e) => { if (e.key === 'Enter') openRow(e); });
     $('#k-p1').addEventListener('change', (e) => { kstate.p1 = e.target.checked; kstate.shown = 25; renderKev(); });
+    $('#k-new').addEventListener('change', (e) => { kstate.nw = e.target.checked; kstate.shown = 25; renderKev(); });
   }
 
   function renderKevControls() {
@@ -346,6 +347,7 @@
       (kstate.sev === 'all' || c.sv === kstate.sev) &&
       (!kstate.rw || c.rw) &&
       (!kstate.p1 || c.pr === 'P1') &&
+      (!kstate.nw || c.nw) &&
       (!kstate.q || `${c.id} ${c.n} ${c.o ?? ''} ${c.v} ${c.p}`.toLowerCase().includes(kstate.q)));
     if (kstate.sort === 'cvss') list = [...list].sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.r - b.r);
     if (kstate.sort === 'newest') list = [...list].sort((a, b) => (b.kev ?? '').localeCompare(a.kev ?? '') || a.r - b.r);
@@ -353,9 +355,9 @@
     $('#kmore').hidden = kstate.shown >= list.length;
     $('#kev-rows').innerHTML = list.slice(0, kstate.shown).map((c) => `
       <tr class="krow" tabindex="0" data-id="${esc(c.id)}">
-        <td class="krank">${c.r}</td>
+        <td class="krank">${c.r ?? '·'}</td>
         <td class="kid"><a href="https://nvd.nist.gov/vuln/detail/${esc(c.id)}" target="_blank" rel="noopener noreferrer">${esc(c.id)}</a>${c.c ? ` <span class="kcur" title="${esc(t('cve.deep.title'))}">★</span>` : ''}</td>
-        <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong><span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}${c.pr ? `<span class="prio ${esc(c.pr)}">${esc(t('cv.prio.' + c.pr))}</span>` : ''}</td>
+        <td class="kname"><strong${c.o ? ` title="${esc(c.o)}"` : ''}>${esc(c.n)}</strong>${c.nw ? `<span class="new-tag">${esc(t('cv.newbadge'))}</span>` : ''}<span>${esc([c.v, c.p].filter(Boolean).join(' · '))}</span>${c.rw ? `<span class="krw">${esc(t('cve.rw'))}</span>` : ''}${c.pr ? `<span class="prio ${esc(c.pr)}">${esc(t('cv.prio.' + c.pr))}</span>` : ''}</td>
         <td><span class="kscore" style="--sev:${sevColor(c.sv)}">${c.s != null ? esc(Number(c.s).toFixed(1)) : '—'}</span></td>
         <td class="kepss"><span class="kbar"><i style="width:${Math.round((c.e ?? 0) * 100)}%"></i></span>${c.e != null ? (c.e * 100).toFixed(1) + '%' : '—'}</td>
         <td class="kdate">${esc(c.kev ?? '')}</td>
@@ -425,7 +427,7 @@
     // Header
     let h = `
       <header class="cv-head" style="--sev:${sevColor(sev)}">
-        <p class="cv-id">${esc(c.id)}${c.rank ? ` · <span>#${c.rank} ${esc(t('cv.ranked'))}</span>` : ''}</p>
+        <p class="cv-id">${esc(c.id)}${c.rank ? ` · <span>#${c.rank} ${esc(t('cv.ranked'))}</span>` : c.recent ? ` · <span class="new-tag">${esc(t('cv.new'))}</span>` : ''}</p>
         <h2 id="cv-title">${esc(title)}</h2>
         ${subtitle ? `<p class="cv-sub">${esc(subtitle)}</p>` : ''}
         ${vendor ? `<p class="cv-vendor">${esc([vendor.vendor, vendor.product].filter(Boolean).join(' · '))}</p>` : ''}
@@ -482,15 +484,20 @@
       `<li>${ext(`https://github.com/projectdiscovery/nuclei-templates/blob/main/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Nuclei</span></li>`).join('')}</ul></div>`);
     if (I.labs?.vulhub?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.lab'))}</h4><p>${esc(t('cv.lab.d'))}</p><ul class="cv-links">${I.labs.vulhub.map((p) =>
       `<li>${ext(`https://github.com/vulhub/vulhub/tree/master/${p}`, `<span class="mono">${esc(p)}</span>`)}<span>Vulhub · Docker</span></li>`).join('')}</ul></div>`);
-    if (I.detections?.sigma?.count) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.detect'))} <em>${I.detections.sigma.count}</em></h4><p>${esc(t('cv.detect.d'))}</p><ul class="cv-links">${I.detections.sigma.items.map((p) =>
-      `<li>${ext(`https://github.com/SigmaHQ/sigma/blob/master/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Sigma</span></li>`).join('')}</ul></div>`);
+    const sg = I.detections?.sigma, el = I.detections?.elastic;
+    const detCount = (sg?.count ?? 0) + (el?.count ?? 0);
+    if (detCount) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.detect'))} <em>${detCount}</em></h4><p>${esc(t('cv.detect.d'))}</p><ul class="cv-links">${[
+      ...(sg?.items ?? []).map((p) => `<li>${ext(`https://github.com/SigmaHQ/sigma/blob/master/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Sigma</span></li>`),
+      ...(el?.items ?? []).map((p) => `<li>${ext(`https://github.com/elastic/detection-rules/blob/main/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Elastic</span></li>`),
+    ].join('')}</ul></div>`);
     if (tools.length) h += cvSection('radar', t('cv.tools'), `<div class="cv-tools">${tools.join('')}</div>`);
 
     // ATT&CK
     const techs = I.attack?.length ? I.attack : (c.mitre_attack ?? []).map((tid) => ({ id: tid, name: '', role: '' }));
     if (techs.length) {
       h += cvSection('crosshair', t('cv.attack'), `<ul class="cv-attack">${techs.map((a) =>
-        `<li>${ext(attackUrl(a.id), `<b class="mono">${esc(a.id)}</b> ${esc(a.name ?? '')}`)}${a.role ? `<span>${esc(t('cv.role.' + a.role) || a.role)}</span>` : ''}</li>`).join('')}</ul>`);
+        `<li class="${a.inferred ? 'inferred' : ''}">${ext(attackUrl(a.id), `<b class="mono">${esc(a.id)}</b> ${esc(a.name ?? '')}`)}${a.role ? `<span>${esc(t('cv.role.' + a.role) || a.role)}</span>` : ''}</li>`).join('')}</ul>
+        ${techs.some((a) => a.inferred) ? `<p class="cv-note">${esc(t('cv.inferred'))}</p>` : ''}`);
     }
 
     // Fix it
@@ -500,7 +507,13 @@
       ${fix.due_date ? `<p class="cv-due">${esc(t('cv.due'))}: <b>${esc(fix.due_date)}</b></p>` : ''}
       ${fix.references?.length ? `<ul class="cv-links">${fix.references.map((r) =>
         `<li>${ext(r.url, esc(r.url.replace(/^https:\/\/(www\.)?/, '').slice(0, 90)))}<span>${esc((r.tags ?? []).map((x) => t('cv.tag.' + x.toLowerCase().replace(/\s+/g, '-'))).join(' · '))}</span></li>`).join('')}</ul>` : ''}
-      ${fix.required_action ? `<details class="cv-orig"><summary>${esc(t('cv.fix.cisa'))}</summary><p>${esc(fix.required_action)}</p></details>` : ''}`);
+      ${fix.required_action ? (() => {
+        const local = state.lang !== 'en' ? fix.required_action_i18n?.[state.lang] : null;
+        const shown = local || fix.required_action;
+        return `<div class="cv-cisa"><b>${esc(t('cv.cisa'))}</b><p>${esc(shown)}</p>
+          ${local ? `<details class="cv-orig"><summary>${esc(t('cv.original'))}</summary><p>${esc(fix.required_action)}</p></details>`
+            : state.lang !== 'en' ? `<p class="cv-note">${esc(t('cv.cisa.en'))}</p>` : ''}</div>`;
+      })() : ''}`);
 
     // References (curated pages have hand-picked ones)
     const refs = [{ kind: 'advisory', url: nvdUrl(c.id), title: 'NVD' }, ...(c.references ?? []).filter((r) => !r.url.includes('nvd.nist.gov'))];
