@@ -4,8 +4,9 @@
 //   required action & due date            CISA Known Exploited Vulnerabilities catalog
 //   public exploit availability           Exploit-DB index, Metasploit module metadata (links only, no code)
 //   scanner templates                     ProjectDiscovery nuclei-templates
-//   practice labs                         Vulhub
-//   detection rules                       SigmaHQ
+//   practice labs                         Vulhub, Metarget (Kubernetes), Hack The Box walkthroughs (0xdf, IppSec)
+//   root-cause analysis                   Google Project Zero (0-days in the wild)
+//   detection rules                       SigmaHQ, Elastic detection-rules (full rule content)
 //   ATT&CK techniques                     MITRE CTID Mappings Explorer (KEV → ATT&CK)
 //   patch priority                        computed here from KEV, ransomware use, EPSS and CVSS
 //
@@ -31,6 +32,10 @@ const SOURCES = {
   exploitdb: 'https://gitlab.com/exploit-database/exploitdb/-/raw/main/files_exploits.csv',
   metasploit: 'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/db/modules_metadata_base.json',
   vulhub: 'https://api.github.com/repos/vulhub/vulhub/git/trees/master?recursive=1',
+  metarget: 'https://api.github.com/repos/Metarget/metarget/git/trees/master?recursive=1',
+  p0: 'https://api.github.com/repos/googleprojectzero/0days-in-the-wild/git/trees/main?recursive=1',
+  oxdf: 'https://0xdf.gitlab.io/tags.html',
+  ippsec: 'https://raw.githubusercontent.com/IppSec/ippsec.github.io/master/dataset.json',
   ctid: 'https://raw.githubusercontent.com/center-for-threat-informed-defense/mappings-explorer/main/mappings/kev/attack-16.1/kev-07.28.2025/enterprise/kev-07.28.2025_attack-16.1-enterprise.json',
   kev: 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json',
 };
@@ -105,6 +110,43 @@ for (const e of JSON.parse(await cached('vulhub.json', SOURCES.vulhub)).tree ?? 
   if (e.type !== 'tree') continue;
   const m = /(?:^|\/)CVE-(\d{4})-(\d+)$/i.exec(e.path);
   if (m && ids.has(norm(m[1], m[2]))) push(vulhub, norm(m[1], m[2]), e.path);
+}
+
+// --- Metarget: cloud-native vulnerable scenarios (directory per CVE)
+const metarget = new Map();
+for (const e of JSON.parse(await cached('metarget.json', SOURCES.metarget)).tree ?? []) {
+  const m = e.type === 'tree' && /(?:^|\/)CVE-(\d{4})-(\d+)$/i.exec(e.path);
+  if (m && ids.has(norm(m[1], m[2]))) push(metarget, norm(m[1], m[2]), e.path);
+}
+
+// --- Retired Hack The Box machines where the CVE is part of the path (0xdf write-ups, IppSec videos)
+const htb = new Map();
+{
+  const page = await cached('0xdf-tags.html', SOURCES.oxdf);
+  const start = page.indexOf('{', page.indexOf('id="tagdata"'));
+  const posts = start > 0 ? JSON.parse(page.slice(start, page.indexOf('</script>', start))).posts ?? [] : [];
+  for (const [title, url, date, tags] of posts) {
+    for (const tag of String(tags).split(',')) {
+      const m = /^cve-(\d{4})-(\d+)$/i.exec(tag.trim());
+      if (m && ids.has(norm(m[1], m[2]))) push(htb, norm(m[1], m[2]), { title, url: new URL(url, SOURCES.oxdf).href, date: /\/(\d{4})\/(\d{2})\/(\d{2})\//.exec(url)?.slice(1).join('-') ?? date });
+    }
+  }
+}
+const ippsec = new Map();
+for (const v of JSON.parse(await cached('ippsec.json', SOURCES.ippsec))) {
+  for (const [sec, text] of v.lines ?? []) {
+    for (const m of String(text).matchAll(CVE_RE)) {
+      const id = norm(m[1], m[2]);
+      if (ids.has(id) && !(ippsec.get(id) ?? []).some((x) => x.video === v.id)) push(ippsec, id, { title: v.title, video: v.id, t: sec });
+    }
+  }
+}
+
+// --- Google Project Zero root-cause analyses of 0-days exploited in the wild
+const p0 = new Map();
+for (const e of JSON.parse(await cached('p0.json', SOURCES.p0)).tree ?? []) {
+  const m = e.type === 'blob' && /CVE-(\d{4})-(\d+)\.md$/i.exec(e.path);
+  if (m && ids.has(norm(m[1], m[2]))) push(p0, norm(m[1], m[2]), e.path);
 }
 
 // --- Detection rules: search the full content of every rule, not only file names.
@@ -291,7 +333,7 @@ const productWords = (doc) => String(doc.get('affected')?.toJSON?.()?.[0]?.produ
   .toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 2 && !/^(and|the|for|server|software|multiple|products?)$/.test(w));
 const relevance = (text, words) => words.filter((w) => text.toLowerCase().includes(w)).length;
 let changed = 0;
-const stats = { exploitdb: 0, metasploit: 0, nuclei: 0, vulhub: 0, sigma: 0, elastic: 0, detect: 0, attack: 0, attackInferred: 0, affected: 0, P1: 0, P2: 0, P3: 0 };
+const stats = { exploitdb: 0, metasploit: 0, nuclei: 0, vulhub: 0, metarget: 0, htb: 0, labs: 0, p0: 0, sigma: 0, elastic: 0, detect: 0, attack: 0, attackInferred: 0, affected: 0, P1: 0, P2: 0, P3: 0 };
 
 for (const file of files) {
   const id = path.basename(file, '.yml');
@@ -311,6 +353,10 @@ for (const file of files) {
   const ms = msf.get(id) ?? [];
   const nu = [...new Set(nuclei.get(id) ?? [])];
   const vh = [...new Set(vulhub.get(id) ?? [])];
+  const mt = [...new Set(metarget.get(id) ?? [])];
+  const hb = (htb.get(id) ?? []).sort((a, b) => b.date.localeCompare(a.date));
+  const ip = ippsec.get(id) ?? [];
+  const rca = p0.get(id) ?? [];
   const sg = sigma.get(id) ?? [];
   const el = elastic.get(id) ?? [];
   const at = attack.get(id)?.length ? attack.get(id) : inferAttack(doc.get('vuln_type'), official?.cvss?.vector);
@@ -326,7 +372,13 @@ for (const file of files) {
       metasploit: cap(ms.map(({ name, type, rank }) => ({ name, type, ...(rank && { rank }) })), 5),
     },
     ...(nu.length && { scanners: { nuclei: nu.slice(0, 5) } }),
-    ...(vh.length && { labs: { vulhub: vh.slice(0, 5) } }),
+    ...((vh.length || mt.length || hb.length || ip.length) && { labs: {
+      ...(vh.length && { vulhub: vh.slice(0, 5) }),
+      ...(mt.length && { metarget: mt.slice(0, 3) }),
+      ...(hb.length && { htb: hb.slice(0, 4) }),
+      ...(ip.length && { ippsec: ip.slice(0, 4) }),
+    } }),
+    ...(rca.length && { analysis: { project_zero: rca.slice(0, 2) } }),
     ...((sg.length || el.length) && { detections: { ...(sg.length && { sigma: cap(sg, 8) }), ...(el.length && { elastic: cap(el, 6) }) } }),
     ...(at.length && { attack: at }),
     fix: {
@@ -339,7 +391,9 @@ for (const file of files) {
   };
 
   stats.exploitdb += e.length > 0; stats.metasploit += ms.length > 0; stats.nuclei += nu.length > 0;
-  stats.vulhub += vh.length > 0; stats.sigma += sg.length > 0; stats.elastic += el.length > 0; stats.detect += (sg.length || el.length) > 0;
+  stats.vulhub += vh.length > 0; stats.metarget += mt.length > 0; stats.htb += (hb.length || ip.length) > 0;
+  stats.labs += (vh.length || mt.length || hb.length || ip.length) > 0; stats.p0 += rca.length > 0;
+  stats.sigma += sg.length > 0; stats.elastic += el.length > 0; stats.detect += (sg.length || el.length) > 0;
   stats.attack += at.length > 0; stats.attackInferred += at.some((x) => x.inferred); stats.affected += aff.length > 0;
   stats[prio.level]++;
 
@@ -355,6 +409,8 @@ const pct = (n) => `${n} (${Math.round((n / ids.size) * 100)}%)`;
 console.log(`Done — ${changed} pages updated.
   affected versions ${pct(stats.affected)} · ATT&CK ${pct(stats.attack)} (inferred ${stats.attackInferred})
   public exploit: Exploit-DB ${pct(stats.exploitdb)} · Metasploit ${pct(stats.metasploit)}
-  Nuclei templates ${pct(stats.nuclei)} · Vulhub labs ${pct(stats.vulhub)}
+  Nuclei templates ${pct(stats.nuclei)}
+  practice ${pct(stats.labs)} — Vulhub ${pct(stats.vulhub)} · Metarget ${pct(stats.metarget)} · Hack The Box ${pct(stats.htb)}
+  Project Zero root-cause analyses ${pct(stats.p0)}
   detections ${pct(stats.detect)} — Sigma ${pct(stats.sigma)} · Elastic ${pct(stats.elastic)}
   priority: P1 ${stats.P1} · P2 ${stats.P2} · P3 ${stats.P3}`);

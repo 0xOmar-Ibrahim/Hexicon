@@ -514,8 +514,18 @@
     const tools = [];
     if (I.scanners?.nuclei?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.check'))}</h4><p>${esc(t('cv.check.d'))}</p><ul class="cv-links">${I.scanners.nuclei.map((p) =>
       `<li>${ext(`https://github.com/projectdiscovery/nuclei-templates/blob/main/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Nuclei</span></li>`).join('')}</ul></div>`);
-    if (I.labs?.vulhub?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.lab'))}</h4><p>${esc(t('cv.lab.d'))}</p><ul class="cv-links">${I.labs.vulhub.map((p) =>
-      `<li>${ext(`https://github.com/vulhub/vulhub/tree/master/${p}`, `<span class="mono">${esc(p)}</span>`)}<span>Vulhub · Docker</span></li>`).join('')}</ul></div>`);
+    const L = I.labs ?? {};
+    if (L.vulhub?.length || L.metarget?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.lab'))}</h4><p>${esc(t('cv.lab.d'))}</p><ul class="cv-links">${[
+      ...(L.vulhub ?? []).map((p) => `<li>${ext(`https://github.com/vulhub/vulhub/tree/master/${p}`, `<span class="mono">${esc(p)}</span>`)}<span>Vulhub · Docker</span></li>`),
+      ...(L.metarget ?? []).map((p) => `<li>${ext(`https://github.com/Metarget/metarget/tree/master/${p}`, `<span class="mono">${esc(p)}</span>`)}<span>Metarget · Kubernetes</span></li>`),
+    ].join('')}</ul></div>`);
+    const mmss = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+    if (L.htb?.length || L.ippsec?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.htb'))}</h4><p>${esc(t('cv.htb.d'))}</p><ul class="cv-links">${[
+      ...(L.htb ?? []).map((w) => `<li>${ext(w.url, esc(w.title))}<span>0xdf · ${esc(t('cv.writeup'))} · ${esc(w.date ?? '')}</span></li>`),
+      ...(L.ippsec ?? []).map((v) => `<li>${ext(`https://www.youtube.com/watch?v=${encodeURIComponent(v.video)}&t=${Number(v.t) || 0}`, esc(v.title))}<span>IppSec · ${esc(t('cv.video'))} · ${mmss(Number(v.t) || 0)}</span></li>`),
+    ].join('')}</ul></div>`);
+    if (I.analysis?.project_zero?.length) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.rca'))}</h4><p>${esc(t('cv.rca.d'))}</p><ul class="cv-links">${I.analysis.project_zero.map((p) =>
+      `<li>${ext(`https://github.com/googleprojectzero/0days-in-the-wild/blob/main/${p}`, `<span class="mono">${esc(fname(p))}</span>`)}<span>Google Project Zero</span></li>`).join('')}</ul></div>`);
     const sg = I.detections?.sigma, el = I.detections?.elastic;
     const detCount = (sg?.count ?? 0) + (el?.count ?? 0);
     if (detCount) tools.push(`<div class="cv-tool"><h4>${esc(t('cv.detect'))} <em>${detCount}</em></h4><p>${esc(t('cv.detect.d'))}</p><ul class="cv-links">${[
