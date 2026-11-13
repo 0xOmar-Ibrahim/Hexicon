@@ -22,6 +22,9 @@ const iso = (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v);
 
 const taxonomy = read(path.join(ROOT, 'data/taxonomy.yml'));
 
+// Generated quality signals (scripts/enrich-resources.mjs): stars, last push, archived, link health.
+const QUALITY = fs.existsSync(path.join(ROOT, 'data/resource-stats.json'))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/resource-stats.json'), 'utf8')) : {};
 const resources = walk(path.join(ROOT, 'data/resources')).map((f) => {
   const r = read(f);
   return {
@@ -38,6 +41,15 @@ const resources = walk(path.join(ROOT, 'data/resources')).map((f) => {
     tags: r.tags ?? [],
     featured: !!r.featured,
     added_on: iso(r.added_on),
+    ...(() => {
+      const q = QUALITY[`${r.domain}/${path.basename(f, '.yml')}`];
+      if (!q) return {};
+      return {
+        ...(q.repo?.stars != null && { stars: q.repo.stars }),
+        ...(q.repo?.pushed && { pushed: q.repo.pushed }),
+        ...(q.health && q.health !== 'unknown' && { health: q.health }),
+      };
+    })(),
   };
 });
 

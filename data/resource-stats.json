@@ -1,0 +1,7017 @@
+{
+ "ai-security/adversarial-robustness-toolbox": {
+  "repo": {
+   "name": "Trusted-AI/adversarial-robustness-toolbox",
+   "stars": 6311,
+   "forks": 1355,
+   "pushed": "2026-11-11",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/ai-village": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/anthropic-cybersecurity-skills-community": {
+  "repo": {
+   "name": "mukul975/Anthropic-Cybersecurity-Skills",
+   "stars": 35771,
+   "forks": 4359,
+   "pushed": "2026-08-31",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/claude-code-cybersecurity-skills-masriyan": {
+  "repo": {
+   "name": "Masriyan/Claude-Code-CyberSecurity-Skill",
+   "stars": 552,
+   "forks": 102,
+   "pushed": "2026-10-20",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/crucible-dreadnode": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/damn-vulnerable-llm-agent": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/embrace-the-red": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/explaining-and-harnessing-adversarial-examples": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/gandalf-lakera": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/garak": {
+  "repo": {
+   "name": "NVIDIA/garak",
+   "stars": 9916,
+   "forks": 1444,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/google-secure-ai-framework-saif": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/indirect-prompt-injection-greshake-et-al": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/llm-guard": {
+  "repo": {
+   "name": "protectai/llm-guard",
+   "stars": 3219,
+   "forks": 475,
+   "pushed": "2026-07-08",
+   "archived": true,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "archived"
+ },
+ "ai-security/mcp-scan": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/microsoft-ai-red-team": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/mitre-atlas": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/nemo-guardrails": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/nist-ai-risk-management-framework": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/offseccyber-dataset": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/owasp-ai-exchange": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/owasp-top-10-for-llm-applications": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/portswigger-web-llm-attacks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/promptfoo": {
+  "repo": {
+   "name": "promptfoo/promptfoo",
+   "stars": 27099,
+   "forks": 2719,
+   "pushed": "2026-11-12",
+   "archived": false,
+   "license": "mit",
+   "language": "TypeScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/purple-llama": {
+  "repo": {
+   "name": "meta-llama/PurpleLlama",
+   "stars": 4475,
+   "forks": 786,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/pyrit": {
+  "repo": {
+   "name": "Azure/PyRIT",
+   "stars": 123,
+   "forks": 34,
+   "pushed": "2026-03-25",
+   "archived": true,
+   "license": "mit",
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "archived"
+ },
+ "ai-security/simon-willison-on-prompt-injection": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ai-security/textattack": {
+  "repo": {
+   "name": "QData/TextAttack",
+   "stars": 3482,
+   "forks": 460,
+   "pushed": "2026-08-15",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ai-security/universal-and-transferable-adversarial-attacks-on-aligned-llms": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/alice-and-bob-learn-application-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/android-app-security-best-practices": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/bandit": {
+  "repo": {
+   "name": "PyCQA/bandit",
+   "stars": 8375,
+   "forks": 876,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/building-secure-and-reliable-systems": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/ci-cd-goat": {
+  "repo": {
+   "name": "cider-security-research/cicd-goat",
+   "stars": 2327,
+   "forks": 433,
+   "pushed": "2024-07-14",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "appsec/codeql": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/cosign": {
+  "repo": {
+   "name": "sigstore/cosign",
+   "stars": 6420,
+   "forks": 838,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/cwe-top-25-most-dangerous-software-weaknesses": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/cyclonedx": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/defectdojo": {
+  "repo": {
+   "name": "DefectDojo/django-DefectDojo",
+   "stars": 5227,
+   "forks": 2020,
+   "pushed": "2026-11-13",
+   "archived": false,
+   "license": "bsd-3-clause",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/gitleaks": {
+  "repo": {
+   "name": "gitleaks/gitleaks",
+   "stars": 30863,
+   "forks": 2359,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/grype": {
+  "repo": {
+   "name": "anchore/grype",
+   "stars": 13261,
+   "forks": 943,
+   "pushed": "2026-11-13",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/harden-runner": {
+  "repo": {
+   "name": "step-security/harden-runner",
+   "stars": 1295,
+   "forks": 124,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "TypeScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/microsoft-threat-modeling-tool": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/openssf-scorecard": {
+  "repo": {
+   "name": "ossf/scorecard",
+   "stars": 5816,
+   "forks": 765,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/osv-scanner": {
+  "repo": {
+   "name": "google/osv-scanner",
+   "stars": 11487,
+   "forks": 845,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/owasp-asvs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-cheat-sheet-series": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-code-review-guide": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-dependency-check": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-devsecops-guideline": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-samm": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-threat-dragon": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-top-10": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-top-10-ci-cd-security-risks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/owasp-wrongsecrets": {
+  "repo": {
+   "name": "OWASP/wrongsecrets",
+   "stars": 1474,
+   "forks": 658,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "HTML",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/pytm": {
+  "repo": {
+   "name": "OWASP/pytm",
+   "stars": 1191,
+   "forks": 235,
+   "pushed": "2026-11-01",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/semgrep": {
+  "repo": {
+   "name": "semgrep/semgrep",
+   "stars": 17617,
+   "forks": 1165,
+   "pushed": "2026-11-12",
+   "archived": false,
+   "license": "lgpl-2.1",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/slsa": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/snyk-learn": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/syft": {
+  "repo": {
+   "name": "anchore/syft",
+   "stars": 9855,
+   "forks": 1044,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "appsec/threat-modeling-designing-for-security-adam-shostack": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/threat-modeling-manifesto": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "appsec/trufflehog": {
+  "repo": {
+   "name": "trufflesecurity/trufflehog",
+   "stars": 28967,
+   "forks": 2702,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "career/0xdf-hacks-stuff": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/black-hat": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/black-hat-mea": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/bleepingcomputer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/blue-team-labs-online": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/cisco-networking-academy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/cissp": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/comptia-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/ctftime": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/cyberdefenders": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/cyberseek": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/cybrary": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/darknet-diaries": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/ghost-in-the-wires-kevin-mitnick": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/giac-certifications": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/google-cybersecurity-certificate": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/hack-the-box": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/hackropole": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/hexacon": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/htb-academy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/infosec-conferences": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/infosec-exchange": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/ippsec": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/ippsec-rocks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/isc2-certified-in-cybersecurity-cc": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/john-hammond": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/krebs-on-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/letsdefend": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/media-ccc-de": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/microsoft-learn-security-training": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/oscp-pen-200": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/overthewire-wargames": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/owasp-chapters": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/picoctf": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/r-netsec": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/risky-business": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/root-me": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/sandworm-andy-greenberg": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/sans-internet-storm-center": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/security-certification-roadmap-paul-jerimy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/security-engineering-interview-notes-grace-nolan": {
+  "repo": {
+   "name": "gracenolan/Notes",
+   "stars": 2742,
+   "forks": 506,
+   "pushed": "2026-02-02",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "career/the-art-of-deception-kevin-mitnick": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/the-cuckoo-s-egg-clifford-stoll": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/this-is-how-they-tell-me-the-world-ends": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/tl-dr-sec": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/tryhackme": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "career/vulnhub": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/aadinternals": {
+  "repo": {
+   "name": "Gerenios/AADInternals",
+   "stars": 1705,
+   "forks": 254,
+   "pushed": "2025-09-30",
+   "archived": false,
+   "license": "mit",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/aws-well-architected-security-pillar": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/awsgoat": {
+  "repo": {
+   "name": "ine-labs/AWSGoat",
+   "stars": 2055,
+   "forks": 1569,
+   "pushed": "2025-05-20",
+   "archived": false,
+   "license": "mit",
+   "language": "PHP",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/azuregoat": {
+  "repo": {
+   "name": "ine-labs/AzureGoat",
+   "stars": 967,
+   "forks": 257,
+   "pushed": "2024-10-30",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "cloud/azurehound": {
+  "repo": {
+   "name": "SpecterOps/AzureHound",
+   "stars": 983,
+   "forks": 152,
+   "pushed": "2026-10-16",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/checkov": {
+  "repo": {
+   "name": "bridgecrewio/checkov",
+   "stars": 9146,
+   "forks": 1463,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/cloudfox": {
+  "repo": {
+   "name": "BishopFox/cloudfox",
+   "stars": 2617,
+   "forks": 259,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/cloudgoat": {
+  "repo": {
+   "name": "RhinoSecurityLabs/cloudgoat",
+   "stars": 3776,
+   "forks": 777,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "bsd-3-clause",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/container-security-liz-rice": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/docker-bench-for-security": {
+  "repo": {
+   "name": "docker/docker-bench-security",
+   "stars": 9708,
+   "forks": 1030,
+   "pushed": "2026-06-04",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Shell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/docker-security-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/falco": {
+  "repo": {
+   "name": "falcosecurity/falco",
+   "stars": 9539,
+   "forks": 1100,
+   "pushed": "2026-10-30",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "C++",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/gcpgoat": {
+  "repo": {
+   "name": "ine-labs/GCPGoat",
+   "stars": 392,
+   "forks": 95,
+   "pushed": "2024-10-29",
+   "archived": false,
+   "license": "mit",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "cloud/google-cloud-security-best-practices": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/hacking-the-cloud": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/hadolint": {
+  "repo": {
+   "name": "hadolint/hadolint",
+   "stars": 12524,
+   "forks": 513,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Haskell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/kics": {
+  "repo": {
+   "name": "Checkmarx/kics",
+   "stars": 2731,
+   "forks": 385,
+   "pushed": "2026-11-03",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Open Policy Agent",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/kube-bench": {
+  "repo": {
+   "name": "aquasecurity/kube-bench",
+   "stars": 8246,
+   "forks": 1348,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/kubernetes-goat": {
+  "repo": {
+   "name": "madhuakula/kubernetes-goat",
+   "stars": 5950,
+   "forks": 1107,
+   "pushed": "2026-04-16",
+   "archived": false,
+   "license": "mit",
+   "language": "HTML",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/kubernetes-security-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/kubescape": {
+  "repo": {
+   "name": "kubescape/kubescape",
+   "stars": 11859,
+   "forks": 1096,
+   "pushed": "2026-11-11",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/owasp-kubernetes-top-10": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/pacu": {
+  "repo": {
+   "name": "RhinoSecurityLabs/pacu",
+   "stars": 5387,
+   "forks": 799,
+   "pushed": "2026-05-19",
+   "archived": false,
+   "license": "bsd-3-clause",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/prowler": {
+  "repo": {
+   "name": "prowler-cloud/prowler",
+   "stars": 15223,
+   "forks": 2492,
+   "pushed": "2026-11-11",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/pwned-labs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/roadtools": {
+  "repo": {
+   "name": "dirkjanm/ROADtools",
+   "stars": 2756,
+   "forks": 398,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/scoutsuite": {
+  "repo": {
+   "name": "nccgroup/ScoutSuite",
+   "stars": 7870,
+   "forks": 1235,
+   "pushed": "2025-09-23",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/tetragon": {
+  "repo": {
+   "name": "cilium/tetragon",
+   "stars": 5157,
+   "forks": 638,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cloud/thunder-ctf": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cloud/trivy": {
+  "repo": {
+   "name": "aquasecurity/trivy",
+   "stars": 39178,
+   "forks": 843,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/a-graduate-course-in-applied-cryptography": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/age": {
+  "repo": {
+   "name": "FiloSottile/age",
+   "stars": 24231,
+   "forks": 681,
+   "pushed": "2026-08-29",
+   "archived": false,
+   "license": "bsd-3-clause",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/bulletproof-tls-and-pki": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/certificate-transparency": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/crypto-101": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/cryptography-engineering-matthew-green": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/cryptography-i-dan-boneh-coursera": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/cryptography-stack-exchange": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/cryptohack": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/cryptopals-crypto-challenges": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/filippo-valsorda-s-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/khan-academy-cryptography": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/libsodium-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/mastering-ethereum": {
+  "repo": {
+   "name": "ethereumbook/ethereumbook",
+   "stars": 21539,
+   "forks": 5154,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/mozilla-ssl-configuration-generator": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/nist-post-quantum-cryptography": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/open-quantum-safe": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/practical-cryptography-for-developers": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/project-wycheproof": {
+  "repo": {
+   "name": "C2SP/wycheproof",
+   "stars": 3139,
+   "forks": 338,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/qualys-ssl-labs-server-test": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/real-world-cryptography": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/sagemath": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/serious-cryptography-2nd-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/smallstep-certificates-step-ca": {
+  "repo": {
+   "name": "smallstep/certificates",
+   "stars": 9043,
+   "forks": 615,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/testssl-sh": {
+  "repo": {
+   "name": "testssl/testssl.sh",
+   "stars": 9265,
+   "forks": 1159,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Shell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cryptography/the-illustrated-tls-1-3-connection": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/tink": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cryptography/trail-of-bits-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/android-security-bulletins": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/attackerkb": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/cert-fr": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/cisa-known-exploited-vulnerabilities-catalog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/cisa-ssvc": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/cve-org": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/cvelistv5": {
+  "repo": {
+   "name": "CVEProject/cvelistV5",
+   "stars": 3261,
+   "forks": 670,
+   "pushed": "2026-11-13",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cves/exploit-database": {
+  "link": {
+   "status": "dead",
+   "code": 502,
+   "checked": "2026-11-13",
+   "fails": 1
+  },
+  "health": "unknown"
+ },
+ "cves/first-cvss": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/first-epss": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/github-advisory-database": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/greenbone-openvas": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/national-vulnerability-database-nvd": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/nuclei-templates": {
+  "repo": {
+   "name": "projectdiscovery/nuclei-templates",
+   "stars": 13326,
+   "forks": 3744,
+   "pushed": "2026-11-12",
+   "archived": false,
+   "license": "mit",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cves/osv-dev": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/owasp-dependency-track": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "cves/vulhub": {
+  "repo": {
+   "name": "vulhub/vulhub",
+   "stars": 21444,
+   "forks": 4817,
+   "pushed": "2026-10-17",
+   "archived": false,
+   "license": "mit",
+   "language": "Dockerfile",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "cves/vulners": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/arkime": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/atomic-red-team": {
+  "repo": {
+   "name": "redcanaryco/atomic-red-team",
+   "stars": 12841,
+   "forks": 3258,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "mit",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/canadian-centre-for-cyber-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/canarytokens": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/cis-benchmarks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/cisa": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/deepbluecli": {
+  "repo": {
+   "name": "sans-blue-team/DeepBlueCLI",
+   "stars": 2439,
+   "forks": 377,
+   "pushed": "2023-10-14",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "defensive/detection-engineering-weekly": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/dett-ct": {
+  "repo": {
+   "name": "rabobank-cdc/DeTTECT",
+   "stars": 2352,
+   "forks": 349,
+   "pushed": "2026-10-19",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "SCSS",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/disa-stigs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/elastic-detection-rules": {
+  "repo": {
+   "name": "elastic/detection-rules",
+   "stars": 2963,
+   "forks": 755,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/elastic-security-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/hardeningkitty": {
+  "repo": {
+   "name": "scipag/HardeningKitty",
+   "stars": 1866,
+   "forks": 219,
+   "pushed": "2026-07-21",
+   "archived": false,
+   "license": "mit",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/loldrivers": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/lynis": {
+  "repo": {
+   "name": "CISOfy/lynis",
+   "stars": 16627,
+   "forks": 1647,
+   "pushed": "2026-09-16",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Shell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/malware-traffic-analysis-net": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/microsoft-sentinel-content": {
+  "repo": {
+   "name": "Azure/Azure-Sentinel",
+   "stars": 6251,
+   "forks": 3892,
+   "pushed": "2026-11-12",
+   "archived": false,
+   "license": "mit",
+   "language": "HTML",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/mitre-caldera": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/must-learn-kql": {
+  "repo": {
+   "name": "rod-trent/MustLearnKQL",
+   "stars": 1202,
+   "forks": 201,
+   "pushed": "2026-10-09",
+   "archived": false,
+   "license": "mit",
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/ncsc-guidance": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/networkminer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/nsa-cybersecurity-guidance": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/opencanary": {
+  "repo": {
+   "name": "thinkst/opencanary",
+   "stars": 3097,
+   "forks": 422,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "bsd-3-clause",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/practical-packet-analysis-3rd-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/purple-team-exercise-framework": {
+  "repo": {
+   "name": "scythe-io/purple-team-exercise-framework",
+   "stars": 829,
+   "forks": 130,
+   "pushed": "2026-04-09",
+   "archived": false,
+   "license": "mit",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/rita": {
+  "repo": {
+   "name": "activecm/rita",
+   "stars": 667,
+   "forks": 72,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/sans-institute": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/security-onion": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/shuffle": {
+  "repo": {
+   "name": "Shuffle/Shuffle",
+   "stars": 2477,
+   "forks": 440,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/soc-cmm": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/splunk-boss-of-the-soc-v3-dataset": {
+  "repo": {
+   "name": "splunk/botsv3",
+   "stars": 504,
+   "forks": 80,
+   "pushed": "2020-06-18",
+   "archived": false,
+   "license": "cc0-1.0",
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "defensive/splunk-security-content": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/suricata": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/swiftonsecurity-sysmon-config": {
+  "repo": {
+   "name": "SwiftOnSecurity/sysmon-config",
+   "stars": 5724,
+   "forks": 1864,
+   "pushed": "2024-07-03",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "defensive/sysmon": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/sysmon-modular": {
+  "repo": {
+   "name": "olafhartong/sysmon-modular",
+   "stars": 3186,
+   "forks": 662,
+   "pushed": "2026-10-14",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/takajo": {
+  "repo": {
+   "name": "Yamato-Security/takajo",
+   "stars": 166,
+   "forks": 13,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "Nim",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/the-practice-of-network-security-monitoring": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/the-threathunting-project": {
+  "repo": {
+   "name": "ThreatHuntingProject/ThreatHunting",
+   "stars": 1900,
+   "forks": 388,
+   "pushed": "2021-11-17",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "defensive/thehive": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/threathunter-playbook": {
+  "repo": {
+   "name": "OTRF/ThreatHunter-Playbook",
+   "stars": 4706,
+   "forks": 866,
+   "pushed": "2026-01-12",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/tryhackme-soc-level-1-path": {
+  "link": {
+   "status": "blocked",
+   "code": 429,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/vectr": {
+  "repo": {
+   "name": "SecurityRiskAdvisors/VECTR",
+   "stars": 1624,
+   "forks": 176,
+   "pushed": "2026-08-14",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "defensive/wazuh": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "defensive/zeek": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/13cubed": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/aboutdfir": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/aleapp": {
+  "repo": {
+   "name": "abrignoni/ALEAPP",
+   "stars": 1029,
+   "forks": 263,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/any-run": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/autopsy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/capa": {
+  "repo": {
+   "name": "mandiant/capa",
+   "stars": 6320,
+   "forks": 750,
+   "pushed": "2026-11-10",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/capev2": {
+  "repo": {
+   "name": "kevoreilly/CAPEv2",
+   "stars": 3646,
+   "forks": 616,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/chainsaw": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/cisa-stopransomware": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/dfir-diva": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/eric-zimmerman-s-tools": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/evasive-malware": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/flare-vm": {
+  "repo": {
+   "name": "mandiant/flare-vm",
+   "stars": 9301,
+   "forks": 1129,
+   "pushed": "2026-10-07",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/hayabusa": {
+  "repo": {
+   "name": "Yamato-Security/hayabusa",
+   "stars": 3423,
+   "forks": 301,
+   "pushed": "2026-10-28",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "Rust",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/hindsight": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/hybrid-analysis": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/ileapp": {
+  "repo": {
+   "name": "abrignoni/iLEAPP",
+   "stars": 1424,
+   "forks": 326,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/kape-files": {
+  "repo": {
+   "name": "EricZimmerman/KapeFiles",
+   "stars": 894,
+   "forks": 236,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "mit",
+   "language": null,
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/lime": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/malware-data-science": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/malware-unicorn-workshops": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/memprocfs": {
+  "repo": {
+   "name": "ufrisk/MemProcFS",
+   "stars": 4403,
+   "forks": 521,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/microsoft-incident-response-playbooks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/mobile-verification-toolkit-mvt": {
+  "repo": {
+   "name": "mvt-project/mvt",
+   "stars": 15919,
+   "forks": 1542,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/nist-sp-800-61-rev-3-incident-response": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/no-more-ransom": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/oalabs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/plaso-log2timeline": {
+  "repo": {
+   "name": "log2timeline/plaso",
+   "stars": 2187,
+   "forks": 434,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/practical-linux-forensics": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/practical-malware-analysis": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/quark-engine": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/regripper-3-0": {
+  "repo": {
+   "name": "keydet89/RegRipper3.0",
+   "stars": 724,
+   "forks": 156,
+   "pushed": "2026-05-27",
+   "archived": false,
+   "license": "other",
+   "language": "Perl",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/remnux": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/sans-dfir-posters-cheat-sheets": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/signature-base-florian-roth": {
+  "repo": {
+   "name": "Neo23x0/signature-base",
+   "stars": 3065,
+   "forks": 682,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "other",
+   "language": "YARA",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/the-sleuth-kit": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/timesketch": {
+  "repo": {
+   "name": "google/timesketch",
+   "stars": 3448,
+   "forks": 669,
+   "pushed": "2026-11-12",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/velociraptor": {
+  "repo": {
+   "name": "Velocidex/velociraptor",
+   "stars": 4427,
+   "forks": 681,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "other",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/virustotal": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/volatility-3": {
+  "repo": {
+   "name": "volatilityfoundation/volatility3",
+   "stars": 4572,
+   "forks": 736,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "dfir/yara": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "dfir/yara-x": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/automate-the-boring-stuff-with-python": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/beej-s-guide-to-network-programming": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/black-hat-go": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/black-hat-python-2nd-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/cloudflare-learning-center": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/cs50x-introduction-to-computer-science": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/cyberchef": {
+  "repo": {
+   "name": "gchq/CyberChef",
+   "stars": 36392,
+   "forks": 4195,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "fundamentals/cybersecurity-for-small-networks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/explainshell": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/gtfobins": {
+  "repo": {
+   "name": "GTFOBins/GTFOBins.github.io",
+   "stars": 13829,
+   "forks": 1719,
+   "pushed": "2026-05-27",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "YAML",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "fundamentals/how-https-works": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/julia-evans-wizard-zines": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/learn-x-in-y-minutes": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/linux-basics-for-hackers": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/linux-journey": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/linux-upskill-challenge": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/lolbas-project": {
+  "repo": {
+   "name": "LOLBAS-Project/LOLBAS",
+   "stars": 8925,
+   "forks": 1182,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "XSLT",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "fundamentals/mdn-web-docs-http": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/microsoft-learn-powershell": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/networkchuck": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/nist-csrc-glossary": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/overthewire-bandit": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/practical-networking": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/professor-messer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/roadmap-sh-cyber-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/security-engineering-ross-anderson": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/silence-on-the-wire": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/ss64-command-reference": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/the-linux-command-line-william-shotts": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/the-tangled-web": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/tldr-pages": {
+  "repo": {
+   "name": "tldr-pages/tldr",
+   "stars": 64068,
+   "forks": 5581,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "other",
+   "language": "Markdown",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "fundamentals/tryhackme-pre-security-path": {
+  "link": {
+   "status": "blocked",
+   "code": 429,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/under-the-wire": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/wicked-cool-shell-scripts-2nd-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/windows-internals-book": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/windows-sysinternals": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "fundamentals/wireshark-user-s-guide": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/anssi-guides-recommendations": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/bsi-it-grundschutz": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/cis-critical-security-controls": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/cisa-zero-trust-maturity-model": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/ciso-assistant": {
+  "repo": {
+   "name": "intuitem/ciso-assistant-community",
+   "stars": 4595,
+   "forks": 892,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "grc/cloud-security-alliance-cloud-controls-matrix": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/cmmc": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/cnil": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/cobit": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/dora-eur-lex": {
+  "link": {
+   "status": "dead",
+   "code": 0,
+   "checked": "2026-11-13",
+   "fails": 1
+  },
+  "health": "unknown"
+ },
+ "grc/enisa": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/eramba": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/eu-artificial-intelligence-act-explorer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/fair-institute": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/gdpr-full-text-gdpr-info-eu": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/hipaa-hhs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/iapp": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/isaca": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/iso-iec-27001": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nato-ccdcoe": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/ncsc-cyber-assessment-framework": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nis2-directive-eur-lex": {
+  "link": {
+   "status": "dead",
+   "code": 0,
+   "checked": "2026-11-13",
+   "fails": 1
+  },
+  "health": "unknown"
+ },
+ "grc/nist-cybersecurity-framework-2-0": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nist-privacy-framework": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nist-sp-800-207-zero-trust-architecture": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nist-sp-800-30-guide-for-conducting-risk-assessments": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/nist-sp-800-53-rev-5": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/oscal-open-security-controls-assessment-language": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/owasp-risk-rating-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/pci-security-standards-council": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/qatar-national-cyber-security-agency": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/saudi-nca-essential-cybersecurity-controls": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "grc/secure-controls-framework": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/awesome-industrial-control-system-security": {
+  "repo": {
+   "name": "hslatman/awesome-industrial-control-system-security",
+   "stars": 2048,
+   "forks": 495,
+   "pushed": "2025-10-10",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ics-ot/cisa-ics-advisories": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/claroty-team82": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/conpot": {
+  "repo": {
+   "name": "mushorg/conpot",
+   "stars": 1535,
+   "forks": 458,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ics-ot/dragos-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/grfics-v2": {
+  "repo": {
+   "name": "Fortiphyd/GRFICSv2",
+   "stars": 516,
+   "forks": 103,
+   "pushed": "2023-04-21",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "C++",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "ics-ot/ics-pcap": {
+  "repo": {
+   "name": "automayt/ICS-pcap",
+   "stars": 590,
+   "forks": 163,
+   "pushed": "2020-01-03",
+   "archived": false,
+   "license": null,
+   "language": "Lua",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "ics-ot/isa-global-cybersecurity-alliance": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/isa-iec-62443-series": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/labshock": {
+  "repo": {
+   "name": "zakharb/labshock",
+   "stars": 800,
+   "forks": 134,
+   "pushed": "2026-05-28",
+   "archived": false,
+   "license": "other",
+   "language": "Shell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ics-ot/malcolm": {
+  "repo": {
+   "name": "cisagov/Malcolm",
+   "stars": 2589,
+   "forks": 455,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ics-ot/mitre-att-ck-for-ics": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/mitre-emb3d": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/modbus-specifications": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/nist-sp-800-82-rev-3-guide-to-ot-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/opc-foundation-security": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/openplc": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/purdue-enterprise-reference-architecture": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/pymodbus": {
+  "repo": {
+   "name": "pymodbus-dev/pymodbus",
+   "stars": 2793,
+   "forks": 1085,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "ics-ot/s4-events": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "ics-ot/snap7": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/adsecurity-org": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/aircrack-ng": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/allsafe": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/android-insecurebankv2": {
+  "repo": {
+   "name": "dineshshetty/Android-InsecureBankv2",
+   "stars": 1487,
+   "forks": 522,
+   "pushed": "2024-04-17",
+   "archived": false,
+   "license": "mit",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/android-security-internals": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/aosp-security-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/apisec-university": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/apk-mitm": {
+  "repo": {
+   "name": "niklashigi/apk-mitm",
+   "stars": 5135,
+   "forks": 438,
+   "pushed": "2024-07-24",
+   "archived": false,
+   "license": "mit",
+   "language": "TypeScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/apkleaks": {
+  "repo": {
+   "name": "dwisiswant0/apkleaks",
+   "stars": 6388,
+   "forks": 603,
+   "pushed": "2025-08-20",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/bettercap": {
+  "repo": {
+   "name": "bettercap/bettercap",
+   "stars": 20241,
+   "forks": 1733,
+   "pushed": "2026-11-03",
+   "archived": false,
+   "license": "other",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/black-hat-graphql": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/bloodhound": {
+  "repo": {
+   "name": "SpecterOps/BloodHound",
+   "stars": 3513,
+   "forks": 391,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/bug-bounty-bootcamp": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/burp-suite": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/certipy": {
+  "repo": {
+   "name": "ly4k/Certipy",
+   "stars": 3707,
+   "forks": 491,
+   "pushed": "2026-07-30",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/chipsec": {
+  "repo": {
+   "name": "chipsec/chipsec",
+   "stars": 3322,
+   "forks": 620,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/coercer": {
+  "repo": {
+   "name": "p0dalirius/Coercer",
+   "stars": 2343,
+   "forks": 223,
+   "pushed": "2026-04-24",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/corelan-team-tutorials": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/crackstation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/diva-android": {
+  "repo": {
+   "name": "payatu/diva-android",
+   "stars": 1163,
+   "forks": 333,
+   "pushed": "2023-05-19",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/drozer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/dvwa-damn-vulnerable-web-application": {
+  "repo": {
+   "name": "digininja/DVWA",
+   "stars": 14019,
+   "forks": 5259,
+   "pushed": "2026-10-18",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "PHP",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/evabs": {
+  "repo": {
+   "name": "abhi-r3v0/EVABS",
+   "stars": 220,
+   "forks": 45,
+   "pushed": "2021-12-23",
+   "archived": false,
+   "license": null,
+   "language": "CMake",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/ffuf": {
+  "repo": {
+   "name": "ffuf/ffuf",
+   "stars": 17009,
+   "forks": 1626,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/flipper-zero-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/frida": {
+  "repo": {
+   "name": "frida/frida",
+   "stars": 22737,
+   "forks": 2332,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "other",
+   "language": "Meson",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/from-day-zero-to-zero-day": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/goad-game-of-active-directory": {
+  "repo": {
+   "name": "Orange-Cyberdefense/GOAD",
+   "stars": 8615,
+   "forks": 1181,
+   "pushed": "2026-10-23",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "PowerShell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/gophish": {
+  "repo": {
+   "name": "gophish/gophish",
+   "stars": 14394,
+   "forks": 2992,
+   "pushed": "2024-09-23",
+   "archived": false,
+   "license": "other",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/hacker101": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/hackerone-hacktivity": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/hacking-apis": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/hacking-the-art-of-exploitation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/hacktricks": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/hashcat": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/havoc": {
+  "repo": {
+   "name": "HavocFramework/Havoc",
+   "stars": 8499,
+   "forks": 1256,
+   "pushed": "2025-12-18",
+   "archived": true,
+   "license": "gpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "archived"
+ },
+ "offensive/how-to-hack-like-a-ghost": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/how2heap": {
+  "repo": {
+   "name": "shellphish/how2heap",
+   "stars": 8964,
+   "forks": 1297,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "mit",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/httpx": {
+  "repo": {
+   "name": "projectdiscovery/httpx",
+   "stars": 10586,
+   "forks": 1121,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/impacket": {
+  "repo": {
+   "name": "fortra/impacket",
+   "stars": 16249,
+   "forks": 3981,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/injuredandroid": {
+  "repo": {
+   "name": "B3nac/InjuredAndroid",
+   "stars": 763,
+   "forks": 164,
+   "pushed": "2021-06-25",
+   "archived": true,
+   "license": "apache-2.0",
+   "language": "Kotlin",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "archived"
+ },
+ "offensive/ired-team": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/john-the-ripper": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/jwt-tool": {
+  "repo": {
+   "name": "ticarpi/jwt_tool",
+   "stars": 6809,
+   "forks": 825,
+   "pushed": "2025-05-01",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/ligolo-ng": {
+  "repo": {
+   "name": "nicocha30/ligolo-ng",
+   "stars": 5176,
+   "forks": 504,
+   "pushed": "2026-09-26",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/metasploit-framework": {
+  "repo": {
+   "name": "rapid7/metasploit-framework",
+   "stars": 39328,
+   "forks": 15007,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "other",
+   "language": "Ruby",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/metasploit-unleashed": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/mimikatz": {
+  "repo": {
+   "name": "gentilkiwi/mimikatz",
+   "stars": 21934,
+   "forks": 4183,
+   "pushed": "2026-10-26",
+   "archived": false,
+   "license": null,
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/mobsf": {
+  "repo": {
+   "name": "MobSF/Mobile-Security-Framework-MobSF",
+   "stars": 22192,
+   "forks": 3810,
+   "pushed": "2026-11-11",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/mythic": {
+  "repo": {
+   "name": "its-a-feature/Mythic",
+   "stars": 4898,
+   "forks": 627,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "other",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/netexec": {
+  "repo": {
+   "name": "Pennyw0rth/NetExec",
+   "stars": 5953,
+   "forks": 791,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "bsd-2-clause",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/nightmare": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/nikto": {
+  "repo": {
+   "name": "sullo/nikto",
+   "stars": 10780,
+   "forks": 1467,
+   "pushed": "2026-10-15",
+   "archived": false,
+   "license": "other",
+   "language": "Perl",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/nmap": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/nmap-network-scanning-official-book": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/nuclei": {
+  "repo": {
+   "name": "projectdiscovery/nuclei",
+   "stars": 32528,
+   "forks": 3961,
+   "pushed": "2026-11-01",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/objection": {
+  "repo": {
+   "name": "sensepost/objection",
+   "stars": 9497,
+   "forks": 1011,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/orange-cyberdefense-mind-maps": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-api-security-top-10": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-crapi": {
+  "repo": {
+   "name": "OWASP/crAPI",
+   "stars": 1632,
+   "forks": 677,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/owasp-iot-project": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-juice-shop": {
+  "repo": {
+   "name": "juice-shop/juice-shop",
+   "stars": 14424,
+   "forks": 20722,
+   "pushed": "2026-11-11",
+   "archived": false,
+   "license": "mit",
+   "language": "TypeScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/owasp-mastg": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-mastg-hacking-playground": {
+  "repo": {
+   "name": "OWASP/MASTG-Hacking-Playground",
+   "stars": 697,
+   "forks": 171,
+   "pushed": "2022-10-31",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/owasp-mastg-on-github": {
+  "repo": {
+   "name": "OWASP/mastg",
+   "stars": 13329,
+   "forks": 2846,
+   "pushed": "2026-11-07",
+   "archived": false,
+   "license": "cc-by-sa-4.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/owasp-masvs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-mobile-application-security-mas": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/owasp-web-security-testing-guide": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/payloadsallthethings": {
+  "repo": {
+   "name": "swisskyrepo/PayloadsAllTheThings",
+   "stars": 82501,
+   "forks": 17570,
+   "pushed": "2026-10-30",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/peass-ng-linpeas-winpeas": {
+  "repo": {
+   "name": "peass-ng/PEASS-ng",
+   "stars": 20747,
+   "forks": 3404,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "other",
+   "language": "C#",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/penetration-testing-a-hands-on-introduction-to-hacking": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/pentesterlab": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/pingcastle": {
+  "repo": {
+   "name": "netwrix/pingcastle",
+   "stars": 2997,
+   "forks": 353,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "other",
+   "language": "C#",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/portswigger-web-security-academy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/practical-iot-hacking": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/practical-social-engineering": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/pwn-college": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/pwntools": {
+  "repo": {
+   "name": "Gallopsled/pwntools",
+   "stars": 13846,
+   "forks": 1874,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/real-world-bug-hunting": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/red-team-development-and-operations": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/responder": {
+  "repo": {
+   "name": "lgandx/Responder",
+   "stars": 6639,
+   "forks": 867,
+   "pushed": "2026-06-10",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/restler": {
+  "repo": {
+   "name": "microsoft/restler-fuzzer",
+   "stars": 2963,
+   "forks": 332,
+   "pushed": "2026-06-10",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/rop-emporium": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/rubeus": {
+  "repo": {
+   "name": "GhostPack/Rubeus",
+   "stars": 5202,
+   "forks": 899,
+   "pushed": "2026-05-21",
+   "archived": false,
+   "license": "other",
+   "language": "C#",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/seclists": {
+  "repo": {
+   "name": "danielmiessler/SecLists",
+   "stars": 74373,
+   "forks": 25165,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "mit",
+   "language": "PHP",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/sliver": {
+  "repo": {
+   "name": "BishopFox/sliver",
+   "stars": 12238,
+   "forks": 1651,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/social-engineer-toolkit-set": {
+  "repo": {
+   "name": "trustedsec/social-engineer-toolkit",
+   "stars": 15424,
+   "forks": 3418,
+   "pushed": "2026-06-04",
+   "archived": false,
+   "license": null,
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/sqlmap": {
+  "repo": {
+   "name": "sqlmapproject/sqlmap",
+   "stars": 38850,
+   "forks": 6438,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "other",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/thc-hydra": {
+  "repo": {
+   "name": "vanhauser-thc/thc-hydra",
+   "stars": 12456,
+   "forks": 2689,
+   "pushed": "2026-10-30",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/the-car-hacker-s-handbook": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/the-hacker-recipes": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/the-hardware-hacking-handbook": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/vampi": {
+  "repo": {
+   "name": "erev0s/VAmPI",
+   "stars": 1351,
+   "forks": 616,
+   "pushed": "2026-04-07",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/windows-security-internals": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/zap-zed-attack-proxy": {
+  "repo": {
+   "name": "zaproxy/zaproxy",
+   "stars": 16098,
+   "forks": 2692,
+   "pushed": "2026-11-03",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/androguard": {
+  "repo": {
+   "name": "androguard/androguard",
+   "stars": 6414,
+   "forks": 1172,
+   "pushed": "2026-10-25",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/angr": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/apkid": {
+  "repo": {
+   "name": "rednaga/APKiD",
+   "stars": 2609,
+   "forks": 346,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": "other",
+   "language": "YARA",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/apktool": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/attacking-network-protocols": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/azeria-labs": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/binary-ninja": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/binwalk": {
+  "repo": {
+   "name": "ReFirmLabs/binwalk",
+   "stars": 14658,
+   "forks": 1875,
+   "pushed": "2026-08-11",
+   "archived": false,
+   "license": "mit",
+   "language": "Rust",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/bytecode-viewer": {
+  "repo": {
+   "name": "Konloch/bytecode-viewer",
+   "stars": 15704,
+   "forks": 1302,
+   "pushed": "2026-10-30",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/compiler-explorer": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/crackmes-one": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/cutter": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/detect-it-easy": {
+  "repo": {
+   "name": "horsicq/Detect-It-Easy",
+   "stars": 11827,
+   "forks": 990,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "mit",
+   "language": "JavaScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/dnspyex": {
+  "repo": {
+   "name": "dnSpyEx/dnSpy",
+   "stars": 11431,
+   "forks": 784,
+   "pushed": "2026-11-01",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "C#",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/emba": {
+  "repo": {
+   "name": "e-m-b-a/emba",
+   "stars": 3742,
+   "forks": 342,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Shell",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/firmae": {
+  "repo": {
+   "name": "pr0v3rbs/FirmAE",
+   "stars": 962,
+   "forks": 156,
+   "pushed": "2026-06-24",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/flare-on-challenge": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/gef": {
+  "repo": {
+   "name": "hugsy/gef",
+   "stars": 8417,
+   "forks": 841,
+   "pushed": "2026-08-20",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/ghidra": {
+  "repo": {
+   "name": "NationalSecurityAgency/ghidra",
+   "stars": 98130,
+   "forks": 11103,
+   "pushed": "2026-11-05",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/hacking-the-xbox-free-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/ida-free": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/ilspy": {
+  "repo": {
+   "name": "icsharpcode/ILSpy",
+   "stars": 27035,
+   "forks": 3825,
+   "pushed": "2026-11-10",
+   "archived": false,
+   "license": "mit",
+   "language": "C#",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/imhex": {
+  "repo": {
+   "name": "WerWolv/ImHex",
+   "stars": 55647,
+   "forks": 2582,
+   "pushed": "2026-10-09",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "C++",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/jadx": {
+  "repo": {
+   "name": "skylot/jadx",
+   "stars": 51621,
+   "forks": 5905,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "apache-2.0",
+   "language": "Java",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/kaitai-struct": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/liveoverflow": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/microcorruption": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/opensecuritytraining2": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/practical-binary-analysis": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/pwndbg": {
+  "repo": {
+   "name": "pwndbg/pwndbg",
+   "stars": 11125,
+   "forks": 1306,
+   "pushed": "2026-10-31",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/radare2": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/reflutter": {
+  "repo": {
+   "name": "Impact-I/reFlutter",
+   "stars": 2796,
+   "forks": 294,
+   "pushed": "2026-10-24",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/reverse-engineering-for-beginners": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/scapy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/the-ghidra-book": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "reverse-engineering/uefitool": {
+  "repo": {
+   "name": "LongSoft/UEFITool",
+   "stars": 5778,
+   "forks": 761,
+   "pushed": "2026-10-27",
+   "archived": false,
+   "license": "bsd-2-clause",
+   "language": "C",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "reverse-engineering/x64dbg": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/alienvault-otx": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/att-ck-cti-training": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/att-ck-navigator": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/bellingcat-online-investigations-toolkit": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/censys": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/cisco-talos-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/crowdstrike-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/curated-intelligence": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/eg-cert-egypt": {
+  "link": {
+   "status": "dead",
+   "code": 0,
+   "checked": "2026-11-13",
+   "fails": 1
+  },
+  "health": "unknown"
+ },
+ "threat-intel/etda-threat-group-cards": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/google-threat-intelligence-mandiant-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/greynoise": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/intelligence-driven-incident-response-2nd-edition": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/inteltechniques": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/lockheed-martin-cyber-kill-chain": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/malpedia": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/microsoft-threat-intelligence-blog": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/misp": {
+  "repo": {
+   "name": "MISP/MISP",
+   "stars": 6654,
+   "forks": 1661,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "PHP",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/mitre-att-ck": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/mitre-d3fend": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/opencti": {
+  "repo": {
+   "name": "OpenCTI-Platform/opencti",
+   "stars": 10300,
+   "forks": 1503,
+   "pushed": "2026-11-10",
+   "archived": false,
+   "license": "other",
+   "language": "TypeScript",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/osint-curious": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/osint-framework": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/owasp-amass": {
+  "repo": {
+   "name": "owasp-amass/amass",
+   "stars": 15489,
+   "forks": 2204,
+   "pushed": "2026-11-10",
+   "archived": false,
+   "license": "other",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/ransomware-live": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/sherlock": {
+  "repo": {
+   "name": "sherlock-project/sherlock",
+   "stars": 95438,
+   "forks": 11369,
+   "pushed": "2026-11-02",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/shodan": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/spiderfoot": {
+  "repo": {
+   "name": "smicallef/spiderfoot",
+   "stars": 24296,
+   "forks": 4000,
+   "pushed": "2026-04-13",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/stix-taxii-documentation": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/subfinder": {
+  "repo": {
+   "name": "projectdiscovery/subfinder",
+   "stars": 14748,
+   "forks": 1646,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/the-dfir-report": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/the-diamond-model-of-intrusion-analysis": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/the-pyramid-of-pain": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/the-unified-kill-chain": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/theharvester": {
+  "repo": {
+   "name": "laramies/theHarvester",
+   "stars": 18312,
+   "forks": 2735,
+   "pushed": "2026-11-10",
+   "archived": false,
+   "license": "gpl-2.0",
+   "language": "Python",
+   "checked": "2026-11-13"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "threat-intel/threatfox": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/trace-labs": {
+  "link": {
+   "status": "blocked",
+   "code": 403,
+   "checked": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "threat-intel/unit-42-threat-research": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-13",
+   "last_ok": "2026-11-13",
+   "fails": 0
+  },
+  "health": "unknown"
+ }
+}

@@ -13,7 +13,7 @@
 
   let UI = {};
   let DATA = { domains: [], resources: [], cves: [], languages: ['en'], rtl: ['ar'] };
-  const state = { lang: 'en', domain: 'all', type: 'all', level: 'all', cost: 'all', q: '', beginner: false, free: false };
+  const state = { lang: 'en', domain: 'all', type: 'all', level: 'all', cost: 'all', q: '', beginner: false, free: false, hideOld: false, sort: 'recommended' };
 
   const t = (key) => UI[state.lang]?.[key] ?? UI.en?.[key] ?? key;
   const loc = (obj) => (obj && (obj[state.lang] || obj.en)) || '';
@@ -187,6 +187,9 @@
     fill('#f-type', types, typeLabel, 'type');
     fill('#f-level', ['beginner', 'intermediate', 'advanced'], (v) => t('level.' + v), 'level');
     fill('#f-cost', ['free', 'freemium', 'paid'], (v) => t('cost.' + v), 'cost');
+    const sortSel = $('#f-sort');
+    sortSel.innerHTML = ['recommended', 'popular', 'updated'].map((v) => `<option value="${v}">${esc(t('q.sort.' + v))}</option>`).join('');
+    sortSel.value = state.sort;
   }
 
   function matches(r) {
@@ -196,6 +199,7 @@
     if (state.cost !== 'all' && r.cost !== state.cost) return false;
     if (state.beginner && !r.level.includes('beginner')) return false;
     if (state.free && r.cost !== 'free') return false;
+    if (state.hideOld && ['archived', 'stale', 'broken'].includes(r.health)) return false;
     if (state.q) {
       const hay = [r.title, loc(r.description), r.description.en, r.tags.join(' '), r.type, typeLabel(r.type), r.domain, r.subdomains.join(' ')]
         .join(' ').toLowerCase();
@@ -236,8 +240,33 @@
     if (p.get('q')) { state.q = p.get('q').toLowerCase(); $('#q').value = p.get('q'); }
   }
 
+  // Localized "updated 3 months ago" and compact star counts.
+  function ago(date) {
+    const days = (Date.now() - new Date(date).getTime()) / 864e5;
+    const rtf = new Intl.RelativeTimeFormat(state.lang, { numeric: 'auto' });
+    if (days < 1) return rtf.format(0, 'day');
+    if (days < 30) return rtf.format(-Math.round(days), 'day');
+    if (days < 365) return rtf.format(-Math.round(days / 30.44), 'month');
+    return rtf.format(-Math.round(days / 365.25), 'year');
+  }
+  const compact = (n) => new Intl.NumberFormat(state.lang, { notation: 'compact', maximumFractionDigits: 1 }).format(n);
+
+  function signals(r) {
+    const out = [];
+    if (r.stars != null) out.push(`<span class="sig" title="GitHub">★ ${esc(compact(r.stars))}</span>`);
+    if (r.pushed) out.push(`<span class="sig">${esc(t('q.updated'))} ${esc(ago(r.pushed))}</span>`);
+    if (['archived', 'stale', 'broken'].includes(r.health)) out.push(`<span class="sig warn ${esc(r.health)}">${esc(t('q.' + r.health))}</span>`);
+    return out.length ? `<div class="card-signals">${out.join('')}</div>` : '';
+  }
+
+  function sorted(list) {
+    if (state.sort === 'popular') return [...list].sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1));
+    if (state.sort === 'updated') return [...list].sort((a, b) => (b.pushed ?? '').localeCompare(a.pushed ?? ''));
+    return list;
+  }
+
   function renderCards(more = false) {
-    const list = DATA.resources.filter(matches);
+    const list = sorted(DATA.resources.filter(matches));
     const start = more ? shown : 0;
     shown = more ? shown + PAGE : PAGE;
     $('#count').textContent = list.length;
@@ -252,6 +281,7 @@
         </div>
         <h3>${esc(r.title)}${r.featured ? ` <span class="pick" title="${esc(t('explore.pick'))}">★</span>` : ''}</h3>
         ${(() => { const d = describe(r); return `<p${d.auto ? ` class="auto" title="${esc(r.description.en)}"` : ''}>${esc(d.text)}</p>`; })()}
+        ${signals(r)}
         <div class="card-foot">
           ${levelMeter(r.level)}
           ${r.languages.some((l) => l !== 'en') ? `<span class="langs-tag">${r.languages.map((l) => esc(l.toUpperCase())).join(' · ')}</span>` : ''}
@@ -271,6 +301,8 @@
     $('#more').addEventListener('click', () => renderCards(true));
     $('#f-beginner').addEventListener('change', (e) => { state.beginner = e.target.checked; renderCards(); });
     $('#f-free').addEventListener('change', (e) => { state.free = e.target.checked; renderCards(); });
+    $('#f-hideold').addEventListener('change', (e) => { state.hideOld = e.target.checked; renderCards(); });
+    $('#f-sort').addEventListener('change', (e) => { state.sort = e.target.value; renderCards(); });
     $('#cve-all').addEventListener('click', () => { cveAll = true; renderCves(); });
   }
 

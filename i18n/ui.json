@@ -219,7 +219,16 @@
     "cv.newonly": "New only",
     "cv.cisa": "CISA's instruction",
     "cv.cisa.en": "This instruction is specific to this CVE and is shown in English.",
-    "cv.inferred": "Dashed techniques are inferred from the vulnerability type and attack vector — not an official MITRE mapping yet."
+    "cv.inferred": "Dashed techniques are inferred from the vulnerability type and attack vector — not an official MITRE mapping yet.",
+    "q.updated": "Updated",
+    "q.archived": "Archived project",
+    "q.stale": "No updates in 2+ years",
+    "q.broken": "Link may be broken",
+    "q.hideold": "Hide unmaintained",
+    "q.sort": "Sort",
+    "q.sort.recommended": "Recommended",
+    "q.sort.popular": "Most popular",
+    "q.sort.updated": "Recently updated"
   },
   "de": {
     "langName": "Deutsch",
@@ -441,7 +450,16 @@
     "cv.newonly": "Nur neue",
     "cv.cisa": "Anweisung der CISA",
     "cv.cisa.en": "Diese Anweisung gilt speziell für diese CVE und wird auf Englisch angezeigt.",
-    "cv.inferred": "Gestrichelte Techniken sind aus Schwachstellentyp und Angriffsvektor abgeleitet — noch keine offizielle MITRE-Zuordnung."
+    "cv.inferred": "Gestrichelte Techniken sind aus Schwachstellentyp und Angriffsvektor abgeleitet — noch keine offizielle MITRE-Zuordnung.",
+    "q.updated": "Aktualisiert",
+    "q.archived": "Archiviertes Projekt",
+    "q.stale": "Seit über 2 Jahren keine Updates",
+    "q.broken": "Link möglicherweise defekt",
+    "q.hideold": "Nicht gepflegte ausblenden",
+    "q.sort": "Sortierung",
+    "q.sort.recommended": "Empfohlen",
+    "q.sort.popular": "Beliebteste",
+    "q.sort.updated": "Kürzlich aktualisiert"
   },
   "fr": {
     "langName": "Français",
@@ -663,7 +681,16 @@
     "cv.newonly": "Nouvelles seulement",
     "cv.cisa": "Instruction de la CISA",
     "cv.cisa.en": "Cette instruction est propre à cette CVE et s'affiche en anglais.",
-    "cv.inferred": "Les techniques en pointillé sont déduites du type de vulnérabilité et du vecteur d'attaque — pas encore de correspondance officielle MITRE."
+    "cv.inferred": "Les techniques en pointillé sont déduites du type de vulnérabilité et du vecteur d'attaque — pas encore de correspondance officielle MITRE.",
+    "q.updated": "Mis à jour",
+    "q.archived": "Projet archivé",
+    "q.stale": "Pas de mise à jour depuis 2 ans",
+    "q.broken": "Lien peut-être cassé",
+    "q.hideold": "Masquer les non maintenus",
+    "q.sort": "Tri",
+    "q.sort.recommended": "Recommandés",
+    "q.sort.popular": "Les plus populaires",
+    "q.sort.updated": "Mis à jour récemment"
   },
   "ar": {
     "langName": "العربية",
@@ -885,7 +912,16 @@
     "cv.newonly": "الجديدة فقط",
     "cv.cisa": "تعليمات CISA",
     "cv.cisa.en": "هذه التعليمات خاصة بهذه الثغرة وتُعرض بالإنجليزية.",
-    "cv.inferred": "التقنيات ذات الإطار المتقطع مستنتجة من نوع الثغرة ومتجه الهجوم — وليست ربطًا رسميًا من MITRE بعد."
+    "cv.inferred": "التقنيات ذات الإطار المتقطع مستنتجة من نوع الثغرة ومتجه الهجوم — وليست ربطًا رسميًا من MITRE بعد.",
+    "q.updated": "آخر تحديث",
+    "q.archived": "مشروع مؤرشف",
+    "q.stale": "لا تحديثات منذ أكثر من عامين",
+    "q.broken": "قد يكون الرابط معطلًا",
+    "q.hideold": "إخفاء غير المحدَّث",
+    "q.sort": "الترتيب",
+    "q.sort.recommended": "موصى به",
+    "q.sort.popular": "الأكثر شعبية",
+    "q.sort.updated": "المحدَّثة مؤخرًا"
   },
   "ru": {
     "langName": "Русский",
@@ -1107,6 +1143,15 @@
     "cv.newonly": "Только новые",
     "cv.cisa": "Инструкция CISA",
     "cv.cisa.en": "Эта инструкция относится только к этой CVE и показана на английском.",
-    "cv.inferred": "Техники с пунктирной рамкой выведены из типа уязвимости и вектора атаки — это ещё не официальное сопоставление MITRE."
+    "cv.inferred": "Техники с пунктирной рамкой выведены из типа уязвимости и вектора атаки — это ещё не официальное сопоставление MITRE.",
+    "q.updated": "Обновлено",
+    "q.archived": "Проект в архиве",
+    "q.stale": "Не обновлялся более 2 лет",
+    "q.broken": "Ссылка может не работать",
+    "q.hideold": "Скрыть заброшенные",
+    "q.sort": "Сортировка",
+    "q.sort.recommended": "Рекомендуемые",
+    "q.sort.popular": "Самые популярные",
+    "q.sort.updated": "Недавно обновлённые"
   }
 }
