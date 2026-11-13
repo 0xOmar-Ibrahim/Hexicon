@@ -548,7 +548,7 @@
       <p class="cv-summary">${esc(t('cv.fix.generic'))}</p>
       ${fix.due_date ? `<p class="cv-due">${esc(t('cv.due'))}: <b>${esc(fix.due_date)}</b></p>` : ''}
       ${fix.references?.length ? `<ul class="cv-links">${fix.references.map((r) =>
-        `<li>${ext(r.url, esc(r.url.replace(/^https:\/\/(www\.)?/, '').slice(0, 90)))}<span>${esc((r.tags ?? []).map((x) => t('cv.tag.' + x.toLowerCase().replace(/\s+/g, '-'))).join(' · '))}</span></li>`).join('')}</ul>` : ''}
+        `<li>${ext(r.url, esc((r.original ?? r.url).replace(/^https:\/\/(www\.)?/, '').slice(0, 90)))}<span>${esc([...(r.tags ?? []).map((x) => t('cv.tag.' + x.toLowerCase().replace(/\s+/g, '-'))), ...(r.archived ? [t('cv.archived')] : [])].join(' · '))}</span></li>`).join('')}</ul>` : ''}
       ${fix.required_action ? (() => {
         const local = state.lang !== 'en' ? fix.required_action_i18n?.[state.lang] : null;
         const shown = local || fix.required_action;
@@ -560,7 +560,7 @@
     // References (curated pages have hand-picked ones)
     const refs = [{ kind: 'advisory', url: nvdUrl(c.id), title: 'NVD' }, ...(c.references ?? []).filter((r) => !r.url.includes('nvd.nist.gov'))];
     h += cvSection('flag', t('cv.refs'), `<ul class="cv-links">${refs.map((r) =>
-      `<li>${ext(r.url, esc(r.title || r.url))}<span>${esc(t('ref.' + r.kind))}</span></li>`).join('')}</ul>`);
+      `<li>${ext(r.url, esc(r.title || r.original || r.url))}<span>${esc(t('ref.' + r.kind))}${r.archived ? ` · ${esc(t('cv.archived'))}` : ''}</span></li>`).join('')}</ul>`);
 
     h += `<p class="cv-sources">${esc(t('cv.sources'))}${I.enriched_on ? ` · ${esc(t('cv.updated'))} ${esc(I.enriched_on)}` : ''}</p>`;
     $('#cv-body').innerHTML = h;

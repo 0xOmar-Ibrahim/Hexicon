@@ -16,7 +16,8 @@
     "docs": "node scripts/build-docs.mjs",
     "import:kev": "node scripts/import-kev.mjs",
     "enrich:cves": "node scripts/enrich-cves.mjs",
-    "enrich:resources": "node scripts/enrich-resources.mjs"
+    "enrich:resources": "node scripts/enrich-resources.mjs",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -260,10 +260,16 @@ function affectedFrom(cve) {
   for (const c of cve.configurations ?? []) walk(c.nodes);
   return [...out];
 }
+// Vendor advisory pages that moved; NVD still lists the old address.
+const MOVED = [
+  [/^https?:\/\/(?:www\.)?fortiguard\.com\/advisory\/(FG-IR-[\d-]+)\/?$/i, 'https://www.fortiguard.com/psirt/$1'],
+];
+const moved = (url) => MOVED.reduce((u, [re, to]) => u.replace(re, to), url.replace(/[.,;]+$/, ''));
 function patchRefs(cve) {
   const want = ['Patch', 'Vendor Advisory', 'Mitigation', 'Release Notes'];
   const seen = new Set();
   return (cve.references ?? [])
+    .map((r) => ({ ...r, url: moved(r.url) }))
     .filter((r) => r.url.startsWith('https://') && (r.tags ?? []).some((t) => want.includes(t)))
     .filter((r) => !seen.has(r.url) && seen.add(r.url))
     .slice(0, 6)

@@ -25,6 +25,22 @@ const taxonomy = read(path.join(ROOT, 'data/taxonomy.yml'));
 // Generated quality signals (scripts/enrich-resources.mjs): stars, last push, archived, link health.
 const QUALITY = fs.existsSync(path.join(ROOT, 'data/resource-stats.json'))
   ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/resource-stats.json'), 'utf8')) : {};
+// Link health for CVE page URLs (scripts/check-links.mjs): dead links point to their Wayback Machine
+// snapshot; dead links without a snapshot are dropped once they failed on two runs in a row.
+const LINKS = fs.existsSync(path.join(ROOT, 'data/link-health.json'))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/link-health.json'), 'utf8')) : {};
+function healLinks(v) {
+  if (Array.isArray(v)) return v.map(healLinks).filter((x) => x !== undefined);
+  if (!v || typeof v !== 'object') return v;
+  const out = {};
+  for (const [k, x] of Object.entries(v)) out[k] = healLinks(x);
+  const h = typeof v.url === 'string' ? LINKS[v.url] : null;
+  if (h?.status === 'dead') {
+    if (h.archive) return { ...out, url: h.archive, original: v.url, archived: true };
+    if ((h.fails ?? 0) >= 2) return undefined;
+  }
+  return out;
+}
 const resources = walk(path.join(ROOT, 'data/resources')).map((f) => {
   const r = read(f);
   return {
@@ -74,9 +90,9 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
     type: c.vuln_type ?? null,
     priority: c.intel?.priority ?? null,
     summary: c.summary ?? {},
-    references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
+    references: healLinks((c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url }))),
     // Full record for the detail page (written to dist/cve/<ID>.json).
-    detail: {
+    detail: healLinks({
       id: c.id, nickname: c.nickname ?? null, name: c.name ?? null, type: c.vuln_type ?? null,
       curated: (c.source ?? 'curated') === 'curated', rank: c.rank ?? null, recent: !!c.recent,
       affected_product: c.affected ?? [],
@@ -91,7 +107,7 @@ const allCves = walk(path.join(ROOT, 'data/cves')).map((f) => {
       references: (c.references ?? []).map((r) => ({ kind: r.kind, url: r.url, title: r.title ?? r.url })),
       mitre_attack: c.mitre_attack ?? [],
       intel: c.intel ? JSON.parse(JSON.stringify(c.intel, (k, v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v))) : null,
-    },
+    }),
   };
 });
 // Curated field notes go into data.json; the full ranked list is a separate, lazily loaded file.

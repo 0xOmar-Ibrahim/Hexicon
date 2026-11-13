@@ -58,7 +58,7 @@ console.log(`Top ${LIMIT} by EPSS + ${recent.length} recent KEV additions (since
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const urlsFromNotes = (notes = '') =>
-  [...new Set(notes.split(/\s*;\s*|\s+/).filter((u) => /^https:\/\/\S+$/.test(u)))]
+  [...new Set(notes.split(/\s*;\s*|\s+/).map((u) => u.replace(/[.,;:)\]]+$/, '')).filter((u) => /^https:\/\/\S+$/.test(u)))]
     .filter((u) => !u.includes('cisa.gov/known-exploited-vulnerabilities') && !u.includes('nvd.nist.gov'))
     .slice(0, 3);
 

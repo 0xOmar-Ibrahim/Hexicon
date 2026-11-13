@@ -1,7 +1,8 @@
 name: Resource health
 
-# Weekly: GitHub stars / last push / archived flags and link checks for every library resource.
-# Writes data/resource-stats.json and docs/link-report.md.
+# Weekly: GitHub stars / last push / archived flags and link checks for every library resource,
+# plus a link check of every URL on the CVE pages (dead links fall back to a Wayback Machine snapshot).
+# Writes data/resource-stats.json, data/link-health.json, docs/link-report.md and docs/cve-link-report.md.
 on:
   schedule:
     - cron: "41 5 * * 2"
@@ -21,11 +22,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run enrich:resources
+      - run: npm run check:links
       - name: Commit changes
         run: |
           if git diff --quiet; then echo "No changes"; exit 0; fi
           git config user.name "hexicon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/resource-stats.json docs/link-report.md
+          git add data/resource-stats.json data/link-health.json docs/link-report.md docs/cve-link-report.md
           git commit -m "data(resources): weekly health check"
           git push

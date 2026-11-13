@@ -234,7 +234,8 @@
     "q.sort": "Sort",
     "q.sort.recommended": "Recommended",
     "q.sort.popular": "Most popular",
-    "q.sort.updated": "Recently updated"
+    "q.sort.updated": "Recently updated",
+    "cv.archived": "archived copy (original site is down)"
   },
   "de": {
     "langName": "Deutsch",
@@ -471,7 +472,8 @@
     "q.sort": "Sortierung",
     "q.sort.recommended": "Empfohlen",
     "q.sort.popular": "Beliebteste",
-    "q.sort.updated": "Kürzlich aktualisiert"
+    "q.sort.updated": "Kürzlich aktualisiert",
+    "cv.archived": "archivierte Kopie (Originalseite nicht erreichbar)"
   },
   "fr": {
     "langName": "Français",
@@ -708,7 +710,8 @@
     "q.sort": "Tri",
     "q.sort.recommended": "Recommandés",
     "q.sort.popular": "Les plus populaires",
-    "q.sort.updated": "Mis à jour récemment"
+    "q.sort.updated": "Mis à jour récemment",
+    "cv.archived": "copie archivée (site d’origine hors ligne)"
   },
   "ar": {
     "langName": "العربية",
@@ -945,7 +948,8 @@
     "q.sort": "الترتيب",
     "q.sort.recommended": "موصى به",
     "q.sort.popular": "الأكثر شعبية",
-    "q.sort.updated": "المحدَّثة مؤخرًا"
+    "q.sort.updated": "المحدَّثة مؤخرًا",
+    "cv.archived": "نسخة مؤرشفة (الموقع الأصلي متوقف)"
   },
   "ru": {
     "langName": "Русский",
@@ -1182,6 +1186,7 @@
     "q.sort": "Сортировка",
     "q.sort.recommended": "Рекомендуемые",
     "q.sort.popular": "Самые популярные",
-    "q.sort.updated": "Недавно обновлённые"
+    "q.sort.updated": "Недавно обновлённые",
+    "cv.archived": "архивная копия (исходный сайт недоступен)"
   }
 }
