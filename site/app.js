@@ -138,7 +138,7 @@
     $('#bb-lead').textContent = loc(M.lead);
     $('#bb-warn').textContent = loc(M.warning);
     $('#bb-rules').innerHTML = M.rules.map((r) => `<div class="bb-rule"><b>${esc(loc(r.title))}</b><span>${esc(loc(r.text))}</span></div>`).join('');
-    const chip = (k, cls) => { const r = byKey.get(k); return r ? `<a class="${cls}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(describe(r))}">${esc(r.title)}</a>` : ''; };
+    const chip = (k, cls) => { const r = byKey.get(k); return r ? `<a class="${cls}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(describe(r).text)}">${esc(r.title)}</a>` : ''; };
     const open = new Set($$('#bb-phases details[open]').map((d) => d.dataset.id));
     if (!open.size && !$('#bb-phases').children.length) open.add(M.phases[0].id);
     $('#bb-phases').innerHTML = M.phases.map((ph, i) => `
@@ -164,7 +164,7 @@
       <a class="bb-src" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
         <span class="bb-src-type">${esc(typeLabel(r.type))}${r.languages.includes('ar') ? ' · AR' : ''}</span>
         <strong>${esc(r.title)}</strong>
-        <span>${esc(describe(r))}</span>
+        <span>${esc(describe(r).text)}</span>
       </a>`).join('');
     syncBountyToggle();
   }
