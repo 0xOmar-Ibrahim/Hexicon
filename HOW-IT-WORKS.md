@@ -12,7 +12,7 @@ Security knowledge is scattered across thousands of blogs, repos, courses and ad
 
 Hexicon does two things:
 
-1. **A library**: 533 hand-picked resources (courses, tools, books, labs, cheatsheets, papers, certifications…) in 14 domains, each described, tagged by level and cost, and checked weekly.
+1. **A library**: 564 hand-picked resources (courses, tools, books, labs, cheatsheets, papers, certifications…) in 14 domains, each described, tagged by level and cost, and checked weekly.
 2. **A CVE field guide**: 1,116 pages for the vulnerabilities attackers actually exploit (from the CISA KEV catalog), each answering *What is it? Am I affected? Is it exploited? How do I check, practise, detect and fix it?*
 
 Everything is available in English, German, French, Arabic and Russian.
@@ -84,6 +84,10 @@ Each CVE page has up to three layers, and **each layer has exactly one owner**:
 | **Intel** | `intel:` affected versions, exploits, scanners, labs, detections, ATT&CK, fix, priority | `enrich-cves.mjs`, never by hand |
 
 Pages created by the importer (`source: kev-import`) also carry `rank` (position in the EPSS ranking) or `recent: true` (added to KEV in the last 180 days), a `vuln_type` (e.g. `rce`, `sqli`), and summaries generated in all five languages.
+
+### Methodology: `data/methodology/bug-bounty.yml`
+
+Hexicon's own bug bounty workflow, written in our words from the public methodologies it cites. It has golden rules and 10 phases; each phase has a `goal`, an `output` ("done when you have…"), `steps`, `tools` and `sources`. Every text is in all five languages, and `tools` / `sources` are library keys (`offensive/katana`) that the build checks exist. The website renders it in the *Bug bounty* section; `npm run docs` writes an English copy to `docs/bug-bounty-methodology.md`.
 
 ### Generated files (don't edit by hand)
 
@@ -165,6 +169,7 @@ Links rot and projects get abandoned. Two scripts check them weekly.
 - **Start here**: three simple steps for newcomers.
 - **Topics**: the 14 domains; clicking one opens it in the library.
 - **Library**: topic sidebar, search, *Beginner* / *Free only* / *Hide unmaintained* filters, sort by *Recommended*, *Most popular* or *Recently updated*. Cards show type, level meter, cost, stars and "updated … ago", plus warnings for archived, stale or broken resources.
+- **Bug bounty**: the combined methodology as an expandable 10-phase timeline with golden rules, tool chips and credited sources, plus cards for the original guides.
 - **CVEs**: a searchable table of 1,114 ranked CVEs (filters: vendor, severity, ransomware, *Patch immediately only*, *New only*), deep-dive cards for the curated pages, and a **detail page** for every CVE (`?cve=CVE-…`, shareable, works with the back button and Escape).
 - **Contribute**: one "Suggest a resource" button that opens the GitHub issue forms.
 

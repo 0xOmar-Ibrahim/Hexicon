@@ -163,6 +163,12 @@ paths.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
 const counts = Object.fromEntries(taxonomy.domains.map((d) => [d.id, 0]));
 for (const r of resources) if (r.domain in counts) counts[r.domain]++;
 
+// Methodologies (data/methodology/*.yml): every tool / source reference must exist in the library.
+const resourceKeys = new Set(resources.map((r) => `${r.domain}/${r.id}`));
+const methodology = fs.existsSync(path.join(ROOT, 'data/methodology/bug-bounty.yml'))
+  ? YAML.parse(fs.readFileSync(path.join(ROOT, 'data/methodology/bug-bounty.yml'), 'utf8')) : null;
+for (const ph of methodology?.phases ?? []) for (const ref of [...(ph.tools ?? []), ...(ph.sources ?? [])])
+  if (!resourceKeys.has(ref)) throw new Error(`methodology phase "${ph.id}": unknown resource ${ref}`);
 const data = {
   generated: new Date().toISOString(),
   languages: taxonomy.languages,
@@ -175,6 +181,7 @@ const data = {
     Number(b.level.includes('beginner')) - Number(a.level.includes('beginner')) ||
     Number(b.featured) - Number(a.featured) || a.title.localeCompare(b.title)),
   cves: cves.sort((a, b) => (b.score ?? 0) - (a.score ?? 0)),
+  methodology: methodology,
 };
 
 fs.rmSync(DIST, { recursive: true, force: true });

@@ -2,7 +2,7 @@ title: "Nuclei"
 url: "https://github.com/projectdiscovery/nuclei"
 type: tool
 domain: offensive
-subdomains: [network, web]
+subdomains: [network, web, bug-bounty]
 level: [beginner, intermediate]
 cost: free
 languages: [en]

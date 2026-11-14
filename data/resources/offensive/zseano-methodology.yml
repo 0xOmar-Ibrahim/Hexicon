@@ -1,0 +1,29 @@
+title: zseano's methodology
+url: https://www.bugbountyhunter.com/methodology/zseanos-methodology.pdf
+type: book
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - beginner
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "Free guide on how a top hunter approaches a target: understanding the app first, following developer intent, and testing features in depth rather than scanning wide."
+  de: "Kostenloser Leitfaden, wie ein Top-Hunter an ein Ziel herangeht: zuerst die App verstehen, der Absicht der Entwickler folgen und Funktionen gründlich statt breit testen."
+  fr: "Guide gratuit sur la façon dont un chasseur de haut niveau aborde une cible : comprendre l’appli d’abord, suivre l’intention des développeurs et tester les fonctions en profondeur."
+  ar: "دليل مجاني يشرح كيف يتعامل صيّاد محترف مع الهدف: فهم التطبيق أولًا، وتتبّع نية المطورين، واختبار الميزات بعمق بدل المسح الواسع."
+  ru: "Бесплатное руководство о том, как топовый охотник подходит к цели: сначала понять приложение, следовать замыслу разработчиков и глубоко тестировать функции, а не сканировать вширь."
+tags:
+  - bug-bounty
+  - methodology
+  - mindset
+  - free-ebook
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

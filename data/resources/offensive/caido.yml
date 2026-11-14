@@ -1,0 +1,23 @@
+title: Caido
+url: https://caido.io/
+repo: https://github.com/caido/caido
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: freemium
+languages:
+  - en
+description:
+  en: Lightweight web security proxy (alternative to Burp Suite) with a free tier.
+tags:
+  - bug-bounty
+  - proxy
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

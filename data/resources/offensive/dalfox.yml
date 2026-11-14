@@ -1,0 +1,23 @@
+title: Dalfox
+url: https://github.com/hahwul/dalfox
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Parameter analysis and XSS scanner that verifies reflections and DOM sinks.
+tags:
+  - bug-bounty
+  - xss
+  - scanner
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

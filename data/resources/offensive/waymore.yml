@@ -1,0 +1,23 @@
+title: waymore
+url: https://github.com/xnl-h4ck3r/waymore
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Finds far more archived URLs than similar tools, and can download archived responses for analysis.
+tags:
+  - bug-bounty
+  - recon
+  - archives
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

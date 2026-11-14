@@ -2,7 +2,7 @@ title: "Hacker101"
 url: "https://www.hacker101.com/"
 type: course
 domain: offensive
-subdomains: [web]
+subdomains: [bug-bounty, web]
 level: [beginner]
 cost: free
 languages: [en]

@@ -1,0 +1,27 @@
+title: Bug Bounty Hunting Methodology 2025 (Amr Elsagaei)
+url: https://github.com/amrelsagaei/Bug-Bounty-Hunting-Methodology-2025
+type: cheatsheet
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Seven-phase pipeline from recon to reporting, with the "Two-Eye" approach (systematic testing plus hunting for anomalies), PoC tips and a report template.
+  de: Siebenphasige Pipeline von Recon bis Report, mit dem „Two-Eye“-Ansatz (systematisches Testen plus Suche nach Auffälligkeiten), PoC-Tipps und Report-Vorlage.
+  fr: Pipeline en sept phases de la recon au rapport, avec l’approche « Two-Eye » (tests systématiques + chasse aux anomalies), conseils de PoC et modèle de rapport.
+  ar: سلسلة من سبع مراحل من الاستطلاع حتى التقرير، مع نهج «العينين» (اختبار منهجي مع البحث عن الشذوذ)، ونصائح لإثبات المفهوم وقالب تقرير.
+  ru: Семифазный конвейер от разведки до отчёта с подходом «двух глаз» (систематическое тестирование плюс поиск аномалий), советами по PoC и шаблоном отчёта.
+tags:
+  - bug-bounty
+  - methodology
+  - recon
+  - reporting
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

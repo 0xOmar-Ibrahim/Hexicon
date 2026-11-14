@@ -1,0 +1,23 @@
+title: dnsx
+url: https://github.com/projectdiscovery/dnsx
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Fast multi-purpose DNS toolkit to resolve, filter and validate large subdomain lists.
+tags:
+  - bug-bounty
+  - dns
+  - recon
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

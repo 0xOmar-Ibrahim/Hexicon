@@ -38,8 +38,12 @@ Version 1 built the library. Version 2 added the CVE field guide and made the si
 - Full CVE detail page with shareable `?cve=` URLs; CVE table becomes cards on phones
 - **Simplified layout for newcomers**: "Start here" steps, topic sidebar, beginner and free filters, level meter
 - **Quality signals**: GitHub stars and last update for 170 projects, archived and stale warnings, sort by popular or recently updated
-- **Link health**: weekly checks of 533 resource links and 1,779 CVE page links; dead CVE links fall back to a Wayback Machine copy
+- **Link health**: weekly checks of 564 resource links and 1,779 CVE page links; dead CVE links fall back to a Wayback Machine copy
 - Deployed on Vercel with Web Analytics · poster and launch posts
+
+### v2.1: bug bounty methodology (2026-11-14)
+- New **Bug bounty** section: one 10-phase workflow combining Red Nexus, zseano, TBHM, Intigriti, XHack, Amr Elsagaei, Phirojshah, six2dez and the bb-methodology agent skill, with golden rules, a goal and output per phase, tools and credited sources, in all 5 languages
+- 31 new resources (18 methodologies and guides, 13 core tools) under a new *Bug Bounty Hunting* subtopic
 
 ### Paused
 - **Role roadmaps** (14 roadmaps, NICE-mapped, with stages and projects) are kept in `data/paths/` but **removed from the website**. They need practitioner review and full translation before they come back.

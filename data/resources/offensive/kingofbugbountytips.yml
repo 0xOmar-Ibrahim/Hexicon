@@ -1,0 +1,27 @@
+title: KingOfBugBountyTips
+url: https://github.com/KingOfBugbounty/KingOfBugBountyTips
+type: cheatsheet
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Large collection of recon and testing one-liners that chain tools like subfinder, httpx, gau and nuclei.
+  de: Große Sammlung von Recon- und Test-Einzeilern, die Tools wie subfinder, httpx, gau und nuclei verketten.
+  fr: Grande collection de one-liners de recon et de test qui enchaînent des outils comme subfinder, httpx, gau et nuclei.
+  ar: مجموعة كبيرة من أوامر الاستطلاع والاختبار في سطر واحد تربط أدوات مثل subfinder وhttpx وgau وnuclei.
+  ru: Большая коллекция однострочников для разведки и тестирования, связывающих subfinder, httpx, gau и nuclei.
+tags:
+  - bug-bounty
+  - one-liners
+  - recon
+  - automation
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

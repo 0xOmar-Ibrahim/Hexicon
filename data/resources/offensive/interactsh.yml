@@ -1,0 +1,23 @@
+title: interactsh
+url: https://github.com/projectdiscovery/interactsh
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Out-of-band interaction server to confirm blind SSRF, XXE, RCE and injection.
+tags:
+  - bug-bounty
+  - oob
+  - ssrf
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -8,13 +8,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -23,8 +23,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -38,13 +38,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -58,13 +58,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -73,8 +73,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -83,8 +83,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -93,8 +93,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -103,8 +103,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -113,8 +113,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -128,13 +128,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -143,8 +143,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -153,8 +153,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -168,13 +168,13 @@
    "archived": true,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "archived"
@@ -183,8 +183,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -193,8 +193,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -203,8 +203,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -213,8 +213,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -223,8 +223,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -233,8 +233,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -243,8 +243,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -253,8 +253,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -263,8 +263,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -278,13 +278,13 @@
    "archived": false,
    "license": "mit",
    "language": "TypeScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -298,13 +298,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -318,13 +318,13 @@
    "archived": true,
    "license": "mit",
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "archived"
@@ -333,8 +333,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -348,13 +348,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -363,8 +363,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -373,8 +373,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -383,8 +383,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -398,13 +398,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -413,8 +413,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -428,13 +428,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -443,8 +443,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -458,13 +458,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -473,8 +473,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -483,8 +483,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -498,13 +498,13 @@
    "archived": false,
    "license": "bsd-3-clause",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -518,13 +518,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -538,13 +538,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -552,19 +552,19 @@
  "appsec/harden-runner": {
   "repo": {
    "name": "step-security/harden-runner",
-   "stars": 1295,
-   "forks": 124,
-   "pushed": "2026-11-04",
+   "stars": 1300,
+   "forks": 125,
+   "pushed": "2026-11-14",
    "archived": false,
    "license": "apache-2.0",
    "language": "TypeScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -573,8 +573,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -588,13 +588,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -608,13 +608,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -623,8 +623,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -633,8 +633,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -643,8 +643,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -653,8 +653,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -663,8 +663,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -673,8 +673,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -683,8 +683,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -693,8 +693,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -703,8 +703,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -718,13 +718,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "HTML",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -732,19 +732,19 @@
  "appsec/pytm": {
   "repo": {
    "name": "OWASP/pytm",
-   "stars": 1191,
-   "forks": 235,
-   "pushed": "2026-11-01",
+   "stars": 1200,
+   "forks": 237,
+   "pushed": "2026-11-11",
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -758,13 +758,13 @@
    "archived": false,
    "license": "lgpl-2.1",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -773,8 +773,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -783,8 +783,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -798,13 +798,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -813,8 +813,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -823,8 +823,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -838,13 +838,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -853,8 +853,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -863,7 +863,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -872,7 +872,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -881,8 +881,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -891,8 +891,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -901,8 +901,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -911,8 +911,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -921,8 +921,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -931,8 +931,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -941,8 +941,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -951,8 +951,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -961,8 +961,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -971,8 +971,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -981,8 +981,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -991,8 +991,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1001,8 +1001,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1011,8 +1011,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1021,8 +1021,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1031,8 +1031,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1041,8 +1041,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1051,8 +1051,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1061,8 +1061,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1071,8 +1071,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1081,8 +1081,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1091,8 +1091,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1101,8 +1101,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1111,8 +1111,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1121,8 +1121,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1131,8 +1131,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1141,8 +1141,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1151,8 +1151,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1161,8 +1161,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1171,8 +1171,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1181,8 +1181,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1191,8 +1191,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1201,8 +1201,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1211,8 +1211,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1221,8 +1221,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1231,8 +1231,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1241,8 +1241,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1256,13 +1256,13 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1271,8 +1271,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1281,8 +1281,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1291,8 +1291,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1301,8 +1301,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1311,8 +1311,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1321,8 +1321,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1336,13 +1336,13 @@
    "archived": false,
    "license": "mit",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1351,8 +1351,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1366,13 +1366,13 @@
    "archived": false,
    "license": "mit",
    "language": "PHP",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1386,13 +1386,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -1400,19 +1400,19 @@
  "cloud/azurehound": {
   "repo": {
    "name": "SpecterOps/AzureHound",
-   "stars": 983,
+   "stars": 987,
    "forks": 152,
    "pushed": "2026-10-16",
    "archived": false,
    "license": "gpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1426,13 +1426,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1446,13 +1446,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1466,13 +1466,13 @@
    "archived": false,
    "license": "bsd-3-clause",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1481,8 +1481,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1496,13 +1496,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Shell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1511,8 +1511,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1526,13 +1526,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "C++",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1546,13 +1546,13 @@
    "archived": false,
    "license": "mit",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -1561,8 +1561,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1571,8 +1571,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1586,13 +1586,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Haskell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1606,13 +1606,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Open Policy Agent",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1620,19 +1620,19 @@
  "cloud/kube-bench": {
   "repo": {
    "name": "aquasecurity/kube-bench",
-   "stars": 8246,
+   "stars": 8260,
    "forks": 1348,
    "pushed": "2026-10-26",
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1646,13 +1646,13 @@
    "archived": false,
    "license": "mit",
    "language": "HTML",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1661,8 +1661,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1676,13 +1676,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1691,8 +1691,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1706,13 +1706,13 @@
    "archived": false,
    "license": "bsd-3-clause",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1726,13 +1726,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1741,8 +1741,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1756,13 +1756,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1776,13 +1776,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1790,19 +1790,19 @@
  "cloud/tetragon": {
   "repo": {
    "name": "cilium/tetragon",
-   "stars": 5157,
-   "forks": 638,
-   "pushed": "2026-11-05",
+   "stars": 5182,
+   "forks": 640,
+   "pushed": "2026-11-13",
    "archived": false,
    "license": "apache-2.0",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1811,8 +1811,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1826,13 +1826,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1841,8 +1841,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1856,13 +1856,13 @@
    "archived": false,
    "license": "bsd-3-clause",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -1871,8 +1871,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1881,8 +1881,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1891,8 +1891,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1901,8 +1901,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1911,8 +1911,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1921,7 +1921,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1930,8 +1930,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1940,8 +1940,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1950,8 +1950,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1960,8 +1960,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1970,8 +1970,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -1985,13 +1985,13 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2000,8 +2000,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2010,8 +2010,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2020,8 +2020,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2030,8 +2030,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2039,19 +2039,19 @@
  "cryptography/project-wycheproof": {
   "repo": {
    "name": "C2SP/wycheproof",
-   "stars": 3139,
-   "forks": 338,
-   "pushed": "2026-10-23",
+   "stars": 3143,
+   "forks": 340,
+   "pushed": "2026-11-11",
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2060,8 +2060,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2070,8 +2070,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2080,8 +2080,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2090,8 +2090,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2099,19 +2099,19 @@
  "cryptography/smallstep-certificates-step-ca": {
   "repo": {
    "name": "smallstep/certificates",
-   "stars": 9043,
-   "forks": 615,
-   "pushed": "2026-11-05",
+   "stars": 9067,
+   "forks": 617,
+   "pushed": "2026-11-10",
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2125,13 +2125,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Shell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2140,8 +2140,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2150,8 +2150,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2160,8 +2160,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2170,8 +2170,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2180,8 +2180,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2190,8 +2190,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2200,8 +2200,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2210,8 +2210,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2220,8 +2220,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2235,23 +2235,24 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
  },
  "cves/exploit-database": {
   "link": {
-   "status": "dead",
-   "code": 502,
-   "checked": "2026-11-13",
-   "fails": 1
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
   },
   "health": "unknown"
  },
@@ -2259,8 +2260,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2269,8 +2270,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2279,8 +2280,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2289,8 +2290,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2299,8 +2300,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2314,13 +2315,13 @@
    "archived": false,
    "license": "mit",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2329,8 +2330,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2339,8 +2340,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2354,13 +2355,13 @@
    "archived": false,
    "license": "mit",
    "language": "Dockerfile",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2369,8 +2370,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2379,8 +2380,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2394,13 +2395,13 @@
    "archived": false,
    "license": "mit",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2409,8 +2410,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2419,8 +2420,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2429,8 +2430,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2439,8 +2440,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2454,13 +2455,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -2469,8 +2470,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2484,13 +2485,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "SCSS",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2499,8 +2500,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2514,13 +2515,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2529,8 +2530,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2544,13 +2545,13 @@
    "archived": false,
    "license": "mit",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2559,8 +2560,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2574,13 +2575,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Shell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2589,8 +2590,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2604,13 +2605,13 @@
    "archived": false,
    "license": "mit",
    "language": "HTML",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2619,8 +2620,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2634,13 +2635,13 @@
    "archived": false,
    "license": "mit",
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2649,8 +2650,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2659,8 +2660,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2669,8 +2670,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2678,19 +2679,19 @@
  "defensive/opencanary": {
   "repo": {
    "name": "thinkst/opencanary",
-   "stars": 3097,
-   "forks": 422,
-   "pushed": "2026-11-04",
+   "stars": 3105,
+   "forks": 424,
+   "pushed": "2026-11-12",
    "archived": false,
    "license": "bsd-3-clause",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2699,8 +2700,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2714,13 +2715,13 @@
    "archived": false,
    "license": "mit",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2734,13 +2735,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2749,8 +2750,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2759,8 +2760,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2774,13 +2775,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2789,8 +2790,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2804,13 +2805,13 @@
    "archived": false,
    "license": "cc0-1.0",
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -2819,8 +2820,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2829,8 +2830,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2844,13 +2845,13 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -2859,8 +2860,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2874,13 +2875,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2894,13 +2895,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "Nim",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2909,8 +2910,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2924,13 +2925,13 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -2939,8 +2940,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2954,13 +2955,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2969,7 +2970,7 @@
   "link": {
    "status": "blocked",
    "code": 429,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -2983,13 +2984,13 @@
    "archived": false,
    "license": null,
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -2998,8 +2999,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3008,8 +3009,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3018,8 +3019,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3028,8 +3029,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3043,13 +3044,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3058,8 +3059,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3068,8 +3069,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3083,13 +3084,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3103,13 +3104,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3118,8 +3119,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3128,8 +3129,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3138,8 +3139,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3148,8 +3149,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3158,8 +3159,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3173,13 +3174,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3193,13 +3194,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "Rust",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3208,8 +3209,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3218,8 +3219,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3233,13 +3234,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3253,13 +3254,13 @@
    "archived": false,
    "license": "mit",
    "language": null,
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3268,8 +3269,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3278,8 +3279,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3288,8 +3289,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3303,13 +3304,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3318,8 +3319,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3333,13 +3334,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3348,8 +3349,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3358,8 +3359,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3368,8 +3369,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3383,13 +3384,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3398,8 +3399,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3408,8 +3409,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3418,8 +3419,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3433,13 +3434,13 @@
    "archived": false,
    "license": "other",
    "language": "Perl",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3448,8 +3449,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3458,8 +3459,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3473,13 +3474,13 @@
    "archived": false,
    "license": "other",
    "language": "YARA",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3488,8 +3489,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3503,13 +3504,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3523,13 +3524,13 @@
    "archived": false,
    "license": "other",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3538,8 +3539,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3547,19 +3548,19 @@
  "dfir/volatility-3": {
   "repo": {
    "name": "volatilityfoundation/volatility3",
-   "stars": 4572,
-   "forks": 736,
+   "stars": 4599,
+   "forks": 741,
    "pushed": "2026-10-12",
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3568,8 +3569,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3578,8 +3579,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3588,8 +3589,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3598,8 +3599,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3608,8 +3609,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3618,8 +3619,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3628,7 +3629,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3637,8 +3638,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3652,13 +3653,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3667,8 +3668,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3677,8 +3678,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3686,19 +3687,19 @@
  "fundamentals/gtfobins": {
   "repo": {
    "name": "GTFOBins/GTFOBins.github.io",
-   "stars": 13829,
-   "forks": 1719,
+   "stars": 13859,
+   "forks": 1729,
    "pushed": "2026-05-27",
    "archived": false,
    "license": "gpl-3.0",
    "language": "YAML",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3707,8 +3708,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3717,8 +3718,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3727,8 +3728,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3737,8 +3738,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3747,7 +3748,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3756,8 +3757,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3771,13 +3772,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "XSLT",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3786,8 +3787,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3796,8 +3797,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3806,8 +3807,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3816,8 +3817,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3826,8 +3827,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3836,8 +3837,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3846,8 +3847,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3856,8 +3857,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3866,8 +3867,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3876,8 +3877,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3886,8 +3887,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3896,8 +3897,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3906,8 +3907,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3921,13 +3922,13 @@
    "archived": false,
    "license": "other",
    "language": "Markdown",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -3936,7 +3937,7 @@
   "link": {
    "status": "blocked",
    "code": 429,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3945,8 +3946,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3955,8 +3956,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3965,8 +3966,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3975,8 +3976,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3985,8 +3986,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -3995,8 +3996,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4005,8 +4006,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4015,8 +4016,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4025,8 +4026,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4040,13 +4041,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4055,8 +4056,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4065,8 +4066,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4075,8 +4076,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4085,18 +4086,19 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
  },
  "grc/dora-eur-lex": {
   "link": {
-   "status": "dead",
-   "code": 0,
-   "checked": "2026-11-13",
-   "fails": 1
+   "status": "live",
+   "code": 202,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
   },
   "health": "unknown"
  },
@@ -4104,8 +4106,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4114,8 +4116,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4124,8 +4126,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4134,8 +4136,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4144,8 +4146,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4154,8 +4156,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4164,8 +4166,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4174,8 +4176,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4184,7 +4186,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4193,8 +4195,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4203,18 +4205,19 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
  },
  "grc/nis2-directive-eur-lex": {
   "link": {
-   "status": "dead",
-   "code": 0,
-   "checked": "2026-11-13",
-   "fails": 1
+   "status": "live",
+   "code": 202,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
   },
   "health": "unknown"
  },
@@ -4222,8 +4225,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4232,8 +4235,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4242,8 +4245,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4252,8 +4255,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4262,8 +4265,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4272,8 +4275,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4282,8 +4285,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4292,8 +4295,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4302,8 +4305,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4312,8 +4315,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4322,8 +4325,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4337,13 +4340,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4352,8 +4355,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4362,8 +4365,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4377,13 +4380,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4392,8 +4395,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4407,13 +4410,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "C++",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -4427,13 +4430,13 @@
    "archived": false,
    "license": null,
    "language": "Lua",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -4442,8 +4445,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4452,8 +4455,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4467,13 +4470,13 @@
    "archived": false,
    "license": "other",
    "language": "Shell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4487,13 +4490,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4502,8 +4505,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4512,8 +4515,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4522,7 +4525,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4531,8 +4534,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4541,8 +4544,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4551,8 +4554,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4561,8 +4564,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4576,13 +4579,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4591,8 +4594,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4601,7 +4604,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4610,8 +4613,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4620,21 +4623,61 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/allaboutbugbounty": {
+  "repo": {
+   "name": "daffainfo/AllAboutBugBounty",
+   "stars": 6954,
+   "forks": 1270,
+   "pushed": "2023-09-08",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
  },
  "offensive/allsafe": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/amrelsagaei-bug-bounty-methodology-2025": {
+  "repo": {
+   "name": "amrelsagaei/Bug-Bounty-Hunting-Methodology-2025",
+   "stars": 400,
+   "forks": 97,
+   "pushed": "2025-05-21",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
  },
  "offensive/android-insecurebankv2": {
   "repo": {
@@ -4645,13 +4688,13 @@
    "archived": false,
    "license": "mit",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -4660,8 +4703,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4670,8 +4713,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4680,8 +4723,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4695,13 +4738,13 @@
    "archived": false,
    "license": "mit",
    "language": "TypeScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -4715,13 +4758,33 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/arjun": {
+  "repo": {
+   "name": "s0md3v/Arjun",
+   "stars": 6439,
+   "forks": 869,
+   "pushed": "2025-02-20",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "Python",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4735,13 +4798,13 @@
    "archived": false,
    "license": "other",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4750,8 +4813,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4765,13 +4828,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4780,19 +4843,58 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/bugcrowd-university": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/bughuntermethodology-alihussainzada": {
+  "repo": {
+   "name": "alihussainzada/BugHunterMethodology",
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2024-11-11",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
  },
  "offensive/burp-suite": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/caido": {
+  "link": {
+   "status": "dead",
+   "code": 0,
+   "checked": "2026-11-14",
+   "fails": 1
   },
   "health": "unknown"
  },
@@ -4805,13 +4907,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4825,16 +4927,26 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
+ },
+ "offensive/claude-bug-bounty-bb-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
  },
  "offensive/coercer": {
   "repo": {
@@ -4845,13 +4957,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4860,8 +4972,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4870,11 +4982,31 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/dalfox": {
+  "repo": {
+   "name": "hahwul/dalfox",
+   "stars": 5355,
+   "forks": 581,
+   "pushed": "2026-11-01",
+   "archived": false,
+   "license": "mit",
+   "language": "Rust",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
  },
  "offensive/diva-android": {
   "repo": {
@@ -4885,23 +5017,43 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
+ },
+ "offensive/dnsx": {
+  "repo": {
+   "name": "projectdiscovery/dnsx",
+   "stars": 2921,
+   "forks": 327,
+   "pushed": "2026-11-09",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
  },
  "offensive/drozer": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4915,13 +5067,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "PHP",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4935,13 +5087,13 @@
    "archived": false,
    "license": null,
    "language": "CMake",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -4955,13 +5107,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -4970,8 +5122,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -4985,13 +5137,13 @@
    "archived": false,
    "license": "other",
    "language": "Meson",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5000,11 +5152,31 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/gau": {
+  "repo": {
+   "name": "lc/gau",
+   "stars": 5152,
+   "forks": 529,
+   "pushed": "2026-10-12",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
  },
  "offensive/goad-game-of-active-directory": {
   "repo": {
@@ -5015,13 +5187,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "PowerShell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5035,13 +5207,13 @@
    "archived": false,
    "license": "other",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -5050,8 +5222,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5060,8 +5232,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5070,8 +5242,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5080,8 +5252,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5090,8 +5262,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5100,8 +5272,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5115,13 +5287,13 @@
    "archived": true,
    "license": "gpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "archived"
@@ -5130,8 +5302,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5145,13 +5317,33 @@
    "archived": false,
    "license": "mit",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/howtohunt": {
+  "repo": {
+   "name": "KathanP19/HowToHunt",
+   "stars": 7379,
+   "forks": 1980,
+   "pushed": "2026-10-22",
+   "archived": false,
+   "license": "gpl-3.0",
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5159,19 +5351,19 @@
  "offensive/httpx": {
   "repo": {
    "name": "projectdiscovery/httpx",
-   "stars": 10586,
-   "forks": 1121,
-   "pushed": "2026-11-05",
+   "stars": 10608,
+   "forks": 1124,
+   "pushed": "2026-11-13",
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5185,13 +5377,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5205,36 +5397,116 @@
    "archived": true,
    "license": "apache-2.0",
    "language": "Kotlin",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "archived"
+ },
+ "offensive/interactsh": {
+  "repo": {
+   "name": "projectdiscovery/interactsh",
+   "stars": 4617,
+   "forks": 490,
+   "pushed": "2026-11-04",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/intigriti-crafting-bug-bounty-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/intigriti-hackademy": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
  },
  "offensive/ired-team": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/jhaddix-tbhm": {
+  "repo": {
+   "name": "jhaddix/tbhm",
+   "stars": 4425,
+   "forks": 827,
+   "pushed": "2023-08-01",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
  },
  "offensive/john-the-ripper": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/jsluice": {
+  "repo": {
+   "name": "BishopFox/jsluice",
+   "stars": 1971,
+   "forks": 152,
+   "pushed": "2024-05-22",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
  },
  "offensive/jwt-tool": {
   "repo": {
@@ -5245,13 +5517,73 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/katana": {
+  "repo": {
+   "name": "projectdiscovery/katana",
+   "stars": 17814,
+   "forks": 1216,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/kingofbugbountytips": {
+  "repo": {
+   "name": "KingOfBugbounty/KingOfBugBountyTips",
+   "stars": 5584,
+   "forks": 986,
+   "pushed": "2026-10-21",
+   "archived": false,
+   "license": null,
+   "language": "Python",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/kiterunner": {
+  "repo": {
+   "name": "assetnote/kiterunner",
+   "stars": 3301,
+   "forks": 341,
+   "pushed": "2026-07-10",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5265,13 +5597,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5285,13 +5617,13 @@
    "archived": false,
    "license": "other",
    "language": "Ruby",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5300,8 +5632,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5315,13 +5647,13 @@
    "archived": false,
    "license": null,
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5335,13 +5667,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5355,16 +5687,56 @@
    "archived": false,
    "license": "other",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
+ },
+ "offensive/naabu": {
+  "repo": {
+   "name": "projectdiscovery/naabu",
+   "stars": 6352,
+   "forks": 737,
+   "pushed": "2026-11-06",
+   "archived": false,
+   "license": "mit",
+   "language": "Go",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/nahamsec-beginner-bug-bounty-resources": {
+  "repo": {
+   "name": "nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters",
+   "stars": 12329,
+   "forks": 2054,
+   "pushed": "2024-07-23",
+   "archived": false,
+   "license": null,
+   "language": null,
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
  },
  "offensive/netexec": {
   "repo": {
@@ -5375,13 +5747,13 @@
    "archived": false,
    "license": "bsd-2-clause",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5390,8 +5762,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5405,13 +5777,13 @@
    "archived": false,
    "license": "other",
    "language": "Perl",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5420,8 +5792,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5430,8 +5802,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5445,13 +5817,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5465,13 +5837,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5480,8 +5852,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5490,8 +5862,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5505,13 +5877,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5520,8 +5892,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5535,13 +5907,13 @@
    "archived": false,
    "license": "mit",
    "language": "TypeScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5550,8 +5922,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5559,19 +5931,19 @@
  "offensive/owasp-mastg-hacking-playground": {
   "repo": {
    "name": "OWASP/MASTG-Hacking-Playground",
-   "stars": 697,
-   "forks": 171,
+   "stars": 703,
+   "forks": 173,
    "pushed": "2022-10-31",
    "archived": false,
    "license": "gpl-3.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "stale"
@@ -5585,13 +5957,13 @@
    "archived": false,
    "license": "cc-by-sa-4.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5600,8 +5972,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5610,8 +5982,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5620,8 +5992,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5635,13 +6007,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5655,13 +6027,13 @@
    "archived": false,
    "license": "other",
    "language": "C#",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5670,8 +6042,18 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/pentester-land-writeups": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5680,8 +6062,28 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/phirojshah-bug-bounty-methodology-2025": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/phirojshah-bug-hunting-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5695,13 +6097,13 @@
    "archived": false,
    "license": "other",
    "language": "C#",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5710,8 +6112,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5720,8 +6122,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5730,8 +6132,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5740,8 +6142,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5755,13 +6157,13 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5770,18 +6172,48 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
+ },
+ "offensive/reconftw": {
+  "repo": {
+   "name": "six2dez/reconftw",
+   "stars": 8323,
+   "forks": 1264,
+   "pushed": "2026-10-29",
+   "archived": false,
+   "license": "mit",
+   "language": "Shell",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
  },
  "offensive/red-team-development-and-operations": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/rednexus-bug-bounty-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5795,13 +6227,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5815,13 +6247,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5830,8 +6262,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5845,13 +6277,13 @@
    "archived": false,
    "license": "other",
    "language": "C#",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5865,33 +6297,43 @@
    "archived": false,
    "license": "mit",
    "language": "PHP",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
  },
+ "offensive/six2dez-pentest-book": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
  "offensive/sliver": {
   "repo": {
    "name": "BishopFox/sliver",
-   "stars": 12238,
-   "forks": 1651,
-   "pushed": "2026-11-05",
+   "stars": 12326,
+   "forks": 1671,
+   "pushed": "2026-11-08",
    "archived": false,
    "license": "gpl-3.0",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5899,19 +6341,19 @@
  "offensive/social-engineer-toolkit-set": {
   "repo": {
    "name": "trustedsec/social-engineer-toolkit",
-   "stars": 15424,
-   "forks": 3418,
+   "stars": 15469,
+   "forks": 3430,
    "pushed": "2026-06-04",
    "archived": false,
    "license": null,
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5925,33 +6367,53 @@
    "archived": false,
    "license": "other",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
  },
- "offensive/thc-hydra": {
+ "offensive/subzy": {
   "repo": {
-   "name": "vanhauser-thc/thc-hydra",
-   "stars": 12456,
-   "forks": 2689,
-   "pushed": "2026-10-30",
+   "name": "PentestPad/subzy",
+   "stars": 1613,
+   "forks": 203,
+   "pushed": "2024-09-10",
    "archived": false,
-   "license": "agpl-3.0",
-   "language": "C",
-   "checked": "2026-11-13"
+   "license": "gpl-2.0",
+   "language": "Go",
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "stale"
+ },
+ "offensive/thc-hydra": {
+  "repo": {
+   "name": "vanhauser-thc/thc-hydra",
+   "stars": 12503,
+   "forks": 2709,
+   "pushed": "2026-11-08",
+   "archived": false,
+   "license": "agpl-3.0",
+   "language": "C",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -5960,8 +6422,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5970,8 +6432,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5980,8 +6442,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -5995,13 +6457,33 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "maintained"
+ },
+ "offensive/waymore": {
+  "repo": {
+   "name": "xnl-h4ck3r/waymore",
+   "stars": 2789,
+   "forks": 294,
+   "pushed": "2026-06-11",
+   "archived": false,
+   "license": "mit",
+   "language": "Python",
+   "checked": "2026-11-14"
+  },
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6010,8 +6492,18 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
+ },
+ "offensive/xhack-bug-bounty-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6025,16 +6517,26 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
+ },
+ "offensive/zseano-methodology": {
+  "link": {
+   "status": "live",
+   "code": 200,
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
+   "fails": 0
+  },
+  "health": "unknown"
  },
  "reverse-engineering/androguard": {
   "repo": {
@@ -6045,13 +6547,13 @@
    "archived": false,
    "license": "apache-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6060,8 +6562,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6075,13 +6577,13 @@
    "archived": false,
    "license": "other",
    "language": "YARA",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6090,8 +6592,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6100,8 +6602,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6110,8 +6612,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6120,8 +6622,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6129,19 +6631,19 @@
  "reverse-engineering/binwalk": {
   "repo": {
    "name": "ReFirmLabs/binwalk",
-   "stars": 14658,
-   "forks": 1875,
+   "stars": 14680,
+   "forks": 1877,
    "pushed": "2026-08-11",
    "archived": false,
    "license": "mit",
    "language": "Rust",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6155,13 +6657,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6170,8 +6672,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6180,8 +6682,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6190,8 +6692,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6205,13 +6707,13 @@
    "archived": false,
    "license": "mit",
    "language": "JavaScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6219,19 +6721,19 @@
  "reverse-engineering/dnspyex": {
   "repo": {
    "name": "dnSpyEx/dnSpy",
-   "stars": 11431,
-   "forks": 784,
-   "pushed": "2026-11-01",
+   "stars": 11482,
+   "forks": 794,
+   "pushed": "2026-11-14",
    "archived": false,
    "license": "gpl-3.0",
    "language": "C#",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6245,13 +6747,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Shell",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6259,19 +6761,19 @@
  "reverse-engineering/firmae": {
   "repo": {
    "name": "pr0v3rbs/FirmAE",
-   "stars": 962,
-   "forks": 156,
+   "stars": 964,
+   "forks": 157,
    "pushed": "2026-06-24",
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6280,8 +6782,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6295,13 +6797,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6309,19 +6811,19 @@
  "reverse-engineering/ghidra": {
   "repo": {
    "name": "NationalSecurityAgency/ghidra",
-   "stars": 98130,
-   "forks": 11103,
-   "pushed": "2026-11-05",
+   "stars": 99934,
+   "forks": 11346,
+   "pushed": "2026-11-10",
    "archived": false,
    "license": "apache-2.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6330,8 +6832,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6340,8 +6842,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6355,13 +6857,13 @@
    "archived": false,
    "license": "mit",
    "language": "C#",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6375,13 +6877,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "C++",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6389,19 +6891,19 @@
  "reverse-engineering/jadx": {
   "repo": {
    "name": "skylot/jadx",
-   "stars": 51621,
-   "forks": 5905,
-   "pushed": "2026-11-02",
+   "stars": 51804,
+   "forks": 5935,
+   "pushed": "2026-11-11",
    "archived": false,
    "license": "apache-2.0",
    "language": "Java",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6410,8 +6912,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6420,8 +6922,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6430,8 +6932,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6440,8 +6942,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6450,8 +6952,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6465,13 +6967,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6480,8 +6982,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6495,13 +6997,13 @@
    "archived": false,
    "license": "gpl-3.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6510,8 +7012,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6520,8 +7022,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6530,8 +7032,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6545,13 +7047,13 @@
    "archived": false,
    "license": "bsd-2-clause",
    "language": "C",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6560,8 +7062,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6570,8 +7072,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6580,8 +7082,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6590,8 +7092,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6600,8 +7102,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6610,8 +7112,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6620,8 +7122,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6630,8 +7132,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6640,8 +7142,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6650,17 +7152,17 @@
   "link": {
    "status": "dead",
    "code": 0,
-   "checked": "2026-11-13",
-   "fails": 1
+   "checked": "2026-11-14",
+   "fails": 2
   },
-  "health": "unknown"
+  "health": "broken"
  },
  "threat-intel/etda-threat-group-cards": {
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6669,8 +7171,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6679,8 +7181,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6689,8 +7191,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6699,8 +7201,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6709,8 +7211,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6719,8 +7221,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6729,8 +7231,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6744,13 +7246,13 @@
    "archived": false,
    "license": "agpl-3.0",
    "language": "PHP",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6759,8 +7261,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6769,8 +7271,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6784,13 +7286,13 @@
    "archived": false,
    "license": "other",
    "language": "TypeScript",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6799,8 +7301,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6809,8 +7311,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6824,13 +7326,13 @@
    "archived": false,
    "license": "other",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6839,8 +7341,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6854,13 +7356,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6869,8 +7371,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6884,13 +7386,13 @@
    "archived": false,
    "license": "mit",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6899,8 +7401,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6914,13 +7416,13 @@
    "archived": false,
    "license": "mit",
    "language": "Go",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6929,8 +7431,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6939,8 +7441,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6949,8 +7451,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6959,8 +7461,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6974,13 +7476,13 @@
    "archived": false,
    "license": "gpl-2.0",
    "language": "Python",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   },
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "maintained"
@@ -6989,8 +7491,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -6999,7 +7501,7 @@
   "link": {
    "status": "blocked",
    "code": 403,
-   "checked": "2026-11-13",
+   "checked": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"
@@ -7008,8 +7510,8 @@
   "link": {
    "status": "live",
    "code": 200,
-   "checked": "2026-11-13",
-   "last_ok": "2026-11-13",
+   "checked": "2026-11-14",
+   "last_ok": "2026-11-14",
    "fails": 0
   },
   "health": "unknown"

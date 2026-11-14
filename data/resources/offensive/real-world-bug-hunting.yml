@@ -2,7 +2,7 @@ title: "Real-World Bug Hunting"
 url: "https://nostarch.com/bughunting"
 type: book
 domain: offensive
-subdomains: [web]
+subdomains: [bug-bounty, web]
 level: [beginner, intermediate]
 cost: paid
 languages: [en]

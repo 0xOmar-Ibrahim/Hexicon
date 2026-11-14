@@ -1,0 +1,27 @@
+title: The Bug Hunter's Methodology (TBHM) — Jason Haddix
+url: https://github.com/jhaddix/tbhm
+type: documentation
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "The classic methodology that shaped modern bug hunting: recon, mapping and testing by vulnerability class, from one of the best-known hunters."
+  de: "Die klassische Methodik, die das moderne Bug Hunting geprägt hat: Recon, Mapping und Tests nach Schwachstellenklassen – von einem der bekanntesten Hunter."
+  fr: "La méthodologie classique qui a façonné la chasse aux bugs moderne : recon, cartographie et tests par classe de vulnérabilité, par l’un des chasseurs les plus connus."
+  ar: "المنهجية الكلاسيكية التي شكّلت صيد الثغرات الحديث: الاستطلاع والتخطيط والاختبار حسب فئة الثغرة، من أحد أشهر الصيادين."
+  ru: "Классическая методология, сформировавшая современный баг-хантинг: разведка, картирование и тестирование по классам уязвимостей от одного из самых известных охотников."
+tags:
+  - bug-bounty
+  - methodology
+  - recon
+  - classic
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

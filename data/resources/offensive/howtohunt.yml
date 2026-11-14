@@ -1,0 +1,28 @@
+title: HowToHunt
+url: https://github.com/KathanP19/HowToHunt
+type: cheatsheet
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - beginner
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Step-by-step hunting checklists for each vulnerability class (IDOR, SSRF, OAuth, 2FA bypass, CSRF, race conditions…).
+  de: Schritt-für-Schritt-Checklisten für jede Schwachstellenklasse (IDOR, SSRF, OAuth, 2FA-Bypass, CSRF, Race Conditions …).
+  fr: Checklists pas à pas pour chaque classe de vulnérabilité (IDOR, SSRF, OAuth, contournement 2FA, CSRF, race conditions…).
+  ar: قوائم تحقق خطوة بخطوة لكل فئة ثغرات (IDOR وSSRF وOAuth وتجاوز المصادقة الثنائية وCSRF وحالات السباق…).
+  ru: Пошаговые чек-листы по каждому классу уязвимостей (IDOR, SSRF, OAuth, обход 2FA, CSRF, состояния гонки…).
+tags:
+  - bug-bounty
+  - checklist
+  - vulnerability-classes
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

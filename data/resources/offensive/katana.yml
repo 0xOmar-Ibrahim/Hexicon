@@ -1,0 +1,23 @@
+title: Katana
+url: https://github.com/projectdiscovery/katana
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Crawler for modern web apps with JavaScript parsing and headless mode, to collect endpoints.
+tags:
+  - bug-bounty
+  - crawler
+  - recon
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

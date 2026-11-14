@@ -1,0 +1,23 @@
+title: reconFTW
+url: https://github.com/six2dez/reconftw
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "Automates a full recon workflow: subdomains, URLs, parameters, vulnerability checks and reports."
+tags:
+  - bug-bounty
+  - recon
+  - automation
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

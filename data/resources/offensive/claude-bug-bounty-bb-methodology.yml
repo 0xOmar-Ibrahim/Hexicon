@@ -1,0 +1,29 @@
+title: bb-methodology skill — Workflow + Mindset (claude-bug-bounty)
+url: https://github.com/shuvonsec/claude-bug-bounty
+type: documentation
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - intermediate
+  - advanced
+cost: free
+languages:
+  - en
+description:
+  en: "AI agent skill (MIT) that pairs a 5-phase non-linear workflow with a hunter mindset: define-select-execute sessions, escalation trees, a validation gate and the 20-minute rotation rule. Also mirrored in agent-skills-mirror."
+  de: "KI-Agenten-Skill (MIT), der einen nichtlinearen 5-Phasen-Ablauf mit dem Mindset eines Hunters verbindet: Definieren-Wählen-Ausführen, Eskalationsbäume, Validierungs-Gate und die 20-Minuten-Rotationsregel."
+  fr: "Skill d’agent IA (MIT) qui associe un déroulé non linéaire en 5 phases à l’état d’esprit du chasseur : définir-choisir-exécuter, arbres d’escalade, filtre de validation et règle de rotation de 20 minutes."
+  ar: "مهارة وكيل ذكاء اصطناعي (MIT) تجمع بين سير عمل غير خطي من 5 مراحل وعقلية الصيّاد: حدّد-اختر-نفّذ، أشجار التصعيد، بوابة التحقق، وقاعدة التدوير كل 20 دقيقة."
+  ru: "Навык ИИ-агента (MIT), сочетающий нелинейный процесс из 5 фаз с мышлением охотника: определить-выбрать-выполнить, деревья эскалации, фильтр валидации и правило ротации каждые 20 минут."
+tags:
+  - bug-bounty
+  - methodology
+  - ai
+  - agent-skill
+  - mindset
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -1,0 +1,27 @@
+title: Bug Bounty Hunting Methodology 2025 (Phirojshah)
+url: https://medium.com/@phirojshah20/bug-bounty-hunting-methodology-2025-797bf8ae4c27
+type: article
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "Recon-heavy walkthrough: passive and active subdomain enumeration, archive URLs, crawling, cloud asset and ASN discovery, with best practices for combining sources."
+  de: "Recon-lastige Anleitung: passive und aktive Subdomain-Enumeration, Archiv-URLs, Crawling, Cloud-Assets und ASN-Ermittlung, mit Best Practices zum Kombinieren der Quellen."
+  fr: "Guide axé sur la reconnaissance : énumération passive et active des sous-domaines, URL archivées, crawl, actifs cloud et ASN, avec bonnes pratiques pour combiner les sources."
+  ar: "شرح يركّز على الاستطلاع: تعداد النطاقات الفرعية سلبيًا ونشطًا، روابط الأرشيف، الزحف، اكتشاف الأصول السحابية وASN، مع أفضل الممارسات لدمج المصادر."
+  ru: "Разбор с упором на разведку: пассивный и активный поиск поддоменов, архивные URL, краулинг, облачные активы и ASN, с советами по объединению источников."
+tags:
+  - bug-bounty
+  - methodology
+  - recon
+  - subdomain-enumeration
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

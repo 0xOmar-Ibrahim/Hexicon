@@ -1,0 +1,23 @@
+title: Kiterunner
+url: https://github.com/assetnote/kiterunner
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Content discovery built for APIs, using real-world API route wordlists.
+tags:
+  - bug-bounty
+  - api
+  - content-discovery
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

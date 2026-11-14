@@ -2,7 +2,7 @@ title: "Bug Bounty Bootcamp"
 url: "https://nostarch.com/bug-bounty-bootcamp"
 type: book
 domain: offensive
-subdomains: [web]
+subdomains: [bug-bounty, web]
 level: [beginner, intermediate]
 cost: paid
 languages: [en]

@@ -1,0 +1,23 @@
+title: gau (getallurls)
+url: https://github.com/lc/gau
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Fetches known URLs for a domain from the Wayback Machine, Common Crawl, AlienVault OTX and URLScan.
+tags:
+  - bug-bounty
+  - recon
+  - archives
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

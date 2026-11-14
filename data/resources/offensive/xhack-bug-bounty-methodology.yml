@@ -1,0 +1,28 @@
+title: "Bug Bounty Methodology: The Honest 6-Phase Workflow (XHack)"
+url: https://xhack.io/blog/bug-bounty-methodology
+type: article
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "Six phases where each must produce a defined output: scope file, reviewed host list, ranked targets, tested hypotheses (including negative ones), a validated finding and a triage-ready report."
+  de: "Sechs Phasen, die jeweils ein definiertes Ergebnis liefern: Scope-Datei, geprüfte Hostliste, priorisierte Ziele, getestete Hypothesen (auch negative), validierter Fund und triage-fertiger Report."
+  fr: "Six phases qui doivent chacune produire un livrable : fichier de périmètre, liste d’hôtes vérifiée, cibles priorisées, hypothèses testées (y compris négatives), finding validé et rapport prêt pour le triage."
+  ar: "ست مراحل يجب أن تُنتج كلٌّ منها مخرجًا محددًا: ملف النطاق، قائمة مضيفات مُراجَعة، أهداف مرتّبة، فرضيات مختبرة (حتى السلبية)، ثغرة متحقق منها، وتقرير جاهز للفرز."
+  ru: "Шесть фаз, каждая с конкретным результатом: файл скоупа, проверенный список хостов, ранжированные цели, проверенные гипотезы (включая отрицательные), подтверждённая находка и отчёт, готовый к триажу."
+tags:
+  - bug-bounty
+  - methodology
+  - reporting
+  - cvss
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

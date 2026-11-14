@@ -72,8 +72,31 @@ if (ranked.length) {
   fs.writeFileSync(path.join(DOCS, 'cves-top.md'), top);
 }
 
+// Bug bounty methodology (data/methodology/bug-bounty.yml), English view for GitHub readers.
+const methodFile = path.join(ROOT, 'data/methodology/bug-bounty.yml');
+if (fs.existsSync(methodFile)) {
+  const M = read(methodFile);
+  const byKey = Object.fromEntries(walk(path.join(ROOT, 'data/resources')).map((f) => [`${path.basename(path.dirname(f))}/${path.basename(f, '.yml')}`, read(f)]));
+  const link = (k) => (byKey[k] ? `[${md(byKey[k].title)}](${byKey[k].url})` : k);
+  let out = HEADER + `# ${M.title.en}\n\n${M.lead.en}\n\n> ⚠️ ${M.warning.en}\n\n`;
+  out += `Also on the website, in English, Deutsch, Français, العربية and Русский: https://hexicon-murex.vercel.app/#bounty\n\n## Golden rules\n\n`;
+  out += M.rules.map((r) => `- **${r.title.en}**: ${r.text.en}`).join('\n') + '\n\n## The workflow\n\n';
+  out += M.phases.map((p, i) => `${i}. [${p.title.en}](#${String(i).padStart(2, '0')}-${p.id})`).join('\n') + '\n';
+  M.phases.forEach((p, i) => {
+    out += `\n<a id="${String(i).padStart(2, '0')}-${p.id}"></a>\n### ${String(i).padStart(2, '0')} · ${p.title.en}\n\n`;
+    out += `**Goal:** ${p.goal.en}  \n**Done when you have:** ${p.output.en}\n\n`;
+    out += p.steps.map((s, j) => `${j + 1}. ${s.en}`).join('\n') + '\n\n';
+    if (p.tools?.length) out += `**Tools:** ${p.tools.map(link).join(' · ')}\n\n`;
+    if (p.sources?.length) out += `**Built from:** ${p.sources.map(link).join(' · ')}\n`;
+  });
+  const cited = [...new Set(M.phases.flatMap((p) => p.sources ?? []))].filter((k) => byKey[k]?.subdomains?.includes('bug-bounty'));
+  out += '\n## The original methodologies\n\n| Source | Type | What it is |\n|---|---|---|\n';
+  out += cited.map((k) => `| ${link(k)} | ${byKey[k].type} | ${md(byKey[k].description.en)} |`).join('\n') + '\n';
+  fs.writeFileSync(path.join(DOCS, 'bug-bounty-methodology.md'), out);
+}
+
 let index = HEADER + '# Hexicon library index\n\n';
-index += `**${resources.length} resources** across ${domains.length} domains, plus ${cves.length} CVE pages ([top exploited list](cves-top.md)).\n\n`;
+index += `**${resources.length} resources** across ${domains.length} domains, plus ${cves.length} CVE pages ([top exploited list](cves-top.md)) and the [bug bounty methodology](bug-bounty-methodology.md).\n\n`;
 index += '| # | Domain | Resources | Subdomains |\n|---|---|---|---|\n';
 for (const d of domains) {
   index += `| ${String(d.order).padStart(2, '0')} | [${d.name.en}](${d.id}.md) | ${resources.filter((r) => r.domain === d.id).length} | ${d.subdomains.length} |\n`;

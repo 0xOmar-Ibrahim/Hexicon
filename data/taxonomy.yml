@@ -25,6 +25,7 @@ domains:
     name: { en: Offensive Security, de: Offensive Sicherheit, fr: Sécurité offensive, ar: الأمن الهجومي, ru: Наступательная безопасность }
     subdomains:
       - { id: web,                name: { en: Web Application Pentesting, de: Webanwendungs-Pentesting, fr: Pentest d'applications Web, ar: اختبار اختراق تطبيقات الويب, ru: Пентест веб-приложений } }
+      - { id: bug-bounty,         name: { en: Bug Bounty Hunting, de: Bug-Bounty-Jagd, fr: Chasse aux bugs (bug bounty), ar: صيد الثغرات (Bug Bounty), ru: Баг-баунти } }
       - { id: api,                name: { en: API Security Testing, de: API-Sicherheitstests, fr: Tests de sécurité des API, ar: اختبار أمان واجهات API, ru: Тестирование безопасности API } }
       - { id: network,            name: { en: Network Pentesting, de: Netzwerk-Pentesting, fr: Pentest réseau, ar: اختبار اختراق الشبكات, ru: Пентест сетей } }
       - { id: active-directory,   name: { en: Active Directory, de: Active Directory, fr: Active Directory, ar: الدليل النشط (AD), ru: Active Directory } }

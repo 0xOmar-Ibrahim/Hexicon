@@ -4,9 +4,9 @@
 
 > Offensive Sicherheit · Sécurité offensive · الأمن الهجومي · Наступательная безопасность
 
-**95 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
+**126 resources** · Level: **B**eginner / **I**ntermediate / **A**dvanced · ⭐ = featured
 
-[Web Application Pentesting](#web) · [API Security Testing](#api) · [Network Pentesting](#network) · [Active Directory](#active-directory) · [Red Teaming & C2](#red-team) · [Exploit Development](#exploit-dev) · [Mobile Pentesting](#mobile) · [Wireless](#wireless) · [Hardware & IoT](#hardware-iot) · [Social Engineering](#social-engineering) · [Password Attacks](#password-attacks)
+[Web Application Pentesting](#web) · [Bug Bounty Hunting](#bug-bounty) · [API Security Testing](#api) · [Network Pentesting](#network) · [Active Directory](#active-directory) · [Red Teaming & C2](#red-team) · [Exploit Development](#exploit-dev) · [Mobile Pentesting](#mobile) · [Wireless](#wireless) · [Hardware & IoT](#hardware-iot) · [Social Engineering](#social-engineering) · [Password Attacks](#password-attacks)
 
 <a id="web"></a>
 ## Web Application Pentesting
@@ -16,21 +16,58 @@
 | ⭐ [HackTricks](https://book.hacktricks.wiki/) | cheatsheet | I·A | 🆓 free | Huge community wiki of pentesting techniques, tricks and methodology across web, network, cloud and Active Directory. |
 | ⭐ [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | cheatsheet | I·A | 🆓 free | Large collection of payloads and bypass techniques for web application security testing. |
 | ⭐ [PortSwigger Web Security Academy](https://portswigger.net/web-security) | course | B·I·A | 🆓 free | Free, interactive web security training from the makers of Burp Suite, with hundreds of hands-on labs covering nearly every web vulnerability class. |
-| [Bug Bounty Bootcamp](https://nostarch.com/bug-bounty-bootcamp) | book | B·I | 💲 paid | Vickie Li's guide to finding and reporting web vulnerabilities in bug bounty programmes. |
 | [Burp Suite](https://portswigger.net/burp) | tool | B·I·A | ◐ freemium | The industry-standard intercepting proxy and toolkit for web application security testing. |
 | [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA) | lab | B | 🆓 free | Classic PHP/MySQL vulnerable web application for practising common web attacks at adjustable difficulty. |
 | [ffuf](https://github.com/ffuf/ffuf) | tool | I | 🆓 free | Fast web fuzzer written in Go for content discovery, virtual host and parameter fuzzing. |
-| [Hacker101](https://www.hacker101.com/) | course | B | 🆓 free | HackerOne's free web security classes and CTF for aspiring bug bounty hunters. |
-| [HackerOne Hacktivity](https://hackerone.com/hacktivity) | blog | I·A | 🆓 free | Feed of publicly disclosed bug bounty reports — a goldmine for learning real-world vulnerabilities. |
 | [httpx](https://github.com/projectdiscovery/httpx) | tool | I | 🆓 free | Fast multi-purpose HTTP toolkit for probing hosts and fingerprinting web services at scale. |
 | [jwt_tool](https://github.com/ticarpi/jwt_tool) | tool | I | 🆓 free | Toolkit for testing, tweaking and cracking JSON Web Tokens. |
 | [Nikto](https://github.com/sullo/nikto) | tool | B | 🆓 free | Classic web server scanner that checks for dangerous files, outdated software and misconfigurations. |
 | [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | lab | B·I | 🆓 free | Probably the most modern and sophisticated intentionally insecure web application, covering the OWASP Top 10 and beyond. |
 | [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) | framework | I·A | 🆓 free | Comprehensive methodology for testing the security of web applications and services. |
 | [PentesterLab](https://pentesterlab.com/) | course | B·I·A | ◐ freemium | Hands-on web security exercises and badges, from basics to advanced code review and real-world CVEs. |
-| [Real-World Bug Hunting](https://nostarch.com/bughunting) | book | B·I | 💲 paid | Peter Yaworski's field guide to web hacking, built around real, paid bug bounty reports. |
 | [sqlmap](https://sqlmap.org/) | tool | I | 🆓 free | Open-source tool that automates detecting and exploiting SQL injection flaws. |
 | [ZAP (Zed Attack Proxy)](https://www.zaproxy.org/) | tool | B·I | 🆓 free | Free, open-source web application scanner and intercepting proxy. |
+
+<a id="bug-bounty"></a>
+## Bug Bounty Hunting
+
+| Resource | Type | Level | Cost | Description |
+|---|---|---|---|---|
+| ⭐ [bb-methodology skill — Workflow + Mindset (claude-bug-bounty)](https://github.com/shuvonsec/claude-bug-bounty) | documentation | I·A | 🆓 free | AI agent skill (MIT) that pairs a 5-phase non-linear workflow with a hunter mindset: define-select-execute sessions, escalation trees, a validation gate and the 20-minute rotation rule. Also mirrored in agent-skills-mirror. |
+| ⭐ [Crafting your bug bounty methodology (Intigriti)](https://www.intigriti.com/researchers/blog/hacking-tools/crafting-your-bug-bounty-methodology-a-complete-guide-for-beginners) | article | B | 🆓 free | Beginner guide to building your own methodology: learn the fundamentals, find your strengths, stay on one target, read docs and changelogs, and turn repeated steps into a system. |
+| ⭐ [Red Nexus — Web Application & Bug Bounty Methodology](https://rednexus.academy/en/methodology) | documentation | I·A | 🆓 free | Field-tested reference from recon to exploitation: 8 phases and 51 techniques (recon, auth, injection, access control, client-side, CMS, cloud, misc) with ready-to-run commands and PoC notes. |
+| ⭐ [zseano's methodology](https://www.bugbountyhunter.com/methodology/zseanos-methodology.pdf) | book | B·I | 🆓 free | Free guide on how a top hunter approaches a target: understanding the app first, following developer intent, and testing features in depth rather than scanning wide. |
+| [AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) | cheatsheet | I | 🆓 free | Bypasses, payloads and technology-specific tips for bug bounty, organised by vulnerability and by product. |
+| [Arjun](https://github.com/s0md3v/Arjun) | tool | I | 🆓 free | Discovers hidden HTTP parameters on endpoints by smart brute-forcing. |
+| [Bug Bounty Bootcamp](https://nostarch.com/bug-bounty-bootcamp) | book | B·I | 💲 paid | Vickie Li's guide to finding and reporting web vulnerabilities in bug bounty programmes. |
+| [Bug Bounty Hunting Methodology 2025 (Amr Elsagaei)](https://github.com/amrelsagaei/Bug-Bounty-Hunting-Methodology-2025) | cheatsheet | I | 🆓 free | Seven-phase pipeline from recon to reporting, with the "Two-Eye" approach (systematic testing plus hunting for anomalies), PoC tips and a report template. |
+| [Bug Bounty Hunting Methodology 2025 (Phirojshah)](https://medium.com/@phirojshah20/bug-bounty-hunting-methodology-2025-797bf8ae4c27) | article | I | 🆓 free | Recon-heavy walkthrough: passive and active subdomain enumeration, archive URLs, crawling, cloud asset and ASN discovery, with best practices for combining sources. |
+| [Bug Bounty Methodology: The Honest 6-Phase Workflow (XHack)](https://xhack.io/blog/bug-bounty-methodology) | article | B·I | 🆓 free | Six phases where each must produce a defined output: scope file, reviewed host list, ranked targets, tested hypotheses (including negative ones), a validated finding and a triage-ready report. |
+| [Bug Hunting Methodology: A Comprehensive Guide (Phirojshah)](https://medium.com/@phirojshah20/bug-hunting-methodology-a-comprehensive-guide-619978852f89) | article | B·I | 🆓 free | A 13-step command-line pipeline: subdomains, ports, live hosts, crawling, sensitive files, XSS/SQLi/LFI candidates, JS secrets, Nuclei, takeover and CORS checks. |
+| [Bugcrowd University](https://www.bugcrowd.com/hackers/bugcrowd-university/) | course | B·I | 🆓 free | Free training from Bugcrowd on methodology, recon, vulnerability classes and writing reports that get accepted. |
+| [BugHunterMethodology (alihussainzada)](https://github.com/alihussainzada/BugHunterMethodology) | cheatsheet | I | 🆓 free | Community-compiled methodology: web app recon, a testing flow, per-vulnerability checklists, payloads and common bypass techniques. |
+| [Caido](https://caido.io/) | tool | I | ◐ freemium | Lightweight web security proxy (alternative to Burp Suite) with a free tier. |
+| [Dalfox](https://github.com/hahwul/dalfox) | tool | I | 🆓 free | Parameter analysis and XSS scanner that verifies reflections and DOM sinks. |
+| [dnsx](https://github.com/projectdiscovery/dnsx) | tool | I | 🆓 free | Fast multi-purpose DNS toolkit to resolve, filter and validate large subdomain lists. |
+| [gau (getallurls)](https://github.com/lc/gau) | tool | I | 🆓 free | Fetches known URLs for a domain from the Wayback Machine, Common Crawl, AlienVault OTX and URLScan. |
+| [Hacker101](https://www.hacker101.com/) | course | B | 🆓 free | HackerOne's free web security classes and CTF for aspiring bug bounty hunters. |
+| [HackerOne Hacktivity](https://hackerone.com/hacktivity) | blog | I·A | 🆓 free | Feed of publicly disclosed bug bounty reports — a goldmine for learning real-world vulnerabilities. |
+| [HowToHunt](https://github.com/KathanP19/HowToHunt) | cheatsheet | B·I | 🆓 free | Step-by-step hunting checklists for each vulnerability class (IDOR, SSRF, OAuth, 2FA bypass, CSRF, race conditions…). |
+| [interactsh](https://github.com/projectdiscovery/interactsh) | tool | I | 🆓 free | Out-of-band interaction server to confirm blind SSRF, XXE, RCE and injection. |
+| [Intigriti Hackademy](https://www.intigriti.com/researchers/hackademy) | course | B | 🆓 free | Intigriti’s free learning hub for researchers: beginner guides, vulnerability explainers, tools and reporting tips. |
+| [jsluice](https://github.com/BishopFox/jsluice) | tool | I | 🆓 free | Extracts URLs, paths and secrets from JavaScript files. |
+| [Katana](https://github.com/projectdiscovery/katana) | tool | I | 🆓 free | Crawler for modern web apps with JavaScript parsing and headless mode, to collect endpoints. |
+| [KingOfBugBountyTips](https://github.com/KingOfBugbounty/KingOfBugBountyTips) | cheatsheet | I | 🆓 free | Large collection of recon and testing one-liners that chain tools like subfinder, httpx, gau and nuclei. |
+| [Kiterunner](https://github.com/assetnote/kiterunner) | tool | I | 🆓 free | Content discovery built for APIs, using real-world API route wordlists. |
+| [Naabu](https://github.com/projectdiscovery/naabu) | tool | I | 🆓 free | Fast port scanner to find web services on non-standard ports across many hosts. |
+| [Pentest Book (six2dez)](https://pentestbook.six2dez.com/) | documentation | I·A | 🆓 free | Extensive web and recon notes from the author of reconFTW: enumeration, every major web vulnerability class and practical one-liners. |
+| [Pentester Land — Bug bounty write-ups](https://pentester.land/writeups/) | dataset | I·A | 🆓 free | Searchable list of thousands of public bug bounty write-ups by bug type, program and bounty — the best way to learn real attack paths. |
+| [Real-World Bug Hunting](https://nostarch.com/bughunting) | book | B·I | 💲 paid | Peter Yaworski's field guide to web hacking, built around real, paid bug bounty reports. |
+| [reconFTW](https://github.com/six2dez/reconftw) | tool | I | 🆓 free | Automates a full recon workflow: subdomains, URLs, parameters, vulnerability checks and reports. |
+| [Resources for Beginner Bug Bounty Hunters (NahamSec)](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) | roadmap | B | 🆓 free | Curated starting point for new hunters: fundamentals, vulnerability classes, labs, write-ups, videos and tools. |
+| [subzy](https://github.com/PentestPad/subzy) | tool | I | 🆓 free | Checks subdomains for takeover via dangling CNAMEs to unclaimed services. |
+| [The Bug Hunter's Methodology (TBHM) — Jason Haddix](https://github.com/jhaddix/tbhm) | documentation | I | 🆓 free | The classic methodology that shaped modern bug hunting: recon, mapping and testing by vulnerability class, from one of the best-known hunters. |
+| [waymore](https://github.com/xnl-h4ck3r/waymore) | tool | I | 🆓 free | Finds far more archived URLs than similar tools, and can download archived responses for analysis. |
 
 <a id="api"></a>
 ## API Security Testing

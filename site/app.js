@@ -69,6 +69,7 @@
     $$('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', t(el.dataset.i18nAria)); });
     splitTitle();
     renderSteps();
+    renderBounty();
     renderDomains();
     renderChips();
     renderSelects();
@@ -125,6 +126,67 @@
     renderChips();
     renderCards();
     $('#explore').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+  }
+
+  /* ---------------- BUG BOUNTY METHODOLOGY ---------------- */
+  // Hexicon's combined methodology (data/methodology/bug-bounty.yml); tools and sources link to library entries.
+  function renderBounty() {
+    const M = DATA.methodology;
+    if (!M) { $('#bounty').hidden = true; return; }
+    const byKey = new Map(DATA.resources.map((r) => [r.domain + '/' + r.id, r]));
+    $('#bb-title').textContent = loc(M.title);
+    $('#bb-lead').textContent = loc(M.lead);
+    $('#bb-warn').textContent = loc(M.warning);
+    $('#bb-rules').innerHTML = M.rules.map((r) => `<div class="bb-rule"><b>${esc(loc(r.title))}</b><span>${esc(loc(r.text))}</span></div>`).join('');
+    const chip = (k, cls) => { const r = byKey.get(k); return r ? `<a class="${cls}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(describe(r))}">${esc(r.title)}</a>` : ''; };
+    const open = new Set($$('#bb-phases details[open]').map((d) => d.dataset.id));
+    if (!open.size && !$('#bb-phases').children.length) open.add(M.phases[0].id);
+    $('#bb-phases').innerHTML = M.phases.map((ph, i) => `
+      <li class="bb-phase">
+        <details data-id="${esc(ph.id)}"${open.has(ph.id) ? ' open' : ''}>
+          <summary>
+            <span class="bb-num">${String(i).padStart(2, '0')}</span>
+            <span class="bb-icon"><svg class="ic"><use href="#i-${esc(ph.icon)}"/></svg></span>
+            <span class="bb-head"><strong>${esc(loc(ph.title))}</strong><em>${esc(loc(ph.goal))}</em></span>
+          </summary>
+          <div class="bb-body">
+            <p class="bb-output"><b>${esc(t('bb.output'))}</b> ${esc(loc(ph.output))}</p>
+            <ol class="bb-steps">${ph.steps.map((st) => `<li>${esc(loc(st))}</li>`).join('')}</ol>
+            ${ph.tools?.length ? `<div class="bb-row"><span>${esc(t('bb.tools'))}</span><div class="bb-chips">${ph.tools.map((k) => chip(k, 'bb-tool')).join('')}</div></div>` : ''}
+            ${ph.sources?.length ? `<div class="bb-row"><span>${esc(t('bb.sources'))}</span><div class="bb-chips">${ph.sources.map((k) => chip(k, 'bb-cite')).join('')}</div></div>` : ''}
+          </div>
+        </details>
+      </li>`).join('');
+    // Every bug bounty methodology cited by at least one phase, once.
+    const cited = [...new Set(M.phases.flatMap((ph) => ph.sources ?? []))].map((k) => byKey.get(k)).filter(Boolean)
+      .filter((r) => r.subdomains.includes('bug-bounty'));
+    $('#bb-src').innerHTML = cited.map((r) => `
+      <a class="bb-src" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
+        <span class="bb-src-type">${esc(typeLabel(r.type))}${r.languages.includes('ar') ? ' · AR' : ''}</span>
+        <strong>${esc(r.title)}</strong>
+        <span>${esc(describe(r))}</span>
+      </a>`).join('');
+    syncBountyToggle();
+  }
+  function syncBountyToggle() {
+    const all = $$('#bb-phases details');
+    const allOpen = all.length > 0 && all.every((d) => d.open);
+    $('#bb-toggle').textContent = t(allOpen ? 'bb.collapse' : 'bb.expand');
+  }
+  function initBounty() {
+    $('#bb-toggle').addEventListener('click', () => {
+      const all = $$('#bb-phases details');
+      const openAll = !all.every((d) => d.open);
+      all.forEach((d) => { d.open = openAll; });
+      syncBountyToggle();
+    });
+    $('#bb-phases').addEventListener('toggle', syncBountyToggle, true);
+    $('#bb-browse').addEventListener('click', () => {
+      state.domain = 'offensive'; state.q = 'bug-bounty';
+      const q = $('#q'); if (q) q.value = 'bug-bounty';
+      renderChips(); renderCards();
+      $('#explore').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
   }
 
   /* ---------------- TOPICS ---------------- */
@@ -745,6 +807,7 @@
     readUrl();
     initLangSelect();
     initSearch();
+    initBounty();
     applyLang(state.lang);
     initStats();
     initCveView();

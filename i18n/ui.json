@@ -235,7 +235,19 @@
     "q.sort.recommended": "Recommended",
     "q.sort.popular": "Most popular",
     "q.sort.updated": "Recently updated",
-    "cv.archived": "archived copy (original site is down)"
+    "cv.archived": "archived copy (original site is down)",
+    "nav.bounty": "Bug bounty",
+    "bb.eyebrow": "Methodology",
+    "bb.rules": "Golden rules",
+    "bb.phases": "The workflow",
+    "bb.expand": "Expand all",
+    "bb.collapse": "Collapse all",
+    "bb.output": "Done when you have:",
+    "bb.tools": "Tools",
+    "bb.sources": "Built from",
+    "bb.originals": "The original methodologies",
+    "bb.originals.lead": "Hexicon’s workflow combines the best ideas from these guides. Read them for the full detail and commands.",
+    "bb.browse": "All bug bounty resources in the library"
   },
   "de": {
     "langName": "Deutsch",
@@ -473,7 +485,19 @@
     "q.sort.recommended": "Empfohlen",
     "q.sort.popular": "Beliebteste",
     "q.sort.updated": "Kürzlich aktualisiert",
-    "cv.archived": "archivierte Kopie (Originalseite nicht erreichbar)"
+    "cv.archived": "archivierte Kopie (Originalseite nicht erreichbar)",
+    "nav.bounty": "Bug Bounty",
+    "bb.eyebrow": "Methodik",
+    "bb.rules": "Goldene Regeln",
+    "bb.phases": "Der Ablauf",
+    "bb.expand": "Alle aufklappen",
+    "bb.collapse": "Alle zuklappen",
+    "bb.output": "Fertig, wenn Sie haben:",
+    "bb.tools": "Tools",
+    "bb.sources": "Basiert auf",
+    "bb.originals": "Die Original-Methodiken",
+    "bb.originals.lead": "Der Hexicon-Ablauf vereint die besten Ideen dieser Leitfäden. Dort finden Sie alle Details und Befehle.",
+    "bb.browse": "Alle Bug-Bounty-Ressourcen in der Bibliothek"
   },
   "fr": {
     "langName": "Français",
@@ -711,7 +735,19 @@
     "q.sort.recommended": "Recommandés",
     "q.sort.popular": "Les plus populaires",
     "q.sort.updated": "Mis à jour récemment",
-    "cv.archived": "copie archivée (site d’origine hors ligne)"
+    "cv.archived": "copie archivée (site d’origine hors ligne)",
+    "nav.bounty": "Bug bounty",
+    "bb.eyebrow": "Méthodologie",
+    "bb.rules": "Règles d’or",
+    "bb.phases": "Le déroulé",
+    "bb.expand": "Tout déplier",
+    "bb.collapse": "Tout replier",
+    "bb.output": "Terminé quand vous avez :",
+    "bb.tools": "Outils",
+    "bb.sources": "Inspiré de",
+    "bb.originals": "Les méthodologies d’origine",
+    "bb.originals.lead": "Le déroulé de Hexicon réunit les meilleures idées de ces guides. Consultez-les pour tous les détails et commandes.",
+    "bb.browse": "Toutes les ressources bug bounty de la bibliothèque"
   },
   "ar": {
     "langName": "العربية",
@@ -949,7 +985,19 @@
     "q.sort.recommended": "موصى به",
     "q.sort.popular": "الأكثر شعبية",
     "q.sort.updated": "المحدَّثة مؤخرًا",
-    "cv.archived": "نسخة مؤرشفة (الموقع الأصلي متوقف)"
+    "cv.archived": "نسخة مؤرشفة (الموقع الأصلي متوقف)",
+    "nav.bounty": "صيد الثغرات",
+    "bb.eyebrow": "المنهجية",
+    "bb.rules": "القواعد الذهبية",
+    "bb.phases": "سير العمل",
+    "bb.expand": "توسيع الكل",
+    "bb.collapse": "طيّ الكل",
+    "bb.output": "تنتهي المرحلة عندما يكون لديك:",
+    "bb.tools": "الأدوات",
+    "bb.sources": "مبنية على",
+    "bb.originals": "المنهجيات الأصلية",
+    "bb.originals.lead": "يجمع سير عمل Hexicon أفضل الأفكار من هذه الأدلة. اقرأها للاطلاع على كل التفاصيل والأوامر.",
+    "bb.browse": "كل موارد صيد الثغرات في المكتبة"
   },
   "ru": {
     "langName": "Русский",
@@ -1187,6 +1235,18 @@
     "q.sort.recommended": "Рекомендуемые",
     "q.sort.popular": "Самые популярные",
     "q.sort.updated": "Недавно обновлённые",
-    "cv.archived": "архивная копия (исходный сайт недоступен)"
+    "cv.archived": "архивная копия (исходный сайт недоступен)",
+    "nav.bounty": "Баг-баунти",
+    "bb.eyebrow": "Методология",
+    "bb.rules": "Золотые правила",
+    "bb.phases": "Процесс",
+    "bb.expand": "Раскрыть всё",
+    "bb.collapse": "Свернуть всё",
+    "bb.output": "Готово, когда у вас есть:",
+    "bb.tools": "Инструменты",
+    "bb.sources": "Основано на",
+    "bb.originals": "Исходные методологии",
+    "bb.originals.lead": "Процесс Hexicon объединяет лучшие идеи этих руководств. В них — все подробности и команды.",
+    "bb.browse": "Все ресурсы по баг-баунти в библиотеке"
   }
 }

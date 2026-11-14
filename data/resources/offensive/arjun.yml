@@ -1,0 +1,23 @@
+title: Arjun
+url: https://github.com/s0md3v/Arjun
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Discovers hidden HTTP parameters on endpoints by smart brute-forcing.
+tags:
+  - bug-bounty
+  - parameters
+  - recon
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -1,0 +1,28 @@
+title: "Bug Hunting Methodology: A Comprehensive Guide (Phirojshah)"
+url: https://medium.com/@phirojshah20/bug-hunting-methodology-a-comprehensive-guide-619978852f89
+type: article
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "A 13-step command-line pipeline: subdomains, ports, live hosts, crawling, sensitive files, XSS/SQLi/LFI candidates, JS secrets, Nuclei, takeover and CORS checks."
+  de: "Eine Kommandozeilen-Pipeline in 13 Schritten: Subdomains, Ports, aktive Hosts, Crawling, sensible Dateien, XSS-/SQLi-/LFI-Kandidaten, JS-Secrets, Nuclei, Takeover- und CORS-Prüfungen."
+  fr: "Un pipeline en ligne de commande en 13 étapes : sous-domaines, ports, hôtes actifs, crawl, fichiers sensibles, candidats XSS/SQLi/LFI, secrets JS, Nuclei, takeover et CORS."
+  ar: "سلسلة أوامر من 13 خطوة: النطاقات الفرعية، المنافذ، المضيفات النشطة، الزحف، الملفات الحساسة، مرشحو XSS/SQLi/LFI، أسرار JavaScript، Nuclei، والاستيلاء على النطاقات وCORS."
+  ru: "Конвейер командной строки из 13 шагов: поддомены, порты, живые хосты, краулинг, чувствительные файлы, кандидаты XSS/SQLi/LFI, секреты в JS, Nuclei, takeover и CORS."
+tags:
+  - bug-bounty
+  - methodology
+  - recon
+  - automation
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

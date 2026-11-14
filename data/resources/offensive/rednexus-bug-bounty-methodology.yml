@@ -1,0 +1,30 @@
+title: Red Nexus — Web Application & Bug Bounty Methodology
+url: https://rednexus.academy/en/methodology
+type: documentation
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+  - advanced
+cost: free
+languages:
+  - en
+  - ar
+description:
+  en: "Field-tested reference from recon to exploitation: 8 phases and 51 techniques (recon, auth, injection, access control, client-side, CMS, cloud, misc) with ready-to-run commands and PoC notes."
+  de: "Praxiserprobte Referenz von der Aufklärung bis zur Ausnutzung: 8 Phasen und 51 Techniken (Recon, Authentifizierung, Injection, Zugriffskontrolle, Client-Side, CMS, Cloud) mit fertigen Befehlen und PoC-Notizen."
+  fr: "Référence éprouvée de la reconnaissance à l’exploitation : 8 phases et 51 techniques (recon, authentification, injection, contrôle d’accès, côté client, CMS, cloud) avec commandes prêtes à l’emploi et notes de PoC."
+  ar: "مرجع مُجرَّب ميدانيًا من الاستطلاع حتى الاستغلال: 8 مراحل و51 تقنية (الاستطلاع، المصادقة، الحقن، التحكم في الوصول، جهة العميل، أنظمة إدارة المحتوى، السحابة) مع أوامر جاهزة وملاحظات إثبات المفهوم."
+  ru: "Проверенный на практике справочник от разведки до эксплуатации: 8 фаз и 51 техника (разведка, аутентификация, инъекции, контроль доступа, клиентская сторона, CMS, облако) с готовыми командами и заметками PoC."
+tags:
+  - bug-bounty
+  - methodology
+  - recon
+  - checklist
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -1,0 +1,26 @@
+title: Resources for Beginner Bug Bounty Hunters (NahamSec)
+url: https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters
+type: roadmap
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+cost: free
+languages:
+  - en
+description:
+  en: "Curated starting point for new hunters: fundamentals, vulnerability classes, labs, write-ups, videos and tools."
+  de: "Kuratierter Einstieg für neue Hunter: Grundlagen, Schwachstellenklassen, Labs, Write-ups, Videos und Tools."
+  fr: "Point de départ sélectionné pour les nouveaux chasseurs : bases, classes de vulnérabilités, labs, write-ups, vidéos et outils."
+  ar: "نقطة انطلاق منتقاة للصيادين الجدد: الأساسيات، فئات الثغرات، المختبرات، الشروحات، الفيديوهات، والأدوات."
+  ru: "Подборка для начинающих охотников: основы, классы уязвимостей, лаборатории, разборы, видео и инструменты."
+tags:
+  - bug-bounty
+  - beginner
+  - learning-path
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

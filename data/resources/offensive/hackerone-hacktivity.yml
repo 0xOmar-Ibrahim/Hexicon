@@ -2,7 +2,7 @@ title: "HackerOne Hacktivity"
 url: "https://hackerone.com/hacktivity"
 type: blog
 domain: offensive
-subdomains: [web, api]
+subdomains: [bug-bounty, web, api]
 level: [intermediate, advanced]
 cost: free
 languages: [en]

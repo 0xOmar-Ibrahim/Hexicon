@@ -1,0 +1,26 @@
+title: Intigriti Hackademy
+url: https://www.intigriti.com/researchers/hackademy
+type: course
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+cost: free
+languages:
+  - en
+description:
+  en: "Intigriti’s free learning hub for researchers: beginner guides, vulnerability explainers, tools and reporting tips."
+  de: "Intigritis kostenloser Lernbereich für Researcher: Einsteigerleitfäden, Erklärungen zu Schwachstellen, Tools und Report-Tipps."
+  fr: "L’espace d’apprentissage gratuit d’Intigriti : guides débutants, explications de vulnérabilités, outils et conseils de rapport."
+  ar: "مركز تعلّم مجاني من Intigriti للباحثين: أدلة للمبتدئين، شروحات للثغرات، أدوات، ونصائح لكتابة التقارير."
+  ru: "Бесплатный учебный центр Intigriti для исследователей: гайды для новичков, объяснения уязвимостей, инструменты и советы по отчётам."
+tags:
+  - bug-bounty
+  - intigriti
+  - training
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

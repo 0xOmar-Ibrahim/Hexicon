@@ -1,0 +1,27 @@
+title: Bugcrowd University
+url: https://www.bugcrowd.com/hackers/bugcrowd-university/
+type: course
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Free training from Bugcrowd on methodology, recon, vulnerability classes and writing reports that get accepted.
+  de: Kostenlose Schulungen von Bugcrowd zu Methodik, Recon, Schwachstellenklassen und dem Schreiben akzeptierter Reports.
+  fr: Formations gratuites de Bugcrowd sur la méthodologie, la recon, les classes de vulnérabilités et la rédaction de rapports acceptés.
+  ar: تدريب مجاني من Bugcrowd عن المنهجية والاستطلاع وفئات الثغرات وكتابة تقارير تُقبَل.
+  ru: "Бесплатное обучение от Bugcrowd: методология, разведка, классы уязвимостей и написание отчётов, которые принимают."
+tags:
+  - bug-bounty
+  - bugcrowd
+  - training
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -1,0 +1,28 @@
+title: AllAboutBugBounty
+url: https://github.com/daffainfo/AllAboutBugBounty
+type: cheatsheet
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Bypasses, payloads and technology-specific tips for bug bounty, organised by vulnerability and by product.
+  de: Bypasses, Payloads und technologiespezifische Tipps für Bug Bounty, geordnet nach Schwachstelle und Produkt.
+  fr: Contournements, payloads et astuces par technologie pour le bug bounty, classés par vulnérabilité et par produit.
+  ar: تقنيات تجاوز وحمولات ونصائح خاصة بكل تقنية لصيد الثغرات، مرتبة حسب الثغرة والمنتج.
+  ru: Обходы, полезные нагрузки и советы по технологиям для баг-баунти, сгруппированные по уязвимостям и продуктам.
+tags:
+  - bug-bounty
+  - bypass
+  - payloads
+  - technologies
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

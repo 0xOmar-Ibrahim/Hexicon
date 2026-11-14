@@ -2,12 +2,12 @@
 
 # Hexicon library index
 
-**533 resources** across 14 domains, plus 1116 CVE pages ([top exploited list](cves-top.md)).
+**564 resources** across 14 domains, plus 1116 CVE pages ([top exploited list](cves-top.md)) and the [bug bounty methodology](bug-bounty-methodology.md).
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
 | 01 | [Fundamentals](fundamentals.md) | 37 | 6 |
-| 02 | [Offensive Security](offensive.md) | 95 | 11 |
+| 02 | [Offensive Security](offensive.md) | 126 | 12 |
 | 03 | [Defensive Security](defensive.md) | 45 | 7 |
 | 04 | [DFIR & Malware](dfir.md) | 42 | 4 |
 | 05 | [Reverse Engineering](reverse-engineering.md) | 37 | 4 |

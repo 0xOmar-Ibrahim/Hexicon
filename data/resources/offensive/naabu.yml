@@ -1,0 +1,23 @@
+title: Naabu
+url: https://github.com/projectdiscovery/naabu
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Fast port scanner to find web services on non-standard ports across many hosts.
+tags:
+  - bug-bounty
+  - port-scanner
+  - recon
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

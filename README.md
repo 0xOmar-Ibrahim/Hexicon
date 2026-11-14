@@ -18,7 +18,8 @@ Courses · Tools · Books · Labs · Cheatsheets · Papers · Certifications · 
 
 | | |
 |---|---|
-| **533 resources** | Hand-picked courses, tools, books (57), labs, cheatsheets, papers and certifications across 14 domains, each tagged by type, level, cost and language. |
+| **564 resources** | Hand-picked courses, tools, books (58), labs, cheatsheets, papers and certifications across 14 domains, each tagged by type, level, cost and language. |
+| **Bug bounty methodology** | One workflow combining the best public methodologies (Red Nexus, zseano, TBHM, Intigriti, XHack, Amr Elsagaei, bb-methodology and more): 10 phases, each with a goal, a concrete output, tools and its sources. [Read it](docs/bug-bounty-methodology.md). |
 | **1,116 CVE pages** | The 1,000 most-exploited vulnerabilities from the CISA KEV catalog, ranked by EPSS, plus every CVE CISA added in the last 180 days. Each page answers: *What is it? Am I affected? Is it exploited? How do I check, practise, detect and fix it?* |
 | **5 languages** | The whole website switches language, including Arabic right-to-left. CVE names, summaries and CISA's required actions are translated. |
 | **Quality signals** | GitHub stars, last update, archived and stale warnings, and weekly link checks. Dead links on CVE pages fall back to a Wayback Machine copy. |

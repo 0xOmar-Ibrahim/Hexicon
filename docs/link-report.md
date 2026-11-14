@@ -2,7 +2,7 @@
 
 # Link & maintenance report
 
-Checked 2026-11-13. 4 dead links · 4 archived projects · 15 projects without a push in 2+ years.
+Checked 2026-11-14. 2 dead links · 4 archived projects · 21 projects without a push in 2+ years.
 
 Links that fail on two weekly checks in a row are marked *broken* on the website. Please fix the URL or mark the resource `status: archived`.
 
@@ -10,10 +10,8 @@ Links that fail on two weekly checks in a row are marked *broken* on the website
 
 | Resource | URL | HTTP | Failed checks |
 |---|---|---|---|
-| `cves/exploit-database` | https://www.exploit-db.com/ | 502 | 1 |
-| `grc/dora-eur-lex` | https://eur-lex.europa.eu/eli/reg/2022/2554/oj | no response | 1 |
-| `grc/nis2-directive-eur-lex` | https://eur-lex.europa.eu/eli/dir/2022/2555/oj | no response | 1 |
-| `threat-intel/eg-cert-egypt` | https://www.egcert.eg/ | no response | 1 |
+| `offensive/caido` | https://caido.io/ | no response | 1 |
+| `threat-intel/eg-cert-egypt` | https://www.egcert.eg/ | no response | 2 |
 
 ## Archived repositories
 
@@ -37,9 +35,15 @@ Links that fail on two weekly checks in a row are marked *broken* on the website
 | `defensive/the-threathunting-project` | https://github.com/ThreatHuntingProject/ThreatHunting | 2021-11-17 |
 | `ics-ot/grfics-v2` | https://github.com/Fortiphyd/GRFICSv2 | 2023-04-21 |
 | `ics-ot/ics-pcap` | https://github.com/automayt/ICS-pcap | 2020-01-03 |
+| `offensive/allaboutbugbounty` | https://github.com/daffainfo/AllAboutBugBounty | 2023-09-08 |
 | `offensive/android-insecurebankv2` | https://github.com/dineshshetty/Android-InsecureBankv2 | 2024-04-17 |
 | `offensive/apk-mitm` | https://github.com/niklashigi/apk-mitm | 2024-07-24 |
+| `offensive/bughuntermethodology-alihussainzada` | https://github.com/alihussainzada/BugHunterMethodology | 2024-11-11 |
 | `offensive/diva-android` | https://github.com/payatu/diva-android | 2023-05-19 |
 | `offensive/evabs` | https://github.com/abhi-r3v0/EVABS | 2021-12-23 |
 | `offensive/gophish` | https://github.com/gophish/gophish | 2024-09-23 |
+| `offensive/jhaddix-tbhm` | https://github.com/jhaddix/tbhm | 2023-08-01 |
+| `offensive/jsluice` | https://github.com/BishopFox/jsluice | 2024-05-22 |
+| `offensive/nahamsec-beginner-bug-bounty-resources` | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | 2024-07-23 |
 | `offensive/owasp-mastg-hacking-playground` | https://github.com/OWASP/MASTG-Hacking-Playground | 2022-10-31 |
+| `offensive/subzy` | https://github.com/PentestPad/subzy | 2024-09-10 |

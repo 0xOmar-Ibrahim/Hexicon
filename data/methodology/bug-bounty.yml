@@ -1,0 +1,588 @@
+# Hexicon's combined bug bounty methodology, rendered on the website and in docs/bug-bounty-methodology.md.
+# Written in our own words from the sources listed per phase (resources in data/resources/). Every text has en/de/fr/ar/ru.
+id: bug-bounty
+title:
+  en: The Hexicon Bug Bounty Methodology
+  de: Die Hexicon-Bug-Bounty-Methodik
+  fr: La méthodologie bug bounty de Hexicon
+  ar: منهجية Hexicon لصيد الثغرات
+  ru: Методология баг-баунти Hexicon
+lead:
+  en: "One workflow built from the best public methodologies: scope first, a clear goal per session, wide recon, deep understanding, two-eye testing, proven impact and reports triagers love. Every phase has a goal, a concrete output and the tools to get there."
+  de: "Ein Ablauf aus den besten öffentlichen Methodiken: zuerst der Scope, ein klares Ziel pro Session, breites Recon, tiefes Verständnis, Testen mit zwei Augen, belegte Auswirkung und Reports, die Triager lieben. Jede Phase hat ein Ziel, ein konkretes Ergebnis und die passenden Tools."
+  fr: "Un déroulé construit à partir des meilleures méthodologies publiques : le périmètre d’abord, un objectif clair par session, une recon large, une compréhension profonde, des tests « à deux yeux », un impact prouvé et des rapports appréciés des trieurs. Chaque phase a un objectif, un livrable concret et ses outils."
+  ar: "سير عمل واحد مبني من أفضل المنهجيات العامة: النطاق أولًا، هدف واضح لكل جلسة، استطلاع واسع، فهم عميق، اختبار «بعينين»، أثر مُثبت، وتقارير يحبها فريق الفرز. لكل مرحلة هدف ومخرج ملموس وأدوات للوصول إليه."
+  ru: "Единый процесс, собранный из лучших публичных методологий: сначала скоуп, чёткая цель на сессию, широкая разведка, глубокое понимание, тестирование «двумя глазами», доказанное влияние и отчёты, которые нравятся триажерам. У каждой фазы есть цель, конкретный результат и инструменты."
+warning:
+  en: "Authorized testing only: hunt only on programs you joined and only on in-scope assets, following each program’s rules."
+  de: "Nur autorisierte Tests: Jagen Sie nur in Programmen, denen Sie beigetreten sind, nur auf Assets im Scope und nach den Regeln des Programms."
+  fr: "Tests autorisés uniquement : chassez seulement sur les programmes que vous avez rejoints, sur les actifs dans le périmètre, en respectant leurs règles."
+  ar: "للاختبار المصرّح به فقط: اصطد فقط في البرامج التي انضممت إليها، وعلى الأصول الواقعة ضمن النطاق، مع الالتزام بقواعد كل برنامج."
+  ru: "Только авторизованное тестирование: охотьтесь лишь в программах, к которым присоединились, только на активах в скоупе и по правилам программы."
+rules:
+  - title:
+      en: 5-minute rule
+      de: 5-Minuten-Regel
+      fr: Règle des 5 minutes
+      ar: قاعدة الدقائق الخمس
+      ru: Правило 5 минут
+    text:
+      en: Nothing interesting on a host after 5 minutes? Move to the next host.
+      de: Nach 5 Minuten nichts Interessantes auf einem Host? Weiter zum nächsten.
+      fr: Rien d’intéressant sur un hôte après 5 minutes ? Passez au suivant.
+      ar: لا شيء مثير على المضيف بعد 5 دقائق؟ انتقل إلى التالي.
+      ru: Ничего интересного на хосте за 5 минут? Переходите к следующему.
+  - title:
+      en: 20-minute rotation
+      de: 20-Minuten-Rotation
+      fr: Rotation de 20 minutes
+      ar: التدوير كل 20 دقيقة
+      ru: Ротация каждые 20 минут
+    text:
+      en: 'Every 20 minutes ask "am I making progress?" If not, rotate: endpoint → host → vulnerability class → target.'
+      de: "Alle 20 Minuten fragen: „Komme ich voran?“ Wenn nicht, rotieren: Endpoint → Host → Schwachstellenklasse → Ziel."
+      fr: "Toutes les 20 minutes, demandez-vous « est-ce que j’avance ? ». Sinon, changez : endpoint → hôte → classe de vulnérabilité → cible."
+      ar: "كل 20 دقيقة اسأل: «هل أتقدّم؟» إن لم تكن، فبدّل: نقطة النهاية ← المضيف ← فئة الثغرة ← الهدف."
+      ru: "Каждые 20 минут спрашивайте: «Есть ли прогресс?» Если нет — меняйте: эндпоинт → хост → класс уязвимости → цель."
+  - title:
+      en: 45-minute cap
+      de: 45-Minuten-Grenze
+      fr: Limite de 45 minutes
+      ar: حدّ الـ45 دقيقة
+      ru: Лимит 45 минут
+    text:
+      en: Never spend more than 45 minutes on one parameter. Write it down and come back later.
+      de: Nie mehr als 45 Minuten an einem Parameter. Notieren und später wiederkommen.
+      fr: Jamais plus de 45 minutes sur un même paramètre. Notez-le et revenez plus tard.
+      ar: لا تقضِ أكثر من 45 دقيقة على معامل واحد. دوّنه وعُد إليه لاحقًا.
+      ru: Не тратьте больше 45 минут на один параметр. Запишите и вернитесь позже.
+  - title:
+      en: Two weeks, one target
+      de: Zwei Wochen, ein Ziel
+      fr: Deux semaines, une cible
+      ar: أسبوعان، هدف واحد
+      ru: Две недели — одна цель
+    text:
+      en: Stay on one program for at least two weeks (~30 hours). Depth finds unique bugs; hopping finds duplicates.
+      de: Mindestens zwei Wochen (~30 Stunden) bei einem Programm bleiben. Tiefe findet einzigartige Bugs, Springen findet Duplikate.
+      fr: Restez au moins deux semaines (~30 h) sur un programme. La profondeur trouve des bugs uniques ; papillonner donne des doublons.
+      ar: التزم ببرنامج واحد أسبوعين على الأقل (~30 ساعة). العمق يجد ثغرات فريدة، والتنقّل يجد ثغرات مكررة.
+      ru: Держитесь одной программы минимум две недели (~30 часов). Глубина даёт уникальные баги, прыжки — дубликаты.
+  - title:
+      en: Automate lists, keep judgment
+      de: Listen automatisieren, Urteil behalten
+      fr: Automatiser les listes, garder le jugement
+      ar: أتمت القوائم واحتفظ بالحكم
+      ru: Автоматизируйте списки, не суждение
+    text:
+      en: Tools and AI generate candidates fast. Deciding what is real, proving it and standing behind the report is your job.
+      de: Tools und KI erzeugen schnell Kandidaten. Entscheiden, was echt ist, es beweisen und für den Report geradestehen bleibt Ihre Aufgabe.
+      fr: Outils et IA génèrent vite des candidats. Décider ce qui est réel, le prouver et assumer le rapport reste votre travail.
+      ar: الأدوات والذكاء الاصطناعي تولّد المرشحين بسرعة. أما تحديد الحقيقي وإثباته وتحمّل مسؤولية التقرير فهي مهمتك.
+      ru: Инструменты и ИИ быстро дают кандидатов. Решать, что реально, доказывать и отвечать за отчёт — ваша работа.
+phases:
+  - id: scope
+    icon: flag
+    title:
+      en: Scope & rules
+      de: Scope & Regeln
+      fr: Périmètre & règles
+      ar: النطاق والقواعد
+      ru: Скоуп и правила
+    goal:
+      en: Know exactly what you may test, and how.
+      de: Genau wissen, was und wie Sie testen dürfen.
+      fr: Savoir exactement ce que vous pouvez tester, et comment.
+      ar: اعرف بدقة ما المسموح لك باختباره وكيف.
+      ru: Точно знать, что и как можно тестировать.
+    output:
+      en: A scope file and a list of forbidden actions.
+      de: Eine Scope-Datei und eine Liste verbotener Aktionen.
+      fr: Un fichier de périmètre et la liste des actions interdites.
+      ar: ملف نطاق وقائمة بالأفعال المحظورة.
+      ru: Файл скоупа и список запрещённых действий.
+    steps:
+      - en: "Read the whole policy: in-scope and out-of-scope assets, banned tests (DoS, social engineering, spam) and known issues."
+        de: "Die ganze Policy lesen: Assets im und außerhalb des Scopes, verbotene Tests (DoS, Social Engineering, Spam) und bekannte Probleme."
+        fr: "Lisez toute la politique : actifs dans et hors périmètre, tests interdits (DoS, ingénierie sociale, spam) et problèmes connus."
+        ar: "اقرأ السياسة كاملة: الأصول داخل النطاق وخارجه، الاختبارات المحظورة (حجب الخدمة، الهندسة الاجتماعية، الرسائل المزعجة) والمشكلات المعروفة."
+        ru: "Прочитайте политику целиком: активы в скоупе и вне его, запрещённые тесты (DoS, социальная инженерия, спам) и известные проблемы."
+      - en: Write the scope into a file and filter every tool’s output against it.
+        de: Den Scope in eine Datei schreiben und jede Tool-Ausgabe damit filtern.
+        fr: Écrivez le périmètre dans un fichier et filtrez chaque sortie d’outil avec.
+        ar: اكتب النطاق في ملف وصفِّ مخرجات كل أداة على أساسه.
+        ru: Запишите скоуп в файл и фильтруйте по нему вывод каждого инструмента.
+      - en: Set tools to the allowed request rate and add any required header (for example your researcher ID).
+        de: Tools auf die erlaubte Request-Rate einstellen und nötige Header ergänzen (z. B. Ihre Researcher-ID).
+        fr: Réglez vos outils au débit autorisé et ajoutez les en-têtes requis (par exemple votre identifiant de chercheur).
+        ar: اضبط الأدوات على معدّل الطلبات المسموح وأضف أي ترويسة مطلوبة (مثل معرّفك كباحث).
+        ru: Настройте инструменты на разрешённую частоту запросов и добавьте нужные заголовки (например, ID исследователя).
+      - en: Create your own test accounts — never touch real users’ data.
+        de: Eigene Testkonten anlegen – niemals echte Nutzerdaten anfassen.
+        fr: Créez vos propres comptes de test — ne touchez jamais aux données de vrais utilisateurs.
+        ar: أنشئ حسابات اختبار خاصة بك — ولا تلمس بيانات مستخدمين حقيقيين أبدًا.
+        ru: Создайте свои тестовые аккаунты — никогда не трогайте данные реальных пользователей.
+    tools: []
+    sources:
+      - offensive/xhack-bug-bounty-methodology
+      - offensive/intigriti-crafting-bug-bounty-methodology
+  - id: plan
+    icon: compass
+    title:
+      en: Mindset & session plan
+      de: Mindset & Session-Plan
+      fr: État d’esprit & plan de session
+      ar: العقلية وخطة الجلسة
+      ru: Мышление и план сессии
+    goal:
+      en: Hunt with a goal instead of wandering.
+      de: Mit einem Ziel jagen statt umherzuirren.
+      fr: Chasser avec un objectif plutôt qu’au hasard.
+      ar: اصطد بهدف بدل التجوّل العشوائي.
+      ru: Охотиться с целью, а не бродить наугад.
+    output:
+      en: "One sentence: today I target [feature] to achieve [impact]."
+      de: "Ein Satz: Heute ziele ich auf [Funktion], um [Auswirkung] zu erreichen."
+      fr: "Une phrase : aujourd’hui je cible [fonction] pour obtenir [impact]."
+      ar: "جملة واحدة: اليوم أستهدف [الميزة] لتحقيق [الأثر]."
+      ru: "Одно предложение: сегодня я атакую [функцию], чтобы добиться [влияния]."
+    steps:
+      - en: "Pick one impact: steal data, change data, take over an account, or run code on the server."
+        de: "Eine Auswirkung wählen: Daten stehlen, Daten ändern, Konto übernehmen oder Code auf dem Server ausführen."
+        fr: "Choisissez un impact : voler des données, modifier des données, prendre le contrôle d’un compte ou exécuter du code sur le serveur."
+        ar: "اختر أثرًا واحدًا: سرقة بيانات، تعديل بيانات، الاستيلاء على حساب، أو تنفيذ أوامر على الخادم."
+        ru: "Выберите одно влияние: кража данных, изменение данных, захват аккаунта или выполнение кода на сервере."
+      - en: Select one or two vulnerability classes that fit your strengths, and test only those.
+        de: Ein oder zwei Schwachstellenklassen passend zu Ihren Stärken wählen und nur diese testen.
+        fr: Sélectionnez une ou deux classes de vulnérabilités adaptées à vos points forts, et testez seulement celles-là.
+        ar: اختر فئة أو فئتين من الثغرات تناسبان نقاط قوتك، واختبرهما فقط.
+        ru: Выберите один-два класса уязвимостей под свои сильные стороны и тестируйте только их.
+      - en: "Choose the route: Wide (new program, wildcard scope, new assets) or Deep (main app, logic and access-control bugs)."
+        de: "Route wählen: Breit (neues Programm, Wildcard-Scope, neue Assets) oder Tief (Haupt-App, Logik- und Zugriffsfehler)."
+        fr: "Choisissez la voie : Large (nouveau programme, périmètre wildcard, nouveaux actifs) ou Profonde (appli principale, bugs de logique et de contrôle d’accès)."
+        ar: "اختر المسار: واسع (برنامج جديد، نطاق شامل، أصول جديدة) أو عميق (التطبيق الرئيسي، ثغرات المنطق والتحكم في الوصول)."
+        ru: "Выберите маршрут: вширь (новая программа, wildcard-скоуп, новые активы) или вглубь (основное приложение, логика и контроль доступа)."
+    tools: []
+    sources:
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/intigriti-crafting-bug-bounty-methodology
+      - offensive/zseano-methodology
+  - id: recon
+    icon: radar
+    title:
+      en: "Recon: map the attack surface"
+      de: "Recon: Angriffsfläche erfassen"
+      fr: "Recon : cartographier la surface d’attaque"
+      ar: "الاستطلاع: رسم سطح الهجوم"
+      ru: "Разведка: карта поверхности атаки"
+    goal:
+      en: Find the assets others missed.
+      de: Die Assets finden, die andere übersehen haben.
+      fr: Trouver les actifs que les autres ont manqués.
+      ar: اعثر على الأصول التي فاتت الآخرين.
+      ru: Найти активы, которые пропустили другие.
+    output:
+      en: A hand-reviewed list of live, in-scope hosts and URLs.
+      de: Eine manuell geprüfte Liste aktiver Hosts und URLs im Scope.
+      fr: Une liste vérifiée à la main d’hôtes et d’URL actifs dans le périmètre.
+      ar: قائمة مُراجَعة يدويًا بالمضيفات والروابط النشطة ضمن النطاق.
+      ru: Проверенный вручную список живых хостов и URL в скоупе.
+    steps:
+      - en: "Passive first: subdomains from certificate logs, passive DNS sources and code search, then merge and deduplicate."
+        de: "Zuerst passiv: Subdomains aus Zertifikatslogs, passiven DNS-Quellen und Code-Suche, dann zusammenführen und deduplizieren."
+        fr: "Le passif d’abord : sous-domaines issus des journaux de certificats, du DNS passif et de la recherche de code, puis fusion et dédoublonnage."
+        ar: "السلبي أولًا: النطاقات الفرعية من سجلات الشهادات ومصادر DNS السلبية والبحث في الشيفرة، ثم الدمج وإزالة التكرار."
+        ru: "Сначала пассивно: поддомены из журналов сертификатов, пассивного DNS и поиска по коду, затем объединение и дедупликация."
+      - en: "Then active: resolve and brute-force names with good wordlists; for wide scopes add ASN, IP ranges and reverse DNS."
+        de: "Dann aktiv: Namen auflösen und mit guten Wortlisten brute-forcen; bei breitem Scope ASN, IP-Bereiche und Reverse-DNS ergänzen."
+        fr: "Puis l’actif : résolution et brute-force avec de bonnes wordlists ; pour un périmètre large, ajoutez ASN, plages IP et DNS inverse."
+        ar: "ثم النشط: حلّ الأسماء وتخمينها بقوائم كلمات جيدة؛ وللنطاقات الواسعة أضف ASN ونطاقات IP وDNS العكسي."
+        ru: "Затем активно: резолв и брутфорс имён по хорошим словарям; для широкого скоупа — ASN, диапазоны IP и обратный DNS."
+      - en: Probe live hosts on common and unusual ports; record title, status code and technology.
+        de: Aktive Hosts auf üblichen und ungewöhnlichen Ports prüfen; Titel, Statuscode und Technologie notieren.
+        fr: Sondez les hôtes actifs sur les ports courants et inhabituels ; notez titre, code d’état et technologie.
+        ar: افحص المضيفات النشطة على المنافذ الشائعة وغير المعتادة؛ وسجّل العنوان ورمز الحالة والتقنية.
+        ru: Проверьте живые хосты на обычных и необычных портах; запишите заголовок, код ответа и технологию.
+      - en: Collect old and crawled URLs (web archives plus a crawler), then deduplicate.
+        de: Alte und gecrawlte URLs sammeln (Webarchive plus Crawler), dann deduplizieren.
+        fr: Collectez les URL anciennes et crawlées (archives web + crawler), puis dédoublonnez.
+        ar: اجمع الروابط القديمة والمزحوفة (أرشيفات الويب مع زاحف)، ثم أزل التكرار.
+        ru: Соберите старые и найденные краулером URL (веб-архивы плюс краулер), затем удалите дубли.
+      - en: Check right away for subdomain takeovers and open cloud storage — these are quick wins.
+        de: Sofort auf Subdomain-Takeover und offenen Cloud-Speicher prüfen – schnelle Treffer.
+        fr: Vérifiez tout de suite les takeovers de sous-domaines et le stockage cloud ouvert — des gains rapides.
+        ar: افحص فورًا الاستيلاء على النطاقات الفرعية والتخزين السحابي المفتوح — مكاسب سريعة.
+        ru: Сразу проверьте захват поддоменов и открытые облачные хранилища — быстрые находки.
+      - en: "Review the list by hand: dev, staging, admin, internal and odd-port hosts go to the top."
+        de: "Liste manuell prüfen: Dev-, Staging-, Admin-, interne Hosts und solche mit ungewöhnlichen Ports nach oben."
+        fr: "Relisez la liste à la main : hôtes dev, staging, admin, internes et sur ports inhabituels en premier."
+        ar: "راجع القائمة يدويًا: مضيفات التطوير والاختبار والإدارة والداخلية وذات المنافذ الغريبة في المقدمة."
+        ru: "Просмотрите список вручную: dev, staging, admin, внутренние хосты и хосты на необычных портах — наверх."
+    tools:
+      - threat-intel/subfinder
+      - threat-intel/owasp-amass
+      - offensive/dnsx
+      - offensive/httpx
+      - offensive/naabu
+      - offensive/gau
+      - offensive/waymore
+      - offensive/katana
+      - offensive/subzy
+      - offensive/reconftw
+    sources:
+      - offensive/amrelsagaei-bug-bounty-methodology-2025
+      - offensive/phirojshah-bug-bounty-methodology-2025
+      - offensive/phirojshah-bug-hunting-methodology
+      - offensive/rednexus-bug-bounty-methodology
+      - offensive/jhaddix-tbhm
+      - offensive/six2dez-pentest-book
+  - id: map
+    icon: compass
+    title:
+      en: "Mapping: think like the developer"
+      de: "Mapping: wie der Entwickler denken"
+      fr: "Cartographie : penser comme le développeur"
+      ar: "التخطيط: فكّر كالمطوّر"
+      ru: "Картирование: думайте как разработчик"
+    goal:
+      en: Understand how the app works before you attack it.
+      de: Verstehen, wie die App funktioniert, bevor Sie angreifen.
+      fr: Comprendre le fonctionnement de l’appli avant de l’attaquer.
+      ar: افهم كيف يعمل التطبيق قبل أن تهاجمه.
+      ru: Понять, как работает приложение, прежде чем атаковать.
+    output:
+      en: Notes on endpoints, roles, the login model and the key business flows.
+      de: Notizen zu Endpoints, Rollen, Login-Modell und den wichtigsten Geschäftsabläufen.
+      fr: Des notes sur les endpoints, les rôles, le modèle d’authentification et les flux métier clés.
+      ar: ملاحظات عن نقاط النهاية والأدوار ونموذج تسجيل الدخول وأهم مسارات العمل.
+      ru: Заметки об эндпоинтах, ролях, модели входа и ключевых бизнес-процессах.
+    steps:
+      - en: Use the app as a normal user through your proxy and build the site map.
+        de: Die App als normaler Nutzer über den Proxy bedienen und die Sitemap aufbauen.
+        fr: Utilisez l’appli comme un utilisateur normal via votre proxy et construisez le plan du site.
+        ar: استخدم التطبيق كمستخدم عادي عبر البروكسي وابنِ خريطة الموقع.
+        ru: Пользуйтесь приложением как обычный пользователь через прокси и постройте карту сайта.
+      - en: Identify how login works (cookies, JWT, OAuth, SAML) and every role and permission.
+        de: Ermitteln, wie der Login funktioniert (Cookies, JWT, OAuth, SAML), sowie alle Rollen und Rechte.
+        fr: Identifiez le fonctionnement de la connexion (cookies, JWT, OAuth, SAML) et chaque rôle et permission.
+        ar: حدّد كيف يعمل تسجيل الدخول (ملفات تعريف الارتباط، JWT، OAuth، SAML) وكل الأدوار والصلاحيات.
+        ru: Определите, как устроен вход (cookie, JWT, OAuth, SAML), и все роли и права.
+      - en: "List the business-critical flows: sign-up, password reset, payments, invitations, data export."
+        de: "Die geschäftskritischen Abläufe auflisten: Registrierung, Passwort-Reset, Zahlungen, Einladungen, Datenexport."
+        fr: "Listez les flux critiques : inscription, réinitialisation du mot de passe, paiements, invitations, export de données."
+        ar: "اذكر المسارات الحرجة للعمل: التسجيل، استعادة كلمة المرور، المدفوعات، الدعوات، تصدير البيانات."
+        ru: "Перечислите критичные процессы: регистрация, сброс пароля, платежи, приглашения, экспорт данных."
+      - en: Read the JavaScript files for hidden routes, parameters and secrets; discover hidden parameters and API routes.
+        de: JavaScript-Dateien nach versteckten Routen, Parametern und Secrets durchsuchen; versteckte Parameter und API-Routen finden.
+        fr: Lisez les fichiers JavaScript pour trouver routes, paramètres et secrets cachés ; découvrez paramètres et routes d’API cachés.
+        ar: اقرأ ملفات JavaScript بحثًا عن مسارات ومعاملات وأسرار مخفية؛ واكتشف المعاملات ومسارات API المخفية.
+        ru: Изучите JavaScript-файлы на скрытые маршруты, параметры и секреты; найдите скрытые параметры и API-маршруты.
+      - en: "Read the product docs and changelog: what should be impossible? New features are the least tested."
+        de: "Produktdoku und Changelog lesen: Was sollte unmöglich sein? Neue Funktionen sind am wenigsten getestet."
+        fr: "Lisez la doc produit et le changelog : qu’est-ce qui devrait être impossible ? Les nouveautés sont les moins testées."
+        ar: "اقرأ توثيق المنتج وسجل التغييرات: ما الذي يجب أن يكون مستحيلًا؟ الميزات الجديدة هي الأقل اختبارًا."
+        ru: "Читайте документацию и changelog: что должно быть невозможно? Новые функции протестированы хуже всего."
+      - en: "Write down anything strange: naming changes, different error formats, old API versions that still answer."
+        de: "Alles Seltsame notieren: Namenswechsel, abweichende Fehlerformate, alte API-Versionen, die noch antworten."
+        fr: "Notez tout ce qui est étrange : changements de nommage, formats d’erreur différents, anciennes versions d’API qui répondent encore."
+        ar: "دوّن كل ما هو غريب: تغيّر التسميات، اختلاف صيغ الأخطاء، إصدارات API قديمة ما زالت تستجيب."
+        ru: "Записывайте всё странное: смену именования, разные форматы ошибок, старые версии API, которые ещё отвечают."
+    tools:
+      - offensive/burp-suite
+      - offensive/caido
+      - offensive/jsluice
+      - offensive/arjun
+      - offensive/kiterunner
+    sources:
+      - offensive/zseano-methodology
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/intigriti-crafting-bug-bounty-methodology
+      - offensive/rednexus-bug-bounty-methodology
+  - id: prioritize
+    icon: crosshair
+    title:
+      en: Prioritise
+      de: Priorisieren
+      fr: Prioriser
+      ar: تحديد الأولويات
+      ru: Приоритизация
+    goal:
+      en: Spend your time where bugs are most likely.
+      de: Zeit dort einsetzen, wo Bugs am wahrscheinlichsten sind.
+      fr: Passer son temps là où les bugs sont les plus probables.
+      ar: اقضِ وقتك حيث يُرجّح وجود الثغرات.
+      ru: Тратить время там, где баги вероятнее всего.
+    output:
+      en: A ranked target list with one reason per target.
+      de: Eine priorisierte Zielliste mit einer Begründung pro Ziel.
+      fr: Une liste de cibles classées avec une raison pour chacune.
+      ar: قائمة أهداف مرتّبة مع سبب لكل هدف.
+      ru: Ранжированный список целей с причиной для каждой.
+    steps:
+      - en: Rank features and hosts by possible impact and by how likely developers cut corners.
+        de: Funktionen und Hosts nach möglicher Auswirkung und nach der Wahrscheinlichkeit sortieren, dass Entwickler Abkürzungen nahmen.
+        fr: Classez fonctions et hôtes selon l’impact possible et la probabilité que les développeurs aient pris des raccourcis.
+        ar: رتّب الميزات والمضيفات حسب الأثر المحتمل واحتمال أن المطورين اختصروا الطريق.
+        ru: Ранжируйте функции и хосты по возможному влиянию и вероятности, что разработчики срезали углы.
+      - en: Favour new features, complex flows (coupons, refunds, roles), legacy API versions and non-production environments.
+        de: Neue Funktionen, komplexe Abläufe (Gutscheine, Erstattungen, Rollen), alte API-Versionen und Nicht-Produktivumgebungen bevorzugen.
+        fr: Privilégiez les nouveautés, les flux complexes (coupons, remboursements, rôles), les anciennes versions d’API et les environnements hors production.
+        ar: فضّل الميزات الجديدة والمسارات المعقدة (القسائم، الاسترداد، الأدوار) وإصدارات API القديمة والبيئات غير الإنتاجية.
+        ru: Отдавайте приоритет новым функциям, сложным процессам (купоны, возвраты, роли), старым версиям API и непродуктивным средам.
+      - en: If one feature has strong checks, look for a similar, newer feature that may not.
+        de: Hat eine Funktion starke Prüfungen, nach einer ähnlichen, neueren Funktion suchen, der sie fehlen könnten.
+        fr: Si une fonction a de bons contrôles, cherchez une fonction similaire plus récente qui pourrait en manquer.
+        ar: إذا كانت لميزة ما فحوص قوية، فابحث عن ميزة مشابهة أحدث قد تفتقر إليها.
+        ru: Если у одной функции строгие проверки, ищите похожую, более новую функцию, где их может не быть.
+    tools: []
+    sources:
+      - offensive/xhack-bug-bounty-methodology
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/intigriti-crafting-bug-bounty-methodology
+  - id: test
+    icon: magnifier
+    title:
+      en: Test with two eyes
+      de: Mit zwei Augen testen
+      fr: Tester avec deux yeux
+      ar: اختبر بعينين
+      ru: Тестируйте двумя глазами
+    goal:
+      en: Turn every idea into a small, repeatable experiment.
+      de: Jede Idee in ein kleines, wiederholbares Experiment verwandeln.
+      fr: Transformer chaque idée en une petite expérience reproductible.
+      ar: حوّل كل فكرة إلى تجربة صغيرة قابلة للتكرار.
+      ru: Превращать каждую идею в маленький воспроизводимый эксперимент.
+    output:
+      en: Tested hypotheses with results — including the ones that failed.
+      de: Getestete Hypothesen mit Ergebnissen – auch die gescheiterten.
+      fr: Des hypothèses testées avec leurs résultats — y compris les échecs.
+      ar: فرضيات مختبرة مع نتائجها — بما فيها الفاشلة.
+      ru: Проверенные гипотезы с результатами — включая неудачные.
+    steps:
+      - en: "First eye, systematic — test each input by what it does: IDs → IDOR; URLs and webhooks → SSRF; reflected text → XSS; search and filters → SQL/NoSQL injection; uploads → XSS, RCE, path traversal; prices and coupons → logic and race conditions; login, 2FA and reset → auth bypass; profile updates → mass assignment; templates → SSTI."
+        de: "Erstes Auge, systematisch – jede Eingabe nach ihrer Funktion testen: IDs → IDOR; URLs und Webhooks → SSRF; reflektierter Text → XSS; Suche und Filter → SQL/NoSQL-Injection; Uploads → XSS, RCE, Path Traversal; Preise und Gutscheine → Logik und Race Conditions; Login, 2FA und Reset → Auth-Bypass; Profiländerungen → Mass Assignment; Templates → SSTI."
+        fr: "Premier œil, systématique — testez chaque entrée selon son rôle : identifiants → IDOR ; URL et webhooks → SSRF ; texte réfléchi → XSS ; recherche et filtres → injection SQL/NoSQL ; uploads → XSS, RCE, path traversal ; prix et coupons → logique et race conditions ; connexion, 2FA et réinitialisation → contournement d’authentification ; mise à jour du profil → mass assignment ; templates → SSTI."
+        ar: "العين الأولى، منهجية — اختبر كل مُدخل حسب وظيفته: المعرّفات ← IDOR؛ الروابط وwebhooks ← SSRF؛ النص المنعكس ← XSS؛ البحث والفلاتر ← حقن SQL/NoSQL؛ رفع الملفات ← XSS وRCE وتجاوز المسار؛ الأسعار والقسائم ← المنطق وحالات السباق؛ الدخول والمصادقة الثنائية والاستعادة ← تجاوز المصادقة؛ تحديث الملف الشخصي ← الإسناد الجماعي؛ القوالب ← SSTI."
+        ru: "Первый глаз, систематически — тестируйте каждый ввод по его назначению: ID → IDOR; URL и вебхуки → SSRF; отражённый текст → XSS; поиск и фильтры → SQL/NoSQL-инъекции; загрузки → XSS, RCE, path traversal; цены и купоны → логика и гонки; вход, 2FA и сброс → обход аутентификации; обновление профиля → mass assignment; шаблоны → SSTI."
+      - en: "Second eye, anomalies — look for what feels wrong: exposed credentials, forgotten hosts, admin panels, debug pages, unusual errors."
+        de: "Zweites Auge, Auffälligkeiten – nach dem suchen, was sich falsch anfühlt: offene Zugangsdaten, vergessene Hosts, Admin-Panels, Debug-Seiten, ungewöhnliche Fehler."
+        fr: "Second œil, anomalies — cherchez ce qui cloche : identifiants exposés, hôtes oubliés, panneaux d’administration, pages de debug, erreurs inhabituelles."
+        ar: "العين الثانية، الشذوذ — ابحث عمّا يبدو خاطئًا: بيانات اعتماد مكشوفة، مضيفات منسية، لوحات إدارة، صفحات تصحيح، أخطاء غير مألوفة."
+        ru: "Второй глаз, аномалии — ищите то, что выглядит не так: открытые учётные данные, забытые хосты, админ-панели, debug-страницы, необычные ошибки."
+      - en: "Probe in this order: error-based, then time-based, then out-of-band, then boolean differences."
+        de: "In dieser Reihenfolge sondieren: fehlerbasiert, dann zeitbasiert, dann Out-of-Band, dann boolesche Unterschiede."
+        fr: "Sondez dans cet ordre : basé sur l’erreur, puis sur le temps, puis hors bande, puis différences booléennes."
+        ar: "افحص بهذا الترتيب: المعتمد على الأخطاء، ثم على الوقت، ثم خارج النطاق (OOB)، ثم الفروق المنطقية."
+        ru: "Проверяйте в таком порядке: по ошибкам, по времени, out-of-band, затем по булевым различиям."
+      - en: Test access control with two accounts and every role, sideways (user A → user B) and upwards (user → admin).
+        de: Zugriffskontrolle mit zwei Konten und allen Rollen testen, seitwärts (Nutzer A → Nutzer B) und aufwärts (Nutzer → Admin).
+        fr: Testez le contrôle d’accès avec deux comptes et chaque rôle, horizontalement (utilisateur A → B) et verticalement (utilisateur → admin).
+        ar: اختبر التحكم في الوصول بحسابين وكل الأدوار، أفقيًا (المستخدم أ ← ب) وعموديًا (مستخدم ← مدير).
+        ru: Тестируйте контроль доступа двумя аккаунтами и всеми ролями, горизонтально (A → B) и вертикально (пользователь → админ).
+      - en: Run scanners for known CVEs and exposures, then move on — manual testing finds the unique bugs.
+        de: Scanner für bekannte CVEs und Expositionen laufen lassen, dann weiter – manuelles Testen findet die einzigartigen Bugs.
+        fr: Lancez les scanners pour les CVE et expositions connues, puis passez à autre chose — les tests manuels trouvent les bugs uniques.
+        ar: شغّل الماسحات للثغرات المعروفة والانكشافات ثم امضِ قدمًا — الاختبار اليدوي هو ما يجد الثغرات الفريدة.
+        ru: Запустите сканеры на известные CVE и утечки и двигайтесь дальше — уникальные баги находит ручное тестирование.
+      - en: Write down every idea that failed, so you never test it twice.
+        de: Jede gescheiterte Idee notieren, damit Sie sie nie doppelt testen.
+        fr: Notez chaque idée qui a échoué pour ne jamais la tester deux fois.
+        ar: دوّن كل فكرة فشلت حتى لا تختبرها مرتين.
+        ru: Записывайте каждую неудачную идею, чтобы не проверять её дважды.
+    tools:
+      - offensive/nuclei
+      - offensive/ffuf
+      - offensive/dalfox
+      - offensive/sqlmap
+      - offensive/interactsh
+      - offensive/burp-suite
+    sources:
+      - offensive/amrelsagaei-bug-bounty-methodology-2025
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/howtohunt
+      - offensive/rednexus-bug-bounty-methodology
+      - offensive/owasp-web-security-testing-guide
+      - offensive/portswigger-web-security-academy
+  - id: prove
+    icon: alert
+    title:
+      en: Prove & escalate
+      de: Beweisen & eskalieren
+      fr: Prouver & escalader
+      ar: الإثبات والتصعيد
+      ru: Доказать и эскалировать
+    goal:
+      en: Show the real, honest impact.
+      de: Die echte, ehrliche Auswirkung zeigen.
+      fr: Montrer l’impact réel et honnête.
+      ar: أظهر الأثر الحقيقي بأمانة.
+      ru: Показать реальное, честное влияние.
+    output:
+      en: A working proof of concept with the highest impact you can truly show.
+      de: Ein funktionierender Proof of Concept mit der höchsten Auswirkung, die Sie wirklich zeigen können.
+      fr: Une preuve de concept fonctionnelle avec le plus fort impact que vous pouvez réellement démontrer.
+      ar: إثبات مفهوم يعمل بأعلى أثر يمكنك إظهاره فعلًا.
+      ru: Рабочий PoC с максимальным влиянием, которое вы действительно можете показать.
+    steps:
+      - en: 'Ask "what can an attacker actually do?" and chain small findings into real harm: XSS → account takeover, open redirect → OAuth token theft, IDOR → large-scale data exposure.'
+        de: "Fragen: „Was kann ein Angreifer wirklich tun?“ und kleine Funde zu echtem Schaden verketten: XSS → Kontoübernahme, Open Redirect → OAuth-Token-Diebstahl, IDOR → Datenabfluss im großen Stil."
+        fr: "Demandez-vous « que peut réellement faire un attaquant ? » et enchaînez les petites découvertes en vrai dommage : XSS → prise de compte, open redirect → vol de jeton OAuth, IDOR → fuite massive de données."
+        ar: "اسأل: «ماذا يستطيع المهاجم فعله حقًا؟» واربط النتائج الصغيرة بضرر حقيقي: XSS ← الاستيلاء على الحساب، إعادة التوجيه المفتوحة ← سرقة رمز OAuth، IDOR ← تسريب بيانات واسع."
+        ru: "Спросите: «Что на самом деле может атакующий?» и сцепите мелкие находки в реальный вред: XSS → захват аккаунта, open redirect → кража OAuth-токена, IDOR → массовая утечка данных."
+      - en: "Cut the prerequisites: aim for zero or one click and realistic conditions."
+        de: "Voraussetzungen reduzieren: null oder ein Klick und realistische Bedingungen anstreben."
+        fr: "Réduisez les prérequis : visez zéro ou un clic et des conditions réalistes."
+        ar: "قلّل المتطلبات المسبقة: استهدف نقرة واحدة أو بدون نقر وظروفًا واقعية."
+        ru: "Сократите предусловия: ноль или один клик и реалистичные условия."
+      - en: A DNS callback alone is not an SSRF report — show what internal access it gives.
+        de: Ein DNS-Callback allein ist kein SSRF-Report – zeigen, welchen internen Zugriff er ermöglicht.
+        fr: Un simple rappel DNS n’est pas un rapport SSRF — montrez l’accès interne obtenu.
+        ar: استدعاء DNS وحده ليس تقرير SSRF — أظهر الوصول الداخلي الذي يمنحه.
+        ru: Один DNS-callback — ещё не отчёт об SSRF; покажите, какой внутренний доступ он даёт.
+      - en: "Stay within the rules: prove impact with your own accounts and minimal data, and never keep other people’s data."
+        de: "In den Regeln bleiben: Auswirkung mit eigenen Konten und minimalen Daten belegen und niemals fremde Daten behalten."
+        fr: "Restez dans les règles : prouvez l’impact avec vos propres comptes et un minimum de données, et ne conservez jamais les données d’autrui."
+        ar: "التزم بالقواعد: أثبت الأثر بحساباتك الخاصة وبأقل قدر من البيانات، ولا تحتفظ أبدًا ببيانات الآخرين."
+        ru: "Соблюдайте правила: доказывайте влияние своими аккаунтами и минимумом данных и никогда не храните чужие данные."
+    tools: []
+    sources:
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/amrelsagaei-bug-bounty-methodology-2025
+  - id: validate
+    icon: shield
+    title:
+      en: Validate
+      de: Validieren
+      fr: Valider
+      ar: التحقق
+      ru: Проверка
+    goal:
+      en: Submit only real, reproducible bugs.
+      de: Nur echte, reproduzierbare Bugs einreichen.
+      fr: Ne soumettre que des bugs réels et reproductibles.
+      ar: لا تُرسل إلا ثغرات حقيقية قابلة لإعادة الإنتاج.
+      ru: Отправлять только реальные, воспроизводимые баги.
+    output:
+      en: A finding you reproduced yourself from a clean start.
+      de: Ein Fund, den Sie selbst von einem sauberen Start aus reproduziert haben.
+      fr: Un finding que vous avez reproduit vous-même depuis un état propre.
+      ar: نتيجة أعدت إنتاجها بنفسك من بداية نظيفة.
+      ru: Находка, которую вы сами воспроизвели с чистого листа.
+    steps:
+      - en: Reproduce it from scratch in a fresh browser session.
+        de: Von Grund auf in einer frischen Browser-Session reproduzieren.
+        fr: Reproduisez-le depuis zéro dans une nouvelle session de navigateur.
+        ar: أعد إنتاجها من الصفر في جلسة متصفح جديدة.
+        ru: Воспроизведите с нуля в новой сессии браузера.
+      - en: Check that it is in scope, not on the known-issues or excluded list, and has real security impact.
+        de: Prüfen, dass er im Scope liegt, nicht auf der Liste bekannter oder ausgeschlossener Probleme steht und echte Sicherheitsauswirkung hat.
+        fr: Vérifiez qu’il est dans le périmètre, absent des problèmes connus ou exclus, et qu’il a un vrai impact de sécurité.
+        ar: تأكد أنها ضمن النطاق، وليست في قائمة المشكلات المعروفة أو المستثناة، وأن لها أثرًا أمنيًا حقيقيًا.
+        ru: Убедитесь, что находка в скоупе, не в списке известных или исключённых проблем и имеет реальное влияние на безопасность.
+      - en: Score severity honestly with the CVSS version the platform uses, matching the impact you proved.
+        de: Schweregrad ehrlich mit der CVSS-Version der Plattform bewerten, passend zur belegten Auswirkung.
+        fr: Évaluez honnêtement la sévérité avec la version de CVSS utilisée par la plateforme, selon l’impact prouvé.
+        ar: قيّم الخطورة بأمانة بإصدار CVSS الذي تستخدمه المنصة، بما يطابق الأثر الذي أثبتّه.
+        ru: Честно оцените критичность по версии CVSS, которую использует платформа, в соответствии с доказанным влиянием.
+      - en: If any check fails, drop it — invalid reports cost you reputation.
+        de: Schlägt eine Prüfung fehl, verwerfen – ungültige Reports kosten Reputation.
+        fr: Si une vérification échoue, abandonnez — les rapports invalides coûtent en réputation.
+        ar: إذا فشل أي فحص فتخلَّ عنها — التقارير غير الصالحة تكلّفك سمعتك.
+        ru: "Если хоть одна проверка не пройдена — откажитесь: невалидные отчёты бьют по репутации."
+    tools: []
+    sources:
+      - offensive/xhack-bug-bounty-methodology
+      - offensive/claude-bug-bounty-bb-methodology
+  - id: report
+    icon: code
+    title:
+      en: Report
+      de: Report
+      fr: Rapport
+      ar: التقرير
+      ru: Отчёт
+    goal:
+      en: Make the triager’s job easy.
+      de: Dem Triager die Arbeit leicht machen.
+      fr: Faciliter le travail du trieur.
+      ar: سهّل مهمة فريق الفرز.
+      ru: Облегчить работу триажера.
+    output:
+      en: A report someone can confirm in a few minutes.
+      de: Ein Report, den jemand in wenigen Minuten bestätigen kann.
+      fr: Un rapport que quelqu’un peut confirmer en quelques minutes.
+      ar: تقرير يمكن لأي شخص تأكيده خلال دقائق.
+      ru: Отчёт, который можно подтвердить за несколько минут.
+    steps:
+      - en: "Title: [Bug type] in [endpoint] lets [attacker] [impact]."
+        de: "Titel: [Bug-Typ] in [Endpoint] ermöglicht [Angreifer] [Auswirkung]."
+        fr: "Titre : [type de bug] dans [endpoint] permet à [attaquant] de [impact]."
+        ar: "العنوان: [نوع الثغرة] في [نقطة النهاية] تسمح لـ[المهاجم] بـ[الأثر]."
+        ru: "Заголовок: [тип бага] в [эндпоинт] позволяет [атакующему] [влияние]."
+      - en: "First sentence: what an attacker can do."
+        de: "Erster Satz: was ein Angreifer tun kann."
+        fr: "Première phrase : ce que l’attaquant peut faire."
+        ar: "الجملة الأولى: ما الذي يستطيع المهاجم فعله."
+        ru: "Первое предложение: что может сделать атакующий."
+      - en: Exact numbered steps with the raw HTTP requests, plus screenshots or a short video.
+        de: Exakte nummerierte Schritte mit den rohen HTTP-Requests, dazu Screenshots oder ein kurzes Video.
+        fr: Étapes numérotées exactes avec les requêtes HTTP brutes, plus captures d’écran ou courte vidéo.
+        ar: خطوات مرقّمة دقيقة مع طلبات HTTP الخام، إضافة إلى لقطات شاشة أو فيديو قصير.
+        ru: Точные пронумерованные шаги с сырыми HTTP-запросами, плюс скриншоты или короткое видео.
+      - en: Impact, who is affected, and a suggested fix. Short and factual.
+        de: Auswirkung, wer betroffen ist und ein Lösungsvorschlag. Kurz und sachlich.
+        fr: Impact, personnes concernées et correctif suggéré. Court et factuel.
+        ar: الأثر، ومن المتأثر، واقتراح للإصلاح. باختصار ودقة.
+        ru: Влияние, кого это затрагивает, и предлагаемое исправление. Кратко и по фактам.
+    tools: []
+    sources:
+      - offensive/amrelsagaei-bug-bounty-methodology-2025
+      - offensive/xhack-bug-bounty-methodology
+      - offensive/bugcrowd-university
+  - id: learn
+    icon: spark
+    title:
+      en: Follow through & learn
+      de: Nachverfolgen & lernen
+      fr: Suivre & apprendre
+      ar: المتابعة والتعلّم
+      ru: Доводить до конца и учиться
+    goal:
+      en: Make every hunt improve the next one.
+      de: Jede Jagd die nächste verbessern lassen.
+      fr: Faire que chaque chasse améliore la suivante.
+      ar: اجعل كل عملية صيد تحسّن التي تليها.
+      ru: Чтобы каждая охота улучшала следующую.
+    output:
+      en: Updated notes and a better personal checklist.
+      de: Aktualisierte Notizen und eine bessere persönliche Checkliste.
+      fr: Des notes à jour et une meilleure checklist personnelle.
+      ar: ملاحظات محدّثة وقائمة تحقق شخصية أفضل.
+      ru: Обновлённые заметки и улучшенный личный чек-лист.
+    steps:
+      - en: Answer triage questions quickly and politely.
+        de: Rückfragen der Triage schnell und höflich beantworten.
+        fr: Répondez vite et poliment aux questions du triage.
+        ar: أجب عن أسئلة الفرز بسرعة وأدب.
+        ru: Отвечайте на вопросы триажа быстро и вежливо.
+      - en: When the fix ships, test it again — an incomplete fix is a new bug.
+        de: Wenn der Fix live ist, erneut testen – ein unvollständiger Fix ist ein neuer Bug.
+        fr: Quand le correctif est déployé, retestez — un correctif incomplet est un nouveau bug.
+        ar: عند نشر الإصلاح اختبره مجددًا — الإصلاح الناقص ثغرة جديدة.
+        ru: Когда исправление выйдет, проверьте его снова — неполное исправление это новый баг.
+      - en: "One bug means the same developer probably made more: spend 20 minutes on similar endpoints."
+        de: "Ein Bug bedeutet, dass derselbe Entwickler vermutlich weitere gemacht hat: 20 Minuten ähnliche Endpoints prüfen."
+        fr: "Un bug signifie que le même développeur en a sans doute fait d’autres : passez 20 minutes sur des endpoints similaires."
+        ar: "ثغرة واحدة تعني غالبًا أن المطوّر نفسه ارتكب غيرها: اقضِ 20 دقيقة على نقاط نهاية مشابهة."
+        ru: "Один баг — значит, тот же разработчик, вероятно, допустил и другие: потратьте 20 минут на похожие эндпоинты."
+      - en: Read public write-ups for the target’s technology, add new tricks to your checklist and automate repeated steps.
+        de: Öffentliche Write-ups zur Technologie des Ziels lesen, neue Tricks in die Checkliste aufnehmen und Wiederholtes automatisieren.
+        fr: Lisez des write-ups publics sur la technologie de la cible, ajoutez les nouvelles astuces à votre checklist et automatisez les étapes répétées.
+        ar: اقرأ الشروحات العامة عن تقنية الهدف، وأضف الحيل الجديدة إلى قائمة تحققك، وأتمت الخطوات المتكررة.
+        ru: Читайте публичные разборы по технологии цели, добавляйте новые приёмы в чек-лист и автоматизируйте повторяющееся.
+    tools: []
+    sources:
+      - offensive/claude-bug-bounty-bb-methodology
+      - offensive/pentester-land-writeups
+      - offensive/intigriti-crafting-bug-bounty-methodology

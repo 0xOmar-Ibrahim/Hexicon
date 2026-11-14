@@ -1,0 +1,22 @@
+title: subzy
+url: https://github.com/PentestPad/subzy
+type: tool
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: Checks subdomains for takeover via dangling CNAMEs to unclaimed services.
+tags:
+  - bug-bounty
+  - subdomain-takeover
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

@@ -1,0 +1,26 @@
+title: Crafting your bug bounty methodology (Intigriti)
+url: https://www.intigriti.com/researchers/blog/hacking-tools/crafting-your-bug-bounty-methodology-a-complete-guide-for-beginners
+type: article
+domain: offensive
+subdomains:
+  - bug-bounty
+level:
+  - beginner
+cost: free
+languages:
+  - en
+description:
+  en: "Beginner guide to building your own methodology: learn the fundamentals, find your strengths, stay on one target, read docs and changelogs, and turn repeated steps into a system."
+  de: "Einsteigerleitfaden für die eigene Methodik: Grundlagen lernen, Stärken finden, bei einem Ziel bleiben, Doku und Changelogs lesen und wiederkehrende Schritte systematisieren."
+  fr: "Guide débutant pour bâtir sa propre méthodologie : apprendre les bases, trouver ses points forts, rester sur une cible, lire docs et changelogs, et systématiser les étapes répétées."
+  ar: "دليل للمبتدئين لبناء منهجيتك الخاصة: تعلّم الأساسيات، اكتشف نقاط قوتك، التزم بهدف واحد، اقرأ التوثيق وسجل التغييرات، وحوّل الخطوات المتكررة إلى نظام."
+  ru: "Руководство для новичков по созданию своей методологии: освоить основы, найти сильные стороны, держаться одной цели, читать документацию и changelog, систематизировать повторяющиеся шаги."
+tags:
+  - bug-bounty
+  - methodology
+  - beginner
+status: active
+featured: true
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14

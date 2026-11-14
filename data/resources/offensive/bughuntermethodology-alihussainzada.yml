@@ -1,0 +1,28 @@
+title: BugHunterMethodology (alihussainzada)
+url: https://github.com/alihussainzada/BugHunterMethodology
+type: cheatsheet
+domain: offensive
+subdomains:
+  - bug-bounty
+  - web
+level:
+  - intermediate
+cost: free
+languages:
+  - en
+description:
+  en: "Community-compiled methodology: web app recon, a testing flow, per-vulnerability checklists, payloads and common bypass techniques."
+  de: "Von der Community zusammengestellte Methodik: Web-App-Recon, Testablauf, Checklisten pro Schwachstelle, Payloads und gängige Bypass-Techniken."
+  fr: "Méthodologie compilée par la communauté : recon d’applications web, déroulé de test, checklists par vulnérabilité, payloads et techniques de contournement."
+  ar: "منهجية جمعها المجتمع: استطلاع تطبيقات الويب، تسلسل الاختبار، قوائم تحقق لكل ثغرة، حمولات، وتقنيات تجاوز شائعة."
+  ru: "Методология, собранная сообществом: разведка веб-приложений, порядок тестирования, чек-листы по уязвимостям, полезные нагрузки и техники обхода."
+tags:
+  - bug-bounty
+  - methodology
+  - checklist
+  - payloads
+status: active
+featured: false
+added_by: "@0xOmar-Ibrahim"
+added_on: 2026-11-14
+last_verified: 2026-11-14
