@@ -1,0 +1,25 @@
+{
+  "name": "hexicon-promo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinkedIn promo video for Hexicon, built with Remotion from real site screenshots.",
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "audio": "node scripts/copy-audio.mjs",
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts HexiconPromo out/hexicon-promo.mp4",
+    "still": "remotion still src/index.ts HexiconPromo"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "@remotion/google-fonts": "^4.0.484",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "puppeteer-core": "24.10.0",
+    "typescript": "6.0.3"
+  }
+}

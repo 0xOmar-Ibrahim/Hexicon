@@ -14,3 +14,8 @@ __pycache__/
 # third-party skills installed locally (see CONTRIBUTING)
 .claude/skills/cyber-*/
 .claude/skills/_vendor/
+
+# promo video project (Remotion): sources committed, heavy assets regenerated
+video/node_modules/
+video/out/
+video/public/
