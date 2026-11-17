@@ -2,7 +2,7 @@
 
 # Link & maintenance report
 
-Checked 2026-11-14. 2 dead links · 4 archived projects · 21 projects without a push in 2+ years.
+Checked 2026-11-17. 1 dead links · 4 archived projects · 21 projects without a push in 2+ years.
 
 Links that fail on two weekly checks in a row are marked *broken* on the website. Please fix the URL or mark the resource `status: archived`.
 
@@ -10,8 +10,7 @@ Links that fail on two weekly checks in a row are marked *broken* on the website
 
 | Resource | URL | HTTP | Failed checks |
 |---|---|---|---|
-| `offensive/caido` | https://caido.io/ | no response | 1 |
-| `threat-intel/eg-cert-egypt` | https://www.egcert.eg/ | no response | 2 |
+| `threat-intel/eg-cert-egypt` | https://www.egcert.eg/ | no response | 3 |
 
 ## Archived repositories
 
