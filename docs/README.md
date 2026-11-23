@@ -2,7 +2,7 @@
 
 # Hexicon library index
 
-**564 resources** across 14 domains, plus 1118 CVE pages ([top exploited list](cves-top.md)) and the [bug bounty methodology](bug-bounty-methodology.md).
+**564 resources** across 14 domains, plus 1128 CVE pages ([top exploited list](cves-top.md)) and the [bug bounty methodology](bug-bounty-methodology.md).
 
 | # | Domain | Resources | Subdomains |
 |---|---|---|---|
